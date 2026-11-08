@@ -121,6 +121,8 @@ def scored_posts():
                       if (ts(p.get("collected_at", d["collected_at"])) - ts(p["timestamp"])).total_seconds() >= 72 * 3600]
         acc_med = st.median(all_mature) if all_mature else 0
         for p in posts:
+            if (p.get("skeleton") or {}).get("ad"):
+                continue  # paid/sponsored posts distort reactions
             sf = surface(p)
             age = (ts(p.get("collected_at", d["collected_at"])) - ts(p["timestamp"])).total_seconds() / 3600
             e = engagement(p, cmt_med)
@@ -239,7 +241,8 @@ def radar(posts_by_acc, hours=24):
             if ts(p["timestamp"]) < now - timedelta(hours=hours):
                 continue
             words = set((p.get("skeleton") or {}).get("keywords", [])[:8])
-            words |= set(re.findall(r"[가-힣A-Za-z]{2,}", (p.get("visual") or {}).get("cover_text", "")))
+            words |= set(re.findall(r"[가-힣]{2,}|[A-Za-z]{3,}", (p.get("visual") or {}).get("cover_text", "")))
+            words = {w for w in words if re.search(r"[가-힣]", w) or len(w) >= 3}
             for w in words:
                 hits[w].add(acc)
     ours = " ".join((m.get("caption") or "") for m in our_posts())

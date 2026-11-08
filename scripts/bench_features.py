@@ -57,7 +57,10 @@ def skeleton(caption):
     words = re.findall(r"[가-힣A-Za-z]{2,}", re.sub(r"#\S+", "", cap))
     kw = [w for w, _ in Counter(w for w in words if w not in STOP).most_common(12)]
     questions = [l.strip() for l in lines if "?" in l]
-    first = lines[0].strip() if lines else ""
+    def meaningful(l):
+        t = re.sub(r"#\S+|\(?유료\s?광고\)?|\[?광고\]?|AD\b", "", l).strip()
+        return len(re.findall(r"[가-힣A-Za-z0-9]", t)) >= 4
+    first = next((l.strip() for l in lines if meaningful(l)), lines[0].strip() if lines else "")
     series = re.search(r"[\[【〈<]([^\]】〉>]{1,15})[\]】〉>]", first[:25])
     return {
         "first_line": first[:60],
@@ -72,6 +75,7 @@ def skeleton(caption):
         "emoji_per_100": round(100 * len(EMOJI.findall(cap)) / max(len(cap), 1), 2),
         "ends_with_question": bool(lines) and "?" in lines[-1],
         "giveaway": bool(re.search(r"추첨|이벤트|댓글 남기면|증정", cap)),
+        "ad": bool(re.search(r"#광고|유료\s?광고|\[광고\]|협찬|#AD\b|paid partnership", cap, re.I)),
     }
 
 
@@ -90,6 +94,7 @@ def _image_features(url):
         keys, counts = np.unique(q[:, 0] * 64 + q[:, 1] * 8 + q[:, 2], return_counts=True)
         order = counts.argsort()[::-1]
         top5_share = counts[order[:5]].sum() / counts.sum()
+        n_colors = int((counts > counts.sum() * 0.001).sum())
         colours = []
         for k in keys[order[:2]]:
             r, g, b = (k // 64) * 32 + 16, ((k // 8) % 8) * 32 + 16, (k % 8) * 32 + 16
@@ -104,10 +109,21 @@ def _image_features(url):
             pass
         png = Path(tmp) / "x.png"
         img.save(png)
-        ocr = subprocess.run(["tesseract", str(png), "-", "-l", "kor+eng", "--psm", "11"], capture_output=True, text=True, timeout=60).stdout
-        text = " ".join(t for t in re.split(r"\s+", ocr) if len(t) >= 2 and re.search(r"[가-힣A-Za-z0-9]", t))
+        tsv = subprocess.run(["tesseract", str(png), "-", "-l", "kor+eng", "--psm", "11", "tsv"], capture_output=True, text=True, timeout=60).stdout
+        words = []
+        for row in tsv.splitlines()[1:]:
+            cols = row.split("\t")
+            if len(cols) < 12 or not cols[11].strip():
+                continue
+            w, conf = cols[11].strip(), float(cols[10] or -1)
+            if conf < 60:
+                continue
+            if re.search(r"[가-힣]{2,}", w) or re.fullmatch(r"[+\-−]?\d[\d,.]*[%조억만원배위]*", w) or re.fullmatch(r"[A-Za-z]{3,}|[A-Z]{2,}", w):
+                words.append(w)
+        text = " ".join(words)
         return {"cover_text": text[:40], "cover_chars": len(text.replace(" ", "")),
-                "visual": "graphic" if top5_share > 0.55 else "photo", "face": bool(face), "colors": colours}
+                "visual": "graphic" if top5_share > 0.6 and n_colors < 60 else "photo", "top5_share": round(float(top5_share), 3),
+                "n_colors": n_colors, "face": bool(face), "colors": colours}
 
 
 def load_cache(account):

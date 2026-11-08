@@ -1,0 +1,34 @@
+[
+ {
+  "word": "투자",
+  "accounts": [
+   "byte._.bites",
+   "eyesmag"
+  ],
+  "covered_by_us": true
+ },
+ {
+  "word": "ae",
+  "accounts": [
+   "byte._.bites",
+   "eyesmag"
+  ],
+  "covered_by_us": false
+ },
+ {
+  "word": "출시",
+  "accounts": [
+   "byte._.bites",
+   "eyesmag"
+  ],
+  "covered_by_us": false
+ },
+ {
+  "word": "미국",
+  "accounts": [
+   "byte._.bites",
+   "eyesmag"
+  ],
+  "covered_by_us": true
+ }
+]
