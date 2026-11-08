@@ -41,6 +41,29 @@ def recent_captions(exclude, skip=()):
     return [(c, n) for _, c, n in caps if c.strip() != exclude.strip()][:RECENT]
 
 
+def benchmark_first_lines():
+    """First lines of competitor posts (skeletons) from the newest weekly + daily snapshots."""
+    out = []
+    bench = ROOT / "data" / "benchmark"
+    files = sorted(bench.glob("20??-??-??/*.json"))[-7:] + sorted(f for f in (bench / "daily").glob("*.json") if "radar" not in f.name)[-3:]
+    for f in files:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        groups = [d.get("posts", [])] + [a.get("posts", []) for a in d.get("accounts", {}).values()]
+        for posts in groups:
+            out += [(p.get("skeleton") or {}).get("first_line", "") for p in posts]
+    return [l for l in out if l]
+
+
+def copied_phrase(text, others, n=6):
+    """True when any n consecutive words of text also appear in one of the competitor lines."""
+    words = text.split()
+    grams = {" ".join(words[i:i + n]) for i in range(len(words) - n + 1)}
+    return next((o for o in others if any(g in o for g in grams)), None)
+
+
 def lines(text):
     return [l.strip() for l in text.splitlines() if l.strip() and not FOOTER.search(l.strip())]
 
@@ -76,6 +99,11 @@ def main(args):
         for l in lines(cap)[1:]:
             if len(l) > 12 and any(difflib.SequenceMatcher(None, l, o).ratio() > 0.85 for o in lines(old)):
                 problems.append(f"문장 반복({name}): '{l[:30]}'")
+    others = benchmark_first_lines()
+    for l in lines(cap):
+        hit = copied_phrase(l, others)
+        if hit:
+            problems.append(f"경쟁 계정 문장과 6어절 이상 같음(베끼기 금지): '{hit[:40]}'")
     if problems:
         print("캡션 패턴 검사 FAIL")
         for p in dict.fromkeys(problems):

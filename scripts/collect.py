@@ -2,7 +2,9 @@
 """Collect performance data into data/ (runs in GitHub Actions, where the Graph API is reachable).
 
   python scripts/collect.py insights    -> data/insights/<date>.json  (our recent posts: reach, saves, shares, ...)
-  python scripts/collect.py benchmark   -> data/benchmark/<date>/<account>.json (public posts via Business Discovery)
+  python scripts/collect.py benchmark   -> data/benchmark/<date>/<account>.json (weekly, Sunday night: up to 1,000 / 100 posts)
+  python scripts/collect.py bench_daily -> data/benchmark/daily/<KST date>.json (newest 15-30 posts per account, every morning)
+  Benchmark captions are stored only as skeletons and covers only as features (scripts/bench_features.py).
 
 Only the Python standard library is used. Needs IG_ACCESS_TOKEN and IG_USER_ID.
 """
@@ -12,7 +14,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 API = "https://graph.facebook.com/v27.0"
@@ -55,31 +57,66 @@ def insights():
     print(f"saved {len(rows)} posts -> {out}")
 
 
-def benchmark():
-    day = f"{datetime.now(timezone.utc):%Y-%m-%d}"
-    fields = "caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count,media_url,thumbnail_url"
-    failures = 0
+def _discover(name, pages, limit, with_children=True):
+    base = "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count,media_url,thumbnail_url"
+    fields = base + (",children{media_type}" if with_children else "")
+    posts, after, info = [], None, {}
+    for _ in range(pages):
+        page_arg = f".after({after})" if after else ""
+        q = f"business_discovery.username({name}){{followers_count,media_count,media.limit({limit}){page_arg}{{{fields}}}}}"
+        try:
+            bd = get(IG_USER, {"fields": q})["business_discovery"]
+        except RuntimeError as exc:
+            if with_children and "children" in str(exc).lower():
+                return _discover(name, pages, limit, with_children=False)
+            if not posts:
+                raise
+            print(f"{name}: stopped paging ({exc})", file=sys.stderr)
+            break
+        info = {"followers_count": bd.get("followers_count"), "media_count": bd.get("media_count")}
+        media = bd.get("media", {})
+        posts += media.get("data", [])
+        after = media.get("paging", {}).get("cursors", {}).get("after")
+        if not after:
+            break
+    for p in posts:  # carousel length only; children ids are not kept
+        kids = p.pop("children", None)
+        if kids:
+            p["slides"] = len(kids.get("data", []))
+    return posts, info
+
+
+def benchmark(daily=False):
+    """Weekly full pull (Sunday night) or a light daily pull of the newest posts (topic radar + age curve).
+    Captions are reduced to skeletons and covers to features by bench_features.enrich (nothing copied)."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import bench_features
+    now = datetime.now(timezone.utc)
+    collected_at = now.isoformat(timespec="seconds")
+    failures, daily_rows = 0, {}
     for name in BENCHMARKS:
-        posts, after, info = [], None, {}
-        for _ in range(PAGES_PER_ACCOUNT.get(name, DEFAULT_PAGES)):
-            page_arg = f".after({after})" if after else ""
-            q = f"business_discovery.username({name}){{followers_count,media_count,media.limit(50){page_arg}{{{fields}}}}}"
-            try:
-                bd = get(IG_USER, {"fields": q})["business_discovery"]
-            except RuntimeError as exc:
-                print(f"{name}: {exc}", file=sys.stderr)
-                failures += 1
-                break
-            info = {"followers_count": bd.get("followers_count"), "media_count": bd.get("media_count")}
-            media = bd.get("media", {})
-            posts += media.get("data", [])
-            after = media.get("paging", {}).get("cursors", {}).get("after")
-            if not after:
-                break
-        out = ROOT / "data" / "benchmark" / day / f"{name}.json"
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(json.dumps({"account": name, **info, "posts": posts}, ensure_ascii=False, indent=1), encoding="utf-8")
+        pages, limit = (1, 30 if name == "ekke.now" else 15) if daily else (PAGES_PER_ACCOUNT.get(name, DEFAULT_PAGES), 50)
+        try:
+            posts, info = _discover(name, pages, limit)
+        except RuntimeError as exc:
+            print(f"{name}: {exc}", file=sys.stderr)
+            failures += 1
+            continue
+        for p in posts:
+            p["collected_at"] = collected_at
+        posts = bench_features.enrich(name, posts)
+        if daily:
+            daily_rows[name] = {**info, "posts": posts}
+        else:
+            out = ROOT / "data" / "benchmark" / f"{now:%Y-%m-%d}" / f"{name}.json"
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_text(json.dumps({"account": name, "collected_at": collected_at, **info, "posts": posts},
+                                      ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"{name}: {len(posts)} posts")
+    if daily:
+        out = ROOT / "data" / "benchmark" / "daily" / f"{now + timedelta(hours=9):%Y-%m-%d}.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps({"collected_at": collected_at, "accounts": daily_rows}, ensure_ascii=False, indent=1), encoding="utf-8")
     return failures
 
 
@@ -89,5 +126,7 @@ if __name__ == "__main__":
         insights()
     elif mode == "benchmark":
         sys.exit(1 if benchmark() == len(BENCHMARKS) else 0)
+    elif mode == "bench_daily":
+        sys.exit(1 if benchmark(daily=True) == len(BENCHMARKS) else 0)
     else:
         sys.exit(f"unknown mode {mode}")

@@ -7,15 +7,16 @@
 
 ## 구조
 - 게시: GitHub Actions `publish.yml`이 5분마다(GitHub 예약 실행은 자주 밀리므로) `queue/*.json` 중 `publish_at`이 지난 항목을 게시하고 `posted/`·`failed/`로 옮긴다. queue에 push하면 즉시 한 번 더 돈다.
-- 수집: `collect.yml`이 매일 23:13 KST 우리 게시물 인사이트를 `data/insights/`에, 매주 월요일 05:43 KST 벤치마크 계정 게시물을 `data/benchmark/`에 저장한다.
+- 수집: `collect.yml`이 매일 23:13 KST 우리 게시물 인사이트를 `data/insights/`에, 매일 05:23 KST 경쟁 계정 최신 게시물을 `data/benchmark/daily/`에, 매주 일요일 22:47 KST 경쟁 계정 전체(ekke.now 최대 1,000개·나머지 약 100개)를 `data/benchmark/<날짜>/`에 저장한다. 남의 캡션은 뼈대만, 표지는 OCR·시각 특징만 저장한다(원문·원본 이미지 저장 금지). 벤치마킹 방법은 `playbook/benchmark_method.md`.
+- 주간 회고: 월요일 02:47 KST 예약 작업이 벤치마크 코딩·분석·playbook 반영을 끝내서 06:17 아침 제작부터 적용된다.
 - 제작: Claude 예약 작업이 이 저장소를 clone해서 콘텐츠를 만들고 queue에 넣는다. (Claude 작업 환경에서는 Instagram API에 접속할 수 없다.)
 
 ## 제작 실행 순서 (예약 작업 1회)
 1. `git pull`. `failed/`에 새 파일이 있으면 원인을 읽고 고칠 수 있으면 고쳐서 queue에 다시 넣는다.
-2. `playbook/playbook.md`와 최근 `data/insights/` 파일을 읽어 오늘 우선할 형식·주제를 정한다.
+2. `playbook/playbook.md`와 최근 `data/insights/` 파일을 읽어 오늘 우선할 형식·주제를 정한다. `python3 scripts/bench_analyze.py radar`로 경쟁 계정 24시간 주제 레이더를 본다(2개 계정 이상이 다룬 주제는 시의성 +1, 단 그 계정들과 같은 앵글은 피하고 '내 돈 영향'·'비교' 앵글로). 파일이 없으면 건너뛴다.
 3. 이슈 수집: WebSearch(mode standard, 필요하면 extended)로 최근 12시간 경제·소비·기업 뉴스를 찾는다. 기사 페이지를 실제로 열어(WebFetch) 숫자를 확인한다. 검색 스니펫만으로 쓰지 않는다.
 4. 점수화: 관심도·공유 가능성·시의성·사실 확인 가능성 각 5점. 가장 높은 것부터 그날 편성 슬롯에 배정한다.
-5. 콘텐츠 작성: `content/<YYYY-MM-DD>-<slug>.json`(카드 스펙)과 `.caption.txt`. 모든 숫자는 서로 다른 두 출처로 교차 확인하고, 확인 못 한 숫자는 빼거나 '~로 알려졌다'가 아니라 아예 쓰지 않는다.
+5. 콘텐츠 작성: `content/<YYYY-MM-DD>-<slug>.json`(카드 스펙)과 `.caption.txt`. 스펙에 `benchmark_method.md` 기준표와 같은 `"codes": {"topic_major","angle","hook_cover","hook_first","structure","devices"...}`를 넣는다(벤치마크와 같은 잣대로 성과 비교). 모든 숫자는 서로 다른 두 출처로 교차 확인하고, 확인 못 한 숫자는 빼거나 '~로 알려졌다'가 아니라 아예 쓰지 않는다.
 6. 렌더:
    - 그래픽 카드: `python3 scripts/render.py content/<id>.json media/<id>` (JPEG 1080x1350).
    - 실사 사진 표지: 이 환경은 이미지를 내려받을 수 없으므로 GitHub Actions가 사진을 찾아 받아 렌더한다. 스펙에 `"render_in_actions": true`를 넣고 표지를 `{"t":"photo_cover","photo":{"urls":["<공식 보도자료·korea.kr 등 직접 확인한 사진 주소>"],"query":"<영문 검색어>","queries":["<대체 검색어>", ...]},"title":"...","kw":"...","bubble":"한마디(선택)","credit":"urls 사진의 출처"}`로 쓴 뒤 push한다. Actions는 urls를 순서대로 시도하고, 안 되면 검색어마다 Unsplash → Pexels → Pixabay(키 등록된 것만) → Openverse → Wikimedia Commons 순으로 상업 이용·편집 가능한 사진을 찾는다(특정 소스만 쓰려면 photo에 `"sources":["wikimedia"]`처럼 지정; 실제 기업 건물·장소처럼 고유한 대상은 wikimedia가 잘 맞음). 검색어는 영어로 구체적인 사물·장면 2~4개(예: "semiconductor wafer", "seoul stock exchange", "supermarket shelf")를 넣는다. 크레딧은 자동으로 채워지고 `media/<id>/src/credits.json`에 라이선스가 남는다. 3~5분 뒤 `git pull`해서 `media/<id>/01.jpg`를 Read로 열어 사진이 주제와 맞는지 확인한다(기다릴 때는 Bash run_in_background로 git fetch를 20초 간격으로 반복). `src/photo_fallback.txt`가 있으면 사진을 못 찾아 그래픽 배경으로 렌더된 것이니 검색어를 바꿔 한 번 더 push하고, 그래도 안 되면 그래픽 표지로 게시한다. 사진이 주제와 안 맞거나, 인물 얼굴이 크게 나오거나, 주제와 무관한 브랜드 로고(카드사·제조사 등)가 크게 보이면 검색어를 바꾼다(스톡 라이선스도 상표 노출로 보증 오해를 주는 사용은 금지). `src/error.txt`는 렌더 자체 오류다.

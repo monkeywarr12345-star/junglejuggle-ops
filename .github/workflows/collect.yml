@@ -3,11 +3,12 @@ name: Collect performance data
 on:
   schedule:
     - cron: "13 14 * * *"   # daily 23:13 KST: our post insights
-    - cron: "43 20 * * 0"   # Monday 05:43 KST: benchmark accounts (Business Discovery)
+    - cron: "47 13 * * 0"   # Sunday 22:47 KST: full weekly benchmark (finished well before the Monday 02:47 review)
+    - cron: "23 20 * * *"   # daily 05:23 KST: light benchmark pull for the morning topic radar
   workflow_dispatch:
     inputs:
       mode:
-        description: "insights or benchmark"
+        description: "insights, benchmark or bench_daily"
         default: insights
 
 permissions:
@@ -25,14 +26,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install image tools
+        if: inputs.mode != 'insights' && github.event.schedule != '13 14 * * *'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor >/dev/null
+          pip install -q opencv-python-headless pillow numpy
       - name: Collect
+        timeout-minutes: 90
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
           MODE="${{ inputs.mode }}"
           if [ -z "$MODE" ]; then
-            if [ "${{ github.event.schedule }}" = "43 20 * * 0" ]; then MODE=benchmark; else MODE=insights; fi
+            case "${{ github.event.schedule }}" in
+              "47 13 * * 0") MODE=benchmark ;;
+              "23 20 * * *") MODE=bench_daily ;;
+              *) MODE=insights ;;
+            esac
           fi
           python scripts/collect.py "$MODE"
       - name: Save data
