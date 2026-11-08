@@ -5,12 +5,12 @@ A slide's "photo" can be:
   "https://..."                                   one direct URL (official press photo, korea.kr, Unsplash image URL ...)
   {"urls": [...], "query": "...", "queries": [...]}  try the URLs in order, then search each query in every source
 
-Sources, tried in this order for each query:
-  1. Openverse      (no key) CC0 / public domain / CC BY / CC BY-SA, commercial use + modification allowed
-  2. Wikimedia Commons (no key) public domain, CC0, CC BY, CC BY-SA
-  3. Pexels         (needs PEXELS_API_KEY secret)   Pexels License, free commercial use
-  4. Unsplash       (needs UNSPLASH_ACCESS_KEY secret) Unsplash License, free commercial use
-  5. Pixabay        (needs PIXABAY_API_KEY secret)  Pixabay Content License, free commercial use
+Sources, tried in this order for each query (optional "sources": ["unsplash", ...] limits them):
+  1. Unsplash       (needs UNSPLASH_ACCESS_KEY secret) Unsplash License, free commercial use
+  2. Pexels         (needs PEXELS_API_KEY secret)   Pexels License, free commercial use
+  3. Pixabay        (needs PIXABAY_API_KEY secret)  Pixabay Content License, free commercial use
+  4. Openverse      (no key) CC0 / public domain / CC BY / CC BY-SA, commercial use + modification allowed
+  5. Wikimedia Commons (no key) public domain, CC0, CC BY, CC BY-SA
 Every pick is recorded with its credit and license in media/<id>/src/credits.json.
 """
 import hashlib
@@ -119,7 +119,8 @@ def pixabay(query):
                                    "page": h["pageURL"], "source": "pixabay"}
 
 
-SEARCHERS = [openverse, wikimedia, pexels, unsplash, pixabay]
+# Stock libraries first (cleaner, cover-quality photos), then open archives (good for specific real places/things).
+SEARCHERS = [unsplash, pexels, pixabay, openverse, wikimedia]
 
 
 def resolve(photo, dest_dir, used=()):
@@ -134,8 +135,9 @@ def resolve(photo, dest_dir, used=()):
         except Exception as exc:
             attempts.append(f"direct {url[:80]}: {exc}")
     queries = [q for q in [photo.get("query"), *photo.get("queries", [])] if q]
+    searchers = [f for f in SEARCHERS if not photo.get("sources") or f.__name__ in photo["sources"]]
     for query in queries:
-        for search in SEARCHERS:
+        for search in searchers:
             try:
                 for url, credit in search(query) or []:
                     if url in used:
