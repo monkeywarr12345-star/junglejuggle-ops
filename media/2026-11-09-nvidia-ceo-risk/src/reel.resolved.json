@@ -10,7 +10,7 @@
   "angle": "내 돈 영향",
   "hook_cover": "속보 태그+사진",
   "hook_first": "사건 요약",
-  "structure": "무슨 일→기업 대응→한국 영향→체크포인트",
+  "structure": "무슨 일→논란 배경→기업 대응→타임라인→체크포인트",
   "devices": [
    "속보 칩",
    "확정 아님 표기"
@@ -19,7 +19,7 @@
  "scenes": [
   {
    "t": "hook",
-   "photo": "media/2026-11-09-nvidia-ceo-risk/src/1fc9a19bf344.jpg",
+   "photo": "media/2026-11-09-nvidia-ceo-risk/src/4e006f1a5318.jpg",
    "chip": "속보 · 08:50",
    "title": "엔비디아에\nCEO 리스크",
    "kw": "CEO 리스크",
@@ -27,7 +27,7 @@
     "젠슨 황, 직원 메일로 혼외 관계 인정·사과"
    ],
    "sec": 3.8,
-   "credit": "Dicklyon / Wikimedia Commons"
+   "credit": "Will Buckner / Wikimedia Commons"
   },
   {
    "t": "text",
@@ -35,7 +35,7 @@
    "title": "안보 논란으로\n번짐",
    "kw": "안보 논란",
    "lines": [
-    "NYT \"美 당국, 상대방의 中 연루 의심\"",
+    "NYT 보도: 美 당국, 상대방의 中 연루 의심",
     "※ 의혹 단계 · 확인된 사실 아님"
    ],
    "sec": 3.8
