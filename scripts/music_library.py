@@ -133,14 +133,14 @@ def write_licenses(lib):
 def refresh():
     lib = load(LIB_JSON, [])
     usage = load(USAGE_JSON, [])
-    known = {t["src_id"] for t in lib}
+    known = {t["src_id"] for t in lib} | {(t["title"].lower(), t["artist"].lower()) for t in lib}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     added = 0
     for mood in MOODS:
         cands = sorted(jamendo_candidates(mood) + openverse_candidates(mood), key=lambda c: -c["score"])
         seen, new = set(), 0
         for c in cands:
-            if c["src_id"] in known or c["src_id"] in seen or new >= 6:
+            if c["src_id"] in known or (c["title"].lower(), c["artist"].lower()) in known or c["src_id"] in seen or new >= 6:
                 continue
             seen.add(c["src_id"])
             slug = re.sub(r"[^a-z0-9]+", "-", f"{c['artist']}-{c['title']}".lower()).strip("-")[:50] or "track"
@@ -152,7 +152,7 @@ def refresh():
                 continue
             lib.append({**{k: c[k] for k in ("source", "src_id", "title", "artist", "license", "license_url", "page", "released")},
                         "mood": mood, "file": rel, "added": now})
-            known.add(c["src_id"])
+            known |= {c["src_id"], (c["title"].lower(), c["artist"].lower())}
             new += 1
             added += 1
         # prune: keep the newest MAX_PER_MOOD per mood, never delete a track used in the last 7 days' worth of reels
