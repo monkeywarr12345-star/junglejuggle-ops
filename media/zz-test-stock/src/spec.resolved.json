@@ -1,0 +1,18 @@
+{
+ "id": "zz-test-stock",
+ "render_in_actions": true,
+ "slides": [
+  {
+   "t": "photo_cover",
+   "photo": null,
+   "title": "Unsplash\n자동 수집 테스트",
+   "kw": "Unsplash"
+  },
+  {
+   "t": "photo_cover",
+   "photo": null,
+   "title": "Pixabay\n자동 수집 테스트",
+   "kw": "Pixabay"
+  }
+ ]
+}
