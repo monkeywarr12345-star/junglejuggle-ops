@@ -22,7 +22,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 API = "https://graph.facebook.com/v27.0"
@@ -36,6 +36,8 @@ IG_USER = os.environ["IG_USER_ID"]
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 DRY_RUN = os.environ.get("DRY_RUN", "") == "1"
+BLOCK_SIGNS = ("API access blocked", "2207051", "2207050")
+BLOCK_BACKOFF_MIN = 90
 
 
 def media_url(value):
@@ -168,6 +170,16 @@ def main():
             published += 1
             print(f"  published media {media_id}")
         except Exception as exc:  # keep going with the rest of the queue
+            if any(k in str(exc) for k in BLOCK_SIGNS):
+                # Instagram is temporarily blocking this account/app: retrying now makes it worse.
+                # Leave the item in the queue, push it back an hour, and stop this run.
+                retry_at = now + timedelta(minutes=BLOCK_BACKOFF_MIN)
+                item["publish_at"] = retry_at.isoformat()
+                item.setdefault("_deferred", []).append({"reason": str(exc)[:200], "at": now.isoformat()})
+                path.write_text(json.dumps(item, ensure_ascii=False, indent=2), encoding="utf-8")
+                print(f"  BLOCKED {path.name}: {exc} -> retry after {retry_at.isoformat()}; stopping this run", file=sys.stderr)
+                errors += 1
+                break
             errors += 1
             print(f"  FAILED {path.name}: {exc}", file=sys.stderr)
             try:
