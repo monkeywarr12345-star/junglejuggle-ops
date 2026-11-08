@@ -1,0 +1,3469 @@
+{
+ "week": "2026-W46",
+ "snapshot": "2026-11-08",
+ "age_curve": {},
+ "accounts": {
+  "3protv.official": {
+   "followers": 6562,
+   "posts": 50,
+   "median_E": 12,
+   "reels_share": 0.26
+  },
+  "byte._.bites": {
+   "followers": 26065,
+   "posts": 100,
+   "median_E": 54,
+   "reels_share": 0.28
+  },
+  "careet.official": {
+   "followers": 57871,
+   "posts": 100,
+   "median_E": 142.5,
+   "reels_share": 0.04
+  },
+  "ekke.now": {
+   "followers": 410339,
+   "posts": 1000,
+   "median_E": 30,
+   "reels_share": 0.12
+  },
+  "eyesmag": {
+   "followers": 1425546,
+   "posts": 100,
+   "median_E": 759.0,
+   "reels_share": 0.42
+  },
+  "longblack.co": {
+   "followers": 188710,
+   "posts": 100,
+   "median_E": 140,
+   "reels_share": 0.13
+  },
+  "newneek.official": {
+   "followers": 253462,
+   "posts": 100,
+   "median_E": 138.5,
+   "reels_share": 0.14
+  }
+ },
+ "code_effects": [
+  {
+   "dim": "angle",
+   "value": "기업·인물 스토리",
+   "surface": "FEED",
+   "n": 96,
+   "accounts": 6,
+   "lift": 0.784,
+   "shrunk": 0.71,
+   "ci90": [
+    0.414,
+    0.967
+   ],
+   "p": 0.0,
+   "share_2x": 0.469,
+   "share_2x_ci": [
+    0.387,
+    0.552
+   ],
+   "grade": "확인",
+   "bh_pass": true
+  },
+  {
+   "dim": "angle",
+   "value": "비교·순위",
+   "surface": "FEED",
+   "n": 39,
+   "accounts": 4,
+   "lift": 0.548,
+   "shrunk": 0.436,
+   "ci90": [
+    0.304,
+    0.929
+   ],
+   "p": 0.004,
+   "share_2x": 0.487,
+   "share_2x_ci": [
+    0.361,
+    0.615
+   ],
+   "grade": "확인",
+   "bh_pass": true
+  },
+  {
+   "dim": "angle",
+   "value": "꿀팁·체크리스트",
+   "surface": "REELS",
+   "n": 9,
+   "accounts": 3,
+   "lift": 0.872,
+   "shrunk": 0.413,
+   "ci90": [
+    0.578,
+    1.2
+   ],
+   "p": 0.0,
+   "share_2x": 0.444,
+   "share_2x_ci": [
+    0.218,
+    0.697
+   ],
+   "grade": "유망",
+   "bh_pass": true
+  },
+  {
+   "dim": "angle",
+   "value": "설명형",
+   "surface": "REELS",
+   "n": 10,
+   "accounts": 3,
+   "lift": 0.58,
+   "shrunk": 0.29,
+   "ci90": [
+    -0.41,
+    1.412
+   ],
+   "p": 0.288,
+   "share_2x": 0.5,
+   "share_2x_ci": [
+    0.269,
+    0.731
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "논쟁형",
+   "surface": "REELS",
+   "n": 6,
+   "accounts": 4,
+   "lift": 0.602,
+   "shrunk": 0.226,
+   "ci90": [
+    0.37,
+    0.833
+   ],
+   "p": 0.0,
+   "share_2x": 0.5,
+   "share_2x_ci": [
+    0.221,
+    0.779
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "angle",
+   "value": "논쟁형",
+   "surface": "FEED",
+   "n": 23,
+   "accounts": 5,
+   "lift": 0.274,
+   "shrunk": 0.191,
+   "ci90": [
+    0.071,
+    0.515
+   ],
+   "p": 0.038,
+   "share_2x": 0.348,
+   "share_2x_ci": [
+    0.208,
+    0.519
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "기업·인물 스토리",
+   "surface": "REELS",
+   "n": 24,
+   "accounts": 3,
+   "lift": 0.269,
+   "shrunk": 0.19,
+   "ci90": [
+    -0.273,
+    0.604
+   ],
+   "p": 0.496,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.199,
+    0.501
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "소식 전달",
+   "surface": "REELS",
+   "n": 50,
+   "accounts": 5,
+   "lift": 0.158,
+   "shrunk": 0.132,
+   "ci90": [
+    -0.602,
+    0.442
+   ],
+   "p": 0.89,
+   "share_2x": 0.3,
+   "share_2x_ci": [
+    0.206,
+    0.415
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "비교·순위",
+   "surface": "REELS",
+   "n": 8,
+   "accounts": 2,
+   "lift": 0.158,
+   "shrunk": 0.07,
+   "ci90": [
+    -0.697,
+    1.533
+   ],
+   "p": 0.666,
+   "share_2x": 0.375,
+   "share_2x_ci": [
+    0.161,
+    0.652
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "설명형",
+   "surface": "FEED",
+   "n": 125,
+   "accounts": 6,
+   "lift": -0.041,
+   "shrunk": -0.038,
+   "ci90": [
+    -0.187,
+    0.193
+   ],
+   "p": 0.936,
+   "share_2x": 0.216,
+   "share_2x_ci": [
+    0.162,
+    0.282
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "꿀팁·체크리스트",
+   "surface": "FEED",
+   "n": 36,
+   "accounts": 5,
+   "lift": -0.075,
+   "shrunk": -0.058,
+   "ci90": [
+    -0.658,
+    0.416
+   ],
+   "p": 0.802,
+   "share_2x": 0.278,
+   "share_2x_ci": [
+    0.174,
+    0.413
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "숫자 충격",
+   "surface": "FEED",
+   "n": 87,
+   "accounts": 6,
+   "lift": -0.124,
+   "shrunk": -0.111,
+   "ci90": [
+    -0.284,
+    0.025
+   ],
+   "p": 0.186,
+   "share_2x": 0.23,
+   "share_2x_ci": [
+    0.165,
+    0.312
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "내 돈 영향",
+   "surface": "FEED",
+   "n": 27,
+   "accounts": 4,
+   "lift": -0.16,
+   "shrunk": -0.117,
+   "ci90": [
+    -0.469,
+    0.095
+   ],
+   "p": 0.334,
+   "share_2x": 0.148,
+   "share_2x_ci": [
+    0.068,
+    0.292
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "내 돈 영향",
+   "surface": "REELS",
+   "n": 3,
+   "accounts": 2,
+   "lift": -0.558,
+   "shrunk": -0.129,
+   "ci90": [
+    -0.666,
+    -0.451
+   ],
+   "p": 0.0,
+   "share_2x": 0.0,
+   "share_2x_ci": [
+    0.0,
+    0.474
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "angle",
+   "value": "숫자 충격",
+   "surface": "REELS",
+   "n": 4,
+   "accounts": 2,
+   "lift": -0.541,
+   "shrunk": -0.155,
+   "ci90": [
+    -0.985,
+    -0.098
+   ],
+   "p": 0.0,
+   "share_2x": 0.0,
+   "share_2x_ci": [
+    0.0,
+    0.404
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "angle",
+   "value": "소식 전달",
+   "surface": "FEED",
+   "n": 97,
+   "accounts": 7,
+   "lift": -0.267,
+   "shrunk": -0.242,
+   "ci90": [
+    -0.517,
+    -0.058
+   ],
+   "p": 0.036,
+   "share_2x": 0.196,
+   "share_2x_ci": [
+    0.138,
+    0.27
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "angle",
+   "value": "회고·요약",
+   "surface": "FEED",
+   "n": 59,
+   "accounts": 5,
+   "lift": -0.731,
+   "shrunk": -0.625,
+   "ci90": [
+    -0.959,
+    -0.551
+   ],
+   "p": 0.0,
+   "share_2x": 0.136,
+   "share_2x_ci": [
+    0.078,
+    0.225
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "density",
+   "value": "중간",
+   "surface": "REELS",
+   "n": 31,
+   "accounts": 5,
+   "lift": 0.416,
+   "shrunk": 0.315,
+   "ci90": [
+    0.062,
+    0.869
+   ],
+   "p": 0.042,
+   "share_2x": 0.387,
+   "share_2x_ci": [
+    0.258,
+    0.534
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "density",
+   "value": "중간",
+   "surface": "FEED",
+   "n": 92,
+   "accounts": 7,
+   "lift": 0.021,
+   "shrunk": 0.019,
+   "ci90": [
+    -0.153,
+    0.252
+   ],
+   "p": 0.72,
+   "share_2x": 0.25,
+   "share_2x_ci": [
+    0.184,
+    0.331
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "density",
+   "value": "낮음",
+   "surface": "REELS",
+   "n": 36,
+   "accounts": 6,
+   "lift": 0.013,
+   "shrunk": 0.011,
+   "ci90": [
+    -0.437,
+    0.496
+   ],
+   "p": 0.902,
+   "share_2x": 0.278,
+   "share_2x_ci": [
+    0.174,
+    0.413
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "density",
+   "value": "높음",
+   "surface": "FEED",
+   "n": 369,
+   "accounts": 6,
+   "lift": -0.037,
+   "shrunk": -0.036,
+   "ci90": [
+    -0.169,
+    0.054
+   ],
+   "p": 0.448,
+   "share_2x": 0.298,
+   "share_2x_ci": [
+    0.261,
+    0.339
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "density",
+   "value": "높음",
+   "surface": "REELS",
+   "n": 47,
+   "accounts": 6,
+   "lift": -0.066,
+   "shrunk": -0.055,
+   "ci90": [
+    -0.447,
+    0.271
+   ],
+   "p": 0.696,
+   "share_2x": 0.34,
+   "share_2x_ci": [
+    0.238,
+    0.46
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "density",
+   "value": "낮음",
+   "surface": "FEED",
+   "n": 128,
+   "accounts": 7,
+   "lift": -0.32,
+   "shrunk": -0.297,
+   "ci90": [
+    -0.563,
+    -0.186
+   ],
+   "p": 0.0,
+   "share_2x": 0.211,
+   "share_2x_ci": [
+    0.158,
+    0.276
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "devices",
+   "value": "고르기",
+   "surface": "FEED",
+   "n": 13,
+   "accounts": 3,
+   "lift": 0.554,
+   "shrunk": 0.313,
+   "ci90": [
+    0.111,
+    1.115
+   ],
+   "p": 0.054,
+   "share_2x": 0.462,
+   "share_2x_ci": [
+    0.261,
+    0.675
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "경험 묻기",
+   "surface": "REELS",
+   "n": 4,
+   "accounts": 3,
+   "lift": 0.75,
+   "shrunk": 0.214,
+   "ci90": [
+    -0.109,
+    1.609
+   ],
+   "p": 0.518,
+   "share_2x": 0.5,
+   "share_2x_ci": [
+    0.182,
+    0.818
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "경험 묻기",
+   "surface": "FEED",
+   "n": 14,
+   "accounts": 5,
+   "lift": 0.364,
+   "shrunk": 0.212,
+   "ci90": [
+    -0.075,
+    0.563
+   ],
+   "p": 0.192,
+   "share_2x": 0.429,
+   "share_2x_ci": [
+    0.241,
+    0.64
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "저장 권유",
+   "surface": "FEED",
+   "n": 4,
+   "accounts": 2,
+   "lift": 0.304,
+   "shrunk": 0.087,
+   "ci90": [
+    -0.006,
+    0.613
+   ],
+   "p": 0.124,
+   "share_2x": 0.5,
+   "share_2x_ci": [
+    0.182,
+    0.818
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "이벤트",
+   "surface": "FEED",
+   "n": 24,
+   "accounts": 6,
+   "lift": 0.019,
+   "shrunk": 0.013,
+   "ci90": [
+    -0.357,
+    0.361
+   ],
+   "p": 0.956,
+   "share_2x": 0.208,
+   "share_2x_ci": [
+    0.105,
+    0.37
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "숫자 맞히기",
+   "surface": "FEED",
+   "n": 3,
+   "accounts": 2,
+   "lift": -0.004,
+   "shrunk": -0.001,
+   "ci90": [
+    -0.554,
+    0.547
+   ],
+   "p": 0.486,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.078,
+    0.746
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "친구 태그",
+   "surface": "FEED",
+   "n": 4,
+   "accounts": 1,
+   "lift": -0.319,
+   "shrunk": -0.091,
+   "ci90": [
+    -0.805,
+    0.451
+   ],
+   "p": 0.794,
+   "share_2x": 0.25,
+   "share_2x_ci": [
+    0.058,
+    0.644
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "devices",
+   "value": "이벤트",
+   "surface": "REELS",
+   "n": 11,
+   "accounts": 4,
+   "lift": -0.318,
+   "shrunk": -0.166,
+   "ci90": [
+    -0.814,
+    -0.1
+   ],
+   "p": 0.02,
+   "share_2x": 0.182,
+   "share_2x_ci": [
+    0.062,
+    0.427
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "devices",
+   "value": "시리즈 예고",
+   "surface": "FEED",
+   "n": 5,
+   "accounts": 2,
+   "lift": -0.912,
+   "shrunk": -0.304,
+   "ci90": [
+    -1.515,
+    -0.468
+   ],
+   "p": 0.0,
+   "share_2x": 0.0,
+   "share_2x_ci": [
+    0.0,
+    0.351
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "evidence",
+   "value": "없음",
+   "surface": "REELS",
+   "n": 113,
+   "accounts": 6,
+   "lift": 0.395,
+   "shrunk": 0.362,
+   "ci90": [
+    -0.13,
+    0.567
+   ],
+   "p": 0.306,
+   "share_2x": 0.336,
+   "share_2x_ci": [
+    0.268,
+    0.412
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "evidence",
+   "value": "캡션 끝 매체명",
+   "surface": "FEED",
+   "n": 3,
+   "accounts": 2,
+   "lift": 1.07,
+   "shrunk": 0.247,
+   "ci90": [
+    0.893,
+    1.248
+   ],
+   "p": 0.0,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.078,
+    0.746
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "evidence",
+   "value": "없음",
+   "surface": "FEED",
+   "n": 523,
+   "accounts": 7,
+   "lift": 0.02,
+   "shrunk": 0.02,
+   "ci90": [
+    -0.07,
+    0.145
+   ],
+   "p": 0.612,
+   "share_2x": 0.273,
+   "share_2x_ci": [
+    0.243,
+    0.307
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "evidence",
+   "value": "카드 안 기관+날짜",
+   "surface": "FEED",
+   "n": 62,
+   "accounts": 3,
+   "lift": -0.887,
+   "shrunk": -0.764,
+   "ci90": [
+    -1.314,
+    -0.443
+   ],
+   "p": 0.004,
+   "share_2x": 0.242,
+   "share_2x_ci": [
+    0.164,
+    0.341
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "hook_cover",
+   "value": "질문",
+   "surface": "REELS",
+   "n": 12,
+   "accounts": 5,
+   "lift": 0.751,
+   "shrunk": 0.41,
+   "ci90": [
+    0.662,
+    0.979
+   ],
+   "p": 0.0,
+   "share_2x": 0.417,
+   "share_2x_ci": [
+    0.22,
+    0.644
+   ],
+   "grade": "유망",
+   "bh_pass": true
+  },
+  {
+   "dim": "hook_cover",
+   "value": "대비",
+   "surface": "FEED",
+   "n": 24,
+   "accounts": 5,
+   "lift": 0.301,
+   "shrunk": 0.212,
+   "ci90": [
+    0.029,
+    0.9
+   ],
+   "p": 0.07,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.199,
+    0.501
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "발언 인용",
+   "surface": "FEED",
+   "n": 22,
+   "accounts": 6,
+   "lift": 0.277,
+   "shrunk": 0.19,
+   "ci90": [
+    -0.078,
+    0.552
+   ],
+   "p": 0.234,
+   "share_2x": 0.318,
+   "share_2x_ci": [
+    0.183,
+    0.494
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "서술형",
+   "surface": "REELS",
+   "n": 64,
+   "accounts": 6,
+   "lift": 0.189,
+   "shrunk": 0.164,
+   "ci90": [
+    -0.44,
+    0.523
+   ],
+   "p": 0.714,
+   "share_2x": 0.297,
+   "share_2x_ci": [
+    0.213,
+    0.398
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "손해 경고",
+   "surface": "FEED",
+   "n": 14,
+   "accounts": 5,
+   "lift": 0.238,
+   "shrunk": 0.139,
+   "ci90": [
+    -0.028,
+    0.818
+   ],
+   "p": 0.206,
+   "share_2x": 0.286,
+   "share_2x_ci": [
+    0.135,
+    0.506
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "대상 호명",
+   "surface": "FEED",
+   "n": 20,
+   "accounts": 5,
+   "lift": 0.176,
+   "shrunk": 0.117,
+   "ci90": [
+    -0.614,
+    0.71
+   ],
+   "p": 0.772,
+   "share_2x": 0.35,
+   "share_2x_ci": [
+    0.202,
+    0.534
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "질문",
+   "surface": "FEED",
+   "n": 50,
+   "accounts": 6,
+   "lift": 0.139,
+   "shrunk": 0.116,
+   "ci90": [
+    -0.137,
+    0.29
+   ],
+   "p": 0.464,
+   "share_2x": 0.2,
+   "share_2x_ci": [
+    0.123,
+    0.307
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "내막",
+   "surface": "FEED",
+   "n": 29,
+   "accounts": 5,
+   "lift": 0.126,
+   "shrunk": 0.094,
+   "ci90": [
+    -0.382,
+    0.649
+   ],
+   "p": 0.66,
+   "share_2x": 0.379,
+   "share_2x_ci": [
+    0.247,
+    0.532
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "서술형",
+   "surface": "FEED",
+   "n": 205,
+   "accounts": 7,
+   "lift": 0.095,
+   "shrunk": 0.09,
+   "ci90": [
+    -0.054,
+    0.263
+   ],
+   "p": 0.346,
+   "share_2x": 0.322,
+   "share_2x_ci": [
+    0.271,
+    0.378
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "발언 인용",
+   "surface": "REELS",
+   "n": 20,
+   "accounts": 4,
+   "lift": 0.114,
+   "shrunk": 0.076,
+   "ci90": [
+    -0.377,
+    0.327
+   ],
+   "p": 0.762,
+   "share_2x": 0.45,
+   "share_2x_ci": [
+    0.284,
+    0.628
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "숫자 단독",
+   "surface": "REELS",
+   "n": 6,
+   "accounts": 2,
+   "lift": -0.128,
+   "shrunk": -0.048,
+   "ci90": [
+    -0.366,
+    0.638
+   ],
+   "p": 0.612,
+   "share_2x": 0.167,
+   "share_2x_ci": [
+    0.038,
+    0.502
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "숫자 단독",
+   "surface": "FEED",
+   "n": 117,
+   "accounts": 6,
+   "lift": -0.061,
+   "shrunk": -0.056,
+   "ci90": [
+    -0.25,
+    0.209
+   ],
+   "p": 0.834,
+   "share_2x": 0.239,
+   "share_2x_ci": [
+    0.181,
+    0.31
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "목록 예고",
+   "surface": "REELS",
+   "n": 4,
+   "accounts": 1,
+   "lift": -0.399,
+   "shrunk": -0.114,
+   "ci90": [
+    -1.815,
+    1.995
+   ],
+   "p": 0.822,
+   "share_2x": 0.25,
+   "share_2x_ci": [
+    0.058,
+    0.644
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "반전",
+   "surface": "FEED",
+   "n": 14,
+   "accounts": 6,
+   "lift": -0.317,
+   "shrunk": -0.185,
+   "ci90": [
+    -0.798,
+    -0.036
+   ],
+   "p": 0.072,
+   "share_2x": 0.071,
+   "share_2x_ci": [
+    0.016,
+    0.266
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_cover",
+   "value": "목록 예고",
+   "surface": "FEED",
+   "n": 92,
+   "accounts": 5,
+   "lift": -0.727,
+   "shrunk": -0.656,
+   "ci90": [
+    -0.908,
+    -0.477
+   ],
+   "p": 0.0,
+   "share_2x": 0.185,
+   "share_2x_ci": [
+    0.128,
+    0.26
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "hook_first",
+   "value": "발언 인용",
+   "surface": "REELS",
+   "n": 23,
+   "accounts": 3,
+   "lift": 0.604,
+   "shrunk": 0.421,
+   "ci90": [
+    -0.292,
+    0.928
+   ],
+   "p": 0.444,
+   "share_2x": 0.478,
+   "share_2x_ci": [
+    0.318,
+    0.643
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "발언 인용",
+   "surface": "FEED",
+   "n": 66,
+   "accounts": 5,
+   "lift": 0.46,
+   "shrunk": 0.4,
+   "ci90": [
+    0.094,
+    0.783
+   ],
+   "p": 0.024,
+   "share_2x": 0.394,
+   "share_2x_ci": [
+    0.301,
+    0.495
+   ],
+   "grade": "확인",
+   "bh_pass": true
+  },
+  {
+   "dim": "hook_first",
+   "value": "대비",
+   "surface": "FEED",
+   "n": 21,
+   "accounts": 5,
+   "lift": 0.492,
+   "shrunk": 0.333,
+   "ci90": [
+    -0.117,
+    0.959
+   ],
+   "p": 0.224,
+   "share_2x": 0.429,
+   "share_2x_ci": [
+    0.269,
+    0.604
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "서술형",
+   "surface": "REELS",
+   "n": 49,
+   "accounts": 6,
+   "lift": 0.374,
+   "shrunk": 0.311,
+   "ci90": [
+    -0.087,
+    0.759
+   ],
+   "p": 0.226,
+   "share_2x": 0.347,
+   "share_2x_ci": [
+    0.246,
+    0.464
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "대상 호명",
+   "surface": "REELS",
+   "n": 9,
+   "accounts": 4,
+   "lift": 0.62,
+   "shrunk": 0.294,
+   "ci90": [
+    0.187,
+    0.936
+   ],
+   "p": 0.02,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.142,
+    0.602
+   ],
+   "grade": "유망",
+   "bh_pass": true
+  },
+  {
+   "dim": "hook_first",
+   "value": "손해 경고",
+   "surface": "FEED",
+   "n": 10,
+   "accounts": 3,
+   "lift": 0.563,
+   "shrunk": 0.282,
+   "ci90": [
+    -0.24,
+    1.064
+   ],
+   "p": 0.394,
+   "share_2x": 0.3,
+   "share_2x_ci": [
+    0.127,
+    0.558
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "내막",
+   "surface": "FEED",
+   "n": 33,
+   "accounts": 5,
+   "lift": 0.311,
+   "shrunk": 0.239,
+   "ci90": [
+    -0.023,
+    0.609
+   ],
+   "p": 0.132,
+   "share_2x": 0.303,
+   "share_2x_ci": [
+    0.191,
+    0.445
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "반전",
+   "surface": "FEED",
+   "n": 40,
+   "accounts": 5,
+   "lift": 0.147,
+   "shrunk": 0.118,
+   "ci90": [
+    -0.224,
+    0.475
+   ],
+   "p": 0.506,
+   "share_2x": 0.325,
+   "share_2x_ci": [
+    0.218,
+    0.455
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "숫자 단독",
+   "surface": "FEED",
+   "n": 76,
+   "accounts": 6,
+   "lift": 0.089,
+   "shrunk": 0.078,
+   "ci90": [
+    -0.124,
+    0.292
+   ],
+   "p": 0.434,
+   "share_2x": 0.303,
+   "share_2x_ci": [
+    0.224,
+    0.395
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "질문",
+   "surface": "FEED",
+   "n": 65,
+   "accounts": 6,
+   "lift": 0.079,
+   "shrunk": 0.068,
+   "ci90": [
+    -0.185,
+    0.33
+   ],
+   "p": 0.568,
+   "share_2x": 0.231,
+   "share_2x_ci": [
+    0.157,
+    0.326
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "신조어",
+   "surface": "FEED",
+   "n": 11,
+   "accounts": 2,
+   "lift": 0.033,
+   "shrunk": 0.017,
+   "ci90": [
+    -0.293,
+    0.98
+   ],
+   "p": 0.476,
+   "share_2x": 0.273,
+   "share_2x_ci": [
+    0.115,
+    0.521
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "반전",
+   "surface": "REELS",
+   "n": 5,
+   "accounts": 3,
+   "lift": 0.01,
+   "shrunk": 0.003,
+   "ci90": [
+    -0.216,
+    0.778
+   ],
+   "p": 0.54,
+   "share_2x": 0.4,
+   "share_2x_ci": [
+    0.143,
+    0.728
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "서술형",
+   "surface": "FEED",
+   "n": 206,
+   "accounts": 7,
+   "lift": -0.118,
+   "shrunk": -0.112,
+   "ci90": [
+    -0.244,
+    0.102
+   ],
+   "p": 0.404,
+   "share_2x": 0.243,
+   "share_2x_ci": [
+    0.197,
+    0.295
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "숫자 단독",
+   "surface": "REELS",
+   "n": 7,
+   "accounts": 3,
+   "lift": -0.377,
+   "shrunk": -0.155,
+   "ci90": [
+    -0.755,
+    -0.058
+   ],
+   "p": 0.03,
+   "share_2x": 0.0,
+   "share_2x_ci": [
+    0.0,
+    0.279
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "신조어",
+   "surface": "REELS",
+   "n": 4,
+   "accounts": 2,
+   "lift": -0.663,
+   "shrunk": -0.189,
+   "ci90": [
+    -1.078,
+    0.62
+   ],
+   "p": 0.486,
+   "share_2x": 0.25,
+   "share_2x_ci": [
+    0.058,
+    0.644
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "질문",
+   "surface": "REELS",
+   "n": 12,
+   "accounts": 5,
+   "lift": -0.499,
+   "shrunk": -0.272,
+   "ci90": [
+    -1.119,
+    0.354
+   ],
+   "p": 0.322,
+   "share_2x": 0.167,
+   "share_2x_ci": [
+    0.057,
+    0.399
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "대상 호명",
+   "surface": "FEED",
+   "n": 25,
+   "accounts": 5,
+   "lift": -0.416,
+   "shrunk": -0.297,
+   "ci90": [
+    -0.728,
+    -0.034
+   ],
+   "p": 0.07,
+   "share_2x": 0.24,
+   "share_2x_ci": [
+    0.13,
+    0.401
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "hook_first",
+   "value": "목록 예고",
+   "surface": "FEED",
+   "n": 36,
+   "accounts": 4,
+   "lift": -1.422,
+   "shrunk": -1.113,
+   "ci90": [
+    -1.721,
+    -1.064
+   ],
+   "p": 0.0,
+   "share_2x": 0.056,
+   "share_2x_ci": [
+    0.019,
+    0.155
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "series_flag",
+   "value": "시리즈",
+   "surface": "REELS",
+   "n": 17,
+   "accounts": 4,
+   "lift": 0.418,
+   "shrunk": 0.263,
+   "ci90": [
+    0.088,
+    0.629
+   ],
+   "p": 0.056,
+   "share_2x": 0.294,
+   "share_2x_ci": [
+    0.151,
+    0.494
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "series_flag",
+   "value": "단발",
+   "surface": "REELS",
+   "n": 97,
+   "accounts": 6,
+   "lift": 0.275,
+   "shrunk": 0.249,
+   "ci90": [
+    -0.134,
+    0.442
+   ],
+   "p": 0.282,
+   "share_2x": 0.34,
+   "share_2x_ci": [
+    0.266,
+    0.423
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "series_flag",
+   "value": "단발",
+   "surface": "FEED",
+   "n": 456,
+   "accounts": 7,
+   "lift": 0.122,
+   "shrunk": 0.119,
+   "ci90": [
+    -0.015,
+    0.222
+   ],
+   "p": 0.14,
+   "share_2x": 0.307,
+   "share_2x_ci": [
+    0.273,
+    0.344
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "series_flag",
+   "value": "시리즈",
+   "surface": "FEED",
+   "n": 133,
+   "accounts": 5,
+   "lift": -0.718,
+   "shrunk": -0.668,
+   "ci90": [
+    -0.837,
+    -0.484
+   ],
+   "p": 0.0,
+   "share_2x": 0.15,
+   "share_2x_ci": [
+    0.106,
+    0.208
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "structure",
+   "value": "Q&A",
+   "surface": "REELS",
+   "n": 8,
+   "accounts": 3,
+   "lift": 1.709,
+   "shrunk": 0.759,
+   "ci90": [
+    1.483,
+    2.056
+   ],
+   "p": 0.0,
+   "share_2x": 0.875,
+   "share_2x_ci": [
+    0.589,
+    0.972
+   ],
+   "grade": "유망",
+   "bh_pass": true
+  },
+  {
+   "dim": "structure",
+   "value": "스토리",
+   "surface": "FEED",
+   "n": 163,
+   "accounts": 5,
+   "lift": 0.27,
+   "shrunk": 0.255,
+   "ci90": [
+    0.037,
+    0.487
+   ],
+   "p": 0.06,
+   "share_2x": 0.356,
+   "share_2x_ci": [
+    0.297,
+    0.419
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "비교표",
+   "surface": "FEED",
+   "n": 33,
+   "accounts": 3,
+   "lift": 0.328,
+   "shrunk": 0.252,
+   "ci90": [
+    -0.254,
+    0.619
+   ],
+   "p": 0.502,
+   "share_2x": 0.364,
+   "share_2x_ci": [
+    0.241,
+    0.507
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "단일 팩트+해설",
+   "surface": "REELS",
+   "n": 74,
+   "accounts": 6,
+   "lift": 0.235,
+   "shrunk": 0.207,
+   "ci90": [
+    -0.435,
+    0.521
+   ],
+   "p": 0.748,
+   "share_2x": 0.297,
+   "share_2x_ci": [
+    0.218,
+    0.391
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "타임라인",
+   "surface": "FEED",
+   "n": 7,
+   "accounts": 2,
+   "lift": 0.225,
+   "shrunk": 0.093,
+   "ci90": [
+    -0.172,
+    0.472
+   ],
+   "p": 0.468,
+   "share_2x": 0.143,
+   "share_2x_ci": [
+    0.033,
+    0.452
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "스토리",
+   "surface": "REELS",
+   "n": 17,
+   "accounts": 4,
+   "lift": 0.101,
+   "shrunk": 0.063,
+   "ci90": [
+    -0.422,
+    0.731
+   ],
+   "p": 0.752,
+   "share_2x": 0.294,
+   "share_2x_ci": [
+    0.151,
+    0.494
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "Q&A",
+   "surface": "FEED",
+   "n": 18,
+   "accounts": 6,
+   "lift": 0.07,
+   "shrunk": 0.045,
+   "ci90": [
+    -0.323,
+    0.831
+   ],
+   "p": 0.592,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.183,
+    0.527
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "목록",
+   "surface": "REELS",
+   "n": 14,
+   "accounts": 2,
+   "lift": 0.055,
+   "shrunk": 0.032,
+   "ci90": [
+    -0.535,
+    1.042
+   ],
+   "p": 0.802,
+   "share_2x": 0.286,
+   "share_2x_ci": [
+    0.135,
+    0.506
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "단일 팩트+해설",
+   "surface": "FEED",
+   "n": 192,
+   "accounts": 5,
+   "lift": 0.018,
+   "shrunk": 0.017,
+   "ci90": [
+    -0.144,
+    0.254
+   ],
+   "p": 0.7,
+   "share_2x": 0.297,
+   "share_2x_ci": [
+    0.246,
+    0.354
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "structure",
+   "value": "목록",
+   "surface": "FEED",
+   "n": 176,
+   "accounts": 6,
+   "lift": -0.398,
+   "shrunk": -0.376,
+   "ci90": [
+    -0.681,
+    -0.146
+   ],
+   "p": 0.006,
+   "share_2x": 0.148,
+   "share_2x_ci": [
+    0.109,
+    0.197
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "tone",
+   "value": "해요체-반응어",
+   "surface": "REELS",
+   "n": 24,
+   "accounts": 4,
+   "lift": 0.598,
+   "shrunk": 0.422,
+   "ci90": [
+    -0.334,
+    0.968
+   ],
+   "p": 0.352,
+   "share_2x": 0.417,
+   "share_2x_ci": [
+    0.268,
+    0.582
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "음슴체+반응어",
+   "surface": "FEED",
+   "n": 62,
+   "accounts": 2,
+   "lift": 0.405,
+   "shrunk": 0.349,
+   "ci90": [
+    0.31,
+    0.878
+   ],
+   "p": 0.0,
+   "share_2x": 0.419,
+   "share_2x_ci": [
+    0.322,
+    0.524
+   ],
+   "grade": "유망",
+   "bh_pass": true
+  },
+  {
+   "dim": "tone",
+   "value": "대화체-반응어",
+   "surface": "REELS",
+   "n": 4,
+   "accounts": 2,
+   "lift": 1.037,
+   "shrunk": 0.296,
+   "ci90": [
+    0.001,
+    2.072
+   ],
+   "p": 0.0,
+   "share_2x": 0.75,
+   "share_2x_ci": [
+    0.356,
+    0.942
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "tone",
+   "value": "한다체-반응어",
+   "surface": "REELS",
+   "n": 26,
+   "accounts": 2,
+   "lift": 0.314,
+   "shrunk": 0.226,
+   "ci90": [
+    -0.12,
+    0.557
+   ],
+   "p": 0.31,
+   "share_2x": 0.308,
+   "share_2x_ci": [
+    0.183,
+    0.469
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "음슴체-반응어",
+   "surface": "REELS",
+   "n": 36,
+   "accounts": 1,
+   "lift": 0.225,
+   "shrunk": 0.176,
+   "ci90": [
+    -0.67,
+    0.681
+   ],
+   "p": 0.486,
+   "share_2x": 0.361,
+   "share_2x_ci": [
+    0.243,
+    0.498
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "해요체-반응어",
+   "surface": "FEED",
+   "n": 162,
+   "accounts": 5,
+   "lift": 0.181,
+   "shrunk": 0.171,
+   "ci90": [
+    -0.123,
+    0.398
+   ],
+   "p": 0.33,
+   "share_2x": 0.284,
+   "share_2x_ci": [
+    0.23,
+    0.345
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "합쇼체-반응어",
+   "surface": "REELS",
+   "n": 16,
+   "accounts": 3,
+   "lift": 0.169,
+   "shrunk": 0.104,
+   "ci90": [
+    -1.122,
+    0.442
+   ],
+   "p": 0.75,
+   "share_2x": 0.25,
+   "share_2x_ci": [
+    0.118,
+    0.455
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "한다체-반응어",
+   "surface": "FEED",
+   "n": 73,
+   "accounts": 3,
+   "lift": 0.092,
+   "shrunk": 0.081,
+   "ci90": [
+    -0.277,
+    0.238
+   ],
+   "p": 0.742,
+   "share_2x": 0.219,
+   "share_2x_ci": [
+    0.15,
+    0.308
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "음슴체-반응어",
+   "surface": "FEED",
+   "n": 221,
+   "accounts": 2,
+   "lift": -0.044,
+   "shrunk": -0.042,
+   "ci90": [
+    -0.289,
+    0.126
+   ],
+   "p": 0.586,
+   "share_2x": 0.303,
+   "share_2x_ci": [
+    0.255,
+    0.356
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "대화체-반응어",
+   "surface": "FEED",
+   "n": 6,
+   "accounts": 2,
+   "lift": -0.175,
+   "shrunk": -0.066,
+   "ci90": [
+    -0.449,
+    0.578
+   ],
+   "p": 0.578,
+   "share_2x": 0.167,
+   "share_2x_ci": [
+    0.038,
+    0.502
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "tone",
+   "value": "합쇼체-반응어",
+   "surface": "FEED",
+   "n": 63,
+   "accounts": 4,
+   "lift": -0.293,
+   "shrunk": -0.253,
+   "ci90": [
+    -0.521,
+    -0.132
+   ],
+   "p": 0.008,
+   "share_2x": 0.048,
+   "share_2x_ci": [
+    0.019,
+    0.113
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "tone",
+   "value": "음슴체+반응어",
+   "surface": "REELS",
+   "n": 8,
+   "accounts": 1,
+   "lift": -0.656,
+   "shrunk": -0.292,
+   "ci90": [
+    -1.274,
+    -0.067
+   ],
+   "p": 0.04,
+   "share_2x": 0.0,
+   "share_2x_ci": [
+    0.0,
+    0.253
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "해외",
+   "surface": "REELS",
+   "n": 16,
+   "accounts": 4,
+   "lift": 1.022,
+   "shrunk": 0.629,
+   "ci90": [
+    0.624,
+    1.66
+   ],
+   "p": 0.0,
+   "share_2x": 0.625,
+   "share_2x_ci": [
+    0.422,
+    0.792
+   ],
+   "grade": "확인",
+   "bh_pass": true
+  },
+  {
+   "dim": "topic_major",
+   "value": "정책",
+   "surface": "REELS",
+   "n": 6,
+   "accounts": 2,
+   "lift": 0.996,
+   "shrunk": 0.374,
+   "ci90": [
+    0.444,
+    1.351
+   ],
+   "p": 0.0,
+   "share_2x": 0.5,
+   "share_2x_ci": [
+    0.221,
+    0.779
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "topic_major",
+   "value": "일·커리어",
+   "surface": "REELS",
+   "n": 12,
+   "accounts": 3,
+   "lift": 0.63,
+   "shrunk": 0.344,
+   "ci90": [
+    0.121,
+    1.453
+   ],
+   "p": 0.038,
+   "share_2x": 0.333,
+   "share_2x_ci": [
+    0.159,
+    0.569
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "해외",
+   "surface": "FEED",
+   "n": 42,
+   "accounts": 5,
+   "lift": 0.361,
+   "shrunk": 0.291,
+   "ci90": [
+    0.202,
+    0.807
+   ],
+   "p": 0.008,
+   "share_2x": 0.429,
+   "share_2x_ci": [
+    0.311,
+    0.555
+   ],
+   "grade": "확인",
+   "bh_pass": true
+  },
+  {
+   "dim": "topic_major",
+   "value": "시장",
+   "surface": "REELS",
+   "n": 10,
+   "accounts": 3,
+   "lift": 0.532,
+   "shrunk": 0.266,
+   "ci90": [
+    0.229,
+    0.955
+   ],
+   "p": 0.0,
+   "share_2x": 0.3,
+   "share_2x_ci": [
+    0.127,
+    0.558
+   ],
+   "grade": "유망",
+   "bh_pass": true
+  },
+  {
+   "dim": "topic_major",
+   "value": "재테크 상식",
+   "surface": "REELS",
+   "n": 9,
+   "accounts": 4,
+   "lift": 0.333,
+   "shrunk": 0.158,
+   "ci90": [
+    0.053,
+    0.64
+   ],
+   "p": 0.036,
+   "share_2x": 0.222,
+   "share_2x_ci": [
+    0.076,
+    0.496
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "기업",
+   "surface": "FEED",
+   "n": 134,
+   "accounts": 6,
+   "lift": 0.122,
+   "shrunk": 0.114,
+   "ci90": [
+    -0.11,
+    0.323
+   ],
+   "p": 0.408,
+   "share_2x": 0.313,
+   "share_2x_ci": [
+    0.252,
+    0.382
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "테크·AI",
+   "surface": "REELS",
+   "n": 13,
+   "accounts": 2,
+   "lift": 0.167,
+   "shrunk": 0.095,
+   "ci90": [
+    -0.926,
+    0.528
+   ],
+   "p": 0.966,
+   "share_2x": 0.231,
+   "share_2x_ci": [
+    0.096,
+    0.458
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "트렌드",
+   "surface": "FEED",
+   "n": 80,
+   "accounts": 5,
+   "lift": 0.098,
+   "shrunk": 0.087,
+   "ci90": [
+    -0.102,
+    0.352
+   ],
+   "p": 0.35,
+   "share_2x": 0.287,
+   "share_2x_ci": [
+    0.212,
+    0.377
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "컬처",
+   "surface": "FEED",
+   "n": 70,
+   "accounts": 5,
+   "lift": 0.098,
+   "shrunk": 0.086,
+   "ci90": [
+    -0.179,
+    0.623
+   ],
+   "p": 0.362,
+   "share_2x": 0.371,
+   "share_2x_ci": [
+    0.283,
+    0.47
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "테크·AI",
+   "surface": "FEED",
+   "n": 31,
+   "accounts": 5,
+   "lift": -0.013,
+   "shrunk": -0.01,
+   "ci90": [
+    -0.23,
+    0.176
+   ],
+   "p": 0.868,
+   "share_2x": 0.323,
+   "share_2x_ci": [
+    0.204,
+    0.47
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "정책",
+   "surface": "FEED",
+   "n": 53,
+   "accounts": 4,
+   "lift": -0.054,
+   "shrunk": -0.046,
+   "ci90": [
+    -0.273,
+    0.414
+   ],
+   "p": 0.976,
+   "share_2x": 0.189,
+   "share_2x_ci": [
+    0.116,
+    0.291
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "일·커리어",
+   "surface": "FEED",
+   "n": 27,
+   "accounts": 4,
+   "lift": -0.115,
+   "shrunk": -0.084,
+   "ci90": [
+    -0.66,
+    0.54
+   ],
+   "p": 0.842,
+   "share_2x": 0.37,
+   "share_2x_ci": [
+    0.236,
+    0.528
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "컬처",
+   "surface": "REELS",
+   "n": 19,
+   "accounts": 4,
+   "lift": -0.187,
+   "shrunk": -0.123,
+   "ci90": [
+    -0.8,
+    0.379
+   ],
+   "p": 0.546,
+   "share_2x": 0.368,
+   "share_2x_ci": [
+    0.214,
+    0.556
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "기업",
+   "surface": "REELS",
+   "n": 16,
+   "accounts": 4,
+   "lift": -0.26,
+   "shrunk": -0.16,
+   "ci90": [
+    -0.61,
+    -0.063
+   ],
+   "p": 0.03,
+   "share_2x": 0.312,
+   "share_2x_ci": [
+    0.161,
+    0.518
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "재테크 상식",
+   "surface": "FEED",
+   "n": 21,
+   "accounts": 4,
+   "lift": -0.237,
+   "shrunk": -0.16,
+   "ci90": [
+    -0.493,
+    0.295
+   ],
+   "p": 0.542,
+   "share_2x": 0.19,
+   "share_2x_ci": [
+    0.089,
+    0.363
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "소비·물가",
+   "surface": "FEED",
+   "n": 32,
+   "accounts": 5,
+   "lift": -0.249,
+   "shrunk": -0.19,
+   "ci90": [
+    -0.681,
+    0.038
+   ],
+   "p": 0.156,
+   "share_2x": 0.219,
+   "share_2x_ci": [
+    0.123,
+    0.358
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "소비·물가",
+   "surface": "REELS",
+   "n": 3,
+   "accounts": 3,
+   "lift": -1.423,
+   "shrunk": -0.328,
+   "ci90": [
+    -1.423,
+    -1.423
+   ],
+   "p": 0.0,
+   "share_2x": 0.0,
+   "share_2x_ci": [
+    0.0,
+    0.474
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "topic_major",
+   "value": "트렌드",
+   "surface": "REELS",
+   "n": 10,
+   "accounts": 3,
+   "lift": -0.682,
+   "shrunk": -0.341,
+   "ci90": [
+    -1.39,
+    0.031
+   ],
+   "p": 0.126,
+   "share_2x": 0.1,
+   "share_2x_ci": [
+    0.023,
+    0.348
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "topic_major",
+   "value": "시장",
+   "surface": "FEED",
+   "n": 99,
+   "accounts": 4,
+   "lift": -0.822,
+   "shrunk": -0.746,
+   "ci90": [
+    -0.993,
+    -0.598
+   ],
+   "p": 0.0,
+   "share_2x": 0.101,
+   "share_2x_ci": [
+    0.061,
+    0.162
+   ],
+   "grade": "관찰",
+   "bh_pass": true
+  },
+  {
+   "dim": "visual",
+   "value": "실사",
+   "surface": "REELS",
+   "n": 55,
+   "accounts": 5,
+   "lift": 0.434,
+   "shrunk": 0.367,
+   "ci90": [
+    -0.21,
+    0.834
+   ],
+   "p": 0.302,
+   "share_2x": 0.364,
+   "share_2x_ci": [
+    0.266,
+    0.474
+   ],
+   "grade": "유망",
+   "bh_pass": false
+  },
+  {
+   "dim": "visual",
+   "value": "그래픽",
+   "surface": "REELS",
+   "n": 59,
+   "accounts": 6,
+   "lift": 0.132,
+   "shrunk": 0.113,
+   "ci90": [
+    -0.346,
+    0.565
+   ],
+   "p": 0.66,
+   "share_2x": 0.305,
+   "share_2x_ci": [
+    0.217,
+    0.41
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "visual",
+   "value": "실사",
+   "surface": "FEED",
+   "n": 280,
+   "accounts": 7,
+   "lift": 0.049,
+   "shrunk": 0.048,
+   "ci90": [
+    -0.053,
+    0.251
+   ],
+   "p": 0.324,
+   "share_2x": 0.289,
+   "share_2x_ci": [
+    0.247,
+    0.336
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  },
+  {
+   "dim": "visual",
+   "value": "그래픽",
+   "surface": "FEED",
+   "n": 309,
+   "accounts": 7,
+   "lift": -0.142,
+   "shrunk": -0.138,
+   "ci90": [
+    -0.301,
+    0.024
+   ],
+   "p": 0.154,
+   "share_2x": 0.256,
+   "share_2x_ci": [
+    0.217,
+    0.298
+   ],
+   "grade": "관찰",
+   "bh_pass": false
+  }
+ ],
+ "rising": [
+  {
+   "dim": "topic_major",
+   "value": "컬처",
+   "z": 5.74,
+   "count_2w": 63,
+   "accounts": 5,
+   "label": "급상승"
+  },
+  {
+   "dim": "topic_major",
+   "value": "해외",
+   "z": 0.5,
+   "count_2w": 28,
+   "accounts": 3,
+   "label": "성과 신호"
+  },
+  {
+   "dim": "topic_major",
+   "value": "트렌드",
+   "z": 4.63,
+   "count_2w": 48,
+   "accounts": 6,
+   "label": "업계 유행"
+  },
+  {
+   "dim": "angle",
+   "value": "소식 전달",
+   "z": 8.24,
+   "count_2w": 111,
+   "accounts": 6,
+   "label": "업계 유행"
+  },
+  {
+   "dim": "angle",
+   "value": "비교·순위",
+   "z": -1.23,
+   "count_2w": 16,
+   "accounts": 3,
+   "label": "성과 신호"
+  },
+  {
+   "dim": "angle",
+   "value": "기업·인물 스토리",
+   "z": -2.71,
+   "count_2w": 35,
+   "accounts": 4,
+   "label": "성과 신호"
+  },
+  {
+   "dim": "hook_cover",
+   "value": "서술형",
+   "z": 8.42,
+   "count_2w": 169,
+   "accounts": 6,
+   "label": "업계 유행"
+  },
+  {
+   "dim": "structure",
+   "value": "단일 팩트+해설",
+   "z": 2.82,
+   "count_2w": 146,
+   "accounts": 6,
+   "label": "급상승"
+  }
+ ],
+ "top": [
+  {
+   "id": "18002825612810254",
+   "account": "byte._.bites",
+   "surface": "FEED",
+   "type": "IMAGE",
+   "age_h": 106.1,
+   "timestamp": "2026-11-04T05:03:30+0000",
+   "E": 692,
+   "B": 47.0,
+   "s": 2.5,
+   "mature": true,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "💰 주가 바닥에 베팅한 안철수, 넉 달 만에 88억 ‘잭팟’",
+   "cover_text": "Byte",
+   "visual_kind": "photo",
+   "keywords": [
+    "안랩",
+    "주가",
+    "평가액",
+    "안철수",
+    "만에",
+    "주식",
+    "의원",
+    "매수",
+    "해킹",
+    "보안주",
+    "장중",
+    "기준"
+   ],
+   "structure": "문장>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>해시태그",
+   "permalink": "https://www.instagram.com/p/DfTqWIwgYxB/"
+  },
+  {
+   "id": "18112234346212539",
+   "account": "byte._.bites",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 101.8,
+   "timestamp": "2026-11-04T09:25:25+0000",
+   "E": 1934,
+   "B": 76,
+   "s": 2.5,
+   "mature": true,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "⛵️ 정주영 현대 회장의 한달 휴가 계획은?",
+   "cover_text": "Byte 에게",
+   "visual_kind": "photo",
+   "keywords": [
+    "정주영",
+    "어렸을",
+    "논두렁만",
+    "걸어도",
+    "현대",
+    "회장의",
+    "한달",
+    "휴가",
+    "계획은",
+    "평생",
+    "방학",
+    "없이"
+   ],
+   "structure": "질문>이모지소제목>결론×2>문장>이모지소제목>결론×2>이모지소제목>결론×2>질문>결론×2>문장>해시태그",
+   "permalink": "https://www.instagram.com/reel/DfUIKR0BScu/"
+  },
+  {
+   "id": "17971122194963738",
+   "account": "ekke.now",
+   "surface": "FEED",
+   "type": "CAROUSEL_ALBUM",
+   "age_h": 82.7,
+   "timestamp": "2026-11-05T04:30:18+0000",
+   "E": 507,
+   "B": 36.0,
+   "s": 2.5,
+   "mature": true,
+   "likes_hidden": true,
+   "slides": 4,
+   "first_line": "🗳️ 텍사스 상원의원 당선된 89년생",
+   "cover_text": "TEX 384 89 정치인",
+   "visual_kind": "graphic",
+   "keywords": [
+    "텍사스",
+    "상원의원",
+    "연방",
+    "당선된",
+    "민주당",
+    "제임스",
+    "선거에서",
+    "탈라리코는",
+    "최연소",
+    "탈라리코",
+    "중학교",
+    "학년"
+   ],
+   "structure": "이모지소제목>항목>문장×5>항목>문장>이모지소제목>항목×2>문장>항목>이모지소제목>항목>문장×4>결론>문장>이모지소제목×2>문장",
+   "permalink": "https://www.instagram.com/p/DfWLVwGINCS/"
+  },
+  {
+   "id": "17970844382963309",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 75.2,
+   "timestamp": "2026-11-05T12:00:04+0000",
+   "E": 18523,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": true,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "<72시간 소개팅> 장하영, 박기표 커플 근황 공개.💌 서로 다른 겨울을 보내온 두 사람이 이제 같은 계절을",
+   "cover_text": "아니고 예비",
+   "visual_kind": "photo",
+   "keywords": [
+    "시간",
+    "소개팅",
+    "장하영",
+    "박기표",
+    "커플",
+    "근황",
+    "공개",
+    "서로",
+    "다른",
+    "겨울을",
+    "보내온",
+    "사람이"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/DfW-6LFhDNr/"
+  },
+  {
+   "id": "18056493881660510",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 72.5,
+   "timestamp": "2026-11-05T14:40:58+0000",
+   "E": 11069,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": true,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "오늘 에르노 행사장에서 만난 에이티즈 산 다시 보며 셔터 내리겠습니다.🫠 한국 하트 알려주는 최산(choi3",
+   "cover_text": "오늘",
+   "visual_kind": "photo",
+   "keywords": [
+    "에르노",
+    "행사장에서",
+    "만난",
+    "에이티즈",
+    "다시",
+    "보며",
+    "셔터",
+    "내리겠습니다",
+    "한국",
+    "하트",
+    "알려주는",
+    "최산"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/DfXQ4ktiML4/"
+  },
+  {
+   "id": "18139228135656669",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 62.6,
+   "timestamp": "2026-11-06T00:34:34+0000",
+   "E": 75466,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": false,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "오늘 아침 추워서 재채기 나온 원영이.💕 로라로라(rolarola.official)에서 만난 장원영(for_",
+   "cover_text": "",
+   "visual_kind": "photo",
+   "keywords": [
+    "재채기",
+    "아침",
+    "추워서",
+    "나온",
+    "원영이",
+    "로라로라",
+    "rolarola",
+    "official",
+    "에서",
+    "만난",
+    "장원영",
+    "everyoung"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/DfYU1aMiu4V/"
+  },
+  {
+   "id": "18081067634749956",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 57.0,
+   "timestamp": "2026-11-06T06:10:12+0000",
+   "E": 9986,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": false,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "제니가 넷플릭스 애니메이션 영화의 OST ‘Someone to Hold’ 클립을 공개했습니다.❤️ 제니(je",
+   "cover_text": "1 OS 마나",
+   "visual_kind": "photo",
+   "keywords": [
+    "애니메이션",
+    "제니가",
+    "넷플릭스",
+    "영화의",
+    "OST",
+    "Someone",
+    "to",
+    "Hold",
+    "클립을",
+    "공개했습니다",
+    "제니",
+    "jennierubyjane"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/DfY7cNxC_Qw/"
+  },
+  {
+   "id": "18131709187883511",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 36.4,
+   "timestamp": "2026-11-07T02:48:49+0000",
+   "E": 25854,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": false,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "이 애교에 한파 따위가 버틸 리 없다.🫠 커브패딩보다 따뜻한 건 카리나의 용안. 🎥 아이즈매거진",
+   "cover_text": "오늘",
+   "visual_kind": "photo",
+   "keywords": [
+    "애교에",
+    "한파",
+    "따위가",
+    "버틸",
+    "없다",
+    "커브패딩보다",
+    "따뜻한",
+    "카리나의",
+    "용안",
+    "아이즈매거진"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/DfbJIhiCvUf/"
+  },
+  {
+   "id": "18115265753621057",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 30.1,
+   "timestamp": "2026-11-07T09:06:40+0000",
+   "E": 27931,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": false,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "콘서트 시작 전에 만난 박진영.🖤 자꾸 제 마음 가져가시면 안돼요. 무대에 오르기 전 짧은 인삿말을 바로 만",
+   "cover_text": "이가 흔들면 흔들려",
+   "visual_kind": "photo",
+   "keywords": [
+    "콘서트",
+    "시작",
+    "전에",
+    "만난",
+    "박진영",
+    "자꾸",
+    "마음",
+    "가져가시면",
+    "안돼요",
+    "무대에",
+    "오르기",
+    "짧은"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/Dfb0VNpip55/"
+  },
+  {
+   "id": "18182490961437172",
+   "account": "eyesmag",
+   "surface": "REELS",
+   "type": "VIDEO",
+   "age_h": 28.9,
+   "timestamp": "2026-11-07T10:19:45+0000",
+   "E": 29846,
+   "B": 759.0,
+   "s": 2.5,
+   "mature": false,
+   "likes_hidden": false,
+   "slides": null,
+   "first_line": "진영이 생멈보 라이브 낋여왔습니다.🖤 진영(jinyoung_0922jy)이 오늘 단독 콘서트에서 ʻ생각을 멈",
+   "cover_text": "0 누나 생각",
+   "visual_kind": "graphic",
+   "keywords": [
+    "진영이",
+    "생멈보",
+    "라이브",
+    "낋여왔습니다",
+    "진영",
+    "jinyoung",
+    "jy",
+    "단독",
+    "콘서트에서",
+    "생각을",
+    "멈추다",
+    "보면"
+   ],
+   "structure": "문장",
+   "permalink": "https://www.instagram.com/reel/Dfb8cuJiv4W/"
+  }
+ ],
+ "bottom": [
+  {
+   "id": "18033134291881143",
+   "account": "ekke.now",
+   "surface": "FEED",
+   "type": "CAROUSEL_ALBUM",
+   "age_h": 136.0,
+   "timestamp": "2026-11-02T23:11:51+0000",
+   "E": 0,
+   "B": 22.5,
+   "s": -2.5,
+   "mature": true,
+   "likes_hidden": true,
+   "slides": 4,
+   "first_line": "자는 동안 놓친 뉴스😴",
+   "cover_text": "자는 동안 놓친 뉴스 2026.1.03. stu 투자 증시 혼조 마벨, ",
+   "visual_kind": "graphic",
+   "keywords": [
+    "자는",
+    "동안",
+    "놓친",
+    "뉴스",
+    "벌기",
+    "모으기",
+    "쓰기와",
+    "관련된",
+    "가장",
+    "트렌디한",
+    "소식",
+    "받아보기"
+   ],
+   "structure": "문장>이모지소제목>문장",
+   "permalink": "https://www.instagram.com/p/DfQdTnDkj9i/"
+  },
+  {
+   "id": "18029685815699212",
+   "account": "ekke.now",
+   "surface": "FEED",
+   "type": "CAROUSEL_ALBUM",
+   "age_h": 112.2,
+   "timestamp": "2026-11-03T22:57:25+0000",
+   "E": 0,
+   "B": 39.0,
+   "s": -2.5,
+   "mature": true,
+   "likes_hidden": true,
+   "slides": 4,
+   "first_line": "자는 동안 놓친 뉴스😴",
+   "cover_text": "자는 동안 놓친 뉴스 2026.1.4. 선거 경계 혼조",
+   "visual_kind": "graphic",
+   "keywords": [
+    "자는",
+    "동안",
+    "놓친",
+    "뉴스",
+    "벌기",
+    "모으기",
+    "쓰기와",
+    "관련된",
+    "가장",
+    "트렌디한",
+    "소식",
+    "받아보기"
+   ],
+   "structure": "문장>이모지소제목>문장",
+   "permalink": "https://www.instagram.com/p/DfTAc11Eurg/"
+  },
+  {
+   "id": "18060786407799627",
+   "account": "ekke.now",
+   "surface": "FEED",
+   "type": "CAROUSEL_ALBUM",
+   "age_h": 109.0,
+   "timestamp": "2026-11-04T02:12:26+0000",
+   "E": 0,
+   "B": 31.5,
+   "s": -2.5,
+   "mature": true,
+   "likes_hidden": true,
+   "slides": 4,
+   "first_line": "💵 슈퍼카도 앱으로 사는 백화점 vip",
+   "cover_text": "1 THE SHOWCASE 새로운 VIP 스타일 플랫폼 4 10 3 60",
+   "visual_kind": "graphic",
+   "keywords": [
+    "만에",
+    "VIP",
+    "전용",
+    "맞춤형",
+    "쇼케이스",
+    "올해",
+    "원을",
+    "앱에서",
+    "등을",
+    "람보르기니",
+    "연계해",
+    "주방"
+   ],
+   "structure": "이모지소제목>항목>문장×4>항목>문장×2>이모지소제목>항목>문장×2>결론>항목>문장>항목>문장>이모지소제목>항목>문장×3>결론>항목>문장>항목>문장>이모지소제목>항목>문장×2>항목>문장×2>이모지소제목×2>문장",
+   "permalink": "https://www.instagram.com/p/DfTWxM0H8uY/"
+  },
+  {
+   "id": "17926104336434797",
+   "account": "longblack.co",
+   "surface": "FEED",
+   "type": "CAROUSEL_ALBUM",
+   "age_h": 158.7,
+   "timestamp": "2026-11-02T00:30:15+0000",
+   "E": 9,
+   "B": 95.5,
+   "s": -2.267,
+   "mature": true,
+   "likes_hidden": true,
+   "slides": 9,
+   "first_line": "부가세 영수증 분류도, 매달 급여 정산도, 매일의 매출 보고도 알아서 돌아가요. 거의 대부분의 반복 업무를 ",
+   "cover_text": "16 카페 사장 에게 묻다. LongBlack",
+   "visual_kind": "graphic",
+   "keywords": [
+    "이림",
+    "부가세",
+    "영수증",
+    "분류도",
+    "매달",
+    "급여",
+    "정산도",
+    "매일의",
+    "매출",
+    "보고도",
+    "알아서",
+    "돌아가요"
+   ],
+   "structure": "문장×2>이모지소제목",
+   "permalink": "https://www.instagram.com/p/DfOBfAxgZkC/"
+  },
+  {
+   "id": "17992542336019440",
+   "account": "ekke.now",
+   "surface": "FEED",
+   "type": "CAROUSEL_ALBUM",
+   "age_h": 88.1,
+   "timestamp": "2026-11-04T23:03:42+0000",
+   "E": 3,
+   "B": 36.0,
+   "s": -2.225,
+   "mature": true,
+   "likes_hidden": true,
+   "slides": 4,
+   "first_line": "자는 동안 놓친 뉴스😴",
+   "cover_text": "자는 동안 놓친 뉴스 2026.11.05. stu 하원 모두 장악 선거 ",
+   "visual_kind": "graphic",
+   "keywords": [
+    "자는",
+    "동안",
+    "놓친",
+    "뉴스",
+    "벌기",
+    "모으기",
+    "쓰기와",
+    "관련된",
+    "가장",
+    "트렌디한",
+    "소식",
+    "받아보기"
+   ],
+   "structure": "문장>이모지소제목>문장",
+   "permalink": "https://www.instagram.com/p/DfVl9qEklRC/"
+  }
+ ],
+ "radar_7d": [
+  {
+   "word": "가장",
+   "accounts": [
+    "careet.official",
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "투자",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "미국",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "만에",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "서울",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "데이터센터",
+   "accounts": [
+    "3protv.official",
+    "byte._.bites",
+    "ekke.now"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "민주당이",
+   "accounts": [
+    "3protv.official",
+    "ekke.now",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "민주당",
+   "accounts": [
+    "3protv.official",
+    "byte._.bites",
+    "ekke.now"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "선거",
+   "accounts": [
+    "3protv.official",
+    "byte._.bites",
+    "ekke.now"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "급등",
+   "accounts": [
+    "3protv.official",
+    "byte._.bites",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "달러",
+   "accounts": [
+    "3protv.official",
+    "byte._.bites",
+    "ekke.now"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "브랜드",
+   "accounts": [
+    "careet.official",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "테슬라",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "출시",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "반도체",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "트럼프",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "한국",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "이상",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "크리에이터",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "주식",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "최종",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "구매",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "대통령",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "까지",
+   "accounts": [
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "하는",
+   "accounts": [
+    "ekke.now",
+    "eyesmag",
+    "longblack.co"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "어떤",
+   "accounts": [
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "이유",
+   "accounts": [
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "시간",
+   "accounts": [
+    "ekke.now",
+    "eyesmag",
+    "newneek.official"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "압승",
+   "accounts": [
+    "3protv.official",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "규제",
+   "accounts": [
+    "3protv.official",
+    "ekke.now"
+   ],
+   "covered_by_us": true
+  },
+  {
+   "word": "함께",
+   "accounts": [
+    "3protv.official",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "기회",
+   "accounts": [
+    "3protv.official",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "하기",
+   "accounts": [
+    "3protv.official",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "올해",
+   "accounts": [
+    "careet.official",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "라고",
+   "accounts": [
+    "careet.official",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "할인",
+   "accounts": [
+    "careet.official",
+    "eyesmag"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "요즘",
+   "accounts": [
+    "careet.official",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "받음",
+   "accounts": [
+    "careet.official",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "년간",
+   "accounts": [
+    "byte._.bites",
+    "ekke.now"
+   ],
+   "covered_by_us": false
+  },
+  {
+   "word": "사이",
+   "accounts": [
+    "byte._.bites",
+    "newneek.official"
+   ],
+   "covered_by_us": false
+  }
+ ],
+ "coded_share": 0.575
+}
