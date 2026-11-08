@@ -1,0 +1,19 @@
+{
+ "id": "zz-test-photo",
+ "render_in_actions": true,
+ "slides": [
+  {
+   "t": "photo_cover",
+   "photo": "media/zz-test-photo/src/51fe9026bb14.jpg",
+   "title": "사진 자동 수집\n테스트 표지",
+   "kw": "자동 수집",
+   "credit": "DrHughManning / wikimedia"
+  },
+  {
+   "t": "photo_cover",
+   "photo": null,
+   "title": "사진 실패 시\n그래픽 대체",
+   "kw": "그래픽"
+  }
+ ]
+}
