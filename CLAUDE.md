@@ -16,7 +16,12 @@
 3. 이슈 수집: WebSearch(mode standard, 필요하면 extended)로 최근 12시간 경제·소비·기업 뉴스를 찾는다. 기사 페이지를 실제로 열어(WebFetch) 숫자를 확인한다. 검색 스니펫만으로 쓰지 않는다.
 4. 점수화: 관심도·공유 가능성·시의성·사실 확인 가능성 각 5점. 가장 높은 것부터 그날 편성 슬롯에 배정한다.
 5. 콘텐츠 작성: `content/<YYYY-MM-DD>-<slug>.json`(카드 스펙)과 `.caption.txt`. 모든 숫자는 서로 다른 두 출처로 교차 확인하고, 확인 못 한 숫자는 빼거나 '~로 알려졌다'가 아니라 아예 쓰지 않는다.
-6. 렌더: `python3 scripts/render.py content/<id>.json media/<id>` (카드, JPEG 1080x1350). 릴스는 `python3 scripts/make_reel.py content/<id>.reel.json media/<id>/reel.mp4`. 결과 이미지를 Read로 직접 열어 글자 잘림·겹침을 확인한다.
+6. 렌더:
+   - 그래픽 카드: `python3 scripts/render.py content/<id>.json media/<id>` (JPEG 1080x1350).
+   - 실사 사진 표지: 이 환경은 이미지를 내려받을 수 없으므로 GitHub Actions가 렌더한다. 스펙에 `"render_in_actions": true`를 넣고, 표지 슬라이드를 `{"t":"photo_cover","photo":"<https 사진 주소>","title":"...","kw":"...","bubble":"한마디(선택)","credit":"사진 출처"}`로 쓴 뒤 push한다. 3~5분 뒤 `git pull`해서 `media/<id>/01.jpg`가 생겼는지 확인한다(기다릴 때는 Bash run_in_background로 git fetch를 20초 간격으로 반복). `media/<id>/src/error.txt`가 생기면 사진 주소를 바꿔 다시 push한다. 15분 안에 안 되면 그래픽 표지로 대신한다.
+   - 사진 고르기: (1) 기업·기관 공식 보도자료·뉴스룸 사진 (2) 정책브리핑(korea.kr) 등 공공누리 1유형 (3) 미국 정부 저작물 (4) Unsplash 무료 사진(Unsplash+ 유료 제외, 주소는 `https://unsplash.com/photos/<id>/download?force=true`), Pexels. 사진 페이지를 WebFetch로 열어 라이선스 문구를 확인하고 `credit`에 출처를 쓴다. 기사 사진, 방송 캡처, 핀터레스트, 연예인·인물 사진 무단 사용, 실존 인물 AI 합성은 금지.
+   - 릴스: `python3 scripts/make_reel.py content/<id>.reel.json media/<id>/reel.mp4`. 스펙의 `"music"`으로 배경음을 고른다: `{"mood":"upbeat"|"tense"|"chill"}`은 자체 제작 음악(저작권 문제 없음, 기본값). 무료 음원 라이브러리 곡을 쓰려면 `{"url":"<mp3 주소>","license":"<라이선스 이름과 조건>","title":"<곡명>"}`과 `"render_in_actions": true`를 넣는다(Actions가 내려받아 music/LICENSES.md에 기록). 급락·논란 이슈는 tense, 소비·트렌드는 upbeat, 회고·요약은 chill.
+   - 결과 이미지는 Read로 직접 열어 글자 잘림·겹침을 확인하고, 릴스는 ffmpeg로 프레임 3장을 뽑아 확인한다.
 7. 검토: 서로 결과를 보지 않는 별도 에이전트(Agent 도구)에게 7인 검토(편집장, 팩트체커, 법무·저작권, 아트디렉터, 데이터 분석가, 그로스 마케터, 독자 대표)를 맡긴다. 팩트체커와 법무 FAIL은 반드시 고치고 재검토한다. 두 번 연속 FAIL이면 폐기하고 `playbook/decisions.md`에 사유를 남긴다.
 8. queue 등록: `queue/<YYYYMMDD-HHMM>-<slug>.json` — 형식은 `scripts/publish.py` 상단 주석 참고. 캐러셀은 `{"type":"carousel","items":[{"image":"media/<id>/01.jpg"},...],"caption":"...","publish_at":"2026-11-09T07:30:00+09:00"}`. 새 피드 게시물마다 표지 이미지를 스토리로도 5분 뒤에 1개 넣는다.
 9. 커밋·푸시: 커밋 메시지에 무엇을 언제 게시하는지 적고 `git pull --rebase` 후 push. 실패하면 한 번만 재시도.
@@ -30,7 +35,8 @@
 
 ## 반드시 지킬 것
 - 원문 복사 금지, 직접 재작성하고 출처를 캡션과 카드에 적는다. 기사 사진·방송 캡처·핀터레스트 이미지·실존 인물 AI 합성 금지.
-- 이미지·영상은 직접 만든 그래픽, 공식 보도자료, 공공누리 1유형(정책브리핑·KTV), 미국 정부 저작물, 무료 상업 이용 스톡만.
+- 이미지·영상은 직접 만든 그래픽, 공식 보도자료, 공공누리 1유형(정책브리핑·KTV), 미국 정부 저작물, 무료 상업 이용 스톡만. 편성 중 하루 2개 이상은 실사 사진 표지로 만든다(이슈 1개 카드 슬롯 우선).
+- 릴스 음악은 자체 제작 음악(scripts/music.py) 또는 라이선스를 기록한 무료 음원만. 인스타 앱 음악은 API로 붙일 수 없다.
 - 투자 권유 금지(매수·매도 언급 금지, '정보 제공 목적' 표기). 정치는 사실만, 편들지 않는다. 미확인 루머·사생활 금지.
 - 말투: 음슴체(~함/~임) + 가벼운 반응어, 독자 호칭은 '정글러님들'. 합쇼체·홍보 위주 게시물 금지.
 - 해시태그: 2주간 A/B 실험 중(playbook.md 참고).
