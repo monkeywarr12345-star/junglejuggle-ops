@@ -52,5 +52,17 @@
   "mood": "chill",
   "file": "music/library/chill/intoxicated-piano-mr-mrs-rains-802107.mp3",
   "at": "2026-11-08T21:29:36+00:00"
+ },
+ {
+  "reel": "2026-11-09-coreweave",
+  "mood": "tense",
+  "file": "music/library/tense/jos-montoya-ignis-dei-96c1a4.mp3",
+  "at": "2026-11-08T21:45:56+00:00"
+ },
+ {
+  "reel": "2026-11-09-overnight",
+  "mood": "chill",
+  "file": "music/library/chill/studybreak-waves-d127f9.mp3",
+  "at": "2026-11-08T21:46:23+00:00"
  }
 ]
