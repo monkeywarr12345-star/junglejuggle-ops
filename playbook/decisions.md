@@ -14,3 +14,7 @@
 ## 2026-11-08 사진 소스 확장·외부 음원 라이브러리
 - 사진: Actions에서 여러 무료 소스(Openverse, Wikimedia Commons 무키 / Pexels·Unsplash·Pixabay 키 선택)를 자동 탐색. 실패 시 그래픽 배경으로 대체. 테스트: 반도체 웨이퍼 사진(Wikimedia, CC BY-SA 4.0) 자동 수집 성공, 잘못된 주소는 그래픽 대체 확인.
 - 음원: 상업 인기곡(K-pop 등)은 무료·합법적으로 API 게시에 쓸 수 없음. 대신 무료 음원 플랫폼의 이번 주 인기곡·신곡을 매주 자동 수집하고 순환 사용. 첫 수집 12곡(upbeat 6, tense 6). Jamendo 키(JAMENDO_CLIENT_ID)가 등록되면 '주간 인기순'이 추가됨.
+
+## 2026-11-08 Jamendo 비상업 조건
+- Jamendo 무료 API 약관(3.3)은 비상업 용도만 무료, 광고·제휴 등 수익 목적은 licensing@jamendo.com 견적 필요. 곡 자체는 아티스트의 CC BY/BY-SA라 상업 이용 가능.
+- 수익이 생기면 music/config.json의 commercial을 true로 바꿔 Jamendo 곡 사용을 끊는다(이미 게시된 릴스는 그대로 두되 사용자 확인 필요로 남김). 사용자가 수익화 시점을 알려주기로 함.

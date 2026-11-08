@@ -1,0 +1,1 @@
+{"commercial": false, "_note": "수익(협찬·광고·제휴)이 생기면 true로 바꾸고 music/refresh.request를 push한다. Jamendo 무료 API는 비상업용이라 true면 Jamendo 곡을 빼고 다른 CC 음원과 자체 제작 음악만 쓴다."}

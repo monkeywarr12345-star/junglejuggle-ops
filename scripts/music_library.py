@@ -66,9 +66,20 @@ def license_label(lic):
     return ("CC BY-SA" if "by-sa" in lic else "CC BY") + (f" {ver.group(1)}" if ver else "")
 
 
+def commercial_mode():
+    """music/config.json {"commercial": true} once the account earns money (sponsorship, ads, affiliate).
+    Jamendo's free API is for non-commercial use only, so commercial mode stops using it and every
+    Jamendo-hosted track; CC0 / CC BY tracks from other sources and generated music remain."""
+    return load(MUSIC / "config.json", {}).get("commercial", False)
+
+
+def is_jamendo(t):
+    return "jamendo" in t.get("source", "") or "jamendo" in (t.get("page") or "")
+
+
 def jamendo_candidates(mood):
     cid = os.environ.get("JAMENDO_CLIENT_ID")
-    if not cid:
+    if not cid or commercial_mode():
         return []
     out = []
     for order in ("popularity_week", "releasedate_desc"):
@@ -96,7 +107,7 @@ def openverse_candidates(mood):
         print(f"openverse '{query}': {len(data.get('results', []))} results", file=sys.stderr)
         for rank, r in enumerate(data.get("results", [])):
             dur = (r.get("duration") or 0) / 1000
-            if not 60 <= dur <= 420 or not r.get("url"):
+            if not 60 <= dur <= 420 or not r.get("url") or (commercial_mode() and "jamendo" in (r.get("source") or "") + r["url"]):
                 continue
             out.append({"source": f"openverse/{r.get('source', '')}", "src_id": f"ov-{r['id']}", "title": html.unescape(r.get("title") or "Untitled"),
                         "artist": html.unescape(r.get("creator") or "Unknown"), "license": license_label(r["license"] + (r.get("license_version") or "")),
@@ -133,6 +144,10 @@ def write_licenses(lib):
 def refresh():
     lib = load(LIB_JSON, [])
     usage = load(USAGE_JSON, [])
+    if commercial_mode():  # drop Jamendo tracks from the working library (already-published reels are untouched)
+        for t in [t for t in lib if is_jamendo(t)]:
+            (ROOT / t["file"]).unlink(missing_ok=True)
+            lib.remove(t)
     known = {t["src_id"] for t in lib} | {(t["title"].lower(), t["artist"].lower()) for t in lib}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     added = 0
@@ -170,7 +185,8 @@ def refresh():
 
 
 def pick(mood, reel_id):
-    lib = [t for t in load(LIB_JSON, []) if t["mood"] == mood and (ROOT / t["file"]).exists()]
+    lib = [t for t in load(LIB_JSON, []) if t["mood"] == mood and (ROOT / t["file"]).exists()
+           and not (commercial_mode() and is_jamendo(t))]
     if not lib:
         return None
     usage = load(USAGE_JSON, [])
