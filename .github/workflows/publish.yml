@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always the newest queue: a run that waited in line must not see items an earlier run already posted
 
       - uses: actions/setup-python@v5
         with:

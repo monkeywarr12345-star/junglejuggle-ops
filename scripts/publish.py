@@ -151,6 +151,10 @@ def main():
             item = json.loads(path.read_text(encoding="utf-8"))
             if not is_due(item, now):
                 continue
+            if (POSTED / path.name).exists():  # already published by an earlier run: never post twice
+                print(f"  skip {path.name}: already in posted/")
+                path.unlink()
+                continue
             print(f"Publishing {path.name} ({item.get('type', 'feed')})")
             if DRY_RUN:
                 print("  dry run: skipped")
