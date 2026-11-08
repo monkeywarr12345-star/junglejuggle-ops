@@ -1,7 +1,7 @@
 {
  "id": "test-photo-cover",
  "render_in_actions": true,
- "note": "pipeline test, not for posting (run 3)",
+ "note": "pipeline test, not for posting (run 4)",
  "slides": [
   {
    "t": "photo_cover",
