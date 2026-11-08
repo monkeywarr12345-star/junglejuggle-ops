@@ -1,0 +1,11 @@
+{
+  "id": "test-photo-cover",
+  "render_in_actions": true,
+  "note": "pipeline test, not for posting",
+  "slides": [
+    {"t": "photo_cover", "photo": "https://unsplash.com/photos/mfzjXUk1jyg/download?force=true",
+     "title": "실사 표지 테스트,\n핵심 단어만 보라 박스", "kw": "보라 박스", "bubble": "사진 합성 됨?",
+     "credit": "Joshua Mayo / Unsplash"},
+    {"t": "item", "n": "01 / 01", "title": "두 번째 장은\n그래픽 카드", "kw": "그래픽", "bullets": ["Actions에서 렌더링한 결과"], "src": "테스트"}
+  ]
+}
