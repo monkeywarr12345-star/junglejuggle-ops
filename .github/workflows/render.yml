@@ -39,6 +39,11 @@ jobs:
         id: render
         if: steps.check.outputs.needed == 'true'
         continue-on-error: true
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
         run: python scripts/remote_render.py
       - name: Save media
         if: steps.check.outputs.needed == 'true'
