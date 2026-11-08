@@ -73,11 +73,34 @@ def render_cards(spec_path, spec):
     tmp_spec.parent.mkdir(parents=True, exist_ok=True)
     tmp_spec.write_text(json.dumps(resolved, ensure_ascii=False, indent=1), encoding="utf-8")
     subprocess.run([sys.executable, str(ROOT / "scripts" / "render.py"), str(tmp_spec), str(out)], check=True)
+    if spec.get("feed_video", True) and len(spec["slides"]) >= 2:  # feed posts get music as video slides
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "make_feed_video.py"), str(tmp_spec), str(out)], check=True)
     return out
 
 
 def render_reel(spec_path, spec):
     out = ROOT / "media" / spec["id"]
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import photo_sources
+    spec = json.loads(json.dumps(spec))
+    credits, notes = [], []
+    for i, sc in enumerate(spec.get("scenes", []), 1):  # real photos for the hook scene (and any other scene)
+        photo = sc.get("photo")
+        if not photo or (isinstance(photo, str) and not photo.startswith("http")):
+            continue
+        try:
+            local, credit = photo_sources.resolve(photo, out / "src", used={c["page"] for c in credits})
+            sc["photo"] = str(local.relative_to(ROOT))
+            if credit.get("credit") and (credit["source"] != "direct" or not sc.get("credit")):
+                sc["credit"] = credit["credit"]
+            credits.append({"scene": i, **credit, "file": sc["photo"]})
+        except Exception as exc:
+            sc["photo"] = None
+            notes.append(f"scene {i}: photo fallback to graphic ({exc})")
+    (out / "src").mkdir(parents=True, exist_ok=True)
+    (out / "src" / "reel_credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+    fb = out / "src" / "reel_photo_fallback.txt"
+    fb.write_text("\n".join(notes) + "\n", encoding="utf-8") if notes else fb.unlink(missing_ok=True)
     music = spec.get("music", {})
     if music.get("url"):
         if not music.get("license"):
