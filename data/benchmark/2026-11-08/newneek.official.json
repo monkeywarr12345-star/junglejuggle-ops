@@ -1,0 +1,5693 @@
+{
+ "account": "newneek.official",
+ "collected_at": "2026-11-08T15:11:45+00:00",
+ "followers_count": 253462,
+ "media_count": 2249,
+ "posts": [
+  {
+   "id": "18111926036244236",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T06:01:55+0000",
+   "permalink": "https://www.instagram.com/p/DfbfamBj8ZL/",
+   "like_count": 157,
+   "comments_count": 5,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+    "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+    "structure": "이모지소제목>문장×5>이모지소제목×2>문장×2>이모지소제목>문장×3",
+    "numbers": [
+     "11월",
+     "1",
+     "25",
+     "25"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "요즘",
+     "뉴닉",
+     "official",
+     "유행",
+     "궁금하긴",
+     "한데",
+     "바빠서",
+     "챙겨볼",
+     "여유도",
+     "없었나요",
+     "마음"
+    ],
+    "series": "",
+    "chars": 357,
+    "lines": 14,
+    "emoji_per_100": 2.8,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "11 1 신상 모음 나만",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.461,
+    "n_colors": 77,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17887142226676292",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T05:05:21+0000",
+   "permalink": "https://www.instagram.com/p/DfbYusUP0eD/",
+   "like_count": 31,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🚨마감임박(~11/8)🚨",
+    "last_question": "📍활동 혜택은? 내가 직접 만든 홍보 카드뉴스가 뉴닉에 소개되는 특별한 포트폴리오를 만들 수 있어요. 캔바 ",
+    "structure": "이모지소제목>문장×5",
+    "numbers": [
+     "11",
+     "8",
+     "11",
+     "8"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "선한",
+     "오지랖",
+     "클럽",
+     "찾아",
+     "매장을",
+     "누구나",
+     "캔바",
+     "뉴닉",
+     "마감임박",
+     "같이",
+     "부려볼",
+     "사람"
+    ],
+    "series": "",
+    "chars": 382,
+    "lines": 6,
+    "emoji_per_100": 1.83,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "클럽 만들고, 좋은",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.927,
+    "n_colors": 25,
+    "face": false,
+    "colors": [
+     "#50F0F0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18131306158843543",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T07:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfZBUkLDzUa/",
+   "like_count": 94,
+   "comments_count": 3,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 신인 아이돌인 줄 알았는데 세탁기 광고였다고? 🫧",
+    "last_question": "에이아이돌이 소개한 LG전자의 ‘AI 워시콤보’, 어떤 제품인지 궁금해졌다면? 지금 뉴닉 프로필 링크에서 주",
+    "structure": "해시태그>문장×3>질문>문장",
+    "numbers": [
+     "9월",
+     "1위",
+     "5",
+     "2.46억",
+     "72%",
+     "35%"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "AI",
+     "기능을",
+     "대신",
+     "인스타그램",
+     "해요",
+     "실제",
+     "워시콤보",
+     "신인",
+     "아이돌인",
+     "알았는데",
+     "세탁기",
+     "광고였다고"
+    ],
+    "series": "",
+    "chars": 719,
+    "lines": 6,
+    "emoji_per_100": 0.42,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "신인 알았는데 세탁기 였다? 신인",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.761,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18172177405472248",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T05:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfYznPdDwyk/",
+   "like_count": 114,
+   "comments_count": 3,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "61일간 진행된 2026 여수세계섬박람회가 막을 내렸어요. 세계 30개국과 국제기구 3곳이 참여한 국제행사였",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "61일",
+     "2026",
+     "30개",
+     "3",
+     "85%",
+     "43%",
+     "10명",
+     "8명",
+     "9월",
+     "18만",
+     "12월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "개막",
+     "관람객",
+     "목표의",
+     "여수시는",
+     "박람회가",
+     "일간",
+     "진행된",
+     "여수세계섬박람회가",
+     "막을",
+     "내렸어요",
+     "세계",
+     "개국과"
+    ],
+    "series": "",
+    "chars": 479,
+    "lines": 3,
+    "emoji_per_100": 0.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "여수 준비 사장 사후 까지",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.485,
+    "n_colors": 66,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18414620398094529",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T03:15:37+0000",
+   "permalink": "https://www.instagram.com/p/DfYnlt1D4AX/",
+   "like_count": 111,
+   "comments_count": 13,
+   "slides": 14,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "스토킹처벌법이 시행된 지 5년, 그런데도 스토킹 살인과 폭력 사건은 끊이지 않고 있어요. 법과 피해자 보호조",
+    "last_question": "스토킹처벌법이 시행된 지 5년, 그런데도 스토킹 살인과 폭력 사건은 끊이지 않고 있어요. 법과 피해자 보호조",
+    "structure": "질문>문장×2",
+    "numbers": [
+     "5년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "스토킹",
+     "피해자",
+     "범죄의",
+     "실질적인",
+     "뉴닉",
+     "아티클",
+     "스토킹처벌법이",
+     "시행된",
+     "그런데도",
+     "살인과",
+     "폭력",
+     "사건은"
+    ],
+    "series": "",
+    "chars": 391,
+    "lines": 3,
+    "emoji_per_100": 0.51,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "스토킹 범죄 피해 부터 피해자 대처 까지 여전히 받지 못할까",
+    "cover_chars": 24,
+    "visual": "graphic",
+    "top5_share": 0.605,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#707070",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18138654502640847",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T02:48:45+0000",
+   "permalink": "https://www.instagram.com/reel/DfYkQ03Pn5H/",
+   "like_count": 2991,
+   "comments_count": 41,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "주식 많이 하는 뉴닉 '슌대리'는 뭐 사요? 👀",
+    "last_question": "주식 많이 하는 뉴닉 '슌대리'는 뭐 사요? 👀",
+    "structure": "문장×4",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "주식",
+     "뉴닉",
+     "슌대리",
+     "사요",
+     "알아두면",
+     "유용한",
+     "재테크",
+     "시장",
+     "정보부터",
+     "놓치기",
+     "쉬운",
+     "사회"
+    ],
+    "series": "",
+    "chars": 208,
+    "lines": 4,
+    "emoji_per_100": 1.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "사요 사요",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.66,
+    "n_colors": 36,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#30B0B0"
+    ]
+   }
+  },
+  {
+   "id": "17943256266390296",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T00:48:06+0000",
+   "permalink": "https://www.instagram.com/p/DfYWtLOD9Mc/",
+   "like_count": 47,
+   "comments_count": 1,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "병원 안 가고 약 처방받는 ‘비대면 진료’, 어떻게 생각해? 💊",
+    "last_question": "다음 주에는 또 어떤 이슈와 의견을 만나게 될까요?",
+    "structure": "이모지소제목>문장×6>이모지소제목>문장>질문>문장",
+    "numbers": [
+     "12월",
+     "24일",
+     "7일",
+     "1,578명",
+     "41.4%",
+     "27.6%",
+     "22.2%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "의견이",
+     "의견을",
+     "비대면",
+     "진료",
+     "어떤",
+     "어떻게",
+     "환자",
+     "필요하다는",
+     "의료",
+     "접근성을",
+     "뉴니커들의",
+     "뉴니커가"
+    ],
+    "series": "",
+    "chars": 835,
+    "lines": 11,
+    "emoji_per_100": 1.08,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "환자 안전 병원 시간 없어! 계속 괜찮은 걸까?",
+    "cover_chars": 19,
+    "visual": "graphic",
+    "top5_share": 0.957,
+    "n_colors": 20,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17976453420173245",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfYKWchjxnG/",
+   "like_count": 133,
+   "comments_count": 0,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난 9월, 경찰이 진료 중인 아주대병원 소아응급실을 압수수색해 논란이 일었어요. 영아 사망 사건의 의료 과",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "9월",
+     "7년",
+     "1800명"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "필수의료",
+     "중인",
+     "의료사고",
+     "전공의가",
+     "지난",
+     "경찰이",
+     "진료",
+     "아주대병원",
+     "소아응급실을",
+     "압수수색해",
+     "논란이",
+     "일었어요"
+    ],
+    "series": "",
+    "chars": 303,
+    "lines": 3,
+    "emoji_per_100": 0.33,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "의료 의료 공백 까지",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.485,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18068475176792934",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T11:18:05+0000",
+   "permalink": "https://www.instagram.com/reel/DfW5x3iv14i/",
+   "like_count": 2867,
+   "comments_count": 608,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난 3일(현지시간) 치러진 미국 중간선거에서 민주당이 상원과 하원 모두 승리하며 20년 만에 압승을 거뒀어",
+    "last_question": "이번 중간선거 결과는 트럼프 대통령의 남은 임기와 미국 정치 지형에 어떤 변화를 가져올까요? 또 우리나라에는",
+    "structure": "문장×3>질문>문장>질문>문장>질문>결론>문장",
+    "numbers": [
+     "3일",
+     "20년",
+     "2024년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "미국",
+     "트럼프",
+     "어떤",
+     "민주당이",
+     "유권자들의",
+     "문제를",
+     "대통령의",
+     "중간선거",
+     "우리나라에는",
+     "영향이",
+     "지난",
+     "현지시간"
+    ],
+    "series": "",
+    "chars": 659,
+    "lines": 10,
+    "emoji_per_100": 0.76,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.916,
+    "n_colors": 14,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18062066447802390",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-04T22:45:02+0000",
+   "permalink": "https://www.instagram.com/p/DfVj8ADj2oQ/",
+   "like_count": 46,
+   "comments_count": 1,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "반도체 호황으로 세수가 크게 늘어날 거란 전망에 정부가 ‘미래대응기금’을 만들기로 했어요. 장기적인 세수 증",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "2027년",
+     "162조",
+     "3000억",
+     "30%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "반도체",
+     "정부가",
+     "사업에",
+     "기금",
+     "호황으로",
+     "세수가",
+     "크게",
+     "늘어날",
+     "거란",
+     "전망에",
+     "미래대응기금",
+     "만들기로"
+    ],
+    "series": "",
+    "chars": 337,
+    "lines": 3,
+    "emoji_per_100": 0.3,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "기금 162 엇갈린 162 정치권 대립 팽팽한 이유 부터 갖자 두자 4",
+    "cover_chars": 28,
+    "visual": "photo",
+    "top5_share": 0.473,
+    "n_colors": 50,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18132487771702631",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-04T06:29:58+0000",
+   "permalink": "https://www.instagram.com/p/DfT0Mq1v8GY/",
+   "like_count": 128,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "💡 윤석열 전 대통령 2심, 왜 화제인 거야?",
+    "last_question": "💡 앞으로 어떻게 되는 거야?",
+    "structure": "질문>문장>질문>문장>질문>문장",
+    "numbers": [
+     "2",
+     "100만",
+     "2022년",
+     "397억",
+     "2",
+     "4일",
+     "20",
+     "1",
+     "1년",
+     "6개",
+     "3년",
+     "2",
+     "2월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "윤석열",
+     "대통령",
+     "거야",
+     "확정되면",
+     "대선",
+     "어떻게",
+     "발언",
+     "화제인",
+     "공직선거법에",
+     "따르면",
+     "선거범죄로",
+     "징역형"
+    ],
+    "series": "",
+    "chars": 495,
+    "lines": 6,
+    "emoji_per_100": 0.61,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "선거법 대선 후보 시절 사실 공표 혐의 2 결과",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.622,
+    "n_colors": 45,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303050"
+    ]
+   }
+  },
+  {
+   "id": "18101151920420834",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-02T23:00:04+0000",
+   "permalink": "https://www.instagram.com/p/DfQb92Xj0i4/",
+   "like_count": 104,
+   "comments_count": 2,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "서울 아파트 평균 월세가 1년 새 15.1% 올라 166만 1000원을 기록했어요. 같은 기간 전셋값과 매매",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "1년",
+     "15.1%",
+     "166만",
+     "1000원",
+     "20%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "서울",
+     "월세가",
+     "전세",
+     "오피스텔",
+     "아파트",
+     "평균",
+     "올라",
+     "원을",
+     "기록했어요",
+     "같은",
+     "기간",
+     "전셋값과"
+    ],
+    "series": "",
+    "chars": 284,
+    "lines": 3,
+    "emoji_per_100": 0.35,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "HAZ 전세 감소 월세 1 사이 15% BS 특별시",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.559,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#3070D0"
+    ]
+   }
+  },
+  {
+   "id": "18030369158871733",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-02T08:19:48+0000",
+   "permalink": "https://www.instagram.com/p/DfO3OC9j3rd/",
+   "like_count": 84,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴니커는 책이 가장 잘 읽히는 순간이 있나요? 저는 날이 쌀쌀해질수록 따뜻한 자리에서 책장을 넘기는 시간이 ",
+    "last_question": "뉴니커는 책이 가장 잘 읽히는 순간이 있나요? 저는 날이 쌀쌀해질수록 따뜻한 자리에서 책장을 넘기는 시간이 ",
+    "structure": "문장×4>이모지소제목×3>문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "따뜻한",
+     "kr",
+     "뉴니커는",
+     "책이",
+     "가장",
+     "읽히는",
+     "순간이",
+     "있나요",
+     "저는",
+     "날이",
+     "쌀쌀해질수록",
+     "자리에서"
+    ],
+    "series": "",
+    "chars": 387,
+    "lines": 8,
+    "emoji_per_100": 2.07,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "까지",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.406,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18140054815558714",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-01T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfN3QEwD-T5/",
+   "like_count": 29,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 AI 혁신과 글로벌 경제의 변화로 투자 환경이 빠르게 달라지고 있어요. 이런 상황에서는 시장지수를 따",
+    "last_question": "💡 더 나은 투자 판단을 위한 포트폴리오 전략이 궁금하다면?",
+    "structure": "해시태그>문장×3>질문>결론",
+    "numbers": [
+     "50년",
+     "300명",
+     "2만",
+     "2026년",
+     "3월"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "투자",
+     "글로벌",
+     "있어요",
+     "다양한",
+     "포트폴리오를",
+     "전략이",
+     "펀드를",
+     "피델리티의",
+     "Fidelity",
+     "International",
+     "기준",
+     "AI"
+    ],
+    "series": "",
+    "chars": 556,
+    "lines": 6,
+    "emoji_per_100": 0.54,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "피델리티 글로벌 투자 말하는 포트폴리오 관리법",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.586,
+    "n_colors": 45,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17909681829332138",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-01T22:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfNwWqmj4gU/",
+   "like_count": 474,
+   "comments_count": 2,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "➊ 국토교통부가 수도권 그린벨트 6곳을 신규 택지 후보지로 발표했어요 🌳",
+    "last_question": "",
+    "structure": "이모지소제목>문장×2>이모지소제목>문장×3>이모지소제목>문장×3>항목>문장×2",
+    "numbers": [
+     "6",
+     "7만",
+     "6700",
+     "6개",
+     "5",
+     "2024년",
+     "8월",
+     "8",
+     "13",
+     "2년",
+     "1",
+     "29일",
+     "465개",
+     "1",
+     "12%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "지난",
+     "만에",
+     "거예요",
+     "하루",
+     "소득",
+     "그린벨트",
+     "구체적인",
+     "유해성분",
+     "처음으로",
+     "주목받고",
+     "있어요",
+     "구글"
+    ],
+    "series": "",
+    "chars": 1051,
+    "lines": 14,
+    "emoji_per_100": 1.05,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 5 이슈 모음 현생 사느라 놓친 지난주 이슈 TOPS",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.554,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17909646555329356",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-31T05:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfJW3lBD7W1/",
+   "like_count": 555,
+   "comments_count": 9,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "“교육 환경 개선해주세요!” 학생들의 요구로 시작해 → “물가 잡고 복지 늘려!” 하는 전 국민의 외침으로 ",
+    "last_question": "위기의 프랑스, 이민자가 원인일까요? 국내외 언론 기사부터 공식 기관들의 자료를 통해 근거를 살펴보고, 프랑",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "프랑스",
+     "시위",
+     "나아가",
+     "이민자",
+     "갈등이",
+     "교육",
+     "환경",
+     "개선해주세요",
+     "학생들의",
+     "요구로",
+     "시작해",
+     "물가"
+    ],
+    "series": "",
+    "chars": 462,
+    "lines": 3,
+    "emoji_per_100": 0.22,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이민자 논란 시위 원인 둘러싼 주장 검증 정말 이민자 이민 인식",
+    "cover_chars": 25,
+    "visual": "photo",
+    "top5_share": 0.427,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18099562103556795",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-31T02:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfJCPgdDy25/",
+   "like_count": 413,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+    "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+    "structure": "이모지소제목>문장×4>이모지소제목>문장>이모지소제목×3>문장×4",
+    "numbers": [
+     "10월",
+     "5"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "요즘",
+     "뉴닉",
+     "유행",
+     "궁금하긴",
+     "한데",
+     "바빠서",
+     "챙겨볼",
+     "여유도",
+     "없었나요",
+     "마음",
+     "알아서"
+    ],
+    "series": "",
+    "chars": 320,
+    "lines": 14,
+    "emoji_per_100": 3.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 5 신상 모음 나만 라보 스페셜",
+    "cover_chars": 14,
+    "visual": "photo",
+    "top5_share": 0.562,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18122002099921547",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-30T09:27:38+0000",
+   "permalink": "https://www.instagram.com/p/DfHQmO4DxqU/",
+   "like_count": 66,
+   "comments_count": 1,
+   "slides": 12,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "최근 대신증권·빗썸·미래에셋자산운용 등 금융권 곳곳에서 해킹 피해가 잇따르고 있어요. 대신증권에서는 고객 3",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "3만",
+     "8490명",
+     "20",
+     "440만",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "해킹",
+     "금융권",
+     "최근",
+     "대신증권",
+     "빗썸",
+     "미래에셋자산운용",
+     "곳곳에서",
+     "피해가",
+     "잇따르고",
+     "있어요",
+     "대신증권에서는",
+     "고객"
+    ],
+    "series": "",
+    "chars": 308,
+    "lines": 3,
+    "emoji_per_100": 0.32,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "해킹 미래에셋 해킹 사태 총정리 북한 까지? 정보 지키",
+    "cover_chars": 22,
+    "visual": "photo",
+    "top5_share": 0.515,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18105643256260405",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-30T06:00:09+0000",
+   "permalink": "https://www.instagram.com/reel/DfG44pGB2qF/",
+   "like_count": 121,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "'선한 오지랖 클럽' 발대식 현장 스케치🥳💭",
+    "last_question": "💡 뉴니커도 내가 아는 다정한 공간, 꼭 알리고 싶은 이야기가 있나요? 클럽원들처럼 캔바 템플릿에서 시작한다",
+    "structure": "문장×2>질문>문장>질문>문장>질문>문장×2>이모지소제목>질문>문장×7>해시태그",
+    "numbers": [
+     "10월",
+     "13일",
+     "50개",
+     "11월",
+     "3개"
+    ],
+    "hashtags": [
+     "#뉴닉",
+     "#캔바",
+     "#계단뿌셔클럽",
+     "#선한오지랖클럽",
+     "#다정여지도"
+    ],
+    "keywords": [
+     "오지랖",
+     "다정한",
+     "캔바",
+     "선한",
+     "클럽",
+     "모인",
+     "함께",
+     "거예요",
+     "발대식",
+     "싶은",
+     "동안",
+     "정보를"
+    ],
+    "series": "",
+    "chars": 986,
+    "lines": 19,
+    "emoji_per_100": 1.42,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "1 발대식",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.812,
+    "n_colors": 20,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303010"
+    ]
+   }
+  },
+  {
+   "id": "18137412073639316",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-30T05:14:18+0000",
+   "permalink": "https://www.instagram.com/reel/DfGzVL2PfPu/",
+   "like_count": 197,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "트럼프 때문에 밤잠 설치는 투자자 손! 🙋",
+    "last_question": "결국 민주당의 압승이 트럼프 리스크가 사라지는 걸 의미하는 건 아니라는 거죠. 이번 미국 중간선거를 바라보는",
+    "structure": "문장×3>이모지소제목>문장>이모지소제목>문장>이모지소제목>문장×3",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트럼프",
+     "있어요",
+     "민주당이",
+     "민주당의",
+     "있지만",
+     "미국",
+     "트럼프가",
+     "정부의",
+     "관세",
+     "정책을",
+     "AI",
+     "때문에"
+    ],
+    "series": "",
+    "chars": 645,
+    "lines": 11,
+    "emoji_per_100": 0.93,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "으로 다가온 미국 선거",
+    "cover_chars": 9,
+    "visual": "graphic",
+    "top5_share": 0.855,
+    "n_colors": 12,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18146414014600895",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-30T04:43:47+0000",
+   "permalink": "https://www.instagram.com/reel/DfGv2lQPbTz/",
+   "like_count": 3,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "또 해킹이야? 🥶🔐",
+    "last_question": "요즘 금융권·통신사·기업 할 것 없이 ”또 해킹이래“, ”내 정보도 털린 거 아냐?“ 하는 소식이 너무 자주",
+    "structure": "문장×2>이모지소제목×2>문장>이모지소제목>문장>이모지소제목>문장>이모지소제목×2>문장>이모지소제목>문장>이모지소제목>문장>이모지소제목>문장×6",
+    "numbers": [
+     "20"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "있어요",
+     "요구",
+     "확인",
+     "해킹",
+     "피해가",
+     "AI",
+     "직접",
+     "같은",
+     "비밀번호는",
+     "비밀번호",
+     "피해",
+     "계좌"
+    ],
+    "series": "",
+    "chars": 953,
+    "lines": 23,
+    "emoji_per_100": 1.57,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "금융권 활용",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.652,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18097590077649615",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-30T01:33:45+0000",
+   "permalink": "https://www.instagram.com/p/DfGaXeYD31j/",
+   "like_count": 95,
+   "comments_count": 6,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "공무원 1만 명 대이동하는 ‘정부 부처 세종 이전’, 어떻게 생각해? 🏢",
+    "last_question": "다음 주에는 또 어떤 이슈와 의견을 만나게 될까요?",
+    "structure": "이모지소제목>문장×6>이모지소제목>문장>질문>문장",
+    "numbers": [
+     "1만",
+     "44",
+     "2031년",
+     "1만",
+     "1,706명",
+     "55.3%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "의견을",
+     "정부",
+     "부처",
+     "어떤",
+     "지역",
+     "의견이",
+     "세종",
+     "이전",
+     "어떻게",
+     "수도권에",
+     "명의",
+     "균형"
+    ],
+    "series": "",
+    "chars": 736,
+    "lines": 11,
+    "emoji_per_100": 1.22,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "필요한 결정 성급한 결정 공무원 대이동 괜찮은 걸까? 1,706 하기",
+    "cover_chars": 29,
+    "visual": "graphic",
+    "top5_share": 0.956,
+    "n_colors": 22,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18098330372443390",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-29T22:55:02+0000",
+   "permalink": "https://www.instagram.com/p/DfGISrdj2Pk/",
+   "like_count": 114,
+   "comments_count": 613,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🏠 뉴닉 <2026년 가을 청약 공략집> PDF 무료 배포.ᐟ 🏠",
+    "last_question": "📝 PDF 자료집, 어떻게 받을 수 있어?",
+    "structure": "문장>질문>이모지소제목>문장×4>이모지소제목>문장×2>이모지소제목×3>문장>이모지소제목>문장×2>이모지소제목>항목>질문>문장×2",
+    "numbers": [
+     "2026년",
+     "𝟭",
+     "16개",
+     "1",
+     "𝟮",
+     "𝟯",
+     "100%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "청약",
+     "받을",
+     "PDF",
+     "자료집",
+     "뉴닉",
+     "있어",
+     "필수",
+     "청약통장",
+     "사회초년생",
+     "신혼부부",
+     "정보",
+     "나에게"
+    ],
+    "series": "2026년 가을 청약 공략집",
+    "chars": 728,
+    "lines": 22,
+    "emoji_per_100": 2.2,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이벤트 통장 하고 있다면 가기 230 선택한 만든 사회 초년생 위한 청약",
+    "cover_chars": 57,
+    "visual": "graphic",
+    "top5_share": 0.607,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#50D0F0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17864848425696029",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-29T09:25:47+0000",
+   "permalink": "https://www.instagram.com/p/DfErl6DD67s/",
+   "like_count": 206,
+   "comments_count": 25,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "더불어민주당이 조희대 대법원장을 둘러싼 각종 의혹을 밝히겠다며 국정조사를 추진하고 있어요. 대법원장에 대한 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "있어요",
+     "국정조사가",
+     "더불어민주당이",
+     "조희대",
+     "대법원장을",
+     "둘러싼",
+     "각종",
+     "의혹을",
+     "밝히겠다며",
+     "국정조사를",
+     "추진하고",
+     "대법원장에"
+    ],
+    "series": "",
+    "chars": 302,
+    "lines": 3,
+    "emoji_per_100": 0.33,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "대법원장 부터 여야 향후 전망 민주당: 헌정 사상 원장 할게! 의혹",
+    "cover_chars": 27,
+    "visual": "graphic",
+    "top5_share": 0.649,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18096024920457374",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-29T07:34:11+0000",
+   "permalink": "https://www.instagram.com/p/DfEe0hYD3Mo/",
+   "like_count": 50,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "카메라와 AI 기능을 탑재한 스마트안경을 이용한 부정행위 시도가 늘어나면서, 교육부가 수능 부정행위 제재 강",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "1년",
+     "3년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "부정행위",
+     "제재",
+     "스마트안경을",
+     "수능",
+     "강화에",
+     "기존",
+     "새로운",
+     "카메라와",
+     "AI",
+     "기능을",
+     "탑재한",
+     "이용한"
+    ],
+    "series": "",
+    "chars": 434,
+    "lines": 4,
+    "emoji_per_100": 0.23,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "교육 수능 안경 막으려 대책 총정리",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.689,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18016804100961444",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-29T02:14:53+0000",
+   "permalink": "https://www.instagram.com/p/DfD6R2lj053/",
+   "like_count": 101,
+   "comments_count": 7,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 “너 좀 유난이야”라는 말, 어쩌면 칭찬일 수도 있다고? ✨",
+    "last_question": "나의 유난함을 발견할 수 있는 ‘유난력 테스트’도 준비돼 있어요! 8가지 상황에 답하며 내 안의 유난한 용기",
+    "structure": "해시태그>문장×4",
+    "numbers": [
+     "8"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "세상을",
+     "있어요",
+     "라는",
+     "유엔난민기구의",
+     "유난해",
+     "이런",
+     "유난함을",
+     "바꾸는",
+     "캠페인",
+     "유난이야",
+     "어쩌면",
+     "칭찬일"
+    ],
+    "series": "",
+    "chars": 449,
+    "lines": 5,
+    "emoji_per_100": 0.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "일은 기구 바꾸 원래 나도 AKMU 유난;",
+    "cover_chars": 17,
+    "visual": "graphic",
+    "top5_share": 0.687,
+    "n_colors": 59,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18014451107985809",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-28T08:30:02+0000",
+   "permalink": "https://www.instagram.com/p/DfCAb63D_ka/",
+   "like_count": 50,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "앤트로픽이 미국 증권거래위원회(SEC)에 기업공개(IPO) 투자설명서를 공개 제출했어요. 클로드를 만든 AI",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "1년",
+     "14배"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "AI",
+     "앤트로픽",
+     "앤트로픽이",
+     "미국",
+     "증권거래위원회",
+     "SEC",
+     "기업공개",
+     "IPO",
+     "투자설명서를",
+     "공개",
+     "제출했어요",
+     "클로드를"
+    ],
+    "series": "",
+    "chars": 345,
+    "lines": 4,
+    "emoji_per_100": 0.29,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "미국 주식 투자 미칠 영향 공식 상장 자자 모하",
+    "cover_chars": 18,
+    "visual": "photo",
+    "top5_share": 0.543,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#509070",
+     "#507050"
+    ]
+   }
+  },
+  {
+   "id": "18134990047774830",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-28T07:06:50+0000",
+   "permalink": "https://www.instagram.com/p/DfB25OsD6F0/",
+   "like_count": 137,
+   "comments_count": 0,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "6·3 지방선거 이후 147일 만인 오늘(28일), 선관위 특검팀이 송파구 투표용지 247만 장 공개검증에 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "6",
+     "3",
+     "147일",
+     "28일",
+     "247만"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "투표용지",
+     "CCTV",
+     "등을",
+     "지방선거",
+     "이후",
+     "만인",
+     "선관위",
+     "특검팀이",
+     "송파구",
+     "공개검증에",
+     "나섰어요",
+     "일부"
+    ],
+    "series": "",
+    "chars": 324,
+    "lines": 3,
+    "emoji_per_100": 0.31,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "6 3 선거 용지 부족 사태 원인 규명",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.847,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18118524946802767",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-28T04:54:46+0000",
+   "permalink": "https://www.instagram.com/reel/DfBnmmtP4r4/",
+   "like_count": 302,
+   "comments_count": 101,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴닉 트렌드 에디터 ‘조🌿’가 요즘 뜨는 트렌드와 그 너머의 인사이트를 전달하는 시간 ━ 트렌드 도슨트(𝐓𝐫",
+    "last_question": "💡 러닝을 시작하고 싶은데 어떤 장비부터 사야 할지 막막한 뉴니커라면? 댓글에 ‘러닝’ 남겨주세요!",
+    "structure": "문장×3>질문>이모지소제목>문장>이모지소제목>문장>이모지소제목>문장×2>결론>해시태그",
+    "numbers": [
+     "𝟎𝟑",
+     "5,900원",
+     "9,900원",
+     "2"
+    ],
+    "hashtags": [
+     "#데카트론",
+     "#러닝",
+     "#하이킹"
+    ],
+    "keywords": [
+     "러닝",
+     "트렌드",
+     "제품을",
+     "필요한",
+     "요즘",
+     "주목받는",
+     "있어요",
+     "데카트론",
+     "데카트론이",
+     "저렴한",
+     "만드는",
+     "추천"
+    ],
+    "series": "",
+    "chars": 802,
+    "lines": 13,
+    "emoji_per_100": 1.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "9,",
+    "cover_chars": 2,
+    "visual": "graphic",
+    "top5_share": 0.928,
+    "n_colors": 15,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17872606764647163",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-28T02:46:30+0000",
+   "permalink": "https://www.instagram.com/p/DfBZGgtD4yt/",
+   "like_count": 148,
+   "comments_count": 2,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "갑자기 쌀쌀해진 날씨에 따뜻한 음료를 찾게 되는데요. 이번 주 나들이에는 차 한 잔을 목적지로 삼아보면 어떨",
+    "last_question": "갑자기 쌀쌀해진 날씨에 따뜻한 음료를 찾게 되는데요. 이번 주 나들이에는 차 한 잔을 목적지로 삼아보면 어떨",
+    "structure": "문장×2>이모지소제목>문장>이모지소제목>문장×2>이모지소제목",
+    "numbers": [
+     "6"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "티하우스",
+     "teahouse",
+     "official",
+     "갑자기",
+     "쌀쌀해진",
+     "날씨에",
+     "따뜻한",
+     "음료를",
+     "찾게",
+     "되는데요",
+     "나들이에는",
+     "잔을"
+    ],
+    "series": "",
+    "chars": 404,
+    "lines": 8,
+    "emoji_per_100": 2.23,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "하우스 쌀쌀한 날씨, 따뜻한 갈래?",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.46,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18123554056935742",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-27T23:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DfA_N0uD08a/",
+   "like_count": 91,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#제작지원 [희망친구 기아대책 x 뉴닉] 🤝",
+    "last_question": "💞 같은 교실, 같은 동네에서 함께 살아가는 이웃의 이야기, 더 자세히 알고 싶다면?",
+    "structure": "해시태그>질문×2>이모지소제목×3>문장×2>질문>결론",
+    "numbers": [
+     "930명",
+     "55.1%",
+     "24.8%",
+     "6.6%"
+    ],
+    "hashtags": [
+     "#제작지원"
+    ],
+    "keywords": [
+     "희망친구",
+     "기아대책",
+     "함께",
+     "뉴닉",
+     "교육",
+     "성장",
+     "이들이",
+     "겪는",
+     "가장",
+     "이슈리포트",
+     "사람들의",
+     "인식"
+    ],
+    "series": "희망친구 기아대책 x 뉴닉",
+    "chars": 554,
+    "lines": 10,
+    "emoji_per_100": 1.62,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "대책 우리 결의 에서 질문",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.49,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18082359935718697",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-27T22:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfA4XsGDydy/",
+   "like_count": 160,
+   "comments_count": 0,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "국산 비만치료제 ‘에페’가 오는 29일 몇몇 병원에서 처방을 시작해요. 💊",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "29일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "비만치료제",
+     "가격과",
+     "국산",
+     "에페",
+     "오는",
+     "몇몇",
+     "병원에서",
+     "처방을",
+     "시작해요",
+     "위고비",
+     "마운자로가",
+     "주도하던"
+    ],
+    "series": "",
+    "chars": 322,
+    "lines": 3,
+    "emoji_per_100": 0.62,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "치료제 출시 남용 까지 총정리 출시 자로 남용 우려 bmg GE 3",
+    "cover_chars": 26,
+    "visual": "graphic",
+    "top5_share": 0.889,
+    "n_colors": 41,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17963605080215891",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-25T23:00:01+0000",
+   "permalink": "https://www.instagram.com/p/De71oJcj1jM/",
+   "like_count": 211,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "➊ SK하이닉스가 ’솔리다임‘ 미국 상장을 79일 만에 중단했어요 🚫",
+    "last_question": "",
+    "structure": "이모지소제목>문장×2>이모지소제목>문장>이모지소제목>문장>이모지소제목>문장×3>항목>문장×3",
+    "numbers": [
+     "79일",
+     "23일",
+     "8월",
+     "5일",
+     "79일",
+     "2",
+     "24일",
+     "1000",
+     "3.00%",
+     "22일",
+     "3.00%",
+     "7명",
+     "7월",
+     "8월",
+     "11월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "지난",
+     "SK하이닉스가",
+     "미국",
+     "상장",
+     "프랑스",
+     "전역에서",
+     "대규모",
+     "반정부",
+     "시위가",
+     "열렸어요",
+     "기준금리를",
+     "동결했어요"
+    ],
+    "series": "",
+    "chars": 995,
+    "lines": 15,
+    "emoji_per_100": 1.01,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 4 이슈 모음 현생 사느라 놓친 TOPS 미국 상장 중단 2 대규모",
+    "cover_chars": 30,
+    "visual": "photo",
+    "top5_share": 0.504,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#50D0F0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18130920235768417",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-24T06:33:11+0000",
+   "permalink": "https://www.instagram.com/p/De3f3STjxq7/",
+   "like_count": 922,
+   "comments_count": 5,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "얼마 전, 관객들에게 “나는 예뻐!”를 크게 외치게 만든 뮤지션이 있어요. 곧이어 공연장에는 ‘I’m so ",
+    "last_question": "",
+    "structure": "이모지소제목>문장×4",
+    "numbers": [
+     "10월",
+     "4일",
+     "8월",
+     "29일",
+     "4만",
+     "5천",
+     "1997년",
+     "2003년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "무대",
+     "뮤지션이",
+     "있어요",
+     "스웨덴",
+     "자라",
+     "모두",
+     "미국",
+     "싱어송라이터",
+     "올리비아",
+     "년생",
+     "얼마",
+     "관객들에게"
+    ],
+    "series": "",
+    "chars": 609,
+    "lines": 5,
+    "emoji_per_100": 0.66,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "음악 산업 무대 바꾸는 이야기 여성 에게 실질적인 으로 연결",
+    "cover_chars": 24,
+    "visual": "photo",
+    "top5_share": 0.339,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#50D0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18100812248532766",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-24T02:00:05+0000",
+   "permalink": "https://www.instagram.com/p/De3ArkeD03k/",
+   "like_count": 275,
+   "comments_count": 1,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+    "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+    "structure": "이모지소제목>문장×5>이모지소제목>문장×2>이모지소제목×2>문장×3",
+    "numbers": [
+     "10월",
+     "4"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "요즘",
+     "뉴닉",
+     "official",
+     "유행",
+     "궁금하긴",
+     "한데",
+     "바빠서",
+     "챙겨볼",
+     "여유도",
+     "없었나요",
+     "마음"
+    ],
+    "series": "",
+    "chars": 374,
+    "lines": 14,
+    "emoji_per_100": 2.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 4 모음 나만 워크 단풍 군락지 20 영주 영수",
+    "cover_chars": 20,
+    "visual": "graphic",
+    "top5_share": 0.627,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17944392627092555",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-23T06:00:19+0000",
+   "permalink": "https://www.instagram.com/p/De027gsvPKW/",
+   "like_count": 132,
+   "comments_count": 17,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "💡 오세훈 서울시장 2심, 어떻게 됐어?",
+    "last_question": "💡 3심은 언제 열리는 거야?",
+    "structure": "이모지소제목>질문>문장>질문>문장>질문>문장",
+    "numbers": [
+     "2",
+     "23일",
+     "1",
+     "1,000만",
+     "3",
+     "1",
+     "2월",
+     "4월",
+     "10월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "오세훈",
+     "명태균",
+     "거야",
+     "씨의",
+     "진술을",
+     "시장이",
+     "여론조사를",
+     "비용",
+     "대납을",
+     "내년",
+     "서울시장",
+     "어떻게"
+    ],
+    "series": "",
+    "chars": 545,
+    "lines": 7,
+    "emoji_per_100": 0.92,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "오세훈 사비 대납 의혹, 판결 오세훈 2 선고 1 판결 뒤집힌 민주당: ",
+    "cover_chars": 44,
+    "visual": "photo",
+    "top5_share": 0.493,
+    "n_colors": 63,
+    "face": false,
+    "colors": [
+     "#70D0D0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17972724054156511",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-23T05:05:34+0000",
+   "permalink": "https://www.instagram.com/reel/De0wm6TPbVL/",
+   "like_count": 6868,
+   "comments_count": 77,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "주식 하락장에서 꼭 필요한 건 흔들리지 않는 멘탈과 시장 흐름을 읽는 눈! 📉",
+    "last_question": "요즘 주식시장은 왜 이러는 건지, 내 돈은 어떻게 지켜야 할지 궁금하다면?",
+    "structure": "문장>질문>결론",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "주식",
+     "하락장에서",
+     "필요한",
+     "흔들리지",
+     "않는",
+     "멘탈과",
+     "시장",
+     "흐름을",
+     "읽는",
+     "요즘",
+     "주식시장은",
+     "이러는"
+    ],
+    "series": "",
+    "chars": 144,
+    "lines": 3,
+    "emoji_per_100": 1.39,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 4",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.433,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18230147875332618",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-23T04:57:34+0000",
+   "permalink": "https://www.instagram.com/p/De0wIHjD4WQ/",
+   "like_count": 80,
+   "comments_count": 0,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "삼성전자·SK하이닉스 단일종목 레버리지 ETF에 투자한 개인들의 손실이 출시 후 8월 14일까지 6조 313",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "8월",
+     "14일",
+     "6조",
+     "3130억",
+     "2배",
+     "1400개",
+     "82억"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "출시",
+     "레버리지",
+     "손실",
+     "ETF",
+     "있어요",
+     "삼성전자",
+     "SK하이닉스",
+     "단일종목",
+     "ETF에",
+     "투자한",
+     "개인들의",
+     "손실이"
+    ],
+    "series": "",
+    "chars": 356,
+    "lines": 3,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "레버리지 ETF 닉스 손실 규모 공개 SAMSUNG Samsung Ele",
+    "cover_chars": 62,
+    "visual": "photo",
+    "top5_share": 0.57,
+    "n_colors": 70,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18024556673861181",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-22T06:51:31+0000",
+   "permalink": "https://www.instagram.com/reel/DeyX77hv8ls/",
+   "like_count": 683,
+   "comments_count": 24,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "프랑스에서 전국적인 시위가 격화하면서 약탈과 방화까지 벌어지고 있어요. 그런데 이 혼란 뒤에는 프랑스의 심각",
+    "last_question": "➌ 앞으로 어떻게 될까?",
+    "structure": "이모지소제목>문장>질문>문장×4>질문>문장×4>질문>문장×2",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "재정",
+     "시위가",
+     "벌어지고",
+     "있어요",
+     "약탈과",
+     "방화까지",
+     "프랑스의",
+     "위기와",
+     "경제",
+     "일이",
+     "쉽게",
+     "교육"
+    ],
+    "series": "",
+    "chars": 657,
+    "lines": 15,
+    "emoji_per_100": 0.76,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "뒤집힌 프랑스 나라 때문에 지도 모른다고?",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.937,
+    "n_colors": 15,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18641851825053995",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-22T02:44:05+0000",
+   "permalink": "https://www.instagram.com/p/Dex8Dlzj4Cj/",
+   "like_count": 70,
+   "comments_count": 3,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "‘빚내서 주식 투자’, 개인의 책임일까? 규제가 필요할까?",
+    "last_question": "다음 주에는 또 어떤 이슈와 의견을 만나게 될까요?",
+    "structure": "이모지소제목>질문>문장×5>이모지소제목>문장>질문>문장",
+    "numbers": [
+     "6월",
+     "3,900명",
+     "57.2%",
+     "32.3%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "의견을",
+     "투자",
+     "어떤",
+     "개인의",
+     "규제가",
+     "빚투",
+     "뉴니커들의",
+     "의견이",
+     "뉴닉이",
+     "뉴니커가",
+     "직접",
+     "다음"
+    ],
+    "series": "",
+    "chars": 703,
+    "lines": 11,
+    "emoji_per_100": 0.85,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "주식 37 시대 제한? 선택? 3,9973",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.961,
+    "n_colors": 19,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17998503737824712",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-21T09:21:28+0000",
+   "permalink": "https://www.instagram.com/reel/DewEnNwP8Nn/",
+   "like_count": 19189,
+   "comments_count": 257,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "프랑스에서 140년 된 시청이 불타고, 명품 매장이 약탈당하는 일이 벌어지고 있어요. 시작은 학생 시위였지만",
+    "last_question": "이번 프랑스 시위, 여러분은 어떻게 바라보시나요? 뉴닉 팔로우해두시면 앞으로 새로운 소식 있을 때마다 알기 ",
+    "structure": "문장×2>질문>문장×4>질문>문장>질문>문장×2>항목>이모지소제목>문장×4",
+    "numbers": [
+     "140년",
+     "140년",
+     "140년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "프랑스",
+     "앞으로",
+     "시청이",
+     "불타고",
+     "일이",
+     "있어요",
+     "학생들은",
+     "시위로",
+     "어떻게",
+     "파리",
+     "시청",
+     "프랑스에서"
+    ],
+    "series": "",
+    "chars": 811,
+    "lines": 18,
+    "emoji_per_100": 0.62,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "불타는 시청, 무력 충돌 지금 에서 대체",
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.898,
+    "n_colors": 13,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18358584367218136",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-21T08:30:01+0000",
+   "permalink": "https://www.instagram.com/p/Dev-2XOD3Ul/",
+   "like_count": 57,
+   "comments_count": 2,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "올해 1~9월 서울 아파트 전월세 거래에서 월세 비중이 처음으로 절반을 넘어 51%를 기록했어요. 월세 거래",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "1",
+     "9월",
+     "51%",
+     "27.5%",
+     "1년",
+     "4",
+     "13",
+     "22만"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "아파트",
+     "월세",
+     "서울",
+     "전월세",
+     "비중이",
+     "거래량이",
+     "전세",
+     "올해",
+     "거래에서",
+     "처음으로",
+     "절반을",
+     "넘어"
+    ],
+    "series": "",
+    "chars": 360,
+    "lines": 3,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "부동산 서울 아파트 임대차 에서 월세 비중 전세 줄고 4",
+    "cover_chars": 22,
+    "visual": "graphic",
+    "top5_share": 0.622,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17925577578203135",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-20T22:50:02+0000",
+   "permalink": "https://www.instagram.com/p/Deu8lXaD1ga/",
+   "like_count": 33,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴니커는 오랫동안 쓰지 않은 계좌가 있나요? 장기 미거래·휴면 상태인 이른바 ‘잠자는 계좌’가 지난해 말 기",
+    "last_question": "뉴니커는 오랫동안 쓰지 않은 계좌가 있나요? 장기 미거래·휴면 상태인 이른바 ‘잠자는 계좌’가 지난해 말 기",
+    "structure": "문장×2",
+    "numbers": [
+     "3억",
+     "4191만",
+     "14조"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "계좌가",
+     "장기",
+     "미거래",
+     "잠자는",
+     "뉴니커는",
+     "오랫동안",
+     "쓰지",
+     "않은",
+     "있나요",
+     "휴면",
+     "상태인",
+     "이른바"
+    ],
+    "series": "",
+    "chars": 222,
+    "lines": 2,
+    "emoji_per_100": 0.45,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "자산 잠든 조회 환급 대책 총정리 14",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.547,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17910493098558950",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-20T03:23:52+0000",
+   "permalink": "https://www.instagram.com/p/Des3BPXDwBz/",
+   "like_count": 37,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴니커, 혹시 환절기를 맞아 옷장 정리했나요? 정리 후 “좀 더 포근하고 따뜻한 홈웨어가 있으면 좋겠다…” ",
+    "last_question": "뉴니커, 혹시 환절기를 맞아 옷장 정리했나요? 정리 후 “좀 더 포근하고 따뜻한 홈웨어가 있으면 좋겠다…” ",
+    "structure": "문장×7>이모지소제목",
+    "numbers": [
+     "7"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "official",
+     "뉴니커",
+     "혹시",
+     "환절기를",
+     "맞아",
+     "옷장",
+     "정리했나요",
+     "정리",
+     "포근하고",
+     "따뜻한",
+     "홈웨어가",
+     "있으면"
+    ],
+    "series": "",
+    "chars": 343,
+    "lines": 8,
+    "emoji_per_100": 2.04,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "환절기 리빙 소품 6 추천 6",
+    "cover_chars": 11,
+    "visual": "photo",
+    "top5_share": 0.584,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18120326980757566",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-20T01:41:54+0000",
+   "permalink": "https://www.instagram.com/p/DesrWZHjy2G/",
+   "like_count": 159,
+   "comments_count": 3,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "프랑스 전역에서 최대 80만 명이 모인 대규모 시위가 폭력 사태로 번졌어요. 상점 1500여 곳이 약탈당하고",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "80만",
+     "1500"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "시위가",
+     "프랑스",
+     "이어지고",
+     "있는데요",
+     "교육",
+     "전역에서",
+     "최대",
+     "명이",
+     "모인",
+     "대규모",
+     "폭력",
+     "사태로"
+    ],
+    "series": "",
+    "chars": 352,
+    "lines": 3,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "정부 프랑스 대규모 반정부 번진 인과 반응",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.544,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#30D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18416556532080410",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-19T22:55:02+0000",
+   "permalink": "https://www.instagram.com/p/DesYVkrj3Zc/",
+   "like_count": 87,
+   "comments_count": 2,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오는 31일 핼러윈을 앞두고 서울 경찰과 용산구가 이태원 일대 안전 관리를 대폭 강화하고 있어요. 최근 인천",
+    "last_question": "",
+    "structure": "문장×2",
+    "numbers": [
+     "31일",
+     "2022년",
+     "4",
+     "29일",
+     "16만",
+     "5000명",
+     "4"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이태원",
+     "오는",
+     "안전",
+     "참사",
+     "주기",
+     "경찰이",
+     "핼러윈을",
+     "앞두고",
+     "서울",
+     "경찰과",
+     "용산구가",
+     "일대"
+    ],
+    "series": "",
+    "chars": 240,
+    "lines": 2,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이태원 준비한 대책 정리",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.551,
+    "n_colors": 64,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17987561441883864",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-19T07:51:05+0000",
+   "permalink": "https://www.instagram.com/p/Deqwzjbj-kS/",
+   "like_count": 66,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "주요 시중은행의 주택담보대출 변동금리가 연 6%대 중반까지 치솟았어요. 변동금리의 기준이 되는 코픽스(COF",
+    "last_question": "",
+    "structure": "문장×2",
+    "numbers": [
+     "6%",
+     "3년",
+     "10개",
+     "4",
+     "165조"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "주담대",
+     "주요",
+     "시중은행의",
+     "주택담보대출",
+     "변동금리가",
+     "중반까지",
+     "치솟았어요",
+     "변동금리의",
+     "기준이",
+     "되는",
+     "코픽스",
+     "COFIX"
+    ],
+    "series": "",
+    "chars": 227,
+    "lines": 2,
+    "emoji_per_100": 0.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "대출 금리 봐야 하는 이유",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.568,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17951562396337080",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-18T23:00:05+0000",
+   "permalink": "https://www.instagram.com/p/Dep0IIyD419/",
+   "like_count": 70,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 AI와 스마트폰이 일상이 된 지금, 아이들의 마음은 괜찮을까요? 🤔",
+    "last_question": "#광고 AI와 스마트폰이 일상이 된 지금, 아이들의 마음은 괜찮을까요? 🤔",
+    "structure": "해시태그>문장×4>이모지소제목>문장",
+    "numbers": [
+     "2026",
+     "2026년",
+     "11월",
+     "19일",
+     "20일",
+     "13",
+     "30",
+     "18",
+     "00",
+     "60,",
+     "3"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "아이들의",
+     "디지털",
+     "함께",
+     "유니세프",
+     "AI와",
+     "스마트폰이",
+     "일상이",
+     "마음은",
+     "괜찮을까요",
+     "스마트폰",
+     "과의존부터",
+     "사이버"
+    ],
+    "series": "",
+    "chars": 519,
+    "lines": 7,
+    "emoji_per_100": 0.96,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "유니세프 위원회 디지털 시대, 해야 자마자 노출, 마음",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.549,
+    "n_colors": 50,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17931196383163657",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-18T22:00:06+0000",
+   "permalink": "https://www.instagram.com/p/DeptNkWD1ad/",
+   "like_count": 420,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "➊ 이재명 대통령 취임 후 처음으로 비서실장이 교체됐어요 🔄",
+    "last_question": "뉴니커, 얼마 전 막을 내린 2026 아이치·나고야 아시안게임 재밌게 봤나요? 뜨거운 열기가 가시기 전에 또",
+    "structure": "이모지소제목>문장×10>항목>문장×2",
+    "numbers": [
+     "14일",
+     "21일",
+     "23일",
+     "2027",
+     "2031년",
+     "44",
+     "13일",
+     "44",
+     "2027년",
+     "2031년",
+     "12일",
+     "10월",
+     "14일",
+     "10",
+     "18일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "지난",
+     "한반도",
+     "아이치",
+     "나고야",
+     "이재명",
+     "대통령",
+     "비서실장이",
+     "국세청장이",
+     "대입",
+     "논술시험에서",
+     "AI",
+     "안경을"
+    ],
+    "series": "",
+    "chars": 1070,
+    "lines": 14,
+    "emoji_per_100": 1.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 3 이슈 모음",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.524,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18043668065888591",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-17T02:00:02+0000",
+   "permalink": "https://www.instagram.com/p/Dek_DH2D3TT/",
+   "like_count": 257,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+    "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+    "structure": "이모지소제목>문장×4>이모지소제목>문장×2>이모지소제목>문장×5",
+    "numbers": [
+     "10월",
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "요즘",
+     "뉴닉",
+     "official",
+     "유행",
+     "궁금하긴",
+     "한데",
+     "바빠서",
+     "챙겨볼",
+     "여유도",
+     "없었나요",
+     "마음"
+    ],
+    "series": "",
+    "chars": 366,
+    "lines": 14,
+    "emoji_per_100": 2.73,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 3 모음 나만 요즘 EAC zip IG",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.582,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#30D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18095187611174824",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-16T06:24:01+0000",
+   "permalink": "https://www.instagram.com/p/Dei4dNsD0_B/",
+   "like_count": 65,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "개인정보 유출 사태 이후 줄었던 쿠팡 이용자와 결제액이 다시 회복세를 보이고 있어요. 🚀",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "사태",
+     "개인정보",
+     "유출",
+     "이후",
+     "있어요",
+     "잔액은",
+     "쿠팡의",
+     "줄었던",
+     "쿠팡",
+     "이용자와",
+     "결제액이",
+     "다시"
+    ],
+    "series": "",
+    "chars": 205,
+    "lines": 3,
+    "emoji_per_100": 0.98,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "정보 에도 결제 OH 반등 했을까? gan",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.581,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18133458325672692",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-15T23:16:28+0000",
+   "permalink": "https://www.instagram.com/p/DeiHhsWj0RH/",
+   "like_count": 233,
+   "comments_count": 16,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "특정 손님의 출입을 제한하는 ‘노○○존’, 어디까지 허용할 수 있을까?",
+    "last_question": "다음 주에는 또 어떤 이슈와 의견을 만나게 될까요?",
+    "structure": "이모지소제목>질문>문장×5>이모지소제목>문장>질문>문장",
+    "numbers": [
+     "2,324명",
+     "75.1%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "의견을",
+     "어떤",
+     "의견이",
+     "특정",
+     "출입을",
+     "제한하는",
+     "뉴니커들의",
+     "뉴니커가",
+     "직접",
+     "다음",
+     "손님의",
+     "어디까지"
+    ],
+    "series": "",
+    "chars": 663,
+    "lines": 11,
+    "emoji_per_100": 1.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이은 등장 일까? 정당한 걸까? 2,3243 투표 결과",
+    "cover_chars": 23,
+    "visual": "graphic",
+    "top5_share": 0.959,
+    "n_colors": 19,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18039268523838592",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-15T07:05:25+0000",
+   "permalink": "https://www.instagram.com/reel/DegYF3xP47x/",
+   "like_count": 581,
+   "comments_count": 1973,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🏠 뉴닉 <2026 가을 청약 공략집> PDF 무료 배포.ᐟ 🏠",
+    "last_question": "📝 PDF 자료집, 어떻게 받을 수 있어?",
+    "structure": "문장>질문>이모지소제목>문장×4>이모지소제목>문장×2>이모지소제목×3>문장>이모지소제목>문장×2>이모지소제목>항목>질문>문장×2",
+    "numbers": [
+     "2026",
+     "𝟭",
+     "16개",
+     "1",
+     "𝟮",
+     "𝟯",
+     "100%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "청약",
+     "받을",
+     "PDF",
+     "자료집",
+     "뉴닉",
+     "있어",
+     "필수",
+     "청약통장",
+     "사회초년생",
+     "신혼부부",
+     "정보",
+     "나에게"
+    ],
+    "series": "2026 가을 청약 공략집",
+    "chars": 727,
+    "lines": 22,
+    "emoji_per_100": 2.2,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "그럼에도 통장 이유?",
+    "cover_chars": 9,
+    "visual": "graphic",
+    "top5_share": 0.779,
+    "n_colors": 14,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18049499081817694",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-15T02:06:32+0000",
+   "permalink": "https://www.instagram.com/p/Def2MbRj1wh/",
+   "like_count": 124,
+   "comments_count": 2,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴니커, 벌써 그 시기가 왔어요. 쌀쌀한 바람에 피부가 건조하고 땅기기 시작하는 계절이요. 지금 공감하고 있",
+    "last_question": "",
+    "structure": "문장×7>이모지소제목",
+    "numbers": [
+     "6개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "크림",
+     "official",
+     "뉴니커",
+     "벌써",
+     "시기가",
+     "왔어요",
+     "쌀쌀한",
+     "바람에",
+     "피부가",
+     "건조하고",
+     "땅기기",
+     "시작하는"
+    ],
+    "series": "",
+    "chars": 416,
+    "lines": 8,
+    "emoji_per_100": 1.92,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "소중한 지켜줄 거예요 (광고 FH 팀원 후기 8 AROMATICA",
+    "cover_chars": 28,
+    "visual": "graphic",
+    "top5_share": 0.632,
+    "n_colors": 53,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70F0D0"
+    ]
+   }
+  },
+  {
+   "id": "18120400502469900",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-14T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/Defg8vUDy5_/",
+   "like_count": 109,
+   "comments_count": 7,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난 13일 인천의 한 대형마트 입점 상가에서 흉기 난동 사건이 발생해 10명이 피해를 입었어요. 가해자는 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "13일",
+     "10명"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "위한",
+     "있어요",
+     "재범",
+     "한계가",
+     "관리",
+     "지난",
+     "인천의",
+     "대형마트",
+     "입점",
+     "상가에서",
+     "흉기",
+     "난동"
+    ],
+    "series": "",
+    "chars": 396,
+    "lines": 3,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "감독 인천 마트 흉기 으로 드러난 허점 범죄 행위 감시 불가",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.534,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18412366405083074",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-14T07:55:55+0000",
+   "permalink": "https://www.instagram.com/p/Ded5YjWj8EB/",
+   "like_count": 110,
+   "comments_count": 2,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "국내 선사 컨테이너선이 처음으로 북극항로를 통해 유럽을 왕복했어요. 부산을 출발한 팬스타 아크로호가 50일간",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "50일",
+     "7000",
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "북극항로를",
+     "새로운",
+     "비용이",
+     "국내",
+     "선사",
+     "컨테이너선이",
+     "처음으로",
+     "유럽을",
+     "왕복했어요",
+     "부산을",
+     "출발한",
+     "팬스타"
+    ],
+    "series": "",
+    "chars": 353,
+    "lines": 3,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "항로 이재명 밝힌 새로운 바닷길 달라질 zip 단축 로운 물류 거점?",
+    "cover_chars": 28,
+    "visual": "photo",
+    "top5_share": 0.468,
+    "n_colors": 65,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18144488224582890",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-14T01:41:42+0000",
+   "permalink": "https://www.instagram.com/p/DedOjpZD8Eb/",
+   "like_count": 77,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "10·15 부동산 대책이 발표된 지 1년, 집값을 잡겠다던 규제에도 서울 아파트값은 10% 넘게 올랐어요. ",
+    "last_question": "",
+    "structure": "문장×6",
+    "numbers": [
+     "10",
+     "15",
+     "1년",
+     "10%",
+     "10%",
+     "12개",
+     "10",
+     "15",
+     "1년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "주택",
+     "부동산",
+     "대출",
+     "집값을",
+     "서울",
+     "전세",
+     "지역을",
+     "지정하고",
+     "규제를",
+     "집값이",
+     "공급",
+     "토지거래허가구역"
+    ],
+    "series": "",
+    "chars": 728,
+    "lines": 6,
+    "emoji_per_100": 0.55,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "집값 부동산 1 10% 오른 ike",
+    "cover_chars": 14,
+    "visual": "photo",
+    "top5_share": 0.478,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18082599353687722",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-13T22:55:02+0000",
+   "permalink": "https://www.instagram.com/p/Dec7gS_D-xa/",
+   "like_count": 181,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "정부가 수도권에 있는 중앙행정기관 44곳을 2027년부터 2031년까지 세종으로 단계적으로 옮기기로 했어요.",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "44",
+     "2027년",
+     "2031년",
+     "1만",
+     "2029년",
+     "2033년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "기관은",
+     "정부가",
+     "수도권에",
+     "중앙행정기관",
+     "곳을",
+     "년부터",
+     "년까지",
+     "세종으로",
+     "단계적으로",
+     "옮기기로",
+     "했어요",
+     "공무원"
+    ],
+    "series": "",
+    "chars": 405,
+    "lines": 3,
+    "emoji_per_100": 0.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "기관 수도 완성 남은 과제 정부 기관 44 이나 SS",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.593,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18134143237669101",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-13T09:10:22+0000",
+   "permalink": "https://www.instagram.com/p/DebdG-MjyF4/",
+   "like_count": 97,
+   "comments_count": 1,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘(13일) 국내 증시가 급락하며 ‘검은 화요일’이라는 말까지 나왔어요. 중국 반도체 기업의 기술 경쟁력 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "13일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "반도체",
+     "시장의",
+     "주목받는",
+     "소부장",
+     "국내",
+     "증시가",
+     "급락하며",
+     "검은",
+     "화요일",
+     "이라는",
+     "말까지",
+     "나왔어요"
+    ],
+    "series": "",
+    "chars": 299,
+    "lines": 3,
+    "emoji_per_100": 0.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "주식 반도체 장이 전망 무너진 1 도체 뭐길래? 6,035.35 주봉 월",
+    "cover_chars": 44,
+    "visual": "graphic",
+    "top5_share": 0.692,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18115846046023070",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-13T02:32:02+0000",
+   "permalink": "https://www.instagram.com/p/Deavhekj3Tc/",
+   "like_count": 83,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴니커는 어떨 때 에세이를 주로 읽나요? 사람들이 에세이를 집어드는 이유는 수천수만 가지겠지만, 저는 속 생",
+    "last_question": "뉴니커는 어떨 때 에세이를 주로 읽나요? 사람들이 에세이를 집어드는 이유는 수천수만 가지겠지만, 저는 속 생",
+    "structure": "문장×6>이모지소제목>문장×2",
+    "numbers": [
+     "6"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "에세이를",
+     "주로",
+     "커피",
+     "뉴니커는",
+     "어떨",
+     "읽나요",
+     "사람들이",
+     "집어드는",
+     "이유는",
+     "수천수만",
+     "가지겠지만",
+     "저는"
+    ],
+    "series": "",
+    "chars": 459,
+    "lines": 9,
+    "emoji_per_100": 1.74,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "독서 단단한 담고 있는 에세이 추천 계절 차분 0 에세이 6 에서 가진 ",
+    "cover_chars": 29,
+    "visual": "photo",
+    "top5_share": 0.512,
+    "n_colors": 77,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70F0D0"
+    ]
+   }
+  },
+  {
+   "id": "18227326681327312",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-12T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DeaXVt9DyXN/",
+   "like_count": 250,
+   "comments_count": 8,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "올가을 모기가 기승을 부리고 있어요. 🦟💦",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "모기가",
+     "모기",
+     "올가을",
+     "있어요",
+     "방충용품",
+     "기승을",
+     "부리고",
+     "한여름",
+     "폭염에",
+     "주춤했던",
+     "날씨가",
+     "선선해지자"
+    ],
+    "series": "",
+    "chars": 188,
+    "lines": 3,
+    "emoji_per_100": 1.6,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "가을 모기 기온 오히려 활발?",
+    "cover_chars": 12,
+    "visual": "photo",
+    "top5_share": 0.46,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50B0B0"
+    ]
+   }
+  },
+  {
+   "id": "18118965316755144",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-12T09:09:46+0000",
+   "permalink": "https://www.instagram.com/p/DeY4PsWj4nI/",
+   "like_count": 150,
+   "comments_count": 3,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난 2일 검찰청이 폐지되고, 중대범죄 수사를 맡을 중대범죄수사청(중수청)이 새로 출범했어요. 하지만 출범 ",
+    "last_question": "",
+    "structure": "문장×5",
+    "numbers": [
+     "2일",
+     "7",
+     "3",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "중대범죄",
+     "수사를",
+     "출범",
+     "수사",
+     "지난",
+     "검찰청이",
+     "폐지되고",
+     "맡을",
+     "중대범죄수사청",
+     "중수청",
+     "새로",
+     "출범했어요"
+    ],
+    "series": "",
+    "chars": 445,
+    "lines": 5,
+    "emoji_per_100": 0.22,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "시스템 청장 인선 갈등 총정리",
+    "cover_chars": 12,
+    "visual": "graphic",
+    "top5_share": 0.655,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0F0"
+    ]
+   }
+  },
+  {
+   "id": "17950456146343971",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-12T08:00:15+0000",
+   "permalink": "https://www.instagram.com/p/DeYwSdjD26L/",
+   "like_count": 86,
+   "comments_count": 2,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "법사위 국정감사에서 무소속 한동훈 의원 딸의 '허위 스펙' 의혹이 다시 불거졌어요. 민주당 박균택 의원은 2",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "2022년",
+     "8"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "스펙",
+     "한동훈",
+     "허위",
+     "민주당",
+     "의원은",
+     "김민석",
+     "대표",
+     "법사위",
+     "국정감사에서",
+     "무소속",
+     "의원",
+     "딸의"
+    ],
+    "series": "",
+    "chars": 360,
+    "lines": 4,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "김민석 감사 HSE 의원 대표 아들? 2 SANS",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.338,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17958734055228823",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-12T05:00:06+0000",
+   "permalink": "https://www.instagram.com/reel/DeYbw5sBHmR/",
+   "like_count": 60,
+   "comments_count": 58,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 올해 홍콩 여행, 10월 말로 잡아야 하는 이유 🍷",
+    "last_question": "⇢ 한국 관광객 선착순 500명에게 입장권과 4토큰, 와인잔을 제공하는 바우처도 준비돼 있어요. 아직 여행 ",
+    "structure": "해시태그>질문>이모지소제목>문장×2>이모지소제목>문장>이모지소제목>문장>이모지소제목>질문>문장×5>해시태그",
+    "numbers": [
+     "10월",
+     "10월",
+     "29일",
+     "11월",
+     "1일",
+     "100",
+     "500명",
+     "4",
+     "10월",
+     "29일",
+     "11월",
+     "1일",
+     "2026"
+    ],
+    "hashtags": [
+     "#광고",
+     "#OnlyInHongKong",
+     "#WineAndDine2026"
+    ],
+    "keywords": [
+     "홍콩",
+     "있어요",
+     "여행",
+     "센트럴",
+     "미식",
+     "와인앤다인",
+     "페스티벌",
+     "세계",
+     "한정",
+     "라이브",
+     "한국",
+     "관광객"
+    ],
+    "series": "",
+    "chars": 711,
+    "lines": 17,
+    "emoji_per_100": 1.69,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "0 홍콩 여행 하는 이유 다인)",
+    "cover_chars": 12,
+    "visual": "graphic",
+    "top5_share": 0.877,
+    "n_colors": 15,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18130623394837967",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-12T03:07:25+0000",
+   "permalink": "https://www.instagram.com/p/DeYOxsVjyL7/",
+   "like_count": 110,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "2026년 노벨문학상을 받은 캐나다 작가 ‘앤 카슨’의 책이 국내 서점가에서 불티나게 팔리고 있어요. 📚",
+    "last_question": "수상 발표 후 도서 판매량이 평소보다 최대 203.9배까지 늘었다고 하는데요. 시인부터 고전학자, 번역가까지",
+    "structure": "문장×2",
+    "numbers": [
+     "2026년",
+     "203.9배"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "노벨문학상을",
+     "받은",
+     "캐나다",
+     "작가",
+     "카슨",
+     "책이",
+     "국내",
+     "서점가에서",
+     "불티나게",
+     "팔리고",
+     "있어요",
+     "수상"
+    ],
+    "series": "",
+    "chars": 180,
+    "lines": 2,
+    "emoji_per_100": 1.11,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "문학상 수상자 길래?",
+    "cover_chars": 9,
+    "visual": "graphic",
+    "top5_share": 0.871,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17950002828328940",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-11T23:00:01+0000",
+   "permalink": "https://www.instagram.com/p/DeXyiZdD360/",
+   "like_count": 92,
+   "comments_count": 95,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 2026년 Z세대는 뭘 중요하게 생각할까요? 👀",
+    "last_question": "바로 ‘네트왓킹·스크롤픽·밸런쉼·현재진행력·트라이에이터’! 이름만 봐서는 조금 낯설지만, 하나씩 들여다보면 ",
+    "structure": "해시태그>문장×4",
+    "numbers": [
+     "2026년",
+     "24",
+     "100명",
+     "20",
+     "2026년",
+     "5",
+     "2026",
+     "2026"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "트렌드",
+     "싶은",
+     "Z세대는",
+     "중요하게",
+     "생각할까요",
+     "KT",
+     "공식",
+     "대학생",
+     "마케팅",
+     "서포터즈",
+     "Y퓨처리스트",
+     "명이"
+    ],
+    "series": "",
+    "chars": 506,
+    "lines": 5,
+    "emoji_per_100": 0.79,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "스트 2026 2 트렌드 키워드 5 2 대는 이렇게 살아요 2026 2 ",
+    "cover_chars": 34,
+    "visual": "photo",
+    "top5_share": 0.596,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18199430224384769",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-11T22:00:07+0000",
+   "permalink": "https://www.instagram.com/p/DeXrnmQjwN6/",
+   "like_count": 102,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "➊ 금융권 연쇄 해킹 사고에 경찰이 전담수사팀을 꾸렸어요 🚨",
+    "last_question": "",
+    "structure": "이모지소제목>문장×2>이모지소제목>문장>이모지소제목>문장×5>항목>문장×2",
+    "numbers": [
+     "2",
+     "28명",
+     "6조",
+     "6조",
+     "5",
+     "7일",
+     "12",
+     "25",
+     "5",
+     "15",
+     "80%",
+     "2",
+     "7일",
+     "2",
+     "2년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "해킹",
+     "지난",
+     "무죄를",
+     "피해자",
+     "연쇄",
+     "경찰이",
+     "전담수사팀을",
+     "규모의",
+     "엔비디아가",
+     "눈앞에",
+     "두고",
+     "있어요"
+    ],
+    "series": "",
+    "chars": 1021,
+    "lines": 14,
+    "emoji_per_100": 1.18,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 2 이슈 모음 olf",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.358,
+    "n_colors": 74,
+    "face": false,
+    "colors": [
+     "#50D0F0",
+     "#30D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18181121209431016",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-10T05:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DeTSIlgD6bb/",
+   "like_count": 106,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "삼성전자가 올해 3분기 영업이익 107조 4000억 원을 기록했어요. 국내 기업 최초로 분기 영업이익 100",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "3",
+     "107조",
+     "4000억",
+     "100조",
+     "4"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "분기",
+     "AI",
+     "영업이익",
+     "원을",
+     "최대",
+     "삼성전자가",
+     "올해",
+     "기록했어요",
+     "국내",
+     "기업",
+     "최초로",
+     "넘긴"
+    ],
+    "series": "",
+    "chars": 410,
+    "lines": 4,
+    "emoji_per_100": 0.24,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "사상 최대 3 실적 실적 정도로 글로벌 Hell 최초 삼성",
+    "cover_chars": 23,
+    "visual": "graphic",
+    "top5_share": 0.715,
+    "n_colors": 35,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0F0"
+    ]
+   }
+  },
+  {
+   "id": "17938530825381376",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-09T23:00:09+0000",
+   "permalink": "https://www.instagram.com/p/DeSo-PiDxFk/",
+   "like_count": 188,
+   "comments_count": 194,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+    "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+    "structure": "이모지소제목>문장×4>이모지소제목×6>문장×2>질문>문장×5",
+    "numbers": [
+     "10월",
+     "2",
+     "3원"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "뉴닉",
+     "받을",
+     "요즘",
+     "스몰토크",
+     "PDF",
+     "자료집",
+     "무료로",
+     "유행",
+     "궁금하긴",
+     "한데",
+     "바빠서"
+    ],
+    "series": "",
+    "chars": 496,
+    "lines": 19,
+    "emoji_per_100": 2.42,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 2 모음 나만 요즘 EAC zip 메뉴 피한 타설 11101",
+    "cover_chars": 26,
+    "visual": "photo",
+    "top5_share": 0.599,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18014942846748659",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-08T05:57:25+0000",
+   "permalink": "https://www.instagram.com/reel/DeOOvQzv7VR/",
+   "like_count": 460,
+   "comments_count": 22,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "초유의 대법관 후보 ‘재제청’ 논란 🚨",
+    "last_question": "💡 대법관 공식 임명 절차는 어떤데?",
+    "structure": "문장>질문>문장>질문>문장>질문>문장×2",
+    "numbers": [
+     "3",
+     "200일",
+     "3",
+     "2.5개",
+     "3.4개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "대법관",
+     "대법원장이",
+     "대통령이",
+     "이어지고",
+     "후보",
+     "대법관은",
+     "않은",
+     "대통령과",
+     "임명을",
+     "둘러싼",
+     "있어요",
+     "임명"
+    ],
+    "series": "",
+    "chars": 595,
+    "lines": 8,
+    "emoji_per_100": 0.84,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "대법원 지고 있다고? 논란",
+    "cover_chars": 11,
+    "visual": "graphic",
+    "top5_share": 0.914,
+    "n_colors": 12,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18114777625832678",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-08T05:00:08+0000",
+   "permalink": "https://www.instagram.com/p/DeOIgCoj8YZ/",
+   "like_count": 75,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "아시안게임 금메달 뒤 “군대 안 갑니다”, “메달은 중요하지 않았다”는 선수들의 발언이 병역특례 논쟁에 불을",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "3위",
+     "1983년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "아시안게임",
+     "병역특례",
+     "제도",
+     "주택",
+     "금메달",
+     "군대",
+     "갑니다",
+     "메달은",
+     "중요하지",
+     "않았다",
+     "선수들의",
+     "발언이"
+    ],
+    "series": "",
+    "chars": 384,
+    "lines": 3,
+    "emoji_per_100": 0.26,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "게임 국민 부터 아파트 특공 까지 번진 SO 4 111",
+    "cover_chars": 21,
+    "visual": "photo",
+    "top5_share": 0.527,
+    "n_colors": 70,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18102882188014594",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-08T03:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DeN6wJpj-zZ/",
+   "like_count": 92,
+   "comments_count": 4,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난달 서부전선 비무장지대(DMZ)에서 발생한 지뢰 폭발 사고는 북한이 군사분계선(MDL) 이남에 의도적으로",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "지뢰",
+     "DMZ",
+     "폭발",
+     "북한이",
+     "MDL",
+     "군의",
+     "최종",
+     "매설",
+     "지난달",
+     "서부전선",
+     "비무장지대",
+     "에서"
+    ],
+    "series": "",
+    "chars": 434,
+    "lines": 3,
+    "emoji_per_100": 0.23,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "DMZ 지뢰 최종 조사 부터 제거 고바: soo 까지 한이 심은 민주당:",
+    "cover_chars": 37,
+    "visual": "graphic",
+    "top5_share": 0.626,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18074002919475697",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-08T01:21:00+0000",
+   "permalink": "https://www.instagram.com/p/DeNva1ZjyKn/",
+   "like_count": 140,
+   "comments_count": 12,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "윤석열 전 대통령이 명태균 씨에게 무상으로 여론조사 결과를 제공받은 혐의 사건의 2심에서 무죄를 선고받았어요",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "2",
+     "1",
+     "2년",
+     "2",
+     "1",
+     "1",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "명태균",
+     "여론조사",
+     "심에서",
+     "무죄를",
+     "선고받았어요",
+     "여론조사를",
+     "판단이",
+     "윤석열",
+     "대통령이",
+     "씨에게",
+     "무상으로",
+     "결과를"
+    ],
+    "series": "",
+    "chars": 400,
+    "lines": 3,
+    "emoji_per_100": 0.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2 유죄 무죄 뒤집힌 이유",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.4,
+    "n_colors": 70,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18056135462796913",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-07T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DeNfT5dj5rp/",
+   "like_count": 70,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "뉴니커, 어느덧 찬 바람이 조금씩 부는 걸 보니 가을이 온 것 같아요. 너무 추워지기 전에 나들이 계획하고 ",
+    "last_question": "뉴니커, 어느덧 찬 바람이 조금씩 부는 걸 보니 가을이 온 것 같아요. 너무 추워지기 전에 나들이 계획하고 ",
+    "structure": "문장×2>이모지소제목×6",
+    "numbers": [
+     "10월",
+     "6개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "가을",
+     "꽃축제",
+     "뉴니커",
+     "어느덧",
+     "바람이",
+     "조금씩",
+     "부는",
+     "보니",
+     "가을이",
+     "같아요",
+     "추워지기",
+     "전에"
+    ],
+    "series": "",
+    "chars": 250,
+    "lines": 8,
+    "emoji_per_100": 2.8,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "오기 전에 나들이 가자",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.373,
+    "n_colors": 101,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18129498310689590",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-07T07:51:52+0000",
+   "permalink": "https://www.instagram.com/p/DeL3WyiD0es/",
+   "like_count": 129,
+   "comments_count": 13,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "영화 '암살자(들)'을 둘러싼 논란이 출연 배우에 대한 신변 위협으로 번지며 갈등이 커지고 있어요. 일부 보",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "암살자",
+     "갈등이",
+     "있어요",
+     "법적",
+     "영화",
+     "둘러싼",
+     "논란이",
+     "출연",
+     "배우에",
+     "신변",
+     "위협으로",
+     "번지며"
+    ],
+    "series": "",
+    "chars": 313,
+    "lines": 3,
+    "emoji_per_100": 0.32,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "영화 신변 법적 번진 논란 지는 갈등",
+    "cover_chars": 14,
+    "visual": "photo",
+    "top5_share": 0.448,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18124248974477633",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-07T05:29:32+0000",
+   "permalink": "https://www.instagram.com/reel/DeLlvFoPb9H/",
+   "like_count": 150,
+   "comments_count": 862,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "˗ˋˏ 내향인·사회초년생의 구세주 등장 ˎˊ˗",
+    "last_question": "📝 PDF 자료집, 어떻게 받을 수 있어?",
+    "structure": "이모지소제목>문장×3>질문>문장×4>이모지소제목>문장×3>질문>문장×2",
+    "numbers": [
+     "15",
+     "40",
+     "2",
+     "5",
+     "2026년",
+     "20 배",
+     "3원"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "스몰토크",
+     "받을",
+     "내향인",
+     "시작",
+     "할지",
+     "트렌드",
+     "어떤",
+     "있어",
+     "얘기는",
+     "PDF",
+     "자료집",
+     "무료로"
+    ],
+    "series": "",
+    "chars": 568,
+    "lines": 16,
+    "emoji_per_100": 1.06,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "토크 공유",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.934,
+    "n_colors": 15,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17975650092147438",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-06T22:30:01+0000",
+   "permalink": "https://www.instagram.com/p/DeK3JFMjx7y/",
+   "like_count": 138,
+   "comments_count": 1,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "국내 주요 은행과 제2금융권을 겨냥한 연쇄 해킹으로, 현재까지 7개 금융회사에서 고객 개인정보 유출 피해가 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "2",
+     "7개",
+     "28명",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "시스템의",
+     "여러",
+     "AI",
+     "보안",
+     "피해",
+     "국내",
+     "주요",
+     "은행과",
+     "금융권을",
+     "겨냥한",
+     "연쇄",
+     "해킹으로"
+    ],
+    "series": "",
+    "chars": 433,
+    "lines": 3,
+    "emoji_per_100": 0.23,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "AA 은행 연쇄 해킹 경찰 4",
+    "cover_chars": 11,
+    "visual": "photo",
+    "top5_share": 0.432,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18628435300017255",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-06T07:34:44+0000",
+   "permalink": "https://www.instagram.com/p/DeJQmbwD7sg/",
+   "like_count": 145,
+   "comments_count": 2,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "2026 아이치·나고야 아시안게임이 16일간의 일정을 마치고 막을 내렸어요. 한국 선수단은 금메달 39개로 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "2026",
+     "16일",
+     "39개",
+     "3위",
+     "44년",
+     "3위",
+     "2",
+     "2",
+     "12년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "한국",
+     "금메달",
+     "연속",
+     "선수는",
+     "여자",
+     "아이치",
+     "나고야",
+     "아시안게임이",
+     "일간의",
+     "일정을",
+     "마치고",
+     "막을"
+    ],
+    "series": "",
+    "chars": 399,
+    "lines": 3,
+    "emoji_per_100": 0.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "게임 특례 까지 2026",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.549,
+    "n_colors": 70,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18465262672190860",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-06T04:02:26+0000",
+   "permalink": "https://www.instagram.com/p/DeI4TdpD93C/",
+   "like_count": 219,
+   "comments_count": 1,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "매년 찬바람이 불어올 때마다 왠지 다꾸하고 일기 쓰고 싶다는 생각 드는 뉴니커 없나요? 날도 시원해졌겠다, ",
+    "last_question": "매년 찬바람이 불어올 때마다 왠지 다꾸하고 일기 쓰고 싶다는 생각 드는 뉴니커 없나요? 날도 시원해졌겠다, ",
+    "structure": "문장×2>이모지소제목×6",
+    "numbers": [
+     "0"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "매년",
+     "찬바람이",
+     "불어올",
+     "때마다",
+     "왠지",
+     "다꾸하고",
+     "일기",
+     "쓰고",
+     "싶다는",
+     "생각",
+     "드는",
+     "뉴니커"
+    ],
+    "series": "",
+    "chars": 303,
+    "lines": 8,
+    "emoji_per_100": 2.64,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "문구 부터 까지 7",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.583,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18048714101807320",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-06T00:01:40+0000",
+   "permalink": "https://www.instagram.com/p/DeIcv_qD7ou/",
+   "like_count": 70,
+   "comments_count": 46,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 요즘 Z세대의 라이프스타일은 어떻게 달라지고 있을까요? 👀",
+    "last_question": "100명의 대학생이 직접 연구한 2026 Z세대 트렌드의 배경과 실제 사례가 더 궁금하다면?",
+    "structure": "해시태그>문장>질문>결론",
+    "numbers": [
+     "20",
+     "2026년",
+     "5",
+     "100명",
+     "2026"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "요즘",
+     "Z세대의",
+     "라이프스타일은",
+     "어떻게",
+     "달라지고",
+     "있을까요",
+     "KT",
+     "공식",
+     "대학생",
+     "마케팅",
+     "서포터즈",
+     "Y퓨처리스트"
+    ],
+    "series": "",
+    "chars": 347,
+    "lines": 4,
+    "emoji_per_100": 1.15,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "스트 2026 2 트렌드 키워드 5 공개",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.542,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18484897447106883",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-04T23:00:04+0000",
+   "permalink": "https://www.instagram.com/p/DeFw9ypD9OY/",
+   "like_count": 140,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "➊ 서울 아파트값이 86주 연속 오르며 역대 최장 상승 기록을 새로 썼어요 🏠",
+    "last_question": "",
+    "structure": "이모지소제목>문장×8>이모지소제목>문장>항목>문장×2",
+    "numbers": [
+     "86",
+     "1일",
+     "9월",
+     "17.6%",
+     "85",
+     "7.7%",
+     "2만",
+     "5000",
+     "30일",
+     "2만",
+     "5000명",
+     "1일",
+     "4",
+     "30일",
+     "2026"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "지난",
+     "분기",
+     "최대",
+     "실적을",
+     "최장",
+     "누적",
+     "신한은행에서",
+     "고객",
+     "정보가",
+     "지난달",
+     "반도체",
+     "마이크론이"
+    ],
+    "series": "",
+    "chars": 1076,
+    "lines": 14,
+    "emoji_per_100": 1.12,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 1 이슈 모음 상승",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.634,
+    "n_colors": 73,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#30D0F0"
+    ]
+   }
+  },
+  {
+   "id": "17910684954498502",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-04T02:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DeDgtm9D5AQ/",
+   "like_count": 244,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+    "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+    "structure": "이모지소제목>문장×4>이모지소제목×6>문장×3",
+    "numbers": [
+     "10월",
+     "1",
+     "1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "요즘",
+     "유행",
+     "뉴닉",
+     "궁금하긴",
+     "한데",
+     "바빠서",
+     "챙겨볼",
+     "여유도",
+     "없었나요",
+     "마음",
+     "알아서"
+    ],
+    "series": "",
+    "chars": 261,
+    "lines": 14,
+    "emoji_per_100": 3.83,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "1 라오",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.632,
+    "n_colors": 65,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70F0D0"
+    ]
+   }
+  },
+  {
+   "id": "18117492214778017",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-03T05:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DeBQkNqDyux/",
+   "like_count": 191,
+   "comments_count": 3,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "성평등가족부가 출범 1주년을 맞아 지난 1년의 성과와 2년 차 계획을 발표했어요. 임신중지 약물 도입 방안을",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "1",
+     "1년",
+     "2년",
+     "66",
+     "231억",
+     "1년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "지난",
+     "성평등가족부가",
+     "출범",
+     "주년을",
+     "맞아",
+     "년의",
+     "성과와",
+     "계획을",
+     "발표했어요",
+     "임신중지",
+     "약물",
+     "도입"
+    ],
+    "series": "",
+    "chars": 346,
+    "lines": 3,
+    "emoji_per_100": 0.29,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "출범 1 지난 부터 1 동안 무슨 있었나 Bae 불법 대응",
+    "cover_chars": 22,
+    "visual": "graphic",
+    "top5_share": 0.645,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18119714932937299",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-03T02:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DeA77ZpD4fR/",
+   "like_count": 225,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "이번 가을, 조금 특별한 곳에서 책을 읽어보는 건 어때요? 📚🍂",
+    "last_question": "이번 가을, 조금 특별한 곳에서 책을 읽어보는 건 어때요? 📚🍂",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "가을",
+     "특별한",
+     "책을",
+     "선향재",
+     "특별",
+     "조금",
+     "곳에서",
+     "읽어보는",
+     "어때요",
+     "왕실의",
+     "서재였던",
+     "창덕궁"
+    ],
+    "series": "",
+    "chars": 178,
+    "lines": 3,
+    "emoji_per_100": 1.69,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "창덕궁 102 7 부터 10 18 까지 개방! 에서 0 개방",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.535,
+    "n_colors": 53,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50B090"
+    ]
+   }
+  },
+  {
+   "id": "18081514451396015",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-02T07:03:16+0000",
+   "permalink": "https://www.instagram.com/p/Dd-50YlD0fw/",
+   "like_count": 76,
+   "comments_count": 2,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 다시 반도체주에 대한 관심이 뜨거워지고 있어요. 📈",
+    "last_question": "",
+    "structure": "문장×7",
+    "numbers": [
+     "6"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "반도체",
+     "투자",
+     "국내",
+     "기업에",
+     "따라",
+     "구성",
+     "않습니다",
+     "요즘",
+     "다시",
+     "반도체주에",
+     "관심이",
+     "뜨거워지고"
+    ],
+    "series": "",
+    "chars": 474,
+    "lines": 7,
+    "emoji_per_100": 0.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "주식 역대 반도체 ETF ETF",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.398,
+    "n_colors": 68,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18130091320692809",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-02T04:47:40+0000",
+   "permalink": "https://www.instagram.com/p/Dd-paI5Pur5/",
+   "like_count": 440,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "단풍, 지금 어디까지 왔어? 🍂",
+    "last_question": "전국 단풍 절정은 언제? 🍁",
+    "structure": "이모지소제목>문장×4>이모지소제목×4>문장",
+    "numbers": [
+     "20%",
+     "80%",
+     "9월",
+     "28일",
+     "4일",
+     "10월",
+     "1일",
+     "2026",
+     "10월",
+     "10월",
+     "10월",
+     "20일",
+     "10월",
+     "28일",
+     "11월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "단풍",
+     "절정",
+     "전국",
+     "단풍이",
+     "본격적으로",
+     "것으로",
+     "예상돼요",
+     "어디까지",
+     "왔어",
+     "기상청은",
+     "전체의",
+     "이상이"
+    ],
+    "series": "",
+    "chars": 446,
+    "lines": 10,
+    "emoji_per_100": 1.79,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2026 절정 지도 기준 단풍 기준 단풍 50% 이상 BA 산림청 화악산",
+    "cover_chars": 178,
+    "visual": "photo",
+    "top5_share": 0.578,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#507010"
+    ]
+   }
+  },
+  {
+   "id": "18116750393006574",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-02T03:00:03+0000",
+   "permalink": "https://www.instagram.com/p/Dd-eAN5D6Dw/",
+   "like_count": 141,
+   "comments_count": 4,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘(2일) 우리나라 형사·사법 시스템이 큰 변화를 맞게 돼요. 검찰청이 폐지되고, 기존 검찰청이 맡아온 업",
+    "last_question": "막상 설명하려니 머리가 하얘지지 않나요? 😵‍💫",
+    "structure": "이모지소제목>문장×3>이모지소제목×3>항목>문장×6",
+    "numbers": [
+     "2일",
+     "১",
+     "10월",
+     "1",
+     "໒",
+     "3개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "형사",
+     "검찰청이",
+     "공소청과",
+     "중수청",
+     "함께",
+     "보완수사요구권",
+     "기소",
+     "뉴스에서",
+     "뉴닉위키에서",
+     "정리했어요",
+     "매주",
+     "있도록"
+    ],
+    "series": "",
+    "chars": 579,
+    "lines": 14,
+    "emoji_per_100": 1.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "10 1 위키 til OFFICE",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.74,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17950086840293908",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-02T01:10:21+0000",
+   "permalink": "https://www.instagram.com/reel/Dd-RMkQvyso/",
+   "like_count": 33064,
+   "comments_count": 5779,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘(2일) 우리나라 형사·사법 시스템이 큰 변화를 맞게 돼요. 바로 검찰청이 폐지되고, 검찰청이 하던 일을",
+    "last_question": "📝 아티클, 어떻게 받아볼 수 있어?",
+    "structure": "문장×2>질문>문장>질문>문장",
+    "numbers": [
+     "2일",
+     "4"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "형사",
+     "중수청",
+     "아티클을",
+     "사법",
+     "검찰청이",
+     "공소청과",
+     "공소청",
+     "무슨",
+     "검찰청",
+     "우리나라",
+     "시스템이",
+     "변화를"
+    ],
+    "series": "",
+    "chars": 554,
+    "lines": 6,
+    "emoji_per_100": 0.54,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "사라지는 앞으로 고소 어떻게?",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.92,
+    "n_colors": 14,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#503030"
+    ]
+   }
+  },
+  {
+   "id": "18123031540911560",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-01T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/Dd-Ck1gjzN0/",
+   "like_count": 47,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 10월 2일, 오늘이 무슨 날인지 알고 있나요? 바로 ‘노인의 날’인데요.",
+    "last_question": "뉴니커도 이 활동의 취지에 공감한다면, 어르신들의 참여와 세대 간 대화가 계속 이어질 수 있도록 후원으로 함",
+    "structure": "해시태그>문장×4",
+    "numbers": [
+     "10월",
+     "2일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "노인의",
+     "특별한",
+     "세대",
+     "어르신들이",
+     "직접",
+     "다양한",
+     "있도록",
+     "어르신들의",
+     "있어요",
+     "오늘이",
+     "무슨",
+     "날인지"
+    ],
+    "series": "",
+    "chars": 513,
+    "lines": 5,
+    "emoji_per_100": 0.39,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "ADA 캠페인 세대 사이, 으로 잇다 마음",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.464,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "17950158450276359",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-01T22:00:03+0000",
+   "permalink": "https://www.instagram.com/p/Dd97qgsj708/",
+   "like_count": 112,
+   "comments_count": 10,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "정부가 올해 세금이 당초 전망보다 63조 2000억 원 더 걷힐 것으로 내다봤어요. 세수 예측 오차로는 역대",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "63조",
+     "2000억"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "반도체",
+     "정부가",
+     "올해",
+     "세금이",
+     "당초",
+     "전망보다",
+     "걷힐",
+     "것으로",
+     "내다봤어요",
+     "세수",
+     "예측",
+     "오차로는"
+    ],
+    "series": "",
+    "chars": 382,
+    "lines": 4,
+    "emoji_per_100": 0.26,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "경제부 반도체 부터 까지 7",
+    "cover_chars": 11,
+    "visual": "photo",
+    "top5_share": 0.318,
+    "n_colors": 77,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18213743575363386",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-30T23:00:00+0000",
+   "permalink": "https://www.instagram.com/p/Dd7dyzPjzAo/",
+   "like_count": 36,
+   "comments_count": 2,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 장사하면서 궁금했던 것들, 물어볼 곳이 마땅치 않았다면? 👀",
+    "last_question": "#광고 장사하면서 궁금했던 것들, 물어볼 곳이 마땅치 않았다면? 👀",
+    "structure": "해시태그>문장×4",
+    "numbers": [],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "AI",
+     "가게를",
+     "사장님이",
+     "있어요",
+     "외국인",
+     "찾아가는",
+     "전북에서",
+     "장사하면서",
+     "궁금했던",
+     "것들",
+     "물어볼",
+     "곳이"
+    ],
+    "series": "",
+    "chars": 431,
+    "lines": 5,
+    "emoji_per_100": 0.46,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "지역 정체 찾아가 [데미 부산 로컬",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.623,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18029208068906557",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-30T08:21:32+0000",
+   "permalink": "https://www.instagram.com/p/Dd55L2KD4-p/",
+   "like_count": 229,
+   "comments_count": 4,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘(30일) 광주지방법원은 고 이채원 양을 살해한 장윤기에게 무기징역을 선고했어요. 검찰이 사형을 구형하고",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "30일",
+     "10만",
+     "1997년",
+     "1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "사형을",
+     "무기징역을",
+     "재판부는",
+     "한다는",
+     "가석방",
+     "광주지방법원은",
+     "이채원",
+     "양을",
+     "살해한",
+     "장윤기에게",
+     "선고했어요",
+     "검찰이"
+    ],
+    "series": "",
+    "chars": 419,
+    "lines": 4,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "재판부 징역?",
+    "cover_chars": 6,
+    "visual": "photo",
+    "top5_share": 0.468,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17924330880200838",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-30T07:03:48+0000",
+   "permalink": "https://www.instagram.com/p/Dd5wSgmjxjN/",
+   "like_count": 123,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난 21일 경기 파주 비무장지대(DMZ)에서 지뢰 추정 폭발이 두 차례 발생해 우리 군 장병 3명이 다쳤어",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "21일",
+     "3명"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "DMZ",
+     "책임",
+     "지난",
+     "경기",
+     "파주",
+     "비무장지대",
+     "에서",
+     "지뢰",
+     "추정",
+     "폭발이",
+     "차례",
+     "발생해"
+    ],
+    "series": "",
+    "chars": 328,
+    "lines": 4,
+    "emoji_per_100": 0.3,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "DMZ 우리 유엔사 조사 부터 북한 ME",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.565,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17921186622439012",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-29T23:00:03+0000",
+   "permalink": "https://www.instagram.com/p/Dd447nhD77R/",
+   "like_count": 47,
+   "comments_count": 2,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 9월 한 달, 뉴니커와 함께 어떤 변화가 만들어졌을까요? 👀",
+    "last_question": "#광고 9월 한 달, 뉴니커와 함께 어떤 변화가 만들어졌을까요? 👀",
+    "structure": "해시태그>문장×5",
+    "numbers": [
+     "9월",
+     "9월",
+     "4명",
+     "1명",
+     "1,300만",
+     "9월"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "함께",
+     "뉴니커와",
+     "후원으로",
+     "기회가",
+     "취업에",
+     "이어가고",
+     "사람에게",
+     "어떤",
+     "변화가",
+     "만들어졌을까요",
+     "지난",
+     "사회연대은행과"
+    ],
+    "series": "",
+    "chars": 497,
+    "lines": 6,
+    "emoji_per_100": 0.8,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "은행 은행 9 캠페인 결산 4 1 그래서 에서 까지,",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.569,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18034679291885270",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-29T22:00:03+0000",
+   "permalink": "https://www.instagram.com/p/Dd4yEziD6F8/",
+   "like_count": 67,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "삼성전자 등 삼성 6개사가 미국 AI 인프라 기업 ‘헬릭스 디지털 인프라스트럭처’에 총 10억 달러, 우리 ",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [
+     "6개",
+     "10억",
+     "1조",
+     "3600억",
+     "5억",
+     "5억",
+     "6개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "AI",
+     "인프라",
+     "데이터센터",
+     "삼성",
+     "달러를",
+     "함께",
+     "헬릭스는",
+     "삼성은",
+     "삼성전자",
+     "개사가",
+     "미국",
+     "기업"
+    ],
+    "series": "",
+    "chars": 478,
+    "lines": 4,
+    "emoji_per_100": 0.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "삼성 인프라 Samsung Electronics Mobile Center",
+    "cover_chars": 35,
+    "visual": "graphic",
+    "top5_share": 0.644,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18117256138923021",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-29T08:31:45+0000",
+   "permalink": "https://www.instagram.com/p/Dd3Vj12jzFB/",
+   "like_count": 45,
+   "comments_count": 0,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "‘김영란법’으로도 불리는 청탁금지법이 시행 10주년을 맞았어요. 처음에는 식사 3만 원·선물 5만 원·경조사",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "10",
+     "3만",
+     "5만",
+     "10만",
+     "3",
+     "5",
+     "10",
+     "5",
+     "5",
+     "5",
+     "30만",
+     "1280",
+     "87.1%",
+     "10년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "시행",
+     "식사",
+     "선물",
+     "경조사비",
+     "위반",
+     "김영란법",
+     "으로도",
+     "불리는",
+     "청탁금지법이",
+     "주년을",
+     "맞았어요",
+     "처음에는"
+    ],
+    "series": "",
+    "chars": 303,
+    "lines": 3,
+    "emoji_per_100": 0.33,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "금지법 가액 기준 현황 총정리 벌써 10 만원 4 00",
+    "cover_chars": 21,
+    "visual": "photo",
+    "top5_share": 0.498,
+    "n_colors": 62,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707010"
+    ]
+   }
+  },
+  {
+   "id": "18116467864971916",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-29T03:58:44+0000",
+   "permalink": "https://www.instagram.com/p/Dd22SL_vpOF/",
+   "like_count": 118,
+   "comments_count": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "정부가 지원하는 정책형 재테크 상품들이 잇따라 2차 판매에 나설 예정이에요. 우선 내일(30일)부터 6000",
+    "last_question": "💡 원금 보장을 원한다면?",
+    "structure": "이모지소제목>문장>질문>문장>이모지소제목>번호>문장×2>번호>문장×2>이모지소제목>문장×2>질문>문장>번호>문장×3>번호>문장×2",
+    "numbers": [
+     "2",
+     "30일",
+     "6000억",
+     "2",
+     "6월",
+     "1",
+     "5",
+     "2",
+     "40%",
+     "9.9%",
+     "1억",
+     "5년",
+     "2억",
+     "2",
+     "5"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이하",
+     "정부가",
+     "서민",
+     "최대",
+     "년간",
+     "있어요",
+     "예정이에요",
+     "영업일",
+     "이번에는",
+     "전용",
+     "소득",
+     "확인"
+    ],
+    "series": "",
+    "chars": 1169,
+    "lines": 23,
+    "emoji_per_100": 0.43,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "펀드 적금 HOD 에게 2 펀드 2 적금 투자 저축 상품 성격 (원금 1",
+    "cover_chars": 127,
+    "visual": "graphic",
+    "top5_share": 0.958,
+    "n_colors": 10,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#305050"
+    ]
+   }
+  },
+  {
+   "id": "18031375373896774",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-28T23:00:02+0000",
+   "permalink": "https://www.instagram.com/p/Dd2UNRvjxfH/",
+   "like_count": 345,
+   "comments_count": 109,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "허진호 감독의 신작 영화 ‘암살자(들)’이 흥행을 이어가는 가운데, 영화 속 일부 묘사를 두고 정치권에서 ‘",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "1974년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "영화",
+     "암살자",
+     "있어요",
+     "한다는",
+     "허진호",
+     "감독의",
+     "신작",
+     "흥행을",
+     "이어가는",
+     "가운데",
+     "일부",
+     "묘사를"
+    ],
+    "series": "",
+    "chars": 363,
+    "lines": 3,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "영화 역사 왜곡 상상력? 4 코프",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.528,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18187201810404287",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-28T05:02:31+0000",
+   "permalink": "https://www.instagram.com/p/Dd0Y0euD3eU/",
+   "like_count": 68,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘(28일)까지 삼성전자 주식을 사야 3분기 배당금을 받을 수 있다고? 📊",
+    "last_question": "오늘(28일)까지 삼성전자 주식을 사야 3분기 배당금을 받을 수 있다고? 📊",
+    "structure": "문장×6",
+    "numbers": [
+     "28일",
+     "3",
+     "3",
+     "9월",
+     "30일",
+     "3",
+     "10월",
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "분기",
+     "삼성전자",
+     "배당",
+     "투자",
+     "주식을",
+     "배당금을",
+     "않습니다",
+     "까지",
+     "사야",
+     "받을",
+     "있다고",
+     "기준일은"
+    ],
+    "series": "",
+    "chars": 457,
+    "lines": 6,
+    "emoji_per_100": 0.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "3 배당금 투자 가이드 다시 1",
+    "cover_chars": 12,
+    "visual": "photo",
+    "top5_share": 0.508,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#30D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18006529752003099",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-27T22:30:03+0000",
+   "permalink": "https://www.instagram.com/p/Ddzr6D6j9JZ/",
+   "like_count": 154,
+   "comments_count": 1,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "➊ 파주 DMZ 폭발 사고 후 5일이 지나서야 현장조사가 시작됐어요",
+    "last_question": "",
+    "structure": "이모지소제목>문장×10>항목>문장×2",
+    "numbers": [
+     "5일",
+     "21일",
+     "2명",
+     "1명",
+     "5일",
+     "26일",
+     "5일",
+     "22일",
+     "28일",
+     "25일",
+     "21일",
+     "1위",
+     "11.43%",
+     "22일",
+     "2%"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "지난",
+     "사고",
+     "대법관",
+     "개월",
+     "파주",
+     "DMZ",
+     "폭발",
+     "일이",
+     "지나서야",
+     "현장조사가",
+     "명이",
+     "있어요"
+    ],
+    "series": "",
+    "chars": 1115,
+    "lines": 14,
+    "emoji_per_100": 0.9,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 이슈 모음 이슈 청와대 Muse",
+    "cover_chars": 14,
+    "visual": "photo",
+    "top5_share": 0.452,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  }
+ ]
+}

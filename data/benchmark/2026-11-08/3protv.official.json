@@ -1,0 +1,3366 @@
+{
+ "account": "3protv.official",
+ "collected_at": "2026-11-08T15:11:45+00:00",
+ "followers_count": 6562,
+ "media_count": 92,
+ "posts": [
+  {
+   "id": "17914249425558105",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T03:25:53+0000",
+   "permalink": "https://www.instagram.com/p/DfYow7dEweO/",
+   "like_count": 10,
+   "comments_count": 2,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "끝없이 추락하는 파란색 계좌, 쏟아지는 투매 속에서 \"이제 AI 랠리는 완전히 끝났다\"는 극단적인 절망론이 ",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장×2>해시태그",
+    "numbers": [
+     "2년"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#송재경대표",
+     "#대폭락장",
+     "#레버리지청산",
+     "#AI관련주",
+     "#데이터센터",
+     "#텍사스규제",
+     "#주식투자",
+     "#빅테크",
+     "#주식공부",
+     "#코스피"
+    ],
+    "keywords": [
+     "AI",
+     "있습니다",
+     "청산",
+     "아닙니다",
+     "팩트",
+     "데이터센터",
+     "끝없이",
+     "추락하는",
+     "파란색",
+     "계좌",
+     "쏟아지는",
+     "투매"
+    ],
+    "series": "",
+    "chars": 754,
+    "lines": 8,
+    "emoji_per_100": 0.53,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "지금 필요한",
+    "cover_chars": 5,
+    "visual": "graphic",
+    "top5_share": 0.638,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18145335475717530",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T04:10:39+0000",
+   "permalink": "https://www.instagram.com/p/DfWJF7UE0BU/",
+   "like_count": 10,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"민주당이 압승하면 환경 규제 때문에 AI 관련주는 폭락할 것이다.\"",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장×2>해시태그",
+    "numbers": [
+     "3%",
+     "180",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#뉴스3",
+     "#권순우기자",
+     "#미국중간선거",
+     "#블루쓰나미",
+     "#AI관련주",
+     "#데이터센터",
+     "#통신주",
+     "#SKT",
+     "#LG유플러스",
+     "#수소관련주",
+     "#주식투자"
+    ],
+    "keywords": [
+     "AI",
+     "규제",
+     "속에",
+     "시장을",
+     "가짜",
+     "거대한",
+     "민주당이",
+     "압승하면",
+     "환경",
+     "때문에",
+     "관련주는",
+     "폭락할"
+    ],
+    "series": "",
+    "chars": 666,
+    "lines": 9,
+    "emoji_per_100": 0.6,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "NEWS +3% 49 민주당 압승",
+    "cover_chars": 14,
+    "visual": "photo",
+    "top5_share": 0.383,
+    "n_colors": 96,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103030"
+    ]
+   }
+  },
+  {
+   "id": "18570790885077245",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-04T02:31:06+0000",
+   "permalink": "https://www.instagram.com/p/DfTY55rE186/",
+   "like_count": 7,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"선거만 끝나면 불확실성이 걷히고 시장이 반등할 것이다.\"",
+    "last_question": "혹시 이 뻔한 증시 격언을 그대로 믿고 계십니까?",
+    "structure": "문장>질문>문장>항목×3>문장×2>해시태그",
+    "numbers": [
+     "5%"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#미국중간선거",
+     "#미국주식",
+     "#AI관련주",
+     "#데이터센터",
+     "#주식투자",
+     "#반도체전망",
+     "#경제공부",
+     "#코스피"
+    ],
+    "keywords": [
+     "선거",
+     "끝나면",
+     "거대한",
+     "선거만",
+     "불확실성이",
+     "걷히고",
+     "시장이",
+     "반등할",
+     "것이다",
+     "혹시",
+     "뻔한",
+     "증시"
+    ],
+    "series": "",
+    "chars": 601,
+    "lines": 9,
+    "emoji_per_100": 0.67,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 4 선거 끝나면 오른다? 개미 가짜",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.565,
+    "n_colors": 74,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18097827302442543",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-03T09:13:36+0000",
+   "permalink": "https://www.instagram.com/p/DfRiK_7E2Hf/",
+   "like_count": 3,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "매년 화면 속으로만 보던 CES, 2027년엔 눈앞에서 만나보세요 🇺🇸",
+    "last_question": "1년에 단 한 번뿐인 기회, 놓치고 싶지 않다면?",
+    "structure": "문장×3>이모지소제목×2>항목×5>문장×2>질문>문장>결론>해시태그",
+    "numbers": [
+     "2027년",
+     "60",
+     "2027년",
+     "1월",
+     "3",
+     "2027",
+     "3",
+     "2027.1",
+     "4",
+     "1.11",
+     "1년",
+     "2027",
+     "3"
+    ],
+    "hashtags": [
+     "#CES2027",
+     "#CES",
+     "#라스베이거스",
+     "#삼프로TV",
+     "#삼프로",
+     "#3PRO탐방단",
+     "#실리콘밸리",
+     "#미국",
+     "#산업트렌드",
+     "#IT트렌드",
+     "#모빌리티"
+    ],
+    "keywords": [
+     "CES",
+     "삼프로",
+     "함께",
+     "PRO",
+     "모집합니다",
+     "세미나",
+     "탐방",
+     "매년",
+     "화면",
+     "속으로만",
+     "보던",
+     "년엔"
+    ],
+    "series": "",
+    "chars": 445,
+    "lines": 16,
+    "emoji_per_100": 1.8,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "CES 2027 뿐인 기회, 놓치고 싶지 않다면? 4 좌석 선착: 하기",
+    "cover_chars": 29,
+    "visual": "photo",
+    "top5_share": 0.361,
+    "n_colors": 89,
+    "face": false,
+    "colors": [
+     "#101070",
+     "#1030B0"
+    ]
+   }
+  },
+  {
+   "id": "18171249466480122",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-03T02:03:11+0000",
+   "permalink": "https://www.instagram.com/p/DfQw6jlk3dT/",
+   "like_count": 9,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "끝없이 추락하는 반도체 대신, 그동안 거들떠보지도 않던 조선과 방산 주식이 갑자기 하루 만에 폭등한 진짜 이",
+    "last_question": "끝없이 추락하는 반도체 대신, 그동안 거들떠보지도 않던 조선과 방산 주식이 갑자기 하루 만에 폭등한 진짜 이",
+    "structure": "질문>문장>항목×3>문장×2>해시태그",
+    "numbers": [
+     "70%",
+     "70%"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창대표",
+     "#AI관련주",
+     "#데이터센터",
+     "#반도체전망",
+     "#조선주",
+     "#방산주",
+     "#코스피",
+     "#빈집털이",
+     "#주식투자"
+    ],
+    "keywords": [
+     "아닌",
+     "단기",
+     "거대한",
+     "대세",
+     "상승이",
+     "우려가",
+     "기관의",
+     "테마주",
+     "끝없이",
+     "추락하는",
+     "반도체",
+     "대신"
+    ],
+    "series": "",
+    "chars": 601,
+    "lines": 8,
+    "emoji_per_100": 0.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "3 나홀로 급등?",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.521,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103030"
+    ]
+   }
+  },
+  {
+   "id": "18115577960147504",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-02T05:55:25+0000",
+   "permalink": "https://www.instagram.com/p/DfOmsk6k1Lx/",
+   "like_count": 4,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "인텔의 어닝 쇼크와 함께 AI 관련 시가총액이 순식간에 5조 달러나 증발했습니다. 이제 정말 AI 버블이 터",
+    "last_question": "인텔의 어닝 쇼크와 함께 AI 관련 시가총액이 순식간에 5조 달러나 증발했습니다. 이제 정말 AI 버블이 터",
+    "structure": "질문>문장>항목×3>문장×2>해시태그",
+    "numbers": [
+     "5조",
+     "100%",
+     "19",
+     "500",
+     "6개",
+     "100%",
+     "1조",
+     "5조"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블체크",
+     "#이주연대표",
+     "#AI관련주",
+     "#인텔쇼크",
+     "#중간선거",
+     "#반도체전망",
+     "#코스피",
+     "#연기금",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "AI",
+     "시장의",
+     "돈은",
+     "있습니다",
+     "번의",
+     "반등",
+     "인텔의",
+     "어닝",
+     "쇼크와",
+     "함께",
+     "관련",
+     "시가총액이"
+    ],
+    "series": "",
+    "chars": 619,
+    "lines": 8,
+    "emoji_per_100": 0.65,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "12 22 5 달러 숨겨진",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.478,
+    "n_colors": 65,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18071970263785795",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-30T00:29:13+0000",
+   "permalink": "https://www.instagram.com/p/DfGS-2ak_nH/",
+   "like_count": 14,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "AI의 시조새로 불리던 구글이 상장 이래 역대 최악의 폭락을 기록하고, 수출 대장주 현대차가 6년 만에 역성",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장×2>해시태그",
+    "numbers": [
+     "6년",
+     "13%",
+     "500조",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#뉴스3",
+     "#권순우기자",
+     "#알파벳",
+     "#현대차실적",
+     "#구글쇼크",
+     "#퇴직연금",
+     "#기금형퇴직연금",
+     "#체코원전",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "뼈아픈",
+     "국내",
+     "AI의",
+     "시조새로",
+     "불리던",
+     "구글이",
+     "상장",
+     "이래",
+     "역대",
+     "최악의",
+     "폭락을",
+     "기록하고"
+    ],
+    "series": "",
+    "chars": 609,
+    "lines": 8,
+    "emoji_per_100": 0.66,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "NOW 3.48% 3.12% 370 10 30 배신? 폭락 숨겨진",
+    "cover_chars": 28,
+    "visual": "photo",
+    "top5_share": 0.637,
+    "n_colors": 69,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17870017482660668",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-29T07:29:43+0000",
+   "permalink": "https://www.instagram.com/p/DfEeT0TEyay/",
+   "like_count": 9,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "역대급 실적을 발표한 삼성전자, 그런데 주가는 왜 곤두박질쳤을까요?",
+    "last_question": "역대급 실적을 발표한 삼성전자, 그런데 주가는 왜 곤두박질쳤을까요?",
+    "structure": "질문>문장>항목×3>문장×2>해시태그",
+    "numbers": [
+     "100조",
+     "76조",
+     "50",
+     "500"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#아침N투자",
+     "#삼성전자",
+     "#주주환원",
+     "#코스피",
+     "#ETF추천",
+     "#포트폴리오",
+     "#퇴직연금",
+     "#S&P500",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "실망스러운",
+     "주주환원",
+     "비중을",
+     "당장",
+     "역대급",
+     "실적을",
+     "발표한",
+     "삼성전자",
+     "그런데",
+     "주가는",
+     "곤두박질쳤을까요",
+     "시장을"
+    ],
+    "series": "",
+    "chars": 582,
+    "lines": 8,
+    "emoji_per_100": 0.69,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "102 29 2 100 실적 착각? 폭락 부른",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.713,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18110355491623722",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-28T08:39:10+0000",
+   "permalink": "https://www.instagram.com/reel/DfCBbCBywCh/",
+   "like_count": 3,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "우리가 발 딛고 선 이 세상이, 거대한 바다 신의 찢겨진 몸이라면 믿으시겠습니까?",
+    "last_question": "우리가 발 딛고 선 이 세상이, 거대한 바다 신의 찢겨진 몸이라면 믿으시겠습니까?",
+    "structure": "질문>문장×3>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#신화",
+     "#마르두크",
+     "#티아맛",
+     "#세상의기원",
+     "#인문학공부",
+     "#지식",
+     "#세계관"
+    ],
+    "keywords": [
+     "거대한",
+     "우리가",
+     "바다",
+     "신의",
+     "세상을",
+     "경이로운",
+     "세상의",
+     "딛고",
+     "세상이",
+     "찢겨진",
+     "몸이라면",
+     "믿으시겠습니까"
+    ],
+    "series": "",
+    "chars": 406,
+    "lines": 5,
+    "emoji_per_100": 0.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "신의 SS 갈라 세상",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.723,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17907541155596693",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-27T02:30:01+0000",
+   "permalink": "https://www.instagram.com/p/De-ya9fkwFw/",
+   "like_count": 5,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "구글, 아마존 같은 글로벌 빅테크가 고작 '스타트업'에게 수백 조를 바치고도 의결권 하나 못 챙기는 시장, ",
+    "last_question": "구글, 아마존 같은 글로벌 빅테크가 고작 '스타트업'에게 수백 조를 바치고도 의결권 하나 못 챙기는 시장, ",
+    "structure": "질문>문장>항목×3>문장×3>해시태그",
+    "numbers": [
+     "1",
+     "50.1%",
+     "1위",
+     "3",
+     "2"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#뉴스3",
+     "#권순우기자",
+     "#앤트로픽",
+     "#AI관련주",
+     "#빅테크",
+     "#에코프로비엠",
+     "#2차전지",
+     "#K배터리",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "AI",
+     "의결권",
+     "공개",
+     "갑을관계의",
+     "배터리",
+     "라는",
+     "속아",
+     "마십시오",
+     "구글",
+     "아마존",
+     "같은",
+     "글로벌"
+    ],
+    "series": "",
+    "chars": 627,
+    "lines": 9,
+    "emoji_per_100": 0.64,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "ROPIC 102 2721 테크",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.624,
+    "n_colors": 45,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18100242293660774",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-26T06:54:42+0000",
+   "permalink": "https://www.instagram.com/p/De8r6p1E2e5/",
+   "like_count": 6,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "삼전·닉스 실적 대박 나면 주가도 날아갈까요? 절대 아닙니다.",
+    "last_question": "삼전·닉스 실적 대박 나면 주가도 날아갈까요? 절대 아닙니다.",
+    "structure": "문장×2>항목×3>문장×2>해시태그",
+    "numbers": [
+     "200일",
+     "2"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#2시마켓워치",
+     "#유영화차장",
+     "#코스피",
+     "#반도체전망",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#AI자금생태계",
+     "#신용리스크",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "AI",
+     "기업들의",
+     "반도체",
+     "돈줄",
+     "경색",
+     "섣부른",
+     "계좌를",
+     "삼전",
+     "닉스",
+     "실적",
+     "대박",
+     "나면"
+    ],
+    "series": "",
+    "chars": 528,
+    "lines": 8,
+    "emoji_per_100": 0.76,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "41 10 262 APA 바닥 착각?",
+    "cover_chars": 15,
+    "visual": "graphic",
+    "top5_share": 0.631,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18357688708222692",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-23T03:04:17+0000",
+   "permalink": "https://www.instagram.com/p/De0jKddk3Kp/",
+   "like_count": 14,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "밤사이 박살 난 미국 반도체 주가에 혹시 반도체 사이클이 완전히 끝난 것은 아닐까 우려하고 계십니까?",
+    "last_question": "밤사이 박살 난 미국 반도체 주가에 혹시 반도체 사이클이 완전히 끝난 것은 아닐까 우려하고 계십니까?",
+    "structure": "질문>문장>항목×3>문장×2>해시태그",
+    "numbers": [
+     "3조",
+     "6천",
+     "1위",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#뉴스3",
+     "#권순우기자",
+     "#삼성전기",
+     "#테슬라",
+     "#엔비디아",
+     "#SK하이닉스",
+     "#솔리다임",
+     "#반도체전망",
+     "#머크",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "반도체",
+     "완전히",
+     "산업의",
+     "빅테크",
+     "글로벌",
+     "밤사이",
+     "박살",
+     "미국",
+     "주가에",
+     "혹시",
+     "사이클이",
+     "끝난"
+    ],
+    "series": "",
+    "chars": 569,
+    "lines": 8,
+    "emoji_per_100": 0.7,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "8 FS 10 232 증시 mera 었다",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.422,
+    "n_colors": 86,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18113251859137918",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-22T04:22:09+0000",
+   "permalink": "https://www.instagram.com/reel/DeyHOFWSI0D/",
+   "like_count": 9,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"역배열 초입일 때 빠르게 못 돌리면 시간이 굉장히 오래 걸립니다.\"",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장>해시태그",
+    "numbers": [
+     "5,900",
+     "5,900"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#하창완대표",
+     "#정프로",
+     "#빈센트",
+     "#코스피",
+     "#반도체",
+     "#시장전망",
+     "#주식투자",
+     "#차트분석",
+     "#경제공부"
+    ],
+    "keywords": [
+     "역배열",
+     "시간이",
+     "반도체",
+     "있습니다",
+     "초입일",
+     "빠르게",
+     "돌리면",
+     "굉장히",
+     "오래",
+     "걸립니다",
+     "안에",
+     "선을"
+    ],
+    "series": "",
+    "chars": 475,
+    "lines": 7,
+    "emoji_per_100": 0.63,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이번주 코스피 금리 한도 진짜 이버",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.721,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#305050"
+    ]
+   }
+  },
+  {
+   "id": "18154301941523382",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-21T09:30:39+0000",
+   "permalink": "https://www.instagram.com/p/DewFygXk8Cw/",
+   "like_count": 11,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "주식 얘기, 하루 종일 해본 적 있나요?",
+    "last_question": "주식 얘기, 하루 종일 해본 적 있나요?",
+    "structure": "질문>문장×9>이모지소제목>문장×7>항목>해시태그",
+    "numbers": [
+     "2026년",
+     "10",
+     "1",
+     "2일",
+     "2026년",
+     "11월",
+     "21",
+     "22일",
+     "1",
+     "2일",
+     "3",
+     "1129"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#삼프로용평투자캠프",
+     "#투자스터디",
+     "#주식공부",
+     "#모나용평",
+     "#투"
+    ],
+    "keywords": [
+     "투자",
+     "주식",
+     "용평으로",
+     "가져오세요",
+     "멘토",
+     "함께하는",
+     "얘기",
+     "하루",
+     "종일",
+     "해본",
+     "있나요",
+     "방송에서"
+    ],
+    "series": "",
+    "chars": 430,
+    "lines": 20,
+    "emoji_per_100": 0.23,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "SEE 용평 투자 캠프 주식 얘기, 하루 있나요? 대한민국 대표 멘토 1",
+    "cover_chars": 55,
+    "visual": "graphic",
+    "top5_share": 0.799,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#103010"
+    ]
+   }
+  },
+  {
+   "id": "18120611461952925",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-21T03:14:11+0000",
+   "permalink": "https://www.instagram.com/p/DevatLgk86I/",
+   "like_count": 10,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "연일 무너지는 코스피에 혹시 제2의 경제 위기가 아닐까 많이 불안하신가요?",
+    "last_question": "연일 무너지는 코스피에 혹시 제2의 경제 위기가 아닐까 많이 불안하신가요?",
+    "structure": "질문>문장×2>항목×3>문장>해시태그",
+    "numbers": [
+     "2"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창대표",
+     "#코스피",
+     "#하락장",
+     "#반도체전망",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#가치투자",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "있습니다",
+     "속아",
+     "마십시오",
+     "계좌를",
+     "연일",
+     "무너지는",
+     "코스피에",
+     "혹시",
+     "경제",
+     "위기가",
+     "아닐까",
+     "불안하신가요"
+    ],
+    "series": "",
+    "chars": 555,
+    "lines": 8,
+    "emoji_per_100": 0.72,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "RO ZA 10 121 역대",
+    "cover_chars": 11,
+    "visual": "photo",
+    "top5_share": 0.386,
+    "n_colors": 81,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18121736426285587",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-20T06:42:01+0000",
+   "permalink": "https://www.instagram.com/p/DetNsedE2i0/",
+   "like_count": 8,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지금 미국 현지에서는 막대한 자본과 빅테크의 권력으로도 뚫지 못하는 거대한 '셧다운' 공포가 시작되었습니다.",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장>해시태그",
+    "numbers": [
+     "65%",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#뉴스3",
+     "#권순우기자",
+     "#AI전망",
+     "#데이터센터",
+     "#엔비디아",
+     "#전력기기",
+     "#전력인프라",
+     "#매크로분석",
+     "#프랑스국채",
+     "#코스피저평가",
+     "#시황분석",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "AI",
+     "미국",
+     "정치적",
+     "국가",
+     "현지에서는",
+     "막대한",
+     "자본과",
+     "빅테크의",
+     "권력으로도",
+     "뚫지",
+     "못하는",
+     "거대한"
+    ],
+    "series": "",
+    "chars": 545,
+    "lines": 7,
+    "emoji_per_100": 0.73,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "005 202 무한 성장? 센터 65%",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.569,
+    "n_colors": 93,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18098641601407661",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-10-16T08:30:05+0000",
+   "permalink": "https://www.instagram.com/reel/DejG2dIyPRZ/",
+   "like_count": 6,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"마이너스 30% 찍혔다고 손절하셨습니까? 세력한테 완벽히 당하셨습니다.\"",
+    "last_question": "\"마이너스 30% 찍혔다고 손절하셨습니까? 세력한테 완벽히 당하셨습니다.\"",
+    "structure": "문장×2>항목×3>문장>해시태그",
+    "numbers": [
+     "30%",
+     "1,000원",
+     "300원",
+     "30%"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블체크",
+     "#하창완대표",
+     "#코스피",
+     "#가치투자",
+     "#세력주",
+     "#손절타이밍",
+     "#차트분석",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "누르는",
+     "아니라",
+     "본질적",
+     "마십시오",
+     "기업의",
+     "마이너스",
+     "찍혔다고",
+     "손절하셨습니까",
+     "세력한테",
+     "완벽히",
+     "당하셨습니다",
+     "하창완"
+    ],
+    "series": "",
+    "chars": 423,
+    "lines": 7,
+    "emoji_per_100": 0.71,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "결국 들이 진짜 않다\" 이번 반등",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.732,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#305050"
+    ]
+   }
+  },
+  {
+   "id": "17956110987016972",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-01T04:48:29+0000",
+   "permalink": "https://www.instagram.com/p/Dd8FmY_EzuT/",
+   "like_count": 5,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지금 시장의 거대 자본(스마트머니)은 무거운 대형주를 피해 훨씬 빠르고 탄력적인 '소부장(소재·부품·장비)'",
+    "last_question": "",
+    "structure": "문장>항목×3>문장>해시태그",
+    "numbers": [
+     "1"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#김록호연구위원",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#반도체전망",
+     "#소부장",
+     "#마이크론",
+     "#실적발표",
+     "#매물대",
+     "#시황분석",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "소부장",
+     "환율",
+     "반도체",
+     "마십시오",
+     "시장의",
+     "거대",
+     "자본",
+     "스마트머니",
+     "무거운",
+     "대형주를",
+     "피해",
+     "훨씬"
+    ],
+    "series": "",
+    "chars": 393,
+    "lines": 6,
+    "emoji_per_100": 1.02,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "RO Big samsuNG 10 단단",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.294,
+    "n_colors": 104,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103050"
+    ]
+   }
+  },
+  {
+   "id": "18110626055130860",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-30T02:31:23+0000",
+   "permalink": "https://www.instagram.com/p/Dd5RHTskxB7/",
+   "like_count": 12,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "남들이 칩 단가 따질 때, 삼성은 1조 3천억을 꽂아 AI 데이터센터 판 전체를 먹어 치우기 시작했습니다.",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장>해시태그",
+    "numbers": [
+     "1조",
+     "3천",
+     "10억",
+     "1조",
+     "3천",
+     "1조",
+     "3천",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#뉴스3",
+     "#권순우기자",
+     "#삼성전자",
+     "#이재용회장",
+     "#젠슨황",
+     "#엔비디아",
+     "#AI인프라",
+     "#데이터센터",
+     "#반도체전망",
+     "#삼성물산",
+     "#삼성SDI",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "AI",
+     "천억",
+     "미국",
+     "남들이",
+     "단가",
+     "따질",
+     "삼성은",
+     "천억을",
+     "꽂아",
+     "데이터센터",
+     "전체를",
+     "먹어"
+    ],
+    "series": "",
+    "chars": 466,
+    "lines": 7,
+    "emoji_per_100": 0.86,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "SS 9 30 HBM 늦은 삼성?",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.371,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#305070"
+    ]
+   }
+  },
+  {
+   "id": "17901175806665704",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-09-23T07:10:13+0000",
+   "permalink": "https://www.instagram.com/reel/DdnvZbFyAKY/",
+   "like_count": 8,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "7,000선 돌파 임박,",
+    "last_question": "✔️ 강력한 팩트체크: 하반기 가격 정체? 내년 애플 공급 계약 단가는 이미 30% 인상 확정",
+    "structure": "문장>질문>문장>항목×3>문장>해시태그",
+    "numbers": [
+     "7,000",
+     "7,000",
+     "7,000",
+     "30%",
+     "7,000",
+     "7000"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#김민수대표",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#반도체전망",
+     "#코스피7000",
+     "#HBM",
+     "#D램",
+     "#추격매수금지",
+     "#주식투자",
+     "#시황분석",
+     "#경제공부"
+    ],
+    "keywords": [
+     "매매",
+     "전략",
+     "공급",
+     "돌파",
+     "임박",
+     "삼전닉스",
+     "살까요",
+     "코스피",
+     "선을",
+     "앞두고",
+     "불을",
+     "뿜는"
+    ],
+    "series": "",
+    "chars": 437,
+    "lines": 8,
+    "emoji_per_100": 0.92,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "언제 사요? 큰일",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.74,
+    "n_colors": 53,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#307070"
+    ]
+   }
+  },
+  {
+   "id": "18116978809761281",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-21T07:10:37+0000",
+   "permalink": "https://www.instagram.com/p/Ddil6pHkyiD/",
+   "like_count": 11,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "미중 화해설에 속아 2차전지를 던지셨습니까? 완벽한 오판입니다. 🛑",
+    "last_question": "미중 화해설에 속아 2차전지를 던지셨습니까? 완벽한 오판입니다. 🛑",
+    "structure": "문장×2>항목×3>문장>해시태그",
+    "numbers": [
+     "2",
+     "2"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#미중정상회담",
+     "#2차전지",
+     "#K배터리",
+     "#AI인프라",
+     "#전력설비",
+     "#변압기",
+     "#시황분석",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "전력",
+     "인프라",
+     "미중",
+     "화해설에",
+     "속아",
+     "차전지를",
+     "던지셨습니까",
+     "완벽한",
+     "오판입니다",
+     "미국과",
+     "중국이",
+     "극적으로"
+    ],
+    "series": "",
+    "chars": 361,
+    "lines": 7,
+    "emoji_per_100": 1.11,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2 9 2 00000 배터리 셨습니까?",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.446,
+    "n_colors": 111,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18329508796274584",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-15T02:12:34+0000",
+   "permalink": "https://www.instagram.com/p/DdSnCU1kzH1/",
+   "like_count": 10,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"금리 동결 = 호재\"라는 낡은 공식,",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장>질문>해시태그",
+    "numbers": [
+     "10년",
+     "5%",
+     "100",
+     "5%"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창대표",
+     "#FOMC",
+     "#기준금리",
+     "#국채금리",
+     "#파월의장",
+     "#미국증시",
+     "#반도체전망",
+     "#AI관련주",
+     "#시황분석",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "금리",
+     "국채",
+     "단호한",
+     "동결",
+     "호재",
+     "라는",
+     "낡은",
+     "공식",
+     "시장에서는",
+     "완전히",
+     "틀렸습니다",
+     "시장이"
+    ],
+    "series": "",
+    "chars": 506,
+    "lines": 9,
+    "emoji_per_100": 1.19,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "TREASURY 금리",
+    "cover_chars": 10,
+    "visual": "graphic",
+    "top5_share": 0.619,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18003211004791401",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-09-14T01:57:38+0000",
+   "permalink": "https://www.instagram.com/reel/DdQAdosyICY/",
+   "like_count": 67,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "여기 경제 상식을 완전히 뒤엎은 기적이 있습니다. 🛑",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장>질문>해시태그",
+    "numbers": [
+     "4,300억",
+     "10",
+     "1,500억"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#BNK금융그룹",
+     "#부산은행",
+     "#IMF외환위기",
+     "#뱅크런",
+     "#경제역사",
+     "#지역금융",
+     "#금융상식",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "상식을",
+     "뱅크런",
+     "대신",
+     "시민의",
+     "여기",
+     "경제",
+     "완전히",
+     "뒤엎은",
+     "기적이",
+     "있습니다",
+     "IMF",
+     "외환위기"
+    ],
+    "series": "",
+    "chars": 411,
+    "lines": 9,
+    "emoji_per_100": 1.22,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "3000 IMF 대신 은행",
+    "cover_chars": 11,
+    "visual": "graphic",
+    "top5_share": 0.647,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103050"
+    ]
+   }
+  },
+  {
+   "id": "18444644455126065",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-11T02:45:27+0000",
+   "permalink": "https://www.instagram.com/p/DdIXnsaEzn6/",
+   "like_count": 13,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "전쟁 났다고 주식 다 파셨습니까?",
+    "last_question": "전쟁 났다고 주식 다 파셨습니까?",
+    "structure": "질문>문장>항목×3>문장>해시태그",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블체크",
+     "#하창완대표",
+     "#중동전쟁",
+     "#패닉셀링",
+     "#국채금리",
+     "#반도체소부장",
+     "#유리기판",
+     "#시황분석",
+     "#주식투자",
+     "#경제공부"
+    ],
+    "keywords": [
+     "전쟁",
+     "났다고",
+     "주식",
+     "파셨습니까",
+     "공포",
+     "뉴스에",
+     "속아",
+     "세력",
+     "좋은",
+     "시키지",
+     "마십시오",
+     "흔들리는"
+    ],
+    "series": "",
+    "chars": 332,
+    "lines": 7,
+    "emoji_per_100": 1.2,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "9 11 전쟁 났다고 매도? 립니다",
+    "cover_chars": 14,
+    "visual": "photo",
+    "top5_share": 0.58,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "17944938150338218",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-10T02:38:13+0000",
+   "permalink": "https://www.instagram.com/p/DdFx_13k5SU/",
+   "like_count": 10,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "⚠️ 지금 화장품주 던지면 연말에 후회하게 됩니다.",
+    "last_question": "",
+    "structure": "이모지소제목>문장>항목×3>문장>질문>해시태그",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#박종대연구위원",
+     "#화장품주",
+     "#K뷰티",
+     "#펌텍코리아",
+     "#수출주",
+     "#주식투자",
+     "#시황분석",
+     "#가치투자"
+    ],
+    "keywords": [
+     "비수기",
+     "화장품주",
+     "던지면",
+     "연말에",
+     "후회하게",
+     "됩니다",
+     "하반기는",
+     "화장품",
+     "라는",
+     "과거의",
+     "공식은",
+     "완전히"
+    ],
+    "series": "",
+    "chars": 416,
+    "lines": 8,
+    "emoji_per_100": 1.2,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 92102 IN 지면, 티다",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.383,
+    "n_colors": 105,
+    "face": false,
+    "colors": [
+     "#101030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18009083252971092",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-09-08T00:53:16+0000",
+   "permalink": "https://www.instagram.com/reel/DdAcXT_yQpA/",
+   "like_count": 12,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "경제 지표가 긍정적으로 나오면 비트코인도 오를 것이라는 예상은 완전히 틀렸습니다. 🛑",
+    "last_question": "",
+    "structure": "문장×2>항목×2>문장×2>해시태그",
+    "numbers": [
+     "8만",
+     "9월",
+     "10일",
+     "8월",
+     "9월",
+     "11일",
+     "8월",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#비트코인",
+     "#CPI",
+     "#PPI",
+     "#물가지수",
+     "#암호화폐",
+     "#가상화폐",
+     "#투자전략",
+     "#매크로분석",
+     "#경제공부"
+    ],
+    "keywords": [
+     "지표가",
+     "있습니다",
+     "시장의",
+     "경제",
+     "긍정적으로",
+     "나오면",
+     "비트코인도",
+     "오를",
+     "것이라는",
+     "예상은",
+     "완전히",
+     "틀렸습니다"
+    ],
+    "series": "",
+    "chars": 430,
+    "lines": 7,
+    "emoji_per_100": 0.7,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "코인 갈까 말까 이번주 핵심 지표 2 루드 체인",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.739,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18248119978309764",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-04T01:56:41+0000",
+   "permalink": "https://www.instagram.com/p/Dc2QecPk9hi/",
+   "like_count": 12,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "미국이 반도체 관세 엄포를 놓은 진짜 이유는 '수입 차단'이 아닙니다. 🛑",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장×2>질문>해시태그",
+    "numbers": [
+     "2.5배"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#오늘아침라이브",
+     "#권순우기자",
+     "#반도체전망",
+     "#관세이슈",
+     "#러트닉",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#반도체투자",
+     "#주식투자",
+     "#시황분석",
+     "#경제공부"
+    ],
+    "keywords": [
+     "반도체",
+     "관세",
+     "미국의",
+     "있습니다",
+     "미국이",
+     "엄포를",
+     "놓은",
+     "이유는",
+     "수입",
+     "차단",
+     "아닙니다",
+     "한국"
+    ],
+    "series": "",
+    "chars": 471,
+    "lines": 10,
+    "emoji_per_100": 1.49,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "22 2 eal 관세 엄포 뒤에 숨겨진",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.41,
+    "n_colors": 91,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17983261002070406",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-03T04:53:11+0000",
+   "permalink": "https://www.instagram.com/p/Dcz_4OZkzX4/",
+   "like_count": 11,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"삼성전자 자사주 방어막이 뚫렸다\"는 기사, 혹시 보셨습니까?",
+    "last_question": "\"삼성전자 자사주 방어막이 뚫렸다\"는 기사, 혹시 보셨습니까?",
+    "structure": "질문>문장>항목×3>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창대표",
+     "#코스피",
+     "#증시전망",
+     "#엔캐리트레이드",
+     "#자사주매입",
+     "#삼성전자",
+     "#주식시장",
+     "#외국인매도",
+     "#기술적반등",
+     "#시황분석",
+     "#경제공부"
+    ],
+    "keywords": [
+     "자사주",
+     "수급",
+     "잘못된",
+     "삼성전자",
+     "방어막이",
+     "뚫렸다",
+     "기사",
+     "혹시",
+     "보셨습니까",
+     "이는",
+     "주식",
+     "시장의"
+    ],
+    "series": "",
+    "chars": 272,
+    "lines": 7,
+    "emoji_per_100": 1.47,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "GL til 9 3 만능? 완벽한 입니다.",
+    "cover_chars": 17,
+    "visual": "graphic",
+    "top5_share": 0.693,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103030"
+    ]
+   }
+  },
+  {
+   "id": "17879285175527451",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-08-31T04:32:11+0000",
+   "permalink": "https://www.instagram.com/reel/DcsPBrUygmj/",
+   "like_count": 7,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "미국의 반도체 관세 부과가 한국에 악재라는 주장은 완전히 틀렸습니다. 🛑",
+    "last_question": "",
+    "structure": "문장×2>항목×2>문장×3>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#이형수대표",
+     "#반도체전망",
+     "#관세이슈",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#주식투자",
+     "#시황분석"
+    ],
+    "keywords": [
+     "미국",
+     "미국의",
+     "반도체",
+     "관세",
+     "부과가",
+     "한국에",
+     "악재라는",
+     "주장은",
+     "완전히",
+     "틀렸습니다",
+     "결론부터",
+     "말씀드리면"
+    ],
+    "series": "",
+    "chars": 392,
+    "lines": 8,
+    "emoji_per_100": 1.02,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "그거 수매 14",
+    "cover_chars": 6,
+    "visual": "graphic",
+    "top5_share": 0.716,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#305050"
+    ]
+   }
+  },
+  {
+   "id": "18421008892148064",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-28T03:57:26+0000",
+   "permalink": "https://www.instagram.com/p/DckcusMEz0n/",
+   "like_count": 16,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "1주택자는 세금 걱정이 없다고요? 완전히 틀렸습니다. 🛑",
+    "last_question": "1주택자는 세금 걱정이 없다고요? 완전히 틀렸습니다. 🛑",
+    "structure": "문장×2>항목×3>문장>질문>해시태그",
+    "numbers": [
+     "1",
+     "8",
+     "3",
+     "1",
+     "1",
+     "1"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#아침N투자",
+     "#김지연세무사",
+     "#부동산세금",
+     "#세제개편안",
+     "#양도소득세",
+     "#종합부동산세",
+     "#1주택자",
+     "#비거주1주택자",
+     "#절세전략",
+     "#부동산투자",
+     "#재테크"
+    ],
+    "keywords": [
+     "주택자는",
+     "실거주",
+     "세무",
+     "세금",
+     "걱정이",
+     "없다고요",
+     "완전히",
+     "틀렸습니다",
+     "세제",
+     "개편안의",
+     "핵심은",
+     "하나"
+    ],
+    "series": "",
+    "chars": 440,
+    "lines": 8,
+    "emoji_per_100": 1.59,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "282 1 자는 안전? 완전히 입니다.",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.547,
+    "n_colors": 64,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18109867031023254",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-27T07:47:03+0000",
+   "permalink": "https://www.instagram.com/p/DciSNjwEzvz/",
+   "like_count": 17,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "엔비디아가 100점짜리 성적표를 냈는데, 코스피는 왜 시원하게 가지 못할까요? 🤔",
+    "last_question": "엔비디아가 100점짜리 성적표를 냈는데, 코스피는 왜 시원하게 가지 못할까요? 🤔",
+    "structure": "문장×2>항목×3>문장×2>해시태그",
+    "numbers": [
+     "100"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#하창완",
+     "#엔비디아실적",
+     "#반도체전망",
+     "#전력기기",
+     "#변압기",
+     "#가치투자",
+     "#장기투자",
+     "#코스피",
+     "#투자전략",
+     "#시황분석"
+    ],
+    "keywords": [
+     "시장의",
+     "엔비디아가",
+     "점짜리",
+     "성적표를",
+     "냈는데",
+     "코스피는",
+     "시원하게",
+     "가지",
+     "못할까요",
+     "하창완",
+     "대표가",
+     "진단한"
+    ],
+    "series": "",
+    "chars": 342,
+    "lines": 8,
+    "emoji_per_100": 1.46,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "Now SS 8 272 단타 치면 진짜 지금 부터",
+    "cover_chars": 19,
+    "visual": "photo",
+    "top5_share": 0.63,
+    "n_colors": 78,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103030"
+    ]
+   }
+  },
+  {
+   "id": "17929499289145464",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-08-26T05:07:20+0000",
+   "permalink": "https://www.instagram.com/reel/DcfbEgAyOnj/",
+   "like_count": 13,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "주식으로 돈 잃고 자책하고 계신가요? 멈추세요! 🛑",
+    "last_question": "주식으로 돈 잃고 자책하고 계신가요? 멈추세요! 🛑",
+    "structure": "문장×5>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#최명기",
+     "#정신과전문의",
+     "#주식투자",
+     "#주식마인드",
+     "#멘탈관리",
+     "#투자심리",
+     "#하락장",
+     "#손절",
+     "#마인드컨트롤",
+     "#위로글"
+    ],
+    "keywords": [
+     "주식으로",
+     "잃고",
+     "자책하고",
+     "계신가요",
+     "멈추세요",
+     "최고점에서",
+     "팔지",
+     "못한",
+     "정상",
+     "입니다",
+     "청담하버드심리센터",
+     "최명기"
+    ],
+    "series": "",
+    "chars": 261,
+    "lines": 8,
+    "emoji_per_100": 1.15,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "으로 잃고 하고 다면 보세요 보세요 당장",
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.727,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303050"
+    ]
+   }
+  },
+  {
+   "id": "18335519611251815",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-24T02:38:56+0000",
+   "permalink": "https://www.instagram.com/p/DcaAkPLk6vs/",
+   "like_count": 14,
+   "comments_count": 2,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"엔비디아 발표 전까지는 무조건 눈치 게임입니다.\" 🌪️",
+    "last_question": "더 깊은 인사이트가 필요하다면?",
+    "structure": "문장×2>항목×2>문장>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창대표",
+     "#수퍼위크",
+     "#비트코인",
+     "#금값상승",
+     "#주식투자",
+     "#코스피",
+     "#나스닥",
+     "#시황분석",
+     "#포트폴리오"
+    ],
+    "keywords": [
+     "전략을",
+     "엔비디아",
+     "발표",
+     "전까지는",
+     "무조건",
+     "눈치",
+     "게임입니다",
+     "어마어마한",
+     "이벤트들이",
+     "몰려온",
+     "박병창",
+     "대표가"
+    ],
+    "series": "",
+    "chars": 370,
+    "lines": 8,
+    "emoji_per_100": 1.08,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "11 6 82 242",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.538,
+    "n_colors": 45,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18047467610802832",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-21T02:46:15+0000",
+   "permalink": "https://www.instagram.com/p/DcSTBNyE0Jt/",
+   "like_count": 20,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "잠깐, 지금 삼전 추격 매수 버튼 누르려는 분들 스톱! 🛑",
+    "last_question": "✔️ 미국 채권 정책의 맹점: 시장이 미국 정부의 대규모 부양책을 차갑게 불신하는 배경은?",
+    "structure": "문장×2>항목×3>문장>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#장우진",
+     "#삼성전자",
+     "#주주환원",
+     "#자사주소각",
+     "#미국채금리",
+     "#인플레이션",
+     "#비트코인",
+     "#주식투자",
+     "#주식공부",
+     "#현금관망",
+     "#재테크"
+    ],
+    "keywords": [
+     "추격",
+     "대규모",
+     "있습니다",
+     "미국",
+     "잠깐",
+     "삼전",
+     "매수",
+     "버튼",
+     "누르려는",
+     "분들",
+     "스톱",
+     "분명"
+    ],
+    "series": "",
+    "chars": 409,
+    "lines": 9,
+    "emoji_per_100": 1.22,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "12 매수? 지금 가면 립니다!",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.466,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18072295946706540",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-08-21T01:35:01+0000",
+   "permalink": "https://www.instagram.com/reel/DcSKzX5SDqp/",
+   "like_count": 18,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🧘‍♂️주식은 내 마음을 다스리는 게임이다",
+    "last_question": "💸 투자에 여유를 갖기 위한 확실한 방법, 수익금 출금하기????",
+    "structure": "이모지소제목>질문>문장>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#주식초보",
+     "#박병창대표",
+     "#매매기법",
+     "#마인드셋",
+     "#단타",
+     "#장기투자",
+     "#재테크팁",
+     "#자산관리",
+     "#수익창출"
+    ],
+    "keywords": [
+     "주식은",
+     "마음을",
+     "다스리는",
+     "게임이다",
+     "투자에",
+     "여유를",
+     "갖기",
+     "위한",
+     "확실한",
+     "방법",
+     "수익금",
+     "출금하기"
+    ],
+    "series": "",
+    "chars": 197,
+    "lines": 6,
+    "emoji_per_100": 2.54,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "으로 버는 사람 이렇게 iil 합니다",
+    "cover_chars": 15,
+    "visual": "graphic",
+    "top5_share": 0.754,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303050"
+    ]
+   }
+  },
+  {
+   "id": "18105248555163867",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-20T06:37:22+0000",
+   "permalink": "https://www.instagram.com/p/DcQIrCek024/",
+   "like_count": 16,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"무려 40조 원!\" 💰",
+    "last_question": "하락장에 맘고생 많았던 하이닉스 주주라면? 지금 당장 하반기 반전의 모멘텀을 확인하세요!",
+    "structure": "문장×2>질문>항목×3>문장>질문>문장>해시태그",
+    "numbers": [
+     "40조",
+     "40조",
+     "50%",
+     "3",
+     "200"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블크루",
+     "#SK하이닉스",
+     "#자사주매입",
+     "#자사주소각",
+     "#주주환원",
+     "#배당주",
+     "#삼성전자",
+     "#엔비디아",
+     "#HBM",
+     "#국내증시",
+     "#주식투자",
+     "#재테크"
+    ],
+    "keywords": [
+     "배당",
+     "있습니다",
+     "HBM",
+     "하이닉스",
+     "무려",
+     "매도",
+     "사이드카의",
+     "공포를",
+     "단번에",
+     "잠재운",
+     "SK하이닉스의",
+     "역대급"
+    ],
+    "series": "",
+    "chars": 480,
+    "lines": 10,
+    "emoji_per_100": 1.04,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "NOW all 20 미쳤다!\" 하이 LIA 소리 질러!",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.387,
+    "n_colors": 88,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18124100545879002",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-19T02:58:22+0000",
+   "permalink": "https://www.instagram.com/p/DcNK0MoE-7v/",
+   "like_count": 12,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"매도 사이드카 떴다! 다 던져!!!\" 😱",
+    "last_question": "✔️ 6,650선 지지가 깨졌나요? 그렇다면 6,200선(6천 초반)까지 하방을 넉넉히 열어두고, 본 계좌 ",
+    "structure": "문장×3>항목×3>문장>질문>문장>해시태그",
+    "numbers": [
+     "13",
+     "6,650",
+     "6,200",
+     "6천"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블체크",
+     "#하창완",
+     "#긴급시황",
+     "#매도사이드카",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#반도체주가",
+     "#한화에어로스페이스",
+     "#주식하락장",
+     "#패닉셀",
+     "#주식공부",
+     "#재테크",
+     "#코스피전망",
+     "#서브계좌"
+    ],
+    "keywords": [
+     "계좌",
+     "매도",
+     "번의",
+     "전략을",
+     "사이드카",
+     "떴다",
+     "던져",
+     "잠깐",
+     "파란불에",
+     "겁먹고",
+     "버튼",
+     "누르셨나요"
+    ],
+    "series": "",
+    "chars": 553,
+    "lines": 10,
+    "emoji_per_100": 1.08,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "KOSPI -15% -20% NASD 500 15% 249 15% -20",
+    "cover_chars": 46,
+    "visual": "photo",
+    "top5_share": 0.489,
+    "n_colors": 73,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18104452154223391",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-08-19T01:47:41+0000",
+   "permalink": "https://www.instagram.com/reel/DcNCqhhyTYn/",
+   "like_count": 11,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"내가 사면 떨어지고, 팔면 오른다?\"",
+    "last_question": "\"내가 사면 떨어지고, 팔면 오른다?\"",
+    "structure": "문장×3>항목×3>문장×2>해시태그",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#김민수대표",
+     "#단타",
+     "#단기매매",
+     "#트레이딩",
+     "#주식투자",
+     "#주식공부",
+     "#매수타이밍",
+     "#지지선",
+     "#재테크"
+    ],
+    "keywords": [
+     "진입",
+     "타이밍",
+     "내가",
+     "사면",
+     "떨어지고",
+     "팔면",
+     "오른다",
+     "우주가",
+     "매매",
+     "버튼을",
+     "감시하는",
+     "같은"
+    ],
+    "series": "",
+    "chars": 430,
+    "lines": 9,
+    "emoji_per_100": 0.93,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "내가 사면 떨어지고, 팔면 오른다? ETF 4 다시 끝까지 가야 할것",
+    "cover_chars": 28,
+    "visual": "graphic",
+    "top5_share": 0.722,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#307070"
+    ]
+   }
+  },
+  {
+   "id": "18111198956001188",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-07T05:47:31+0000",
+   "permalink": "https://www.instagram.com/p/DbukokRE9ti/",
+   "like_count": 9,
+   "comments_count": 5,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"나 국장 떠난다!\"",
+    "last_question": "식어버린 증시 열기에 손절을 고민 중이신가요?",
+    "structure": "문장>질문>문장>항목×3>문장>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#염승환",
+     "#국내증시",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#HBM",
+     "#반도체주가",
+     "#화장품주",
+     "#주식포트폴리오",
+     "#주식투자",
+     "#재테크",
+     "#경제공부"
+    ],
+    "keywords": [
+     "역대급",
+     "국장",
+     "떠난다",
+     "식어버린",
+     "증시",
+     "열기에",
+     "손절을",
+     "고민",
+     "중이신가요",
+     "LS증권",
+     "염승환",
+     "이사가"
+    ],
+    "series": "",
+    "chars": 371,
+    "lines": 10,
+    "emoji_per_100": 1.08,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "5000 82 4 망칠 국장 기회 잡는",
+    "cover_chars": 15,
+    "visual": "graphic",
+    "top5_share": 0.711,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18433144978132457",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-05T07:59:50+0000",
+   "permalink": "https://www.instagram.com/p/DbpqL_Fk6gy/",
+   "like_count": 13,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "7월의 매서운 급락장을 지나 드디어 바닥을 다져가는 한국 증시!",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장>질문>문장>해시태그",
+    "numbers": [
+     "7월",
+     "3",
+     "1배"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#아침N투자",
+     "#장재영",
+     "#김준수",
+     "#AI랠리",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#중국반도체",
+     "#CXMT",
+     "#빅테크회사채",
+     "#미국증시",
+     "#주식투자",
+     "#재테크",
+     "#경제공부"
+    ],
+    "keywords": [
+     "AI",
+     "수요",
+     "월의",
+     "매서운",
+     "급락장을",
+     "지나",
+     "드디어",
+     "바닥을",
+     "다져가는",
+     "한국",
+     "증시",
+     "본격적인"
+    ],
+    "series": "",
+    "chars": 398,
+    "lines": 9,
+    "emoji_per_100": 1.01,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "11 8 5 3 신호",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.487,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18018921047876262",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-08-04T10:38:17+0000",
+   "permalink": "https://www.instagram.com/reel/DbnXcqiy9ky/",
+   "like_count": 8,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "급반등에 혹해서 무작정 따라사면 위험한 이유!",
+    "last_question": "",
+    "structure": "문장>항목×2>문장>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블밸류업",
+     "#하창완",
+     "#삼성전자주가",
+     "#SK하이닉스주가",
+     "#증시전망",
+     "#주식공부",
+     "#코스피",
+     "#재테크팁"
+    ],
+    "keywords": [
+     "있습니다",
+     "급반등에",
+     "혹해서",
+     "무작정",
+     "따라사면",
+     "위험한",
+     "이유",
+     "추세선",
+     "저항을",
+     "맞고",
+     "떨어진",
+     "상황에서는"
+    ],
+    "series": "",
+    "chars": 257,
+    "lines": 7,
+    "emoji_per_100": 1.17,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "다시 이유 까진",
+    "cover_chars": 6,
+    "visual": "graphic",
+    "top5_share": 0.76,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18108133418325784",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-03T02:52:31+0000",
+   "permalink": "https://www.instagram.com/p/Dbj9bVYE5lo/",
+   "like_count": 9,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "삼성전자 +26% 급등과",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장>질문>문장>해시태그",
+    "numbers": [
+     "+26%",
+     "8.5조",
+     "7월",
+     "1",
+     "1",
+     "7",
+     "23",
+     "24",
+     "5년",
+     "9조"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창",
+     "#국내증시",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#반도체주가",
+     "#저점확인",
+     "#로봇주",
+     "#주식투자",
+     "#코스피",
+     "#재테크",
+     "#경제공부"
+    ],
+    "keywords": [
+     "삼성전자",
+     "외국인",
+     "증시",
+     "반등",
+     "로봇",
+     "급등과",
+     "역대급",
+     "순매수",
+     "월의",
+     "마지막을",
+     "장식한",
+     "역사적"
+    ],
+    "series": "",
+    "chars": 402,
+    "lines": 10,
+    "emoji_per_100": 1.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "6 PRO TT 82 32 외국인 어디로?",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.365,
+    "n_colors": 66,
+    "face": false,
+    "colors": [
+     "#301010",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18075401945383004",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-31T01:44:00+0000",
+   "permalink": "https://www.instagram.com/p/DbcHM6lE-wA/",
+   "like_count": 10,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "죽어가던 반도체 섹터를 단번에 살려낸 마이크로소프트의 '감동적인 실적 발표'!",
+    "last_question": "",
+    "structure": "문장×2>항목×3>문장>질문>문장>해시태그",
+    "numbers": [
+     "45%",
+     "+18%",
+     "+13%",
+     "+18%",
+     "-8%"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#월가뉴스레터",
+     "#마이크로소프트",
+     "#나스닥",
+     "#반도체주가",
+     "#마이크론",
+     "#AMD",
+     "#미국주식",
+     "#미증시",
+     "#주식투자",
+     "#재테크"
+    ],
+    "keywords": [
+     "반도체",
+     "마이크로소프트의",
+     "빅테크의",
+     "죽어가던",
+     "섹터를",
+     "단번에",
+     "살려낸",
+     "감동적인",
+     "실적",
+     "발표",
+     "미국",
+     "증시를"
+    ],
+    "series": "",
+    "chars": 406,
+    "lines": 9,
+    "emoji_per_100": 0.99,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "7831",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.59,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18604302610007975",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-30T04:01:12+0000",
+   "permalink": "https://www.instagram.com/p/DbZyG8dk-gn/",
+   "like_count": 11,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "이틀 연속 이어진 패닉셀과 극심한 변동성 속에서 정부가 긴급 대책을 내놓았습니다.",
+    "last_question": "",
+    "structure": "문장>항목×3>문장×2>질문>해시태그×2",
+    "numbers": [
+     "20%",
+     "19년",
+     "30년",
+     "5.25%",
+     "3",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#3PROTV",
+     "#뉴스3",
+     "#류종은",
+     "#레버리지ETF",
+     "#증시긴급진단",
+     "#미국국채금리",
+     "#금리동결",
+     "#로봇산업",
+     "#미중갈등",
+     "#국내주식",
+     "#재테크",
+     "#경제공부"
+    ],
+    "keywords": [
+     "속에서",
+     "레버리지",
+     "금리",
+     "로봇",
+     "이틀",
+     "연속",
+     "이어진",
+     "패닉셀과",
+     "극심한",
+     "변동성",
+     "정부가",
+     "긴급"
+    ],
+    "series": "",
+    "chars": 379,
+    "lines": 9,
+    "emoji_per_100": 1.06,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "107 1 77 1, 3000 0 1 7 30 이틀 브레이커, 채워진",
+    "cover_chars": 27,
+    "visual": "photo",
+    "top5_share": 0.47,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103030"
+    ]
+   }
+  },
+  {
+   "id": "17939567127324974",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-29T06:52:09+0000",
+   "permalink": "https://www.instagram.com/p/DbXg4IAE8UA/",
+   "like_count": 15,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "연일 계속되는 증시 폭락과 매도 사이드카, 특히 반도체에 집중된 계좌 때문에 고민이 깊으신가요?",
+    "last_question": "연일 계속되는 증시 폭락과 매도 사이드카, 특히 반도체에 집중된 계좌 때문에 고민이 깊으신가요?",
+    "structure": "질문>문장×2>항목×4>문장>질문>문장>해시태그",
+    "numbers": [
+     "80%",
+     "8월",
+     "8월"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#아침N투자",
+     "#백찬규",
+     "#반도체투자",
+     "#국내증시",
+     "#하락장대응",
+     "#포트폴리오",
+     "#주식시장",
+     "#코스피",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#재테크",
+     "#경제공부"
+    ],
+    "keywords": [
+     "계좌",
+     "실적",
+     "연일",
+     "계속되는",
+     "증시",
+     "폭락과",
+     "매도",
+     "사이드카",
+     "특히",
+     "반도체에",
+     "집중된",
+     "때문에"
+    ],
+    "series": "",
+    "chars": 496,
+    "lines": 11,
+    "emoji_per_100": 0.4,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "3000 반도체 붕괴 계좌 복구 긴급 전략",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.559,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "17958638529178927",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-07-29T05:47:17+0000",
+   "permalink": "https://www.instagram.com/reel/DbXZa8EyfEn/",
+   "like_count": 13,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "'카센터'가 되어버린 한국 증시 🚨",
+    "last_question": "국장에 실망한 투자자들의 돈은 지금 어디로 이동하고 있을까요?",
+    "structure": "문장×2>질문>항목×3>문장>질문>문장>해시태그",
+    "numbers": [
+     "3배"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#김민수",
+     "#증시현황",
+     "#매도사이드카",
+     "#국내주식",
+     "#미국주식",
+     "#레버리지투자",
+     "#포트폴리오",
+     "#주식공부",
+     "#재테크"
+    ],
+    "keywords": [
+     "투자자들의",
+     "있습니다",
+     "부동산",
+     "위한",
+     "카센터",
+     "되어버린",
+     "한국",
+     "증시",
+     "매도",
+     "매수",
+     "사이드카가",
+     "수시로"
+    ],
+    "series": "",
+    "chars": 382,
+    "lines": 10,
+    "emoji_per_100": 1.31,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "다시 미장 7 없다?",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.696,
+    "n_colors": 53,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#307070"
+    ]
+   }
+  },
+  {
+   "id": "17938191243299954",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-28T02:06:03+0000",
+   "permalink": "https://www.instagram.com/p/DbUbVv_k5jl/",
+   "like_count": 14,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "또다시 터진 매도 사이드카와",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장>질문>문장>해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#삼프로TV",
+     "#더블업",
+     "#김민수",
+     "#매도사이드카",
+     "#국내증시",
+     "#삼성전자",
+     "#SK하이닉스",
+     "#주식시장",
+     "#주식투자",
+     "#코스피",
+     "#실적시즌",
+     "#경제공부"
+    ],
+    "keywords": [
+     "반등",
+     "또다시",
+     "터진",
+     "매도",
+     "사이드카와",
+     "대형",
+     "반도체주의",
+     "급락으로",
+     "시장의",
+     "공포감이",
+     "극에",
+     "달했습니다"
+    ],
+    "series": "",
+    "chars": 372,
+    "lines": 10,
+    "emoji_per_100": 0.54,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "7 28 터진 매도 사이드카, 이라도 해야 할까?",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.45,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18417043600194082",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-27T02:52:07+0000",
+   "permalink": "https://www.instagram.com/p/DbR70Q4k-LH/",
+   "like_count": 6,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지금 꼭 알아야 할 핵심 경제 이슈 3가지를 정리해 드립니다.",
+    "last_question": "",
+    "structure": "문장>항목×3>문장×2>질문>해시태그×2",
+    "numbers": [
+     "3",
+     "18.4",
+     "6.5배",
+     "2.3배",
+     "85.9%",
+     "3",
+     "3"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#3PROTV",
+     "#뉴스3",
+     "#류종은",
+     "#AI반도체",
+     "#AI동맹",
+     "#빅테크",
+     "#물류비비상",
+     "#종부세개편",
+     "#부동산세제",
+     "#주식투자",
+     "#국내주식",
+     "#글로벌경제",
+     "#경제공부"
+    ],
+    "keywords": [
+     "알아야",
+     "핵심",
+     "경제",
+     "이슈",
+     "가지를",
+     "정리해",
+     "드립니다",
+     "한미",
+     "AI",
+     "빅테크",
+     "초대형",
+     "협력"
+    ],
+    "series": "",
+    "chars": 403,
+    "lines": 9,
+    "emoji_per_100": 0.99,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "0, 한미 해신 이슈 3",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.437,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#709090"
+    ]
+   }
+  },
+  {
+   "id": "18083565662652407",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-07-24T05:25:12+0000",
+   "permalink": "https://www.instagram.com/reel/DbKe2ZnSKJd/",
+   "like_count": 26,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "\"대한민국 최초의 과학 노벨상, 반드시 이루고 싶습니다.\"",
+    "last_question": "",
+    "structure": "문장×6>질문>문장>해시태그",
+    "numbers": [
+     "6"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#포스코",
+     "#장인화",
+     "#포스코홀딩스",
+     "#장인화회장",
+     "#포항공대",
+     "#POSTECH",
+     "#노벨상",
+     "#과학노벨상",
+     "#메타렌즈",
+     "#주식투자",
+     "#경제공부",
+     "#기업분석"
+    ],
+    "keywords": [
+     "장인화",
+     "대한민국",
+     "과학",
+     "노벨상",
+     "포스코그룹",
+     "회장의",
+     "최초의",
+     "반드시",
+     "이루고",
+     "싶습니다",
+     "회장이",
+     "직접"
+    ],
+    "series": "",
+    "chars": 503,
+    "lines": 9,
+    "emoji_per_100": 0.2,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "공대 동산 비밀 거버넌스 포스코 위원회 신설 EADIE",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.737,
+    "n_colors": 64,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18109617268953895",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-24T01:22:28+0000",
+   "permalink": "https://www.instagram.com/p/DbKDLE8kzqY/",
+   "like_count": 12,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "8월 증시 패러다임 변화,",
+    "last_question": "",
+    "structure": "문장×3>항목×3>문장×2>질문>문장>해시태그",
+    "numbers": [
+     "8월",
+     "8월",
+     "8월"
+    ],
+    "hashtags": [
+     "#삼프로TV",
+     "#마켓인사이드",
+     "#박병창",
+     "#8월증시",
+     "#수급확산",
+     "#주식투자",
+     "#국내주식",
+     "#코스피",
+     "#포트폴리오",
+     "#경제공부"
+    ],
+    "keywords": [
+     "증시",
+     "패러다임",
+     "변화",
+     "반도체보다",
+     "중요한",
+     "것은",
+     "수급",
+     "확산",
+     "입니다",
+     "쏠림",
+     "장세에서",
+     "균형"
+    ],
+    "series": "",
+    "chars": 341,
+    "lines": 11,
+    "emoji_per_100": 1.17,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "NOW Saw 독주 마감, 8 증시 판이 바뀌는 신호",
+    "cover_chars": 21,
+    "visual": "photo",
+    "top5_share": 0.553,
+    "n_colors": 74,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#709090"
+    ]
+   }
+  }
+ ]
+}

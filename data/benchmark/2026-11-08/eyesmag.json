@@ -1,0 +1,5466 @@
+{
+ "account": "eyesmag",
+ "collected_at": "2026-11-08T15:11:45+00:00",
+ "followers_count": 1425546,
+ "media_count": 71289,
+ "posts": [
+  {
+   "id": "17936749728145772",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T15:12:09+0000",
+   "permalink": "https://www.instagram.com/p/DffDLdJnQkx/",
+   "like_count": 468,
+   "comments_count": 12,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "온다 태연 정규 KTY 4…💜 태연이 정규 4집 [Unspecial]로 돌아옵니다. 이는 2022년 발매된 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "4",
+     "4",
+     "2022년",
+     "3",
+     "4년",
+     "30일",
+     "6"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "정규",
+     "온다",
+     "태연",
+     "KTY",
+     "태연이",
+     "Unspecial",
+     "돌아옵니다",
+     "이는",
+     "발매된",
+     "INVU",
+     "이후",
+     "만인데요"
+    ],
+    "series": "",
+    "chars": 186,
+    "lines": 1,
+    "emoji_per_100": 1.61,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "오는 30 정규 4 발매",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.585,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18365254879247614",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T13:35:29+0000",
+   "permalink": "https://www.instagram.com/p/Dfe4HhLoNo9/",
+   "like_count": 134,
+   "comments_count": 2,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "내 취향, 수익률은? 좋아하는 작품을 소장하는 동시에 투자 수익까지 기대할 수 있는 아트테크가 주목받고 있습",
+    "last_question": "내 취향, 수익률은? 좋아하는 작품을 소장하는 동시에 투자 수익까지 기대할 수 있는 아트테크가 주목받고 있습",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "작품을",
+     "투자",
+     "조각투자",
+     "아트테크",
+     "취향",
+     "수익률은",
+     "좋아하는",
+     "소장하는",
+     "동시에",
+     "수익까지",
+     "기대할",
+     "아트테크가"
+    ],
+    "series": "",
+    "chars": 273,
+    "lines": 1,
+    "emoji_per_100": 1.1,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "하는 초보 가이드",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.387,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#107070",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18100196894436368",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-08T11:00:06+0000",
+   "permalink": "https://www.instagram.com/reel/DfemZpMBhoE/",
+   "like_count": 256,
+   "comments_count": 4,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 오키뷰티(okeebeauty)가 론칭 10개월 만에 30만 병 판매 돌파를 기념해 특별한 팝업을 열었",
+    "last_question": "",
+    "structure": "해시태그>문장",
+    "numbers": [
+     "10개",
+     "30만",
+     "337",
+     "108",
+     "1"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "동안",
+     "서울",
+     "오키뷰티",
+     "okeebeauty",
+     "론칭",
+     "개월",
+     "만에",
+     "판매",
+     "돌파를",
+     "기념해",
+     "특별한",
+     "팝업을"
+    ],
+    "series": "",
+    "chars": 320,
+    "lines": 2,
+    "emoji_per_100": 1.56,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "eyesmag",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.335,
+    "n_colors": 59,
+    "face": false,
+    "colors": [
+     "#505030",
+     "#50B070"
+    ]
+   }
+  },
+  {
+   "id": "18061603685660060",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T10:30:02+0000",
+   "permalink": "https://www.instagram.com/p/Dfei7OmoIpS/",
+   "like_count": 387,
+   "comments_count": 6,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "K리그 더 좋아질 이유가 생김.⚽️ K리그(kleague)가 산리오캐릭터즈(sanrio_kr)와 한정판 굿즈",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "12일",
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "K리그",
+     "좋아질",
+     "이유가",
+     "생김",
+     "kleague",
+     "산리오캐릭터즈",
+     "sanrio",
+     "kr",
+     "한정판",
+     "굿즈를",
+     "출시합니다",
+     "협업에서는"
+    ],
+    "series": "",
+    "chars": 248,
+    "lines": 1,
+    "emoji_per_100": 1.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "San 리오",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.41,
+    "n_colors": 88,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18111177290625200",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-08T10:00:05+0000",
+   "permalink": "https://www.instagram.com/reel/DfefgyqhXWH/",
+   "like_count": 215,
+   "comments_count": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "그랜드 하얏트 서울이 러닝과 음악, 커뮤니티를 결합한 새로운 웰니스 이벤트 ‘하얏트 런’을 선보였습니다.🏃🏻",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "하얏트",
+     "그랜드",
+     "서울이",
+     "러닝과",
+     "음악",
+     "커뮤니티를",
+     "결합한",
+     "새로운",
+     "웰니스",
+     "이벤트",
+     "선보였습니다",
+     "이벤트는"
+    ],
+    "series": "",
+    "chars": 336,
+    "lines": 1,
+    "emoji_per_100": 1.79,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "202 13",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.576,
+    "n_colors": 73,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18196967512394698",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T09:21:13+0000",
+   "permalink": "https://www.instagram.com/p/Dfea9_xCD6W/",
+   "like_count": 1770,
+   "comments_count": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "안세영이 배드민턴 역사상 최초로 2년 연속 시즌 11번째 우승을 달성했습니다.🏸 여수 진남체육관에서 열린 2",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2년",
+     "11",
+     "2026",
+     "2",
+     "1",
+     "11",
+     "2년",
+     "11",
+     "72",
+     "98.6%",
+     "2225",
+     "3월",
+     "55",
+     "12"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "시즌",
+     "최초로",
+     "연속",
+     "번째",
+     "우승을",
+     "달성했습니다",
+     "안세영이",
+     "배드민턴",
+     "역사상",
+     "여수",
+     "진남체육관에서",
+     "열린"
+    ],
+    "series": "",
+    "chars": 310,
+    "lines": 1,
+    "emoji_per_100": 1.29,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "NICTO",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.442,
+    "n_colors": 93,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17885788986522573",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T09:00:05+0000",
+   "permalink": "https://www.instagram.com/p/DfeYquJHfPI/",
+   "like_count": 885,
+   "comments_count": 9,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 배틀그라운드(pubg_battlegrounds_kr)가 그룹 아이브(ivestarship)와 손을 잡",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [
+     "6",
+     "11월",
+     "12일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "LOVE",
+     "DIVE",
+     "배틀그라운드",
+     "pubg",
+     "battlegrounds",
+     "kr",
+     "그룹",
+     "아이브",
+     "ivestarship",
+     "손을",
+     "잡고",
+     "특별한"
+    ],
+    "series": "",
+    "chars": 349,
+    "lines": 1,
+    "emoji_per_100": 0.86,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "ver",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.331,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "17868058464680022",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T08:02:59+0000",
+   "permalink": "https://www.instagram.com/p/DfeRxaMico9/",
+   "like_count": 30301,
+   "comments_count": 157,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "삼성 라이온즈가 KT 위즈를 꺾고 12년 만에 한국시리즈 정상에 올랐습니다.🏆 오늘 대구에서 열린 경기에서 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "12년",
+     "3",
+     "3",
+     "5",
+     "8",
+     "12",
+     "1",
+     "2014년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "삼성",
+     "라이온즈가",
+     "KT",
+     "위즈를",
+     "꺾고",
+     "만에",
+     "한국시리즈",
+     "정상에",
+     "올랐습니다",
+     "대구에서",
+     "열린",
+     "경기에서"
+    ],
+    "series": "",
+    "chars": 209,
+    "lines": 1,
+    "emoji_per_100": 1.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "20",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.339,
+    "n_colors": 84,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18125435096517564",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T07:35:58+0000",
+   "permalink": "https://www.instagram.com/p/DfeO-UqoBU5/",
+   "like_count": 211,
+   "comments_count": 1,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "케이스티파이가 겨울 시즌을 맞아 ‘윈터 패브릭 아뜰리에’ 컬렉션을 선보입니다.🧣 포근한 패브릭 감성이 돋보이",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2개",
+     "20%",
+     "3개",
+     "25%",
+     "4개",
+     "30%",
+     "24개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "최대",
+     "구매",
+     "겨울",
+     "패브릭",
+     "할인",
+     "케이스티파이가",
+     "시즌을",
+     "맞아",
+     "윈터",
+     "아뜰리에",
+     "컬렉션을",
+     "선보입니다"
+    ],
+    "series": "",
+    "chars": 318,
+    "lines": 1,
+    "emoji_per_100": 1.57,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "0 할게",
+    "cover_chars": 3,
+    "visual": "graphic",
+    "top5_share": 0.664,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18131563795876069",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-08T06:43:32+0000",
+   "permalink": "https://www.instagram.com/reel/DfeIuApifr3/",
+   "like_count": 117,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "그림이 어디까지 이어지는 거예요...?😮 새단장을 마치고 재개관한 부산시립미술관(busanmuseumofar",
+    "last_question": "그림이 어디까지 이어지는 거예요...?😮 새단장을 마치고 재개관한 부산시립미술관(busanmuseumofar",
+    "structure": "문장×2>이모지소제목",
+    "numbers": [
+     "20년",
+     "50",
+     "100",
+     "3월",
+     "14일",
+     "58"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "작품",
+     "도킹",
+     "그림이",
+     "어디까지",
+     "이어지는",
+     "거예요",
+     "새단장을",
+     "마치고",
+     "재개관한",
+     "부산시립미술관",
+     "busanmuseumofart",
+     "에서"
+    ],
+    "series": "",
+    "chars": 397,
+    "lines": 3,
+    "emoji_per_100": 1.26,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.339,
+    "n_colors": 75,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18111490535159462",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T06:20:16+0000",
+   "permalink": "https://www.instagram.com/p/DfeGTztIJRp/",
+   "like_count": 2131,
+   "comments_count": 14,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "샤넬을 사랑하는 모델, 그건 바로 아이린.💭 샤넬 쇼와 각종 행사는 물론, 평소 데일리룩에서도 샤넬은 그녀의",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "샤넬",
+     "샤넬을",
+     "사랑하는",
+     "모델",
+     "그건",
+     "아이린",
+     "쇼와",
+     "각종",
+     "행사는",
+     "물론",
+     "평소",
+     "데일리룩에서도"
+    ],
+    "series": "",
+    "chars": 303,
+    "lines": 1,
+    "emoji_per_100": 1.32,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "WS 1. 유명한",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.462,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18242585371316175",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T04:20:09+0000",
+   "permalink": "https://www.instagram.com/p/Dfd4kDkoPsO/",
+   "like_count": 3922,
+   "comments_count": 63,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "일요일을 기다리게 만든 로제.🖤 2026 LACMA 아트+필름 갈라에 로제(roses_are_rosie)가 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2026"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "로제",
+     "일요일을",
+     "기다리게",
+     "만든",
+     "LACMA",
+     "아트",
+     "필름",
+     "갈라에",
+     "roses",
+     "are",
+     "rosie",
+     "등장했습니다"
+    ],
+    "series": "",
+    "chars": 151,
+    "lines": 1,
+    "emoji_per_100": 1.99,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "어요 LACMA",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.742,
+    "n_colors": 36,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18143323570721751",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-08T04:03:33+0000",
+   "permalink": "https://www.instagram.com/reel/Dfd2iPFCsLm/",
+   "like_count": 1052,
+   "comments_count": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "화제의 <포포 : 죽어도 사랑해> 부다페스트 편에 출연한 계동영을 만났습니다.💥 방송에서는 미처 공개되지 않",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "화제의",
+     "포포",
+     "죽어도",
+     "사랑해",
+     "부다페스트",
+     "편에",
+     "출연한",
+     "계동영을",
+     "만났습니다",
+     "방송에서는",
+     "미처",
+     "공개되지"
+    ],
+    "series": "포포 : 죽어도 사랑해",
+    "chars": 157,
+    "lines": 1,
+    "emoji_per_100": 1.27,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "포포 촬영 묻다",
+    "cover_chars": 6,
+    "visual": "photo",
+    "top5_share": 0.569,
+    "n_colors": 35,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18111855767462955",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T03:27:03+0000",
+   "permalink": "https://www.instagram.com/p/DfdyfKJIDKp/",
+   "like_count": 7062,
+   "comments_count": 102,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "너무 눈부셔요.🫣 미국 로스앤젤레스 카운티 미술관(LACMA)에서 열린 2026 LACMA 아트+필름 갈라에",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2026"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "LACMA",
+     "눈부셔요",
+     "미국",
+     "로스앤젤레스",
+     "카운티",
+     "미술관",
+     "에서",
+     "열린",
+     "아트",
+     "필름",
+     "갈라에",
+     "박보검"
+    ],
+    "series": "",
+    "chars": 234,
+    "lines": 1,
+    "emoji_per_100": 1.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "LACMA 2 ooo 구찌 답다",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.497,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18125863861810033",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T03:19:07+0000",
+   "permalink": "https://www.instagram.com/p/DfdxlBZoAD4/",
+   "like_count": 1713,
+   "comments_count": 6,
+   "slides": 20,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "쿼카부터 캥거루, 코알라랑 칭구칭긔하고 싶다면 여기 오세요.🐨 호주 토종 종물들과 가까이서 교감할 수 있는 ",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [
+     "260",
+     "2천",
+     "217",
+     "2767"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "호주",
+     "토종",
+     "쿼카부터",
+     "캥거루",
+     "코알라랑",
+     "칭구칭긔하고",
+     "싶다면",
+     "여기",
+     "오세요",
+     "종물들과",
+     "가까이서",
+     "교감할"
+    ],
+    "series": "",
+    "chars": 380,
+    "lines": 3,
+    "emoji_per_100": 1.05,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "시드니",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.429,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#107070"
+    ]
+   }
+  },
+  {
+   "id": "18131070991867654",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T03:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfdvfqAmV0R/",
+   "like_count": 676,
+   "comments_count": 5,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 ’장원영 펩시‘로 알려진 펩시 프리바이오틱을 쿠팡에서도 만날 수 있다?🩵 최근 장원영의 인스타그램 피",
+    "last_question": "#광고 ’장원영 펩시‘로 알려진 펩시 프리바이오틱을 쿠팡에서도 만날 수 있다?🩵 최근 장원영의 인스타그램 피",
+    "structure": "해시태그>문장",
+    "numbers": [
+     "2일",
+     "355",
+     "2.5",
+     "2030",
+     "11일",
+     "18일",
+     "10"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "펩시",
+     "최근",
+     "화제를",
+     "출시",
+     "초기부터",
+     "이목이",
+     "장원영",
+     "알려진",
+     "프리바이오틱을",
+     "쿠팡에서도",
+     "만날",
+     "있다"
+    ],
+    "series": "",
+    "chars": 521,
+    "lines": 2,
+    "emoji_per_100": 0.77,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "마시던 이제 만나요",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.448,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17972068167076280",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-08T02:00:01+0000",
+   "permalink": "https://www.instagram.com/p/Dfdoj6GnTU_/",
+   "like_count": 773,
+   "comments_count": 9,
+   "slides": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "데님 티어스가 오는 12월 5일부터 10일까지 서울 도산에서 팝업 스토어를 오픈합니다.🇰🇷 이번 팝업에서는 ",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "12월",
+     "5일",
+     "10일",
+     "168",
+     "24"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "서울",
+     "협업",
+     "데님",
+     "티어스가",
+     "오는",
+     "일부터",
+     "일까지",
+     "도산에서",
+     "팝업",
+     "스토어를",
+     "오픈합니다",
+     "팝업에서는"
+    ],
+    "series": "",
+    "chars": 236,
+    "lines": 2,
+    "emoji_per_100": 1.27,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "DIASPO 한국",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.87,
+    "n_colors": 11,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18115602181856584",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T22:55:06+0000",
+   "permalink": "https://www.instagram.com/reel/DfdTakxh0Dj/",
+   "like_count": 267,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 뷰티 취향을 알고싶다? 더현대 서울 뷰티페스타로 가세요.👀 지금 더현대 서울에서는 45개 뷰티 브랜드",
+    "last_question": "#광고 뷰티 취향을 알고싶다? 더현대 서울 뷰티페스타로 가세요.👀 지금 더현대 서울에서는 45개 뷰티 브랜드",
+    "structure": "해시태그>문장×2>이모지소제목>문장",
+    "numbers": [
+     "45개",
+     "11월",
+     "16일",
+     "2026",
+     "11",
+     "4",
+     "11",
+     "16",
+     "108",
+     "5"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "더현대",
+     "취향을",
+     "서울",
+     "뷰티",
+     "알고싶다",
+     "뷰티페스타로",
+     "가세요",
+     "서울에서는",
+     "브랜드를",
+     "한자리에서",
+     "만날",
+     "BEAUTY"
+    ],
+    "series": "",
+    "chars": 417,
+    "lines": 5,
+    "emoji_per_100": 1.44,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "4",
+    "cover_chars": 1,
+    "visual": "photo",
+    "top5_share": 0.494,
+    "n_colors": 62,
+    "face": false,
+    "colors": [
+     "#707070",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "18101305652559100",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T12:00:07+0000",
+   "permalink": "https://www.instagram.com/reel/DfcId3ahnNP/",
+   "like_count": 30135,
+   "comments_count": 169,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "이것만 기다렸습니다…🙏🏻 무신사 스탠다드 촬영장에서 만난 장하영, 박기표 커플! 두 사람에게 궁금했던 질문을",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "이것만",
+     "기다렸습니다",
+     "무신사",
+     "스탠다드",
+     "촬영장에서",
+     "만난",
+     "장하영",
+     "박기표",
+     "커플",
+     "사람에게",
+     "궁금했던",
+     "질문을"
+    ],
+    "series": "",
+    "chars": 112,
+    "lines": 1,
+    "emoji_per_100": 3.57,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "또라이 7 ZAS",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.791,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18190985182409836",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T11:26:41+0000",
+   "permalink": "https://www.instagram.com/reel/DfcEHq9C8Lf/",
+   "like_count": 4388,
+   "comments_count": 18,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "눈으로 보고도 믿기 힘든 황홀경.🥹 2026 부산불꽃축제(busan_fireworks) 현장을 한눈에 전해드",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2026"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "눈으로",
+     "보고도",
+     "믿기",
+     "힘든",
+     "황홀경",
+     "부산불꽃축제",
+     "busan",
+     "fireworks",
+     "현장을",
+     "한눈에",
+     "전해드립니다",
+     "오색찬란한"
+    ],
+    "series": "",
+    "chars": 128,
+    "lines": 1,
+    "emoji_per_100": 2.34,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.611,
+    "n_colors": 35,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "17915279787498795",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T11:00:01+0000",
+   "permalink": "https://www.instagram.com/p/DfcBlYxoHdh/",
+   "like_count": 1688,
+   "comments_count": 15,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 공항패션부터 사복패션까지, 아웃도어 보이스를 즐겨 입던 김유정이 브랜드 모델로 발탁됐습니다.💙 모델 ",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "아웃도어",
+     "애슬레저",
+     "보이스",
+     "공항패션부터",
+     "사복패션까지",
+     "보이스를",
+     "즐겨",
+     "입던",
+     "김유정이",
+     "브랜드",
+     "모델로",
+     "발탁됐습니다"
+    ],
+    "series": "",
+    "chars": 251,
+    "lines": 1,
+    "emoji_per_100": 1.2,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "보고 도어 보이스 사람?",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.579,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103050"
+    ]
+   }
+  },
+  {
+   "id": "17881239567631972",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T10:36:11+0000",
+   "permalink": "https://www.instagram.com/reel/Dfb91fPC3gt/",
+   "like_count": 3579,
+   "comments_count": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "밤바다에 쏟아지는 불꽃 비.🎆 가을밤 부산을 수놓는 빛의 향연, 2026 부산불꽃축제(busan_firewo",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2026"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "밤바다에",
+     "쏟아지는",
+     "불꽃",
+     "가을밤",
+     "부산을",
+     "수놓는",
+     "빛의",
+     "향연",
+     "부산불꽃축제",
+     "busan",
+     "fireworks",
+     "막이"
+    ],
+    "series": "",
+    "chars": 119,
+    "lines": 1,
+    "emoji_per_100": 2.52,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "Sur 0244 1 봐도",
+    "cover_chars": 10,
+    "visual": "graphic",
+    "top5_share": 0.748,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303010"
+    ]
+   }
+  },
+  {
+   "id": "18048530924821012",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T10:30:22+0000",
+   "permalink": "https://www.instagram.com/reel/Dfb9vQ2i2Ve/",
+   "like_count": 12862,
+   "comments_count": 91,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "진영의 첫 단독 콘서트 ʻCODE #‘가 열렸습니다.✨ 갓세븐 멤버 JB와 뱀뱀이 무대를 찾아 현장을 함께 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [
+     "#‘가"
+    ],
+    "keywords": [
+     "함께",
+     "진영의",
+     "단독",
+     "콘서트",
+     "CODE",
+     "열렸습니다",
+     "갓세븐",
+     "멤버",
+     "JB와",
+     "뱀뱀이",
+     "무대를",
+     "찾아"
+    ],
+    "series": "",
+    "chars": 139,
+    "lines": 1,
+    "emoji_per_100": 2.16,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "33 2 진영 까지 어요",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.564,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18182490961437172",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T10:19:45+0000",
+   "permalink": "https://www.instagram.com/reel/Dfb8cuJiv4W/",
+   "like_count": 29252,
+   "comments_count": 198,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "진영이 생멈보 라이브 낋여왔습니다.🖤 진영(jinyoung_0922jy)이 오늘 단독 콘서트에서 ʻ생각을 멈",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "0922",
+     "3천"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "진영이",
+     "생멈보",
+     "라이브",
+     "낋여왔습니다",
+     "진영",
+     "jinyoung",
+     "jy",
+     "단독",
+     "콘서트에서",
+     "생각을",
+     "멈추다",
+     "보면"
+    ],
+    "series": "",
+    "chars": 146,
+    "lines": 1,
+    "emoji_per_100": 2.05,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "0 누나 생각",
+    "cover_chars": 5,
+    "visual": "graphic",
+    "top5_share": 0.727,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103010"
+    ]
+   }
+  },
+  {
+   "id": "18143323042716343",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T10:00:02+0000",
+   "permalink": "https://www.instagram.com/p/Dfb6sISHSsM/",
+   "like_count": 571,
+   "comments_count": 8,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 제네시스가 브랜드 전용 전시관 ‘제네시스 광주’를 오픈했습니다.🚗 국내 여섯 번째 전용 전시관으로, ",
+    "last_question": "",
+    "structure": "해시태그>문장>이모지소제목",
+    "numbers": [
+     "09",
+     "00",
+     "21",
+     "00",
+     "966"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "전용",
+     "제네시스",
+     "광주",
+     "즐길",
+     "제네시스가",
+     "브랜드",
+     "전시관",
+     "오픈했습니다",
+     "국내",
+     "여섯",
+     "번째",
+     "전시관으로"
+    ],
+    "series": "",
+    "chars": 316,
+    "lines": 3,
+    "emoji_per_100": 1.27,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "1 afl 새로운 광주",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.335,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#10B0D0"
+    ]
+   }
+  },
+  {
+   "id": "18109315214265151",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T09:58:06+0000",
+   "permalink": "https://www.instagram.com/p/Dfb6cbCIHW5/",
+   "like_count": 1538,
+   "comments_count": 29,
+   "slides": 20,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "서울과 도쿄, 런던, 뉴욕의 졸업 컬렉션이 하나의 런웨이에 올랐습니다.💥 오퍼스 하우스(opushaus.se",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2026",
+     "18개",
+     "30"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "런던",
+     "졸업",
+     "패션",
+     "서울과",
+     "도쿄",
+     "뉴욕의",
+     "컬렉션이",
+     "하나의",
+     "런웨이에",
+     "올랐습니다",
+     "오퍼스",
+     "하우스"
+    ],
+    "series": "",
+    "chars": 248,
+    "lines": 1,
+    "emoji_per_100": 2.02,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4430 부럽다",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.336,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#70D0F0",
+     "#50B0D0"
+    ]
+   }
+  },
+  {
+   "id": "18455048179123914",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T09:54:34+0000",
+   "permalink": "https://www.instagram.com/reel/Dfb5z5dCPX7/",
+   "like_count": 2646,
+   "comments_count": 16,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "학연 쌤 저 나머지 공부 할래요.📚 차학연(achahakyeon)의 팬미팅이 오늘 큐브컨벤션센터에서 열렸습니",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "학연",
+     "나머지",
+     "공부",
+     "할래요",
+     "차학연",
+     "achahakyeon",
+     "팬미팅이",
+     "큐브컨벤션센터에서",
+     "열렸습니다",
+     "빅스의",
+     "차학연이",
+     "직접"
+    ],
+    "series": "",
+    "chars": 124,
+    "lines": 1,
+    "emoji_per_100": 1.61,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "나머지 게요",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.585,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18115265753621057",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T09:06:40+0000",
+   "permalink": "https://www.instagram.com/reel/Dfb0VNpip55/",
+   "like_count": 27604,
+   "comments_count": 109,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "콘서트 시작 전에 만난 박진영.🖤 자꾸 제 마음 가져가시면 안돼요. 무대에 오르기 전 짧은 인삿말을 바로 만",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "콘서트",
+     "시작",
+     "전에",
+     "만난",
+     "박진영",
+     "자꾸",
+     "마음",
+     "가져가시면",
+     "안돼요",
+     "무대에",
+     "오르기",
+     "짧은"
+    ],
+    "series": "",
+    "chars": 74,
+    "lines": 1,
+    "emoji_per_100": 2.7,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이가 흔들면 흔들려",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.349,
+    "n_colors": 66,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18144068185717467",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T09:00:05+0000",
+   "permalink": "https://www.instagram.com/reel/Dfbz4liBLqX/",
+   "like_count": 340,
+   "comments_count": 4,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 서울숲의 아침이 하이어뮤직과 함께 깨어났습니다.☕ 올리브베러 성수점 오픈을 기념해 진행된 SMCC(s",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [
+     "8",
+     "11",
+     "1",
+     "-1",
+     "1",
+     "91"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "함께",
+     "올리브베러",
+     "official",
+     "서울숲의",
+     "아침이",
+     "하이어뮤직과",
+     "깨어났습니다",
+     "성수점",
+     "오픈을",
+     "기념해",
+     "진행된",
+     "SMCC"
+    ],
+    "series": "",
+    "chars": 380,
+    "lines": 1,
+    "emoji_per_100": 1.32,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "아침 8 왔다",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.544,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18120003703999668",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T08:26:26+0000",
+   "permalink": "https://www.instagram.com/p/Dfbv9GdIP1N/",
+   "like_count": 1628,
+   "comments_count": 21,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "찬바람이 불기 시작하면 가장 먼저 생각나는 건 뜨끈한 칼국수 한 그릇입니다.😮‍💨 청량리부터 송파까지 서울 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "칼국수",
+     "azossii",
+     "찬바람이",
+     "불기",
+     "시작하면",
+     "가장",
+     "먼저",
+     "생각나는",
+     "뜨끈한",
+     "그릇입니다",
+     "청량리부터",
+     "송파까지"
+    ],
+    "series": "",
+    "chars": 232,
+    "lines": 1,
+    "emoji_per_100": 1.72,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 4 wie 마지",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.338,
+    "n_colors": 78,
+    "face": false,
+    "colors": [
+     "#109070",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18110497384917682",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T08:20:33+0000",
+   "permalink": "https://www.instagram.com/reel/DfbuZV5iQer/",
+   "like_count": 1357,
+   "comments_count": 14,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "귀엽고 잘생겨서 너무 바쁜 차학연.🩶 차학연(achahakyeon) 단독 팬미팅 ‘ATTENDANCE!A!C",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "1년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "차학연",
+     "팬미팅",
+     "귀엽고",
+     "잘생겨서",
+     "바쁜",
+     "achahakyeon",
+     "단독",
+     "ATTENDANCE",
+     "CHAHAKYEON",
+     "만에",
+     "다시",
+     "돌아왔습니다"
+    ],
+    "series": "",
+    "chars": 130,
+    "lines": 1,
+    "emoji_per_100": 2.31,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "Venus LAT eyesmag 귀여 HH 이유",
+    "cover_chars": 21,
+    "visual": "graphic",
+    "top5_share": 0.665,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18126738976906654",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T07:58:10+0000",
+   "permalink": "https://www.instagram.com/p/Dfbst_bIIj6/",
+   "like_count": 383,
+   "comments_count": 11,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 갤럭시와 함께 콘텐츠를 만들 크리에이터를 찾습니다.📱사진, 여행, 영상 제작부터 운동, 댄스, 패션,",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [
+     "11월",
+     "6일",
+     "20일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "갤럭시",
+     "다양한",
+     "이벤트",
+     "모집",
+     "삼성코리아",
+     "갤럭시와",
+     "함께",
+     "콘텐츠를",
+     "만들",
+     "크리에이터를",
+     "찾습니다",
+     "사진"
+    ],
+    "series": "",
+    "chars": 372,
+    "lines": 1,
+    "emoji_per_100": 1.08,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "CR 갤럭시 크리에이터 모집! Galaxy Crew 새로운 함께 하고 싶",
+    "cover_chars": 38,
+    "visual": "graphic",
+    "top5_share": 0.827,
+    "n_colors": 19,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18398658598207858",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T06:56:56+0000",
+   "permalink": "https://www.instagram.com/p/Dfblj0pCEPJ/",
+   "like_count": 1520,
+   "comments_count": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "테슬라 사이버트럭이 출시 3년여 만에 퇴장 수순을 밟게 됐습니다.🛻 일론 머스크는 엑스를 통해 내년 중순, ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "3년",
+     "50만",
+     "2만",
+     "237"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "사이버트럭",
+     "테슬라",
+     "사이버트럭이",
+     "출시",
+     "년여",
+     "만에",
+     "퇴장",
+     "수순을",
+     "밟게",
+     "됐습니다",
+     "일론",
+     "머스크는"
+    ],
+    "series": "",
+    "chars": 320,
+    "lines": 1,
+    "emoji_per_100": 1.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.623,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#305070",
+     "#503030"
+    ]
+   }
+  },
+  {
+   "id": "18056514263809050",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T06:01:58+0000",
+   "permalink": "https://www.instagram.com/p/Dfbfa5poM_k/",
+   "like_count": 138,
+   "comments_count": 1,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "로에베가 <팀 버튼의 크리스마스 악몽> 컬렉션을 선보입니다.🎃 잭 스켈링턴과 샐리, 제로를 가죽 마케트리와 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "11월",
+     "12일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "가죽",
+     "로에베가",
+     "버튼의",
+     "크리스마스",
+     "악몽",
+     "컬렉션을",
+     "선보입니다",
+     "스켈링턴과",
+     "샐리",
+     "제로를",
+     "마케트리와",
+     "자수"
+    ],
+    "series": "팀 버튼의 크리스마스 악몽",
+    "chars": 271,
+    "lines": 1,
+    "emoji_per_100": 2.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "BAD",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.48,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#707090"
+    ]
+   }
+  },
+  {
+   "id": "18135743842670901",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T04:54:51+0000",
+   "permalink": "https://www.instagram.com/p/DfbXvZaIP8N/",
+   "like_count": 1317,
+   "comments_count": 5,
+   "slides": 12,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "2027년 다이어리 미리 준비하셔야 돼요.📖 입체(ip_che)가 ‘1 Year Archive’ 다이어리의 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2027년",
+     "1",
+     "2027년",
+     "2027"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "입체",
+     "ip",
+     "che",
+     "해를",
+     "다이어리",
+     "미리",
+     "준비하셔야",
+     "돼요",
+     "Year",
+     "Archive",
+     "다이어리의",
+     "버전을"
+    ],
+    "series": "",
+    "chars": 330,
+    "lines": 1,
+    "emoji_per_100": 0.91,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "OF 06 08 10 찾았다 2027 감성 다이어리",
+    "cover_chars": 21,
+    "visual": "graphic",
+    "top5_share": 0.84,
+    "n_colors": 19,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "17978844147147435",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T04:08:23+0000",
+   "permalink": "https://www.instagram.com/p/DfbSbBUoHZZ/",
+   "like_count": 1168,
+   "comments_count": 10,
+   "slides": 20,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "칼하트 WIP와 나이키가 8년 만에 협업 컬렉션을 선보입니다.🤎 나이키(nike)의 ʻ윈드러너 재킷’과 칼하",
+    "last_question": "",
+    "structure": "문장×2>이모지소제목",
+    "numbers": [
+     "8년",
+     "6",
+     "11월",
+     "12일",
+     "20일",
+     "7",
+     "7",
+     "-1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "칼하트",
+     "WIP",
+     "재킷",
+     "나이키",
+     "윈드러너",
+     "액티브",
+     "일부",
+     "WIP와",
+     "나이키가",
+     "만에",
+     "협업",
+     "컬렉션을"
+    ],
+    "series": "",
+    "chars": 410,
+    "lines": 3,
+    "emoji_per_100": 1.22,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "하트 다시 만나",
+    "cover_chars": 6,
+    "visual": "graphic",
+    "top5_share": 0.762,
+    "n_colors": 25,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18133332583869972",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T03:25:02+0000",
+   "permalink": "https://www.instagram.com/reel/DfbNTztCEXy/",
+   "like_count": 4502,
+   "comments_count": 14,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 원인 모를 이상 한파로 꽁꽁 얼어붙은 윈터시티에 갇힌 카리나.❄️ MLB(mlbkorea) 커브패딩을",
+    "last_question": "",
+    "structure": "해시태그>이모지소제목",
+    "numbers": [
+     "8일",
+     "248",
+     "1"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "카리나",
+     "MLB",
+     "카리나의",
+     "원인",
+     "모를",
+     "이상",
+     "한파로",
+     "꽁꽁",
+     "얼어붙은",
+     "윈터시티에",
+     "갇힌",
+     "mlbkorea"
+    ],
+    "series": "",
+    "chars": 380,
+    "lines": 2,
+    "emoji_per_100": 1.32,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "MLB 출동",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.391,
+    "n_colors": 50,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#30D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18131709187883511",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T02:48:49+0000",
+   "permalink": "https://www.instagram.com/reel/DfbJIhiCvUf/",
+   "like_count": 25689,
+   "comments_count": 55,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "이 애교에 한파 따위가 버틸 리 없다.🫠 커브패딩보다 따뜻한 건 카리나의 용안. 🎥 아이즈매거진",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "애교에",
+     "한파",
+     "따위가",
+     "버틸",
+     "없다",
+     "커브패딩보다",
+     "따뜻한",
+     "카리나의",
+     "용안",
+     "아이즈매거진"
+    ],
+    "series": "",
+    "chars": 53,
+    "lines": 1,
+    "emoji_per_100": 3.77,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "오늘",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.317,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18092500394246768",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T02:45:45+0000",
+   "permalink": "https://www.instagram.com/reel/DfbI1MGCULs/",
+   "like_count": 2943,
+   "comments_count": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "윈터시티에 갇혀도 카리나는 카리나입니다.❄️ 커브패딩에 미야옹 비니까지 쓴 얼굴로 구해 달라고 하면 카리나(",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "윈터시티에",
+     "갇혀도",
+     "카리나는",
+     "카리나입니다",
+     "커브패딩에",
+     "미야옹",
+     "비니까지",
+     "얼굴로",
+     "구해",
+     "달라고",
+     "카리나",
+     "katarinabluu"
+    ],
+    "series": "",
+    "chars": 100,
+    "lines": 1,
+    "emoji_per_100": 3.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "SS 7",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.37,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#10D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18118136441122338",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T02:04:24+0000",
+   "permalink": "https://www.instagram.com/reel/DfbEFWaC0gX/",
+   "like_count": 4397,
+   "comments_count": 19,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "너 춘식이야 키키야 누구야!🫪 카카오뱅크 x 유니세프 ‘SAVE RACE’ 현장에서 만난 키키가 <아이즈매거",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "아이즈매거진",
+     "춘식이야",
+     "키키야",
+     "누구야",
+     "카카오뱅크",
+     "유니세프",
+     "SAVE",
+     "RACE",
+     "현장에서",
+     "만난",
+     "키키가",
+     "반가운"
+    ],
+    "series": "",
+    "chars": 118,
+    "lines": 1,
+    "emoji_per_100": 1.69,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "아니 이야",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.485,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18078025244758382",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T02:00:33+0000",
+   "permalink": "https://www.instagram.com/p/DfbDyy_nXi2/",
+   "like_count": 527,
+   "comments_count": 4,
+   "slides": 14,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "스타워즈의 상상력이 미술관으로.🛸 ‘스타워즈의 아버지’ 조지 루카스가 10년 넘게 준비한 미술관은 어떤 모습",
+    "last_question": "스타워즈의 상상력이 미술관으로.🛸 ‘스타워즈의 아버지’ 조지 루카스가 10년 넘게 준비한 미술관은 어떤 모습",
+    "structure": "문장×3",
+    "numbers": [
+     "10년",
+     "90037"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "스타워즈의",
+     "조지",
+     "루카스가",
+     "뮤지엄",
+     "다양한",
+     "상상력이",
+     "미술관으로",
+     "아버지",
+     "넘게",
+     "준비한",
+     "미술관은",
+     "어떤"
+    ],
+    "series": "",
+    "chars": 531,
+    "lines": 3,
+    "emoji_per_100": 1.13,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이야 이야? 마크",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.663,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18400627822167722",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T01:54:28+0000",
+   "permalink": "https://www.instagram.com/reel/DfbC7X4C8Xz/",
+   "like_count": 1865,
+   "comments_count": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘도 키야대군 출석.🪽 키키가 카카오뱅크 x 유니세프 ‘SAVE RACE’에서 축하 공연을 선보였습니다. ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "오늘도",
+     "키야대군",
+     "출석",
+     "키키가",
+     "카카오뱅크",
+     "유니세프",
+     "SAVE",
+     "RACE",
+     "에서",
+     "축하",
+     "공연을",
+     "선보였습니다"
+    ],
+    "series": "",
+    "chars": 91,
+    "lines": 1,
+    "emoji_per_100": 3.3,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "AY 러닝 넘쳐",
+    "cover_chars": 6,
+    "visual": "photo",
+    "top5_share": 0.581,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18289256236289744",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-07T01:06:00+0000",
+   "permalink": "https://www.instagram.com/reel/Dfa9Yi5Cs6H/",
+   "like_count": 5692,
+   "comments_count": 25,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "아무래도 키키 봤는데 웃음 자동 발사겠지.🤭 카카오뱅크와 유니세프가 함께하는 ‘SAVE RACE’에서 키키를",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "아무래도",
+     "키키",
+     "봤는데",
+     "웃음",
+     "자동",
+     "발사겠지",
+     "카카오뱅크와",
+     "유니세프가",
+     "함께하는",
+     "SAVE",
+     "RACE",
+     "에서"
+    ],
+    "series": "",
+    "chars": 100,
+    "lines": 1,
+    "emoji_per_100": 2.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "래도 웃음 나죠",
+    "cover_chars": 6,
+    "visual": "photo",
+    "top5_share": 0.39,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18374973475212310",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T00:15:38+0000",
+   "permalink": "https://www.instagram.com/p/Dfa3yV9mcb1/",
+   "like_count": 343,
+   "comments_count": 2,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 예스아이씨가 현대백화점 판교점에서 아카이브 세일을 진행합니다.🖤 오늘 11월 6일부터 19일까지 판교",
+    "last_question": "",
+    "structure": "해시태그>문장",
+    "numbers": [
+     "11월",
+     "6일",
+     "19일",
+     "4",
+     "10",
+     "30",
+     "8",
+     "8",
+     "30",
+     "146",
+     "20"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "아카이브",
+     "현대백화점",
+     "판교점",
+     "오후",
+     "예스아이씨가",
+     "판교점에서",
+     "세일을",
+     "진행합니다",
+     "일부터",
+     "일까지",
+     "아이코닉",
+     "스퀘어에서"
+    ],
+    "series": "",
+    "chars": 312,
+    "lines": 2,
+    "emoji_per_100": 1.92,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "판교 냐고? 아이씨 가지",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.491,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#503030"
+    ]
+   }
+  },
+  {
+   "id": "18416656147085880",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-07T00:09:54+0000",
+   "permalink": "https://www.instagram.com/p/Dfa3IRPmd_9/",
+   "like_count": 1719,
+   "comments_count": 32,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "크리스마스까지 45일, 연인을 찾지 못하면 동물로 변합니다.🦞 CGV가 <더 랍스터> 재개봉을 기념해 11월",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "45일",
+     "11월",
+     "10일",
+     "-45",
+     "7",
+     "30",
+     "180",
+     "8",
+     "11월",
+     "11일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "찾지",
+     "못하면",
+     "동물로",
+     "랍스터",
+     "CGV",
+     "오후",
+     "티저",
+     "포스터와",
+     "크리스마스까지",
+     "연인을",
+     "변합니다",
+     "CGV가"
+    ],
+    "series": "",
+    "chars": 337,
+    "lines": 1,
+    "emoji_per_100": 1.48,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "17 2 연인 찾으면 동물 된다 솔로 커플",
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.746,
+    "n_colors": 32,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18199307797384564",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T22:55:06+0000",
+   "permalink": "https://www.instagram.com/reel/DfaunOyhhDv/",
+   "like_count": 1434,
+   "comments_count": 18,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 ‘노스페이스 화이트라벨 더현대 서울 팝업’에서 올데이 프로젝트를 만났습니다.🖤 이번 팝업은 멤버들과 ",
+    "last_question": "",
+    "structure": "해시태그>이모지소제목",
+    "numbers": [
+     "100%",
+     "30만",
+     "11일",
+     "2",
+     "108"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "서울",
+     "노스페이스",
+     "화이트라벨",
+     "더현대",
+     "팝업은",
+     "겨울",
+     "구매",
+     "팝업",
+     "에서",
+     "올데이",
+     "프로젝트를",
+     "만났습니다"
+    ],
+    "series": "",
+    "chars": 349,
+    "lines": 2,
+    "emoji_per_100": 1.15,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "BEL",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.495,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18101417435402848",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T14:57:32+0000",
+   "permalink": "https://www.instagram.com/reel/DfZ3wCFiJe7/",
+   "like_count": 2125,
+   "comments_count": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "젠틀몬스터가 배우 호아킨 피닉스와 영화감독 조너선 글레이저와 협업한 단편 영화를 예고했습니다.🎬 이번 캠페인",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "11월",
+     "12월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "젠틀몬스터가",
+     "배우",
+     "호아킨",
+     "피닉스와",
+     "영화감독",
+     "조너선",
+     "글레이저와",
+     "협업한",
+     "단편",
+     "영화를",
+     "예고했습니다",
+     "캠페인은"
+    ],
+    "series": "",
+    "chars": 224,
+    "lines": 1,
+    "emoji_per_100": 1.34,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "몬스터 닉스",
+    "cover_chars": 5,
+    "visual": "graphic",
+    "top5_share": 0.737,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18139293856646148",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T12:30:04+0000",
+   "permalink": "https://www.instagram.com/reel/DfZnCTFhseL/",
+   "like_count": 3851,
+   "comments_count": 17,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "이거야말로 <72시간 소개팅> 의 진짜 최종 결말 아닐까요.💍 아무런 접점도 없던 두 사람이 만나 서로의 가",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "72"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "사람이",
+     "가장",
+     "무신사",
+     "이거야말로",
+     "시간",
+     "소개팅",
+     "최종",
+     "결말",
+     "아닐까요",
+     "아무런",
+     "접점도",
+     "없던"
+    ],
+    "series": "72시간 소개팅",
+    "chars": 189,
+    "lines": 1,
+    "emoji_per_100": 1.59,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.672,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18037348865899227",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T12:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DfZjrrMoEEq/",
+   "like_count": 7567,
+   "comments_count": 30,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "장하영, 박기표와 함께한 무신사 스탠다드의 26 가을, 겨울 화보.❄️ 추운 날에도 포근함을 전하는 ‘힛탠다",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "26"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "무신사",
+     "장하영",
+     "박기표와",
+     "함께한",
+     "스탠다드의",
+     "가을",
+     "겨울",
+     "화보",
+     "추운",
+     "날에도",
+     "포근함을",
+     "전하는"
+    ],
+    "series": "",
+    "chars": 198,
+    "lines": 1,
+    "emoji_per_100": 3.03,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "musi sta",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.635,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#30B0B0"
+    ]
+   }
+  },
+  {
+   "id": "18120777535968955",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T11:47:16+0000",
+   "permalink": "https://www.instagram.com/p/DfZiJK4nUU_/",
+   "like_count": 1463,
+   "comments_count": 18,
+   "slides": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "티쏘와 브랜드 앰버서더 배우 이동욱 협업 ’티쏘 PRX 이동욱 스페셜 에디션‘ 론칭 기념 프라이빗한 갈라 디",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "이동욱",
+     "협업",
+     "티쏘와",
+     "브랜드",
+     "앰버서더",
+     "배우",
+     "티쏘",
+     "PRX",
+     "스페셜",
+     "에디션",
+     "론칭",
+     "기념"
+    ],
+    "series": "",
+    "chars": 169,
+    "lines": 1,
+    "emoji_per_100": 0.59,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.719,
+    "n_colors": 37,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "17956285581038593",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T11:35:53+0000",
+   "permalink": "https://www.instagram.com/p/DfZg1vNGZz7/",
+   "like_count": 584,
+   "comments_count": 2,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "팀버랜드와 만화 <피너츠>의 협업 컬렉션이 출시됐습니다.🤎 작품 속 등장인물인 ‘스누피’를 중심으로 풀어낸 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "6",
+     "6",
+     "39만",
+     "8천"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "인치",
+     "팀버랜드와",
+     "만화",
+     "피너츠",
+     "협업",
+     "컬렉션이",
+     "출시됐습니다",
+     "작품",
+     "등장인물인",
+     "스누피",
+     "중심으로",
+     "풀어낸"
+    ],
+    "series": "피너츠",
+    "chars": 273,
+    "lines": 1,
+    "emoji_per_100": 1.47,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "SS SS SS 팀버랜드 귀여운 스푼",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.48,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18225128983339230",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T11:32:34+0000",
+   "permalink": "https://www.instagram.com/p/DfZgdfEHbfK/",
+   "like_count": 237,
+   "comments_count": 1,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "루이 비통이 2026 홀리데이 캠페인을 공개했습니다.🎄 포토그래퍼 올리버 해들리 피어치가 촬영한 이번 캠페인",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2026",
+     "11월",
+     "7일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "루이",
+     "비통이",
+     "홀리데이",
+     "캠페인을",
+     "공개했습니다",
+     "포토그래퍼",
+     "올리버",
+     "해들리",
+     "피어치가",
+     "촬영한",
+     "캠페인은",
+     "기차역을"
+    ],
+    "series": "",
+    "chars": 320,
+    "lines": 1,
+    "emoji_per_100": 1.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.419,
+    "n_colors": 65,
+    "face": false,
+    "colors": [
+     "#301010",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18025488512931633",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T11:00:22+0000",
+   "permalink": "https://www.instagram.com/p/DfZcxlNHZ6o/",
+   "like_count": 1290,
+   "comments_count": 12,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 리센느가 선택한 첫 모바일 게임, ‘드래곤빌리지3’💖 걸그룹 리센느(rescene_official)가",
+    "last_question": "",
+    "structure": "해시태그>문장",
+    "numbers": [
+     "3",
+     "3"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "드래곤빌리지",
+     "리센느가",
+     "official",
+     "공식",
+     "선택한",
+     "모바일",
+     "게임",
+     "걸그룹",
+     "리센느",
+     "rescene",
+     "dragonvillage",
+     "전속"
+    ],
+    "series": "",
+    "chars": 211,
+    "lines": 2,
+    "emoji_per_100": 1.42,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "RESCENE VILLAGE 4 MEH 게임,",
+    "cover_chars": 21,
+    "visual": "photo",
+    "top5_share": 0.442,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18071168855685033",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T10:32:36+0000",
+   "permalink": "https://www.instagram.com/p/DfZZmLfndbm/",
+   "like_count": 178,
+   "comments_count": 4,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "아이즈샵의 신제품 ‘키친 스펀지’ 사용 후기 가져왔습니다.🧽 3개입에 4,900원으로 구성된 이번 제품은 중",
+    "last_question": "아이즈샵의 신제품 ‘키친 스펀지’ 사용 후기 가져왔습니다.🧽 3개입에 4,900원으로 구성된 이번 제품은 중",
+    "structure": "문장",
+    "numbers": [
+     "3개",
+     "4,900원"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "아이즈샵의",
+     "신제품",
+     "키친",
+     "스펀지",
+     "사용",
+     "후기",
+     "가져왔습니다",
+     "개입에",
+     "원으로",
+     "구성된",
+     "제품은",
+     "중앙에"
+    ],
+    "series": "",
+    "chars": 194,
+    "lines": 1,
+    "emoji_per_100": 1.55,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "ES 4 900 행복",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.473,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#30B0B0"
+    ]
+   }
+  },
+  {
+   "id": "17997860160052189",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T09:52:31+0000",
+   "permalink": "https://www.instagram.com/reel/DfZUzUkC1GE/",
+   "like_count": 3718,
+   "comments_count": 12,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "왔다 내 연말.🎄 크리스마스 분위기로 화려하게 물든 신세계백화점 본점 미디어 파사드, ‘신세계 스퀘어’에 다",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "63"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "물든",
+     "왔다",
+     "연말",
+     "크리스마스",
+     "분위기로",
+     "화려하게",
+     "신세계백화점",
+     "본점",
+     "미디어",
+     "파사드",
+     "신세계",
+     "스퀘어"
+    ],
+    "series": "",
+    "chars": 145,
+    "lines": 2,
+    "emoji_per_100": 3.45,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "왔다 연말",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.873,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18115947035593337",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T09:30:22+0000",
+   "permalink": "https://www.instagram.com/p/DfZSeYJoJxU/",
+   "like_count": 1800,
+   "comments_count": 8,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "UE18에서 내돈내산한 후기.📚 오늘부터 시작한 아트북 페어 언리미티드 에디션(unlimited_editio",
+    "last_question": "",
+    "structure": "문장>이모지소제목×2",
+    "numbers": [
+     "18",
+     "11월",
+     "2026.11",
+     "06",
+     "2026.11",
+     "08",
+     "1238"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "UE",
+     "에서",
+     "내돈내산한",
+     "후기",
+     "오늘부터",
+     "시작한",
+     "아트북",
+     "페어",
+     "언리미티드",
+     "에디션",
+     "unlimited",
+     "edition"
+    ],
+    "series": "",
+    "chars": 225,
+    "lines": 3,
+    "emoji_per_100": 2.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "에서 고의로",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.396,
+    "n_colors": 66,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "17997201315022293",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T09:27:22+0000",
+   "permalink": "https://www.instagram.com/p/DfZR4AToGcT/",
+   "like_count": 1082,
+   "comments_count": 10,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 띵동~ 뚜레쥬르가 올겨울 가장 설레는 연말 파티장을 보내왔습니다.🍰 뚜레쥬르(touslesjours_",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "홀리데이",
+     "설레는",
+     "뚜레쥬르",
+     "띵동",
+     "뚜레쥬르가",
+     "올겨울",
+     "가장",
+     "연말",
+     "파티장을",
+     "보내왔습니다",
+     "touslesjours",
+     "kr"
+    ],
+    "series": "",
+    "chars": 258,
+    "lines": 1,
+    "emoji_per_100": 1.55,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "OFA 니다",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.552,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#507070"
+    ]
+   }
+  },
+  {
+   "id": "18119675903519806",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T09:26:49+0000",
+   "permalink": "https://www.instagram.com/p/DfZSEY-IBW2/",
+   "like_count": 321,
+   "comments_count": 2,
+   "slides": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "단 하나의 르 플리아쥬 백을 만들 수 있는 롱샴 ‘마이 플리아쥬’ 팝업을 소개합니다.💛 다양한 컬러와 디테일",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "108",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "플리아쥬",
+     "백을",
+     "서울",
+     "하나의",
+     "만들",
+     "롱샴",
+     "마이",
+     "팝업을",
+     "소개합니다",
+     "다양한",
+     "컬러와",
+     "디테일을"
+    ],
+    "series": "",
+    "chars": 204,
+    "lines": 2,
+    "emoji_per_100": 1.47,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "현대 서울",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.499,
+    "n_colors": 50,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#50B090"
+    ]
+   }
+  },
+  {
+   "id": "17870884746663379",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T09:03:10+0000",
+   "permalink": "https://www.instagram.com/reel/DfZOw_CNZ_m/",
+   "like_count": 30471,
+   "comments_count": 77,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 장원영과 로라로라 영원할 것만 같아요.💕 로라로라(rolarola.official)가 더현대 서울에 ",
+    "last_question": "",
+    "structure": "해시태그>문장>이모지소제목",
+    "numbers": [
+     "10",
+     "11월",
+     "8일",
+     "26",
+     "15%",
+     "108"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "더현대",
+     "로라로라",
+     "취향을",
+     "빈티지",
+     "레이스",
+     "구매",
+     "서울",
+     "장원영과",
+     "영원할",
+     "것만",
+     "같아요",
+     "rolarola"
+    ],
+    "series": "",
+    "chars": 440,
+    "lines": 3,
+    "emoji_per_100": 1.14,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "소인 AL",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.416,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18127793527926511",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T08:46:31+0000",
+   "permalink": "https://www.instagram.com/p/DfZNdOaoFmn/",
+   "like_count": 1656,
+   "comments_count": 21,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "메타와 리사가 함께한 AI 글래스 컬렉션 ‘메타 글래스 by LISA’ 론칭 기념 팝업에 다녀왔습니다.🕶️ ",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "2",
+     "11",
+     "26"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "리사가",
+     "글래스",
+     "메타",
+     "메타와",
+     "함께한",
+     "AI",
+     "컬렉션",
+     "by",
+     "LISA",
+     "론칭",
+     "기념",
+     "팝업에"
+    ],
+    "series": "",
+    "chars": 302,
+    "lines": 2,
+    "emoji_per_100": 1.66,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.316,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#707050"
+    ]
+   }
+  },
+  {
+   "id": "18051217463821769",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T08:40:50+0000",
+   "permalink": "https://www.instagram.com/p/DfZMzp4oBnC/",
+   "like_count": 418,
+   "comments_count": 5,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "프링글스가 크리스마스를 맞아 시즌 한정판 패키지 3종을 선보입니다.🎄 브랜드를 상징하는 캐릭터가 산타와 눈사",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "눈사람",
+     "펭귄으로",
+     "어니언",
+     "프링글스가",
+     "크리스마스를",
+     "맞아",
+     "시즌",
+     "한정판",
+     "패키지",
+     "종을",
+     "선보입니다",
+     "브랜드를"
+    ],
+    "series": "",
+    "chars": 234,
+    "lines": 1,
+    "emoji_per_100": 1.71,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "바삭 내는",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.364,
+    "n_colors": 68,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18138429928658212",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T08:23:33+0000",
+   "permalink": "https://www.instagram.com/reel/DfZKmsDCi5D/",
+   "like_count": 8411,
+   "comments_count": 45,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "10초, 내가 카리나에게 반하는 시간.🖤 🎥 아이즈매거진",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "내가",
+     "카리나에게",
+     "반하는",
+     "시간",
+     "아이즈매거진"
+    ],
+    "series": "",
+    "chars": 31,
+    "lines": 1,
+    "emoji_per_100": 6.45,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "1 2",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.33,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#10B0F0",
+     "#10B0D0"
+    ]
+   }
+  },
+  {
+   "id": "17925601278443272",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T08:07:45+0000",
+   "permalink": "https://www.instagram.com/reel/DfZI5HpiiGu/",
+   "like_count": 5775,
+   "comments_count": 22,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "카리나가 MLB 윈터시티 팝업을 찾았습니다.🤍 꽁꽁 얼어붙은 겨울 도시를 콘셉트로 꾸민 현장에서 MLB(ml",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "248",
+     "1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "MLB",
+     "윈터",
+     "룩을",
+     "카리나가",
+     "윈터시티",
+     "팝업을",
+     "찾았습니다",
+     "꽁꽁",
+     "얼어붙은",
+     "겨울",
+     "도시를",
+     "콘셉트로"
+    ],
+    "series": "",
+    "chars": 185,
+    "lines": 2,
+    "emoji_per_100": 2.16,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "카리나 이다",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.554,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18169354321467695",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T08:02:15+0000",
+   "permalink": "https://www.instagram.com/reel/DfZIKUfi-rk/",
+   "like_count": 147,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 서울의 빈티지 로맨스를 만나볼 시간.🥀 튜드먼트가 무신사 스토어 강남점에서 팝업 스토어를 오픈했습니다",
+    "last_question": "",
+    "structure": "해시태그>문장",
+    "numbers": [
+     "26",
+     "10%",
+     "40%",
+     "25만",
+     "12일",
+     "6",
+     "29",
+     "80%",
+     "35%"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "서울의",
+     "만나볼",
+     "팝업",
+     "할인",
+     "최대",
+     "구매",
+     "빈티지",
+     "로맨스를",
+     "시간",
+     "튜드먼트가",
+     "무신사",
+     "스토어"
+    ],
+    "series": "",
+    "chars": 495,
+    "lines": 2,
+    "emoji_per_100": 0.81,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "wii 일조 겨울 아우터 어요",
+    "cover_chars": 12,
+    "visual": "photo",
+    "top5_share": 0.465,
+    "n_colors": 53,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17905447548602875",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T07:30:22+0000",
+   "permalink": "https://www.instagram.com/p/DfZEvhWoHyX/",
+   "like_count": 323,
+   "comments_count": 2,
+   "slides": 19,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "비아리츠에서 시드니로 이어진 마티유 블라지 샤넬의 여정.🌊 샤넬(chanelofficial)이 시드니 더 컷",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "26",
+     "27",
+     "4월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "샤넬",
+     "비아리츠에서",
+     "마티유",
+     "블라지",
+     "샤넬의",
+     "크루즈",
+     "바다",
+     "시드니로",
+     "이어진",
+     "여정",
+     "chanelofficial",
+     "시드니"
+    ],
+    "series": "",
+    "chars": 371,
+    "lines": 1,
+    "emoji_per_100": 0.81,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "TT",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.372,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17895943179611748",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T07:30:15+0000",
+   "permalink": "https://www.instagram.com/p/DfZEx_jICVk/",
+   "like_count": 280,
+   "comments_count": 1,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "알로가 겨울 시즌을 맞아 새로운 풋웨어 컬렉션 3종을 공개했습니다.❄️ 이번 컬렉션은 알로 특유의 편안함에 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "알로",
+     "겨울",
+     "새로운",
+     "컬렉션은",
+     "말리부",
+     "레이스업",
+     "셰르파",
+     "알로가",
+     "시즌을",
+     "맞아",
+     "풋웨어",
+     "컬렉션"
+    ],
+    "series": "",
+    "chars": 273,
+    "lines": 1,
+    "emoji_per_100": 1.1,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.646,
+    "n_colors": 29,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#50D0B0"
+    ]
+   }
+  },
+  {
+   "id": "17908521990596295",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T07:27:49+0000",
+   "permalink": "https://www.instagram.com/p/DfZEc3IoCwq/",
+   "like_count": 327,
+   "comments_count": 3,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "푸마와 지용킴의 두 번째 협업 프리뷰 현장에 다녀왔습니다.🖤 협업 제품 ‘푸마 x 지용킴 셀 지오’는 지용킴",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "17"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "푸마",
+     "지용킴",
+     "협업",
+     "푸마와",
+     "지용킴의",
+     "번째",
+     "프리뷰",
+     "현장에",
+     "다녀왔습니다",
+     "제품",
+     "지오",
+     "jiyongkim"
+    ],
+    "series": "",
+    "chars": 277,
+    "lines": 2,
+    "emoji_per_100": 1.81,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.43,
+    "n_colors": 31,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18116501690595120",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T07:20:01+0000",
+   "permalink": "https://www.instagram.com/p/DfZDgEfCUNV/",
+   "like_count": 636,
+   "comments_count": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "마틴 로즈가 피엘파올로 피촐리의 뒤를 이어 발렌시아가의 새 크리에이티브 디렉터로 합류합니다. 런던을 기반으로",
+    "last_question": "",
+    "structure": "문장×2",
+    "numbers": [
+     "2025년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "마틴",
+     "크리에이티브",
+     "로즈가",
+     "이어",
+     "발렌시아가의",
+     "피엘파올로",
+     "피촐리의",
+     "뒤를",
+     "디렉터로",
+     "합류합니다",
+     "런던을",
+     "기반으로"
+    ],
+    "series": "",
+    "chars": 321,
+    "lines": 2,
+    "emoji_per_100": 0.31,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "35 바기",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.504,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#707070",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17896266231619199",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T06:55:06+0000",
+   "permalink": "https://www.instagram.com/reel/DfZAwi4Bkql/",
+   "like_count": 321,
+   "comments_count": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 더현대 서울에서 푸마랑 하이록스 체험할 사람 구합니다.👀 푸마(puma_kr)가 더현대 서울에 ‘푸마",
+    "last_question": "",
+    "structure": "해시태그>이모지소제목>문장",
+    "numbers": [
+     "2026.11",
+     "6",
+     "2026.11",
+     "12",
+     "108",
+     "5"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "더현대",
+     "하이록스",
+     "푸마",
+     "직접",
+     "위한",
+     "서울",
+     "서울에서",
+     "푸마랑",
+     "체험할",
+     "사람",
+     "구합니다",
+     "puma"
+    ],
+    "series": "",
+    "chars": 369,
+    "lines": 3,
+    "emoji_per_100": 1.63,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "AN",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.441,
+    "n_colors": 63,
+    "face": false,
+    "colors": [
+     "#707070",
+     "#707050"
+    ]
+   }
+  },
+  {
+   "id": "18081067634749956",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T06:10:12+0000",
+   "permalink": "https://www.instagram.com/reel/DfY7cNxC_Qw/",
+   "like_count": 9947,
+   "comments_count": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "제니가 넷플릭스 애니메이션 영화의 OST ‘Someone to Hold’ 클립을 공개했습니다.❤️ 제니(je",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "20일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "애니메이션",
+     "제니가",
+     "넷플릭스",
+     "영화의",
+     "OST",
+     "Someone",
+     "to",
+     "Hold",
+     "클립을",
+     "공개했습니다",
+     "제니",
+     "jennierubyjane"
+    ],
+    "series": "",
+    "chars": 169,
+    "lines": 1,
+    "emoji_per_100": 1.18,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "1 OS 마나",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.568,
+    "n_colors": 37,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#50D0B0"
+    ]
+   }
+  },
+  {
+   "id": "18127275062512456",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T06:08:13+0000",
+   "permalink": "https://www.instagram.com/p/DfY7V3boN1H/",
+   "like_count": 749,
+   "comments_count": 6,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "하이퍼팝 아티스트 소피 파워스가 오는 12월 첫 단독 내한 공연을 개최합니다.🎤 사이버네틱한 비주얼과 독특한",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "12월",
+     "12월",
+     "5일",
+     "24 원",
+     "6일",
+     "10일",
+     "6",
+     "24",
+     "0",
+     "129,",
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "서울",
+     "에서",
+     "예스",
+     "하이퍼팝",
+     "아티스트",
+     "소피",
+     "파워스가",
+     "오는",
+     "단독",
+     "내한",
+     "공연을",
+     "개최합니다"
+    ],
+    "series": "",
+    "chars": 309,
+    "lines": 2,
+    "emoji_per_100": 1.29,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 122 소피 워스",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.576,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18124843925002644",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T06:05:31+0000",
+   "permalink": "https://www.instagram.com/p/DfY7CGKoJxO/",
+   "like_count": 225,
+   "comments_count": 1,
+   "slides": 15,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "맨온더분이 이탈리아 텍스타일 기업 V.B.C와 협업한 스페셜 라인을 선보입니다.🧥 V.B.C는 이탈리아 비엘",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "2026년",
+     "442"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이탈리아",
+     "스페셜",
+     "맨온더분이",
+     "텍스타일",
+     "기업",
+     "C와",
+     "협업한",
+     "라인을",
+     "선보입니다",
+     "C는",
+     "비엘라",
+     "지역에서"
+    ],
+    "series": "",
+    "chars": 279,
+    "lines": 2,
+    "emoji_per_100": 1.43,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "분이 입으면 분위기 미남",
+    "cover_chars": 10,
+    "visual": "graphic",
+    "top5_share": 0.692,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18119348711279138",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T05:58:40+0000",
+   "permalink": "https://www.instagram.com/reel/DfY6BLICax8/",
+   "like_count": 274,
+   "comments_count": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "김필도 참지 못한 신곡 부르기.❌ 지난 10월 29일, 김필의 새 앨범 [JOURNEY]가 발매됐습니다. 오",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10월",
+     "29일",
+     "11월",
+     "14일",
+     "15일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "신곡",
+     "김필의",
+     "아이즈매거진",
+     "콘서트를",
+     "합주",
+     "김필도",
+     "참지",
+     "못한",
+     "부르기",
+     "지난",
+     "앨범",
+     "JOURNEY"
+    ],
+    "series": "",
+    "chars": 280,
+    "lines": 1,
+    "emoji_per_100": 1.79,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "신고",
+    "cover_chars": 2,
+    "visual": "graphic",
+    "top5_share": 0.607,
+    "n_colors": 37,
+    "face": false,
+    "colors": [
+     "#30B0B0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18080747630421547",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T05:50:14+0000",
+   "permalink": "https://www.instagram.com/reel/DfY5Jt6CXLW/",
+   "like_count": 3181,
+   "comments_count": 34,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "마크가 새 싱글 [Happiest]의 음원과 뮤직비디오를 공개했습니다.💙 이번 신곡은 진정한 행복의 의미를 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "12월",
+     "4일",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "마크가",
+     "싱글",
+     "Happiest",
+     "음원과",
+     "뮤직비디오를",
+     "공개했습니다",
+     "신곡은",
+     "진정한",
+     "행복의",
+     "의미를",
+     "묻는",
+     "얼터너티브"
+    ],
+    "series": "Happiest",
+    "chars": 285,
+    "lines": 1,
+    "emoji_per_100": 1.05,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "우리 마크",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.806,
+    "n_colors": 25,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  },
+  {
+   "id": "18094725587193565",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T05:05:15+0000",
+   "permalink": "https://www.instagram.com/p/DfY0IqkIFQp/",
+   "like_count": 703,
+   "comments_count": 11,
+   "slides": 17,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "더현대 서울 푸마 하이록스 팝업? 이거 뭐예요?👀 푸마(puma_kr)가 더현대 서울에 오픈한 ‘푸마 하이록",
+    "last_question": "더현대 서울 푸마 하이록스 팝업? 이거 뭐예요?👀 푸마(puma_kr)가 더현대 서울에 오픈한 ‘푸마 하이록",
+    "structure": "문장>이모지소제목>문장",
+    "numbers": [
+     "2026.11",
+     "6",
+     "2026.11",
+     "12",
+     "108",
+     "5"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "푸마",
+     "더현대",
+     "서울",
+     "하이록스",
+     "팝업",
+     "위한",
+     "이거",
+     "뭐예요",
+     "puma",
+     "kr",
+     "서울에",
+     "오픈한"
+    ],
+    "series": "",
+    "chars": 380,
+    "lines": 3,
+    "emoji_per_100": 1.58,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "MS 맛보고 왔습니다",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.536,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#109070"
+    ]
+   }
+  },
+  {
+   "id": "18173673421481327",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T04:00:41+0000",
+   "permalink": "https://www.instagram.com/p/DfYsvv_oL7t/",
+   "like_count": 2195,
+   "comments_count": 21,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "한국에서 만나는 각 나라의 현지 맛집! 멕시코(phreddy_m), 프랑스(thibs_adventures),",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "224"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "맛집",
+     "소개한",
+     "에디터가",
+     "직접",
+     "한국에서",
+     "만나는",
+     "나라의",
+     "현지",
+     "멕시코",
+     "phreddy",
+     "프랑스",
+     "thibs"
+    ],
+    "series": "",
+    "chars": 225,
+    "lines": 1,
+    "emoji_per_100": 1.33,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "었더니 맛집 스터",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.524,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#503010",
+     "#709010"
+    ]
+   }
+  },
+  {
+   "id": "18121114771957544",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T03:04:43+0000",
+   "permalink": "https://www.instagram.com/p/DfYmV31nY3q/",
+   "like_count": 474,
+   "comments_count": 4,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 토요일처럼 여유롭고 오래 기억될 겨울, 세터가 헌터와 함께 협업 컬렉션을 준비했습니다.❄️ 자연스러운",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [
+     "15개"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "겨울",
+     "세터",
+     "협업",
+     "토요일처럼",
+     "여유롭고",
+     "오래",
+     "기억될",
+     "세터가",
+     "헌터와",
+     "함께",
+     "컬렉션을",
+     "준비했습니다"
+    ],
+    "series": "",
+    "chars": 383,
+    "lines": 1,
+    "emoji_per_100": 1.04,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "기다리는",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.614,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18034608197854622",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T01:55:10+0000",
+   "permalink": "https://www.instagram.com/p/DfYeYeeneyc/",
+   "like_count": 1169,
+   "comments_count": 6,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "아르헨티나가 이달 친선경기에서 메시의 10번 유니폼을 비워 둡니다.🔟 아르헨티나 매체 <TyC 스포츠>에 따",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10",
+     "11월",
+     "10",
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이달",
+     "메시의",
+     "아르헨티나가",
+     "친선경기에서",
+     "유니폼을",
+     "비워",
+     "둡니다",
+     "아르헨티나",
+     "매체",
+     "TyC",
+     "스포츠",
+     "따르면"
+    ],
+    "series": "",
+    "chars": 278,
+    "lines": 1,
+    "emoji_per_100": 1.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "구나 10",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.627,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "17976162093138751",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-06T01:05:55+0000",
+   "permalink": "https://www.instagram.com/p/DfYYvtKndPy/",
+   "like_count": 396,
+   "comments_count": 2,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "나이키와 스킴스의 ‘나이키스킴스 와플 레이서’가 출시됩니다.👟 클래식 러닝화의 디테일에 현대적인 요소를 더한",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "와플",
+     "출시됩니다",
+     "나이키",
+     "나이키와",
+     "스킴스의",
+     "나이키스킴스",
+     "레이서",
+     "클래식",
+     "러닝화의",
+     "디테일에",
+     "현대적인",
+     "요소를"
+    ],
+    "series": "",
+    "chars": 247,
+    "lines": 1,
+    "emoji_per_100": 0.81,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.767,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#30B0B0",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18139228135656669",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T00:34:34+0000",
+   "permalink": "https://www.instagram.com/reel/DfYU1aMiu4V/",
+   "like_count": 73945,
+   "comments_count": 507,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘 아침 추워서 재채기 나온 원영이.💕 로라로라(rolarola.official)에서 만난 장원영(for_",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "재채기",
+     "아침",
+     "추워서",
+     "나온",
+     "원영이",
+     "로라로라",
+     "rolarola",
+     "official",
+     "에서",
+     "만난",
+     "장원영",
+     "everyoung"
+    ],
+    "series": "",
+    "chars": 103,
+    "lines": 1,
+    "emoji_per_100": 1.94,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.402,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17978391917933871",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T00:25:38+0000",
+   "permalink": "https://www.instagram.com/reel/DfYT-PligN7/",
+   "like_count": 6895,
+   "comments_count": 36,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "원영이는 무슨 아침 9시 비주얼이 이래…🫶 로라로라(rolarola.official) 에 등장한 장원영(fo",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "9",
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "아침",
+     "원영이는",
+     "무슨",
+     "비주얼이",
+     "이래",
+     "로라로라",
+     "rolarola",
+     "official",
+     "등장한",
+     "장원영",
+     "everyoung",
+     "비주얼"
+    ],
+    "series": "",
+    "chars": 97,
+    "lines": 1,
+    "emoji_per_100": 2.06,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "9",
+    "cover_chars": 1,
+    "visual": "photo",
+    "top5_share": 0.405,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17875140243602008",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T00:00:07+0000",
+   "permalink": "https://www.instagram.com/reel/DfYRRCqhFXu/",
+   "like_count": 669,
+   "comments_count": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 숨37°의 베스트셀러, NEW 시크릿 에센스가 새롭게 탄생했습니다.🤍 19년 발효 과학 BIO-BRE",
+    "last_question": "",
+    "structure": "해시태그>문장",
+    "numbers": [
+     "37",
+     "19년",
+     "3",
+     "90%",
+     "37",
+     "37",
+     "37"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "시크릿",
+     "피부를",
+     "함께",
+     "NEW",
+     "발효",
+     "BIO",
+     "BREATH",
+     "바이오",
+     "결광",
+     "에센스와",
+     "보세요",
+     "건강한"
+    ],
+    "series": "",
+    "chars": 492,
+    "lines": 2,
+    "emoji_per_100": 0.81,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "TO",
+    "cover_chars": 2,
+    "visual": "graphic",
+    "top5_share": 0.913,
+    "n_colors": 19,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#30B0B0"
+    ]
+   }
+  },
+  {
+   "id": "18118861541275002",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-06T00:00:06+0000",
+   "permalink": "https://www.instagram.com/reel/DfYRS2hhti7/",
+   "like_count": 338,
+   "comments_count": 22,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "보습과 포인트 컬러, 둘 다 챙기는 법은 이분 보고 배우면 됩니다.💪 망원동 카페 필리커피의 느좋 사장님 김",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "0"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "포인트",
+     "보습과",
+     "컬러",
+     "챙기는",
+     "법은",
+     "이분",
+     "보고",
+     "배우면",
+     "됩니다",
+     "망원동",
+     "카페",
+     "필리커피의"
+    ],
+    "series": "",
+    "chars": 223,
+    "lines": 1,
+    "emoji_per_100": 1.79,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2",
+    "cover_chars": 1,
+    "visual": "photo",
+    "top5_share": 0.563,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#707070",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18132277522694839",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T23:46:55+0000",
+   "permalink": "https://www.instagram.com/p/DfYPtEDARbk/",
+   "like_count": 604,
+   "comments_count": 2,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "아식스 x 지초이 너무 예쁘네.👟 아식스 스포츠스타일(asics_sportstyle_kr)과 지초이(jich",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10",
+     "1",
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "아식스",
+     "지초이",
+     "asics",
+     "sportstyle",
+     "kr",
+     "jichoiseoul",
+     "공식",
+     "온라인",
+     "예쁘네",
+     "스포츠스타일",
+     "협업한",
+     "하이퍼싱크"
+    ],
+    "series": "",
+    "chars": 424,
+    "lines": 1,
+    "emoji_per_100": 0.47,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "아식스 초이 컬렉션",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.639,
+    "n_colors": 31,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#30B0B0"
+    ]
+   }
+  },
+  {
+   "id": "18122845862064896",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T23:08:25+0000",
+   "permalink": "https://www.instagram.com/p/DfYLTHxgfD5/",
+   "like_count": 2142,
+   "comments_count": 3,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "김창완이 2027학년도 수능을 앞둔 수험생들을 위해 직접 부적을 그렸습니다. ‘무조건 합격’, ‘합격의 바람",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "2027",
+     "1035"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "수험생들을",
+     "김창완이",
+     "학년도",
+     "수능을",
+     "앞둔",
+     "직접",
+     "부적을",
+     "그렸습니다",
+     "무조건",
+     "합격",
+     "합격의",
+     "바람"
+    ],
+    "series": "",
+    "chars": 202,
+    "lines": 1,
+    "emoji_per_100": 0.99,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "AHS MH 기운",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.626,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18093090737234496",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T22:55:36+0000",
+   "permalink": "https://www.instagram.com/p/DfYJyoBB96S/",
+   "like_count": 754,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘은 따뜻한 외투를 챙기세요. 🧥 11월 6일 금요일, 북서쪽에서 내려오는 찬 공기의 영향으로 기온이 큰 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "11월",
+     "6일",
+     "3",
+     "9",
+     "5",
+     "8"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "아침",
+     "산지에는",
+     "오늘은",
+     "따뜻한",
+     "외투를",
+     "챙기세요",
+     "금요일",
+     "북서쪽에서",
+     "내려오는",
+     "공기의",
+     "영향으로",
+     "기온이"
+    ],
+    "series": "",
+    "chars": 260,
+    "lines": 1,
+    "emoji_per_100": 0.77,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "WN 068",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.476,
+    "n_colors": 59,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303050"
+    ]
+   }
+  },
+  {
+   "id": "18139413217684606",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T21:23:24+0000",
+   "permalink": "https://www.instagram.com/p/DfX_R90k1pv/",
+   "like_count": 2420,
+   "comments_count": 7,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "<어벤져스: 둠스데이> 배우들이 서울을 찾아옵니다.💚 마블(marvelstudios)이 12월 16일 국내 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "12월",
+     "16일",
+     "9개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "marvelstudios",
+     "도시를",
+     "어벤져스",
+     "둠스데이",
+     "배우들이",
+     "서울을",
+     "찾아옵니다",
+     "마블",
+     "국내",
+     "개봉을",
+     "앞두고",
+     "월드"
+    ],
+    "series": "어벤져스: 둠스데이",
+    "chars": 230,
+    "lines": 1,
+    "emoji_per_100": 0.87,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "Pay 0 까지 난다 내한",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.461,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#103010",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18110680742350805",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T20:18:24+0000",
+   "permalink": "https://www.instagram.com/p/DfX3OKkTnrc/",
+   "like_count": 328,
+   "comments_count": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "발렌시아가 크리에이티브 디렉터 피엘파올로 피촐리가 16개월 만에 브랜드를 떠납니다. 약 25년간 발렌티노에서",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "16개",
+     "25년",
+     "7월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "발렌시아가",
+     "것은",
+     "크리에이티브",
+     "디렉터",
+     "피엘파올로",
+     "피촐리가",
+     "개월",
+     "만에",
+     "브랜드를",
+     "떠납니다",
+     "년간",
+     "발렌티노에서"
+    ],
+    "series": "",
+    "chars": 254,
+    "lines": 1,
+    "emoji_per_100": 0.39,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "16 떠나는 파올로",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.82,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18056493881660510",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T14:40:58+0000",
+   "permalink": "https://www.instagram.com/reel/DfXQ4ktiML4/",
+   "like_count": 10775,
+   "comments_count": 98,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘 에르노 행사장에서 만난 에이티즈 산 다시 보며 셔터 내리겠습니다.🫠 한국 하트 알려주는 최산(choi3",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "에르노",
+     "행사장에서",
+     "만난",
+     "에이티즈",
+     "다시",
+     "보며",
+     "셔터",
+     "내리겠습니다",
+     "한국",
+     "하트",
+     "알려주는",
+     "최산"
+    ],
+    "series": "",
+    "chars": 89,
+    "lines": 1,
+    "emoji_per_100": 2.25,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "오늘",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.529,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#309050"
+    ]
+   }
+  },
+  {
+   "id": "17918843139262529",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T12:56:40+0000",
+   "permalink": "https://www.instagram.com/p/DfXFSh7HUvv/",
+   "like_count": 350,
+   "comments_count": 3,
+   "slides": 20,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "제이든 초 디테일 난리난다.🌹 제이든 초(jaden__cho)가 27 봄, 여름 컬렉션 ‘03. ROSE A",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "27",
+     "03"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "제이든",
+     "디테일",
+     "난리난다",
+     "jaden",
+     "cho",
+     "여름",
+     "컬렉션",
+     "ROSE",
+     "AND",
+     "DAISY",
+     "선보였습니다",
+     "일상에서"
+    ],
+    "series": "",
+    "chars": 195,
+    "lines": 1,
+    "emoji_per_100": 1.03,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.662,
+    "n_colors": 41,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#109090"
+    ]
+   }
+  },
+  {
+   "id": "17970844382963309",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T12:00:04+0000",
+   "permalink": "https://www.instagram.com/reel/DfW-6LFhDNr/",
+   "like_count": 18202,
+   "comments_count": 107,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "<72시간 소개팅> 장하영, 박기표 커플 근황 공개.💌 서로 다른 겨울을 보내온 두 사람이 이제 같은 계절을",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "72"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "시간",
+     "소개팅",
+     "장하영",
+     "박기표",
+     "커플",
+     "근황",
+     "공개",
+     "서로",
+     "다른",
+     "겨울을",
+     "보내온",
+     "사람이"
+    ],
+    "series": "72시간 소개팅",
+    "chars": 124,
+    "lines": 1,
+    "emoji_per_100": 3.23,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "아니고 예비",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.583,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#309090"
+    ]
+   }
+  },
+  {
+   "id": "17922767382243713",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T11:29:40+0000",
+   "permalink": "https://www.instagram.com/reel/DfW6WGWiC_V/",
+   "like_count": 6208,
+   "comments_count": 72,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "킥플립이 패딩 주머니 지퍼 열고 다니는 이유: 위플립 들어오기 편하라고.🤭 킥플립(kickflip_jype)",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "아이즈매거진",
+     "킥플립이",
+     "패딩",
+     "주머니",
+     "지퍼",
+     "열고",
+     "다니는",
+     "이유",
+     "위플립",
+     "들어오기",
+     "편하라고",
+     "킥플립"
+    ],
+    "series": "",
+    "chars": 192,
+    "lines": 1,
+    "emoji_per_100": 1.56,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "eyes 들어갈 플립 세요",
+    "cover_chars": 11,
+    "visual": "graphic",
+    "top5_share": 0.69,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#705050"
+    ]
+   }
+  },
+  {
+   "id": "18122029297985933",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T10:55:02+0000",
+   "permalink": "https://www.instagram.com/p/DfW3bJBoAvB/",
+   "like_count": 3023,
+   "comments_count": 15,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 저도 연차내고 때때때랑 홍콩 가고 싶어요.✈️ 여기어때(goodchoice_official)가 운영하",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [
+     "1",
+     "2일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "연차없이",
+     "홍콩",
+     "여기어때",
+     "어떡행",
+     "저도",
+     "연차내고",
+     "때때때랑",
+     "가고",
+     "싶어요",
+     "goodchoice",
+     "official",
+     "운영하는"
+    ],
+    "series": "",
+    "chars": 233,
+    "lines": 1,
+    "emoji_per_100": 1.29,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.436,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18117315026582501",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T10:30:01+0000",
+   "permalink": "https://www.instagram.com/reel/DfW5rN4BacH/",
+   "like_count": 621,
+   "comments_count": 17,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "LA에 처음 다녀온 에디터의 카메라에는 어떤 풍경이 담겼을까요? 🌴 끝없이 늘어선 야자수, 널찍한 도로를 달",
+    "last_question": "LA에 처음 다녀온 에디터의 카메라에는 어떤 풍경이 담겼을까요? 🌴 끝없이 늘어선 야자수, 널찍한 도로를 달",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "풍경이",
+     "LA에",
+     "처음",
+     "다녀온",
+     "에디터의",
+     "카메라에는",
+     "어떤",
+     "담겼을까요",
+     "끝없이",
+     "늘어선",
+     "야자수",
+     "널찍한"
+    ],
+    "series": "",
+    "chars": 158,
+    "lines": 1,
+    "emoji_per_100": 1.27,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "영원",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.525,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#7090B0"
+    ]
+   }
+  },
+  {
+   "id": "17999354969832725",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T10:27:56+0000",
+   "permalink": "https://www.instagram.com/p/DfW0RM7HXtZ/",
+   "like_count": 403,
+   "comments_count": 8,
+   "slides": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "배우 이동휘가 직접 디렉팅하는 패션 브랜드 실리언레일이 첫 오프라인 팝업 스토어를 열었습니다.👏🏻 이동휘가 ",
+    "last_question": "",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "15일",
+     "17",
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이동휘가",
+     "팝업",
+     "배우",
+     "직접",
+     "디렉팅하는",
+     "패션",
+     "브랜드",
+     "실리언레일이",
+     "오프라인",
+     "스토어를",
+     "열었습니다",
+     "함께한"
+    ],
+    "series": "",
+    "chars": 217,
+    "lines": 2,
+    "emoji_per_100": 2.76,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "사장님",
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.473,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18097973345456167",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T10:01:17+0000",
+   "permalink": "https://www.instagram.com/p/DfWxOA-HYoV/",
+   "like_count": 735,
+   "comments_count": 37,
+   "slides": 12,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "에르노 신상 딱 대. 오늘 에르노 청담 플래그십 스토어에서 26 가을, 겨울 컬렉션과 토털 룩 비전을 선보이",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "26"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "에르노",
+     "신상",
+     "청담",
+     "플래그십",
+     "스토어에서",
+     "가을",
+     "겨울",
+     "컬렉션과",
+     "토털",
+     "비전을",
+     "선보이는",
+     "프레젠테이션이"
+    ],
+    "series": "",
+    "chars": 161,
+    "lines": 1,
+    "emoji_per_100": 1.24,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "lERNO 이번",
+    "cover_chars": 7,
+    "visual": "photo",
+    "top5_share": 0.413,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#50D0B0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18117104687015957",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T09:58:47+0000",
+   "permalink": "https://www.instagram.com/p/DfWw7urnTBT/",
+   "like_count": 205,
+   "comments_count": 1,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오소이가 론칭 10주년을 맞아 한남 스토어를 오픈합니다.💝 이를 기념해 두 개의 가방을 겹친 듯한 실루엣의 ",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "오소이가",
+     "론칭",
+     "주년을",
+     "맞아",
+     "한남",
+     "스토어를",
+     "오픈합니다",
+     "이를",
+     "기념해",
+     "개의",
+     "가방을",
+     "겹친"
+    ],
+    "series": "",
+    "chars": 180,
+    "lines": 1,
+    "emoji_per_100": 1.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "혼자 들어도",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.56,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17877106899650511",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-05T09:55:02+0000",
+   "permalink": "https://www.instagram.com/p/DfWwjx4oPGJ/",
+   "like_count": 369,
+   "comments_count": 3,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 이지엔 푸딩 포켓몬 에디션으로 헤어컬러 체인지하고 왔습니다.💜 이지엔(ezn_official)이 ‘이",
+    "last_question": "",
+    "structure": "해시태그",
+    "numbers": [
+     "17",
+     "4"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "이지엔",
+     "푸딩",
+     "포켓몬",
+     "헤어컬러",
+     "에디션으로",
+     "체인지하고",
+     "왔습니다",
+     "ezn",
+     "official",
+     "에디션",
+     "선보입니다",
+     "메타몽의"
+    ],
+    "series": "",
+    "chars": 336,
+    "lines": 1,
+    "emoji_per_100": 0.6,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "있으면 컬러 체인지 해요",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.541,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#30B0B0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18120712453954342",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T09:54:35+0000",
+   "permalink": "https://www.instagram.com/reel/DfWwUPZivuj/",
+   "like_count": 2966,
+   "comments_count": 26,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "에르노에서 만난 미녀들의 대화.🫂 안은진 옆 조이현 구도 너무 사랑스러운데요. 이런 언니 이런 동생 저도 주",
+    "last_question": "",
+    "structure": "문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "이런",
+     "에르노에서",
+     "만난",
+     "미녀들의",
+     "대화",
+     "안은진",
+     "조이현",
+     "구도",
+     "사랑스러운데요",
+     "언니",
+     "동생",
+     "저도"
+    ],
+    "series": "",
+    "chars": 72,
+    "lines": 1,
+    "emoji_per_100": 2.78,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "들의 만남",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.496,
+    "n_colors": 37,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#707050"
+    ]
+   }
+  },
+  {
+   "id": "18072186605505047",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-11-05T09:38:57+0000",
+   "permalink": "https://www.instagram.com/reel/DfWuUcPCaZS/",
+   "like_count": 111,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "11초 안에 담으면 전부 공짜?💵 알리익스프레스가 광군제를 맞아 성수에서 ‘알리가차쏜다’ 팝업을 진행합니다.",
+    "last_question": "11초 안에 담으면 전부 공짜?💵 알리익스프레스가 광군제를 맞아 성수에서 ‘알리가차쏜다’ 팝업을 진행합니다.",
+    "structure": "문장>이모지소제목",
+    "numbers": [
+     "11",
+     "8일",
+     "2",
+     "273",
+     "-48"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "안에",
+     "담으면",
+     "전부",
+     "공짜",
+     "알리익스프레스가",
+     "광군제를",
+     "맞아",
+     "성수에서",
+     "알리가차쏜다",
+     "팝업을",
+     "진행합니다",
+     "대형"
+    ],
+    "series": "",
+    "chars": 243,
+    "lines": 2,
+    "emoji_per_100": 1.65,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "팝업",
+    "cover_chars": 2,
+    "visual": "photo",
+    "top5_share": 0.421,
+    "n_colors": 80,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   }
+  }
+ ]
+}

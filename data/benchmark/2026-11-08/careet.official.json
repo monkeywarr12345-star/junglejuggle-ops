@@ -1,0 +1,5727 @@
+{
+ "account": "careet.official",
+ "collected_at": "2026-11-08T15:11:45+00:00",
+ "followers_count": 57871,
+ "media_count": 315,
+ "posts": [
+  {
+   "id": "17954516115297458",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-03T03:00:07+0000",
+   "permalink": "https://www.instagram.com/p/DfQ3bakkQw8/",
+   "like_count": 963,
+   "comments_count": 43,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "야르 VS 쌰갈",
+    "last_question": "올해 언급량 1위인 밈은? 🤔",
+    "structure": "문장×8",
+    "numbers": [
+     "1위",
+     "2026년",
+     "26년",
+     "1월",
+     "1일",
+     "10월",
+     "20일",
+     "5개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "밈은",
+     "야르",
+     "VS",
+     "쌰갈",
+     "올해",
+     "언급량",
+     "위인",
+     "정답은",
+     "땡입니다",
+     "년에",
+     "가장",
+     "쓰인"
+    ],
+    "series": "",
+    "chars": 342,
+    "lines": 8,
+    "emoji_per_100": 0.29,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2026 가장 많이 쓰인 Bag 순애 건조 ARS 자녀 청년 베스 대다 ",
+    "cover_chars": 41,
+    "visual": "graphic",
+    "top5_share": 0.864,
+    "n_colors": 30,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#7090D0"
+    ]
+   }
+  },
+  {
+   "id": "17991147444120252",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-11-02T03:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DfOSsOGkngl/",
+   "like_count": 88,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🤔 어떻게 소비자에게 캠페인을 신선하게 각인시킬까?",
+    "last_question": "👀 그럼 와멤데는 뭐야?",
+    "structure": "해시태그>질문>문장>질문>항목×4>해시태그",
+    "numbers": [
+     "1년",
+     "90",
+     "70%",
+     "11월",
+     "2일",
+     "11월",
+     "8일",
+     "7일"
+    ],
+    "hashtags": [
+     "#광고",
+     "#쿠팡",
+     "#와멤데",
+     "#류승룡",
+     "#이벤트"
+    ],
+    "keywords": [
+     "할인",
+     "류승룡",
+     "브랜드",
+     "쿠팡",
+     "대규모",
+     "행사",
+     "배우의",
+     "페이크",
+     "wow",
+     "어떻게",
+     "소비자에게",
+     "캠페인을"
+    ],
+    "series": "",
+    "chars": 510,
+    "lines": 9,
+    "emoji_per_100": 0.39,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "08 2 라고 마드 광고 아니야? 요즘 에선 받음",
+    "cover_chars": 19,
+    "visual": "photo",
+    "top5_share": 0.556,
+    "n_colors": 70,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#1090F0"
+    ]
+   }
+  },
+  {
+   "id": "18121521136985545",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-30T02:59:08+0000",
+   "permalink": "https://www.instagram.com/p/DfGkImfiJ4C/",
+   "like_count": 140,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@@ 만화의 날에 만화카페 가실? 📚",
+    "last_question": "🫢 월요일을 9번만 더 보내면 2026년이 끝나다는 사실 알고 계셨나요? 올해가 두 달도 채 남지 않았는데 ",
+    "structure": "문장×3",
+    "numbers": [
+     "9",
+     "2026년",
+     "11월",
+     "2026년",
+     "11월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "만화의",
+     "날에",
+     "만화카페",
+     "가실",
+     "월요일을",
+     "번만",
+     "보내면",
+     "년이",
+     "끝나다는",
+     "사실",
+     "알고",
+     "계셨나요"
+    ],
+    "series": "",
+    "chars": 229,
+    "lines": 3,
+    "emoji_per_100": 1.31,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "달도 에만 11 모음 1 코리아 축제 축제 8 10001 10 1 2 1",
+    "cover_chars": 94,
+    "visual": "graphic",
+    "top5_share": 0.932,
+    "n_colors": 13,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18083096312431551",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-28T07:00:04+0000",
+   "permalink": "https://www.instagram.com/p/DfBJn20Svwn/",
+   "like_count": 575,
+   "comments_count": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "10월에 유행한 게 이렇게 많다고? 이미지를 보며 과연 나는 갓반인일지, SNS 중독자일지 셀프 점검해 보세",
+    "last_question": "10월에 유행한 게 이렇게 많다고? 이미지를 보며 과연 나는 갓반인일지, SNS 중독자일지 셀프 점검해 보세",
+    "structure": "문장",
+    "numbers": [
+     "10월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "월에",
+     "유행한",
+     "이렇게",
+     "많다고",
+     "이미지를",
+     "보며",
+     "과연",
+     "나는",
+     "갓반인일지",
+     "SNS",
+     "중독자일지",
+     "셀프"
+    ],
+    "series": "",
+    "chars": 64,
+    "lines": 1,
+    "emoji_per_100": 1.56,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이번 SNS 얼마나 10 유행 보기 고디바 초코 모찌 드라마 EO 8 쓰",
+    "cover_chars": 47,
+    "visual": "graphic",
+    "top5_share": 0.878,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18502324345102602",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-28T02:59:27+0000",
+   "permalink": "https://www.instagram.com/p/DfBalZyk3t2/",
+   "like_count": 26,
+   "comments_count": 0,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 🤔 이런 사진들 어느 사이트에서 만들 수 있는 거야?",
+    "last_question": "🏝️ 포스터 공유하면 제주도 숙박권까지 준다고?",
+    "structure": "해시태그>문장×3>이모지소제목>항목×3>질문>문장>번호×3>문장×3",
+    "numbers": [
+     "11월",
+     "20일"
+    ],
+    "hashtags": [
+     "#광고",
+     "#디올뉴투싼"
+    ],
+    "keywords": [
+     "만들",
+     "포스터를",
+     "투싼",
+     "tucson",
+     "hyundai",
+     "com",
+     "홈페이지를",
+     "활용해",
+     "재미있는",
+     "SF",
+     "게임",
+     "주요"
+    ],
+    "series": "",
+    "chars": 757,
+    "lines": 16,
+    "emoji_per_100": 0.4,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "홈페이지 마케팅 74012 Story inspired Last the T",
+    "cover_chars": 62,
+    "visual": "graphic",
+    "top5_share": 0.822,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#30B0B0"
+    ]
+   }
+  },
+  {
+   "id": "18147456205552688",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-27T09:00:04+0000",
+   "permalink": "https://www.instagram.com/p/De_fEuCkpvq/",
+   "like_count": 17,
+   "comments_count": 0,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 정답 맞힌 사람 있나요? 👀",
+    "last_question": "아직도 믿기 어렵다면? 유튜브와 인스타그램에서 '에이아이돌'의 영상을 직접 확인해보세요! 🎤",
+    "structure": "해시태그>문장×4",
+    "numbers": [],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "AI",
+     "에이아이돌",
+     "사람",
+     "LG전자가",
+     "기획한",
+     "정답",
+     "맞힌",
+     "있나요",
+     "신인",
+     "걸그룹",
+     "DOL",
+     "정체는"
+    ],
+    "series": "",
+    "chars": 365,
+    "lines": 5,
+    "emoji_per_100": 0.55,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "자가 아이돌 일까?",
+    "cover_chars": 8,
+    "visual": "graphic",
+    "top5_share": 0.756,
+    "n_colors": 35,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18107763395206550",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-26T07:00:39+0000",
+   "permalink": "https://www.instagram.com/p/De8smSVDbPs/",
+   "like_count": 140,
+   "comments_count": 1,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "※ 다음 중 나에게 해당 사항이 있는 것은?",
+    "last_question": "만약 정말로 혼자 살게 된다면… 외롭진 않을까요? 친구는 어떻게 사귈 수 있을까요?",
+    "structure": "질문>번호×5>이모지소제목>문장×2>질문>문장×2",
+    "numbers": [
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "혼자",
+     "있다",
+     "딱히",
+     "없다",
+     "점점",
+     "생활자",
+     "가구",
+     "다음",
+     "나에게",
+     "해당",
+     "사항이",
+     "것은"
+    ],
+    "series": "",
+    "chars": 427,
+    "lines": 12,
+    "emoji_per_100": 0.47,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "건데 사귀고 1 생활자 5 방법 작가 작가 커뮤니티, 모임 “은평 시스터",
+    "cover_chars": 39,
+    "visual": "graphic",
+    "top5_share": 0.825,
+    "n_colors": 41,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18015155165968140",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-26T03:00:03+0000",
+   "permalink": "https://www.instagram.com/p/De8RIuZEokL/",
+   "like_count": 26,
+   "comments_count": 0,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 “과자 그거 대체 어떻게 끊는 건데…” 달달한 간식을 포기하기 어려운 유지어터라면 주목해 주세요!",
+    "last_question": "💬 최근 화제가 된 ‘파이버맥싱’을 보고 식이섬유 섭취에도 관심이 생기셨나요?",
+    "structure": "해시태그>질문×2>문장×4",
+    "numbers": [
+     "90%",
+     "5%",
+     "2",
+     "4.5",
+     "4",
+     "3"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "식이섬유",
+     "달달한",
+     "간식을",
+     "저당",
+     "당류",
+     "풍미",
+     "과자",
+     "그거",
+     "대체",
+     "어떻게",
+     "끊는",
+     "건데"
+    ],
+    "series": "",
+    "chars": 434,
+    "lines": 7,
+    "emoji_per_100": 0.92,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "다은 싶어 챙기고 싶고, 포기 모두 과자",
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.848,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#70D070",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17894358726436076",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-23T07:01:09+0000",
+   "permalink": "https://www.instagram.com/p/De0-RNDj5XV/",
+   "like_count": 44,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🥕 캐릿이랑 트렌드 공부하고 용돈 벌 사람?",
+    "last_question": "🥕 캐릿이랑 트렌드 공부하고 용돈 벌 사람?",
+    "structure": "질문>문장×2>이모지소제목>항목>번호>항목>번호>항목×4>문장×3",
+    "numbers": [
+     "2026.11",
+     "02",
+     "9",
+     "2026.11",
+     "02",
+     "2026.12",
+     "31",
+     "10",
+     "20",
+     "1998년",
+     "2011년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "디깅",
+     "크루",
+     "모집",
+     "기간",
+     "활동",
+     "캐릿이랑",
+     "공부하고",
+     "용돈",
+     "사람",
+     "미디어",
+     "캐릿"
+    ],
+    "series": "",
+    "chars": 335,
+    "lines": 15,
+    "emoji_per_100": 1.49,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "WANTED 할라? 트렌트 하고 구함 EWE 월요일 오전 9 마감",
+    "cover_chars": 27,
+    "visual": "graphic",
+    "top5_share": 0.826,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17966579565078328",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-23T03:00:24+0000",
+   "permalink": "https://www.instagram.com/p/De0it7qjAJs/",
+   "like_count": 346,
+   "comments_count": 18,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "여러분 벌써 2027년이 70일 앞으로 다가온 거 아세요?",
+    "last_question": "여러분 벌써 2027년이 70일 앞으로 다가온 거 아세요?",
+    "structure": "해시태그>질문>문장×6>항목×4",
+    "numbers": [
+     "2027년",
+     "70일",
+     "10월",
+     "31일",
+     "46%",
+     "8천",
+     "2026년",
+     "12월",
+     "4",
+     "6일",
+     "2",
+     "6",
+     "8천"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "새해",
+     "구입할",
+     "원에",
+     "네이버에서",
+     "예매",
+     "여러분",
+     "벌써",
+     "년이",
+     "앞으로",
+     "다가온",
+     "아세요",
+     "있으면"
+    ],
+    "series": "",
+    "chars": 384,
+    "lines": 12,
+    "emoji_per_100": 1.3,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "위한 준비 있다고?",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.397,
+    "n_colors": 81,
+    "face": false,
+    "colors": [
+     "#3050F0",
+     "#103050"
+    ]
+   }
+  },
+  {
+   "id": "18104471777242392",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-22T06:15:07+0000",
+   "permalink": "https://www.instagram.com/p/DeyUNTREiWw/",
+   "like_count": 207,
+   "comments_count": 1,
+   "slides": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "오늘 '좋아하는 사람에게 인사하는 날'이라는데...",
+    "last_question": "",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "좋아하는",
+     "사람에게",
+     "인사하는",
+     "이라는데",
+     "기념해서",
+     "전국",
+     "순애썰",
+     "모아봄",
+     "순애친구",
+     "태그"
+    ],
+    "series": "",
+    "chars": 56,
+    "lines": 3,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "아니면 싫다 주려고 10 왕복 10 22 에게 하는",
+    "cover_chars": 20,
+    "visual": "graphic",
+    "top5_share": 0.833,
+    "n_colors": 27,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17965572398983699",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-21T03:00:01+0000",
+   "permalink": "https://www.instagram.com/p/DevZInBElx4/",
+   "like_count": 39,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 ‘요즘 소비자 관심 이렇게 끄는 거였어…?’",
+    "last_question": "실제로 AI 워시콤보의 온라인 언급량은 캠페인 기간 이전 비교 기간보다 72% 증가했고, 판매량은 35% 상",
+    "structure": "해시태그>질문>문장>질문>이모지소제목>항목>문장>항목>문장×4",
+    "numbers": [
+     "9월",
+     "1위",
+     "72%",
+     "35%",
+     "1",
+     "2"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "AI",
+     "관심",
+     "WASH",
+     "에이아이돌",
+     "TROMM",
+     "잘한",
+     "포인트",
+     "가전의",
+     "아이돌",
+     "세탁기",
+     "실제",
+     "아이돌처럼"
+    ],
+    "series": "",
+    "chars": 779,
+    "lines": 12,
+    "emoji_per_100": 0.51,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "보는 잠재 고객",
+    "cover_chars": 6,
+    "visual": "graphic",
+    "top5_share": 0.727,
+    "n_colors": 26,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#103030"
+    ]
+   }
+  },
+  {
+   "id": "18117722626962536",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-20T02:58:06+0000",
+   "permalink": "https://www.instagram.com/p/Des0EeIEjDB/",
+   "like_count": 102,
+   "comments_count": 1,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 💪 건강과 재미, 두 마리의 토끼를 모두 잡고 싶은 사람?",
+    "last_question": "#광고 💪 건강과 재미, 두 마리의 토끼를 모두 잡고 싶은 사람?",
+    "structure": "해시태그>문장×3>이모지소제목>문장×2>이모지소제목>항목×5>문장>해시태그",
+    "numbers": [
+     "10월",
+     "21일",
+     "25일",
+     "30",
+     "29",
+     "5",
+     "-6",
+     "2026년",
+     "10월",
+     "21일",
+     "25일"
+    ],
+    "hashtags": [
+     "#광고",
+     "#한화손보",
+     "#웰니스크루즈한남",
+     "#한남동",
+     "#팝업스토어"
+    ],
+    "keywords": [
+     "웰니스",
+     "사전",
+     "서울",
+     "준비한",
+     "보세요",
+     "한화손보",
+     "예약을",
+     "입장할",
+     "있습니다",
+     "활용한",
+     "체험",
+     "함께하는"
+    ],
+    "series": "",
+    "chars": 656,
+    "lines": 15,
+    "emoji_per_100": 0.61,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "에서 사람? 이라면? 서울 에서 열리는 무료 페스티벌",
+    "cover_chars": 22,
+    "visual": "graphic",
+    "top5_share": 0.678,
+    "n_colors": 32,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18153268780536349",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-19T07:37:06+0000",
+   "permalink": "https://www.instagram.com/p/DeqvNHFEoCK/",
+   "like_count": 99,
+   "comments_count": 4,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@치이카와 찍먹시키고 싶은 친구에게 공유",
+    "last_question": "‘치이카와랑 먼작귀는 뭐가 달라?’ 하는 질문부터 ‘이 중에 누가 치이카와인데?’, ‘이게 그렇게 무섭다는데",
+    "structure": "문장×3",
+    "numbers": [
+     "1위"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "치이카와",
+     "찍먹시키고",
+     "싶은",
+     "친구에게",
+     "공유",
+     "뭔데",
+     "이렇게",
+     "난리야",
+     "싶으신",
+     "분들",
+     "많으실",
+     "텐데요"
+    ],
+    "series": "",
+    "chars": 307,
+    "lines": 3,
+    "emoji_per_100": 0.0,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "햄스터 있어?\" 왕초보 입문 가이드",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.519,
+    "n_colors": 75,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0D0"
+    ]
+   }
+  },
+  {
+   "id": "18117301784279254",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-19T02:59:07+0000",
+   "permalink": "https://www.instagram.com/p/DeqPZHqjI0g/",
+   "like_count": 53,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 🍫 @ 연말 파티나 걸스나잇에서 키링 꾸미기 하실?",
+    "last_question": "동봉된 스티커팩으로 나만의 키링 파우치를 꾸미고, 최애 사진이나 틴트 같은 소지품을 넣어 가방에 달고 다니기",
+    "structure": "해시태그>문장×2>이모지소제목>문장",
+    "numbers": [
+     "10월",
+     "10월",
+     "23일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "키링",
+     "꾸미기",
+     "최애",
+     "세트",
+     "나만의",
+     "연말",
+     "파티나",
+     "걸스나잇에서",
+     "활용해",
+     "트윅스",
+     "함께",
+     "파우치를"
+    ],
+    "series": "",
+    "chars": 490,
+    "lines": 5,
+    "emoji_per_100": 0.61,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "재커 하기 KRM 키링 꾸미기 키트",
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.743,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#703030",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17933859594143563",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-13T08:58:45+0000",
+   "permalink": "https://www.instagram.com/p/Debbx06kt3a/",
+   "like_count": 971,
+   "comments_count": 24,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "이게 진짜 인기라고? 왜?",
+    "last_question": "롯데월드가 쏘아올린 인외 붐, 화제의 인외 캐릭터는 과연 어떻게 탄생했을까요? 캐릿이 롯데월드 담당자에게 직",
+    "structure": "질문>문장×4",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "인외",
+     "롯데월드",
+     "기획",
+     "잘한",
+     "이게",
+     "인기라고",
+     "요즘",
+     "SNS에서는",
+     "인간",
+     "외의",
+     "존재",
+     "뜻하는"
+    ],
+    "series": "",
+    "chars": 375,
+    "lines": 5,
+    "emoji_per_100": 0.27,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "바꾼다 18 올린 직접 푸는 기획 비하인드",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.523,
+    "n_colors": 85,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18154919599523261",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-13T03:00:14+0000",
+   "permalink": "https://www.instagram.com/p/Deayv9ejOk8/",
+   "like_count": 58,
+   "comments_count": 1,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🍡 캐릿이랑 떡 먹으면서 진대할 직장인을 찾습니다!",
+    "last_question": "비슷한 고민을 가진 직장인들과 진솔한 대화를 나누고 싶다면?",
+    "structure": "이모지소제목>문장×6>질문>문장>항목×4>문장×3",
+    "numbers": [
+     "2026년",
+     "10월",
+     "19",
+     "22",
+     "2026년",
+     "10월",
+     "12일",
+     "18일",
+     "10월",
+     "21"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "고민을",
+     "캐릿",
+     "개별",
+     "신청",
+     "캐릿이랑",
+     "먹으면서",
+     "진대할",
+     "직장인을",
+     "찾습니다",
+     "앞으로",
+     "먹고",
+     "살아야"
+    ],
+    "series": "",
+    "chars": 549,
+    "lines": 16,
+    "emoji_per_100": 1.09,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "LY 으로 먹고 사지? 마포 에서 먹으며 직장인?",
+    "cover_chars": 20,
+    "visual": "graphic",
+    "top5_share": 0.799,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18112418341844051",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-08T09:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DeOkBUREmnM/",
+   "like_count": 103,
+   "comments_count": 2,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 🤘지난주 부락에서 신나게 놀고 오신 분?",
+    "last_question": "락페 갈 때마다 보부상 되는 분들 많으시죠? 아무리 꼼꼼히 챙겨도 빠뜨리는 물건이 생기기 마련인데요.",
+    "structure": "해시태그>문장>이모지소제목>항목>문장>항목>문장×2>항목>문장×2",
+    "numbers": [
+     "2026",
+     "1",
+     "5,000원",
+     "3%",
+     "2",
+     "3",
+     "2026"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "있도록",
+     "잘한",
+     "포인트",
+     "페스티벌",
+     "토스는",
+     "부락에서",
+     "신나게",
+     "정신없는",
+     "현장에서",
+     "결제할",
+     "있었음",
+     "현장"
+    ],
+    "series": "",
+    "chars": 832,
+    "lines": 11,
+    "emoji_per_100": 0.72,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "Pal EAL 마케팅",
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.56,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18185544043411461",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-06T04:12:48+0000",
+   "permalink": "https://www.instagram.com/p/DeI5fV0j7XY/",
+   "like_count": 132,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "캐릿이 소개한 메가 트렌드 ‘텍스트힙’, ‘제철코어’가",
+    "last_question": "메가 트렌드는 무엇일까요?",
+    "structure": "해시태그>문장×3>질문>문장×5>항목×5",
+    "numbers": [
+     "20",
+     "11월",
+     "17일",
+     "10",
+     "00",
+     "12",
+     "30",
+     "15",
+     "00",
+     "17",
+     "30",
+     "10월",
+     "30일",
+     "30%"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "메가",
+     "티켓",
+     "회차",
+     "할인",
+     "캐릿이",
+     "소개한",
+     "트렌드",
+     "텍스트힙",
+     "제철코어",
+     "작년과",
+     "올해",
+     "마케팅"
+    ],
+    "series": "",
+    "chars": 396,
+    "lines": 15,
+    "emoji_per_100": 0.76,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "Gemini Flash 내년 트렌드 성의 없는 56 0 0 4 니다. 뭘",
+    "cover_chars": 33,
+    "visual": "graphic",
+    "top5_share": 0.65,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18111752750595201",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-10-01T07:00:07+0000",
+   "permalink": "https://www.instagram.com/p/Dd8S8W7yHzG/",
+   "like_count": 579,
+   "comments_count": 12,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 10월 달력 공개합니다!",
+    "last_question": "매일 지나치는 거리와 공원에도 디자인이 숨어 있다? 평소 무심코 지나쳤던 일상 속 공공디자인을 새롭게 발견하",
+    "structure": "해시태그>문장×3>이모지소제목×2>문장>이모지소제목>문장>이모지소제목>문장>이모지소제목>문장",
+    "numbers": [
+     "10월",
+     "10월",
+     "2026.10",
+     "6",
+     "10.15",
+     "2026.10",
+     "17",
+     "10.18",
+     "120",
+     "2026.10",
+     "23",
+     "11.1",
+     "2026.10",
+     "23",
+     "10.25"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "페스티벌",
+     "행사",
+     "다양한",
+     "대전",
+     "달력",
+     "공개합니다",
+     "선선한",
+     "바람",
+     "따라",
+     "놀러",
+     "다니기",
+     "좋은"
+    ],
+    "series": "",
+    "chars": 520,
+    "lines": 13,
+    "emoji_per_100": 0.96,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "220 하면 빙하기 온다 날씨 좋을 미리 놀자! 10 달력 1 3 개천절",
+    "cover_chars": 127,
+    "visual": "graphic",
+    "top5_share": 0.904,
+    "n_colors": 18,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18331794148274170",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-23T08:59:32+0000",
+   "permalink": "https://www.instagram.com/p/Ddn7zxgyYKL/",
+   "like_count": 971,
+   "comments_count": 22,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "떡 붐은 온다…. 아니? 이미 왔다!",
+    "last_question": "@에디터가 미처 담지 못한 우리 지역 떡 맛집이 있다면? 댓글로 추천해 주세요!",
+    "structure": "문장×8",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "추석",
+     "주세요",
+     "에디터가",
+     "취향",
+     "붐은",
+     "온다",
+     "아니",
+     "이미",
+     "왔다",
+     "연휴가",
+     "하루",
+     "앞으로"
+    ],
+    "series": "",
+    "chars": 287,
+    "lines": 8,
+    "emoji_per_100": 0.35,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "초선 4 가면 받을수 있다! 전국 맛집 인절미 인절미 요거트 설기 PY ",
+    "cover_chars": 63,
+    "visual": "graphic",
+    "top5_share": 0.863,
+    "n_colors": 36,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18104478443250182",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-22T02:35:35+0000",
+   "permalink": "https://www.instagram.com/p/DdkrPC7EiGk/",
+   "like_count": 191,
+   "comments_count": 2,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 @이제 아는 대학생이 한 명도 없는 마케터 보세요👀",
+    "last_question": "",
+    "structure": "해시태그>문장×3",
+    "numbers": [
+     "100명",
+     "2026",
+     "20",
+     "2026년",
+     "5"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "트렌드",
+     "KT",
+     "대학생",
+     "키워드",
+     "에서",
+     "아는",
+     "대학생이",
+     "명도",
+     "마케터",
+     "보세요",
+     "명이",
+     "선정한"
+    ],
+    "series": "",
+    "chars": 260,
+    "lines": 4,
+    "emoji_per_100": 0.38,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "대학생 100 2026 트렌드 키워드",
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.679,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18094217288422381",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-21T06:18:05+0000",
+   "permalink": "https://www.instagram.com/p/Ddif53OklIp/",
+   "like_count": 47,
+   "comments_count": 0,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "포켓몬 카드 한 장으로 피자설기 사서 하루에 하나씩 먹으면 4만 4천 살까지 먹을 수 있대...(신석기인도 ",
+    "last_question": "포켓몬 카드 대체 왜 이렇게까지 난리일까? 궁금한 사람들은 마지막 장 참고!",
+    "structure": "문장×3",
+    "numbers": [
+     "4만",
+     "4천"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "포켓몬",
+     "카드",
+     "장으로",
+     "피자설기",
+     "사서",
+     "하루에",
+     "하나씩",
+     "먹으면",
+     "살까지",
+     "먹을",
+     "있대",
+     "신석기인도"
+    ],
+    "series": "",
+    "chars": 133,
+    "lines": 3,
+    "emoji_per_100": 0.75,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "포켓몬 카드 AFA 아이폰 7,446 329 기준) 경매 플랫폼 설기 기",
+    "cover_chars": 40,
+    "visual": "graphic",
+    "top5_share": 0.816,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17962983386980650",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-18T03:00:03+0000",
+   "permalink": "https://www.instagram.com/p/Ddaa8SDEsVS/",
+   "like_count": 29,
+   "comments_count": 1,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 AI 에이전트가 대세라죠?",
+    "last_question": "요즘 AI 에이전트가 대세라죠?",
+    "structure": "해시태그>질문>문장>항목>번호×4>문장>번호>문장>해시태그",
+    "numbers": [
+     "5",
+     "24",
+     "40%",
+     "2026년",
+     "10월",
+     "31일",
+     "6",
+     "2,417원"
+    ],
+    "hashtags": [
+     "#광고",
+     "#제미나이",
+     "#Gemini",
+     "#구글AI프로",
+     "#제미나이구독"
+    ],
+    "keywords": [
+     "AI",
+     "Google",
+     "Pro",
+     "자료를",
+     "분들은",
+     "구글의",
+     "할인",
+     "요즘",
+     "에이전트가",
+     "대세라죠",
+     "에이전트",
+     "만에"
+    ],
+    "series": "",
+    "chars": 715,
+    "lines": 12,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "같이 구독 구함 4 Google Pro 강력해진 Gemini 경험해 사람",
+    "cover_chars": 53,
+    "visual": "graphic",
+    "top5_share": 0.881,
+    "n_colors": 26,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70B0F0"
+    ]
+   }
+  },
+  {
+   "id": "17866288434659620",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-17T06:52:32+0000",
+   "permalink": "https://www.instagram.com/p/DdYQqjmgXFl/",
+   "like_count": 374,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "☀️ 요즘 완전 장원영 날씨이죠? (날씨가 너무 완벽하다는 의미)",
+    "last_question": "☀️ 요즘 완전 장원영 날씨이죠? (날씨가 너무 완벽하다는 의미)",
+    "structure": "문장×5",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "피크닉",
+     "피크닉을",
+     "요즘",
+     "완전",
+     "장원영",
+     "날씨이죠",
+     "날씨가",
+     "완벽하다는",
+     "의미",
+     "신선하고",
+     "화창한",
+     "날씨"
+    ],
+    "series": "",
+    "chars": 307,
+    "lines": 5,
+    "emoji_per_100": 0.65,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "날씨 진다! 가을 피크닉 준비 올림픽 린이 포테이토 철회 타르트 공원 대",
+    "cover_chars": 226,
+    "visual": "graphic",
+    "top5_share": 0.695,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17899826181668637",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-16T04:17:27+0000",
+   "permalink": "https://www.instagram.com/p/DdVaH8-El0M/",
+   "like_count": 35,
+   "comments_count": 0,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "서울 ODA 국제회의는 국제개발협력 분야 전문가, 실무자들이 한자리에 모여 주요 현안을 논의하는 국제협력 플",
+    "last_question": "✔ 어디서?: KOICA 공식 YouTube 채널",
+    "structure": "해시태그>문장×3>항목×2>해시태그",
+    "numbers": [
+     "9월",
+     "19",
+     "5개",
+     "2026",
+     "09",
+     "18",
+     "09",
+     "30",
+     "17",
+     "00"
+    ],
+    "hashtags": [
+     "#광고",
+     "#코이카",
+     "#서울ODA국제회의",
+     "#외교부",
+     "#AI"
+    ],
+    "keywords": [
+     "AI",
+     "서울",
+     "ODA",
+     "한자리에",
+     "글로벌",
+     "기술",
+     "국제회의는",
+     "국제개발협력",
+     "분야",
+     "전문가",
+     "실무자들이",
+     "모여"
+    ],
+    "series": "",
+    "chars": 403,
+    "lines": 7,
+    "emoji_per_100": 0.74,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "AD 세상 가는 관심 많은 위한 글로벌 컨퍼런스 열림",
+    "cover_chars": 21,
+    "visual": "graphic",
+    "top5_share": 0.643,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17908098300496897",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-11T03:00:11+0000",
+   "permalink": "https://www.instagram.com/p/DdIZTlxEpLH/",
+   "like_count": 41,
+   "comments_count": 1,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 직장인의 최종 꿈 = 언젠가는 내 사업을 하는 것일 텐데요. 그 꿈을 일찍 이룰 수 있는 꿀팁을 알려",
+    "last_question": "요즘 창업은 실패해도 ‘스펙’이 된다고 하죠?",
+    "structure": "해시태그>문장×4>질문>문장>항목×2>문장×14>항목×2>문장",
+    "numbers": [
+     "1만",
+     "26.09",
+     "17",
+     "16",
+     "00",
+     "2025년",
+     "9월",
+     "68만",
+     "5년",
+     "10명",
+     "7명",
+     "2",
+     "1",
+     "5천",
+     "2"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "창업",
+     "모두의",
+     "아이디어만",
+     "예비",
+     "신청",
+     "창업에",
+     "참여할",
+     "텐데요",
+     "있다면",
+     "누구나",
+     "프로젝트",
+     "규모로"
+    ],
+    "series": "",
+    "chars": 1311,
+    "lines": 26,
+    "emoji_per_100": 0.38,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "DM 려요! 싶은 들을 위한",
+    "cover_chars": 11,
+    "visual": "photo",
+    "top5_share": 0.57,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18102558854218221",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-10T08:18:29+0000",
+   "permalink": "https://www.instagram.com/p/DdGY8AfkpJz/",
+   "like_count": 1998,
+   "comments_count": 43,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "안녕하세요. 로블록스에서 먼작귀 스킨 구매한 31세 에디터입니다.",
+    "last_question": "요즘 SNS에서 갑자기 로블록스 붐이 일고 있죠. 그거 초등학생 게임 아니냐고요? 최근에는 20대, 심지어는",
+    "structure": "문장×3",
+    "numbers": [
+     "31",
+     "20",
+     "30"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "로블록스",
+     "갑자기",
+     "로블록스를",
+     "안녕하세요",
+     "로블록스에서",
+     "먼작귀",
+     "스킨",
+     "구매한",
+     "에디터입니다",
+     "요즘",
+     "SNS에서",
+     "붐이"
+    ],
+    "series": "",
+    "chars": 334,
+    "lines": 3,
+    "emoji_per_100": 0.3,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "4 2 스로 근황",
+    "cover_chars": 6,
+    "visual": "photo",
+    "top5_share": 0.565,
+    "n_colors": 63,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   }
+  },
+  {
+   "id": "18615686146063381",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-09T06:36:51+0000",
+   "permalink": "https://www.instagram.com/p/DdDog2PicLq/",
+   "like_count": 1129,
+   "comments_count": 36,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "편의점 10곳을 돌아도 못 산다는 ‘민음사 빵’ 여러분은 구하셨나요? 일단 저는 실패했는데요…🥹",
+    "last_question": "35만 개 이상 팔리며 화제를 모은 ‘민음사 빵’의 탄생 비하인드가 궁금하지 않으신가요? 캐릿이 GS25 담",
+    "structure": "문장×3",
+    "numbers": [
+     "10",
+     "35만",
+     "25"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "민음사",
+     "비하인드가",
+     "잘한",
+     "편의점",
+     "곳을",
+     "돌아도",
+     "산다는",
+     "여러분은",
+     "구하셨나요",
+     "일단",
+     "저는",
+     "실패했는데요"
+    ],
+    "series": "",
+    "chars": 202,
+    "lines": 3,
+    "emoji_per_100": 0.99,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "세수. 35 팔린 제품 이렇게 대하여 품절 대란 BIS 어떻게 했을까? ",
+    "cover_chars": 39,
+    "visual": "graphic",
+    "top5_share": 0.618,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#107050"
+    ]
+   }
+  },
+  {
+   "id": "18108767021144365",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-07T03:00:03+0000",
+   "permalink": "https://www.instagram.com/p/Dc-GNVOkjdx/",
+   "like_count": 109,
+   "comments_count": 2,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 요즘 Z세대가 팝업보다 자주 찾는 곳이 바로 박람회라고 하죠. 가을 나들이로 가볍게 들르기 좋은 행사",
+    "last_question": "",
+    "structure": "해시태그>문장×5",
+    "numbers": [
+     "45",
+     "2026",
+     "2026.9",
+     "11",
+     "12일",
+     "10",
+     "00",
+     "17",
+     "00"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "요즘",
+     "Z세대가",
+     "팝업보다",
+     "자주",
+     "찾는",
+     "곳이",
+     "박람회라고",
+     "하죠",
+     "가을",
+     "나들이로",
+     "가볍게",
+     "들르기"
+    ],
+    "series": "",
+    "chars": 307,
+    "lines": 6,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "미싱 체험 만들기? 45 수집! 0.0",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.61,
+    "n_colors": 63,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17923127577413169",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-02T03:00:17+0000",
+   "permalink": "https://www.instagram.com/p/DcxOKcID0qq/",
+   "like_count": 159,
+   "comments_count": 1,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 💬 광고 모델 섭외 소식만으로 SNS를 달군 비결은?",
+    "last_question": "통신·렌탈·이사 같은 생활 서비스는 복잡해서 제대로 비교하기 어렵고, 잘 몰라서 손해를 보면서도 ‘원래 그런",
+    "structure": "해시태그>문장×5",
+    "numbers": [],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "광고",
+     "모델",
+     "섭외",
+     "메시지를",
+     "모델로",
+     "아정당이",
+     "설마",
+     "되겠어",
+     "싶었던",
+     "투원빈의",
+     "만남을",
+     "전하고"
+    ],
+    "series": "",
+    "chars": 640,
+    "lines": 6,
+    "emoji_per_100": 0.16,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "대표 마나 원빈 Loo 비하인드",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.784,
+    "n_colors": 38,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17897763810664085",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-09-01T03:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DcupXIwEuoX/",
+   "like_count": 125,
+   "comments_count": 3,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 매년 가을이 되면, 불꽃축제를 기다리는 분들 많으시죠? 🎆",
+    "last_question": "게임부터 가상광고까지, 올해 불꽃축제에 꽤 진심인 듯하죠?",
+    "structure": "해시태그>문장>항목>문장>항목>문장>질문>문장>해시태그",
+    "numbers": [
+     "9월",
+     "5일",
+     "16",
+     "4",
+     "1"
+    ],
+    "hashtags": [
+     "#광고",
+     "#한화그룹",
+     "#서울세계불꽃축제",
+     "#한화TV라이브",
+     "#불꽃게임"
+    ],
+    "keywords": [
+     "불꽃축제를",
+     "불꽃축제에",
+     "진심인",
+     "한화",
+     "올해는",
+     "게임처럼",
+     "한화TV",
+     "유튜브",
+     "매년",
+     "가을이",
+     "되면",
+     "기다리는"
+    ],
+    "series": "",
+    "chars": 560,
+    "lines": 9,
+    "emoji_per_100": 0.71,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "축제 27",
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.77,
+    "n_colors": 25,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18111090679837650",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-31T07:24:26+0000",
+   "permalink": "https://www.instagram.com/p/Dcsik6UyYOW/",
+   "like_count": 521,
+   "comments_count": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@ 9월 19일 ‘해적처럼 말하기’ 같이할 친구 태그 🏴‍☠️",
+    "last_question": "하늘은 맑고 바람은 선선해서 1년 중 낭만 채우기 딱 좋은 9월입니다. 그런데… 이 좋은 날씨 진짜 눈 깜빡",
+    "structure": "문장×2",
+    "numbers": [
+     "9월",
+     "19일",
+     "1년",
+     "9월",
+     "9월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "좋은",
+     "해적처럼",
+     "말하기",
+     "같이할",
+     "친구",
+     "태그",
+     "하늘은",
+     "맑고",
+     "바람은",
+     "선선해서",
+     "낭만",
+     "채우기"
+    ],
+    "series": "",
+    "chars": 222,
+    "lines": 2,
+    "emoji_per_100": 0.9,
+    "ends_with_question": true,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "220 마나 감도 끝날 9 모음 무주 hil 라이트 서울 9 10, 1 ",
+    "cover_chars": 108,
+    "visual": "graphic",
+    "top5_share": 0.904,
+    "n_colors": 14,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17982766095099378",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-27T09:00:04+0000",
+   "permalink": "https://www.instagram.com/p/DciWyv4Sr9O/",
+   "like_count": 449,
+   "comments_count": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 인스타 피드에 이거 세개만 뜨는 거 ㅇㅈ?",
+    "last_question": "요즘 인스타 피드에 이거 세개만 뜨는 거 ㅇㅈ?",
+    "structure": "질문>문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "요즘",
+     "인스타",
+     "피드에",
+     "이거",
+     "세개만",
+     "뜨는",
+     "주변",
+     "사람들",
+     "포켓몬",
+     "카드",
+     "사고",
+     "민음사빵"
+    ],
+    "series": "",
+    "chars": 75,
+    "lines": 4,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "요즘 유행 3 2 8 삐에로 비다:",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.82,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18125583407503970",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-26T07:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DcfoDekEi9O/",
+   "like_count": 84,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 릴서로 활동 중인 사람, 잠깐 놀았음 청년까지 모두 모여라!",
+    "last_question": "",
+    "structure": "해시태그>문장×5>이모지소제목>항목×2>이모지소제목>문장>해시태그",
+    "numbers": [
+     "1천",
+     "8월",
+     "24일",
+     "9월",
+     "6일"
+    ],
+    "hashtags": [
+     "#광고",
+     "#미리캔버스",
+     "#명함",
+     "#이벤트"
+    ],
+    "keywords": [
+     "명함을",
+     "미리캔버스",
+     "릴서로",
+     "활동",
+     "중인",
+     "사람",
+     "잠깐",
+     "놀았음",
+     "청년까지",
+     "모두",
+     "모여라",
+     "나를"
+    ],
+    "series": "",
+    "chars": 348,
+    "lines": 12,
+    "emoji_per_100": 0.57,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "OS 비공식 명함 만들기 대회 명함 만들고 천만 받아 가실",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.397,
+    "n_colors": 95,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18422794699197444",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-25T03:00:15+0000",
+   "permalink": "https://www.instagram.com/p/DccnzNrDeiO/",
+   "like_count": 60,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 #예술경영지원센터 요즘 ‘미감있는 사람’이 Z세대의 추구미로 통한다는 얘기, 들어보셨나요?",
+    "last_question": "#광고 #예술경영지원센터 요즘 ‘미감있는 사람’이 Z세대의 추구미로 통한다는 얘기, 들어보셨나요?",
+    "structure": "해시태그>문장×3>항목>문장>항목×3",
+    "numbers": [
+     "100",
+     "2026",
+     "2026",
+     "9월",
+     "70%"
+    ],
+    "hashtags": [
+     "#광고",
+     "#예술경영지원센터"
+    ],
+    "keywords": [
+     "미감을",
+     "최대",
+     "미술행사",
+     "대한민국",
+     "미술축제",
+     "비엔날레",
+     "요즘",
+     "미감있는",
+     "사람",
+     "Z세대의",
+     "추구미로",
+     "통한다는"
+    ],
+    "series": "",
+    "chars": 386,
+    "lines": 9,
+    "emoji_per_100": 0.52,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "트렌드 트렌드 당일 배송 하자 주는 까지 oon 출처 MMCA 서울 상설",
+    "cover_chars": 37,
+    "visual": "photo",
+    "top5_share": 0.547,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18371305000237291",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-24T07:00:01+0000",
+   "permalink": "https://www.instagram.com/p/DcaehPBEiKs/",
+   "like_count": 613,
+   "comments_count": 3,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 트렌드를 살펴보면 한 가지 특징이 눈에 띕니다. 30대는 초등학생처럼 장난감을 가지고 놀고, 10대는 ",
+    "last_question": "",
+    "structure": "문장×2",
+    "numbers": [
+     "30",
+     "10"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "멀티",
+     "대는",
+     "소비",
+     "에이지",
+     "요즘",
+     "트렌드를",
+     "살펴보면",
+     "가지",
+     "특징이",
+     "눈에",
+     "띕니다",
+     "초등학생처럼"
+    ],
+    "series": "",
+    "chars": 209,
+    "lines": 2,
+    "emoji_per_100": 0.48,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "국민 타일, 이제 테크 분야 케어 처럼 처럼 10 주주 증가 주주 유행 ",
+    "cover_chars": 81,
+    "visual": "graphic",
+    "top5_share": 0.904,
+    "n_colors": 30,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18127056784707094",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-21T05:14:02+0000",
+   "permalink": "https://www.instagram.com/p/DcSj7qsEmH7/",
+   "like_count": 2922,
+   "comments_count": 20,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 힙스터 출몰 구역: 도서전, 페스티벌, 그리고 진 마켓?",
+    "last_question": "요즘 힙스터 출몰 구역: 도서전, 페스티벌, 그리고 진 마켓?",
+    "structure": "질문>문장×3",
+    "numbers": [
+     "5천"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "진을",
+     "캐릿",
+     "책으로",
+     "요즘",
+     "힙스터",
+     "출몰",
+     "구역",
+     "도서전",
+     "페스티벌",
+     "마켓",
+     "수제",
+     "소책자인"
+    ],
+    "series": "",
+    "chars": 476,
+    "lines": 4,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "SS 있는 콘텐츠 들고 만든다",
+    "cover_chars": 12,
+    "visual": "photo",
+    "top5_share": 0.316,
+    "n_colors": 62,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18351964609222355",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-19T09:55:50+0000",
+   "permalink": "https://www.instagram.com/p/DcN6l2bDjkP/",
+   "like_count": 119,
+   "comments_count": 0,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🌏 다음 10년의 기회는 동남아시아에 있다?",
+    "last_question": "🌏 다음 10년의 기회는 동남아시아에 있다?",
+    "structure": "질문>문장×4",
+    "numbers": [
+     "10년",
+     "4"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "동남아시아",
+     "브랜드가",
+     "동남아시아에",
+     "국내",
+     "한국",
+     "새로운",
+     "시장을",
+     "있는데요",
+     "현지",
+     "궁금하다면",
+     "다음",
+     "년의"
+    ],
+    "series": "",
+    "chars": 559,
+    "lines": 5,
+    "emoji_per_100": 0.54,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "동남아시아 소비자 라마단 프라이드 기념일 일요일) 중국계 명절 요일) 세",
+    "cover_chars": 85,
+    "visual": "graphic",
+    "top5_share": 0.79,
+    "n_colors": 25,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18104585918262342",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-18T02:52:03+0000",
+   "permalink": "https://www.instagram.com/p/DcKlTD2EuAO/",
+   "like_count": 60,
+   "comments_count": 1,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 @ 내 주변 초딩 입맛 친구에게 공유",
+    "last_question": "",
+    "structure": "해시태그>문장×7",
+    "numbers": [],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "맥플랜",
+     "파이버맥싱",
+     "때는",
+     "주변",
+     "초딩",
+     "입맛",
+     "친구에게",
+     "공유",
+     "요즘",
+     "추구미가",
+     "클린걸",
+     "사람들이"
+    ],
+    "series": "",
+    "chars": 361,
+    "lines": 8,
+    "emoji_per_100": 0.28,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "공유 EF",
+    "cover_chars": 4,
+    "visual": "photo",
+    "top5_share": 0.372,
+    "n_colors": 109,
+    "face": false,
+    "colors": [
+     "#301010",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18154263439498991",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-12T04:00:02+0000",
+   "permalink": "https://www.instagram.com/p/Db7QWatkvnz/",
+   "like_count": 70,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#제작지원 ① 인스타 스토리 보니까 페스티벌 뽐뿌 온다",
+    "last_question": "",
+    "structure": "해시태그>번호×3>문장×4>해시태그×2",
+    "numbers": [
+     "2026",
+     "2",
+     "2026.10",
+     "03",
+     "10.04",
+     "24",
+     "2026",
+     "2026"
+    ],
+    "hashtags": [
+     "#제작지원",
+     "#XMF2026",
+     "#XMF",
+     "#XnterstellarMusicFestival2026",
+     "#XnterstellarMusicFestival"
+    ],
+    "keywords": [
+     "페스티벌",
+     "J팝",
+     "밴드",
+     "아티스트가",
+     "티켓",
+     "인스타",
+     "스토리",
+     "보니까",
+     "뽐뿌",
+     "온다",
+     "요즘",
+     "즐겨"
+    ],
+    "series": "",
+    "chars": 462,
+    "lines": 10,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "아도, 오크 브라이트 다고? 2 진짜 4 6 에서 즐기는",
+    "cover_chars": 22,
+    "visual": "photo",
+    "top5_share": 0.509,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18106327280466088",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-11T09:42:16+0000",
+   "permalink": "https://www.instagram.com/p/Db5SrehEp0E/",
+   "like_count": 182,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🌎 해외 트렌드 찾을 때 틱톡이 필수라던데… 너무 어려워!",
+    "last_question": "",
+    "structure": "문장×5",
+    "numbers": [
+     "7개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "해외",
+     "트렌드",
+     "트렌드가",
+     "글로벌",
+     "트렌드의",
+     "틱톡",
+     "클린걸",
+     "틱톡에서",
+     "트렌드를",
+     "해시태그",
+     "찾을",
+     "틱톡이"
+    ],
+    "series": "",
+    "chars": 482,
+    "lines": 5,
+    "emoji_per_100": 0.41,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "당일 44 콘텐츠 싶은 주목! 봐야할 메가 7 출처",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.503,
+    "n_colors": 67,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17959312550980973",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-07T03:04:08+0000",
+   "permalink": "https://www.instagram.com/p/DbuR7_KkmG-/",
+   "like_count": 111,
+   "comments_count": 0,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "(#광고) @만날 때마다 자꾸 뭘 찍는 친구에게 공유",
+    "last_question": "",
+    "structure": "문장×3>이모지소제목>항목×4>이모지소제목>항목×5>문장>이모지소제목>문장×2>결론>문장",
+    "numbers": [
+     "20만",
+     "300만",
+     "2026년",
+     "9월",
+     "11월",
+     "2026",
+     "8",
+     "7",
+     "2026",
+     "8",
+     "23",
+     "23",
+     "59",
+     "8.27",
+     "100명"
+    ],
+    "hashtags": [
+     "#광고)"
+    ],
+    "keywords": [
+     "네이버",
+     "모집",
+     "콘텐츠",
+     "제작",
+     "에서",
+     "AI탭과",
+     "연계한",
+     "숏폼",
+     "영상을",
+     "디깅",
+     "영상",
+     "전문가의"
+    ],
+    "series": "",
+    "chars": 681,
+    "lines": 20,
+    "emoji_per_100": 0.59,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "트렌드 당일 배송 거진 운영자 환영 1 진조 300 다는 네이버 활동",
+    "cover_chars": 27,
+    "visual": "graphic",
+    "top5_share": 0.661,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18188253499353312",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-06T07:36:45+0000",
+   "permalink": "https://www.instagram.com/p/DbsMVykDzcB/",
+   "like_count": 184,
+   "comments_count": 4,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "👀 ‘작년 웰니스 시장 규모 = 대한민국 한 해 예산의 4배’라는 거 아세요?",
+    "last_question": "👀 ‘작년 웰니스 시장 규모 = 대한민국 한 해 예산의 4배’라는 거 아세요?",
+    "structure": "질문>문장×3",
+    "numbers": [
+     "4배",
+     "2억",
+     "2,800조",
+     "2025년",
+     "673.3조",
+     "4배"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "웰니스",
+     "시장",
+     "대한민국",
+     "글로벌",
+     "작년",
+     "규모",
+     "예산의",
+     "라는",
+     "아세요",
+     "컨설팅",
+     "회사",
+     "맥킨지"
+    ],
+    "series": "",
+    "chars": 366,
+    "lines": 4,
+    "emoji_per_100": 0.55,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "시장 규모 3 웰니스 트렌드 7 출처 그램",
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.724,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18099498245623427",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-08-05T04:44:31+0000",
+   "permalink": "https://www.instagram.com/p/DbpT1eCCbKf/",
+   "like_count": 74,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🚉 대중교통 이용객 2,000만 시대!",
+    "last_question": "",
+    "structure": "이모지소제목>문장×4",
+    "numbers": [
+     "2,000만",
+     "3월",
+     "2,100만"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "대중교통",
+     "이용객",
+     "많은",
+     "마케팅",
+     "시대",
+     "서울시에",
+     "따르면",
+     "지난",
+     "일평균",
+     "수가",
+     "명을",
+     "돌파했다고"
+    ],
+    "series": "",
+    "chars": 319,
+    "lines": 5,
+    "emoji_per_100": 0.94,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "우리나라 서도 이런 이벤트 아이디어 7",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.513,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18061964330725621",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-31T02:07:58+0000",
+   "permalink": "https://www.instagram.com/p/DbcJ8YlICCU/",
+   "like_count": 250,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "😫 무더위에 지친 직장인을 위한 8월 잼컨 달력 공개합니다!",
+    "last_question": "@@ 8월 정모는 여기서 하는 거 어때? ❤️‍🔥",
+    "structure": "문장>이모지소제목×2>질문>문장×7",
+    "numbers": [
+     "8월",
+     "8월",
+     "8월",
+     "8월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "에어컨",
+     "실내",
+     "행사를",
+     "무더위에",
+     "지친",
+     "직장인을",
+     "위한",
+     "잼컨",
+     "달력",
+     "공개합니다",
+     "빵빵한",
+     "아니면"
+    ],
+    "series": "",
+    "chars": 316,
+    "lines": 11,
+    "emoji_per_100": 1.9,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "220 필요한 위한 8 캘린더 한강 0012 4 5 7 세계 특집 맨시티",
+    "cover_chars": 129,
+    "visual": "graphic",
+    "top5_share": 0.927,
+    "n_colors": 12,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18136343119590023",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-29T07:23:51+0000",
+   "permalink": "https://www.instagram.com/p/DbXkgSXkhxi/",
+   "like_count": 127,
+   "comments_count": 5,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "바로 내일 7월 30일은 ’국제 우정의 날‘ 🤗",
+    "last_question": "친구의 범위도 넓어지고 있는데요. 요즘에는 엄마를 친구처럼 좋아하는 ’엄미새‘, 언니와 친구처럼 지내는 ’언",
+    "structure": "문장×2>질문>문장×2",
+    "numbers": [
+     "7월",
+     "30일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "우정의",
+     "먼저",
+     "떠오르는",
+     "요즘",
+     "시대가",
+     "따라",
+     "친구처럼",
+     "내일",
+     "일은",
+     "국제",
+     "우정증을",
+     "보고"
+    ],
+    "series": "",
+    "chars": 388,
+    "lines": 5,
+    "emoji_per_100": 0.77,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "7 30 배포 “어떤 SHS 보다",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.812,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17899554573524786",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-21T07:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DbCoVgcStMZ/",
+   "like_count": 118,
+   "comments_count": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 오프라인 행사에서 전문성과 두터운 팬층을 갖춘 연사의 중요성이 점점 커지고 있는데요! 여러분이 관심 가",
+    "last_question": "‼️ 이밖에 요즘 떠오르는 연사 29인의 리스트가 궁금하다면? 오프라인 행사를 준비 중인 분들은 캐릿 홈페이",
+    "structure": "문장×2",
+    "numbers": [
+     "2",
+     "29"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "연사",
+     "요즘",
+     "오프라인",
+     "강연",
+     "행사에서",
+     "전문성과",
+     "두터운",
+     "팬층을",
+     "갖춘",
+     "연사의",
+     "중요성이",
+     "점점"
+    ],
+    "series": "",
+    "chars": 205,
+    "lines": 2,
+    "emoji_per_100": 0.0,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "다면? 좋은 콘텐츠 대박 날래? 윤성: PD 조이 주식 대박 날래? 김승",
+    "cover_chars": 53,
+    "visual": "graphic",
+    "top5_share": 0.798,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18104751860034433",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-16T08:00:04+0000",
+   "permalink": "https://www.instagram.com/p/Da2KUGUk8yH/",
+   "like_count": 916,
+   "comments_count": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "경도가 벌써 1월 유행이었다고? 😮",
+    "last_question": "경도가 벌써 1월 유행이었다고? 😮",
+    "structure": "문장×4",
+    "numbers": [
+     "1월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드가",
+     "경도가",
+     "벌써",
+     "유행이었다고",
+     "불과",
+     "유행이",
+     "전생의",
+     "유행처럼",
+     "느껴질",
+     "정도로",
+     "빠르게",
+     "바뀌고"
+    ],
+    "series": "",
+    "chars": 193,
+    "lines": 4,
+    "emoji_per_100": 0.52,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "으로 반기 트렌드 여행 키링 모임 체험 관악산 비빔밥 천연 로그 비빔밥.",
+    "cover_chars": 33,
+    "visual": "graphic",
+    "top5_share": 0.84,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18326779249285511",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-15T07:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DazeuJ8kqCg/",
+   "like_count": 275,
+   "comments_count": 2,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "지난주, 캐릿이 제1회 오프라인 모임을 열었습니다. 🥕 (드디어!) 감사하게도 많은 분이 지원해 주신 덕에 ",
+    "last_question": "이번 모임의 콘셉트는 제철코어 트렌드를 즐길 수 있는 ‘토마토 김장 파티🍅’였는데요. 내 손으로 직접 토마토",
+    "structure": "문장×3",
+    "numbers": [
+     "1",
+     "10개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "토마토",
+     "오프라인",
+     "나누는",
+     "다음",
+     "지난주",
+     "캐릿이",
+     "모임을",
+     "열었습니다",
+     "드디어",
+     "감사하게도",
+     "많은",
+     "분이"
+    ],
+    "series": "",
+    "chars": 378,
+    "lines": 3,
+    "emoji_per_100": 0.79,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "김장 파티 직장인 하고 시킨 참여자 이상? 에서 열린",
+    "cover_chars": 21,
+    "visual": "graphic",
+    "top5_share": 0.621,
+    "n_colors": 59,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18105287762150913",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-14T03:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DawefajEoAz/",
+   "like_count": 46,
+   "comments_count": 4,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🍺집 가는 길, 편의점에서 캔맥·캔하이볼 하나씩 사는 게 삶의 낙이신 분들 주목!",
+    "last_question": "“1탄 제품보다 2배는 더 맛있는데요?”",
+    "structure": "문장×2>질문>문장×5>해시태그>문장",
+    "numbers": [
+     "25",
+     "1",
+     "3",
+     "1위",
+     "1",
+     "2배",
+     "4천",
+     "25",
+     "25"
+    ],
+    "hashtags": [
+     "#GS25",
+     "#GS25신상",
+     "#로제레몬스파클링",
+     "#하이볼"
+    ],
+    "keywords": [
+     "하이볼",
+     "유명",
+     "직접",
+     "로제",
+     "레몬",
+     "순수하게",
+     "편의점",
+     "제품을",
+     "셰프들의",
+     "음주는",
+     "가는",
+     "편의점에서"
+    ],
+    "series": "",
+    "chars": 588,
+    "lines": 10,
+    "emoji_per_100": 0.34,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이게 돼요 KLIN 000 34 틴즈 입맛 대리 경험해 보고 싶다면? 유",
+    "cover_chars": 32,
+    "visual": "photo",
+    "top5_share": 0.379,
+    "n_colors": 95,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18100009603935617",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-09T03:35:57+0000",
+   "permalink": "https://www.instagram.com/p/DajqhmREkqs/",
+   "like_count": 117,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 페스티벌, 최애만 보러 가는 곳이 아닙니다.",
+    "last_question": "",
+    "structure": "문장×5",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "페스티벌의",
+     "요즘",
+     "페스티벌",
+     "최애만",
+     "보러",
+     "가는",
+     "곳이",
+     "아닙니다",
+     "라인업과",
+     "관계없이",
+     "분위기",
+     "자체를"
+    ],
+    "series": "",
+    "chars": 193,
+    "lines": 5,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "ARS 보다 적도 있음! 에서 난리 페스티벌 부스 7",
+    "cover_chars": 21,
+    "visual": "photo",
+    "top5_share": 0.557,
+    "n_colors": 63,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#709030"
+    ]
+   }
+  },
+  {
+   "id": "18105769943072171",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-07T04:22:33+0000",
+   "permalink": "https://www.instagram.com/p/DaemRHREnb8/",
+   "like_count": 114,
+   "comments_count": 0,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "👀 캐릿아, 요즘 외국인 관광객 트렌드 좀 알려줘",
+    "last_question": "대체 한국에서 뭘 사고, 어디에 돈을 쓰고 있을까요?",
+    "structure": "이모지소제목>질문>문장×2>질문>문장",
+    "numbers": [
+     "2조"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "외국인",
+     "관광객",
+     "캐릿아",
+     "요즘",
+     "트렌드",
+     "알려줘",
+     "한국에",
+     "많아진",
+     "다들",
+     "실감하시죠",
+     "실제로",
+     "방한"
+    ],
+    "series": "",
+    "chars": 160,
+    "lines": 6,
+    "emoji_per_100": 0.62,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "에서 외국 관개 는데 유행 방한 외국인 알려줘",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.799,
+    "n_colors": 18,
+    "face": false,
+    "colors": [
+     "#70D0B0",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17896804950528202",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-03T06:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DaUeUnQEvjA/",
+   "like_count": 75,
+   "comments_count": 6,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 ”알바가 뭘 그렇게 따져?“, ”다 경험이지.“​",
+    "last_question": "이런 경험, 한 번쯤 있으시죠?​",
+    "structure": "해시태그>문장×7",
+    "numbers": [
+     "1000000",
+     "4",
+     "17"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "알바",
+     "여름",
+     "이런",
+     "알바몬",
+     "알바가",
+     "그렇게",
+     "따져",
+     "경험이지",
+     "번이라도",
+     "들어본",
+     "전국의",
+     "알바생"
+    ],
+    "series": "",
+    "chars": 437,
+    "lines": 8,
+    "emoji_per_100": 0.69,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "제대로 싶을 2 여기서 해도 이랑 이거 예요?",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.662,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18077816078292221",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-07-02T07:30:00+0000",
+   "permalink": "https://www.instagram.com/p/DaSDvuXkpyW/",
+   "like_count": 259,
+   "comments_count": 0,
+   "slides": 8,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "B주류초대석 비밀파티부터, 솔거미술관 박선민 작가 컬렉션, 화제의 KBO 야구 키링까지!",
+    "last_question": "👀요즘 힙한 콜라보는 여기서 시작된다고?",
+    "structure": "문장>질문>문장×7",
+    "numbers": [
+     "29"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "콜라보",
+     "IP",
+     "B주류초대석",
+     "비밀파티부터",
+     "솔거미술관",
+     "박선민",
+     "작가",
+     "컬렉션",
+     "화제의",
+     "KBO",
+     "야구",
+     "키링까지"
+    ],
+    "series": "",
+    "chars": 248,
+    "lines": 9,
+    "emoji_per_100": 1.21,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "1 리보 에서 무슨 얘기 해요?",
+    "cover_chars": 12,
+    "visual": "graphic",
+    "top5_share": 0.607,
+    "n_colors": 45,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "17900186010463484",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-30T09:03:53+0000",
+   "permalink": "https://www.instagram.com/p/DaNE40YSFdl/",
+   "like_count": 173,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🍉수박 vs 🍑복숭아 vs 🌽찰옥수수",
+    "last_question": "평소라면 굳이 하지 않았을 일을 사랑하는 사람들과 시도해 보는 건 어떨까요?",
+    "structure": "이모지소제목>질문>문장×4>질문>문장×2",
+    "numbers": [
+     "7월",
+     "7월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "여름",
+     "제철",
+     "vs",
+     "즐길",
+     "수박",
+     "복숭아",
+     "찰옥수수",
+     "여러분이",
+     "제일",
+     "좋아하는",
+     "음식은",
+     "무엇인가요"
+    ],
+    "series": "",
+    "chars": 282,
+    "lines": 9,
+    "emoji_per_100": 1.06,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "220 까지 7 여름 낭만 달력 8 일회용 페스티 축제 0 없는 5 9 ",
+    "cover_chars": 124,
+    "visual": "graphic",
+    "top5_share": 0.932,
+    "n_colors": 10,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18333282553270323",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-26T08:16:04+0000",
+   "permalink": "https://www.instagram.com/p/DaCsPzhkvVb/",
+   "like_count": 225,
+   "comments_count": 5,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "캐릿이 첫 오프라인 모임을 엽니다.",
+    "last_question": "",
+    "structure": "문장×5>항목×4>문장>항목×2>문장×3",
+    "numbers": [
+     "2026년",
+     "7월",
+     "10일",
+     "7",
+     "30",
+     "9",
+     "30",
+     "20,000원",
+     "7",
+     "2",
+     "6",
+     "7",
+     "3"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "모임을",
+     "함께",
+     "오후",
+     "문자",
+     "공지",
+     "신청",
+     "개별",
+     "캐릿이",
+     "오프라인",
+     "엽니다",
+     "시작은",
+     "토마토"
+    ],
+    "series": "",
+    "chars": 415,
+    "lines": 15,
+    "emoji_per_100": 0.24,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "토마토 파티 부을 이런 르기 여서 근황 얘기 나눌 요즘 일시: 7 10 ",
+    "cover_chars": 57,
+    "visual": "graphic",
+    "top5_share": 0.911,
+    "n_colors": 23,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18090277316280806",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-26T07:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DaCjnUlEozD/",
+   "like_count": 124,
+   "comments_count": 1,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 SNS는 그야말로 왁뿌볼, 말랑이로 도배됐다고 해도 과언이 아닌데요. 말랑이 성지로 알려진 동묘의 5월",
+    "last_question": "@말랑이 사러 동묘 가본 90년대생? 댓글로 태그해 보자!",
+    "structure": "문장×3",
+    "numbers": [
+     "5월",
+     "90년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "말랑이",
+     "요즘",
+     "SNS는",
+     "그야말로",
+     "왁뿌볼",
+     "말랑이로",
+     "도배됐다고",
+     "해도",
+     "과언이",
+     "아닌데요",
+     "성지로",
+     "알려진"
+    ],
+    "series": "",
+    "chars": 167,
+    "lines": 3,
+    "emoji_per_100": 0.0,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "7 찾는 30 쳤다!",
+    "cover_chars": 8,
+    "visual": "photo",
+    "top5_share": 0.572,
+    "n_colors": 78,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18355454341246291",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-25T09:00:29+0000",
+   "permalink": "https://www.instagram.com/p/DaAMiUiiFJm/",
+   "like_count": 263,
+   "comments_count": 10,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🎤 공무원 컷을 높인, 화제의 릴스 주인공! 울산광역시 남구청 정책미디어과 남영식 주무관과 인터뷰를 나눴습니",
+    "last_question": "이 영상, 어디까지 연출이고 어디까지 연기일까요?",
+    "structure": "문장>질문>문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "어디까지",
+     "공무원",
+     "컷을",
+     "높인",
+     "화제의",
+     "릴스",
+     "주인공",
+     "울산광역시",
+     "남구청",
+     "정책미디어과",
+     "남영식",
+     "주무관과"
+    ],
+    "series": "",
+    "chars": 137,
+    "lines": 3,
+    "emoji_per_100": 1.46,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.63,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18080712797226476",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-23T09:18:45+0000",
+   "permalink": "https://www.instagram.com/p/DZ7FCWiieZp/",
+   "like_count": 37,
+   "comments_count": 0,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 2학기에 뭐 할지 아직 못 정한 대학생 손! 🙋",
+    "last_question": "",
+    "structure": "해시태그>문장>이모지소제목>문장×4>이모지소제목>항목×6>문장>이모지소제목>문장×2>결론>문장×2",
+    "numbers": [
+     "2",
+     "2",
+     "2026년",
+     "8월",
+     "12월",
+     "5개",
+     "2026년",
+     "6월",
+     "22일",
+     "7월",
+     "5일",
+     "23",
+     "59",
+     "1",
+     "2026년"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "합격자",
+     "대학생",
+     "구글",
+     "마케팅",
+     "모집",
+     "기간",
+     "학기에",
+     "오프라인",
+     "실무",
+     "활동",
+     "발표",
+     "대상"
+    ],
+    "series": "",
+    "chars": 789,
+    "lines": 21,
+    "emoji_per_100": 0.63,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "1422 Gemini 학생 마케터 KA 니다",
+    "cover_chars": 19,
+    "visual": "graphic",
+    "top5_share": 0.665,
+    "n_colors": 40,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17966525009929261",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-23T05:29:52+0000",
+   "permalink": "https://www.instagram.com/p/DZ6q2AeiY2A/",
+   "like_count": 1193,
+   "comments_count": 2,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "📚 서울국제도서전 개막이 하루 앞으로 다가왔어요!",
+    "last_question": "",
+    "structure": "이모지소제목>문장×4>이모지소제목>문장×8",
+    "numbers": [
+     "8",
+     "24",
+     "24"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "부스",
+     "굿즈",
+     "굿즈도",
+     "모두",
+     "아자",
+     "books",
+     "서울국제도서전",
+     "개막이",
+     "하루",
+     "앞으로",
+     "다가왔어요",
+     "서울국제도서전에"
+    ],
+    "series": "",
+    "chars": 589,
+    "lines": 14,
+    "emoji_per_100": 0.85,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "104 부스 위치 첨부 8",
+    "cover_chars": 10,
+    "visual": "graphic",
+    "top5_share": 0.751,
+    "n_colors": 31,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18052166822529700",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-22T03:03:23+0000",
+   "permalink": "https://www.instagram.com/p/DZ31SN2kpc9/",
+   "like_count": 145,
+   "comments_count": 0,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 🤖 AI, 결제는 했는데 제대로 못 쓰고 있다면 여기 한 번 가보세요!",
+    "last_question": "",
+    "structure": "해시태그>문장×2>항목×4>문장>이모지소제목>문장",
+    "numbers": [
+     "2026년",
+     "7월",
+     "2일",
+     "7월",
+     "4일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "AI",
+     "AI를",
+     "싶은",
+     "업무",
+     "다양한",
+     "높이고",
+     "일잘러",
+     "페스타",
+     "행사",
+     "결제는",
+     "했는데",
+     "제대로"
+    ],
+    "series": "",
+    "chars": 541,
+    "lines": 10,
+    "emoji_per_100": 0.74,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "업무 반복 업무: 있음 일은 까지 받음 0 구독료 본전 뽑고 싶다면? 들",
+    "cover_chars": 34,
+    "visual": "graphic",
+    "top5_share": 0.955,
+    "n_colors": 14,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18482250901102537",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-19T03:38:56+0000",
+   "permalink": "https://www.instagram.com/p/DZwK97hkv6c/",
+   "like_count": 98,
+   "comments_count": 12,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 두쫀쿠부터 버터떡까지, 눈 뜨면 바뀌는 F&B 트렌드👀",
+    "last_question": "매장에서 한정판으로 만나볼 수 있다고 하죠?",
+    "structure": "해시태그>문장×2>질문>문장×5>질문>문장",
+    "numbers": [
+     "11년",
+     "2"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "아박",
+     "초코",
+     "크런치",
+     "두쫀쿠부터",
+     "버터떡까지",
+     "뜨면",
+     "바뀌는",
+     "트렌드",
+     "와중에",
+     "년째",
+     "살아남은",
+     "디저트가"
+    ],
+    "series": "",
+    "chars": 297,
+    "lines": 11,
+    "emoji_per_100": 0.67,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "투썸 11 동안 오래 살아! 트렌드 너무 빨리 하는 디저트 특징",
+    "cover_chars": 25,
+    "visual": "photo",
+    "top5_share": 0.524,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17955019148984869",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-18T08:00:06+0000",
+   "permalink": "https://www.instagram.com/p/DZuED5gicZd/",
+   "like_count": 50,
+   "comments_count": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "안녕하세요 캐릿입니다.",
+    "last_question": "",
+    "structure": "문장×11",
+    "numbers": [
+     "2020년",
+     "6년",
+     "2026년",
+     "7월",
+     "1일",
+     "8,900원",
+     "9,900원",
+     "8,900원"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "서비스를",
+     "가격",
+     "감사",
+     "드립니다",
+     "멤버십",
+     "인상",
+     "없이",
+     "구독료",
+     "적용",
+     "안녕하세요",
+     "캐릿입니다",
+     "트렌드"
+    ],
+    "series": "",
+    "chars": 501,
+    "lines": 11,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "",
+    "cover_chars": 0,
+    "visual": "graphic",
+    "top5_share": 0.788,
+    "n_colors": 46,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18325865926284512",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-18T03:00:11+0000",
+   "permalink": "https://www.instagram.com/p/DZthvDfiKW1/",
+   "like_count": 953,
+   "comments_count": 36,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "‘홍대’ 하면 클럽, ‘동대문’ 하면 옷 가게 떠올리는 사람 = 옛날 사람 🙄",
+    "last_question": "",
+    "structure": "문장×2>이모지소제목>항목×2>이모지소제목>항목×2>이모지소제목>항목×2>이모지소제목>항목×2>이모지소제목>항목×2>이모지소제목>항목×2>이모지소제목>항목×2>이모지소제목>항목>문장>이모지소제목>항목×2>이모지소제목>항목×2",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "많음",
+     "홍대",
+     "클럽",
+     "동대문",
+     "가게",
+     "사람",
+     "자주",
+     "감성",
+     "구경하기",
+     "인기",
+     "사러",
+     "브랜드"
+    ],
+    "series": "",
+    "chars": 552,
+    "lines": 32,
+    "emoji_per_100": 1.99,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2 서울 이미지 들의 외국인 성지 들의 들의 집결지 신당 yee 해외 여",
+    "cover_chars": 36,
+    "visual": "graphic",
+    "top5_share": 0.924,
+    "n_colors": 19,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "17864550912632490",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-17T07:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DZrYeotkq94/",
+   "like_count": 222,
+   "comments_count": 4,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "👀이번달에 뭐가 유행했더라? 주요 아이템만 모았음",
+    "last_question": "[핫플] 제2의 에러혼으로 불리는 이곳은? 국내 로컬 맛집까지",
+    "structure": "이모지소제목>문장×4",
+    "numbers": [
+     "1",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "메론",
+     "이번달에",
+     "뭐가",
+     "유행했더라",
+     "주요",
+     "아이템만",
+     "모았음",
+     "굿즈",
+     "느낌",
+     "좋은",
+     "소리",
+     "감각을"
+    ],
+    "series": "",
+    "chars": 178,
+    "lines": 5,
+    "emoji_per_100": 0.56,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "이번 여기 바빠서 트렌드 시간 부족한 29 계산기 Gal 포키 멜론 1 ",
+    "cover_chars": 66,
+    "visual": "graphic",
+    "top5_share": 0.851,
+    "n_colors": 57,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50D0D0"
+    ]
+   }
+  },
+  {
+   "id": "18422967205135705",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-12T07:20:18+0000",
+   "permalink": "https://www.instagram.com/p/DZeivKriPl8/",
+   "like_count": 482,
+   "comments_count": 6,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "좋은 마케팅을 선보이는 것만큼 중요한 것은 바로…",
+    "last_question": "‼️게시물에 소개된 내용 외에도 30개 이상의 체크리스트가 더 궁금하다면? 캐릿 홈페이지에서 ‘리스크 체크리",
+    "structure": "문장×7",
+    "numbers": [
+     "17명",
+     "30개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "리스크",
+     "체크리스트",
+     "좋은",
+     "마케팅을",
+     "선보이는",
+     "것만큼",
+     "중요한",
+     "것은",
+     "예기치",
+     "못한",
+     "실수로",
+     "소비자에게"
+    ],
+    "series": "",
+    "chars": 366,
+    "lines": 7,
+    "emoji_per_100": 0.27,
+    "ends_with_question": true,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "마케팅 분야별 리스크 리스트 11 11 EDD 활용 서포터즈 표기 사용,",
+    "cover_chars": 142,
+    "visual": "graphic",
+    "top5_share": 0.796,
+    "n_colors": 32,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18091465511027096",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-11T03:00:23+0000",
+   "permalink": "https://www.instagram.com/p/DZbgMp8Eisc/",
+   "like_count": 519,
+   "comments_count": 2,
+   "slides": 5,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "마케터라면 적절한 협업처와 컨택포인트를 찾느라 하루를 다 쓴 경험, 누구나 있으실 텐데요. CJ ENM이 그",
+    "last_question": "✅어디에 써먹을 수 있어?",
+    "structure": "해시태그>문장>항목×5>문장>해시태그",
+    "numbers": [
+     "3개",
+     "1",
+     "1"
+    ],
+    "hashtags": [
+     "#광고",
+     "#CJENM",
+     "#캘박CJ",
+     "#CJ캘린더"
+    ],
+    "keywords": [
+     "CJ",
+     "찾느라",
+     "마케터라면",
+     "적절한",
+     "협업처와",
+     "컨택포인트를",
+     "하루를",
+     "경험",
+     "누구나",
+     "있으실",
+     "텐데요",
+     "ENM이"
+    ],
+    "series": "",
+    "chars": 367,
+    "lines": 9,
+    "emoji_per_100": 0.82,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "PPL 넣고 싶은 3 커버 담당자 포인트 찾는 수고 졌다 트리 CJ 핫라",
+    "cover_chars": 31,
+    "visual": "graphic",
+    "top5_share": 0.848,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17896150938334572",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-09T07:00:46+0000",
+   "permalink": "https://www.instagram.com/p/DZWyHiFDQ6n/",
+   "like_count": 465,
+   "comments_count": 0,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 야구는 좋지만 그렇다고 매일 경기만 보기엔 죄책감 드는 대학생, 취준생분들 손들어 주세요 🙋",
+    "last_question": "",
+    "structure": "해시태그>문장×2>항목>문장×2>이모지소제목>문장×3>이모지소제목>문장×3>이모지소제목>문장×2",
+    "numbers": [
+     "9",
+     "20",
+     "19",
+     "29",
+     "2026년",
+     "6월",
+     "22일",
+     "8월",
+     "3일",
+     "2026년",
+     "8월",
+     "5일",
+     "9월",
+     "2일",
+     "2026년"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "LG",
+     "해커톤",
+     "AI",
+     "프로그램",
+     "데이터를",
+     "활용한",
+     "야구는",
+     "청년",
+     "교육",
+     "Aimers",
+     "그룹의",
+     "야구"
+    ],
+    "series": "",
+    "chars": 722,
+    "lines": 17,
+    "emoji_per_100": 0.69,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "고을 네모 안에 세어 넣었 SS 쌓고 싶은 20 위한 활동",
+    "cover_chars": 22,
+    "visual": "graphic",
+    "top5_share": 0.664,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18081353351441990",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-06-04T09:00:29+0000",
+   "permalink": "https://www.instagram.com/p/DZKH15ykhYs/",
+   "like_count": 42,
+   "comments_count": 0,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 #서울시 올여름 왜 이렇게 일찍 왔지? 💦 싶으시다면...",
+    "last_question": "#광고 #서울시 올여름 왜 이렇게 일찍 왔지? 💦 싶으시다면...",
+    "structure": "해시태그>문장>이모지소제목>항목×4>이모지소제목>항목×2>문장×4",
+    "numbers": [
+     "3",
+     "3",
+     "3",
+     "3",
+     "6월",
+     "5일",
+     "7일",
+     "9",
+     "7"
+    ],
+    "hashtags": [
+     "#광고",
+     "#서울시"
+    ],
+    "keywords": [
+     "기록",
+     "경쟁",
+     "한강",
+     "축제",
+     "코스로",
+     "경기",
+     "자전거",
+     "메달",
+     "해치",
+     "올여름",
+     "이렇게",
+     "일찍"
+    ],
+    "series": "",
+    "chars": 530,
+    "lines": 14,
+    "emoji_per_100": 1.7,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "사전 등록 사람 Aue 동네 여기 2 하는 쉬엄 한강 3 가자",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.418,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18092411267461489",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-29T07:02:20+0000",
+   "permalink": "https://www.instagram.com/p/DY6djAmSVQx/",
+   "like_count": 1557,
+   "comments_count": 11,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "⛱️ 여미새(여름에 미친 사람)를 위한 6월 달력을 공개합니다!",
+    "last_question": "",
+    "structure": "문장×6",
+    "numbers": [
+     "6월",
+     "1년",
+     "8",
+     "6월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "사람",
+     "여미새",
+     "여름에",
+     "미친",
+     "위한",
+     "달력을",
+     "공개합니다",
+     "여름",
+     "좋아",
+     "인간이",
+     "행복해지는",
+     "계절이"
+    ],
+    "series": "",
+    "chars": 232,
+    "lines": 6,
+    "emoji_per_100": 1.72,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "220 미친 위한 약속 6 좋은 모음 1 2 3 4 5 6 현충일 202",
+    "cover_chars": 153,
+    "visual": "graphic",
+    "top5_share": 0.936,
+    "n_colors": 10,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18104717216091214",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-28T08:46:31+0000",
+   "permalink": "https://www.instagram.com/p/DY4ErfhmKo-/",
+   "like_count": 444,
+   "comments_count": 3,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "우리나라 트렌드 맨날 바뀜 ㄷㄷ",
+    "last_question": "@ F&B 트렌드 22일이면 끝나는 거 알았음?",
+    "structure": "문장×3>질문",
+    "numbers": [
+     "22일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "지속",
+     "기간이",
+     "우리나라",
+     "맨날",
+     "바뀜",
+     "요즘에",
+     "이런",
+     "생각",
+     "해본",
+     "있으시죠",
+     "캐릿이"
+    ],
+    "series": "",
+    "chars": 263,
+    "lines": 4,
+    "emoji_per_100": 0.38,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "Ree 근황. jpg TS 정도 60 기간 민국 트렌드 기간 만들어",
+    "cover_chars": 27,
+    "visual": "graphic",
+    "top5_share": 0.92,
+    "n_colors": 23,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18588822229026955",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-26T03:00:01+0000",
+   "permalink": "https://www.instagram.com/p/DYyTd4PErYs/",
+   "like_count": 121,
+   "comments_count": 1,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@독서·러닝·기록 하나라도 좋아하는 사람?",
+    "last_question": "@독서·러닝·기록 하나라도 좋아하는 사람?",
+    "structure": "해시태그>질문>문장×3>이모지소제목>문장",
+    "numbers": [
+     "24",
+     "24",
+     "4월",
+     "28일",
+     "7월",
+     "19일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "독서",
+     "러닝",
+     "예스",
+     "시간을",
+     "참여해",
+     "기록",
+     "하나라도",
+     "좋아하는",
+     "사람",
+     "요즘",
+     "독서와",
+     "러닝이"
+    ],
+    "series": "",
+    "chars": 453,
+    "lines": 7,
+    "emoji_per_100": 0.66,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "담배 노동자 명과 28 1 요즘 이렇게 읽는다 되는",
+    "cover_chars": 20,
+    "visual": "photo",
+    "top5_share": 0.517,
+    "n_colors": 32,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#30D0F0"
+    ]
+   }
+  },
+  {
+   "id": "18101956289106587",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-20T09:01:11+0000",
+   "permalink": "https://www.instagram.com/p/DYjf_-JDFlo/",
+   "like_count": 77,
+   "comments_count": 1,
+   "slides": 10,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 요즘 대학가에 ‘밴드 붐’이 불고 있는 거 아세요?",
+    "last_question": "#광고 요즘 대학가에 ‘밴드 붐’이 불고 있는 거 아세요?",
+    "structure": "해시태그>문장×6>항목>문장>항목>문장>항목>문장×2>항목>번호>항목>문장×2>해시태그",
+    "numbers": [
+     "5",
+     "65",
+     "2",
+     "2026",
+     "05",
+     "27",
+     "7",
+     "100만",
+     "2026"
+    ],
+    "hashtags": [
+     "#광고",
+     "#틴더",
+     "#틴더뮤직모드",
+     "#틴더2026"
+    ],
+    "keywords": [
+     "대학",
+     "밴드부",
+     "공연을",
+     "상상마당",
+     "요즘",
+     "대학가에",
+     "밴드",
+     "불고",
+     "아세요",
+     "한동안",
+     "대학생들",
+     "사이에서"
+    ],
+    "series": "",
+    "chars": 476,
+    "lines": 20,
+    "emoji_per_100": 1.26,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "당일 배송 하게 싶다 온다 공연 보는게 유행?",
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.795,
+    "n_colors": 34,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18359254765239217",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-19T04:31:57+0000",
+   "permalink": "https://www.instagram.com/p/DYgcZFQEulj/",
+   "like_count": 295,
+   "comments_count": 4,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 ‘호두과자 붐’을 만든 주인공, 천안 로컬 브랜드 ‘할머니학화호도과자’를 만나봤습니다.",
+    "last_question": "",
+    "structure": "문장×7",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "요즘",
+     "호두과자",
+     "만든",
+     "주인공",
+     "천안",
+     "로컬",
+     "브랜드",
+     "할머니학화호도과자",
+     "만나봤습니다",
+     "메뉴를",
+     "만들",
+     "때는"
+    ],
+    "series": "",
+    "chars": 205,
+    "lines": 7,
+    "emoji_per_100": 0.49,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "신메뉴 SS 과자 이거 예요? 플로 만든 푸드 기획자 등판",
+    "cover_chars": 23,
+    "visual": "photo",
+    "top5_share": 0.595,
+    "n_colors": 54,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18061386470650900",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-15T03:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DYV-xrCEtCx/",
+   "like_count": 76,
+   "comments_count": 1,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🎁 캐릿이 고급 자료를 공유합니다!",
+    "last_question": "",
+    "structure": "이모지소제목>문장×2",
+    "numbers": [
+     "122개",
+     "5",
+     "18"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "키워드",
+     "캐릿이",
+     "고급",
+     "자료를",
+     "공유합니다",
+     "제안서에",
+     "빠지지",
+     "않고",
+     "쓰이는",
+     "것이",
+     "제철코어"
+    ],
+    "series": "",
+    "chars": 240,
+    "lines": 3,
+    "emoji_per_100": 0.42,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "MOF 하나요? 비중? 입니다",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.783,
+    "n_colors": 35,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "17940577617198162",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-08T03:00:04+0000",
+   "permalink": "https://www.instagram.com/p/DYD9IiiEmIW/",
+   "like_count": 725,
+   "comments_count": 7,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 #킨텍스 🎮 친구들이랑 단돈 3천 원으로 4일 내내 놀 수 있는 방법 공유합니다",
+    "last_question": "무엇보다… 요즘 찐친들과 가성비로 노는 방법 공유하는 게 유행이라면서요?",
+    "structure": "해시태그>문장×5>질문>문장×6>해시태그",
+    "numbers": [
+     "3천",
+     "4일",
+     "11만",
+     "2026",
+     "1,000",
+     "5",
+     "15",
+     "4일",
+     "3천",
+     "5",
+     "21",
+     "5",
+     "24",
+     "1"
+    ],
+    "hashtags": [
+     "#광고",
+     "#킨텍스",
+     "#플레이엑스포"
+    ],
+    "keywords": [
+     "게임",
+     "방법",
+     "무려",
+     "같은",
+     "게임을",
+     "사람도",
+     "친구들이랑",
+     "단돈",
+     "원으로",
+     "내내",
+     "공유합니다",
+     "지난해"
+    ],
+    "series": "",
+    "chars": 499,
+    "lines": 14,
+    "emoji_per_100": 0.2,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "에서 17 XH 입장권 3 게임 뷔페 입니다",
+    "cover_chars": 17,
+    "visual": "photo",
+    "top5_share": 0.537,
+    "n_colors": 86,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "18190765642366225",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-05-07T03:00:13+0000",
+   "permalink": "https://www.instagram.com/reel/DYBYY8pTqTW/",
+   "like_count": 50,
+   "comments_count": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "4월 24일, 일본 테마파크 ‘하우스텐보스’가 『에반게리온』과 콜라보한 ‘요격 요새도시’로 재탄생했습니다. ",
+    "last_question": "🚂 하우스텐보스, 어떻게 가요?",
+    "structure": "해시태그>문장>이모지소제목>문장>질문>문장>해시태그",
+    "numbers": [
+     "4월",
+     "24일",
+     "8",
+     "8",
+     "8"
+    ],
+    "hashtags": [
+     "#제작지원",
+     "#일본",
+     "#하우스텐보스",
+     "#에반게리온",
+     "#미피"
+    ],
+    "keywords": [
+     "에반게리온",
+     "직접",
+     "일본",
+     "하우스텐보스",
+     "라이드",
+     "오타쿠",
+     "캐릿",
+     "있습니다",
+     "후쿠오카",
+     "테마파크",
+     "콜라보한",
+     "요격"
+    ],
+    "series": "",
+    "chars": 654,
+    "lines": 7,
+    "emoji_per_100": 0.31,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "EVA 2. THE ONG 라면 숨겨",
+    "cover_chars": 15,
+    "visual": "photo",
+    "top5_share": 0.592,
+    "n_colors": 60,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#705050"
+    ]
+   }
+  },
+  {
+   "id": "18094333750908582",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-05-06T07:00:02+0000",
+   "permalink": "https://www.instagram.com/p/DX_PDkDEp_b/",
+   "like_count": 820,
+   "comments_count": 2,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 “아 청춘통 와…” 여름을 앞두고, 괜히 조급해지는 대학생이라면 주목해 주세요! ​",
+    "last_question": "",
+    "structure": "해시태그>문장×5>이모지소제목>문장×5>이모지소제목>문장×2>이모지소제목>문장×3",
+    "numbers": [
+     "20",
+     "2008년",
+     "1만",
+     "200명",
+     "2026년",
+     "6",
+     "24",
+     "8",
+     "28",
+     "2개",
+     "5",
+     "4",
+     "5",
+     "17",
+     "23"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "청춘을",
+     "사이에서",
+     "해피무브",
+     "모집",
+     "프로그램",
+     "봉사",
+     "활동",
+     "기간",
+     "청춘통",
+     "여름을",
+     "앞두고",
+     "괜히"
+    ],
+    "series": "",
+    "chars": 686,
+    "lines": 19,
+    "emoji_per_100": 0.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "ADDN 대학생 하면 하는 낭만 활동 1",
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.465,
+    "n_colors": 75,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18120642259643674",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-30T07:11:17+0000",
+   "permalink": "https://www.instagram.com/p/DXvzhiSkvzP/",
+   "like_count": 153,
+   "comments_count": 4,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🗓️ 원시인 될래? 공주 될래? 뭐든 될 수 있는 5월 잼컨 달력",
+    "last_question": "끝내주는 연휴를 보내고 싶다면? 같이 있고 싶은 사람을 태그해 보세요!",
+    "structure": "문장×7",
+    "numbers": [
+     "5월",
+     "5월",
+     "5월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "원시인",
+     "될래",
+     "공주",
+     "뭐든",
+     "잼컨",
+     "달력",
+     "연휴",
+     "기간",
+     "어디",
+     "갈지",
+     "아직",
+     "고민"
+    ],
+    "series": "",
+    "chars": 227,
+    "lines": 7,
+    "emoji_per_100": 0.88,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "220 고즈 5 달력 1 노동절 2 연천 축제 5 8 축제 축제 시작 1",
+    "cover_chars": 103,
+    "visual": "graphic",
+    "top5_share": 0.923,
+    "n_colors": 14,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18219911176317336",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-23T04:36:39+0000",
+   "permalink": "https://www.instagram.com/p/DXdgQ0tD1z2/",
+   "like_count": 78,
+   "comments_count": 1,
+   "slides": 6,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@: 해외 야빠들 우리 빼고 맛있는 거 먹고 있었네 ⚾",
+    "last_question": "야구장 = 거대한 식당 아닌가요?",
+    "structure": "문장>질문>문장×2",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "해외",
+     "야빠들",
+     "빼고",
+     "맛있는",
+     "먹고",
+     "있었네",
+     "야구장",
+     "거대한",
+     "식당",
+     "아닌가요",
+     "국내",
+     "도입이"
+    ],
+    "series": "",
+    "chars": 126,
+    "lines": 4,
+    "emoji_per_100": 0.79,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "22 우리나라 시급한 해외 모음",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.525,
+    "n_colors": 87,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#507010"
+    ]
+   }
+  },
+  {
+   "id": "18266614894292590",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-04-21T07:01:49+0000",
+   "permalink": "https://www.instagram.com/reel/DXYnFspEs6l/",
+   "like_count": 105,
+   "comments_count": 0,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "마케터가 행복해지는 방법은 바로바로!!",
+    "last_question": "",
+    "structure": "문장×12",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "캐릿",
+     "여러분의",
+     "마케터가",
+     "행복해지는",
+     "방법은",
+     "바로바로",
+     "정시",
+     "퇴근이죠",
+     "안녕하세요",
+     "막내",
+     "에디터입니다",
+     "퇴근이"
+    ],
+    "series": "",
+    "chars": 234,
+    "lines": 12,
+    "emoji_per_100": 0.43,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "해지는 방법 세로토닌 가장 간단한 업무 끝내기 오늘 리스트 하기 블리 들",
+    "cover_chars": 100,
+    "visual": "graphic",
+    "top5_share": 0.951,
+    "n_colors": 9,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17936118627215779",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-16T08:00:04+0000",
+   "permalink": "https://www.instagram.com/p/DXL1-jLErH0/",
+   "like_count": 8369,
+   "comments_count": 173,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "2010년생이 곧 성인이라고?",
+    "last_question": "여러분, 2010년생이 올해 고등학교에 입학했다는 사실을 아시나요? 캐릿이 2010년생과 만나 그들의 추억의",
+    "structure": "질문>문장×2",
+    "numbers": [
+     "2010년",
+     "2010년",
+     "2010년",
+     "30",
+     "30",
+     "1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "년생이",
+     "보며",
+     "알파세대",
+     "성인이라고",
+     "여러분",
+     "올해",
+     "고등학교에",
+     "입학했다는",
+     "사실을",
+     "아시나요",
+     "캐릿이",
+     "년생과"
+    ],
+    "series": "",
+    "chars": 273,
+    "lines": 3,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "하는 11 세대 (고등학생) 소피아, 스타! 경우, 후기 부터 2 하는 ",
+    "cover_chars": 36,
+    "visual": "graphic",
+    "top5_share": 0.666,
+    "n_colors": 53,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#50F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18418637110123065",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-14T05:10:07+0000",
+   "permalink": "https://www.instagram.com/p/DXGY8G1iYaG/",
+   "like_count": 153,
+   "comments_count": 0,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "(광고) 요즘 광고 효율 잘 안 나와서 울고 있는 마케터들, 고개를 들어주세요!​",
+    "last_question": "",
+    "structure": "문장×4",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "크리에이터",
+     "광고",
+     "거예요",
+     "요즘",
+     "효율",
+     "나와서",
+     "울고",
+     "마케터들",
+     "고개를",
+     "들어주세요",
+     "퍼포먼스",
+     "마케팅의"
+    ],
+    "series": "",
+    "chars": 276,
+    "lines": 4,
+    "emoji_per_100": 0.36,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "[마케터 고민 상담소] 광고 효율 나올 대처법 내가 통제 8 광고주 크리",
+    "cover_chars": 41,
+    "visual": "graphic",
+    "top5_share": 0.958,
+    "n_colors": 13,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70F0B0"
+    ]
+   }
+  },
+  {
+   "id": "17969337081021738",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-13T07:00:41+0000",
+   "permalink": "https://www.instagram.com/p/DXEAy_gAQJF/",
+   "like_count": 84,
+   "comments_count": 2,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🫢 두쫀쿠, 버터떡에 이어 새로운 디저트 트렌드가 또 등장했다?",
+    "last_question": "👀 짧은 중안부? 이제는 ‘롱안부의 시대’가 왔다",
+    "structure": "질문>문장×2>이모지소제목>문장>이모지소제목",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "있어요",
+     "ffs",
+     "최근",
+     "말빵",
+     "화제를",
+     "말의",
+     "길쭉한",
+     "유행이",
+     "특히",
+     "더욱",
+     "인기를",
+     "끌고"
+    ],
+    "series": "",
+    "chars": 688,
+    "lines": 6,
+    "emoji_per_100": 0.44,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "까지 거예요? 디저트",
+    "cover_chars": 9,
+    "visual": "graphic",
+    "top5_share": 0.795,
+    "n_colors": 20,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18061326473407519",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-10T09:07:34+0000",
+   "permalink": "https://www.instagram.com/p/DW8g7paEioe/",
+   "like_count": 638,
+   "comments_count": 0,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "요즘 북촌 나들이 코스로 알음알음 입소문을 탄 장소가 있습니다. 바로 ‘오늘의집 북촌’이에요. 지하 1층부터",
+    "last_question": "💡 지하 1층엔 ‘조명 미술관’이 있다?",
+    "structure": "문장>질문>항목×3>문장>항목×2>문장",
+    "numbers": [
+     "1",
+     "3",
+     "4개",
+     "1",
+     "300",
+     "2",
+     "3",
+     "2",
+     "3",
+     "2"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "북촌",
+     "오늘의집",
+     "지하",
+     "지상",
+     "조명",
+     "앱에",
+     "층은",
+     "요즘",
+     "나들이",
+     "코스로",
+     "알음알음",
+     "입소문을"
+    ],
+    "series": "",
+    "chars": 518,
+    "lines": 9,
+    "emoji_per_100": 1.35,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "북촌 주목 조영 있다고?",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.585,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18068411510653946",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-09T03:03:10+0000",
+   "permalink": "https://www.instagram.com/p/DW5Sb2kkvST/",
+   "like_count": 393,
+   "comments_count": 2,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@: 나같경 굿즈를 보고 입덕을 하는 편이야",
+    "last_question": "잘 만든 굿즈 하나가 입덕을 부르기도 한다는 사실 아시나요?",
+    "structure": "문장>질문>문장×2",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "굿즈",
+     "입덕을",
+     "나같경",
+     "굿즈를",
+     "보고",
+     "편이야",
+     "만든",
+     "하나가",
+     "부르기도",
+     "한다는",
+     "사실",
+     "아시나요"
+    ],
+    "series": "",
+    "chars": 110,
+    "lines": 4,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "NL 68 하늘 아래 (인형 말고) 있다!",
+    "cover_chars": 17,
+    "visual": "graphic",
+    "top5_share": 0.679,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#70F0F0"
+    ]
+   }
+  },
+  {
+   "id": "18134536534531128",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-07T07:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DW0j-otEuyP/",
+   "like_count": 481,
+   "comments_count": 13,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@이거 완전 너 아님? ㅋㅋㅋ",
+    "last_question": "이런 페이크 뉴스 짤, 다들 인스타 피드에서 한 번쯤은 보셨죠? 현대인이 공감할 상황을 그럴듯한 뉴스처럼 만",
+    "structure": "문장×3",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "만들어",
+     "이거",
+     "완전",
+     "아님",
+     "이런",
+     "페이크",
+     "뉴스",
+     "다들",
+     "인스타",
+     "피드에서",
+     "번쯤은",
+     "보셨죠"
+    ],
+    "series": "",
+    "chars": 163,
+    "lines": 3,
+    "emoji_per_100": 0.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2 업무 답하는 친구, 확률 높다",
+    "cover_chars": 13,
+    "visual": "photo",
+    "top5_share": 0.534,
+    "n_colors": 63,
+    "face": false,
+    "colors": [
+     "#101030",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17941136754014482",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-06T06:44:54+0000",
+   "permalink": "https://www.instagram.com/p/DWx9bSSEsWT/",
+   "like_count": 127,
+   "comments_count": 2,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "💊 요즘 웰니스 열기가 그 어느 때보다 뜨겁잖아요. 최근 이런 흐름을 반영한 공간 ’옵티마 웰니스 뮤지엄 약",
+    "last_question": "🔎 약국에서 이런 것까지? 잼컨 천국 K-약국이라고 불릴 만함",
+    "structure": "문장>이모지소제목>항목×3>문장>항목×3>문장",
+    "numbers": [
+     "1"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이런",
+     "웰니스",
+     "최근",
+     "약국",
+     "반려동물",
+     "있어서",
+     "요즘",
+     "열기가",
+     "어느",
+     "때보다",
+     "뜨겁잖아요",
+     "흐름을"
+    ],
+    "series": "",
+    "chars": 607,
+    "lines": 10,
+    "emoji_per_100": 1.65,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "요즘 에서는 이런 것도 으로",
+    "cover_chars": 11,
+    "visual": "graphic",
+    "top5_share": 0.824,
+    "n_colors": 23,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#305070"
+    ]
+   }
+  },
+  {
+   "id": "18092282519228855",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-04-03T10:00:06+0000",
+   "permalink": "https://www.instagram.com/reel/DWqlbHxB8_x/",
+   "like_count": 66,
+   "comments_count": 1,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🥕 캐릿 Z세대 트렌드 디깅 크루가 직접 체험한 트렌드 소개합니다!",
+    "last_question": "",
+    "structure": "문장>이모지소제목>문장×2",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "트렌드",
+     "캐릿",
+     "Z세대",
+     "디깅",
+     "크루가",
+     "직접",
+     "체험한",
+     "소개합니다",
+     "크루의",
+     "방문",
+     "후기",
+     "롯데월드에"
+    ],
+    "series": "",
+    "chars": 249,
+    "lines": 4,
+    "emoji_per_100": 0.8,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "트렌드 직접 다면 좋아할 메이플",
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.653,
+    "n_colors": 33,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "17853005988640906",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-03T08:00:35+0000",
+   "permalink": "https://www.instagram.com/p/DWqXtADEq0Q/",
+   "like_count": 211,
+   "comments_count": 4,
+   "slides": 9,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "세상 힙한 건 다 모여있다는 불교박람회🪷",
+    "last_question": "그 인기가 식지 않고 올해도 이어지고 있는데요. 현장에서 Z세대는 어떤 굿즈를 구매하고 있을까요? 직접 불교",
+    "structure": "문장×2>이모지소제목>문장",
+    "numbers": [
+     "3년"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "올해도",
+     "접목한",
+     "불교",
+     "문구가",
+     "굿즈가",
+     "세상",
+     "힙한",
+     "모여있다는",
+     "불교박람회",
+     "인기가",
+     "식지",
+     "않고"
+    ],
+    "series": "",
+    "chars": 358,
+    "lines": 4,
+    "emoji_per_100": 0.56,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "대체 해질 건데 2 에서 한컷",
+    "cover_chars": 11,
+    "visual": "photo",
+    "top5_share": 0.578,
+    "n_colors": 36,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#505050"
+    ]
+   }
+  },
+  {
+   "id": "18121250536533782",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-04-02T03:54:57+0000",
+   "permalink": "https://www.instagram.com/p/DWnWy-dEtYO/",
+   "like_count": 299,
+   "comments_count": 1,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "넥스트 텍스트힙, 제철코어 트렌드를 선도할 소비자 그룹은 누구일까요?",
+    "last_question": "넥스트 텍스트힙, 제철코어 트렌드를 선도할 소비자 그룹은 누구일까요?",
+    "structure": "질문>문장",
+    "numbers": [
+     "100조"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "트렌드를",
+     "넥스트",
+     "텍스트힙",
+     "제철코어",
+     "선도할",
+     "소비자",
+     "그룹은",
+     "누구일까요",
+     "메가",
+     "향유하는",
+     "주체가",
+     "Z세대"
+    ],
+    "series": "",
+    "chars": 179,
+    "lines": 2,
+    "emoji_per_100": 0.56,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "1 사람들 합쳐서 100",
+    "cover_chars": 10,
+    "visual": "photo",
+    "top5_share": 0.462,
+    "n_colors": 74,
+    "face": false,
+    "colors": [
+     "#101030",
+     "#1050B0"
+    ]
+   }
+  },
+  {
+   "id": "17968254020888501",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-31T10:26:14+0000",
+   "permalink": "https://www.instagram.com/p/DWi59erEsOq/",
+   "like_count": 124,
+   "comments_count": 4,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🗓️ 단종에 진심인 사람 모여라! 4월 봄축제 달력",
+    "last_question": "영화 ‘왕사남’ 재미있게 보신 분들 계신가요? (나야 나…나야 나…)",
+    "structure": "이모지소제목>문장×6",
+    "numbers": [
+     "4월",
+     "4월",
+     "4월"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "달력",
+     "나야",
+     "월엔",
+     "단종에",
+     "진심인",
+     "사람",
+     "모여라",
+     "봄축제",
+     "영화",
+     "왕사남",
+     "재미있게",
+     "보신"
+    ],
+    "series": "",
+    "chars": 204,
+    "lines": 7,
+    "emoji_per_100": 0.98,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "220 사람 모여라 4 축제 달력 생일 만우절 국제 박람회 축제 end ",
+    "cover_chars": 131,
+    "visual": "graphic",
+    "top5_share": 0.924,
+    "n_colors": 16,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18112711105688372",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-31T02:57:46+0000",
+   "permalink": "https://www.instagram.com/p/DWiGqbtkrLg/",
+   "like_count": 71,
+   "comments_count": 1,
+   "slides": 7,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "🌬️날씨와 상관없이 매일 환기를 해야 하는 ‘환기파’ 분들 주목해 주세요. 속이 시원한 행사가 궁궐에서 열리",
+    "last_question": "평소에는 닫혀 있던 궁궐 내부를 가까이에서 들여다보고, 창호를 액자 삼아 ‘창덕궁 홍매화’를 비롯한 봄 풍경",
+    "structure": "문장×2>질문>문장×2",
+    "numbers": [
+     "4",
+     "5"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "창덕궁",
+     "행사가",
+     "궁궐",
+     "날씨와",
+     "상관없이",
+     "매일",
+     "환기를",
+     "해야",
+     "환기파",
+     "분들",
+     "주목해",
+     "주세요"
+    ],
+    "series": "",
+    "chars": 374,
+    "lines": 5,
+    "emoji_per_100": 0.27,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "행사.",
+    "cover_chars": 3,
+    "visual": "graphic",
+    "top5_share": 0.644,
+    "n_colors": 21,
+    "face": false,
+    "colors": [
+     "#505070",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "18088159547350866",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-27T06:09:37+0000",
+   "permalink": "https://www.instagram.com/p/DWYJcEWGBX3/",
+   "like_count": 128,
+   "comments_count": 1,
+   "slides": 3,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "“커피 사면 고양이를 준다고?” 😽",
+    "last_question": "이 이벤트를 기획한 담당자, 궁금하지 않나요? 캐릿이 메가MCG커피 담당자를 만나 이벤트 비하인드를 들어봤습",
+    "structure": "문장×5",
+    "numbers": [
+     "40만",
+     "0원",
+     "0"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "이벤트가",
+     "있어요",
+     "고양이",
+     "것도",
+     "커피",
+     "사면",
+     "고양이를",
+     "준다고",
+     "메가MCG커피에서",
+     "진행",
+     "중인",
+     "Z세대에게"
+    ],
+    "series": "",
+    "chars": 427,
+    "lines": 5,
+    "emoji_per_100": 0.47,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "에서 0 sone",
+    "cover_chars": 7,
+    "visual": "graphic",
+    "top5_share": 0.681,
+    "n_colors": 26,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "17847804090680428",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-25T07:00:03+0000",
+   "permalink": "https://www.instagram.com/p/DWTFqXYEguy/",
+   "like_count": 1990,
+   "comments_count": 71,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "👀 맥도날드는 20대, 롯데리아는 10대?",
+    "last_question": "Z세대가 보는 브랜드별 나이는 어떻게 될까요? 캐릿이 Z세대 소비자 130명에게 각 브랜드마다 연상되는 <브",
+    "structure": "질문>문장×3",
+    "numbers": [
+     "20",
+     "10",
+     "130명",
+     "7개"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "나이는",
+     "브랜드",
+     "결과를",
+     "있습니다",
+     "맥도날드는",
+     "롯데리아는",
+     "Z세대가",
+     "보는",
+     "브랜드별",
+     "어떻게",
+     "될까요",
+     "캐릿이"
+    ],
+    "series": "",
+    "chars": 293,
+    "lines": 4,
+    "emoji_per_100": 0.34,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2 Hac 나이 이미지 몬스터 애니 스탠다드 페리페라 1 기어 커피 익스",
+    "cover_chars": 138,
+    "visual": "photo",
+    "top5_share": 0.666,
+    "n_colors": 62,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#101010"
+    ]
+   }
+  },
+  {
+   "id": "17859395439567117",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "timestamp": "2026-03-24T09:11:43+0000",
+   "permalink": "https://www.instagram.com/reel/DWQv1cQkkOw/",
+   "like_count": 74,
+   "comments_count": 4,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "#광고 🧐: USJ, 가려면 올해 가야 이득이라고?",
+    "last_question": "쫄보(?)도 즐길 수 있는 콘텐츠가 가득합니다. (저는 놀이공원 가기 전에 무조건 ‘무섭나요?’ 검색하는 사",
+    "structure": "해시태그>문장×5",
+    "numbers": [
+     "5",
+     "4",
+     "5",
+     "1위",
+     "5",
+     "25",
+     "1월",
+     "11일"
+    ],
+    "hashtags": [
+     "#광고"
+    ],
+    "keywords": [
+     "슈퍼",
+     "닌텐도",
+     "월드",
+     "USJ",
+     "올해",
+     "주년을",
+     "무조건",
+     "이벤트는",
+     "보세요",
+     "주년",
+     "가려면",
+     "가야"
+    ],
+    "series": "",
+    "chars": 556,
+    "lines": 6,
+    "emoji_per_100": 0.18,
+    "ends_with_question": false,
+    "giveaway": true,
+    "ad": true
+   },
+   "visual": {
+    "cover_text": "MAD 죽기 전에 가야 테마파크? 올해 안에 USJ 하는 이유",
+    "cover_chars": 25,
+    "visual": "photo",
+    "top5_share": 0.433,
+    "n_colors": 93,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  },
+  {
+   "id": "18090853802153093",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-24T07:00:07+0000",
+   "permalink": "https://www.instagram.com/p/DWQg1YaFIx-/",
+   "like_count": 116,
+   "comments_count": 4,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "“내 나이 스물여섯, 유니클로 가면 일단 키즈존으로 간다”",
+    "last_question": "“다 큰 어른이 공룡 그려진 티셔츠를 좋아한다고?’ 싶겠지만, 독특하고 엉뚱한 감성의 티셔츠는 꾸준히 인기를",
+    "structure": "문장×2>이모지소제목>문장>이모지소제목",
+    "numbers": [
+     "0",
+     "0"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "공룡",
+     "유니클로",
+     "트렌드에",
+     "있어요",
+     "티셔츠를",
+     "감성의",
+     "나이",
+     "스물여섯",
+     "가면",
+     "일단",
+     "키즈존으로",
+     "간다"
+    ],
+    "series": "",
+    "chars": 486,
+    "lines": 5,
+    "emoji_per_100": 0.62,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "20",
+    "cover_chars": 2,
+    "visual": "graphic",
+    "top5_share": 0.612,
+    "n_colors": 24,
+    "face": false,
+    "colors": [
+     "#505030",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "17948608734119771",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-20T06:51:37+0000",
+   "permalink": "https://www.instagram.com/p/DWGMrnwEm7p/",
+   "like_count": 616,
+   "comments_count": 23,
+   "slides": 2,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "@이번 주말에 연애운 충전하러 아차산 등반할 사람?",
+    "last_question": "@이번 주말에 연애운 충전하러 아차산 등반할 사람?",
+    "structure": "질문>문장",
+    "numbers": [],
+    "hashtags": [],
+    "keywords": [
+     "주말에",
+     "연애운",
+     "충전하러",
+     "아차산",
+     "등반할",
+     "사람",
+     "최근",
+     "Z세대",
+     "사이에서",
+     "다시",
+     "등산",
+     "붐이"
+    ],
+    "series": "",
+    "chars": 100,
+    "lines": 2,
+    "emoji_per_100": 1.0,
+    "ends_with_question": false,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "2 대가 빠진",
+    "cover_chars": 5,
+    "visual": "photo",
+    "top5_share": 0.52,
+    "n_colors": 47,
+    "face": false,
+    "colors": [
+     "#505050",
+     "#707070"
+    ]
+   }
+  },
+  {
+   "id": "17891437812307227",
+   "media_type": "IMAGE",
+   "media_product_type": "FEED",
+   "timestamp": "2026-03-13T07:34:23+0000",
+   "permalink": "https://www.instagram.com/p/DV0PfJsEp2L/",
+   "like_count": 169,
+   "comments_count": 4,
+   "collected_at": "2026-11-08T15:11:45+00:00",
+   "skeleton": {
+    "first_line": "킹우의 수? 모르겠고... 오늘은 바로 퇴근합니다. 일찍 자고 내일 아침 7시 반에 일어나서 WBC 봐야 되",
+    "last_question": "(주말에 계속 이기면... 팀장님 저 17일에 연차 씁니다?)",
+    "structure": "문장×3",
+    "numbers": [
+     "7",
+     "17일"
+    ],
+    "hashtags": [],
+    "keywords": [
+     "킹우의",
+     "모르겠고",
+     "오늘은",
+     "퇴근합니다",
+     "일찍",
+     "자고",
+     "내일",
+     "아침",
+     "반에",
+     "일어나서",
+     "WBC",
+     "봐야"
+    ],
+    "series": "",
+    "chars": 122,
+    "lines": 3,
+    "emoji_per_100": 0.82,
+    "ends_with_question": true,
+    "giveaway": false,
+    "ad": false
+   },
+   "visual": {
+    "cover_text": "앞두 상황 많이 남음 남음 남음 휴가 내일 야근 야근 야근 야근 야근 야",
+    "cover_chars": 78,
+    "visual": "graphic",
+    "top5_share": 0.805,
+    "n_colors": 36,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70B0B0"
+    ]
+   }
+  }
+ ]
+}
