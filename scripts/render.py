@@ -118,9 +118,12 @@ def photo_cover(s, root):
     bubble = (f'<div style="position:absolute;top:{s.get("bubble_top", 420)}px;left:{s.get("bubble_left", 560)}px;background:#fff;color:{INK};'
               f'font-weight:800;border-radius:999px;padding:22px 34px;font-size:38px;box-shadow:0 4px 0 {INK}">{esc(s["bubble"])}</div>') if s.get("bubble") else ""
     credit = f"📷 {esc(s['credit'])}" if s.get("credit") else ""
+    # breaking-news label, e.g. "tag": "속보 · 14:05" (red pill, top-left)
+    tag = (f'<div style="position:absolute;top:72px;left:72px;background:#FF3B30;color:#fff;font-weight:900;font-size:34px;'
+           f'padding:10px 22px;border-radius:10px">{esc(s["tag"])}</div>') if s.get("tag") else ""
     return f"""<div class="page" style="color:#fff">
 <div style="position:absolute;inset:0;{backdrop}"></div>
-<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 38%,rgba(0,0,0,.82) 78%,rgba(0,0,0,.92) 100%)"></div>{bubble}
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 38%,rgba(0,0,0,.82) 78%,rgba(0,0,0,.92) 100%)"></div>{bubble}{tag}
 <div style="position:absolute;left:72px;right:72px;bottom:150px;font-size:80px;font-weight:900;line-height:1.28;letter-spacing:-2px">{with_kw(s['title'], s.get('kw'))}</div>
 <div style="position:absolute;left:72px;right:72px;bottom:64px;display:flex;justify-content:space-between;font-size:28px;color:rgba(255,255,255,.8)">
 <span class="wm" style="color:#fff">정글저글</span><span>{credit}</span></div></div>"""
