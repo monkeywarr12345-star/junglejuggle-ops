@@ -1,1 +1,0 @@
-slide 2: photo fallback to graphic (no usable photo; tried: direct https://example.invalid/nope.jpg: <urlopen error [Errno -2] Name or service not known>)

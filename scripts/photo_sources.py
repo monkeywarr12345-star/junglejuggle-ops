@@ -59,7 +59,8 @@ def openverse(query):
         if min(r.get("width") or 0, r.get("height") or 0) < MIN_SIDE * 0.7:
             continue
         lic = f"CC {r['license'].upper()} {r.get('license_version') or ''}".strip() if r["license"] not in ("cc0", "pdm") else "Public Domain/CC0"
-        yield r["url"], {"credit": f"{r.get('creator') or 'Unknown'} / {r.get('source', 'Openverse')}", "license": lic,
+        src = {"wikimedia": "Wikimedia Commons", "flickr": "Flickr"}.get(r.get("source"), (r.get("source") or "Openverse").title())
+        yield r["url"], {"credit": f"{r.get('creator') or 'Unknown'} / {src}", "license": lic,
                          "page": r.get("foreign_landing_url"), "source": "openverse"}
 
 

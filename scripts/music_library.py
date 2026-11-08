@@ -12,6 +12,7 @@ license table in music/LICENSES.md, usage history in music/usage.json.
 Rotation: never reuse a track within the last 12 reels of that mood; least recently used first, newest first on ties.
 """
 import hashlib
+import html
 import json
 import os
 import re
@@ -31,9 +32,9 @@ UA = "junglejuggle-music/1.0 (+https://github.com/monkeywarr12345-star/junglejug
 MAX_PER_MOOD = 18
 RECENT_BLOCK = 12
 MOODS = {
-    "upbeat": {"jamendo_tags": ["pop", "dance", "happy", "electronic", "funk"], "openverse": ["upbeat pop", "happy energetic", "dance electronic"]},
-    "tense": {"jamendo_tags": ["cinematic", "epic", "dark", "trailer", "dramatic"], "openverse": ["cinematic tension", "dramatic epic", "dark electronic"]},
-    "chill": {"jamendo_tags": ["lounge", "chillout", "lofi", "jazz", "ambient"], "openverse": ["lofi chill", "chill hop", "relaxing jazz"]},
+    "upbeat": {"jamendo_tags": ["pop", "dance", "happy", "electronic", "funk"], "openverse": ["upbeat pop", "happy energetic", "dance electronic", "funk", "pop"]},
+    "tense": {"jamendo_tags": ["cinematic", "epic", "dark", "trailer", "dramatic"], "openverse": ["cinematic tension", "dramatic epic", "dark electronic", "cinematic", "trailer"]},
+    "chill": {"jamendo_tags": ["lounge", "chillout", "lofi", "jazz", "ambient"], "openverse": ["lounge", "chillout", "jazz", "lofi", "acoustic guitar", "ambient piano"]},
 }
 OK_LICENSE = re.compile(r"(publicdomain|/zero/|/by/|/by-sa/|^cc0$|^by$|^by-sa$|^pdm$)", re.I)
 
@@ -92,12 +93,13 @@ def openverse_candidates(mood):
     for query in MOODS[mood]["openverse"]:
         q = urllib.parse.urlencode({"q": query, "license": "cc0,pdm,by,by-sa", "category": "music", "page_size": 20, "mature": "false"})
         data = _json(f"https://api.openverse.org/v1/audio/?{q}", {}) or {}
+        print(f"openverse '{query}': {len(data.get('results', []))} results", file=sys.stderr)
         for rank, r in enumerate(data.get("results", [])):
             dur = (r.get("duration") or 0) / 1000
             if not 60 <= dur <= 420 or not r.get("url"):
                 continue
-            out.append({"source": f"openverse/{r.get('source', '')}", "src_id": f"ov-{r['id']}", "title": r.get("title") or "Untitled",
-                        "artist": r.get("creator") or "Unknown", "license": license_label(r["license"] + (r.get("license_version") or "")),
+            out.append({"source": f"openverse/{r.get('source', '')}", "src_id": f"ov-{r['id']}", "title": html.unescape(r.get("title") or "Untitled"),
+                        "artist": html.unescape(r.get("creator") or "Unknown"), "license": license_label(r["license"] + (r.get("license_version") or "")),
                         "license_url": r.get("license_url"), "page": r.get("foreign_landing_url"), "audio": r["url"],
                         "released": None, "score": 60 - rank})
     return out
