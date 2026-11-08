@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "slide": 1,
+  "credit": "Eduardo Soares / Unsplash",
+  "license": "Unsplash License",
+  "page": "https://unsplash.com/photos/shopping-cart-in-grocery-store-QsYXYSwV3NU",
+  "source": "unsplash",
+  "file": "media/zz-test-stock/src/5020644f900a.jpg"
+ },
+ {
+  "slide": 2,
+  "credit": "TheDigitalWay / Pixabay",
+  "license": "Pixabay Content License",
+  "page": "https://pixabay.com/photos/credit-cards-denim-jeans-blue-jeans-1583534/",
+  "source": "pixabay",
+  "file": "media/zz-test-stock/src/5f78887c8541.jpg"
+ }
+]

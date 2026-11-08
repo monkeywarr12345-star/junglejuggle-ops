@@ -4,15 +4,17 @@
  "slides": [
   {
    "t": "photo_cover",
-   "photo": null,
-   "title": "Unsplash\n자동 수집 테스트",
-   "kw": "Unsplash"
+   "photo": "media/zz-test-stock/src/5020644f900a.jpg",
+   "title": "Unsplash\n자동 수집 테스트 2",
+   "kw": "Unsplash",
+   "credit": "Eduardo Soares / Unsplash"
   },
   {
    "t": "photo_cover",
-   "photo": null,
-   "title": "Pixabay\n자동 수집 테스트",
-   "kw": "Pixabay"
+   "photo": "media/zz-test-stock/src/5f78887c8541.jpg",
+   "title": "Pixabay\n자동 수집 테스트 2",
+   "kw": "Pixabay",
+   "credit": "TheDigitalWay / Pixabay"
   }
  ]
 }

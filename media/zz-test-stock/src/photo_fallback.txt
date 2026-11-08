@@ -1,2 +1,0 @@
-slide 1: photo fallback to graphic (no urls or queries given)
-slide 2: photo fallback to graphic (no urls or queries given)
