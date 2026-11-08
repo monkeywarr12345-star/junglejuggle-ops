@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Stop captions (and reel/card copy) from falling into the same pattern every time.
 
-Usage: python scripts/caption_check.py content/<id>.caption.txt [content/<id>.json | .reel.json ...]
+Usage: python scripts/caption_check.py content/<id>.caption.txt [content/<id>.json | .reel.json ...] [--replaces=<posted file name> ...]
+(--replaces: leave out posts that this one is a corrected re-upload of)
 Compares the new caption with the last RECENT published/queued captions and fails (exit 1) when:
   - a reaction word/emoticon (ㄷㄷ, ㅋㅋ, 실화?, 미쳤다 ...) was already used in any of them,
   - the same reaction word is used more than once in this post,
@@ -26,7 +27,7 @@ def reactions_in(text):
     return [r for r in REACTIONS if r in text]
 
 
-def recent_captions(exclude):
+def recent_captions(exclude, skip=()):
     caps = []
     for folder in ("posted", "queue"):
         for f in (ROOT / folder).glob("*.json"):
@@ -34,7 +35,7 @@ def recent_captions(exclude):
                 d = json.loads(f.read_text(encoding="utf-8"))
             except Exception:
                 continue
-            if d.get("caption"):
+            if d.get("caption") and f.name not in skip:
                 caps.append((d.get("publish_at", ""), d["caption"], f.name))
     caps.sort(reverse=True)
     return [(c, n) for _, c, n in caps if c.strip() != exclude.strip()][:RECENT]
@@ -48,7 +49,9 @@ def comment_prompt(text):
     return next((l for l in lines(text) if "정글러님들" in l or "댓글" in l), "")
 
 
-def main(paths):
+def main(args):
+    skip = {a.split("=", 1)[1] for a in args if a.startswith("--replaces=")}
+    paths = [a for a in args if not a.startswith("--")]
     cap = Path(paths[0]).read_text(encoding="utf-8")
     problems = []
     mine = reactions_in(cap)
@@ -60,7 +63,7 @@ def main(paths):
             if r in mine:
                 problems.append(f"반응어 '{r}'가 캡션과 화면 문구에 중복")
             mine.append(r)
-    recent = recent_captions(cap)
+    recent = recent_captions(cap, skip)
     for old, name in recent:
         used = set(reactions_in(old)) & set(mine)
         if used:

@@ -21,7 +21,7 @@ SLIDE_SEC = 7.0
 
 def main(spec_path, media_dir):
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
-    media = Path(media_dir)
+    media = Path(media_dir).resolve()
     images = sorted(media.glob("[0-9][0-9].jpg"))
     if len(images) < 2:
         raise SystemExit(f"need at least 2 rendered cards in {media}")
