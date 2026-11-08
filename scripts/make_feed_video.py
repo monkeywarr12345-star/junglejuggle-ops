@@ -3,7 +3,11 @@
 
 Usage: python scripts/make_feed_video.py content/<id>.json media/<id>
 Reads media/<id>/01.jpg, 02.jpg ... and writes media/<id>/v01.mp4, v02.mp4 ... (1080x1350, SLIDE_SEC each).
-One track is chosen for the whole post and split across the slides in order, so swiping feels continuous.
+Instagram plays every carousel video on its own and loops it, so the music must never restart while someone is
+still reading a slide: each slide is SLIDE_SEC long (no loop while reading) with no fade gaps, and slide i starts the
+same track DWELL seconds further on than slide i-1 (average reading time), so swiping at a normal pace sounds
+like one continuous song instead of a restart. (v1 used 7-second slides with fades: the loop and fades sounded
+like the music kept cutting out.)
 Music comes from the card spec's "music" (same options as make_reel.py, default {"auto": "upbeat"});
 the CC credit line is written to media/<id>/music_credit.txt and must go into the caption.
 Prints the queue "items" list to use: [{"video": "media/<id>/v01.mp4"}, ...].
@@ -16,7 +20,8 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SLIDE_SEC = 7.0
+SLIDE_SEC = 30.0
+DWELL = 5.0
 
 
 def main(spec_path, media_dir):
@@ -25,7 +30,7 @@ def main(spec_path, media_dir):
     images = sorted(media.glob("[0-9][0-9].jpg"))
     if len(images) < 2:
         raise SystemExit(f"need at least 2 rendered cards in {media}")
-    total = SLIDE_SEC * len(images)
+    total = DWELL * (len(images) - 1) + SLIDE_SEC
     sys.path.insert(0, str(ROOT / "scripts"))
     import make_reel  # same music selection and rotation as reels
     with tempfile.TemporaryDirectory() as tmp:
@@ -36,11 +41,11 @@ def main(spec_path, media_dir):
         items = []
         for i, img in enumerate(images):
             out = media / f"v{i + 1:02d}.mp4"
-            start = i * SLIDE_SEC
+            start = i * DWELL
             subprocess.run([
                 "ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(img),
                 "-ss", f"{start:.2f}", "-t", f"{SLIDE_SEC:.2f}", "-i", str(bed),
-                "-vf", "scale=1080:1350,format=yuv420p", "-af", f"afade=t=in:d=0.15,afade=t=out:st={SLIDE_SEC - 0.25:.2f}:d=0.25",
+                "-vf", "scale=1080:1350,format=yuv420p", "-af", f"afade=t=in:d=0.04,afade=t=out:st={SLIDE_SEC - 1.5:.2f}:d=1.5",
                 "-t", f"{SLIDE_SEC:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-crf", "18",
                 "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(out)], check=True)
             items.append({"video": str(out.relative_to(ROOT))})

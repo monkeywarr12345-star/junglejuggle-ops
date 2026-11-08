@@ -160,14 +160,14 @@ body{{width:{W}px;height:{H}px;background:{INK};color:#fff;font-family:'Noto San
 .fill{{height:100%;width:0;background:#fff}}
 .block{{position:absolute;left:72px;right:72px;top:300px;bottom:470px;display:flex;flex-direction:column;
   justify-content:center;align-items:center;text-align:center;gap:30px}}
-.chip{{display:inline-block;background:{VIOLET};color:#fff;font-weight:900;font-size:38px;padding:10px 26px;border-radius:999px}}
+.chip{{white-space:nowrap;display:inline-block;background:{VIOLET};color:#fff;font-weight:900;font-size:38px;padding:10px 26px;border-radius:999px}}
 .title{{font-size:{104 if t == "hook" else 92}px;font-weight:900;line-height:1.22;letter-spacing:-3px;text-shadow:0 4px 24px rgba(0,0,0,.35)}}
 .w,.kw{{display:inline-block}}
 .kw{{position:relative;padding:0 14px;margin:0 2px}}
 .kw i{{position:absolute;inset:6px 0 2px 0;background:{VIOLET};border-radius:14px;transform-origin:0 50%}}
 .kw b{{position:relative;display:inline-block;font-weight:900}}
 .big{{font-size:{210 if len(sc.get("big", "")) <= 7 else 160}px;font-weight:900;letter-spacing:-6px;line-height:1;font-variant-numeric:tabular-nums;text-shadow:0 6px 40px rgba(0,0,0,.4)}}
-.pill{{background:#fff;color:{INK};font-size:46px;font-weight:800;line-height:1.35;padding:14px 30px;border-radius:20px;max-width:100%}}
+.pill{{white-space:nowrap;background:#fff;color:{INK};font-size:46px;font-weight:800;line-height:1.35;padding:14px 30px;border-radius:20px;max-width:100%}}
 .rows{{width:100%;display:flex;flex-direction:column;gap:18px}}
 .row{{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.14);
   border-radius:28px;padding:28px 40px;font-size:52px;font-weight:800}}
@@ -179,9 +179,13 @@ body{{width:{W}px;height:{H}px;background:{INK};color:#fff;font-family:'Noto San
 <div class="top"><div class="brand">정글저글</div><div class="bar">{segs}</div></div>
 <div class="block">{chip}{order}{body}</div>{note}</div>
 <script>
+(()=>{{
 const IDX={idx}, SEC={sec}, OUT={OUT_T};
 const cl=(x)=>Math.max(0,Math.min(1,x)), eo=(x)=>1-Math.pow(1-x,3), back=(x)=>{{const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)}};
 const els=[...document.querySelectorAll('[data-a]')];
+// keep caption pills and chips on one line: shrink the font until they fit the safe width (never wrap mid-phrase)
+for(const e of document.querySelectorAll('.pill,.chip')){{let fs=parseFloat(getComputedStyle(e).fontSize);
+  while(e.scrollWidth>{W - 144} && fs>26){{fs-=1;e.style.fontSize=fs+'px'}}}}
 function fmt(src,p){{
   const m=src.match(/^([^0-9]*)([0-9][0-9,]*(?:\\.[0-9]+)?)(.*)$/);
   if(!m||/[0-9]/.test(m[3])) return src;
@@ -207,6 +211,7 @@ window.seek=(t)=>{{
   st.style.transform=`scale(${{(0.97+0.03*pin)*(1+.07*pout)}})`;
   st.style.filter=pout>0?`blur(${{pout*10}}px)`:(pin<1?`blur(${{(1-pin)*6}}px)`:'none');
 }};
+}})();
 </script></body></html>"""
 
 
@@ -250,7 +255,10 @@ def main(spec_path, out_path):
             page = browser.new_page(viewport={"width": W, "height": H})
             for i, sc in enumerate(scenes):
                 sec = float(sc.get("sec", 3.5))
+                page.goto("about:blank")  # fresh document and script scope for every scene
                 page.set_content(scene_html(sc, i, len(scenes), sec), wait_until="load")
+                if page.evaluate("typeof window.seek") != "function":
+                    raise RuntimeError(f"scene {i + 1}: animation script failed to load")
                 page.evaluate("document.fonts.ready")
                 for f in range(int(round(sec * FPS))):
                     page.evaluate(f"seek({f / FPS})")
