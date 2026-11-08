@@ -6,7 +6,7 @@
 현재 적용 중인 제작 규칙은 `playbook/playbook.md`, 결정 기록은 `playbook/decisions.md`에 있다.
 
 ## 구조
-- 게시: GitHub Actions `publish.yml`이 30분마다 `queue/*.json` 중 `publish_at`이 지난 항목을 게시하고 `posted/`·`failed/`로 옮긴다. queue에 push하면 즉시 한 번 더 돈다.
+- 게시: GitHub Actions `publish.yml`이 5분마다(GitHub 예약 실행은 자주 밀리므로) `queue/*.json` 중 `publish_at`이 지난 항목을 게시하고 `posted/`·`failed/`로 옮긴다. queue에 push하면 즉시 한 번 더 돈다.
 - 수집: `collect.yml`이 매일 23:13 KST 우리 게시물 인사이트를 `data/insights/`에, 매주 월요일 05:43 KST 벤치마크 계정 게시물을 `data/benchmark/`에 저장한다.
 - 제작: Claude 예약 작업이 이 저장소를 clone해서 콘텐츠를 만들고 queue에 넣는다. (Claude 작업 환경에서는 Instagram API에 접속할 수 없다.)
 
