@@ -64,5 +64,17 @@
   "mood": "chill",
   "file": "music/library/chill/studybreak-waves-d127f9.mp3",
   "at": "2026-11-08T21:46:23+00:00"
+ },
+ {
+  "reel": "2026-11-09-coreweave",
+  "mood": "tense",
+  "file": "music/library/tense/jahzzar-cinematic-d284da.mp3",
+  "at": "2026-11-08T22:04:25+00:00"
+ },
+ {
+  "reel": "2026-11-09-overnight",
+  "mood": "chill",
+  "file": "music/library/chill/snowflake-ccmixter-winter-sunlight-airtone-feat-le-f2956a.mp3",
+  "at": "2026-11-08T22:04:55+00:00"
  }
 ]
