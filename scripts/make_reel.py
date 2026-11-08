@@ -40,8 +40,8 @@ body{{width:{W}px;height:{H}px;background:{INK};color:#fff;font-family:'Noto San
 <body><div style="position:absolute;top:300px;left:80px;right:80px;text-align:center">
 <div style="display:inline-block;background:#fff;color:{VIOLET};font-weight:900;font-size:34px;padding:6px 18px;border-radius:8px">정글저글</div>
 <div style="margin-top:36px;font-size:88px;font-weight:900;line-height:1.3;letter-spacing:-2px">{top}</div>{big_html}</div>
-<div style="position:absolute;bottom:430px;left:90px;right:90px;text-align:center;font-size:50px;font-weight:800;line-height:1.5">{sub}</div>
-<div style="position:absolute;bottom:360px;left:0;right:0;text-align:center;font-size:28px;color:#8C8796">{idx} / {total}</div>
+<div style="position:absolute;bottom:640px;left:90px;right:90px;text-align:center;font-size:50px;font-weight:800;line-height:1.5">{sub}</div>
+<div style="position:absolute;bottom:580px;left:0;right:0;text-align:center;font-size:28px;color:#8C8796">{idx} / {total}</div>
 </body></html>"""
 
 
