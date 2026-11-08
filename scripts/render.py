@@ -103,20 +103,27 @@ def ledger(s):
 
 
 def photo_cover(s, root):
-    photo = s["photo"]
-    if not photo.startswith("http"):
+    photo = s.get("photo")
+    if isinstance(photo, str) and photo and not photo.startswith("http"):
         # Embed local photos as data URIs: a page loaded with set_content cannot read file:// URLs.
         local = (root / photo).resolve()
         mime = {".png": "image/png", ".webp": "image/webp"}.get(local.suffix.lower(), "image/jpeg")
         photo = f"data:{mime};base64,{base64.b64encode(local.read_bytes()).decode()}"
+    if isinstance(photo, str) and photo:
+        backdrop = f"background:url('{photo}') center/cover"
+    else:  # no photo could be found: graphic fallback so the post is never blocked
+        backdrop = (f"background:radial-gradient(circle at 78% 22%,{VIOLET} 0,rgba(108,59,255,.55) 22%,rgba(17,17,17,0) 55%),"
+                    f"radial-gradient(circle at 15% 70%,rgba(108,59,255,.35) 0,rgba(17,17,17,0) 40%),{INK}")
+        s = dict(s, credit=s.get("credit") if isinstance(s.get("photo"), str) and s.get("photo") else "")
     bubble = (f'<div style="position:absolute;top:{s.get("bubble_top", 420)}px;left:{s.get("bubble_left", 560)}px;background:#fff;color:{INK};'
               f'font-weight:800;border-radius:999px;padding:22px 34px;font-size:38px;box-shadow:0 4px 0 {INK}">{esc(s["bubble"])}</div>') if s.get("bubble") else ""
+    credit = f"📷 {esc(s['credit'])}" if s.get("credit") else ""
     return f"""<div class="page" style="color:#fff">
-<div style="position:absolute;inset:0;background:url('{photo}') center/cover"></div>
+<div style="position:absolute;inset:0;{backdrop}"></div>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 38%,rgba(0,0,0,.82) 78%,rgba(0,0,0,.92) 100%)"></div>{bubble}
 <div style="position:absolute;left:72px;right:72px;bottom:150px;font-size:80px;font-weight:900;line-height:1.28;letter-spacing:-2px">{with_kw(s['title'], s.get('kw'))}</div>
 <div style="position:absolute;left:72px;right:72px;bottom:64px;display:flex;justify-content:space-between;font-size:28px;color:rgba(255,255,255,.8)">
-<span class="wm" style="color:#fff">정글저글</span><span>📷 {esc(s.get('credit',''))}</span></div></div>"""
+<span class="wm" style="color:#fff">정글저글</span><span>{credit}</span></div></div>"""
 
 
 RENDERERS = {"list_cover": list_cover, "item": item, "end": end, "ledger": ledger}

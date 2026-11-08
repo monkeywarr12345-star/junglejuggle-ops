@@ -1,0 +1,38 @@
+name: Refresh reel music library
+
+on:
+  schedule:
+    - cron: "37 18 * * 6"   # Sunday 03:37 KST: weekly refresh with new and popular free tracks
+  push:
+    branches: [main]
+    paths: ["music/refresh.request"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: music-library
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Refresh library
+        env:
+          JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
+        run: python scripts/music_library.py refresh
+      - name: Save library
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A music
+          if git diff --cached --quiet; then echo "No changes"; else
+            git commit -m "Refresh music library [skip ci]"; git pull --rebase; git push; fi

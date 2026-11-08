@@ -1,0 +1,3 @@
+{"id":"zz-test-photo","render_in_actions":true,"slides":[
+ {"t":"photo_cover","photo":{"query":"semiconductor wafer","queries":["stock market screen"]},"title":"사진 자동 수집\n테스트 표지","kw":"자동 수집"},
+ {"t":"photo_cover","photo":{"urls":["https://example.invalid/nope.jpg"]},"title":"사진 실패 시\n그래픽 대체","kw":"그래픽"}]}

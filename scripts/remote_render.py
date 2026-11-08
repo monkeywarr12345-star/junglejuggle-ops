@@ -43,13 +43,32 @@ def spec_hash(path):
 
 
 def render_cards(spec_path, spec):
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import photo_sources
+
     out = ROOT / "media" / spec["id"]
     resolved = json.loads(json.dumps(spec))
-    for slide in resolved["slides"]:
-        photo = slide.get("photo", "")
-        if photo.startswith("http"):
-            local = download(photo, out / "src", PHOTO_TYPES)
+    credits, notes = [], []
+    for i, slide in enumerate(resolved["slides"], 1):
+        photo = slide.get("photo")
+        if not photo or (isinstance(photo, str) and not photo.startswith("http")):
+            continue
+        try:
+            local, credit = photo_sources.resolve(photo, out / "src", used={c["page"] for c in credits})
             slide["photo"] = str(local.relative_to(ROOT))
+            if credit.get("credit") and (credit["source"] != "direct" or not slide.get("credit")):
+                slide["credit"] = credit["credit"]
+            credits.append({"slide": i, **credit, "file": slide["photo"]})
+        except Exception as exc:  # never block a post on a photo: render the graphic fallback instead
+            slide["photo"] = None
+            notes.append(f"slide {i}: photo fallback to graphic ({exc})")
+    (out / "src").mkdir(parents=True, exist_ok=True)
+    (out / "src" / "credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+    fallback_note = out / "src" / "photo_fallback.txt"
+    if notes:
+        fallback_note.write_text("\n".join(notes) + "\n", encoding="utf-8")
+    else:
+        fallback_note.unlink(missing_ok=True)
     tmp_spec = out / "src" / "spec.resolved.json"
     tmp_spec.parent.mkdir(parents=True, exist_ok=True)
     tmp_spec.write_text(json.dumps(resolved, ensure_ascii=False, indent=1), encoding="utf-8")
