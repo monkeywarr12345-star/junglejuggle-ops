@@ -1,11 +1,11 @@
 {
   "id": "test-photo-cover",
   "render_in_actions": true,
-  "note": "pipeline test, not for posting (run 2)",
+  "note": "pipeline test, not for posting (run 3)",
   "slides": [
     {
       "t": "photo_cover",
-      "photo": "https://unsplash.com/photos/mfzjXUk1jyg/download?force=true",
+      "photo": "https://images.unsplash.com/photo-1605588723939-51a2654463fb?w=1600&q=85&fm=jpg",
       "title": "실사 표지 테스트,\n핵심 단어만 보라 박스",
       "kw": "보라 박스",
       "bubble": "사진 합성 됨?",
