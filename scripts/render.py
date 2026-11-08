@@ -7,6 +7,7 @@ Runs where Chromium + Playwright + Noto Sans CJK KR are available (Claude's sand
 Slide types: list_cover, item, end, ledger, photo_cover (photo = repo path or https URL).
 Brand v2: ink #111111, violet #6C3BFF, white, paper #F4F2FA, breaking red #FF3B30.
 """
+import base64
 import html
 import json
 import sys
@@ -104,7 +105,10 @@ def ledger(s):
 def photo_cover(s, root):
     photo = s["photo"]
     if not photo.startswith("http"):
-        photo = (root / photo).resolve().as_uri()
+        # Embed local photos as data URIs: a page loaded with set_content cannot read file:// URLs.
+        local = (root / photo).resolve()
+        mime = {".png": "image/png", ".webp": "image/webp"}.get(local.suffix.lower(), "image/jpeg")
+        photo = f"data:{mime};base64,{base64.b64encode(local.read_bytes()).decode()}"
     bubble = (f'<div style="position:absolute;top:{s.get("bubble_top", 420)}px;left:{s.get("bubble_left", 560)}px;background:#fff;color:{INK};'
               f'font-weight:800;border-radius:999px;padding:22px 34px;font-size:38px;box-shadow:0 4px 0 {INK}">{esc(s["bubble"])}</div>') if s.get("bubble") else ""
     return f"""<div class="page" style="color:#fff">
