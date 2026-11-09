@@ -6,39 +6,36 @@
   python scripts/collect.py bench_daily -> data/benchmark/daily/<KST date>.json (newest 15-30 posts per account, every morning)
   Benchmark captions are stored only as skeletons and covers only as features (scripts/bench_features.py).
 
-Only the Python standard library is used. Needs IG_ACCESS_TOKEN and IG_USER_ID.
+Only the Python standard library is used.
+insights uses IG_LOGIN_TOKEN (Instagram Login, no Facebook) when set, else IG_ACCESS_TOKEN + IG_USER_ID.
+The benchmark modes read other accounts through business_discovery, which only the Facebook Login
+setup offers, so they need IG_ACCESS_TOKEN + IG_USER_ID (see scripts/ig_api.py).
 """
 import json
 import os
 import sys
-import urllib.error
-import urllib.parse
-import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-API = "https://graph.facebook.com/v27.0"
 ROOT = Path(__file__).resolve().parent.parent
-TOKEN = os.environ["IG_ACCESS_TOKEN"]
-IG_USER = os.environ["IG_USER_ID"]
+sys.path.insert(0, str(ROOT / "scripts"))
+import ig_api  # noqa: E402
+
+API = None  # the backend in use, set in __main__
 BENCHMARKS = ["ekke.now", "newneek.official", "byte._.bites", "careet.official", "eyesmag", "longblack.co", "3protv.official"]
 PAGES_PER_ACCOUNT = {"ekke.now": 20}  # 50 posts per page; ekke.now gets up to 1,000, others 100
 DEFAULT_PAGES = 2
 
 
 def get(path, params):
-    params = dict(params, access_token=TOKEN)
-    url = f"{API}/{path}?{urllib.parse.urlencode(params)}"
     try:
-        with urllib.request.urlopen(url, timeout=60) as resp:
-            return json.load(resp)
-    except urllib.error.HTTPError as err:
-        body = err.read().decode(errors="replace")
-        raise RuntimeError(f"GET {path} failed ({err.code}): {body[:300]}") from None
+        return API.get(path, params)
+    except ig_api.ApiError as exc:
+        raise RuntimeError(str(exc)) from None
 
 
 def insights():
-    media = get(f"{IG_USER}/media", {"fields": "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count", "limit": 50})
+    media = get(f"{API.user}/media", {"fields": "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count", "limit": 50})
     rows = []
     for m in media.get("data", []):
         metrics = "reach,saved,shares,likes,comments,total_interactions"
@@ -50,7 +47,7 @@ def insights():
         except RuntimeError as exc:
             m["insights_error"] = str(exc)
         rows.append(m)
-    account = get(IG_USER, {"fields": "followers_count,media_count"})
+    account = get(API.user, {"fields": "followers_count,media_count"})
     out = ROOT / "data" / "insights" / f"{datetime.now(timezone.utc):%Y-%m-%d}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"account": account, "media": rows}, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -65,7 +62,7 @@ def _discover(name, pages, limit, with_children=True):
         page_arg = f".after({after})" if after else ""
         q = f"business_discovery.username({name}){{followers_count,media_count,media.limit({limit}){page_arg}{{{fields}}}}}"
         try:
-            bd = get(IG_USER, {"fields": q})["business_discovery"]
+            bd = get(API.user, {"fields": q})["business_discovery"]
         except RuntimeError as exc:
             if with_children and "children" in str(exc).lower():
                 return _discover(name, pages, limit, with_children=False)
@@ -120,8 +117,31 @@ def benchmark(daily=False):
     return failures
 
 
+def use_backend(mode):
+    global API
+    if mode == "insights":
+        for i, api in enumerate(apis := ig_api.backends()):
+            try:
+                api.user  # resolves the account ID and checks the login
+                API = api
+                return
+            except ig_api.ApiError as exc:
+                if i + 1 == len(apis):
+                    raise
+                print(f"{api.name} login failed ({exc}); trying {apis[i + 1].name}", file=sys.stderr)
+    API = ig_api.facebook_backend()
+    if API is None:
+        print("benchmark needs the Facebook Login setup (IG_ACCESS_TOKEN + IG_USER_ID): "
+              "business_discovery is not available with Instagram Login. Skipped.", file=sys.stderr)
+        sys.exit(0)
+
+
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "insights"
+    if mode not in ("insights", "benchmark", "bench_daily"):
+        sys.exit(f"unknown mode {mode}")
+    use_backend(mode)
+    print(f"using {API.name} API")
     if mode == "insights":
         insights()
     elif mode == "benchmark":

@@ -41,6 +41,18 @@ Instagram @junglejuggle 자동 게시용 저장소예요. GitHub Actions가 30�
 
 ## 토큰 관리
 
-- Secrets에는 `IG_ACCESS_TOKEN`(60일 장기 토큰)과 `IG_USER_ID`가 들어 있어요.
-- **Check Instagram token** 워크플로가 매주 월요일 아침에 토큰을 점검해요. 만료가 10일 안으로 다가오면 실행이 실패로 표시되고 GitHub가 메일을 보내요.
-- 토큰을 갱신하려면 그래프 API 탐색기에서 같은 권한으로 토큰을 새로 만들고, 액세스 토큰 디버거에서 연장한 뒤 `IG_ACCESS_TOKEN` 값을 바꿔 주세요.
+게시는 두 가지 로그인 방식을 쓸 수 있어요. `IG_LOGIN_TOKEN`이 있으면 그걸 먼저 쓰고, 그 로그인이 거부되면 예전 방식으로 한 번 더 시도해요(`scripts/ig_api.py`).
+
+### 1. 인스타그램 로그인 방식 (권장, 페이스북 없이 게시)
+
+- Instagram API with Instagram Login(`graph.instagram.com`)이에요. 페이스북 페이지 연결이 필요 없고, 페이스북 계정에 보안 확인이 걸려도 게시가 멈추지 않아요.
+- 처음 한 번 설정: Meta 개발자 앱 대시보드 → **Instagram → API setup with Instagram business login** → 정글저글 계정 옆 **Generate token** → 인스타그램으로 로그인 → 나온 토큰을 Secrets의 `IG_LOGIN_TOKEN`에 넣어 주세요. 권한은 `instagram_business_basic`, `instagram_business_content_publish`, `instagram_business_manage_insights`가 필요해요.
+- `IG_LOGIN_USER_ID`는 비워 둬도 돼요(`/me`로 자동으로 찾음).
+- 토큰은 60일짜리예요. **Check Instagram token** 워크플로가 매주 월요일에 토큰을 갱신해요. 갱신 결과로 새 토큰이 나오면 `GH_SECRETS_TOKEN`(이 저장소에 "Secrets: Read and write" 권한을 준 GitHub fine-grained 토큰)이 있을 때 `IG_LOGIN_TOKEN`을 자동으로 바꿔 줘요. 없으면 60일 안에 대시보드에서 토큰을 다시 만들어 넣어 주세요.
+- 이 방식은 다른 계정 조회(business_discovery)를 지원하지 않아요. 그래서 경쟁 계정 벤치마크 수집은 아래 페이스북 방식 토큰이 있어야 돌아가고, 없으면 건너뛰어요.
+
+### 2. 페이스북 로그인 방식 (예전 방식, 벤치마크 수집용)
+
+- Secrets의 `IG_ACCESS_TOKEN`(60일 장기 토큰)과 `IG_USER_ID`를 써요. 인스타그램 로그인 토큰이 없거나 거부될 때 게시에도 쓰여요.
+- 만료가 10일 안으로 다가오면 **Check Instagram token** 실행이 실패로 표시되고 GitHub가 메일을 보내요.
+- 갱신하려면 그래프 API 탐색기에서 같은 권한으로 토큰을 새로 만들고, 액세스 토큰 디버거에서 연장한 뒤 `IG_ACCESS_TOKEN` 값을 바꿔 주세요.

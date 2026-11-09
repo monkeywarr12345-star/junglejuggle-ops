@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Publish due items from queue/ to Instagram via the Graph API.
+"""Publish due items from queue/ to Instagram.
+
+Uses the Instagram API with Instagram Login (IG_LOGIN_TOKEN, no Facebook needed) when set,
+and the older Facebook Login setup (IG_ACCESS_TOKEN + IG_USER_ID) as a fallback when the
+first one rejects the login (see scripts/ig_api.py).
 
 Each queue item is a JSON file in queue/. When its publish_at time has passed,
 it is published and moved to posted/ with the result recorded.
@@ -26,14 +30,14 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-API = "https://graph.facebook.com/v27.0"
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "queue"
 POSTED = ROOT / "posted"
 FAILED = ROOT / "failed"
 
-TOKEN = os.environ["IG_ACCESS_TOKEN"]
-IG_USER = os.environ["IG_USER_ID"]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import ig_api  # noqa: E402
+
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 DRY_RUN = os.environ.get("DRY_RUN", "") == "1"
@@ -54,32 +58,11 @@ def media_url(value):
     return f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{urllib.parse.quote(value)}"
 
 
-def call(method, path, params=None):
-    params = dict(params or {})
-    params["access_token"] = TOKEN
-    data = urllib.parse.urlencode(params).encode()
-    url = f"{API}/{path}"
-    if method == "GET":
-        req = urllib.request.Request(f"{url}?{data.decode()}")
-    else:
-        req = urllib.request.Request(url, data=data, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return json.load(resp)
-    except urllib.error.HTTPError as err:
-        body = err.read().decode(errors="replace")
-        try:
-            msg = json.loads(body).get("error", {}).get("message", body)
-        except ValueError:
-            msg = body
-        raise RuntimeError(f"{method} {path} failed ({err.code}): {msg}") from None
-
-
-def wait_ready(container_id, timeout=600):
+def wait_ready(api, container_id, timeout=600):
     """Poll a media container until Instagram has finished processing it."""
     deadline = time.time() + timeout
     while time.time() < deadline:
-        status = call("GET", container_id, {"fields": "status_code,status"})
+        status = api.call("GET", container_id, {"fields": "status_code,status"})
         code = status.get("status_code")
         if code == "FINISHED":
             return
@@ -117,7 +100,7 @@ def with_photo_credit(item, caption):
     return caption
 
 
-def create_container(item):
+def create_container(api, item):
     kind = item.get("type", "feed")
     caption = with_photo_credit(item, item.get("caption", "")) if item.get("type", "feed") != "story" else ""
 
@@ -128,8 +111,8 @@ def create_container(item):
             params["is_carousel_item"] = "true"
             if is_video:
                 params["media_type"] = "VIDEO"
-            cid = call("POST", f"{IG_USER}/media", params)["id"]
-            wait_ready(cid)
+            cid = api.call("POST", f"{api.user}/media", params)["id"]
+            wait_ready(api, cid)
             children.append(cid)
         if not 2 <= len(children) <= 10:
             raise ValueError("Carousel needs 2-10 items")
@@ -161,7 +144,23 @@ def create_container(item):
     else:
         raise ValueError(f"Unknown type {kind!r}")
 
-    return call("POST", f"{IG_USER}/media", params)["id"]
+    return api.call("POST", f"{api.user}/media", params)["id"]
+
+
+def publish_item(item):
+    """Try each configured login in turn. Only a rejected login moves on to the next one:
+    Instagram turns that request away, so nothing was posted and retrying elsewhere cannot double-post."""
+    apis = ig_api.backends()
+    for i, api in enumerate(apis):
+        try:
+            container = create_container(api, item)
+            wait_ready(api, container)
+            return api.call("POST", f"{api.user}/media_publish", {"creation_id": container})["id"], api.name
+        except Exception as exc:
+            if i + 1 < len(apis) and ig_api.is_auth_error(exc) and not any(k in str(exc) for k in BLOCK_SIGNS):
+                print(f"  {api.name} login rejected ({exc}); trying {apis[i + 1].name}", file=sys.stderr)
+                continue
+            raise
 
 
 def is_due(item, now):
@@ -194,10 +193,8 @@ def main():
             if DRY_RUN:
                 print("  dry run: skipped")
                 continue
-            container = create_container(item)
-            wait_ready(container)
-            media_id = call("POST", f"{IG_USER}/media_publish", {"creation_id": container})["id"]
-            item["_result"] = {"media_id": media_id, "published_at": now.isoformat()}
+            media_id, used = publish_item(item)
+            item["_result"] = {"media_id": media_id, "published_at": now.isoformat(), "api": used}
             (POSTED / path.name).write_text(json.dumps(item, ensure_ascii=False, indent=2), encoding="utf-8")
             path.unlink()
             published += 1

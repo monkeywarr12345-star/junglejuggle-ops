@@ -20,6 +20,9 @@ jobs:
 
       - name: Check token
         env:
+          IG_LOGIN_TOKEN: ${{ secrets.IG_LOGIN_TOKEN }}   # Instagram Login (no Facebook), used first
+          IG_LOGIN_USER_ID: ${{ secrets.IG_LOGIN_USER_ID }}
+          GH_SECRETS_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}   # optional: lets the refreshed token replace the secret
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: python scripts/check_token.py

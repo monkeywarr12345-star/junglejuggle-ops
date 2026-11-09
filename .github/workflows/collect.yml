@@ -34,6 +34,8 @@ jobs:
       - name: Collect
         timeout-minutes: 90
         env:
+          IG_LOGIN_TOKEN: ${{ secrets.IG_LOGIN_TOKEN }}   # Instagram Login (no Facebook), used first
+          IG_LOGIN_USER_ID: ${{ secrets.IG_LOGIN_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
