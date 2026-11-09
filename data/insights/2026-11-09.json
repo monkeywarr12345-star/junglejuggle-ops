@@ -14,7 +14,16 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfhSdHegK_E/",
    "timestamp": "2026-11-09T12:04:33+0000",
-   "insights_error": "GET 17995428438106686/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0,
+    "views": 77,
+    "ig_reels_avg_watch_time": 0
+   }
   },
   {
    "id": "17882792742548078",
@@ -25,7 +34,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/DfhFJLAnNng/",
    "timestamp": "2026-11-09T10:08:00+0000",
-   "insights_error": "GET 17882792742548078/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0
+   }
   },
   {
    "id": "17918351379522061",
@@ -36,7 +52,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/Dfgs-LXAZw_/",
    "timestamp": "2026-11-09T06:36:43+0000",
-   "insights_error": "GET 17918351379522061/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 0,
+    "comments": 0,
+    "total_interactions": 0
+   }
   },
   {
    "id": "18152856019513765",
@@ -47,7 +70,16 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfgX5aRjcDa/",
    "timestamp": "2026-11-09T03:32:57+0000",
-   "insights_error": "GET 18152856019513765/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0,
+    "views": 139,
+    "ig_reels_avg_watch_time": 0
+   }
   },
   {
    "id": "18484125805113574",
@@ -58,7 +90,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/DfgQontFLjs/",
    "timestamp": "2026-11-09T02:29:07+0000",
-   "insights_error": "GET 18484125805113574/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0
+   }
   },
   {
    "id": "18118249418595278",
@@ -69,7 +108,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/DfgHKHGirss/",
    "timestamp": "2026-11-09T01:06:16+0000",
-   "insights_error": "GET 18118249418595278/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0
+   }
   },
   {
    "id": "18131897452846751",
@@ -80,7 +126,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/DfgEtyDiZfG/",
    "timestamp": "2026-11-09T00:44:57+0000",
-   "insights_error": "GET 18131897452846751/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0
+   }
   },
   {
    "id": "18150019882565131",
@@ -91,7 +144,16 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfgANTFkvqI/",
    "timestamp": "2026-11-09T00:05:45+0000",
-   "insights_error": "GET 18150019882565131/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0,
+    "views": 160,
+    "ig_reels_avg_watch_time": 0
+   }
   },
   {
    "id": "18130931719883107",
@@ -102,7 +164,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/Dff2GswDN2M/",
    "timestamp": "2026-11-08T22:37:17+0000",
-   "insights_error": "GET 18130931719883107/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0
+   }
   },
   {
    "id": "18091523843253923",
@@ -113,7 +182,16 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DffB1WTDPCs/",
    "timestamp": "2026-11-08T15:01:08+0000",
-   "insights_error": "GET 18091523843253923/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0,
+    "views": 124,
+    "ig_reels_avg_watch_time": 0
+   }
   },
   {
    "id": "17914261983560092",
@@ -124,7 +202,14 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/DffBv8zChqW/",
    "timestamp": "2026-11-08T14:59:55+0000",
-   "insights_error": "GET 17914261983560092/insights failed via system (400): (#10) Application does not have permission for this action [OAuthException (10)]"
+   "insights": {
+    "reach": 0,
+    "saved": 0,
+    "shares": 0,
+    "likes": 1,
+    "comments": 0,
+    "total_interactions": 0
+   }
   }
  ]
 }
