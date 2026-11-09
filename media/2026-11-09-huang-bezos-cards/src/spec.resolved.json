@@ -1,0 +1,104 @@
+{
+ "id": "2026-11-09-huang-bezos-cards",
+ "format": "이슈 카드(사용자 지시, 젠슨 황 후속)",
+ "render_in_actions": true,
+ "music": {
+  "auto": "tense"
+ },
+ "experiment": {
+  "hashtag": "5개(사용자 지시로 실험 종료)"
+ },
+ "codes": {
+  "topic_major": "해외",
+  "angle": "비교",
+  "hook_cover": "숫자+질문",
+  "hook_first": "숫자",
+  "structure": "표지→가정 계산→변수→과거 사례(베이조스)→체크포인트→요약",
+  "devices": [
+   "다음 장 예고",
+   "과거 사례 비교",
+   "가정 표기",
+   "위/아래 고르기 댓글"
+  ]
+ },
+ "slides": [
+  {
+   "t": "photo_cover",
+   "tag": "엔비디아 · 가정 시나리오",
+   "photo": "media/2026-11-09-huang-bezos-cards/src/9e5b7213ffb2.jpg",
+   "title": "젠슨 황 이혼하면 110조?\n베이조스 땐 아마존 +16%",
+   "kw": "110조?",
+   "bubble": "이혼 신청은 확인 안 됨",
+   "bubble_top": 200,
+   "bubble_left": 72,
+   "credit": "Anderseidesvik / Wikimedia Commons"
+  },
+  {
+   "t": "item",
+   "n": "01 / 04 · 계산",
+   "photo": "media/2026-11-09-huang-bezos-cards/src/9e5b7213ffb2.jpg",
+   "title": "220조 원의\n절반이면 110조",
+   "kw": "110조",
+   "bullets": [
+    "포브스 추정 재산 약 1,600억 달러(약 220조 원)",
+    "캘리포니아는 결혼 중 생긴 재산을 원칙적으로 반반"
+   ],
+   "so": "전부 공동재산이라고 가정한 숫자임 →",
+   "src": "출처: Forbes, 머니투데이, 뉴데일리",
+   "credit": "Anderseidesvik / Wikimedia Commons"
+  },
+  {
+   "t": "item",
+   "n": "02 / 04 · 변수",
+   "photo": "media/2026-11-09-huang-bezos-cards/src/ae1156169417.jpg",
+   "title": "1985년 결혼,\n1993년 창업",
+   "kw": "1993년 창업",
+   "bullets": [
+    "엔비디아 지분은 결혼 후에 생긴 재산",
+    "결혼 전 재산·증여·상속은 따로, 외도는 분할 비율과 무관"
+   ],
+   "so": "그럼 주가는? 6년 전 비슷한 일이 있었음 →",
+   "src": "출처: 머니투데이, 뉴데일리",
+   "credit": "Kevin McCarthy / Wikimedia Commons"
+  },
+  {
+   "t": "item",
+   "n": "03 / 04 · 베이조스",
+   "photo": "media/2026-11-09-huang-bezos-cards/src/207c511d6fae.jpg",
+   "title": "주식은 넘겨도\n표는 지켰음",
+   "kw": "표는 지켰음",
+   "bullets": [
+    "2019년 합의: 전 배우자 몫 25%(아마존 지분 약 4%)",
+    "그 주식 의결권은 베이조스가 계속 행사"
+   ],
+   "so": "이혼 발표일 → 4월 말 아마존 주가 +16.1%",
+   "src": "출처: CNBC, TechSpot, Yahoo Finance",
+   "credit": "Jeff_Bezos'_iconic_laugh.jpg: Steve Jurvetson\nderivative wor / Wikimedia Commons"
+  },
+  {
+   "t": "item",
+   "n": "04 / 04 · 체크포인트",
+   "photo": "media/2026-11-09-huang-bezos-cards/src/b37a2ea23890.jpg",
+   "title": "엔비디아는\n이 두 가지",
+   "kw": "두 가지",
+   "bullets": [
+    "이사회 독립 조사가 경영에 영향을 주는지",
+    "실제 분할 땐 지분과 의결권이 같이 움직이는지"
+   ],
+   "so": "아마존 상승이 이혼 때문이란 뜻은 아님",
+   "src": "출처: 24/7 Wall St., CNBC",
+   "credit": "Sumeet Singh / Unsplash"
+  },
+  {
+   "t": "end",
+   "n": "끝",
+   "summary": "이혼 신청은 아직 없음\n→ 가정하면 110조\n→ 베이조스는 의결권 지킴\n→ 엔비디아는?",
+   "ctas": [
+    "💬 오늘 밤 종가, 186.64달러보다 위? 아래?",
+    "💾 美 장 열리기 전에 저장",
+    "📤 엔비디아 주주 친구에게"
+   ],
+   "sources": "원문을 재작성함. 투자 권유가 아닌 정보 제공 목적임. 이혼·재산분할은 확인된 사실이 아닌 가정 시나리오임.\n출처: Forbes, 머니투데이, 뉴데일리, CNBC, TechSpot, Yahoo Finance, 24/7 Wall St."
+  }
+ ]
+}

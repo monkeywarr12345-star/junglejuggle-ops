@@ -1,0 +1,74 @@
+{
+ "id": "2026-11-09-huang-bezos-reel",
+ "format": "릴스 v3(사용자 지시, 젠슨 황 후속)",
+ "render_in_actions": true,
+ "music": {
+  "auto": "tense"
+ },
+ "experiment": {
+  "hashtag": "5개(사용자 지시로 실험 종료)"
+ },
+ "codes": {
+  "topic_major": "해외",
+  "angle": "비교",
+  "hook_cover": "인물 사진+숫자 질문",
+  "hook_first": "숫자",
+  "structure": "가정 숫자→근거→과거 사례→주가→질문",
+  "devices": [
+   "카운트업",
+   "가정 표기",
+   "친구 태그 댓글"
+  ]
+ },
+ "scenes": [
+  {
+   "t": "hook",
+   "photo": "media/2026-11-09-huang-bezos-reel/src/9e5b7213ffb2.jpg",
+   "chip": "젠슨 황 · 가정 시나리오",
+   "title": "이혼하면\n110조?",
+   "kw": "110조?",
+   "sub": [
+    "이혼 신청은 확인 안 됨"
+   ],
+   "sec": 3.6,
+   "credit": "Anderseidesvik / Wikimedia Commons"
+  },
+  {
+   "t": "stat",
+   "chip": "포브스 추정 재산",
+   "big": "220조",
+   "title": "그 절반이\n110조",
+   "kw": "절반",
+   "sub": "캘리포니아는 결혼 중 재산 반반 원칙",
+   "sec": 3.8
+  },
+  {
+   "t": "text",
+   "chip": "2019년 베이조스",
+   "title": "주식은 넘겨도\n표는 지킴",
+   "kw": "표는 지킴",
+   "lines": [
+    "전 배우자 몫 25% (아마존 지분 약 4%)",
+    "의결권은 베이조스가 계속 행사"
+   ],
+   "sec": 3.8
+  },
+  {
+   "t": "stat",
+   "chip": "이혼 발표일 → 4월 말",
+   "big": "+16.1%",
+   "title": "아마존 주가",
+   "kw": "아마존",
+   "sub": "※ 이혼이 상승 이유란 뜻은 아님",
+   "sec": 3.6
+  },
+  {
+   "t": "cta",
+   "title": "엔비디아는\n어떨까?",
+   "kw": "엔비디아",
+   "sub": "볼 것: 이사회 조사 · 의결권 이동",
+   "note": "정보 제공 목적, 투자 권유 아님 · 이혼은 가정 시나리오 · 출처: Forbes·머니투데이·뉴데일리·CNBC·TechSpot·Yahoo Finance",
+   "sec": 3.4
+  }
+ ]
+}
