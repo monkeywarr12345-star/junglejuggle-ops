@@ -150,7 +150,7 @@ def photo_cover(s, root):
 
 def rank(s):
     # Comparison/ranking table: s["rows"] = [{"name","sub","value","pct"}...] sorted as they should appear.
-    # pct is a signed number; bar length is proportional to |pct|, minus = blue, plus = red (국내 증시 관례).
+    # pct is a signed number (optional "label" overrides the shown text, e.g. "+25% 넘게"); bar length is proportional to |pct|, minus = blue, plus = red (국내 증시 관례).
     rows = s["rows"]
     top = max(abs(float(r["pct"])) for r in rows) or 1
     hi = s.get("highlight")
@@ -167,7 +167,7 @@ def rank(s):
             f'<div style="min-width:250px"><div style="font-size:44px;font-weight:900">{esc(r["name"])}</div>'
             f'<div style="font-size:26px;color:{MUTED};margin-top:4px">{esc(r.get("sub",""))}</div></div>'
             f'<div style="flex:1;display:flex;align-items:center;gap:16px"><div style="height:34px;width:{width}px;background:{color};border-radius:8px"></div>'
-            f'<div style="font-size:40px;font-weight:900;color:{color}">{"+" if p > 0 else ""}{p:g}%</div></div></div>')
+            f'<div style="font-size:40px;font-weight:900;color:{color}">{esc(r["label"]) if r.get("label") else ("+" if p > 0 else "") + f"{p:g}%"}</div></div></div>')
     return f"""<div class="page" style="background:{PAPER};color:{INK};padding:80px 72px 72px;display:flex;flex-direction:column">
 <div><span class="tag">{esc(s.get('tag','순위'))}</span><span style="font-size:28px;color:{MUTED};margin-left:16px">{esc(s.get('n',''))}</span></div>
 <div style="margin-top:28px;font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.24">{with_kw(s['title'], s.get('kw'))}</div>
