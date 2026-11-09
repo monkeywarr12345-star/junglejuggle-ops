@@ -5,7 +5,9 @@ A content spec opts in with "render_in_actions": true.
   - Card specs (content/<id>.json): every slide "photo" that is an https URL is downloaded to
     media/<id>/src/, then scripts/render.py writes media/<id>/01.jpg ...
   - Reel specs (content/<id>.reel.json): a "music": {"url": ..., "license": ..., "title": ...} track is
-    downloaded to music/library/ and recorded in music/LICENSES.md, then scripts/make_reel.py writes
+    downloaded to music/library/ and recorded in music/LICENSES.md. A grade-B clip scene may give
+    "clip": {"url", "license", "license_page"}: the official video is downloaded to clips/ and logged in
+    media/<id>/src/clip_credits.json (A·C clips must already be in clips/inbox/). Then scripts/make_reel.py writes
     media/<id>/reel.mp4.
 A spec is re-rendered only when its content changes (hash stored in media/<id>/.rendered).
 Claude pulls the result, looks at the images, has them reviewed, and only then adds a queue item.
@@ -23,15 +25,18 @@ UA = "Mozilla/5.0 (compatible; junglejuggle-render/1.0; +https://github.com/monk
 PHOTO_TYPES = {"image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp"}
 
 
-def download(url, dest_dir, allowed):
+VIDEO_TYPES = {"video/mp4": ".mp4", "video/quicktime": ".mov", "video/webm": ".webm"}
+
+
+def download(url, dest_dir, allowed, max_mb=25):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=120) as resp:
         ctype = resp.headers.get_content_type()
         if ctype not in allowed:
             raise ValueError(f"{url}: unexpected content type {ctype}")
         data = resp.read()
-    if len(data) > 25 * 1024 * 1024:
-        raise ValueError(f"{url}: file larger than 25 MB")
+    if len(data) > max_mb * 1024 * 1024:
+        raise ValueError(f"{url}: file larger than {max_mb} MB")
     name = hashlib.sha1(url.encode()).hexdigest()[:12] + allowed[ctype]
     dest_dir.mkdir(parents=True, exist_ok=True)
     path = dest_dir / name
@@ -137,7 +142,21 @@ def render_reel(spec_path, spec):
         except Exception as exc:
             sc["photo"] = None
             notes.append(f"scene {i}: photo fallback to graphic ({exc})")
+    clip_log = []
+    for i, sc in enumerate(spec.get("scenes", []), 1):  # 클립 트랙 B등급: official/licensed video by direct URL
+        clip = sc.get("clip")
+        if sc.get("t") != "clip" or not isinstance(clip, dict):
+            continue
+        if sc.get("grade") != "B" or not clip.get("url") or not clip.get("license") or not clip.get("license_page"):
+            raise ValueError(f"scene {i}: a clip URL is only for grade B and needs url, license and license_page "
+                             "(A·C 등급 파일은 clips/inbox/에 올린 것만 쓴다)")
+        local = download(clip["url"], ROOT / "clips", VIDEO_TYPES, max_mb=150)
+        sc["clip"] = str(local.relative_to(ROOT))
+        clip_log.append({"scene": i, "file": sc["clip"], "url": clip["url"], "license": clip["license"],
+                         "license_page": clip["license_page"], "credit": sc.get("credit", "")})
     (out / "src").mkdir(parents=True, exist_ok=True)
+    if clip_log:
+        (out / "src" / "clip_credits.json").write_text(json.dumps(clip_log, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "src" / "reel_credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
     write_photo_credit(out, credits, spec.get("scenes", []))
     fb = out / "src" / "reel_photo_fallback.txt"

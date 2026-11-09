@@ -16,6 +16,13 @@ Scene types ("t"):
   list  "chip", "title", "kw", "rows": [["SK하이닉스", "-10.44%"], ...] (2-4 rows).
   text  "chip", "title", "kw", "lines": ["...", "..."] (2-3 short lines, shown as caption pills).
   cta   "title", "kw", "sub", "note" (small print: 정보 제공 목적 · 출처 ...).
+  clip  (클립 트랙, 2026-11-10) another creator's / official video shown INSIDE the 정글저글 frame:
+        {"t":"clip","clip":"clips/<file>.mp4","start":2.0,"sec":4.5,"title":"...","kw":"...",
+         "credit":"@원작자 · TikTok","grade":"A"|"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill)}. The title and credit line are drawn by Chromium,
+        the video is composited by ffmpeg into CLIP_BOX (about 39% of the screen), its own sound is dropped
+        (our library track plays instead). Limits enforced here: one clip scene <= 5 s, all clip scenes
+        <= 40% of the reel, "credit" and "grade" required. A clip scene may be the first scene (it is the
+        moving hook); the title is fully visible from frame 0.
 Every scene takes "sec" (default 3.5). Old v2 scenes ({"top","big","sub"}) are converted automatically.
 Numbers: a leading "-" is shown in blue and "+" in red (Korean market convention: red = up, blue = down).
 Audio ("music"): {"auto": mood} (default, rotating external free track, credit -> <out dir>/music_credit.txt),
@@ -37,6 +44,8 @@ ROOT = Path(__file__).resolve().parent.parent
 W, H, FPS = 1080, 1920, 30
 INK, VIOLET, BLUE, RED = "#0E0E12", "#6C3BFF", "#3D7BFF", "#FF3B30"
 OUT_T = 0.22  # length of the exit cut
+CLIP_BOX = (72, 640, 936, 820)  # x, y, w, h of the video window in a clip scene (above the 430 px bottom safe area)
+CLIP_MAX_SEC, CLIP_MAX_SHARE = 5.0, 0.40
 
 
 def esc(s):
@@ -145,6 +154,12 @@ def scene_html(sc, idx, n, sec):
               '<div class="shade" style="background:radial-gradient(circle at 50% 120%,rgba(108,59,255,.28),rgba(0,0,0,0) 60%)"></div>')
     if photo and sc.get("credit") and sc.get("credit_on_image"):  # credits go in the caption (user request 2026-11-09)
         note += f'<div class="credit">📷 {esc(sc["credit"])}</div>'
+    main = f'<div class="block">{chip}{order}{body}</div>'
+    if t == "clip":
+        x, y, w, h = CLIP_BOX
+        main = (f'<div class="ctop">{chip}<div class="title ctitle">{title}</div>'
+                f'<div class="ccredit">🎥 {esc(sc.get("credit", ""))}</div></div>'
+                f'<div class="clipbox" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px"></div>')
     segs = "".join(f'<div class="seg"><div class="fill" data-seg="{k}"></div></div>' for k in range(n))
     return f"""<html><head><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
@@ -174,10 +189,15 @@ body{{width:{W}px;height:{H}px;background:{INK};color:#fff;font-family:'Noto San
 .rv{{font-size:72px;font-weight:900;letter-spacing:-2px}}
 .save{{font-size:50px;font-weight:900;background:{VIOLET};padding:18px 36px;border-radius:999px}}
 .credit{{position:absolute;right:72px;bottom:430px;font-size:24px;color:rgba(255,255,255,.7)}}
+.ctop{{position:absolute;left:72px;right:72px;top:262px;height:360px;display:flex;flex-direction:column;
+  justify-content:flex-end;align-items:center;text-align:center;gap:14px}}
+.ctitle{{font-size:76px;letter-spacing:-2px;line-height:1.18}}
+.ccredit{{font-size:30px;font-weight:700;color:rgba(255,255,255,.82)}}
+.clipbox{{position:absolute;background:#000;box-shadow:0 0 0 4px rgba(255,255,255,.18)}}
 .note{{position:absolute;left:72px;right:72px;bottom:430px;text-align:center;font-size:28px;line-height:1.5;color:rgba(255,255,255,.72)}}
 </style></head><body><div id="stage">{bg}
 <div class="top"><div class="brand">정글저글</div><div class="bar">{segs}</div></div>
-<div class="block">{chip}{order}{body}</div>{note}</div>
+{main}{note}</div>
 <script>
 (()=>{{
 const IDX={idx}, SEC={sec}, OUT={OUT_T};
@@ -252,6 +272,51 @@ def pick_audio(spec, out, total, tmp):
     return ["-i", track]
 
 
+def check_clips(scenes, total):
+    """클립 트랙 limits (CLAUDE.md '클립 트랙'). Returns [(scene index, start time in reel, scene)]."""
+    clips, t = [], 0.0
+    for i, sc in enumerate(scenes):
+        sec = float(sc.get("sec", 3.5))
+        if sc.get("t") == "clip":
+            path = ROOT / sc.get("clip", "")
+            if not sc.get("clip") or not path.is_file():
+                raise ValueError(f"scene {i + 1}: clip file not found ({sc.get('clip')})")
+            if sc.get("grade") not in ("A", "B", "C"):
+                raise ValueError(f"scene {i + 1}: clip needs \"grade\": \"A\"|\"B\"|\"C\"")
+            if not str(sc.get("credit", "")).strip():
+                raise ValueError(f"scene {i + 1}: clip needs \"credit\" (원작자 표기)")
+            if sec > CLIP_MAX_SEC + 1e-6:
+                raise ValueError(f"scene {i + 1}: clip scene {sec}s > {CLIP_MAX_SEC}s")
+            clips.append((i, t, sc))
+        t += sec
+    share = sum(float(sc.get("sec", 3.5)) for _, _, sc in clips) / total if total else 0
+    if share > CLIP_MAX_SHARE + 1e-6:
+        raise ValueError(f"clip scenes are {share:.0%} of the reel (max {CLIP_MAX_SHARE:.0%})")
+    return clips
+
+
+def overlay_clips(silent, clips, tmp):
+    """Composite each clip into CLIP_BOX during its scene; the clip's own audio is never mapped."""
+    if not clips:
+        return silent
+    x, y, w, h = CLIP_BOX
+    args, chains, last = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent)], [], "[0:v]"
+    for k, (_, t0, sc) in enumerate(clips, 1):
+        sec = float(sc.get("sec", 3.5))
+        show = max(0.1, sec - OUT_T)
+        args += ["-ss", f"{float(sc.get('start', 0)):.2f}", "-t", f"{show:.2f}", "-i", str(ROOT / sc["clip"])]
+        fit = (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}" if sc.get("fit") == "cover" else
+               f"scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:color=black")
+        chains.append(f"[{k}:v]fps={FPS},{fit},setsar=1,setpts=PTS-STARTPTS+{t0:.3f}/TB[c{k}]")
+        nxt = f"[v{k}]"
+        chains.append(f"{last}[c{k}]overlay={x}:{y}:enable='between(t,{t0:.3f},{t0 + show:.3f})':eof_action=pass{nxt}")
+        last = nxt
+    out = Path(tmp) / "video_clips.mp4"
+    subprocess.run([*args, "-filter_complex", ";".join(chains), "-map", last, "-an", "-c:v", "libx264", "-preset", "veryfast",
+                    "-crf", "18", "-pix_fmt", "yuv420p", str(out)], check=True)
+    return out
+
+
 def main(spec_path, out_path):
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     raw = spec["scenes"]
@@ -259,6 +324,7 @@ def main(spec_path, out_path):
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
     total = sum(float(sc.get("sec", 3.5)) for sc in scenes)
+    clips = check_clips(scenes, total)
     with tempfile.TemporaryDirectory() as tmp:
         silent = Path(tmp) / "video.mp4"
         enc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-c:v", "mjpeg",
@@ -281,6 +347,7 @@ def main(spec_path, out_path):
         enc.stdin.close()
         if enc.wait() != 0:
             raise RuntimeError("ffmpeg video encode failed")
+        silent = overlay_clips(silent, clips, tmp)
         audio_in = pick_audio(spec, out, total, tmp)
         afilter = ["-af", f"loudnorm=I=-16:TP=-1.5:LRA=11,afade=t=in:d=0.3,afade=t=out:st={max(0.0, total - 1.2)}:d=1.2"]
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *audio_in, *afilter,

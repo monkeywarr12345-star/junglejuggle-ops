@@ -8,7 +8,11 @@ Compares the new caption with the last RECENT published/queued captions and fail
   - the same reaction word is used more than once in this post,
   - the hook (first line) or the comment prompt reuses the shape of a recent one (similar text),
   - the caption does not have exactly 5 hashtags including #정글저글 (user decision 2026-11-09),
-  - a body line other than the fixed footer (출처/정보 제공/@junglejuggle/해시태그) is nearly identical to a recent one.
+  - a body line other than the fixed footer (출처/정보 제공/@junglejuggle/해시태그) is nearly identical to a recent one,
+  - (클립 트랙, 2026-11-10) a reel spec has a "clip" scene but the caption lacks the line
+    '📹 영상: @원작자 (플랫폼 · 원본 링크 · 등급 X)', or a grade-C clip would make this KST month's grade-C reels
+    exceed CLIP_C_MONTHLY (counted from data/clips/ledger.json; Instagram drops accounts that post unoriginal
+    reels 10+ times in 30 days from recommendations).
 Extra files (card/reel specs) are checked for reaction words too, so on-screen copy also varies.
 """
 import difflib
@@ -22,7 +26,8 @@ RECENT = 6
 HASHTAGS = 5
 REACTIONS = ["ㄷㄷ", "ㅎㄷㄷ", "ㅋㅋ", "ㅠㅠ", "ㅜㅜ", "실화?", "실화임", "미쳤", "대박", "헐", "레전드", "소름", "역대급", "충격",
              "말이 됨?", "이게 맞나", "와우", "ㄹㅇ", "찐", "킹받", "어질어질", "후덜덜", "덜덜", "눈물", "웃프", "개꿀", "띠용", "😱", "🤯", "😳"]
-FOOTER = re.compile(r"(출처|정보 제공|투자 권유|@junglejuggle|^#|원문을 재작성|🎵|📷)")
+FOOTER = re.compile(r"(출처|정보 제공|투자 권유|@junglejuggle|^#|원문을 재작성|🎵|📷|📹)")
+CLIP_C_MONTHLY = 9
 
 
 def reactions_in(text):
@@ -74,6 +79,44 @@ def comment_prompt(text):
     return next((l for l in lines(text) if "정글러님들" in l or "댓글" in l), "")
 
 
+def clip_problems(cap, spec_paths):
+    """클립 트랙: on-screen credit must be repeated in the caption, and grade C stays under the monthly cap."""
+    from datetime import datetime, timedelta, timezone
+    out = []
+    for sp in spec_paths:
+        try:
+            spec = json.loads(Path(sp).read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for sc in spec.get("scenes", []):
+            if sc.get("t") != "clip":
+                continue
+            grade = sc.get("grade")
+            handle = (re.findall(r"@[\w.]+", sc.get("credit", "")) or [""])[0]
+            line = next((l for l in cap.splitlines() if l.strip().startswith("📹") and "영상" in l), "")
+            if not line:
+                out.append("클립 장면이 있는데 캡션에 '📹 영상: @원작자 (플랫폼 · 원본 링크 · 등급 X)' 줄이 없음")
+            else:
+                if handle and handle not in line:
+                    out.append(f"📹 줄에 화면 표기와 같은 원작자 {handle}가 없음")
+                if f"등급 {grade}" not in line:
+                    out.append(f"📹 줄에 '등급 {grade}' 표기가 없음")
+                if "http" not in line:
+                    out.append("📹 줄에 원본 링크가 없음")
+            if grade == "C":
+                kst = timezone(timedelta(hours=9))
+                month = datetime.now(kst).strftime("%Y-%m")
+                try:
+                    ledger = json.loads((ROOT / "data" / "clips" / "ledger.json").read_text(encoding="utf-8"))
+                except Exception:
+                    ledger = []
+                used = [e for e in ledger if e.get("grade") == "C" and str(e.get("posted_at", "")).startswith(month)
+                        and e.get("status") != "removed" and e.get("reel") != spec.get("id")]
+                if len(used) + 1 > CLIP_C_MONTHLY:
+                    out.append(f"이번 달 C등급 클립 릴스가 이미 {len(used)}개 — 월 {CLIP_C_MONTHLY}개 한도 초과(A·B 소재로 바꾸거나 글자 릴스로)")
+    return out
+
+
 def main(args):
     skip = {a.split("=", 1)[1] for a in args if a.startswith("--replaces=")}
     paths = [a for a in args if not a.startswith("--")]
@@ -106,6 +149,7 @@ def main(args):
         hit = copied_phrase(l, others)
         if hit:
             problems.append(f"경쟁 계정 문장과 6어절 이상 같음(베끼기 금지): '{hit[:40]}'")
+    problems += clip_problems(cap, paths[1:])
     tags = re.findall(r"(?<![\w#])#[^\s#]+", cap)
     if len(tags) != HASHTAGS:  # 2026-11-09 user decision: always 5 (Instagram's per-post cap since Dec 2025)
         problems.append(f"해시태그 {len(tags)}개 — 정확히 {HASHTAGS}개로(인물·기업 2 + 주제 2 + #정글저글, 인스타 상한 5개)")
