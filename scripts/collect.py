@@ -48,6 +48,7 @@ def insights():
                 data = api.get(f"{m['id']}/insights", {"metric": metrics}).get("data", [])
                 m["insights"] = {d["name"]: (d.get("values") or [{}])[0].get("value", d.get("total_value", {}).get("value")) for d in data}
                 m.pop("insights_error", None)
+                m["insights_via"] = api.name
                 break
             except RuntimeError as exc:
                 errors.append(str(exc))
