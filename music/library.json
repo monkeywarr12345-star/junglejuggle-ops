@@ -10,7 +10,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/hasenchat-all-my-life-male-pop-mix-d42ba7.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": true,
+  "score": 1187.2
  },
  {
   "source": "openverse/jamendo",
@@ -23,33 +25,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/quot-quot-4d61f2.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
- },
- {
-  "source": "openverse/jamendo",
-  "src_id": "ov-7c97f89c-0481-4be7-ae43-f9005fd5ae8a",
-  "title": "Ultraviolet - Trance Dance Electronic",
-  "artist": "Eddy J",
-  "license": "CC BY 3.0",
-  "license_url": "https://creativecommons.org/licenses/by/3.0/",
-  "page": "https://www.jamendo.com/track/1208876",
-  "released": null,
-  "mood": "upbeat",
-  "file": "music/library/upbeat/eddy-j-ultraviolet-trance-dance-electronic-e83af7.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
- },
- {
-  "source": "openverse/jamendo",
-  "src_id": "ov-3d2e7e62-6c95-4b2b-8e7a-2656ff20d794",
-  "title": "Super Power Pop Rock",
-  "artist": "Kara Square",
-  "license": "CC BY 3.0",
-  "license_url": "https://creativecommons.org/licenses/by/3.0/",
-  "page": "https://www.jamendo.com/track/1163228",
-  "released": null,
-  "mood": "upbeat",
-  "file": "music/library/upbeat/kara-square-super-power-pop-rock-2c5510.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": false,
+  "score": 256.7
  },
  {
   "source": "openverse/jamendo",
@@ -62,7 +40,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/seth-power-only-life-68e7d5.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": true,
+  "score": 1286.1
  },
  {
   "source": "openverse/jamendo",
@@ -75,7 +55,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/lilly-wolf-nightmare-277a3b.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": true,
+  "score": 1298.6
  },
  {
   "source": "openverse/jamendo",
@@ -88,7 +70,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/zero-project-lux-aeterna-9f427a.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": false,
+  "score": 240.7
  },
  {
   "source": "openverse/jamendo",
@@ -101,7 +85,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/eddy-j-dark-matter-dark-electronic-asian-207023.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": false,
+  "score": 130.6
  },
  {
   "source": "openverse/jamendo",
@@ -114,7 +100,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/pal-zoltan-illes-a-drama-of-hope-romantic-dramatic-d1fd34.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": false,
+  "score": 193.1
  },
  {
   "source": "openverse/jamendo",
@@ -127,7 +115,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/hardcore-scm-electron-wake-techno-f7c492.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": false,
+  "score": 150.9
  },
  {
   "source": "openverse/jamendo",
@@ -140,20 +130,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/pal-zoltan-illes-tainted-vision-dramatic-1f1120.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
- },
- {
-  "source": "openverse/jamendo",
-  "src_id": "ov-cc7cef99-e2c1-4f62-9a7b-a86cd7385e99",
-  "title": "Hidden Danger",
-  "artist": "Omega+",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "page": "https://www.jamendo.com/track/1231592",
-  "released": null,
-  "mood": "tense",
-  "file": "music/library/tense/omega-hidden-danger-3da63e.mp3",
-  "added": "2026-11-08T09:05:43+00:00"
+  "added": "2026-11-08T09:05:43+00:00",
+  "vocal": false,
+  "score": 183.2
  },
  {
   "source": "openverse/jamendo",
@@ -166,7 +145,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/professor-kliq-museum-fakeout-funk-db6e37.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 285.1
  },
  {
   "source": "openverse/jamendo",
@@ -179,7 +160,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/vienna-in-love-anima-pop-ink-baab43.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": true,
+  "score": 1275.9
  },
  {
   "source": "openverse/jamendo",
@@ -192,7 +175,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/rudyseb-india-funk-89d7f1.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 257.1
  },
  {
   "source": "openverse/jamendo",
@@ -205,33 +190,9 @@
   "released": null,
   "mood": "upbeat",
   "file": "music/library/upbeat/lollita-i-want-you-pop-rock-remix-4ae23d.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
- },
- {
-  "source": "openverse/jamendo",
-  "src_id": "ov-d6cf7913-793d-4a5f-8944-6a301e153a5e",
-  "title": "The Dance Of The Electrons",
-  "artist": "SBUT",
-  "license": "CC BY 2.0",
-  "license_url": "https://creativecommons.org/licenses/by/2.0/de/",
-  "page": "https://www.jamendo.com/track/499186",
-  "released": null,
-  "mood": "upbeat",
-  "file": "music/library/upbeat/sbut-the-dance-of-the-electrons-0082f8.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
- },
- {
-  "source": "openverse/jamendo",
-  "src_id": "ov-f28a9145-4ff8-4fdd-b4b7-b6f6bdce8178",
-  "title": "ADRIAN SANCHEZ THONY THOMAS - FURRY FUNK",
-  "artist": "Adrian Sanchez DJ",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "page": "https://www.jamendo.com/track/432009",
-  "released": null,
-  "mood": "upbeat",
-  "file": "music/library/upbeat/adrian-sanchez-dj-adrian-sanchez-thony-thomas-furr-37e68e.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": true,
+  "score": 1311.8
  },
  {
   "source": "openverse/jamendo",
@@ -244,7 +205,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/jahzzar-cinematic-d284da.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 190.3
  },
  {
   "source": "openverse/jamendo",
@@ -257,7 +220,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/arnaud-cond-posthumus-regnum-trailer-edit-e694aa.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 0
  },
  {
   "source": "openverse/jamendo",
@@ -270,7 +235,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/digital-content-project-cinematic-hip-hop-1-1f2a8f.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 179.2
  },
  {
   "source": "openverse/jamendo",
@@ -283,7 +250,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/e-erkut-dark-moment-dark-epic-trailer-1fc0ec.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 195.4
  },
  {
   "source": "openverse/jamendo",
@@ -296,7 +265,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/digital-content-project-cinematic-hip-hop-2-59c41a.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 153.2
  },
  {
   "source": "openverse/jamendo",
@@ -309,7 +280,9 @@
   "released": null,
   "mood": "tense",
   "file": "music/library/tense/zero-project-the-return-of-the-king-7d6c42.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 161.2
  },
  {
   "source": "openverse/jamendo",
@@ -322,7 +295,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/jahzzar-lounge-efb76d.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 260.3
  },
  {
   "source": "openverse/jamendo",
@@ -335,7 +310,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/mazelo-nostra-bang-bang-lazy-hammock-chillout-mix--934b14.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 0
  },
  {
   "source": "openverse/jamendo",
@@ -348,7 +325,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/mazelo-nostra-jazz-cantina-7cfee6.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 0
  },
  {
   "source": "openverse/jamendo",
@@ -361,7 +340,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/astroshroom-lofi-house-480aed.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 183.1
  },
  {
   "source": "openverse/jamendo",
@@ -374,7 +355,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/stellar-art-wars-free-license-group-8-acoustic-gui-9d8070.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 176.3
  },
  {
   "source": "openverse/jamendo",
@@ -387,7 +370,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/adele-vivari-parler-l-invisible-ambient-piano-requ-1c75b7.mp3",
-  "added": "2026-11-08T09:08:59+00:00"
+  "added": "2026-11-08T09:08:59+00:00",
+  "vocal": false,
+  "score": 81.8
  },
  {
   "source": "jamendo",
@@ -400,7 +385,9 @@
   "released": "2014-10-23",
   "mood": "upbeat",
   "file": "music/library/upbeat/kellee-maize-in-tune-j-glaze-remix-e809e0.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1349.3
  },
  {
   "source": "jamendo",
@@ -413,7 +400,9 @@
   "released": "2015-04-01",
   "mood": "upbeat",
   "file": "music/library/upbeat/lollita-dance-tonight-571c31.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1316.1
  },
  {
   "source": "jamendo",
@@ -426,7 +415,9 @@
   "released": "2009-05-28",
   "mood": "upbeat",
   "file": "music/library/upbeat/jonay-skydiving-feat-jasmine-kara-c72b0c.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1331.9
  },
  {
   "source": "jamendo",
@@ -439,7 +430,9 @@
   "released": "2015-06-23",
   "mood": "upbeat",
   "file": "music/library/upbeat/david-amber-gnarly-feat-devyn-rush-378c83.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1303.7
  },
  {
   "source": "jamendo",
@@ -452,7 +445,9 @@
   "released": "2015-04-01",
   "mood": "upbeat",
   "file": "music/library/upbeat/manhat10-dance-with-me-be4a20.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1316.6
  },
  {
   "source": "jamendo",
@@ -465,7 +460,9 @@
   "released": "2024-06-03",
   "mood": "upbeat",
   "file": "music/library/upbeat/tom-orlando-love-you-anymore-feat-seven-484025.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1322.1
  },
  {
   "source": "jamendo",
@@ -478,7 +475,9 @@
   "released": "2014-12-29",
   "mood": "tense",
   "file": "music/library/tense/pokki-dj-born-free-b5b987.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 318.7
  },
  {
   "source": "jamendo",
@@ -491,7 +490,9 @@
   "released": "2023-10-21",
   "mood": "tense",
   "file": "music/library/tense/daniel-bautista-symphony-no-7-in-g-minor-op-32-mov-a501c1.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 181.1
  },
  {
   "source": "jamendo",
@@ -504,7 +505,9 @@
   "released": "2022-09-16",
   "mood": "tense",
   "file": "music/library/tense/jamvortix-mirage-c2368d.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 125.7
  },
  {
   "source": "jamendo",
@@ -517,7 +520,9 @@
   "released": "2015-07-13",
   "mood": "tense",
   "file": "music/library/tense/muciojad-time-to-army-b06467.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 200.3
  },
  {
   "source": "jamendo",
@@ -530,7 +535,9 @@
   "released": "2010-12-23",
   "mood": "tense",
   "file": "music/library/tense/zero-project-lux-aeterna-b844db.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 240.7
  },
  {
   "source": "jamendo",
@@ -543,7 +550,9 @@
   "released": "2017-01-01",
   "mood": "tense",
   "file": "music/library/tense/jos-montoya-ignis-dei-96c1a4.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 143.3
  },
  {
   "source": "jamendo",
@@ -556,7 +565,9 @@
   "released": "2015-05-27",
   "mood": "chill",
   "file": "music/library/chill/studybreak-choices-2263f0.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 290.2
  },
  {
   "source": "jamendo",
@@ -569,7 +580,9 @@
   "released": "2013-10-13",
   "mood": "chill",
   "file": "music/library/chill/intoxicated-piano-mr-mrs-rains-802107.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1282.0
  },
  {
   "source": "jamendo",
@@ -582,7 +595,9 @@
   "released": "2015-05-27",
   "mood": "chill",
   "file": "music/library/chill/studybreak-waves-d127f9.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1293.6
  },
  {
   "source": "jamendo",
@@ -595,7 +610,9 @@
   "released": "2009-11-24",
   "mood": "chill",
   "file": "music/library/chill/snowflake-ccmixter-winter-sunlight-airtone-feat-le-f2956a.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": true,
+  "score": 1327.6
  },
  {
   "source": "openverse/jamendo",
@@ -608,7 +625,9 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/sbut-lounge-intro-edit-1dfe83.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 221.0
  },
  {
   "source": "openverse/jamendo",
@@ -621,6 +640,458 @@
   "released": null,
   "mood": "chill",
   "file": "music/library/chill/luke-mckenty-after-work-chillout-a9dafe.mp3",
-  "added": "2026-11-08T13:01:45+00:00"
+  "added": "2026-11-08T13:01:45+00:00",
+  "vocal": false,
+  "score": 198.6
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-366748",
+  "title": "Make Believe",
+  "artist": "Felixjd",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/366748",
+  "released": "2009-06-15",
+  "vocal": true,
+  "score": 1347.5,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/felixjd-make-believe-aa349a.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1215808",
+  "title": "Dreams",
+  "artist": "Manhat10",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1215808",
+  "released": "2015-04-01",
+  "vocal": true,
+  "score": 1344.7,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/manhat10-dreams-822c17.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1187780",
+  "title": "I Want You",
+  "artist": "Neon NiteClub",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1187780",
+  "released": "2015-01-20",
+  "vocal": true,
+  "score": 1342.0,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/neon-niteclub-i-want-you-d485c8.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-26742",
+  "title": "Beauty",
+  "artist": "Tryad",
+  "license": "CC BY-SA 2.5",
+  "license_url": "http://creativecommons.org/licenses/by-sa/2.5/",
+  "page": "https://www.jamendo.com/track/26742",
+  "released": "2006-12-21",
+  "vocal": true,
+  "score": 1332.8,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/tryad-beauty-ebd683.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1093607",
+  "title": "Stitches ft. Shane MauX",
+  "artist": "Lilly Wolf",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1093607",
+  "released": "2014-01-05",
+  "vocal": true,
+  "score": 1331.2,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/lilly-wolf-stitches-ft-shane-maux-85ddad.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1215804",
+  "title": "Take it",
+  "artist": "Manhat10",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1215804",
+  "released": "2015-04-01",
+  "vocal": true,
+  "score": 1330.1,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/manhat10-take-it-d85892.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-135660",
+  "title": " Over Me",
+  "artist": "Jemex",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/135660",
+  "released": "2008-02-13",
+  "vocal": true,
+  "score": 1327.5,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/jemex-over-me-496359.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1093615",
+  "title": "Everybody On Your Block",
+  "artist": "Lilly Wolf",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1093615",
+  "released": "2014-01-06",
+  "vocal": true,
+  "score": 1326.6,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/lilly-wolf-everybody-on-your-block-d4c7fc.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1483585",
+  "title": "Casanova",
+  "artist": "Seth Power",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1483585",
+  "released": "2017-10-03",
+  "vocal": true,
+  "score": 1325.7,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/seth-power-casanova-568370.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1305161",
+  "title": "Give U My Name",
+  "artist": "Jyant",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1305161",
+  "released": "2016-01-02",
+  "vocal": true,
+  "score": 1324.6,
+  "mood": "upbeat",
+  "file": "music/library/upbeat/jyant-give-u-my-name-4c72ce.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1204669",
+  "title": "What Is Love",
+  "artist": "Melanie Ungar",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1204669",
+  "released": "2015-03-03",
+  "vocal": true,
+  "score": 1383.9,
+  "mood": "tense",
+  "file": "music/library/tense/melanie-ungar-what-is-love-7872ad.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1141572",
+  "title": "Love Will Come Back Again",
+  "artist": "Chaz Robinson",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1141572",
+  "released": "2014-08-01",
+  "vocal": true,
+  "score": 1378.8,
+  "mood": "tense",
+  "file": "music/library/tense/chaz-robinson-love-will-come-back-again-f6eb10.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1165005",
+  "title": "Boys, Girls, Toys & Words",
+  "artist": "Modern Pitch",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1165005",
+  "released": "2014-11-06",
+  "vocal": true,
+  "score": 1369.4,
+  "mood": "tense",
+  "file": "music/library/tense/modern-pitch-boys-girls-toys-words-fb1ecf.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-172031",
+  "title": "For Your Love (feat. Rashani)",
+  "artist": "Jonay",
+  "license": "CC BY 2.5",
+  "license_url": "http://creativecommons.org/licenses/by/2.5/se/",
+  "page": "https://www.jamendo.com/track/172031",
+  "released": "2008-05-21",
+  "vocal": true,
+  "score": 1341.4,
+  "mood": "tense",
+  "file": "music/library/tense/jonay-for-your-love-feat-rashani-c0c851.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1321406",
+  "title": "Horizons",
+  "artist": "Train Room",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1321406",
+  "released": "2016-02-24",
+  "vocal": true,
+  "score": 1336.0,
+  "mood": "tense",
+  "file": "music/library/tense/train-room-horizons-c2652a.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-938331",
+  "title": "I'll Wait",
+  "artist": "Jonathan Dimmel",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/938331",
+  "released": "2012-05-14",
+  "vocal": true,
+  "score": 1331.6,
+  "mood": "tense",
+  "file": "music/library/tense/jonathan-dimmel-i-ll-wait-499636.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-989871",
+  "title": "In Tune",
+  "artist": "Kellee Maize",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/989871",
+  "released": "2012-12-18",
+  "vocal": true,
+  "score": 1331.2,
+  "mood": "tense",
+  "file": "music/library/tense/kellee-maize-in-tune-5a51c0.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1093608",
+  "title": "Strictly Luxury",
+  "artist": "Lilly Wolf",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1093608",
+  "released": "2014-01-05",
+  "vocal": true,
+  "score": 1324.3,
+  "mood": "tense",
+  "file": "music/library/tense/lilly-wolf-strictly-luxury-3d20c5.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-938327",
+  "title": "Have I Wasted",
+  "artist": "Jonathan Dimmel",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/938327",
+  "released": "2012-05-14",
+  "vocal": true,
+  "score": 1321.6,
+  "mood": "tense",
+  "file": "music/library/tense/jonathan-dimmel-have-i-wasted-93aa66.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1255497",
+  "title": "Lollita On Flawless",
+  "artist": "Lollita",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1255497",
+  "released": "2015-07-29",
+  "vocal": true,
+  "score": 1317.2,
+  "mood": "tense",
+  "file": "music/library/tense/lollita-lollita-on-flawless-de559e.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-26736",
+  "title": "Struttin'",
+  "artist": "Tryad",
+  "license": "CC BY-SA 2.5",
+  "license_url": "http://creativecommons.org/licenses/by-sa/2.5/",
+  "page": "https://www.jamendo.com/track/26736",
+  "released": "2006-12-21",
+  "vocal": true,
+  "score": 1354.5,
+  "mood": "chill",
+  "file": "music/library/chill/tryad-struttin-196415.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1103000",
+  "title": "Lollita Don't Let Me Go feat. Youngbirdy",
+  "artist": "Lollita",
+  "license": "CC BY-SA 2.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/2.0/fr/",
+  "page": "https://www.jamendo.com/track/1103000",
+  "released": "2014-02-13",
+  "vocal": true,
+  "score": 1347.0,
+  "mood": "chill",
+  "file": "music/library/chill/lollita-lollita-don-t-let-me-go-feat-youngbirdy-eb8415.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1174817",
+  "title": "Leave and Never Look Back",
+  "artist": "madelyn munsell",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1174817",
+  "released": "2014-12-17",
+  "vocal": true,
+  "score": 1338.2,
+  "mood": "chill",
+  "file": "music/library/chill/madelyn-munsell-leave-and-never-look-back-d33b10.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1227197",
+  "title": "All I Ever Wanted",
+  "artist": "Devon Elizabeth",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1227197",
+  "released": "2015-05-06",
+  "vocal": true,
+  "score": 1319.1,
+  "mood": "chill",
+  "file": "music/library/chill/devon-elizabeth-all-i-ever-wanted-5de7a6.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-875005",
+  "title": "look up",
+  "artist": "This Public Life",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/875005",
+  "released": "2011-11-27",
+  "vocal": true,
+  "score": 1318.2,
+  "mood": "chill",
+  "file": "music/library/chill/this-public-life-look-up-f1c2bd.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1111313",
+  "title": "Behind The Walls",
+  "artist": "Non Camera",
+  "license": "CC BY 3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "page": "https://www.jamendo.com/track/1111313",
+  "released": "2014-03-17",
+  "vocal": true,
+  "score": 1308.4,
+  "mood": "chill",
+  "file": "music/library/chill/non-camera-behind-the-walls-a9c33c.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-2037486",
+  "title": "Même",
+  "artist": "Paul &amp; Manuel",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/2037486",
+  "released": "2023-06-17",
+  "vocal": true,
+  "score": 1307.1,
+  "mood": "chill",
+  "file": "music/library/chill/paul-amp-manuel-m-me-8029c0.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1358662",
+  "title": "From Here",
+  "artist": "Danielle Helena",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1358662",
+  "released": "2016-07-07",
+  "vocal": true,
+  "score": 1303.2,
+  "mood": "chill",
+  "file": "music/library/chill/danielle-helena-from-here-c8a2d4.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-780055",
+  "title": "All the lies",
+  "artist": "Sean Hodson",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/780055",
+  "released": "2011-05-18",
+  "vocal": true,
+  "score": 1253.5,
+  "mood": "chill",
+  "file": "music/library/chill/sean-hodson-all-the-lies-318bce.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1033255",
+  "title": "A Candle That's Burning",
+  "artist": "Bayard Russell",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1033255",
+  "released": "2013-05-13",
+  "vocal": true,
+  "score": 1243.8,
+  "mood": "chill",
+  "file": "music/library/chill/bayard-russell-a-candle-that-s-burning-f497f2.mp3",
+  "added": "2026-11-09T00:53:38+00:00"
  }
 ]
