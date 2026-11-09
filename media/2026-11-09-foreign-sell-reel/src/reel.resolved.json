@@ -1,0 +1,85 @@
+{
+ "id": "2026-11-09-foreign-sell-reel",
+ "format": "릴스 v3 (21:00, 릴스 구조 실험 B: 질문 hook + Q&A)",
+ "render_in_actions": true,
+ "music": {
+  "auto": "tense"
+ },
+ "experiment": {
+  "reel_structure": "B",
+  "hashtag": "5개"
+ },
+ "codes": {
+  "topic_major": "증시",
+  "angle": "내 돈 영향",
+  "hook_cover": "질문",
+  "hook_first": "숫자",
+  "structure": "Q&A",
+  "devices": [
+   "카운트업",
+   "고르기 댓글"
+  ]
+ },
+ "scenes": [
+  {
+   "t": "hook",
+   "photo": "media/2026-11-09-foreign-sell-reel/src/28443fc62716.jpg",
+   "chip": "코스피 · 11월 9일",
+   "title": "외국인,\n얼마나 팔았나?",
+   "kw": "얼마나",
+   "sub": [
+    "7거래일 연속 '팔자'"
+   ],
+   "sec": 3.6,
+   "credit": "Hakan Nural / Unsplash"
+  },
+  {
+   "t": "stat",
+   "chip": "A. 7거래일 누적 순매도",
+   "big": "12조+",
+   "title": "7일 내내\n'팔자'",
+   "kw": "팔자",
+   "sub": "매체 집계 12.8조~13.1조",
+   "sec": 3.8
+  },
+  {
+   "t": "stat",
+   "chip": "코스피 종가 5018.85",
+   "big": "-0.81%",
+   "title": "2월 이후\n최저 종가",
+   "kw": "최저",
+   "sub": "장중 +2%대까지 갔다가 밀림",
+   "sec": 3.6
+  },
+  {
+   "t": "text",
+   "chip": "Q. 누가 받쳤나?",
+   "title": "기관이\n7천억 넘게 삼",
+   "kw": "기관",
+   "lines": [
+    "외국인·개인은 나란히 '팔자'",
+    "종가 5000선은 지킴"
+   ],
+   "sec": 3.6
+  },
+  {
+   "t": "text",
+   "chip": "Q. 이번 주 볼 것은?",
+   "title": "美 물가\n+ AI 실적",
+   "kw": "물가",
+   "lines": [
+    "美 10월 물가(CPI·PPI) 발표",
+    "코어위브 실적 (11일 새벽)"
+   ],
+   "sec": 3.4
+  },
+  {
+   "t": "cta",
+   "title": "외국인,\n언제 돌아올까?",
+   "kw": "돌아올까",
+   "sub": "환율·물가·실적 중 골라줘",
+   "note": "정보 제공 목적, 투자 권유 아님 · 출처: 이투데이·뉴스1·헤럴드경제·미디어펜·알파경제",
+   "sec": 3.4
+  }
+ ]
+}
