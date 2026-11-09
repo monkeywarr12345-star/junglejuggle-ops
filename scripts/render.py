@@ -148,7 +148,35 @@ def photo_cover(s, root):
 <span class="wm" style="color:#fff">정글저글</span><span>{credit}</span></div></div>"""
 
 
-RENDERERS = {"list_cover": list_cover, "item": item, "end": end, "ledger": ledger}
+def rank(s):
+    # Comparison/ranking table: s["rows"] = [{"name","sub","value","pct"}...] sorted as they should appear.
+    # pct is a signed number; bar length is proportional to |pct|, minus = blue, plus = red (국내 증시 관례).
+    rows = s["rows"]
+    top = max(abs(float(r["pct"])) for r in rows) or 1
+    hi = s.get("highlight")
+    out = []
+    for i, r in enumerate(rows, 1):
+        p = float(r["pct"])
+        color = "#FF3B30" if p > 0 else "#2F6BFF"
+        width = max(int(330 * abs(p) / top), 8)
+        bg = "#fff" if r["name"] != hi else "#EDE6FF"
+        border = f"border:4px solid {VIOLET};" if r["name"] == hi else "border:4px solid transparent;"
+        out.append(
+            f'<div style="display:flex;align-items:center;gap:22px;background:{bg};{border}border-radius:22px;padding:16px 28px">'
+            f'<div style="font-size:34px;font-weight:900;color:{MUTED};min-width:44px">{i}</div>'
+            f'<div style="min-width:250px"><div style="font-size:44px;font-weight:900">{esc(r["name"])}</div>'
+            f'<div style="font-size:26px;color:{MUTED};margin-top:4px">{esc(r.get("sub",""))}</div></div>'
+            f'<div style="flex:1;display:flex;align-items:center;gap:16px"><div style="height:34px;width:{width}px;background:{color};border-radius:8px"></div>'
+            f'<div style="font-size:40px;font-weight:900;color:{color}">{"+" if p > 0 else ""}{p:g}%</div></div></div>')
+    return f"""<div class="page" style="background:{PAPER};color:{INK};padding:80px 72px 72px;display:flex;flex-direction:column">
+<div><span class="tag">{esc(s.get('tag','순위'))}</span><span style="font-size:28px;color:{MUTED};margin-left:16px">{esc(s.get('n',''))}</span></div>
+<div style="margin-top:28px;font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.24">{with_kw(s['title'], s.get('kw'))}</div>
+<div style="font-size:28px;color:{MUTED};margin-top:14px">{esc(s.get('basis',''))}</div>
+<div style="margin-top:36px;display:flex;flex-direction:column;gap:16px">{''.join(out)}</div>
+<div style="margin-top:auto;display:flex;justify-content:space-between;font-size:26px;color:{MUTED}"><span class="wm" style="font-size:30px;color:{INK}">정글저글</span><span>{esc(s.get('src',''))}</span></div></div>"""
+
+
+RENDERERS = {"list_cover": list_cover, "item": item, "end": end, "ledger": ledger, "rank": rank}
 
 
 def main(spec_path, out_dir):
