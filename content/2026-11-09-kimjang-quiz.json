@@ -21,11 +21,16 @@
   {
    "t": "photo_cover",
    "photo": {
-    "query": "whole napa cabbage",
+    "query": "Napa cabbage",
     "queries": [
-     "napa cabbages stacked market",
-     "cabbage harvest field",
-     "chinese cabbage heads"
+     "Chinese cabbage harvest",
+     "Kimchi cabbage",
+     "Baechu"
+    ],
+    "sources": [
+     "wikimedia",
+     "openverse",
+     "pixabay"
     ]
    },
    "title": "배추 vs 새우젓\n1년 새 값이 오른 건\n어느 쪽일까?",
