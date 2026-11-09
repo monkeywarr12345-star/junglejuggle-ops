@@ -3,7 +3,7 @@
  "format": "이슈 카드(사용자 지시, 젠슨 황 후속)",
  "render_in_actions": true,
  "music": {
-  "auto": "tense"
+  "file": "music/library/tense/train-room-horizons-c2652a.mp3"
  },
  "experiment": {
   "hashtag": "5개(사용자 지시로 실험 종료)"
@@ -64,16 +64,16 @@
   {
    "t": "item",
    "n": "03 / 04 · 베이조스",
-   "photo": "media/2026-11-09-huang-bezos-cards/src/207c511d6fae.jpg",
+   "photo": "media/2026-11-09-huang-bezos-cards/src/9f45786d7106.jpg",
    "title": "주식은 넘겨도\n표는 지켰음",
    "kw": "표는 지켰음",
    "bullets": [
     "2019년 합의: 전 배우자 몫은 부부 주식의 25%(아마존 지분 약 4%)",
-    "그 주식 의결권은 베이조스가 계속 행사"
+    "합의 때 그 주식 의결권은 베이조스에게 넘김"
    ],
    "so": "발표일 → 4월 말 아마존 +16.1% (이혼 영향이란 근거는 없음)",
    "src": "출처: CNBC, TechSpot, Yahoo Finance",
-   "credit": "Jeff_Bezos'_iconic_laugh.jpg: Steve Jurvetson\nderivative wor / Wikimedia Commons"
+   "credit": "James Duncan Davidson from Portland, USA / Wikimedia Commons"
   },
   {
    "t": "item",
