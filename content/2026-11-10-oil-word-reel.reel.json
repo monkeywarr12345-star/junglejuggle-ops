@@ -1,0 +1,60 @@
+{
+ "id": "2026-11-10-oil-word-reel",
+ "format": "릴스 v3 (07:30 클립 슬롯 → 클립 후보 없음, 글자 릴스 / 훅 4종: 정체 퀴즈)",
+ "render_in_actions": true,
+ "music": {"auto": "upbeat"},
+ "experiment": {"hook4": "정체 퀴즈", "clip_vs_text": "글자 릴스", "hashtag": "5개"},
+ "codes": {
+  "topic_major": "해외",
+  "angle": "내 돈 영향",
+  "hook_cover": "정체 퀴즈",
+  "hook_first": "질문",
+  "structure": "Q&A",
+  "devices": ["카운트업", "숫자 맞히기 댓글"]
+ },
+ "scenes": [
+  {
+   "t": "hook",
+   "photo": {"query": "oil pump jack", "queries": ["oil pumpjack sunset", "oil refinery", "oil barrels"]},
+   "chip": "밤사이 해외 · 11월 9일",
+   "title": "유가 5% 끌어내린\n한마디의 정체는?",
+   "kw": "정체",
+   "sub": ["힌트: 美 대통령"],
+   "sec": 3.4
+  },
+  {
+   "t": "stat",
+   "chip": "국제유가",
+   "big": "-5%",
+   "title": "브렌트유\n하루 낙폭",
+   "kw": "낙폭",
+   "sub": ["배럴당 90달러대 초반", "WTI도 4%대 하락"],
+   "sec": 2.9
+  },
+  {
+   "t": "text",
+   "chip": "정답",
+   "title": "트럼프의\n'이란' 한마디",
+   "kw": "트럼프",
+   "lines": ["'강력한 합의에 서명하면'", "재공격 가능성 매우 낮다", "8일 CNN 전화 인터뷰"],
+   "sec": 3.2
+  },
+  {
+   "t": "stat",
+   "chip": "뉴욕증시 9일",
+   "big": "+2.15%",
+   "title": "다우도\n하루 만에 반등",
+   "kw": "반등",
+   "sub": ["S&P500 +2.35% · 나스닥 +2.74%"],
+   "sec": 2.9
+  },
+  {
+   "t": "cta",
+   "title": "내 주유비엔\n언제 올까?",
+   "kw": "주유비",
+   "sub": "자세한 건 캡션에",
+   "note": "정보 제공 목적, 투자 권유 아님 · 출처: 뉴스핌·지이코노미·블록미디어·Yahoo Finance",
+   "sec": 2.6
+  }
+ ]
+}
