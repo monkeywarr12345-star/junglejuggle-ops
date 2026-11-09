@@ -34,6 +34,11 @@ ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "queue"
 POSTED = ROOT / "posted"
 FAILED = ROOT / "failed"
+SKIPPED = ROOT / "skipped"
+# Stories paused until 1,000 followers (2026-11-10 user decision): with 0 followers they reach no one
+# but double the number of API posts per day, which keeps tripping Instagram's "API access blocked".
+# Story items found in queue/ are moved to skipped/ unpublished. Set to False to turn stories back on.
+STORIES_PAUSED = True
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ig_api  # noqa: E402
@@ -188,6 +193,13 @@ def main():
             if (POSTED / path.name).exists():  # already published by an earlier run: never post twice
                 print(f"  skip {path.name}: already in posted/")
                 path.unlink()
+                continue
+            if STORIES_PAUSED and item.get("type") == "story":
+                SKIPPED.mkdir(exist_ok=True)
+                item["_skipped"] = {"reason": "stories paused until 1,000 followers", "at": now.isoformat()}
+                (SKIPPED / path.name).write_text(json.dumps(item, ensure_ascii=False, indent=2), encoding="utf-8")
+                path.unlink()
+                print(f"  skip {path.name}: stories paused (moved to skipped/)")
                 continue
             print(f"Publishing {path.name} ({item.get('type', 'feed')})")
             if DRY_RUN:
