@@ -167,6 +167,10 @@ def main(spec_path, out_dir):
             page.screenshot(path=str(path), type="jpeg", quality=92)
             files.append(str(path))
         browser.close()
+    if files:  # story-safe 9:16 version of the cover (a 4:5 image gets cropped in stories)
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from make_story import make_story
+        files.append(str(make_story(files[0], out / "story.jpg")))
     print("\n".join(files))
 
 

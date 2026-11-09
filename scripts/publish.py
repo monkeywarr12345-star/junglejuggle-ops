@@ -132,6 +132,14 @@ def create_container(item):
             raise ValueError("Carousel needs 2-10 items")
         params = {"media_type": "CAROUSEL", "children": ",".join(children), "caption": caption}
     elif kind == "story":
+        img = item.get("image")
+        if img and img.startswith("media/") and not img.endswith("story.jpg"):
+            # 4:5 cards get cropped on all sides in stories: use the 9:16 story.jpg rendered next to them
+            safe = Path(img).parent / "story.jpg"
+            if (ROOT / safe).exists():
+                item = dict(item, image=str(safe))
+            else:
+                print(f"  warning: {img} is not story-shaped and no story.jpg exists (it will be cropped)", file=sys.stderr)
         params, _ = media_params(item)
         params["media_type"] = "STORIES"
     elif kind == "reel":
