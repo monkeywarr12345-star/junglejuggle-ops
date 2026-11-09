@@ -1,0 +1,9 @@
+{
+  "type": "story",
+  "video": "media/2026-11-09-foreign-sell-reel/reel.mp4",
+  "publish_at": "2026-11-09T21:05:00+09:00",
+  "_error": {
+    "message": "POST 17841410918177759/media failed (400): You cannot access the app till you log in to www.facebook.com and follow the instructions given.",
+    "at": "2026-11-09T12:10:01.550276+00:00"
+  }
+}
