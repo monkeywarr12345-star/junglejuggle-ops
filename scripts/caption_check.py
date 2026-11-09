@@ -113,7 +113,7 @@ def clip_problems(cap, spec_paths):
                 used = [e for e in ledger if e.get("grade") == "C" and str(e.get("posted_at", "")).startswith(month)
                         and e.get("status") != "removed" and e.get("reel") != spec.get("id")]
                 if len(used) + 1 > CLIP_C_MONTHLY:
-                    out.append(f"이번 달 C등급 클립 릴스가 이미 {len(used)}개 — 월 {CLIP_C_MONTHLY}개 한도 초과(A·B 소재로 바꾸거나 글자 릴스로)")
+                    out.append(f"이번 달 C등급 클립 릴스가 이미 {len(used)}개 — 월 {CLIP_C_MONTHLY}개 한도 초과(B 소재로 바꾸거나 글자 릴스로)")
     return out
 
 

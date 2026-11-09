@@ -7,7 +7,7 @@ A content spec opts in with "render_in_actions": true.
   - Reel specs (content/<id>.reel.json): a "music": {"url": ..., "license": ..., "title": ...} track is
     downloaded to music/library/ and recorded in music/LICENSES.md. A grade-B clip scene may give
     "clip": {"url", "license", "license_page"}: the official video is downloaded to clips/ and logged in
-    media/<id>/src/clip_credits.json (A·C clips must already be in clips/inbox/). Then scripts/make_reel.py writes
+    media/<id>/src/clip_credits.json (grade-C clips must already be in clips/inbox/). Then scripts/make_reel.py writes
     media/<id>/reel.mp4.
 A spec is re-rendered only when its content changes (hash stored in media/<id>/.rendered).
 Claude pulls the result, looks at the images, has them reviewed, and only then adds a queue item.
@@ -149,7 +149,7 @@ def render_reel(spec_path, spec):
             continue
         if sc.get("grade") != "B" or not clip.get("url") or not clip.get("license") or not clip.get("license_page"):
             raise ValueError(f"scene {i}: a clip URL is only for grade B and needs url, license and license_page "
-                             "(A·C 등급 파일은 clips/inbox/에 올린 것만 쓴다)")
+                             "(C등급 파일은 clips/inbox/에 올린 것만 쓴다)")
         local = download(clip["url"], ROOT / "clips", VIDEO_TYPES, max_mb=150)
         sc["clip"] = str(local.relative_to(ROOT))
         clip_log.append({"scene": i, "file": sc["clip"], "url": clip["url"], "license": clip["license"],

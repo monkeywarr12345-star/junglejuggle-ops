@@ -18,7 +18,7 @@ Scene types ("t"):
   cta   "title", "kw", "sub", "note" (small print: 정보 제공 목적 · 출처 ...).
   clip  (클립 트랙, 2026-11-10) another creator's / official video shown INSIDE the 정글저글 frame:
         {"t":"clip","clip":"clips/<file>.mp4","start":2.0,"sec":4.5,"title":"...","kw":"...",
-         "credit":"@원작자 · TikTok","grade":"A"|"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill)}. The title and credit line are drawn by Chromium,
+         "credit":"@원작자 · TikTok","grade":"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill)}. The title and credit line are drawn by Chromium,
         the video is composited by ffmpeg into CLIP_BOX (about 39% of the screen). Its ORIGINAL SOUND plays
         during the scene for every grade (user decision 2026-11-10) while the library track is ducked to CLIP_DUCK;
         optional "clip_volume" (default 1.0), "audio":"mute" only if the user asks for a specific clip. Limits enforced here: one clip scene <= 5 s, all clip scenes
@@ -283,8 +283,8 @@ def check_clips(scenes, total):
             path = ROOT / sc.get("clip", "")
             if not sc.get("clip") or not path.is_file():
                 raise ValueError(f"scene {i + 1}: clip file not found ({sc.get('clip')})")
-            if sc.get("grade") not in ("A", "B", "C"):
-                raise ValueError(f"scene {i + 1}: clip needs \"grade\": \"A\"|\"B\"|\"C\"")
+            if sc.get("grade") not in ("B", "C"):  # user decision 2026-11-10: no grade A (permission DMs)
+                raise ValueError(f"scene {i + 1}: clip needs \"grade\": \"B\"|\"C\" (A등급은 쓰지 않음)")
             if not str(sc.get("credit", "")).strip():
                 raise ValueError(f"scene {i + 1}: clip needs \"credit\" (원작자 표기)")
             if sec > CLIP_MAX_SEC + 1e-6:
