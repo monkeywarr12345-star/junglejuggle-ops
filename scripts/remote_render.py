@@ -12,6 +12,7 @@ Claude pulls the result, looks at the images, has them reviewed, and only then a
 """
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import urllib.request
@@ -42,6 +43,20 @@ def spec_hash(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def clean_author(name):
+    """Wikimedia author fields can carry file names, line breaks and 'derivative work' notes; keep one short name."""
+    name = re.sub(r"\s+", " ", name or "").strip()
+    src = ""
+    m = re.search(r"\s*/\s*(Wikimedia Commons|Unsplash|Pexels|Pixabay|Openverse)$", name)
+    if m:
+        src, name = m.group(0), name[: m.start()]
+    name = re.sub(r"^.*?\.(jpe?g|png|tiff?|webp)\s*:\s*", "", name, flags=re.I)  # "File.jpg: Author"
+    name = re.split(r"\s*(derivative wor|derivative:|\(talk\)|,? ?cropped)", name, flags=re.I)[0].strip(" ,;:-")
+    if len(name) > 40:
+        name = name[:40].rsplit(" ", 1)[0]
+    return (name or "Unknown") + src
+
+
 def write_photo_credit(out, credits, spec_items):
     """media/<id>/photo_credit.txt: one caption line with every photo's author / source (license).
     Photo credits are not drawn on the cards any more; publish.py appends this line if the caption lacks one."""
@@ -52,6 +67,7 @@ def write_photo_credit(out, credits, spec_items):
         if not name:
             page = c.get("page") or ""
             name = page.split("/")[2] if page.count("/") >= 2 else "공식 제공"
+        name = clean_author(name)
         lic = c.get("license") or ""
         label = f"{name} ({lic})" if lic and lic not in name and "공식" not in lic else name
         if label not in seen:
