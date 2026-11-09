@@ -19,8 +19,9 @@ Scene types ("t"):
   clip  (클립 트랙, 2026-11-10) another creator's / official video shown INSIDE the 정글저글 frame:
         {"t":"clip","clip":"clips/<file>.mp4","start":2.0,"sec":4.5,"title":"...","kw":"...",
          "credit":"@원작자 · TikTok","grade":"A"|"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill)}. The title and credit line are drawn by Chromium,
-        the video is composited by ffmpeg into CLIP_BOX (about 39% of the screen), its own sound is dropped
-        (our library track plays instead). Limits enforced here: one clip scene <= 5 s, all clip scenes
+        the video is composited by ffmpeg into CLIP_BOX (about 39% of the screen). Its ORIGINAL SOUND plays
+        during the scene for every grade (user decision 2026-11-10) while the library track is ducked to CLIP_DUCK;
+        optional "clip_volume" (default 1.0), "audio":"mute" only if the user asks for a specific clip. Limits enforced here: one clip scene <= 5 s, all clip scenes
         <= 40% of the reel, "credit" and "grade" required. A clip scene may be the first scene (it is the
         moving hook); the title is fully visible from frame 0.
 Every scene takes "sec" (default 3.5). Old v2 scenes ({"top","big","sub"}) are converted automatically.
@@ -46,6 +47,7 @@ INK, VIOLET, BLUE, RED = "#0E0E12", "#6C3BFF", "#3D7BFF", "#FF3B30"
 OUT_T = 0.22  # length of the exit cut
 CLIP_BOX = (72, 640, 936, 820)  # x, y, w, h of the video window in a clip scene (above the 430 px bottom safe area)
 CLIP_MAX_SEC, CLIP_MAX_SHARE = 5.0, 0.40
+CLIP_DUCK = 0.18  # library track volume while a clip's original sound plays
 
 
 def esc(s):
@@ -317,6 +319,36 @@ def overlay_clips(silent, clips, tmp):
     return out
 
 
+def has_audio(path):
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index", "-of", "csv=p=0",
+                        str(path)], capture_output=True, text=True)
+    return bool(r.stdout.strip())
+
+
+def mix_clip_audio(clips, master):
+    """Original clip sound plays during its scene (user decision 2026-11-10, every grade); the library track is
+    ducked to CLIP_DUCK while a clip plays. Inputs: 0 = video, 1 = music, 2.. = clip audio."""
+    ins, parts, duck, labels = [], [], [], ["[m]"]
+    k = 2
+    for _, t0, sc in clips:
+        show = max(0.1, float(sc.get("sec", 3.5)) - OUT_T)
+        duck.append(f"volume={CLIP_DUCK}:enable='between(t,{t0:.3f},{t0 + show:.3f})'")
+        if sc.get("audio", "keep") == "mute" or not has_audio(ROOT / sc["clip"]):
+            continue
+        ins += ["-ss", f"{float(sc.get('start', 0)):.2f}", "-t", f"{show:.2f}", "-i", str(ROOT / sc["clip"])]
+        ms = int(round(t0 * 1000))
+        parts.append(f"[{k}:a]aformat=sample_rates=48000:channel_layouts=stereo,asetpts=PTS-STARTPTS,"
+                     f"afade=t=in:d=0.08,afade=t=out:st={max(0.0, show - 0.15):.2f}:d=0.15,"
+                     f"volume={float(sc.get('clip_volume', 1.0)):.2f},adelay={ms}|{ms}[c{k}]")
+        labels.append(f"[c{k}]")
+        k += 1
+    if not clips:
+        return [], ""
+    music = "[1:a]aformat=sample_rates=48000:channel_layouts=stereo," + ",".join(duck) + "[m]"
+    mix = (f"{''.join(labels)}amix=inputs={len(labels)}:duration=first:normalize=0," if len(labels) > 1 else f"{labels[0]}") + master
+    return ins, ";".join([music, *parts, mix + "[aout]"])
+
+
 def main(spec_path, out_path):
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     raw = spec["scenes"]
@@ -349,9 +381,11 @@ def main(spec_path, out_path):
             raise RuntimeError("ffmpeg video encode failed")
         silent = overlay_clips(silent, clips, tmp)
         audio_in = pick_audio(spec, out, total, tmp)
-        afilter = ["-af", f"loudnorm=I=-16:TP=-1.5:LRA=11,afade=t=in:d=0.3,afade=t=out:st={max(0.0, total - 1.2)}:d=1.2"]
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *audio_in, *afilter,
-                        "-map", "0:v:0", "-map", "1:a:0", "-t", f"{total:.2f}", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+        master = f"loudnorm=I=-16:TP=-1.5:LRA=11,afade=t=in:d=0.3,afade=t=out:st={max(0.0, total - 1.2)}:d=1.2"
+        clip_in, graph = mix_clip_audio(clips, master)
+        afilter = ["-filter_complex", graph, "-map", "[aout]"] if graph else ["-af", master, "-map", "1:a:0"]
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *audio_in, *clip_in, *afilter,
+                        "-map", "0:v:0", "-t", f"{total:.2f}", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                         "-ar", "48000", "-movflags", "+faststart", str(out)], check=True)
     print(out)
 
