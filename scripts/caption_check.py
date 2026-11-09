@@ -7,6 +7,7 @@ Compares the new caption with the last RECENT published/queued captions and fail
   - a reaction word/emoticon (ㄷㄷ, ㅋㅋ, 실화?, 미쳤다 ...) was already used in any of them,
   - the same reaction word is used more than once in this post,
   - the hook (first line) or the comment prompt reuses the shape of a recent one (similar text),
+  - the caption does not have exactly 5 hashtags including #정글저글 (user decision 2026-11-09),
   - a body line other than the fixed footer (출처/정보 제공/@junglejuggle/해시태그) is nearly identical to a recent one.
 Extra files (card/reel specs) are checked for reaction words too, so on-screen copy also varies.
 """
@@ -18,6 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RECENT = 6
+HASHTAGS = 5
 REACTIONS = ["ㄷㄷ", "ㅎㄷㄷ", "ㅋㅋ", "ㅠㅠ", "ㅜㅜ", "실화?", "실화임", "미쳤", "대박", "헐", "레전드", "소름", "역대급", "충격",
              "말이 됨?", "이게 맞나", "와우", "ㄹㅇ", "찐", "킹받", "어질어질", "후덜덜", "덜덜", "눈물", "웃프", "개꿀", "띠용", "😱", "🤯", "😳"]
 FOOTER = re.compile(r"(출처|정보 제공|투자 권유|@junglejuggle|^#|원문을 재작성|🎵|📷)")
@@ -104,6 +106,11 @@ def main(args):
         hit = copied_phrase(l, others)
         if hit:
             problems.append(f"경쟁 계정 문장과 6어절 이상 같음(베끼기 금지): '{hit[:40]}'")
+    tags = re.findall(r"(?<![\w#])#[^\s#]+", cap)
+    if len(tags) != HASHTAGS:  # 2026-11-09 user decision: always 5 (Instagram's per-post cap since Dec 2025)
+        problems.append(f"해시태그 {len(tags)}개 — 정확히 {HASHTAGS}개로(인물·기업 2 + 주제 2 + #정글저글, 인스타 상한 5개)")
+    elif "#정글저글" not in tags:
+        problems.append("해시태그에 #정글저글이 없음")
     if problems:
         print("캡션 패턴 검사 FAIL")
         for p in dict.fromkeys(problems):

@@ -100,15 +100,17 @@ def media_params(entry):
 def with_photo_credit(item, caption):
     """Photo credits are no longer drawn on the cards/reels; they belong in the caption.
     If the caption has no '📷' line, append media/<id>/photo_credit.txt (written by remote_render.py)."""
-    if "📷" in caption:
-        return caption
     paths = [item.get("image"), item.get("video")] + [c.get("image") or c.get("video") for c in item.get("items", [])]
-    for path in paths:
-        if path and path.startswith("media/"):
-            f = ROOT / Path(path).parent / "photo_credit.txt"
+    dirs = [ROOT / Path(p).parent for p in paths if p and p.startswith("media/")]
+    for mark, name in (("📷", "photo_credit.txt"), ("🎵", "music_credit.txt")):  # CC BY needs both credits
+        if mark in caption:
+            continue
+        for d in dirs:
+            f = d / name
             if f.exists():
                 line = f.read_text(encoding="utf-8").strip()
-                return f"{caption}\n{line}" if caption else line
+                caption = f"{caption}\n{line}" if caption else line
+                break
     return caption
 
 
