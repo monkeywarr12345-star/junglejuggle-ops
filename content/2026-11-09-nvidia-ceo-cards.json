@@ -63,14 +63,14 @@
    "t": "item",
    "n": "02 / 03 · 왜 회사 문제?",
    "photo": {
-    "query": "nvidia gpu chip",
+    "query": "semiconductor wafer",
     "queries": [
-     "nvidia h100",
-     "nvidia graphics chip die",
-     "semiconductor wafer"
+     "computer chip macro",
+     "circuit board close up"
     ],
     "sources": [
-     "wikimedia"
+     "unsplash",
+     "pexels"
     ]
    },
    "title": "사생활이\n안보 의혹으로",
@@ -80,17 +80,17 @@
     "의혹 단계, 확인된 사실 아님 · 중국 측은 부인"
    ],
    "so": "AI 칩 수출 통제 한가운데 있는 회사라 파장이 큼 →",
-   "src": "출처: NYT, TechCrunch, 주간경향, 中 외교부 브리핑(10.30)"
+   "src": "출처: NYT, TechCrunch, 주간경향, 中 외교부 브리핑(10.30)",
+   "photo_h": 420
   },
   {
    "t": "item",
    "n": "03 / 03 · 회사 대응",
    "photo": {
-    "query": "nvidia voyager building",
-    "queries": [
-     "nvidia endeavor building",
-     "nvidia santa clara campus"
+    "urls": [
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Nvidia_campus_aerial.jpg"
     ],
+    "query": "nvidia endeavor building",
     "sources": [
      "wikimedia"
     ]
@@ -102,7 +102,8 @@
     "이사회: 안보·기밀 유출 근거는 없다는 입장"
    ],
    "so": "조사 결과에 따라 달라질 수 있음",
-   "src": "출처: TechCrunch, 한국경제, 주간경향"
+   "src": "출처: TechCrunch, 한국경제, 주간경향",
+   "credit": "Dicklyon / Wikimedia Commons (CC BY-SA 4.0)"
   },
   {
    "t": "end",
