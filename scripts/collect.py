@@ -41,11 +41,17 @@ def insights():
         metrics = "reach,saved,shares,likes,comments,total_interactions"
         if m.get("media_product_type") == "REELS":
             metrics += ",views,ig_reels_avg_watch_time"
-        try:
-            data = get(f"{m['id']}/insights", {"metric": metrics}).get("data", [])
-            m["insights"] = {d["name"]: (d.get("values") or [{}])[0].get("value", d.get("total_value", {}).get("value")) for d in data}
-        except RuntimeError as exc:
-            m["insights_error"] = str(exc)
+        errors = []
+        # the Unified-login business token may lack instagram_manage_insights: try every configured login
+        for api in [API] + [b for b in ig_api.backends() if b.name != API.name]:
+            try:
+                data = api.get(f"{m['id']}/insights", {"metric": metrics}).get("data", [])
+                m["insights"] = {d["name"]: (d.get("values") or [{}])[0].get("value", d.get("total_value", {}).get("value")) for d in data}
+                m.pop("insights_error", None)
+                break
+            except RuntimeError as exc:
+                errors.append(str(exc))
+                m["insights_error"] = " | ".join(errors)
         rows.append(m)
     account = get(API.user, {"fields": "followers_count,media_count"})
     out = ROOT / "data" / "insights" / f"{datetime.now(timezone.utc):%Y-%m-%d}.json"
