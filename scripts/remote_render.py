@@ -42,6 +42,28 @@ def spec_hash(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def write_photo_credit(out, credits, spec_items):
+    """media/<id>/photo_credit.txt: one caption line with every photo's author / source (license).
+    Photo credits are not drawn on the cards any more; publish.py appends this line if the caption lacks one."""
+    parts, seen = [], set()
+    for c in credits:
+        idx = c.get("slide") or c.get("scene")
+        name = c.get("credit") or (spec_items[idx - 1].get("credit") if idx and idx <= len(spec_items) else "") or ""
+        if not name:
+            page = c.get("page") or ""
+            name = page.split("/")[2] if page.count("/") >= 2 else "공식 제공"
+        lic = c.get("license") or ""
+        label = f"{name} ({lic})" if lic and lic not in name and "공식" not in lic else name
+        if label not in seen:
+            seen.add(label)
+            parts.append(label)
+    f = out / "photo_credit.txt"
+    if parts:
+        f.write_text("📷 사진: " + ", ".join(parts) + "\n", encoding="utf-8")
+    else:
+        f.unlink(missing_ok=True)
+
+
 def render_cards(spec_path, spec):
     sys.path.insert(0, str(ROOT / "scripts"))
     import photo_sources
@@ -64,6 +86,7 @@ def render_cards(spec_path, spec):
             notes.append(f"slide {i}: photo fallback to graphic ({exc})")
     (out / "src").mkdir(parents=True, exist_ok=True)
     (out / "src" / "credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_photo_credit(out, credits, spec["slides"])
     fallback_note = out / "src" / "photo_fallback.txt"
     if notes:
         fallback_note.write_text("\n".join(notes) + "\n", encoding="utf-8")
@@ -99,6 +122,7 @@ def render_reel(spec_path, spec):
             notes.append(f"scene {i}: photo fallback to graphic ({exc})")
     (out / "src").mkdir(parents=True, exist_ok=True)
     (out / "src" / "reel_credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_photo_credit(out, credits, spec.get("scenes", []))
     fb = out / "src" / "reel_photo_fallback.txt"
     fb.write_text("\n".join(notes) + "\n", encoding="utf-8") if notes else fb.unlink(missing_ok=True)
     music = spec.get("music", {})

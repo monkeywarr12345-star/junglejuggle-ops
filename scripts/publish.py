@@ -97,9 +97,24 @@ def media_params(entry):
     raise ValueError("Item needs an 'image' or 'video'")
 
 
+def with_photo_credit(item, caption):
+    """Photo credits are no longer drawn on the cards/reels; they belong in the caption.
+    If the caption has no '📷' line, append media/<id>/photo_credit.txt (written by remote_render.py)."""
+    if "📷" in caption:
+        return caption
+    paths = [item.get("image"), item.get("video")] + [c.get("image") or c.get("video") for c in item.get("items", [])]
+    for path in paths:
+        if path and path.startswith("media/"):
+            f = ROOT / Path(path).parent / "photo_credit.txt"
+            if f.exists():
+                line = f.read_text(encoding="utf-8").strip()
+                return f"{caption}\n{line}" if caption else line
+    return caption
+
+
 def create_container(item):
     kind = item.get("type", "feed")
-    caption = item.get("caption", "")
+    caption = with_photo_credit(item, item.get("caption", "")) if item.get("type", "feed") != "story" else ""
 
     if kind == "carousel":
         children = []

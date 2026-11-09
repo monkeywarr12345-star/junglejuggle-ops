@@ -68,7 +68,8 @@ def item(s, root=None):
     uri = photo_uri(s.get("photo"), root)
     band = ""
     if uri:
-        cr = f'<div style="position:absolute;right:16px;bottom:12px;font-size:22px;color:rgba(255,255,255,.85);text-shadow:0 1px 3px #000">📷 {esc(s["credit"])}</div>' if s.get("credit") else ""
+        cr = (f'<div style="position:absolute;right:16px;bottom:12px;font-size:22px;color:rgba(255,255,255,.85);text-shadow:0 1px 3px #000">📷 {esc(s["credit"])}</div>'
+              if s.get("credit") and s.get("credit_on_image") else "")  # credits go in the caption (user request 2026-11-09)
         band = (f'<div style="margin-top:44px;height:{s.get("photo_h", 500)}px;border-radius:24px;position:relative;'
                 f'background:url(\'{uri}\') {s.get("photo_pos", "center")}/cover">{cr}</div>')
     gap_top, fs, gap = (44, 40, 26) if uri else (64, 44, 40)
@@ -135,7 +136,7 @@ def photo_cover(s, root):
         s = dict(s, credit=s.get("credit") if isinstance(s.get("photo"), str) and s.get("photo") else "")
     bubble = (f'<div style="position:absolute;top:{s.get("bubble_top", 420)}px;left:{s.get("bubble_left", 560)}px;background:#fff;color:{INK};'
               f'font-weight:800;border-radius:999px;padding:22px 34px;font-size:38px;box-shadow:0 4px 0 {INK}">{esc(s["bubble"])}</div>') if s.get("bubble") else ""
-    credit = f"📷 {esc(s['credit'])}" if s.get("credit") else ""
+    credit = f"📷 {esc(s['credit'])}" if s.get("credit") and s.get("credit_on_image") else ""  # caption carries credits
     # breaking-news label, e.g. "tag": "속보 · 14:05" (red pill, top-left)
     tag = (f'<div style="position:absolute;top:72px;left:72px;background:#FF3B30;color:#fff;font-weight:900;font-size:34px;'
            f'padding:10px 22px;border-radius:10px">{esc(s["tag"])}</div>') if s.get("tag") else ""

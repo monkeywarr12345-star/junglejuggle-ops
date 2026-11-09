@@ -143,7 +143,7 @@ def scene_html(sc, idx, n, sec):
     else:
         bg = ('<div class="bg blob" data-a="drift"></div>'
               '<div class="shade" style="background:radial-gradient(circle at 50% 120%,rgba(108,59,255,.28),rgba(0,0,0,0) 60%)"></div>')
-    if photo and sc.get("credit"):
+    if photo and sc.get("credit") and sc.get("credit_on_image"):  # credits go in the caption (user request 2026-11-09)
         note += f'<div class="credit">📷 {esc(sc["credit"])}</div>'
     segs = "".join(f'<div class="seg"><div class="fill" data-seg="{k}"></div></div>' for k in range(n))
     return f"""<html><head><style>
