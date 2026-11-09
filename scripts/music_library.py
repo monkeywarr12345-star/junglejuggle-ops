@@ -13,7 +13,7 @@ Selection (user request 2026-11-09: "the music is bland"): prefer songs with voc
   - Jamendo is queried with vocalinstrumental=vocal over this month's / this week's / all-time popularity,
     plus a smaller instrumental fallback; each track gets a score from listens (stats) and chart rank.
   - Library entries carry "vocal" (bool) and "score"; old entries are backfilled from the Jamendo API on refresh.
-  - pick(): vocal tracks first, then least recently used, then highest score. Prune keeps the best-scored tracks.
+  - pick(): vocal tracks only (2026-11-09), least recently used, then highest score. Prune keeps the best-scored tracks.
 Rotation: never reuse a track within the last 12 reels of that mood.
 """
 import hashlib
@@ -269,9 +269,19 @@ def pick(mood, reel_id):
     mood_use = [u["file"] for u in usage if u.get("mood") == mood]
     blocked = set(mood_use[-RECENT_BLOCK:])
     last_used = {f: i for i, f in enumerate(mood_use)}
-    pool = [t for t in lib if t["file"] not in blocked] or lib
-    # vocal songs first, then least recently used, then most popular
-    pool.sort(key=lambda t: (not t.get("vocal", False), last_used.get(t["file"], -1), -t.get("score", 0)))
+    # 2026-11-09 user decision: reels use songs with lyrics only. Vocal tracks of this mood first,
+    # then vocal tracks of any mood; instrumentals are never picked (no vocal track at all -> None -> self-made music).
+    vocal = [t for t in lib if t.get("vocal")]
+    if not vocal:
+        vocal = [t for t in load(LIB_JSON, []) if t.get("vocal") and (ROOT / t["file"]).exists()
+                 and not (commercial_mode() and is_jamendo(t))]
+        print(f"music_library: no vocal track for mood {mood}; using vocal tracks from other moods", file=sys.stderr)
+    if not vocal:
+        print("music_library: WARNING no vocal track in library", file=sys.stderr)
+        return None
+    pool = [t for t in vocal if t["file"] not in blocked] or vocal
+    # least recently used, then most popular
+    pool.sort(key=lambda t: (last_used.get(t["file"], -1), -t.get("score", 0)))
     t = pool[0]
     usage.append({"reel": reel_id, "mood": mood, "file": t["file"], "at": datetime.now(timezone.utc).isoformat(timespec="seconds")})
     save(USAGE_JSON, usage[-500:])

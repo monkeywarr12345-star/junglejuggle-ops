@@ -105,6 +105,9 @@ def with_photo_credit(item, caption):
     for mark, name in (("📷", "photo_credit.txt"), ("🎵", "music_credit.txt")):  # CC BY needs both credits
         if mark in caption:
             continue
+        has_video = bool(item.get("video") or any(c.get("video") for c in item.get("items", [])))
+        if mark == "🎵" and not has_video:  # image-only feed posts carry no music (2026-11-09), so no music credit
+            continue
         for d in dirs:
             f = d / name
             if f.exists():

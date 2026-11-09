@@ -112,7 +112,8 @@ def render_cards(spec_path, spec):
     tmp_spec.parent.mkdir(parents=True, exist_ok=True)
     tmp_spec.write_text(json.dumps(resolved, ensure_ascii=False, indent=1), encoding="utf-8")
     subprocess.run([sys.executable, str(ROOT / "scripts" / "render.py"), str(tmp_spec), str(out)], check=True)
-    if spec.get("feed_video", True) and len(spec["slides"]) >= 2:  # feed posts get music as video slides
+    # 2026-11-09 user decision: feed posts go up as plain images (no music); the user adds Instagram app music by hand.
+    if spec.get("feed_video", False) and len(spec["slides"]) >= 2:
         subprocess.run([sys.executable, str(ROOT / "scripts" / "make_feed_video.py"), str(tmp_spec), str(out)], check=True)
     return out
 
