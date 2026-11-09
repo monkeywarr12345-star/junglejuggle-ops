@@ -1,0 +1,90 @@
+{
+ "id": "2026-11-10-amd-jump",
+ "format": "이슈 1개 카드",
+ "render_in_actions": true,
+ "feed_video": false,
+ "experiment": {"cover_copy": "A", "hashtag": "5개"},
+ "codes": {
+  "topic_major": "해외",
+  "angle": "기업·인물 스토리",
+  "hook_cover": "숫자",
+  "hook_first": "숫자",
+  "structure": "스토리",
+  "devices": ["대비(엇갈림)", "고르기 댓글"]
+ },
+ "slides": [
+  {
+   "t": "photo_cover",
+   "photo": {
+    "query": "AMD headquarters",
+    "queries": ["AMD Santa Clara", "AMD EPYC processor", "computer processor chip"],
+    "sources": ["wikimedia", "openverse"]
+   },
+   "title": "엔비디아 흔들린 날,\nAMD는 13% 뛰었다",
+   "kw": "13%"
+  },
+  {
+   "t": "item",
+   "n": "01 / 04 · 무슨 일",
+   "title": "같은 AI 반도체,\n하루 만에 엇갈림",
+   "kw": "엇갈림",
+   "bullets": [
+    "9일(미국) AMD 약 13% 급등, 브로드컴도 약 9% 상승",
+    "같은 날 엔비디아는 4% 넘게 하락",
+    "뉴욕증시는 유가 급락에 다우 +2.15%로 동반 강세"
+   ],
+   "so": "'AI 반도체'라고 다 같이 움직이진 않았음",
+   "src": "출처: 블록미디어, 지이코노미, Yahoo Finance (11.9~10)"
+  },
+  {
+   "t": "item",
+   "n": "02 / 04 · 이유 ①",
+   "title": "월가 '매수' 상향,\n목표가 600달러",
+   "kw": "600달러",
+   "bullets": [
+    "美 증권사 오펜하이머가 AMD 투자의견을 '매수'로 올림",
+    "목표주가 600달러 제시",
+    "근거: 내년 데이터센터 매출 135% 증가 전망"
+   ],
+   "so": "AI 데이터센터 칩 수요를 크게 본 것",
+   "src": "출처: 이데일리, GuruFocus, The Crypto Basic (11.9~10)"
+  },
+  {
+   "t": "item",
+   "n": "03 / 04 · 이유 ②",
+   "title": "구글 새 AI 시스템에\nAMD 칩 탑재",
+   "kw": "구글",
+   "bullets": [
+    "구글 클라우드 'TPU 8tx'에 AMD 5세대 EPYC 서버 CPU가 들어감",
+    "AI 모델·고객 데이터를 보호하는 '기밀 컴퓨팅' 역할",
+    "AI 추론·미세조정 같은 작업용"
+   ],
+   "so": "빅테크 AI 인프라에 한 자리 더 확보",
+   "src": "출처: Yahoo Finance(GuruFocus), StockStory (11.9)"
+  },
+  {
+   "t": "item",
+   "n": "04 / 04 · 내 돈 체크",
+   "title": "오늘 밤부터\n시험대 두 개",
+   "kw": "시험대",
+   "bullets": [
+    "AI 반도체 안에서도 종목별 소식에 따라 하루 10%p 넘게 갈림",
+    "오늘(10일) 밤 10시 30분 美 10월 소비자물가(CPI)",
+    "11일 새벽 AI 클라우드 코어위브 3분기 실적"
+   ],
+   "so": "반도체 들고 있다면 종목 소식부터 확인",
+   "src": "출처: 블록미디어, Yahoo Finance, FXEmpire, TradingKey"
+  },
+  {
+   "t": "end",
+   "n": "끝",
+   "summary": "엔비디아 4%대↓ 날\n→ AMD 13%↑ (매수 상향·구글 칩)\n→ 같은 AI 반도체도 엇갈림",
+   "ctas": [
+    "💾 CPI·실적 나오기 전에 저장",
+    "📤 반도체 얘기하는 친구에게 공유",
+    "🔔 오늘 밤 CPI 결과도 정리해서 올림"
+   ],
+   "sources": "원문을 재작성함. 투자 권유가 아닌 정보 제공 목적임.\n출처: 이데일리, 재경일보, 블록미디어, 지이코노미, Yahoo Finance(GuruFocus), StockStory, The Crypto Basic, FXEmpire, TradingKey"
+  }
+ ]
+}
