@@ -234,6 +234,17 @@ def pick_audio(spec, out, total, tmp):
     if music.get("none"):
         return ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
     if music.get("file"):
+        # a pinned library track still needs its CC credit in the caption and a usage record for rotation
+        import music_library
+        lib = {t["file"]: t for t in music_library.load(music_library.LIB_JSON, [])}
+        t = lib.get(music["file"])
+        if t:
+            credit_file.write_text(f"🎵 {t['title']} - {t['artist']} ({t['license']})\n", encoding="utf-8")
+            usage = music_library.load(music_library.USAGE_JSON, [])
+            usage.append({"reel": spec.get("id", out.stem), "mood": t["mood"], "file": t["file"],
+                          "at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(timespec="seconds")})
+            music_library.save(music_library.USAGE_JSON, usage[-500:])
+            print(f"music (pinned): {t['title']} - {t['artist']}")
         return ["-stream_loop", "-1", "-i", str(ROOT / music["file"])]
     import music as music_gen  # scripts/music.py
     track = str(Path(tmp) / "music.wav")
