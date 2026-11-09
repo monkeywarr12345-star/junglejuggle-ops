@@ -79,7 +79,7 @@ def check_facebook(api):
 
 for api in ig_api.backends():
     try:
-        (check_instagram if api.name == "instagram" else check_facebook)(api)
+        (check_instagram if api.name == "instagram" else check_facebook)(api)  # "system" = non-expiring business token
     except ig_api.ApiError as exc:
         problems.append(str(exc))
 

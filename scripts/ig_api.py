@@ -27,7 +27,10 @@ import urllib.request
 HOSTS = {
     "instagram": "https://graph.instagram.com/v26.0",
     "facebook": "https://graph.facebook.com/v27.0",
+    "system": "https://graph.facebook.com/v27.0",
 }
+# @junglejuggle's Instagram professional account ID (shown in the app dashboard), used when no ID secret is set
+DEFAULT_IG_USER_ID = "17841410918177759"
 
 # Errors that mean "this login/token is unusable right now", where trying the other backend is safe
 AUTH_SIGNS = ("OAuthException", "(190)", "(102)", "access token", "Access token", "log in to www.facebook.com",
@@ -87,8 +90,15 @@ def is_auth_error(exc):
 
 def backends():
     out = []
-    if os.environ.get("IG_LOGIN_TOKEN"):
-        out.append(Backend("instagram", os.environ["IG_LOGIN_TOKEN"], os.environ.get("IG_LOGIN_USER_ID", "")))
+    login = os.environ.get("IG_LOGIN_TOKEN", "").strip()
+    if login.startswith("EAA"):
+        # 2026-11-09: new Meta apps only offer "API setup with Unified login", which issues a non-expiring
+        # business system-user token (EAA...). It works on graph.facebook.com with the IG user ID, not on
+        # graph.instagram.com, and does not depend on anyone's personal Facebook session.
+        uid = os.environ.get("IG_LOGIN_USER_ID") or os.environ.get("IG_USER_ID") or DEFAULT_IG_USER_ID
+        out.append(Backend("system", login, uid))
+    elif login:
+        out.append(Backend("instagram", login, os.environ.get("IG_LOGIN_USER_ID", "")))
     if os.environ.get("IG_ACCESS_TOKEN") and os.environ.get("IG_USER_ID"):
         out.append(Backend("facebook", os.environ["IG_ACCESS_TOKEN"], os.environ["IG_USER_ID"]))
     if not out:
@@ -99,4 +109,5 @@ def backends():
 
 def facebook_backend():
     """The Facebook Login backend (needed for business_discovery), or None."""
-    return next((b for b in backends() if b.name == "facebook"), None)
+    found = backends()
+    return next((b for b in found if b.name == "facebook"), None) or next((b for b in found if b.name == "system"), None)
