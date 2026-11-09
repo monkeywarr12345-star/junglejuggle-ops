@@ -193,7 +193,10 @@ function fmt(src,p){{
   let s=v.toFixed(dec); if(m[2].includes(',')){{const [a,b]=s.split('.');s=a.replace(/\\B(?=(\\d{{3}})+(?!\\d))/g,',')+(b?'.'+b:'')}}
   return m[1]+s+m[3];
 }}
-window.seek=(t)=>{{
+window.seek=(t0)=>{{
+  // Hook scene: the headline is already fully on screen at frame 0 (no pop-in), so the paused first frame,
+  // the feed preview and the default cover never look empty. Later scenes keep their entrance animations.
+  const t = IDX===0 ? t0+2.5 : t0;
   for(const e of els){{
     const a=e.dataset.a, s=parseFloat(e.dataset.s||0);
     if(a==='pop'){{const p=cl((t-s)/.32);e.style.opacity=cl(p*2.5);e.style.transform=`translateY(${{(1-eo(p))*40}}px) scale(${{.7+.3*back(p)}})`}}
@@ -201,12 +204,12 @@ window.seek=(t)=>{{
     else if(a==='slide'){{const p=eo(cl((t-s)/.42));e.style.opacity=p;e.style.transform=`translateX(${{(1-p)*120}}px)`}}
     else if(a==='wipe'){{const p=eo(cl((t-s-.12)/.35));e.querySelector('i').style.transform=`scaleX(${{p}})`}}
     else if(a==='count'){{const p=cl((t-s)/.9);e.style.opacity=cl(p*4);e.style.transform=`scale(${{.85+.15*back(cl(p*1.4))}})`;e.textContent=fmt(e.dataset.v,eo(p))}}
-    else if(a==='push'){{e.style.transform=`scale(${{1.12-.1*cl(t/SEC)}})`}}
-    else if(a==='drift'){{e.style.transform=`translate(${{Math.sin(t*.6)*30}}px,${{Math.cos(t*.5)*24}}px)`}}
+    else if(a==='push'){{e.style.transform=`scale(${{1.12-.1*cl(t0/SEC)}})`}}
+    else if(a==='drift'){{e.style.transform=`translate(${{Math.sin(t0*.6)*30}}px,${{Math.cos(t0*.5)*24}}px)`}}
   }}
-  document.querySelectorAll('[data-seg]').forEach(f=>{{const k=+f.dataset.seg;f.style.width=(k<IDX?100:k>IDX?0:cl(t/SEC)*100)+'%'}});
+  document.querySelectorAll('[data-seg]').forEach(f=>{{const k=+f.dataset.seg;f.style.width=(k<IDX?100:k>IDX?0:cl(t0/SEC)*100)+'%'}});
   const st=document.getElementById('stage');
-  const pin=eo(cl(t/.2)), pout=cl((t-(SEC-OUT))/OUT);
+  const pin=IDX===0?1:eo(cl(t0/.2)), pout=cl((t0-(SEC-OUT))/OUT);
   st.style.opacity=Math.min(.35+.65*pin,1-pout);
   st.style.transform=`scale(${{(0.97+0.03*pin)*(1+.07*pout)}})`;
   st.style.filter=pout>0?`blur(${{pout*10}}px)`:(pin<1?`blur(${{(1-pin)*6}}px)`:'none');

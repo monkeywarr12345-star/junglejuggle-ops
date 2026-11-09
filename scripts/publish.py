@@ -8,6 +8,7 @@ Queue item fields:
   type        "feed" | "story" | "reel" | "carousel"   (default "feed")
   image       repo path (e.g. "media/2026-11-09.jpg") or full https URL
   video       repo path or https URL (story video / reel)
+  cover       reel only, optional: cover image (repo path or URL); thumb_offset (ms) picks a video frame instead
   items       for carousel: list of {"image": ...} or {"video": ...} (2-10)
   caption     text (ignored for stories)
   publish_at  ISO 8601 time, e.g. "2026-11-09T09:00:00+09:00" (omit = now)
@@ -120,6 +121,10 @@ def create_container(item):
         if not item.get("video"):
             raise ValueError("Reel needs a 'video'")
         params = {"media_type": "REELS", "video_url": media_url(item["video"]), "caption": caption}
+        if item.get("cover"):  # optional cover image (repo path or URL) shown in the grid/feed before playback
+            params["cover_url"] = media_url(item["cover"])
+        elif item.get("thumb_offset") is not None:  # or a frame of the video, in milliseconds
+            params["thumb_offset"] = str(int(item["thumb_offset"]))
     elif kind == "feed":
         params, is_video = media_params(item)
         if is_video:

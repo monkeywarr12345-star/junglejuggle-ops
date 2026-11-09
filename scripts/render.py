@@ -51,13 +51,31 @@ def list_cover(s):
 <div style="margin-top:auto;display:flex;justify-content:space-between;font-size:30px"><span class="wm">정글저글</span><span style="color:{MUTED}">넘겨서 하나씩 →</span></div></div>"""
 
 
-def item(s):
+def photo_uri(photo, root):
+    if isinstance(photo, str) and photo and not photo.startswith("http") and root is not None:
+        # Embed local photos as data URIs: a page loaded with set_content cannot read file:// URLs.
+        local = (root / photo).resolve()
+        mime = {".png": "image/png", ".webp": "image/webp"}.get(local.suffix.lower(), "image/jpeg")
+        return f"data:{mime};base64,{base64.b64encode(local.read_bytes()).decode()}"
+    return photo if isinstance(photo, str) and photo else None
+
+
+def item(s, root=None):
+    # Optional "photo" (repo path or dict resolved in Actions): a rounded photo band between the title and the
+    # bullets, like a news card. With a photo, keep bullets to 2-3 short lines so nothing overflows.
     bullets = "".join(f'<div>· {esc(b)}</div>' for b in s["bullets"])
     so = f'<div style="color:#fff;font-weight:800">⇒ {esc(s["so"])}</div>' if s.get("so") else ""
-    return f"""<div class="page" style="background:{INK};color:#fff;padding:104px 80px;display:flex;flex-direction:column">
+    uri = photo_uri(s.get("photo"), root)
+    band = ""
+    if uri:
+        cr = f'<div style="position:absolute;right:16px;bottom:12px;font-size:22px;color:rgba(255,255,255,.85);text-shadow:0 1px 3px #000">📷 {esc(s["credit"])}</div>' if s.get("credit") else ""
+        band = (f'<div style="margin-top:44px;height:{s.get("photo_h", 500)}px;border-radius:24px;position:relative;'
+                f'background:url(\'{uri}\') {s.get("photo_pos", "center")}/cover">{cr}</div>')
+    gap_top, fs, gap = (44, 40, 26) if uri else (64, 44, 40)
+    return f"""<div class="page" style="background:{INK};color:#fff;padding:{'88' if uri else '104'}px 80px;display:flex;flex-direction:column">
 <div style="font-size:30px;color:{MUTED};font-weight:700">{esc(s['n'])}</div>
-<div style="margin-top:40px;font-size:74px;font-weight:900;line-height:1.34;letter-spacing:-1.5px">{with_kw(s['title'], s.get('kw'))}</div>
-<div style="margin-top:64px;display:flex;flex-direction:column;gap:40px;font-size:44px;line-height:1.5;color:#E7E4EE">{bullets}{so}</div>
+<div style="margin-top:{'28' if uri else '40'}px;font-size:{'68' if uri else '74'}px;font-weight:900;line-height:1.3;letter-spacing:-1.5px">{with_kw(s['title'], s.get('kw'))}</div>{band}
+<div style="margin-top:{gap_top}px;display:flex;flex-direction:column;gap:{gap}px;font-size:{fs}px;line-height:1.45;color:#E7E4EE">{bullets}{so}</div>
 <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:26px;color:{MUTED}">
 <span class="wm" style="font-size:30px;color:#fff">정글저글</span><span>{esc(s.get('src',''))}</span></div></div>"""
 
@@ -142,7 +160,7 @@ def main(spec_path, out_dir):
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": W, "height": H})
         for i, s in enumerate(spec["slides"], 1):
-            body = photo_cover(s, root) if s["t"] == "photo_cover" else RENDERERS[s["t"]](s)
+            body = photo_cover(s, root) if s["t"] == "photo_cover" else (item(s, root) if s["t"] == "item" else RENDERERS[s["t"]](s))
             page.set_content(f"<html><head>{CSS}</head><body>{body}</body></html>", wait_until="networkidle")
             path = out / f"{i:02d}.jpg"
             page.screenshot(path=str(path), type="jpeg", quality=92)
