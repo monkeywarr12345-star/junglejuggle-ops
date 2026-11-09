@@ -107,20 +107,20 @@
     "합의 때 그 주식 의결권은 베이조스에게 넘김"
    ],
    "so": "발표일 → 4월 말 아마존 +16.1% (이혼 영향이란 근거는 없음)",
-   "src": "출처: CNBC, TechSpot, Yahoo Finance"
+   "src": "출처: CNBC, TechSpot, Yahoo Finance",
+   "photo_pos": "center 12%"
   },
   {
    "t": "item",
    "n": "04 / 04 · 체크포인트",
    "photo": {
-    "query": "nvidia gpu",
+    "query": "nvidia voyager building",
     "queries": [
-     "nvidia graphics card",
-     "semiconductor wafer"
+     "nvidia santa clara campus",
+     "nvidia h100"
     ],
     "sources": [
-     "wikimedia",
-     "unsplash"
+     "wikimedia"
     ]
    },
    "title": "엔비디아는\n이 두 가지",
