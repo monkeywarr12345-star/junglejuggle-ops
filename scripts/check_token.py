@@ -60,6 +60,12 @@ def check_instagram(api):
         print("[instagram] IG_LOGIN_TOKEN secret updated")
 
 
+def check_system(api):
+    """Unified-login business token: issued as non-expiring and cannot inspect itself with debug_token."""
+    account_ok(api)
+    print("[system] non-expiring business token: no refresh needed")
+
+
 def check_facebook(api):
     account_ok(api)
     info = api.get("debug_token", {"input_token": api.token}).get("data", {})
@@ -79,7 +85,7 @@ def check_facebook(api):
 
 for api in ig_api.backends():
     try:
-        (check_instagram if api.name == "instagram" else check_facebook)(api)  # "system" = non-expiring business token
+        {"instagram": check_instagram, "system": check_system}.get(api.name, check_facebook)(api)
     except ig_api.ApiError as exc:
         problems.append(str(exc))
 
