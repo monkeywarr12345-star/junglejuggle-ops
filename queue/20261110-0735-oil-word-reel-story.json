@@ -1,5 +1,11 @@
 {
   "type": "story",
   "video": "media/2026-11-10-oil-word-reel/reel.mp4",
-  "publish_at": "2026-11-10T07:35:00+09:00"
+  "publish_at": "2026-11-10T00:08:31.033755+00:00",
+  "_deferred": [
+    {
+      "reason": "POST 17841410918177759/media failed via system (400): API access blocked. [OAuthException (200)]",
+      "at": "2026-11-09T22:38:31.033755+00:00"
+    }
+  ]
 }
