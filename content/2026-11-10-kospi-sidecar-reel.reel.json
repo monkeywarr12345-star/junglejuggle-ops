@@ -22,14 +22,15 @@
   {
    "t": "hook",
    "photo": {
-    "query": "Korea Exchange Yeouido",
+    "query": "seoul skyline",
     "queries": [
-     "Korea Exchange building",
-     "Yeouido Seoul skyline",
-     "Yeouido financial district"
+     "seoul city night",
+     "seoul han river buildings",
+     "seoul downtown skyscrapers"
     ],
     "sources": [
-     "wikimedia"
+     "unsplash",
+     "pexels"
     ]
    },
    "chip": "속보 · 11월 10일 09:06",
