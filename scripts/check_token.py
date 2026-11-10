@@ -47,17 +47,17 @@ def check_instagram(api):
         return
     gh_token = os.environ.get("GH_SECRETS_TOKEN")
     if not gh_token:
-        print("[instagram] the refresh returned a new token, but GH_SECRETS_TOKEN is not set, so the "
-              "IG_LOGIN_TOKEN secret was not updated. Generate a new token in the app dashboard before "
+        print(f"[instagram] the refresh returned a new token, but GH_SECRETS_TOKEN is not set, so the "
+              f"{api.secret_name} secret was not updated. Generate a new token in the app dashboard before "
               "the old one runs out (60 days after it was made).", file=sys.stderr)
         return
-    done = subprocess.run(["gh", "secret", "set", "IG_LOGIN_TOKEN", "--body", token,
+    done = subprocess.run(["gh", "secret", "set", api.secret_name, "--body", token,
                            "--repo", os.environ.get("GITHUB_REPOSITORY", "")],
                           env=dict(os.environ, GH_TOKEN=gh_token), capture_output=True, text=True)
     if done.returncode:
-        problems.append(f"could not update the IG_LOGIN_TOKEN secret: {done.stderr.strip()[:200]}")
+        problems.append(f"could not update the {api.secret_name} secret: {done.stderr.strip()[:200]}")
     else:
-        print("[instagram] IG_LOGIN_TOKEN secret updated")
+        print(f"[instagram] {api.secret_name} secret updated")
 
 
 def check_system(api):

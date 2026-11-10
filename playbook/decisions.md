@@ -100,3 +100,8 @@
 - 결정: 팔로워 1,000명 전까지 스토리를 queue에 넣지 않음. publish.py `STORIES_PAUSED = True`로 queue에 남은 스토리도 게시하지 않고 `skipped/`로 옮김. 10일 07:35·10:05 스토리 2건은 skipped/로 옮김.
 - 다른 제안(게시 간격 2시간, 속보 하루 1개, 지우고 다시 올리기 금지)은 사용자가 이번에는 반영하지 않기로 함.
 - 되돌리기: 팔로워 1,000명 이상이 되면 주간 회고에서 `STORIES_PAUSED = False`로 바꾸고 CLAUDE.md 8번 규칙을 복구.
+
+## 2026-11-10 릴스는 Instagram 로그인 토큰으로 게시
+- 계기: 11.09 23:11 게시 토큰을 시스템 사용자 토큰(EAA, graph.facebook.com)으로 바꾼 뒤 캐러셀은 되지만 릴스는 media_publish에서 'Fatal (-1)'로 3번 실패(09:17·09:28·10:35). 그 전 릴스는 Instagram 로그인(graph.instagram.com)으로 정상 게시됨.
+- 반영: 새 Secret `IG_IGLOGIN_TOKEN`(IGAA..., 선택 `IG_IGLOGIN_USER_ID`)이 있으면 릴스는 그 경로를 먼저 씀. 이미지·캐러셀은 지금 토큰 그대로. IGAA 토큰은 60일짜리라 token-check.yml이 같이 갱신함(GH_SECRETS_TOKEN 있으면 Secret 자동 교체).
+- 남은 일: 사용자가 Meta 개발자 앱에서 토큰 발급 후 GitHub Secrets에 등록 — 사용자 확인 필요.

@@ -156,6 +156,9 @@ def publish_item(item):
     """Try each configured login in turn. Only a rejected login moves on to the next one:
     Instagram turns that request away, so nothing was posted and retrying elsewhere cannot double-post."""
     apis = ig_api.backends()
+    if item.get("type") == "reel" or (item.get("type", "feed") == "feed" and item.get("video")):
+        # reels go through Instagram Login (graph.instagram.com) first when that token is set (2026-11-10)
+        apis = sorted(apis, key=lambda b: b.name != "instagram")
     for i, api in enumerate(apis):
         stage = "container"
         try:

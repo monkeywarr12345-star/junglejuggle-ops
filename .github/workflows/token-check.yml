@@ -25,4 +25,6 @@ jobs:
           GH_SECRETS_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}   # optional: lets the refreshed token replace the secret
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_IGLOGIN_TOKEN: ${{ secrets.IG_IGLOGIN_TOKEN }}   # Instagram Login token (IGAA...) used for reels (2026-11-10)
+          IG_IGLOGIN_USER_ID: ${{ secrets.IG_IGLOGIN_USER_ID }}
         run: python scripts/check_token.py

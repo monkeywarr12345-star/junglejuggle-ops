@@ -38,6 +38,8 @@ jobs:
           IG_LOGIN_USER_ID: ${{ secrets.IG_LOGIN_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_IGLOGIN_TOKEN: ${{ secrets.IG_IGLOGIN_TOKEN }}   # Instagram Login token (IGAA...) used for reels (2026-11-10)
+          IG_IGLOGIN_USER_ID: ${{ secrets.IG_IGLOGIN_USER_ID }}
         run: |
           MODE="${{ inputs.mode }}"
           if [ -z "$MODE" ]; then
