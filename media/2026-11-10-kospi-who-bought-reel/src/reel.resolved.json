@@ -20,7 +20,7 @@
  "scenes": [
   {
    "t": "hook",
-   "photo": "media/2026-11-10-kospi-who-bought-reel/src/7110babf6212.jpg",
+   "photo": "media/2026-11-10-kospi-who-bought-reel/src/ef85ae9dc2e1.jpg",
    "chip": "11.10 마감 · 코스피",
    "title": "4% 넘게 뛴 날\n누가 샀을까?",
    "kw": "누가",
@@ -54,13 +54,13 @@
   },
   {
    "t": "stat",
-   "chip": "왜 뛰었냐면",
+   "chip": "SK하이닉스 · 11.10 종가",
    "big": "+6.69%",
-   "title": "美 반도체\n하룻밤 7%↑",
-   "kw": "7%",
+   "title": "SK하이닉스\n121만2천원",
+   "kw": "SK하이닉스",
    "sub": [
-    "SK하이닉스 121만2천원 마감",
-    "삼성전자도 +4.74%"
+    "삼성전자도 +4.74%",
+    "전날 밤 美 반도체 약 7%↑"
    ],
    "sec": 4.0
   },
