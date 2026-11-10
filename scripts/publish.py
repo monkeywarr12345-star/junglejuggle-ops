@@ -157,8 +157,11 @@ def publish_item(item):
     Instagram turns that request away, so nothing was posted and retrying elsewhere cannot double-post."""
     apis = ig_api.backends()
     if item.get("type") == "reel" or (item.get("type", "feed") == "feed" and item.get("video")):
-        # reels go through Instagram Login (graph.instagram.com) first when that token is set (2026-11-10)
-        apis = sorted(apis, key=lambda b: b.name != "instagram")
+        # Reels: Instagram Login token first when set, then the Facebook Login token (it posted every reel
+        # on 11-09), and the system token last: since the 11-09 23:11 switch to it, every reel failed at
+        # media_publish with "Fatal [OAuthException (-1)]" while carousels went through (2026-11-10).
+        order = {"instagram": 0, "facebook": 1, "system": 2}
+        apis = sorted(apis, key=lambda b: order.get(b.name, 9))
     for i, api in enumerate(apis):
         stage = "container"
         try:

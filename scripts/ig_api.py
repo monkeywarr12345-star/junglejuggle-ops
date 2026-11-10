@@ -103,6 +103,8 @@ def backends():
     if os.environ.get("IG_ACCESS_TOKEN") and os.environ.get("IG_USER_ID"):
         out.append(Backend("facebook", os.environ["IG_ACCESS_TOKEN"], os.environ["IG_USER_ID"]))
     reels_login = os.environ.get("IG_IGLOGIN_TOKEN", "").strip()
+    if reels_login.startswith("EAA"):  # a Facebook-type token does not work on graph.instagram.com: ignore it
+        reels_login = ""
     if reels_login and not any(b.name == "instagram" for b in out):
         # 2026-11-10: reels fail at media_publish ("Fatal [OAuthException (-1)]") through graph.facebook.com
         # with both the system and Facebook tokens, while carousels still go through. Reels went out fine
