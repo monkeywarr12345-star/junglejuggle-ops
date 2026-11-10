@@ -157,11 +157,17 @@ def publish_item(item):
     Instagram turns that request away, so nothing was posted and retrying elsewhere cannot double-post."""
     apis = ig_api.backends()
     for i, api in enumerate(apis):
+        stage = "container"
         try:
             container = create_container(api, item)
             wait_ready(api, container)
+            stage = "publish"
             return api.call("POST", f"{api.user}/media_publish", {"creation_id": container})["id"], api.name
         except Exception as exc:
+            # A media_publish error can still leave the post live (2026-11-10: "Fatal [OAuthException (-1)]"
+            # on both logins for the same reel). Never retry it on another login: that risks a double post.
+            if stage == "publish":
+                raise RuntimeError(f"{exc} [publish step: check the app, the post may be live]") from None
             if i + 1 < len(apis) and ig_api.is_auth_error(exc) and not any(k in str(exc) for k in BLOCK_SIGNS):
                 print(f"  {api.name} login rejected ({exc}); trying {apis[i + 1].name}", file=sys.stderr)
                 continue
