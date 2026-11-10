@@ -22,11 +22,14 @@
   {
    "t": "hook",
    "photo": {
-    "query": "stock market chart screen",
+    "query": "Korea Exchange Yeouido",
     "queries": [
-     "stock exchange trading board",
-     "stock price monitor",
-     "trading screen numbers"
+     "Korea Exchange building",
+     "Yeouido Seoul skyline",
+     "Yeouido financial district"
+    ],
+    "sources": [
+     "wikimedia"
     ]
    },
    "chip": "속보 · 11월 10일 09:06",
