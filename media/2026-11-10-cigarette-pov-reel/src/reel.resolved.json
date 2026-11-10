@@ -20,7 +20,7 @@
  "scenes": [
   {
    "t": "hook",
-   "photo": "media/2026-11-10-cigarette-pov-reel/src/196709895bf9.jpg",
+   "photo": "media/2026-11-10-cigarette-pov-reel/src/c466cfb170dd.jpg",
    "chip": "11.10 의학한림원 포럼 제안",
    "title": "POV: 담뱃값\n8,500원 얘기 들은 나",
    "kw": "8,500원",
@@ -28,7 +28,7 @@
     "지금 4,500원, 2015년부터 그대로"
    ],
    "sec": 3.8,
-   "credit": "Katy / Unsplash"
+   "credit": "Khuc Le Thanh Danh / Unsplash"
   },
   {
    "t": "stat",
@@ -65,10 +65,10 @@
   {
    "t": "text",
    "chip": "하루 한 갑이면?",
-   "title": "한 달에\n12만원 더",
-   "kw": "12만원",
+   "title": "1년이면\n146만원 더",
+   "kw": "146만원",
    "lines": [
-    "4,000원 × 30일 (단순 계산)",
+    "하루 한 갑 × 4,000원 × 365일",
     "정부 결정 아닌 전문가 제안"
    ],
    "sec": 3.6
@@ -76,7 +76,7 @@
   {
    "t": "cta",
    "title": "올려야 함?\n그대로 둬야 함?",
-   "kw": "그대로",
+   "kw": "올려야",
    "sub": "자세한 건 캡션에",
    "note": "정보 제공 목적 · 출처: 국제뉴스·재경일보·남도일보",
    "sec": 2.8
