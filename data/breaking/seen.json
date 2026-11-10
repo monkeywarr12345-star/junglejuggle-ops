@@ -318,7 +318,8 @@
    "etoday.co.kr/news/view/2646399"
   ],
   "result": "슬롯 이관(기존 게시 건의 연장)",
-  "suggest_slot": "21:00"
+  "suggest_slot": "21:00",
+  "slot_result": "21:00 정규 슬롯 릴스로 다룸(queue/20261110-2100-kospi-who-bought-reel.json, 투자자별 매매 앵글)"
  },
  {
   "checked_at": "2026-11-10T17:15:00+09:00",
