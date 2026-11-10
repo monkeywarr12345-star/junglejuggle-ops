@@ -1,0 +1,63 @@
+{
+ "id": "2026-11-10-china-ppi-reel",
+ "format": "릴스 v3 (12:30 순위·비교 숫자형, 릴스 구조 A=stat 중심)",
+ "render_in_actions": true,
+ "music": {"auto": "tense"},
+ "codes": {
+  "topic_major": "해외경제",
+  "angle": "비교",
+  "hook_cover": "금액 충격",
+  "hook_first": "숫자",
+  "structure": "stat 중심(A): 결론 숫자→대비 숫자→순위→내 돈→cta",
+  "devices": ["카운트업", "A vs B 대비", "순위표", "숫자 맞히기"]
+ },
+ "scenes": [
+  {
+   "t": "hook",
+   "photo": {
+    "query": "coal mine excavator",
+    "queries": ["industrial factory chimney", "steel mill furnace", "oil refinery night"],
+    "sources": ["unsplash", "pexels", "openverse"]
+   },
+   "chip": "중국 10월 물가 · 11.9 발표",
+   "title": "중국 공장 물가\n4년여 만에 최고",
+   "kw": "최고",
+   "big": "+5.7%",
+   "sub": ["장바구니 물가는 +0.7%뿐"],
+   "sec": 3.8
+  },
+  {
+   "t": "stat",
+   "chip": "소비자물가(CPI) · 1년 전 대비",
+   "big": "+0.7%",
+   "title": "장바구니는\n오히려 둔화",
+   "kw": "둔화",
+   "sub": ["9월 +0.9%보다 낮아짐", "시장 예상 +0.8%도 밑돎"],
+   "sec": 3.6
+  },
+  {
+   "t": "list",
+   "chip": "10월 · 1년 전 대비",
+   "title": "오른 것 vs 내린 것",
+   "kw": "vs",
+   "rows": [["석탄 채굴", "+36.6%"], ["원유·가스 채굴", "+35.0%"], ["식품", "-2.9%"], ["신선 채소", "-16.9%"]],
+   "sec": 4.4
+  },
+  {
+   "t": "text",
+   "chip": "내 돈이랑 무슨 상관?",
+   "title": "에너지값이\n공장 원가를 밀어올림",
+   "kw": "원가",
+   "lines": ["생산자물가 = 공장 출고 가격", "중국산 수입품 값으로 번질지 주목", "소비 쪽은 아직 차가움"],
+   "sec": 3.8
+  },
+  {
+   "t": "cta",
+   "title": "공장은 뜨겁고\n지갑은 차가움",
+   "kw": "지갑",
+   "sub": "자세한 건 캡션에",
+   "note": "정보 제공 목적, 투자 권유 아님 · 출처: 중국 국가통계국(CGTN)·서울경제·ActionForex",
+   "sec": 3.0
+  }
+ ]
+}
