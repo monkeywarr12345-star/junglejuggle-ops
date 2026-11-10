@@ -21,11 +21,11 @@
   {
    "t": "hook",
    "photo": {
-    "query": "convenience store counter night",
+    "query": "convenience store counter",
     "queries": [
-     "city street night smoke",
-     "office worker night street",
-     "korean convenience store"
+     "no smoking sign",
+     "coins and receipt",
+     "korean convenience store exterior"
     ],
     "sources": [
      "unsplash",
@@ -76,10 +76,10 @@
   {
    "t": "text",
    "chip": "하루 한 갑이면?",
-   "title": "한 달에\n12만원 더",
-   "kw": "12만원",
+   "title": "1년이면\n144만원 더",
+   "kw": "144만원",
    "lines": [
-    "4,000원 × 30일 (단순 계산)",
+    "하루 한 갑 × 4,000원 × 365일",
     "정부 결정 아닌 전문가 제안"
    ],
    "sec": 3.6
@@ -87,7 +87,7 @@
   {
    "t": "cta",
    "title": "올려야 함?\n그대로 둬야 함?",
-   "kw": "그대로",
+   "kw": "올려야",
    "sub": "자세한 건 캡션에",
    "note": "정보 제공 목적 · 출처: 국제뉴스·재경일보·남도일보",
    "sec": 2.8
