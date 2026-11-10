@@ -1,0 +1,99 @@
+{
+ "id": "2026-11-10-kospi-who-bought-reel",
+ "format": "릴스 v3 (21:00 그날 반응 큰 이슈, 릴스 구조 B=질문 hook + Q&A)",
+ "render_in_actions": true,
+ "music": {
+  "auto": "upbeat"
+ },
+ "codes": {
+  "topic_major": "증시",
+  "angle": "내 돈 영향",
+  "hook_cover": "질문",
+  "hook_first": "숫자+질문",
+  "structure": "Q&A(B): 질문 hook→답(투자자별)→이유→내 돈→cta",
+  "devices": [
+   "카운트업",
+   "A vs B 대비",
+   "질문형"
+  ]
+ },
+ "scenes": [
+  {
+   "t": "hook",
+   "photo": {
+    "query": "seoul yeouido financial district",
+    "queries": [
+     "stock trading screen numbers",
+     "seoul han river night buildings",
+     "financial district night"
+    ],
+    "sources": [
+     "unsplash",
+     "pexels",
+     "openverse"
+    ]
+   },
+   "chip": "11.10 마감 · 코스피",
+   "title": "4% 넘게 뛴 날\n누가 샀을까?",
+   "kw": "누가",
+   "big": "+4.39%",
+   "sub": [
+    "5,239.13 마감, 4거래일 만에 반등"
+   ],
+   "sec": 4.0
+  },
+  {
+   "t": "list",
+   "chip": "코스피 투자자별 순매매 · 잠정",
+   "title": "외국인·기관은 사고\n개인은 팔았음",
+   "kw": "개인",
+   "rows": [
+    [
+     "외국인",
+     "+약 4천억"
+    ],
+    [
+     "기관",
+     "+약 4,700억"
+    ],
+    [
+     "개인",
+     "-약 1.35조"
+    ]
+   ],
+   "sec": 4.2
+  },
+  {
+   "t": "stat",
+   "chip": "왜 뛰었냐면",
+   "big": "+6.69%",
+   "title": "SK하이닉스\n121만2천원 마감",
+   "kw": "SK하이닉스",
+   "sub": [
+    "삼성전자도 +4.74%",
+    "전날 밤 美 반도체지수 약 7%↑"
+   ],
+   "sec": 4.0
+  },
+  {
+   "t": "text",
+   "chip": "내 돈이랑은?",
+   "title": "달러값은\n9.6원 내림",
+   "kw": "9.6원",
+   "lines": [
+    "원·달러 1,337.5원 (주간 종가)",
+    "해외 결제·직구엔 조금 유리",
+    "오늘 밤 22:30 美 물가 발표"
+   ],
+   "sec": 4.0
+  },
+  {
+   "t": "cta",
+   "title": "다음 변수는\n오늘 밤 美 물가",
+   "kw": "美 물가",
+   "sub": "자세한 건 캡션에",
+   "note": "정보 제공 목적, 투자 권유 아님 · 출처: 파이낸셜뉴스·이투데이 외",
+   "sec": 3.0
+  }
+ ]
+}
