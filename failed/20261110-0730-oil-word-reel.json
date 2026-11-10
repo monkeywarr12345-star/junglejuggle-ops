@@ -17,5 +17,9 @@
         "at": "2026-11-10T00:17:15.033354+00:00"
       }
     }
-  ]
+  ],
+  "_error": {
+    "message": "POST 17841410918177759/media_publish failed via system (400): Fatal [OAuthException (-1)] [publish step: check the app, the post may be live]",
+    "at": "2026-11-10T00:28:35.657811+00:00"
+  }
 }
