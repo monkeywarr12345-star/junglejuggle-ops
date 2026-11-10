@@ -384,8 +384,10 @@ def main(spec_path, out_path):
         master = f"loudnorm=I=-16:TP=-1.5:LRA=11,afade=t=in:d=0.3,afade=t=out:st={max(0.0, total - 1.2)}:d=1.2"
         clip_in, graph = mix_clip_audio(clips, master)
         afilter = ["-filter_complex", graph, "-map", "[aout]"] if graph else ["-af", master, "-map", "1:a:0"]
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *audio_in, *clip_in, *afilter,
-                        "-map", "0:v:0", "-t", f"{total:.2f}", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+        # video must be stream 0: an audio-first MP4 (2026-11-10) passed container processing but every
+        # media_publish then failed with "Fatal [OAuthException (-1)]"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *audio_in, *clip_in,
+                        "-map", "0:v:0", *afilter, "-t", f"{total:.2f}", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                         "-ar", "48000", "-movflags", "+faststart", str(out)], check=True)
     print(out)
 
