@@ -69,6 +69,11 @@ class Backend:
             try:
                 e = json.loads(body).get("error", {})
                 msg = f"{e.get('message', body)} [{e.get('type', '')} ({e.get('code', '')})]"
+                # Meta's generic "Fatal (-1)" is only diagnosable through these extra fields
+                extra = {k: e.get(k) for k in ("error_subcode", "error_user_title", "error_user_msg", "is_transient", "fbtrace_id")
+                         if e.get(k) not in (None, "")}
+                if extra:
+                    msg += " " + json.dumps(extra, ensure_ascii=False)
             except ValueError:
                 msg = body[:300]
             raise ApiError(f"{method} {path} failed via {self.name} ({err.code}): {msg}") from None

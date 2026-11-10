@@ -27,5 +27,9 @@
   "_error": {
     "message": "POST 17841410918177759/media_publish failed via system (400): Fatal [OAuthException (-1)] [publish step: check the app, the post may be live]",
     "at": "2026-11-10T01:35:33.384156+00:00"
+  },
+  "_manual": {
+    "note": "API media_publish Fatal(-1) 반복 → 사용자에게 파일 전달, 사용자가 앱에서 직접 업로드(2026-11-10 14:25). 자동 재게시 금지.",
+    "at": "2026-11-10T05:26:00+00:00"
   }
 }
