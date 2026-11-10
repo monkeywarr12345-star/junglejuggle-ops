@@ -6,6 +6,7 @@
 현재 적용 중인 제작 규칙은 `playbook/playbook.md`, 결정 기록은 `playbook/decisions.md`에 있다.
 
 ## 구조
+- 수동 게시 기간: 저장소 루트 `pause.json`의 `until`까지는 publish.py가 아무것도 게시하지 않고 queue를 그대로 둔다(사용자가 앱에서 직접 올림). 이 기간에도 제작은 평소대로 queue에 넣고, queue에 남은 지난 항목을 '게시 실패'로 알리지 않는다.
 - 게시: GitHub Actions `publish.yml`이 5분마다(GitHub 예약 실행은 자주 밀리므로) `queue/*.json` 중 `publish_at`이 지난 항목을 게시하고 `posted/`·`failed/`로 옮긴다. queue에 push하면 즉시 한 번 더 돈다.
 - 수집: `collect.yml`이 매일 23:13 KST 우리 게시물 인사이트를 `data/insights/`에, 매일 05:23 KST 경쟁 계정 최신 게시물을 `data/benchmark/daily/`에, 매주 일요일 22:47 KST 경쟁 계정 전체(ekke.now 최대 1,000개·나머지 약 100개)를 `data/benchmark/<날짜>/`에 저장한다. 남의 캡션은 뼈대만, 표지는 OCR·시각 특징만 저장한다(원문·원본 이미지 저장 금지). 벤치마킹 방법은 `playbook/benchmark_method.md`.
 - 주간 회고: 월요일 02:47 KST 예약 작업이 벤치마크 코딩·분석·playbook 반영을 끝내서 06:17 아침 제작부터 적용된다.

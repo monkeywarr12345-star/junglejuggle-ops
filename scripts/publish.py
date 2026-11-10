@@ -190,8 +190,25 @@ def is_due(item, now):
     return ts <= now
 
 
+def manual_pause(now):
+    """pause.json {"until": ISO time, "reason": ...}: the user posts by hand until then; queue items stay untouched."""
+    f = ROOT / "pause.json"
+    if not f.exists():
+        return None
+    try:
+        info = json.loads(f.read_text(encoding="utf-8"))
+        until = datetime.fromisoformat(info["until"])
+    except Exception:
+        return None
+    return info if now < until else None
+
+
 def main():
     now = datetime.now(timezone.utc)
+    paused = manual_pause(now)
+    if paused:
+        print(f"Publishing paused until {paused['until']}: {paused.get('reason', '')}")
+        return 0
     POSTED.mkdir(exist_ok=True)
     FAILED.mkdir(exist_ok=True)
     files = sorted(QUEUE.glob("*.json"))
