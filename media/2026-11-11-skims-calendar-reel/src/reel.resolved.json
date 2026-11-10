@@ -1,0 +1,90 @@
+{
+ "id": "2026-11-11-skims-calendar-reel",
+ "format": "릴스 v3 (07:30 클립 슬롯 → 클립 파일 없음, 같은 소재 글자 릴스, 훅 4종 ③가격 분노)",
+ "render_in_actions": true,
+ "music": {
+  "auto": "upbeat"
+ },
+ "codes": {
+  "topic_major": "소비·브랜드",
+  "angle": "비교",
+  "hook_cover": "가격 분노",
+  "hook_first": "가격 분노",
+  "structure": "hook→stat→list(내용물)→text(환불 반전)→cta",
+  "devices": [
+   "카운트업",
+   "환율 환산",
+   "반전",
+   "고르기"
+  ]
+ },
+ "scenes": [
+  {
+   "t": "hook",
+   "photo": "media/2026-11-11-skims-calendar-reel/src/ba844faf2ee1.jpg",
+   "chip": "美 틱톡 언박싱 대란",
+   "title": "20만 원 캘린더에\n화난 사람들",
+   "kw": "20만 원",
+   "sub": [
+    "킴 카다시안 브랜드 '스킴스'"
+   ],
+   "sec": 3.6,
+   "credit": "David-Olivier Gascon / Unsplash"
+  },
+  {
+   "t": "stat",
+   "chip": "스킴스 액세서리 어드벤트 캘린더",
+   "big": "$148",
+   "title": "12일짜리\n깜짝 선물 상자",
+   "kw": "12일",
+   "sub": [
+    "약 20만 원 (환율 1,337원 기준)"
+   ],
+   "sec": 3.4
+  },
+  {
+   "t": "list",
+   "chip": "칸을 열어보니",
+   "title": "나온 건 이거",
+   "kw": "이거",
+   "rows": [
+    [
+     "머리끈·곱창밴드",
+     "여러 세트"
+    ],
+    [
+     "실핀·집게핀",
+     "있음"
+    ],
+    [
+     "곰돌이 키링",
+     "있음"
+    ],
+    [
+     "옷",
+     "0개"
+    ]
+   ],
+   "sec": 4.0
+  },
+  {
+   "t": "text",
+   "chip": "반전",
+   "title": "결국 구매자 전원\n환불 연락",
+   "kw": "환불",
+   "lines": [
+    "전액 환불 or 스토어 크레딧",
+    "판매 페이지도 내려감"
+   ],
+   "sec": 3.6
+  },
+  {
+   "t": "cta",
+   "title": "브랜드값,\n어디까지 냄?",
+   "kw": "브랜드값",
+   "sub": "자세한 건 캡션에",
+   "note": "정보 제공 목적 · 출처: Yahoo(Where Is The Buzz)·Cosmopolitan·IBTimes UK",
+   "sec": 2.8
+  }
+ ]
+}
