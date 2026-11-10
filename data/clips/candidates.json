@@ -1,1 +1,39 @@
-[]
+[
+ {
+  "found_at": "2026-11-11T05:30:00+09:00",
+  "url": "https://www.tiktok.com/@wetsloppyswollen/video/7704922401687014686",
+  "creator": "@wetsloppyswollen",
+  "platform": "TikTok",
+  "what": "킴 카다시안 브랜드 스킴스(SKIMS) 148달러 액세서리 어드벤트 캘린더 언박싱 — 칸마다 곱창밴드·실핀·키링만 나오자 점점 허탈해하는 리뷰. 3일 만에 약 6,500만 회·좋아요 800만+",
+  "money_angle": "20만 원짜리 캘린더 내용물은 머리끈·키링 → 스킴스, 전원 전액 환불 또는 150달러 스토어 크레딧 제공. 브랜드값 vs 실제 가치, 타깃 20달러 캘린더 비교",
+  "score": 9,
+  "grade_possible": "C",
+  "status": "new",
+  "slot": "07:30",
+  "length_sec": null,
+  "sources": [
+   "https://www.inc.com/annabel-burba/skims-advent-calendar-viral-backlash-refunds/91433398",
+   "https://www.starnewskorea.com/star/2026/11/10/2026111009571237657",
+   "https://www.ibtimes.co.uk/skims-2026-advent-calendar-backlash-price-1830732"
+  ],
+  "note": "제작 전 확인: 원작자 얼굴이 크게 나오는 비공인 일반인 영상이면 탈락(손만 나오면 OK), 배경 인기곡 있으면 탈락. 국내 기사(스타뉴스 11.10)가 이미 나와 국내 인스타 확산 여부 확인 필요."
+ },
+ {
+  "found_at": "2026-11-11T05:30:00+09:00",
+  "url": "https://www.tiktok.com/@kaylaryan/video/7705628996683238669",
+  "creator": "@kaylaryan",
+  "platform": "TikTok",
+  "what": "스킴스 어드벤트 캘린더 리뷰(약 2,000만 회)를 올렸던 크리에이터가 스킴스에서 온 환불 안내 메일을 보여주는 후속 영상",
+  "money_angle": "바이럴 혹평 하나가 기업 환불 정책을 바꿈 — 148달러 전액 환불 또는 150달러 크레딧, 리뷰 경제의 힘",
+  "score": 7,
+  "grade_possible": "C",
+  "status": "new",
+  "slot": "19:00",
+  "length_sec": null,
+  "sources": [
+   "https://www.inc.com/annabel-burba/skims-advent-calendar-viral-backlash-refunds/91433398",
+   "https://www.starnewskorea.com/star/2026/11/10/2026111009571237657"
+  ],
+  "note": "1번 후보와 같은 이슈라 둘 중 하나만 사용. 얼굴 노출·배경음 확인 필요."
+ }
+]
