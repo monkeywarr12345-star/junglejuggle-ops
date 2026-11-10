@@ -9,5 +9,9 @@
       "reason": "POST 17841410918177759/media failed via system (400): API access blocked. [OAuthException (200)]",
       "at": "2026-11-09T22:32:22.817415+00:00"
     }
-  ]
+  ],
+  "_error": {
+    "message": "POST 17841410918177759/media_publish failed via facebook (400): Fatal [OAuthException (-1)]",
+    "at": "2026-11-10T00:17:15.033354+00:00"
+  }
 }
