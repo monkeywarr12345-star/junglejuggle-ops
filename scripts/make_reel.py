@@ -17,13 +17,20 @@ Scene types ("t"):
   text  "chip", "title", "kw", "lines": ["...", "..."] (2-3 short lines, shown as caption pills).
   cta   "title", "kw", "sub", "note" (small print: 정보 제공 목적 · 출처 ...).
   clip  (클립 트랙, 2026-11-10) another creator's / official video shown INSIDE the 정글저글 frame:
-        {"t":"clip","clip":"clips/<file>.mp4","start":2.0,"sec":4.5,"title":"...","kw":"...",
-         "credit":"@원작자 · TikTok","grade":"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill)}. The title and credit line are drawn by Chromium,
-        the video is composited by ffmpeg into CLIP_BOX (about 39% of the screen). Its ORIGINAL SOUND plays
+        {"t":"clip","clip":"clips/<file>.mp4","start":2.0,"sec":14,"title":"...","kw":"...",
+         "credit":"@원작자 · TikTok","grade":"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill),
+         "layout":"ekke"(default)|"box", "subs":[[0.0,2.4,"한글 자막"],...] (optional, times from the clip scene start),
+         "more":"▼ 자세한 건 캡션에 ▼"}.
+        layout "ekke" (2026-11-10 user decision: copy how ekke.now grew) = a whole reel that is just the clip:
+        black frame, 정글저글 logo, bold 2-line title, credit, the video full-width in the middle (EKKE_BOX),
+        optional Korean subtitles under it, and a '▼ 자세한 건 캡션에 ▼' line that sends viewers to the caption,
+        where the money explanation lives. Clip length is the clip's own length (max CLIP_MAX_SEC); no share
+        limit. layout "box" = the older short clip window (CLIP_BOX) followed by stat/text scenes.
+        The text is drawn by Chromium, the video is composited by ffmpeg. Its ORIGINAL SOUND plays
         during the scene for every grade (user decision 2026-11-10) while the library track is ducked to CLIP_DUCK;
-        optional "clip_volume" (default 1.0), "audio":"mute" only if the user asks for a specific clip. Limits enforced here: one clip scene <= 5 s, all clip scenes
-        <= 40% of the reel, "credit" and "grade" required. A clip scene may be the first scene (it is the
-        moving hook); the title is fully visible from frame 0.
+        optional "clip_volume" (default 1.0), "audio":"mute" only if the user asks for a specific clip.
+        "credit" and "grade" are required. A clip scene may be the first scene (it is the moving hook); the
+        title is fully visible from frame 0.
 Every scene takes "sec" (default 3.5). Old v2 scenes ({"top","big","sub"}) are converted automatically.
 Numbers: a leading "-" is shown in blue and "+" in red (Korean market convention: red = up, blue = down).
 Audio ("music"): {"auto": mood} (default, rotating external free track, credit -> <out dir>/music_credit.txt),
@@ -46,7 +53,8 @@ W, H, FPS = 1080, 1920, 30
 INK, VIOLET, BLUE, RED = "#0E0E12", "#6C3BFF", "#3D7BFF", "#FF3B30"
 OUT_T = 0.22  # length of the exit cut
 CLIP_BOX = (72, 640, 936, 820)  # x, y, w, h of the video window in a clip scene (above the 430 px bottom safe area)
-CLIP_MAX_SEC, CLIP_MAX_SHARE = 5.0, 0.40
+EKKE_BOX = (0, 610, 1080, 720)  # full-width video in the ekke layout (16:9 fills it; vertical clips are pillarboxed)
+CLIP_MAX_SEC = 60.0  # 2026-11-10: ekke.now used the whole viral clip, so no 5 s / 40 % limit any more
 CLIP_DUCK = 0.18  # library track volume while a clip's original sound plays
 
 
@@ -157,7 +165,16 @@ def scene_html(sc, idx, n, sec):
     if photo and sc.get("credit") and sc.get("credit_on_image"):  # credits go in the caption (user request 2026-11-09)
         note += f'<div class="credit">📷 {esc(sc["credit"])}</div>'
     main = f'<div class="block">{chip}{order}{body}</div>'
-    if t == "clip":
+    if t == "clip" and sc.get("layout", "ekke") == "ekke":
+        x, y, w, h = clip_box(sc)
+        subs = json.dumps(sc.get("subs") or [], ensure_ascii=False)
+        bg, note = "", ""
+        main = (f'<div class="etop"><div class="title etitle">{title}</div>'
+                f'<div class="ccredit">🎥 {esc(sc.get("credit", ""))}</div></div>'
+                f'<div class="clipbox" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px"></div>'
+                f'<div class="esub" data-a="subs" data-v="{esc(subs)}"></div>'
+                f'<div class="emore">{esc(sc.get("more", "▼ 자세한 건 캡션에 ▼"))}</div>')
+    elif t == "clip":
         x, y, w, h = CLIP_BOX
         main = (f'<div class="ctop">{chip}<div class="title ctitle">{title}</div>'
                 f'<div class="ccredit">🎥 {esc(sc.get("credit", ""))}</div></div>'
@@ -196,6 +213,13 @@ body{{width:{W}px;height:{H}px;background:{INK};color:#fff;font-family:'Noto San
 .ctitle{{font-size:76px;letter-spacing:-2px;line-height:1.18}}
 .ccredit{{font-size:30px;font-weight:700;color:rgba(255,255,255,.82)}}
 .clipbox{{position:absolute;background:#000;box-shadow:0 0 0 4px rgba(255,255,255,.18)}}
+.etop{{position:absolute;left:60px;right:60px;top:250px;height:340px;display:flex;flex-direction:column;
+  justify-content:flex-end;align-items:center;text-align:center;gap:16px}}
+.etitle{{font-size:{78 if len(sc.get("title", "")) <= 22 else 66}px;letter-spacing:-2px;line-height:1.2}}
+.esub{{position:absolute;left:60px;right:60px;top:{EKKE_BOX[1] + EKKE_BOX[3] + 22}px;text-align:center;font-size:44px;font-weight:800;
+  line-height:1.3;color:#FFE14D;text-shadow:0 2px 0 #000,0 0 12px rgba(0,0,0,.8)}}
+.emore{{position:absolute;left:60px;right:60px;top:1418px;text-align:center;font-size:36px;font-weight:900;color:{VIOLET};
+  filter:brightness(1.5)}}
 .note{{position:absolute;left:72px;right:72px;bottom:430px;text-align:center;font-size:28px;line-height:1.5;color:rgba(255,255,255,.72)}}
 </style></head><body><div id="stage">{bg}
 <div class="top"><div class="brand">정글저글</div><div class="bar">{segs}</div></div>
@@ -227,6 +251,7 @@ window.seek=(t0)=>{{
     else if(a==='wipe'){{const p=eo(cl((t-s-.12)/.35));e.querySelector('i').style.transform=`scaleX(${{p}})`}}
     else if(a==='count'){{const p=cl((t-s)/.9);e.style.opacity=cl(p*4);e.style.transform=`scale(${{.85+.15*back(cl(p*1.4))}})`;e.textContent=fmt(e.dataset.v,eo(p))}}
     else if(a==='push'){{e.style.transform=`scale(${{1.12-.1*cl(t0/SEC)}})`}}
+    else if(a==='subs'){{const cur=JSON.parse(e.dataset.v).find(x=>t0>=x[0]&&t0<x[1]);e.textContent=cur?cur[2]:''}}
     else if(a==='drift'){{e.style.transform=`translate(${{Math.sin(t0*.6)*30}}px,${{Math.cos(t0*.5)*24}}px)`}}
   }}
   document.querySelectorAll('[data-seg]').forEach(f=>{{const k=+f.dataset.seg;f.style.width=(k<IDX?100:k>IDX?0:cl(t0/SEC)*100)+'%'}});
@@ -274,8 +299,12 @@ def pick_audio(spec, out, total, tmp):
     return ["-i", track]
 
 
+def clip_box(sc):
+    return EKKE_BOX if sc.get("layout", "ekke") == "ekke" else CLIP_BOX
+
+
 def check_clips(scenes, total):
-    """클립 트랙 limits (CLAUDE.md '클립 트랙'). Returns [(scene index, start time in reel, scene)]."""
+    """클립 트랙 rules (CLAUDE.md '클립 트랙'). Returns [(scene index, start time in reel, scene)]."""
     clips, t = [], 0.0
     for i, sc in enumerate(scenes):
         sec = float(sc.get("sec", 3.5))
@@ -291,9 +320,6 @@ def check_clips(scenes, total):
                 raise ValueError(f"scene {i + 1}: clip scene {sec}s > {CLIP_MAX_SEC}s")
             clips.append((i, t, sc))
         t += sec
-    share = sum(float(sc.get("sec", 3.5)) for _, _, sc in clips) / total if total else 0
-    if share > CLIP_MAX_SHARE + 1e-6:
-        raise ValueError(f"clip scenes are {share:.0%} of the reel (max {CLIP_MAX_SHARE:.0%})")
     return clips
 
 
@@ -301,9 +327,9 @@ def overlay_clips(silent, clips, tmp):
     """Composite each clip into CLIP_BOX during its scene; the clip's own audio is never mapped."""
     if not clips:
         return silent
-    x, y, w, h = CLIP_BOX
     args, chains, last = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent)], [], "[0:v]"
     for k, (_, t0, sc) in enumerate(clips, 1):
+        x, y, w, h = clip_box(sc)
         sec = float(sc.get("sec", 3.5))
         show = max(0.1, sec - OUT_T)
         args += ["-ss", f"{float(sc.get('start', 0)):.2f}", "-t", f"{show:.2f}", "-i", str(ROOT / sc["clip"])]
