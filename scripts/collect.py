@@ -124,6 +124,37 @@ def benchmark(daily=False):
     return failures
 
 
+def study():
+    """One-off growth study (2026-11-11): post timelines of the accounts in data/study/accounts.json.
+    {"accounts": {"<handle>": <max pages of 50>, ...}} -> data/study/<handle>.json with per-post date, type,
+    like/comment counts, slide count and the caption skeleton only (no caption text, no images)."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import bench_features
+    cfg = json.loads((ROOT / "data" / "study" / "accounts.json").read_text(encoding="utf-8"))
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    failed = {}
+    for name, pages in cfg["accounts"].items():
+        out = ROOT / "data" / "study" / f"{name}.json"
+        if out.exists() and json.loads(out.read_text(encoding="utf-8")).get("pages", 0) >= pages:
+            continue
+        try:
+            posts, info = _discover(name, pages, 50)
+        except RuntimeError as exc:
+            failed[name] = str(exc)[:200]
+            print(f"{name}: {exc}", file=sys.stderr)
+            continue
+        rows = []
+        for p in posts:
+            rows.append({"timestamp": p.get("timestamp"), "media_type": p.get("media_type"),
+                         "media_product_type": p.get("media_product_type"), "permalink": p.get("permalink"),
+                         "like_count": p.get("like_count"), "comments_count": p.get("comments_count"),
+                         "slides": p.get("slides"), "skeleton": bench_features.skeleton(p.get("caption") or "")})
+        out.write_text(json.dumps({"account": name, "collected_at": now, "pages": pages, **info, "posts": rows},
+                                  ensure_ascii=False, indent=0), encoding="utf-8")
+        print(f"{name}: {len(rows)} posts, followers {info.get('followers_count')}")
+    (ROOT / "data" / "study" / "failed.json").write_text(json.dumps(failed, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def use_backend(mode):
     global API
     if mode == "insights":
@@ -145,7 +176,7 @@ def use_backend(mode):
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "insights"
-    if mode not in ("insights", "benchmark", "bench_daily"):
+    if mode not in ("insights", "benchmark", "bench_daily", "study"):
         sys.exit(f"unknown mode {mode}")
     use_backend(mode)
     print(f"using {API.name} API")
@@ -155,5 +186,7 @@ if __name__ == "__main__":
         sys.exit(1 if benchmark() == len(BENCHMARKS) else 0)
     elif mode == "bench_daily":
         sys.exit(1 if benchmark(daily=True) == len(BENCHMARKS) else 0)
+    elif mode == "study":
+        study()
     else:
         sys.exit(f"unknown mode {mode}")
