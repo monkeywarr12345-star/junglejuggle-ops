@@ -1,0 +1,2351 @@
+{
+"account": "mu_smetic",
+"collected_at": "2026-11-11T18:46:29+00:00",
+"pages": 1,
+"followers_count": 8776,
+"media_count": 129,
+"posts": [
+{
+"timestamp": "2026-11-02T10:58:26+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DfPJQm2uB_l/",
+"like_count": 1727,
+"comments_count": 15,
+"slides": null,
+"skeleton": {
+"first_line": "미쳐버린 올영 블프 후기••",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#추천",
+"#올리브영",
+"#올영블프",
+"#라스트픽",
+"#올영세일"
+],
+"keywords": [
+"미쳐버린",
+"올영",
+"블프",
+"후기",
+"가요"
+],
+"series": "",
+"chars": 60,
+"lines": 3,
+"emoji_per_100": 3.33,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-28T10:58:12+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DfCRSr3uWsT/",
+"like_count": 104,
+"comments_count": 3,
+"slides": null,
+"skeleton": {
+"first_line": "진짜 오랜만에 틴트 추천🫶🏻🌸🍥",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [],
+"hashtags": [
+"#단순선물",
+"#YNM",
+"#와이엔엠",
+"#멀멀",
+"#틴트추천"
+],
+"keywords": [
+"틴트",
+"오랜만에",
+"추천",
+"YNM",
+"신상",
+"하트",
+"밀크",
+"멀멀하고",
+"따뜻한",
+"밀크티",
+"느낌의",
+"찾고"
+],
+"series": "",
+"chars": 101,
+"lines": 4,
+"emoji_per_100": 3.96,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-26T10:43:01+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/De9F9LWOwiY/",
+"like_count": 995,
+"comments_count": 15,
+"slides": null,
+"skeleton": {
+"first_line": "미쳐버린 쿠로미 키캡 증정 후기••",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"3"
+],
+"hashtags": [
+"#추천",
+"#쿠로미",
+"#3ce",
+"#산리오",
+"#올리브영"
+],
+"keywords": [
+"미쳐버린",
+"쿠로미",
+"키캡",
+"증정",
+"후기",
+"올리브영에서",
+"구매",
+"가능"
+],
+"series": "",
+"chars": 60,
+"lines": 3,
+"emoji_per_100": 3.33,
+"ends_with_question": false,
+"giveaway": true,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-26T07:09:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/De8tmD1lNgS/",
+"like_count": 2077,
+"comments_count": 29,
+"slides": 3,
+"skeleton": {
+"first_line": "❗종료 됐습니다!!❗",
+"last_question": "",
+"structure": "이모지소제목>문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#캔메이크",
+"#canmake",
+"#메이크업",
+"#뷰티할인"
+],
+"keywords": [
+"종료",
+"됐습니다",
+"캔메이크",
+"세일",
+"현지가",
+"보다",
+"싸고",
+"다이소",
+"가격까지",
+"내려간",
+"것도",
+"있으니까"
+],
+"series": "",
+"chars": 113,
+"lines": 4,
+"emoji_per_100": 4.42,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-13T11:30:13+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DebssMOulJZ/",
+"like_count": 420,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 🔥 어바웃톤 레전드 신상",
+"last_question": "",
+"structure": "해시태그>문장×5>이모지소제목>문장×2>해시태그",
+"numbers": [
+"1",
+"10",
+"12",
+"10",
+"18"
+],
+"hashtags": [
+"#광고",
+"#지그재그",
+"#직뷰페",
+"#어바웃톤"
+],
+"keywords": [
+"레전드",
+"파데들",
+"원하는",
+"선런칭",
+"어바웃톤",
+"신상",
+"맞는",
+"매트",
+"파데",
+"건조한",
+"살려주는",
+"구원템"
+],
+"series": "",
+"chars": 256,
+"lines": 10,
+"emoji_per_100": 3.52,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-10-06T09:55:18+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DeJgj86O41T/",
+"like_count": 2170,
+"comments_count": 12,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 공포게임 여주 립 추천🕸",
+"last_question": "",
+"structure": "해시태그>이모지소제목>문장×4>이모지소제목×3>문장×2>번호×3>해시태그",
+"numbers": [
+"01",
+"+04",
+"02",
+"+06",
+"10월",
+"10",
+"1",
+"31",
+"18,000",
+"14,400원",
+"20%",
+"1",
+"15,000 원",
+"304",
+"2"
+],
+"hashtags": [
+"#광고",
+"#라카",
+"#데빌멜팅립",
+"#라카멜팅립",
+"#시코르"
+],
+"keywords": [
+"빈티지",
+"필터",
+"이상",
+"구매",
+"증정",
+"조합",
+"공포게임",
+"여주",
+"추천",
+"리카",
+"데빌",
+"멜팅"
+],
+"series": "",
+"chars": 460,
+"lines": 15,
+"emoji_per_100": 1.52,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-10-02T09:29:19+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dd_KZfdORAP/",
+"like_count": null,
+"comments_count": 4,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 이번 올리브영 호빵맨 콜라보 너무너무 귀여운데•• 필리밀리 호빵맨 피크닉 데이 에디션이 진짜 미쳤어요",
+"last_question": "",
+"structure": "해시태그>이모지소제목>문장>이모지소제목>문장>이모지소제목>문장×3>해시태그",
+"numbers": [
+"10",
+"10",
+"3",
+"3",
+"4"
+],
+"hashtags": [
+"#광고",
+"#필리밀리",
+"#fillimilli",
+"#호빵맨",
+"#올리브영"
+],
+"keywords": [
+"퍼프",
+"호빵맨",
+"미니",
+"올리브영",
+"필리밀리",
+"세트",
+"통통",
+"블러쉬",
+"수납함",
+"콜라보",
+"너무너무",
+"귀여운데"
+],
+"series": "",
+"chars": 435,
+"lines": 10,
+"emoji_per_100": 2.53,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-09-30T09:44:49+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dd6CoCduD5a/",
+"like_count": 3540,
+"comments_count": 29,
+"slides": null,
+"skeleton": {
+"first_line": "다이소 인생템 모음 딱 2가지만❗❕🫶🏻 공병 3통이상 나온 레알 찐템임..",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [
+"2",
+"3"
+],
+"hashtags": [
+"#추천",
+"#다이소",
+"#다이소추천템",
+"#daiso",
+"#트러블"
+],
+"keywords": [
+"다이소",
+"인생템",
+"모음",
+"가지만",
+"공병",
+"통이상",
+"나온",
+"레알",
+"찐템임"
+],
+"series": "",
+"chars": 70,
+"lines": 2,
+"emoji_per_100": 5.71,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-24T09:59:03+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DdqnembuDbe/",
+"like_count": 1933,
+"comments_count": 13,
+"slides": null,
+"skeleton": {
+"first_line": "새벽에 다이소 화장품으로 화장하깅◠ ̫◠",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#추천",
+"#다이소",
+"#추석",
+"#daiso",
+"#학생템"
+],
+"keywords": [
+"새벽에",
+"다이소",
+"화장품으로",
+"화장하깅"
+],
+"series": "",
+"chars": 47,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-22T09:46:22+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DdlcdYPuCZj/",
+"like_count": 5280,
+"comments_count": 20,
+"slides": null,
+"skeleton": {
+"first_line": "다이소 파우치 추천❥･•",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#추천",
+"#다이소",
+"#다이소추천템",
+"#daiso",
+"#파우치추천"
+],
+"keywords": [
+"다이소",
+"파우치",
+"추천"
+],
+"series": "",
+"chars": 44,
+"lines": 2,
+"emoji_per_100": 2.27,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-18T13:04:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdbgA9ZFN08/",
+"like_count": 7193,
+"comments_count": 12,
+"slides": 3,
+"skeleton": {
+"first_line": "치이카와 아이라이너 출시예정!!🪽☁",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [
+"1,256"
+],
+"hashtags": [
+"#치이카와",
+"#아이라이너",
+"#드럭스토어"
+],
+"keywords": [
+"치이카와",
+"아이라이너",
+"출시예정",
+"너무너무너무",
+"졸귀탱인데",
+"일본",
+"여행",
+"생겼어요",
+"가격"
+],
+"series": "",
+"chars": 88,
+"lines": 4,
+"emoji_per_100": 3.41,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-14T07:13:26+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdQkrHFlMc0/",
+"like_count": 546,
+"comments_count": 2,
+"slides": 7,
+"skeleton": {
+"first_line": "클리오 다방 컬렉션 출시🍂🍁",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#클리오",
+"#클리오신상",
+"#프아팔",
+"#clio"
+],
+"keywords": [
+"클리오",
+"다방",
+"컬렉션",
+"출시",
+"패키지",
+"장인",
+"답게",
+"너무너무",
+"예쁘고",
+"색이",
+"고능해요"
+],
+"series": "",
+"chars": 67,
+"lines": 3,
+"emoji_per_100": 2.99,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-13T08:41:38+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DdOJ1cSuhy_/",
+"like_count": 115,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "힌스 가을 어른 여자 컬렉션 ㄹㅇ 미치침🔥🔥🔥",
+"last_question": "",
+"structure": "문장×4>해시태그",
+"numbers": [],
+"hashtags": [
+"#제품제공",
+"#힌스",
+"#올리브영",
+"#갈웜",
+"#가을"
+],
+"keywords": [
+"힌스",
+"컬렉션",
+"가을",
+"어른",
+"여자",
+"미치침",
+"스파이스",
+"hince",
+"official",
+"당장",
+"올리브영에서",
+"만나보긩"
+],
+"series": "",
+"chars": 101,
+"lines": 5,
+"emoji_per_100": 2.97,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-13T07:12:08+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdN_utflKct/",
+"like_count": 8182,
+"comments_count": 53,
+"slides": 7,
+"skeleton": {
+"first_line": "멀멀에 지친 코덕들 달래줄 롬앤 돈키호테 신상!!🔔",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#롬앤",
+"#돈키호테",
+"#romnd"
+],
+"keywords": [
+"멀멀에",
+"지친",
+"코덕들",
+"달래줄",
+"롬앤",
+"돈키호테",
+"신상"
+],
+"series": "",
+"chars": 45,
+"lines": 2,
+"emoji_per_100": 2.22,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-09T05:14:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdDfI-mjxy_/",
+"like_count": 3593,
+"comments_count": 19,
+"slides": 6,
+"skeleton": {
+"first_line": "클럽 클리오 패밀리 세일❗❕",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#패밀리세일",
+"#클리오",
+"#페리페라",
+"#심플레인",
+"#구달"
+],
+"keywords": [
+"클럽",
+"클리오",
+"패밀리",
+"세일",
+"가격",
+"좋음",
+"스토리에",
+"링크",
+"올려둘게용"
+],
+"series": "",
+"chars": 68,
+"lines": 3,
+"emoji_per_100": 5.88,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-06T08:27:18+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dc8GxIDlBlp/",
+"like_count": 111,
+"comments_count": 4,
+"slides": 6,
+"skeleton": {
+"first_line": "#광고 올영 세일 웨이크메이크 레오파드 헬로키티 에디션 제대로 뽕 뽑는 법,,",
+"last_question": "",
+"structure": "해시태그>문장×2>이모지소제목>문장×3>이모지소제목>문장×2>이모지소제목>문장>이모지소제목>문장×4>해시태그",
+"numbers": [
+"09",
+"16",
+"09",
+"02",
+"9월",
+"7일",
+"4개",
+"9",
+"7",
+"3.5만"
+],
+"hashtags": [
+"#광고",
+"#웨이크메이크",
+"#레오파드헬로키티컬렉션",
+"#웨이크메이크헬로키티"
+],
+"keywords": [
+"블러",
+"증정",
+"헬로키티",
+"귀여운",
+"글로우",
+"스틱",
+"랜덤",
+"볼드",
+"틴트",
+"너무너무",
+"쉬어",
+"블러셔"
+],
+"series": "",
+"chars": 549,
+"lines": 18,
+"emoji_per_100": 1.09,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-09-05T06:46:05+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dc5WRIcO3fL/",
+"like_count": 602,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "올영세일인데 돈이 없는 텅장 공주들을 위한 영상!!❗❕ 올영도 잘 털어보면 가성비 제품 많으니까 공쥬들 참고",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#추천",
+"#올영세일",
+"#올리브영",
+"#여쿨",
+"#봄웜"
+],
+"keywords": [
+"올영세일인데",
+"돈이",
+"텅장",
+"공주들을",
+"위한",
+"영상",
+"올영도",
+"털어보면",
+"가성비",
+"제품",
+"많으니까",
+"공쥬들"
+],
+"series": "",
+"chars": 86,
+"lines": 2,
+"emoji_per_100": 2.33,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-04T07:06:05+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dc2zxNVO0L_/",
+"like_count": 311,
+"comments_count": 4,
+"slides": null,
+"skeleton": {
+"first_line": "체이싱래빗 다 갖다 버리세요•••🔥",
+"last_question": "",
+"structure": "문장×4>항목>문장>항목>문장>항목>문장×2>항목>문장×3>해시태그",
+"numbers": [
+"9월",
+"5일"
+],
+"hashtags": [
+"#체이싱래빗",
+"#파데프리",
+"#올리브영",
+"#산리오캐릭터즈",
+"#마이멜로디"
+],
+"keywords": [
+"커버",
+"피부",
+"체이싱래빗",
+"완전",
+"산리오캐릭터즈",
+"파데프리",
+"커버크림",
+"근본",
+"특히",
+"같이",
+"올어바웃",
+"글로우"
+],
+"series": "",
+"chars": 684,
+"lines": 16,
+"emoji_per_100": 1.32,
+"ends_with_question": false,
+"giveaway": true,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-03T09:48:09+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dc0hjY2uuAO/",
+"like_count": 127,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "9월 올영 세일 이틀 남았는데,, 이건 꼭 장바구니 넣었겠죠!! 뽕 제대로 뽑는 템들 알려줌❕❗",
+"last_question": "",
+"structure": "해시태그>문장×4>해시태그",
+"numbers": [
+"9월",
+"1"
+],
+"hashtags": [
+"#광고",
+"#아이소이",
+"#올리브영",
+"#올영세일",
+"#장수진수분크림"
+],
+"keywords": [
+"보습",
+"크림",
+"없이",
+"올영",
+"세일",
+"이틀",
+"남았는데",
+"이건",
+"장바구니",
+"넣었겠죠",
+"제대로",
+"뽑는"
+],
+"series": "",
+"chars": 257,
+"lines": 6,
+"emoji_per_100": 1.17,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-30T10:47:23+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcqVHiXuwRS/",
+"like_count": 258,
+"comments_count": 3,
+"slides": null,
+"skeleton": {
+"first_line": "9월 올영 세일 새학기 짱 예뻐지는 법!!!",
+"last_question": "",
+"structure": "문장×3>항목>문장×2>항목>문장×3>항목>해시태그",
+"numbers": [
+"9월",
+"2개",
+"2",
+"9월",
+"8",
+"30",
+"9",
+"5",
+"7일",
+"17,000 원",
+"12,920 원",
+"24%"
+],
+"hashtags": [
+"#네이밍",
+"#올영세일",
+"#립추천",
+"#틴트추천",
+"#naming"
+],
+"keywords": [
+"틴트",
+"올영",
+"세일",
+"새학기",
+"예뻐지는",
+"미소녀라면",
+"자고로",
+"틴트는",
+"개씩은",
+"들고",
+"다녀야",
+"하는데"
+],
+"series": "",
+"chars": 372,
+"lines": 12,
+"emoji_per_100": 1.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-30T06:53:31+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dcp6ZJuOIDr/",
+"like_count": 317,
+"comments_count": 9,
+"slides": null,
+"skeleton": {
+"first_line": "올영세일 파우치에 꼭 들고 다니는 여름철 파데프리템 추천!!",
+"last_question": "",
+"structure": "문장×12>해시태그",
+"numbers": [
+"8",
+"30",
+"9월",
+"5일",
+"26,000원",
+"15,600",
+"40%"
+],
+"hashtags": [
+"#에딧비",
+"#editb",
+"#톤업선쿠션",
+"#올영세일",
+"#올리브영"
+],
+"keywords": [
+"톤업",
+"쿠션",
+"마시멜로",
+"올영세일",
+"퍼플",
+"칙칙한",
+"피부를",
+"핑크",
+"베이지",
+"파우치에",
+"들고",
+"다니는"
+],
+"series": "",
+"chars": 354,
+"lines": 13,
+"emoji_per_100": 1.13,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-30T03:41:16+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcpkViMvW9R/",
+"like_count": 303,
+"comments_count": 7,
+"slides": null,
+"skeleton": {
+"first_line": "9월 올영세일 발 빠르게 야무진템만 싹 털어옴!!",
+"last_question": "수부지 원인인 속건조를 타파하고 여름에도 베이스 장인이 될려면? 당장 이 아이 들이십시오",
+"structure": "문장×12>해시태그",
+"numbers": [
+"9월",
+"9월",
+"1",
+"8",
+"30",
+"9",
+"5",
+"7일",
+"1만",
+"36%"
+],
+"hashtags": [
+"#올영세일",
+"#올리브영",
+"#미스트",
+"#수부지",
+"#더랩바이블랑두"
+],
+"keywords": [
+"미스트",
+"올영세일",
+"베이스",
+"더랩바이블랑두",
+"젤리",
+"빠르게",
+"야무진템만",
+"털어옴",
+"아직도",
+"여름이냐고",
+"수부지들은",
+"여름이"
+],
+"series": "",
+"chars": 436,
+"lines": 13,
+"emoji_per_100": 0.46,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-29T08:41:13+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dcnh5Lkuaxq/",
+"like_count": 77,
+"comments_count": 3,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 9월 올영세일 야르렁한 추천 템들만 모아옴!!",
+"last_question": "",
+"structure": "해시태그>문장×7>해시태그",
+"numbers": [
+"9월",
+"100%",
+"8",
+"30",
+"9",
+"5",
+"34,000",
+"26,730",
+"21%"
+],
+"hashtags": [
+"#광고",
+"#올영세일",
+"#쿠션추천",
+"#올영쿠션",
+"#네이밍쿠션"
+],
+"keywords": [
+"때문에",
+"쿠션",
+"베이스",
+"올영세일",
+"야르렁한",
+"추천",
+"템들만",
+"모아옴",
+"진심",
+"담아서",
+"고르고",
+"고른"
+],
+"series": "",
+"chars": 393,
+"lines": 9,
+"emoji_per_100": 0.76,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-29T07:07:37+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcnXL0jOK-1/",
+"like_count": 611,
+"comments_count": 19,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 9월 올영 세일!! 올리브영 쿠션 최강자 이거임❗❕",
+"last_question": "",
+"structure": "해시태그>문장×10>항목>문장>해시태그",
+"numbers": [
+"9월",
+"100%",
+"20개",
+"9월",
+"12",
+"17",
+"21",
+"23",
+"9월",
+"8",
+"30",
+"9",
+"5",
+"20,620원",
+"28%"
+],
+"hashtags": [
+"#광고",
+"#티르티르",
+"#더레드쿠션",
+"#올영1위쿠션",
+"#올영세일추천템"
+],
+"keywords": [
+"올영",
+"올리브영",
+"올영세일",
+"단독",
+"베이스",
+"세일",
+"쿠션",
+"최강자",
+"이거임",
+"tirtir",
+"official",
+"진심"
+],
+"series": "",
+"chars": 396,
+"lines": 14,
+"emoji_per_100": 1.52,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-28T09:52:39+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DclE3qsuNmr/",
+"like_count": 227,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 9월 진짜 큰 거 옴,,,",
+"last_question": "",
+"structure": "해시태그>문장×15>이모지소제목>문장×2>해시태그",
+"numbers": [
+"9월",
+"9",
+"8월",
+"30일",
+"8",
+"30",
+"9",
+"5",
+"19,900원",
+"13,680원",
+"31%",
+"8",
+"31",
+"19,900원",
+"13,500원"
+],
+"hashtags": [
+"#광고",
+"#데이지크",
+"#daisique",
+"#미니섀도우팔레트",
+"#데이지크산리오캐릭터즈"
+],
+"keywords": [
+"팔레트",
+"섀도우",
+"미니",
+"데이지크",
+"신상",
+"좋음",
+"로즈",
+"소프트한",
+"NEW",
+"피치",
+"시티팝",
+"오특"
+],
+"series": "",
+"chars": 725,
+"lines": 20,
+"emoji_per_100": 2.48,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-28T07:29:02+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dck0ynhueyP/",
+"like_count": 155,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 이번 9월 올영 세일 개이득 기획세트 들구 옴><",
+"last_question": "",
+"structure": "해시태그>문장×5>이모지소제목×3>문장×2>해시태그",
+"numbers": [
+"9월",
+"115",
+"127",
+"146",
+"9월",
+"8월",
+"30일",
+"9월",
+"5일",
+"18,000원",
+"14,540원"
+],
+"hashtags": [
+"#광고",
+"#라카",
+"#프루티글램틴트",
+"#헬시세럼밤",
+"#올영세일"
+],
+"keywords": [
+"본품",
+"틴트",
+"올영",
+"세일",
+"개이득",
+"기획세트",
+"들구",
+"자고로",
+"기획세트는",
+"증정이",
+"이득인디",
+"laka"
+],
+"series": "",
+"chars": 284,
+"lines": 12,
+"emoji_per_100": 2.46,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-27T09:24:48+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcidOJXue88/",
+"like_count": 122,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "YNM 시나모롤 에디션 너무 귀여워••• 저렴한데 제일 예뻐요><",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [
+"9월",
+"8",
+"30",
+"9",
+"5"
+],
+"hashtags": [
+"#ynm",
+"#시나모롤",
+"#올리브영",
+"#올영세일",
+"#올영추천템"
+],
+"keywords": [
+"YNM",
+"시나모롤",
+"에디션",
+"귀여워",
+"저렴한데",
+"제일",
+"예뻐요",
+"반짝이",
+"케이스에서",
+"귀여운",
+"시나모롤로",
+"바뀜"
+],
+"series": "",
+"chars": 136,
+"lines": 4,
+"emoji_per_100": 2.94,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-26T09:30:02+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dcf5GrmuCrV/",
+"like_count": 270,
+"comments_count": 6,
+"slides": null,
+"skeleton": {
+"first_line": "#제품제공 9월!! 올리브영 X 산리오가 찾아왔어요,,🫶🏻🍭",
+"last_question": "",
+"structure": "해시태그>문장×26>해시태그",
+"numbers": [
+"9월",
+"2",
+"19",
+"20",
+"2",
+"09",
+"10",
+"2",
+"08",
+"1",
+"+1",
+"1",
+"+1",
+"01",
+"02"
+],
+"hashtags": [
+"#제품제공",
+"#릴리바이레드",
+"#올영세일",
+"#올리브영X산리오",
+"#올리브영추천템"
+],
+"keywords": [
+"NEW",
+"신상",
+"컬러",
+"듀오",
+"같이",
+"라이어",
+"틴트",
+"웜톤",
+"쿨톤",
+"뽀용",
+"피치",
+"중안부"
+],
+"series": "",
+"chars": 686,
+"lines": 28,
+"emoji_per_100": 0.73,
+"ends_with_question": false,
+"giveaway": true,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-25T09:24:57+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcdTX6pOCZq/",
+"like_count": null,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 올리브영 선물 추천템🫶🏻🧳",
+"last_question": "",
+"structure": "해시태그>문장×4>이모지소제목×2>문장>해시태그>문장",
+"numbers": [],
+"hashtags": [
+"#광고",
+"#아이디얼포맨",
+"#퍼펙트탄력스킨",
+"#남자선물추천"
+],
+"keywords": [
+"올리브영",
+"회사원",
+"퍼펙트",
+"탄력",
+"로션",
+"선물",
+"추천템",
+"남자친구나",
+"짝남에게",
+"선물해주기",
+"좋은",
+"데일리"
+],
+"series": "",
+"chars": 204,
+"lines": 10,
+"emoji_per_100": 2.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-19T10:50:37+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcOAvElzHi2/",
+"like_count": 107,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 충격 맑은 토끼혀립 여쿨 틴트 발견❕",
+"last_question": "",
+"structure": "해시태그>문장×14>해시태그",
+"numbers": [
+"2개",
+"911",
+"912",
+"3",
+"1",
+"8월",
+"20일",
+"17,100원",
+"8월",
+"8",
+"1",
+"29",
+"22,000원",
+"17,400원"
+],
+"hashtags": [
+"#광고",
+"#라카",
+"#올영픽",
+"#퍼펙트트윈립"
+],
+"keywords": [
+"트윈",
+"컬러",
+"핑크",
+"라카",
+"New",
+"립으로",
+"출시",
+"충격",
+"맑은",
+"토끼혀립",
+"여쿨",
+"틴트"
+],
+"series": "",
+"chars": 539,
+"lines": 16,
+"emoji_per_100": 0.56,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-18T10:18:25+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcLYPSxOKzI/",
+"like_count": 173,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "다이소 여름 방학 관리템 찐찐찐템만!!!!❗❕",
+"last_question": "",
+"structure": "문장×13>해시태그",
+"numbers": [
+"-60",
+"8",
+"3",
+"38.3%",
+"27.1%",
+"15.6%",
+"2025.08",
+"06",
+"-09.03",
+"21명"
+],
+"hashtags": [
+"#다이소",
+"#본셉",
+"#레티놀앰플",
+"#모공앰플"
+],
+"keywords": [
+"모공",
+"탄력",
+"레티놀",
+"개선",
+"여름",
+"여름철",
+"본셉",
+"동결건조",
+"더블샷",
+"앰플",
+"있어서",
+"가로"
+],
+"series": "",
+"chars": 631,
+"lines": 14,
+"emoji_per_100": 1.11,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-13T10:36:46+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Db-ibJoOpNG/",
+"like_count": null,
+"comments_count": 9,
+"slides": null,
+"skeleton": {
+"first_line": "아이스크림 퍼프 출시??",
+"last_question": "아이스크림 퍼프 출시??",
+"structure": "질문>이모지소제목>해시태그×2",
+"numbers": [],
+"hashtags": [
+"#단순선물",
+"#에르보리앙",
+"#베이스추천",
+"#파데프리"
+],
+"keywords": [
+"아이스크림",
+"퍼프",
+"출시"
+],
+"series": "",
+"chars": 42,
+"lines": 4,
+"emoji_per_100": 4.76,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-12T06:21:47+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Db7gh5RlHPC/",
+"like_count": 3738,
+"comments_count": 9,
+"slides": 7,
+"skeleton": {
+"first_line": "올영세일 페리페라 큰 거 온다,,,",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"8월",
+"30일"
+],
+"hashtags": [
+"#올리브영",
+"#페리페라"
+],
+"keywords": [
+"올영세일",
+"페리페라",
+"온다",
+"출시"
+],
+"series": "",
+"chars": 42,
+"lines": 3,
+"emoji_per_100": 2.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-09T10:50:10+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Db0Qv6YuxeO/",
+"like_count": 1337,
+"comments_count": 3,
+"slides": null,
+"skeleton": {
+"first_line": "성공템만 다이소 내돈내산 까앙",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#추천",
+"#다이소",
+"#다이소추천템",
+"#daiso",
+"#내돈내산"
+],
+"keywords": [
+"성공템만",
+"다이소",
+"내돈내산",
+"까앙"
+],
+"series": "",
+"chars": 46,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-31T10:40:54+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DbdEbUSTsQW/",
+"like_count": 862,
+"comments_count": 9,
+"slides": null,
+"skeleton": {
+"first_line": "한여름 나만 살아남는 다이소 여름 꿀템!!!",
+"last_question": "화잘붙 픽서로 유명한 만큼 화장도 잘 먹고 지속력도 진짜 최강!! 근데 이 가격이라고?",
+"structure": "문장>질문>문장×2>질문>문장>이모지소제목>문장>해시태그",
+"numbers": [
+"100",
+"5,000원",
+"1072510"
+],
+"hashtags": [
+"#다이소",
+"#투에딧",
+"#여름템",
+"#다이소꿀템",
+"#다이소뷰티템"
+],
+"keywords": [
+"픽서",
+"한여름",
+"나만",
+"살아남는",
+"다이소",
+"여름",
+"꿀템",
+"역대급",
+"무더위인데",
+"화장만",
+"멀쩡한다면",
+"그것은"
+],
+"series": "",
+"chars": 245,
+"lines": 9,
+"emoji_per_100": 2.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-30T10:07:48+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dbab4EJux0h/",
+"like_count": 148,
+"comments_count": 4,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 여름 여행용 파우치 추천!!!🛩",
+"last_question": "은 수납력 돌아버린 브랜든 파우치인데요!!! 근데 이거 무료로 받을 수 있는 거 아시나요?! 이번에 브링그린",
+"structure": "해시태그>문장×4>해시태그",
+"numbers": [
+"4만",
+"8월",
+"1일",
+"4일",
+"8월",
+"1일",
+"4만"
+],
+"hashtags": [
+"#광고",
+"#브링그린",
+"#브랜든",
+"#여름꿀템",
+"#선크림추천"
+],
+"keywords": [
+"여름",
+"브링그린",
+"이상",
+"선착순으로",
+"여행용",
+"파우치",
+"추천",
+"bringgreen",
+"official",
+"수납력",
+"돌아버린",
+"브랜든"
+],
+"series": "",
+"chars": 308,
+"lines": 6,
+"emoji_per_100": 2.27,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-23T05:43:25+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbH8PaAD51o/",
+"like_count": 17542,
+"comments_count": 40,
+"slides": 4,
+"skeleton": {
+"first_line": "다이소 진짜 큰 거 오는데,, 히팅뷰러 출시 한대요🤍🤍 진짜 집 빼고 다 해주는 다이소,,",
+"last_question": "",
+"structure": "문장×3>이모지소제목>해시태그",
+"numbers": [
+"1072571",
+"5,000원",
+"7월",
+"5"
+],
+"hashtags": [
+"#다이소",
+"#히팅뷰러",
+"#온열뷰러"
+],
+"keywords": [
+"다이소",
+"출시",
+"오는데",
+"히팅뷰러",
+"한대요",
+"빼고",
+"해주는",
+"온열",
+"뷰러",
+"주차",
+"예정"
+],
+"series": "",
+"chars": 128,
+"lines": 5,
+"emoji_per_100": 5.47,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-22T10:22:21+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DbF3RtdO8p2/",
+"like_count": 11037,
+"comments_count": 17,
+"slides": null,
+"skeleton": {
+"first_line": "공포 게임 여주 팔레트 공략하기!!!",
+"last_question": "",
+"structure": "문장>이모지소제목>해시태그",
+"numbers": [],
+"hashtags": [
+"#플라워노즈",
+"#추천",
+"#팔레트",
+"#팔레트추천"
+],
+"keywords": [
+"공포",
+"게임",
+"여주",
+"팔레트",
+"공략하기",
+"무신사에서",
+"구매",
+"가능"
+],
+"series": "",
+"chars": 60,
+"lines": 3,
+"emoji_per_100": 3.33,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-20T10:22:26+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbAtyYCFLqh/",
+"like_count": 16606,
+"comments_count": 45,
+"slides": 9,
+"skeleton": {
+"first_line": "충격 1,900원 팔레트 실존!!",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [
+"1,900원"
+],
+"hashtags": [
+"#릴리바이레드",
+"#패밀리세일"
+],
+"keywords": [
+"충격",
+"팔레트",
+"실존",
+"릴바레",
+"패밀리",
+"세일",
+"드가장",
+"링크는",
+"스토리",
+"하이라이트",
+"참고"
+],
+"series": "",
+"chars": 69,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-16T06:51:40+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Da2CfKSD5z7/",
+"like_count": 11477,
+"comments_count": 32,
+"slides": 4,
+"skeleton": {
+"first_line": "다이소에도 도우인 블러셔 나오는 거 아시나용??",
+"last_question": "다이소에도 도우인 블러셔 나오는 거 아시나용??",
+"structure": "문장>질문>문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#다이소",
+"#블러셔",
+"#다이소신상"
+],
+"keywords": [
+"다이소에도",
+"도우인",
+"블러셔",
+"나오는",
+"아시나용",
+"너무너무",
+"떨려",
+"출시하자마자",
+"후기",
+"갖고",
+"거야",
+"출시"
+],
+"series": "",
+"chars": 109,
+"lines": 5,
+"emoji_per_100": 4.59,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-12T10:13:40+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DasGNNdORmB/",
+"like_count": 2202,
+"comments_count": 10,
+"slides": null,
+"skeleton": {
+"first_line": "#제품제공 드디어 이 파우더 한국 출시 했어요!! 따끈따끈 한 캔메이크 한국 신상인데 다들 궁금하죠@!!🫶🏻",
+"last_question": "",
+"structure": "해시태그>문장×6>해시태그",
+"numbers": [
+"01",
+"02"
+],
+"hashtags": [
+"#제품제공",
+"#캔메이크",
+"#canmake",
+"#무신사뷰티",
+"#유캔메이크잇크루"
+],
+"keywords": [
+"파우더",
+"한국",
+"에메랄드",
+"드디어",
+"출시",
+"했어요",
+"따끈따끈",
+"캔메이크",
+"신상인데",
+"다들",
+"궁금하죠",
+"canmake"
+],
+"series": "",
+"chars": 254,
+"lines": 8,
+"emoji_per_100": 1.57,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-10T09:40:08+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dam45qEOjY5/",
+"like_count": 412,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "❗나만 모르는 올영 베이스 1위템은?!",
+"last_question": "❗나만 모르는 올영 베이스 1위템은?!",
+"structure": "이모지소제목>문장×5>해시태그",
+"numbers": [
+"1위"
+],
+"hashtags": [
+"#체이싱래빗",
+"#파데프리",
+"#톤업선크림",
+"#올리브영"
+],
+"keywords": [
+"같이",
+"올영",
+"채이싱레빗",
+"나만",
+"모르는",
+"베이스",
+"위템은",
+"chasinrabbits",
+"official",
+"더운",
+"여름철에",
+"이것저것"
+],
+"series": "",
+"chars": 260,
+"lines": 7,
+"emoji_per_100": 1.54,
+"ends_with_question": false,
+"giveaway": true,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-09T08:55:30+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DakO_3tOv5c/",
+"like_count": 870,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "7월 여름 올리브영 꼭 사템!!!",
+"last_question": "역대급 더위 장마에도 살아남는 메이크업 하고 싶다면?",
+"structure": "문장>질문>문장>이모지소제목>문장×7>해시태그",
+"numbers": [
+"7월",
+"100",
+"19",
+"20",
+"7월"
+],
+"hashtags": [
+"#토니모리",
+"#쇼킹립",
+"#올리브영",
+"#틴트추천"
+],
+"keywords": [
+"알로하",
+"살아남는",
+"메이크업",
+"선셋",
+"쇼킹은",
+"여름",
+"올리브영",
+"사템",
+"역대급",
+"더위",
+"장마에도",
+"하고"
+],
+"series": "",
+"chars": 337,
+"lines": 12,
+"emoji_per_100": 0.59,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-07T10:32:15+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DafQd8fuZOh/",
+"like_count": 105,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 네이밍 X 부오이",
+"last_question": "",
+"structure": "해시태그>문장×3>이모지소제목>문장>항목>문장>이모지소제목×2>항목>이모지소제목×3>항목>이모지소제목×3>문장>이모지소제목>문장>항목×2>이모지소제목>문장>항목×3>이모지소제목>문장>항목×3>이모지소제목>문장×2>이모지소제목>문장×4>해시태그",
+"numbers": [
+"7월",
+"13일",
+"2",
+"7월",
+"13일",
+"7월",
+"26일",
+"3",
+"7월",
+"3만",
+"5,000원"
+],
+"hashtags": [
+"#광고",
+"#네이밍",
+"#부오이",
+"#NAMING",
+"#빈티지썸머컬렉션"
+],
+"keywords": [
+"구매",
+"듀오",
+"빈티지",
+"썸머",
+"네이밍",
+"단독",
+"치크",
+"오버",
+"틴트",
+"증정",
+"부오이",
+"모든"
+],
+"series": "",
+"chars": 734,
+"lines": 42,
+"emoji_per_100": 3.54,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-06T09:56:14+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dacnj_suvPV/",
+"like_count": 114,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 obge_official",
+"last_question": "",
+"structure": "해시태그>문장×7>해시태그",
+"numbers": [
+"18",
+"18",
+"25,000원",
+"18,900원",
+"24%",
+"150",
+"150",
+"2",
+"1개",
+"28,000원",
+"20,900원",
+"25%"
+],
+"hashtags": [
+"#광고",
+"#오브제",
+"#미피콜라보",
+"#올리브영",
+"#올리브영선스틱"
+],
+"keywords": [
+"미피",
+"선스틱",
+"콜라보",
+"오브제",
+"포어",
+"제로",
+"한정기획",
+"기획구성",
+"본품",
+"증정",
+"정상가",
+"올영픽"
+],
+"series": "",
+"chars": 359,
+"lines": 9,
+"emoji_per_100": 0.28,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-05T10:56:38+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaaJrevOioA/",
+"like_count": 4081,
+"comments_count": 9,
+"slides": null,
+"skeleton": {
+"first_line": "#제품제공 7월!! 당장 올리브영 달려가야 하는 이유!!",
+"last_question": "",
+"structure": "해시태그>문장×4>이모지소제목×2>문장×2>이모지소제목×2>문장>이모지소제목>해시태그",
+"numbers": [
+"7월",
+"7월",
+"7일",
+"4",
+"15,500원",
+"4",
+"01",
+"02",
+"9,500원",
+"7",
+"9,000원"
+],
+"hashtags": [
+"#제품제공",
+"#캔메이크",
+"#올리브영",
+"#canmake",
+"#유캔메이크잇크루"
+],
+"keywords": [
+"기획",
+"여름",
+"캔메이크",
+"증정",
+"당장",
+"올리브영",
+"달려가야",
+"이유",
+"사랑",
+"캔메이크가",
+"기획을",
+"들고"
+],
+"series": "",
+"chars": 344,
+"lines": 14,
+"emoji_per_100": 4.36,
+"ends_with_question": false,
+"giveaway": true,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-04T10:43:03+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaXjT4nO6me/",
+"like_count": 339,
+"comments_count": 3,
+"slides": null,
+"skeleton": {
+"first_line": "올영 꼭 사템 모음~~~",
+"last_question": "",
+"structure": "문장>이모지소제목>문장>이모지소제목>문장>이모지소제목>해시태그",
+"numbers": [
+"2",
+"140",
+"+10",
+"6,990원",
+"9",
+"9",
+"+3",
+"7,850원"
+],
+"hashtags": [
+"#제품제공",
+"#올리브영",
+"#해서린",
+"#트러블패치",
+"#올영세일"
+],
+"keywords": [
+"해서린",
+"미니언즈",
+"올영",
+"사템",
+"모음",
+"기획",
+"스팟패치",
+"단독기획",
+"대용량기획",
+"스팟케어",
+"시카",
+"플러스"
+],
+"series": "",
+"chars": 151,
+"lines": 7,
+"emoji_per_100": 3.97,
+"ends_with_question": false,
+"giveaway": true,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-02T09:08:15+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaSO1N_OMIz/",
+"like_count": 122,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "뮤드와 마찌가 만나다!!🩵 여름을 맞아 뮤드가 마찌와 함께 청량 소다 에디션으로 찾아왔어욥!!🫧🫶🏻 보기만 ",
+"last_question": "",
+"structure": "문장×3>이모지소제목>문장>이모지소제목×3>문장>이모지소제목×3>문장>이모지소제목×3>문장>이모지소제목×2>해시태그",
+"numbers": [
+"7월",
+"17,000원",
+"12,600원",
+"109",
+"2",
+"107",
+"36.5",
+"1",
+"14,000원",
+"11,970원",
+"01",
+"05",
+"14,000원",
+"11,970원",
+"01"
+],
+"hashtags": [
+"#뮤드",
+"#올리브영",
+"#마찌",
+"#청량소다",
+"#여름"
+],
+"keywords": [
+"소다",
+"글레이즈",
+"마찌",
+"미니",
+"온라인만",
+"런칭",
+"LO",
+"인스파이어",
+"스키니",
+"오프라인",
+"카드",
+"지갑"
+],
+"series": "",
+"chars": 553,
+"lines": 20,
+"emoji_per_100": 4.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-30T11:58:35+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaNYzhuuy2C/",
+"like_count": 78,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 dermatory.kr 재구매 확실한 올영 좁쌀 요철 치트키 템!!❣️",
+"last_question": "",
+"structure": "해시태그>문장×8>해시태그",
+"numbers": [
+"5",
+"50",
+"+50",
+"35,000원",
+"24,500원",
+"30%",
+"70",
+"+70",
+"39,000원",
+"25,300원",
+"35%",
+"1",
+"70",
+"70",
+"39,000원"
+],
+"hashtags": [
+"#광고",
+"#더마토리",
+"#dermatory",
+"#수분앰플",
+"#올영추천템"
+],
+"keywords": [
+"여름",
+"더마토리",
+"리필",
+"담곰이",
+"증정",
+"패드",
+"좁쌀",
+"요철",
+"치트키",
+"생존",
+"ml",
+"OFF"
+],
+"series": "",
+"chars": 540,
+"lines": 10,
+"emoji_per_100": 1.85,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-06-24T12:57:17+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZ-C11OFGKn/",
+"like_count": 3938,
+"comments_count": 23,
+"slides": 3,
+"skeleton": {
+"first_line": "다이소에 드디어 겨쿨 갈웜 틴트들 나왔아,,,",
+"last_question": "",
+"structure": "문장×2>이모지소제목>해시태그",
+"numbers": [],
+"hashtags": [
+"#다이소",
+"#겨쿨",
+"#갈웜",
+"#베리썸"
+],
+"keywords": [
+"다이소에",
+"드디어",
+"겨쿨",
+"갈웜",
+"틴트들",
+"나왔아",
+"출시"
+],
+"series": "",
+"chars": 74,
+"lines": 4,
+"emoji_per_100": 6.76,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+}
+]
+}
