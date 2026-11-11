@@ -1,8 +1,8 @@
 {
 "account": "cashflow_economy",
-"collected_at": "2026-11-11T12:41:25+00:00",
-"pages": 1,
-"followers_count": 97617,
+"collected_at": "2026-11-11T16:42:19+00:00",
+"pages": 12,
+"followers_count": 97623,
 "media_count": 529,
 "posts": [
 {
@@ -10,7 +10,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DflY9zYk65D/",
-"like_count": 21,
+"like_count": 25,
 "comments_count": 0,
 "slides": 3,
 "skeleton": {
@@ -60,7 +60,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DflCoBGE3Yz/",
-"like_count": 124,
+"like_count": 131,
 "comments_count": 7,
 "slides": 7,
 "skeleton": {
@@ -106,7 +106,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/Dfic84Hk38L/",
-"like_count": 536,
+"like_count": 543,
 "comments_count": 10,
 "slides": 7,
 "skeleton": {
@@ -152,7 +152,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfgUapHE03K/",
-"like_count": 125,
+"like_count": 127,
 "comments_count": 1,
 "slides": 3,
 "skeleton": {
@@ -276,7 +276,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/Dfb_X-kk8IM/",
-"like_count": 180,
+"like_count": 181,
 "comments_count": 9,
 "slides": 3,
 "skeleton": {
@@ -549,7 +549,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfWp7Ywk3lb/",
-"like_count": 37,
+"like_count": 38,
 "comments_count": 2,
 "slides": 2,
 "skeleton": {
@@ -588,7 +588,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfV9N0hE2yh/",
-"like_count": 570,
+"like_count": 572,
 "comments_count": 32,
 "slides": 4,
 "skeleton": {
@@ -678,7 +678,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfTXcynkxLw/",
-"like_count": 66,
+"like_count": 67,
 "comments_count": 3,
 "slides": 3,
 "skeleton": {
@@ -786,7 +786,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfQ2ZTfk24z/",
-"like_count": 244,
+"like_count": 245,
 "comments_count": 129,
 "slides": 8,
 "skeleton": {
@@ -934,7 +934,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfOLoFaE5YG/",
-"like_count": 588,
+"like_count": 589,
 "comments_count": 28,
 "slides": 5,
 "skeleton": {
@@ -1424,7 +1424,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/De70TXTEy-e/",
-"like_count": 104,
+"like_count": 105,
 "comments_count": 2,
 "slides": 6,
 "skeleton": {
@@ -2273,6 +2273,6232 @@
 "chars": 181,
 "lines": 7,
 "emoji_per_100": 0.55,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-16T02:56:07+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Deigqc4kwL6/",
+"like_count": 122,
+"comments_count": 13,
+"slides": 2,
+"skeleton": {
+"first_line": "상반기엔 10명 중 8명이 벌었다는데,",
+"last_question": "여러분의 계좌는 어떤가요?",
+"structure": "문장×3>질문>해시태그",
+"numbers": [
+"10명",
+"8명",
+"1명"
+],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#주식"
+],
+"keywords": [
+"상반기엔",
+"명이",
+"벌었다는데",
+"하반기엔",
+"명만",
+"벌었다네요",
+"뜨거웠던",
+"상반기와",
+"싸늘해진",
+"하반기",
+"여러분의",
+"계좌는"
+],
+"series": "",
+"chars": 97,
+"lines": 5,
+"emoji_per_100": 1.03,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-15T23:32:37+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeiJX95k96i/",
+"like_count": 121,
+"comments_count": 4,
+"slides": 4,
+"skeleton": {
+"first_line": "상반기엔 1등, 하반기엔 꼴찌?",
+"last_question": "상반기엔 1등, 하반기엔 꼴찌?",
+"structure": "질문>문장×3>해시태그",
+"numbers": [
+"1",
+"39%"
+],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#국내주식"
+],
+"keywords": [
+"상반기엔",
+"하반기엔",
+"꼴찌",
+"같은",
+"코스피",
+"맞나",
+"싶을",
+"정도입니다",
+"종가",
+"고점",
+"대비로는",
+"넘게"
+],
+"series": "",
+"chars": 122,
+"lines": 5,
+"emoji_per_100": 0.82,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T22:52:05+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Deff8OFk4gO/",
+"like_count": 152,
+"comments_count": 3,
+"slides": 4,
+"skeleton": {
+"first_line": "미국, 10월에도 금리 올리나?😱",
+"last_question": "미국, 10월에도 금리 올리나?😱",
+"structure": "문장×8>해시태그",
+"numbers": [
+"10월",
+"10월"
+],
+"hashtags": [
+"#미국주식",
+"#소비자물가지수",
+"#금리",
+"#투자"
+],
+"keywords": [
+"미국",
+"금리",
+"예상보다",
+"높게",
+"월에도",
+"올리나",
+"소비자물가지수",
+"나왔습니다",
+"기름값",
+"상승은",
+"이미",
+"예상했지만"
+],
+"series": "",
+"chars": 202,
+"lines": 9,
+"emoji_per_100": 1.49,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T22:24:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Defc0Nuk_go/",
+"like_count": 3045,
+"comments_count": 56,
+"slides": 2,
+"skeleton": {
+"first_line": "치이카와가 서울살이 하면",
+"last_question": "얼마 모을 수 있을까? 💸",
+"structure": "문장×9>질문>문장×10>해시태그",
+"numbers": [
+"225만",
+"150만",
+"70만",
+"5만",
+"5%",
+"10년",
+"772만",
+"8억",
+"6천"
+],
+"hashtags": [
+"#치이카와",
+"#먼작귀",
+"#자취",
+"#재테크"
+],
+"keywords": [
+"치이카와",
+"직장인",
+"가게",
+"만원",
+"사업자",
+"프리랜서",
+"갑옷",
+"숙련",
+"치이카와가",
+"서울살이",
+"얼마",
+"모을"
+],
+"series": "",
+"chars": 429,
+"lines": 21,
+"emoji_per_100": 1.17,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-13T22:49:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dec65zRk64M/",
+"like_count": 187,
+"comments_count": 19,
+"slides": 4,
+"skeleton": {
+"first_line": "코스피 급락, 반도체는 진짜 끝난 걸까?",
+"last_question": "다만 삼성·하이닉스가 당하고만 있진 않겠죠?",
+"structure": "질문>문장×2>질문>문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#반도체"
+],
+"keywords": [
+"코스피",
+"급락",
+"반도체는",
+"끝난",
+"걸까",
+"중국의",
+"추격이",
+"무서운",
+"기술보다",
+"앞으로",
+"줄어들",
+"있어서입니다"
+],
+"series": "",
+"chars": 176,
+"lines": 7,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-13T22:45:21+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dec6VxLz_hi/",
+"like_count": 1575,
+"comments_count": 42,
+"slides": null,
+"skeleton": {
+"first_line": "올해 반도체 투자자 현황..",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"올해",
+"반도체",
+"투자자",
+"현황"
+],
+"series": "",
+"chars": 15,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-12T22:52:32+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeaWZ1kE5ms/",
+"like_count": 464,
+"comments_count": 18,
+"slides": 7,
+"skeleton": {
+"first_line": "2027년, 저금리 만기 폭탄이 온다고? 💣",
+"last_question": "AI 성장으로 이자와 원금까지 감당할 수 있을까요?",
+"structure": "문장×3>질문>문장×3>질문>문장×2>이모지소제목>해시태그",
+"numbers": [
+"2027년",
+"2%",
+"6%",
+"3배",
+"2027년"
+],
+"hashtags": [
+"#미국주식",
+"#AI",
+"#금리",
+"#주식"
+],
+"keywords": [
+"만기",
+"저금리",
+"폭탄이",
+"온다고",
+"금리가",
+"올라도",
+"기업들이",
+"버텼던",
+"이유",
+"아직",
+"예전의",
+"낮은"
+],
+"series": "",
+"chars": 276,
+"lines": 12,
+"emoji_per_100": 0.72,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-11T22:57:37+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeXyMNWE6fz/",
+"like_count": 135,
+"comments_count": 8,
+"slides": 4,
+"skeleton": {
+"first_line": "기업형 월세가 늘어나면, 월세는 얼마나 오를까?📈",
+"last_question": "먼저 기업 집주인이 진출한 해외 도시들의 월세는 어떻게 변했을까요?",
+"structure": "문장×2>질문>문장×5>해시태그",
+"numbers": [],
+"hashtags": [
+"#부동산",
+"#월세",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"월세는",
+"해외",
+"기업의",
+"주택",
+"한국의",
+"기업형",
+"월세가",
+"늘어나면",
+"얼마나",
+"오를까",
+"한국도",
+"기업이"
+],
+"series": "",
+"chars": 271,
+"lines": 9,
+"emoji_per_100": 0.37,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-11T05:24:36+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeV5rrKk9AX/",
+"like_count": 139,
+"comments_count": 14,
+"slides": 7,
+"skeleton": {
+"first_line": "이재명 정부 10·15 대책 이후, 우리 동네 집값은 얼마나 올랐을까요? 🏠",
+"last_question": "이재명 정부 10·15 대책 이후, 우리 동네 집값은 얼마나 올랐을까요? 🏠",
+"structure": "문장×5>해시태그",
+"numbers": [
+"10",
+"15",
+"45개",
+"20%"
+],
+"hashtags": [
+"#부동산",
+"#아파트",
+"#집값",
+"#동탄"
+],
+"keywords": [
+"분당",
+"경기",
+"이재명",
+"정부",
+"대책",
+"이후",
+"동네",
+"집값은",
+"얼마나",
+"올랐을까요",
+"강남",
+"동탄부터"
+],
+"series": "",
+"chars": 180,
+"lines": 6,
+"emoji_per_100": 0.56,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-11T01:22:18+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeVd9AKk5s_/",
+"like_count": 187,
+"comments_count": 7,
+"slides": 6,
+"skeleton": {
+"first_line": "미국 중간선거 뒤 1년 뒤엔 무조건 올랐다고?📈",
+"last_question": "미국 중간선거 뒤 1년 뒤엔 무조건 올랐다고?📈",
+"structure": "문장×2>해시태그",
+"numbers": [
+"1년"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#미국주식"
+],
+"keywords": [
+"미국",
+"중간선거",
+"뒤엔",
+"무조건",
+"올랐다고",
+"과연",
+"사실인지",
+"알아봤습니다"
+],
+"series": "",
+"chars": 61,
+"lines": 3,
+"emoji_per_100": 3.28,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-10T01:13:27+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeS4GMezeyU/",
+"like_count": 103,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "30대 부모가 매달 쓰는 돈 (주거비 제외)",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"30"
+],
+"hashtags": [],
+"keywords": [
+"부모가",
+"매달",
+"쓰는",
+"주거비",
+"제외"
+],
+"series": "",
+"chars": 24,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-09T03:15:10+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeQhR7jk5_C/",
+"like_count": 86,
+"comments_count": 1,
+"slides": 2,
+"skeleton": {
+"first_line": "환율 높을 때보다 지금 환전하면 여행 경비 얼마나 아낀걸까?",
+"last_question": "환율 높을 때보다 지금 환전하면 여행 경비 얼마나 아낀걸까?",
+"structure": "질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#엔화",
+"#달러",
+"#환율",
+"#여행"
+],
+"keywords": [
+"환율",
+"높을",
+"때보다",
+"환전하면",
+"여행",
+"경비",
+"얼마나",
+"아낀걸까"
+],
+"series": "",
+"chars": 49,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-09T01:16:06+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeQTpyHE1cS/",
+"like_count": 271,
+"comments_count": 6,
+"slides": 3,
+"skeleton": {
+"first_line": "피의 목요일, 오픈 AI발 하락 🩸",
+"last_question": "왜 가만히 있던 오픈 AI가 하락 원인이냐고요?",
+"structure": "문장>질문>문장×4>해시태그",
+"numbers": [],
+"hashtags": [
+"#미국주식",
+"#오픈AI",
+"#엔비디아",
+"#AI"
+],
+"keywords": [
+"오픈",
+"하락",
+"피의",
+"목요일",
+"AI발",
+"가만히",
+"있던",
+"AI가",
+"원인이냐고요",
+"그건",
+"매출에",
+"실망감이"
+],
+"series": "",
+"chars": 169,
+"lines": 7,
+"emoji_per_100": 1.18,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-08T23:35:45+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DeQIFyWTOWB/",
+"like_count": 28,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하치와레가 이사를 갈 수 있었던 이유",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#먼작귀",
+"#하치와레",
+"#주식",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"하치와레가",
+"이사를",
+"있었던",
+"이유"
+],
+"series": "",
+"chars": 45,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-08T02:43:21+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeN41_fk9AZ/",
+"like_count": 170,
+"comments_count": 5,
+"slides": 5,
+"skeleton": {
+"first_line": "손정의가 오픈AI에 몰빵했다? 무려 87조 원 ?!!😱",
+"last_question": "역대급 승부수가 될까요, 역대급 몰빵이 될까요?",
+"structure": "문장×11>질문>해시태그",
+"numbers": [
+"87조",
+"2040년",
+"20%"
+],
+"hashtags": [
+"#ai",
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"손정의가",
+"오픈AI에",
+"역대급",
+"될까요",
+"몰빵했다",
+"무려",
+"소프트뱅크가",
+"넣은",
+"누적",
+"투자금입니다",
+"그런데",
+"노리는"
+],
+"series": "",
+"chars": 297,
+"lines": 13,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-07T23:04:03+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeNfvw6k8F6/",
+"like_count": 138,
+"comments_count": 6,
+"slides": 4,
+"skeleton": {
+"first_line": "그때 천만 원을 삼성전자, sk하이닉스, 마이크론, 엔비디아 샀다면?😭",
+"last_question": "그때 천만 원을 삼성전자, sk하이닉스, 마이크론, 엔비디아 샀다면?😭",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#미국주식"
+],
+"keywords": [
+"그때",
+"천만",
+"원을",
+"삼성전자",
+"sk하이닉스",
+"마이크론",
+"엔비디아",
+"샀다면"
+],
+"series": "",
+"chars": 59,
+"lines": 2,
+"emoji_per_100": 1.69,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-07T02:25:14+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeLR-WvEykv/",
+"like_count": 697,
+"comments_count": 9,
+"slides": 5,
+"skeleton": {
+"first_line": "안랩 17% 상승, 철수형은 다 알고 있었나?🤔",
+"last_question": "안랩 17% 상승, 철수형은 다 알고 있었나?🤔",
+"structure": "문장×3>항목>문장×6>해시태그",
+"numbers": [
+"17%",
+"10%",
+"41억"
+],
+"hashtags": [
+"#AI",
+"#사이버보안",
+"#안랩",
+"#주식"
+],
+"keywords": [
+"안랩",
+"AI가",
+"AI로",
+"시대",
+"상승",
+"철수형은",
+"알고",
+"있었나",
+"어제",
+"만들었는데",
+"방금",
+"확인해보니"
+],
+"series": "",
+"chars": 290,
+"lines": 11,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-06T22:51:18+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeK5fhDkxJc/",
+"like_count": 659,
+"comments_count": 28,
+"slides": 15,
+"skeleton": {
+"first_line": "인기 주식의 본주와 2배 ETF! 📈",
+"last_question": "연초부터 지금까지의 가격으로 누가 이겼을까? 🤔",
+"structure": "문장×2>해시태그",
+"numbers": [
+"2배"
+],
+"hashtags": [
+"#투자",
+"#주식",
+"#재테크",
+"#미국주식"
+],
+"keywords": [
+"인기",
+"주식의",
+"본주와",
+"ETF",
+"연초부터",
+"지금까지의",
+"가격으로",
+"누가",
+"이겼을까"
+],
+"series": "",
+"chars": 66,
+"lines": 3,
+"emoji_per_100": 3.03,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-06T03:05:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeIxxhNk4x2/",
+"like_count": 106,
+"comments_count": 7,
+"slides": 2,
+"skeleton": {
+"first_line": "10억 모으면, 30대에 은퇴 가능할까요? 🤔",
+"last_question": "10억은 크니까 5억에 부업을 더하면 은퇴 가능할까요? 🤔",
+"structure": "문장×2>해시태그>문장×2>해시태그",
+"numbers": [
+"10억",
+"30",
+"10억",
+"5억"
+],
+"hashtags": [
+"#재테크",
+"#투자",
+"#주식",
+"#재테크",
+"#투자",
+"#주식"
+],
+"keywords": [
+"은퇴",
+"가능할까요",
+"생활비마다",
+"얼마나",
+"있을지",
+"알아봤어요",
+"모으면",
+"대에",
+"억은",
+"크니까",
+"억에",
+"부업을"
+],
+"series": "",
+"chars": 136,
+"lines": 6,
+"emoji_per_100": 1.47,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-05T22:56:47+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeIVUxqExMV/",
+"like_count": 182,
+"comments_count": 1,
+"slides": 4,
+"skeleton": {
+"first_line": "AI,삼전닉스 다음은 반도체 장비에 돈이 쏠린다고? 핵심은 데이터센터! #투자 #재테크 #주식 #AI",
+"last_question": "AI,삼전닉스 다음은 반도체 장비에 돈이 쏠린다고? 핵심은 데이터센터! #투자 #재테크 #주식 #AI",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#재테크",
+"#주식",
+"#AI"
+],
+"keywords": [
+"AI",
+"삼전닉스",
+"다음은",
+"반도체",
+"장비에",
+"돈이",
+"쏠린다고",
+"핵심은",
+"데이터센터"
+],
+"series": "",
+"chars": 56,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-05T04:54:09+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeGZbWdE9TQ/",
+"like_count": 188,
+"comments_count": 5,
+"slides": 5,
+"skeleton": {
+"first_line": "러시아 실험실서 흑사병 감염.. 과연 무슨 일일까?🤧",
+"last_question": "러시아 실험실서 흑사병 감염.. 과연 무슨 일일까?🤧",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"러시아",
+"실험실서",
+"흑사병",
+"감염",
+"과연",
+"무슨",
+"일일까"
+],
+"series": "",
+"chars": 29,
+"lines": 1,
+"emoji_per_100": 3.45,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-05T02:08:33+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeGGeekE54g/",
+"like_count": 559,
+"comments_count": 9,
+"slides": 6,
+"skeleton": {
+"first_line": "미래산업 48종목, 올해 얼마나 움직였을까? 📈📉",
+"last_question": "미래산업 48종목, 올해 얼마나 움직였을까? 📈📉",
+"structure": "문장>해시태그",
+"numbers": [
+"48"
+],
+"hashtags": [
+"#투자",
+"#재테크",
+"#주식",
+"#ai"
+],
+"keywords": [
+"미래산업",
+"종목",
+"올해",
+"얼마나",
+"움직였을까"
+],
+"series": "",
+"chars": 44,
+"lines": 2,
+"emoji_per_100": 4.55,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T08:34:38+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeEN3WdE37G/",
+"like_count": 1598,
+"comments_count": 45,
+"slides": 7,
+"skeleton": {
+"first_line": "브랜드에 이어, 기업들이 인외캐가 됐습니다. 👀",
+"last_question": "여러분의 취향 기업은 어디인가요? 👀",
+"structure": "문장×11>해시태그",
+"numbers": [],
+"hashtags": [
+"#인왜캐",
+"#인외콤",
+"#투자",
+"#주식",
+"#밈"
+],
+"keywords": [
+"메타",
+"기업",
+"브랜드에",
+"이어",
+"기업들이",
+"인외캐가",
+"됐습니다",
+"SK하이닉스",
+"삼성전자",
+"엔비디아",
+"스페이스X",
+"구글"
+],
+"series": "",
+"chars": 272,
+"lines": 12,
+"emoji_per_100": 1.1,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T05:51:49+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeD7O30Exjc/",
+"like_count": 608,
+"comments_count": 85,
+"slides": 3,
+"skeleton": {
+"first_line": "연초에 미국주식은 사셨나요? 😭",
+"last_question": "내가 환전한 환율은 얼마였나요?",
+"structure": "문장×3>결론>문장>결론×2>질문>문장",
+"numbers": [
+"1,500원",
+"1,340원",
+"-10.67%",
+"1,340원",
+"1,200원",
+"-10.45%",
+"1,500원",
+"+11.94%",
+"20원"
+],
+"hashtags": [],
+"keywords": [
+"원에서",
+"원에",
+"환전했다면",
+"연초에",
+"미국주식은",
+"사셨나요",
+"그랬다면",
+"벌써",
+"환율",
+"때문에",
+"손해",
+"내가"
+],
+"series": "",
+"chars": 171,
+"lines": 9,
+"emoji_per_100": 1.17,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T01:37:09+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeDeFm0E2m0/",
+"like_count": 498,
+"comments_count": 38,
+"slides": 7,
+"skeleton": {
+"first_line": "환율 1,200원대 진짜 온다고? 📉",
+"last_question": "환율 1,200원대 진짜 온다고? 📉",
+"structure": "문장×6>해시태그",
+"numbers": [
+"1,200원",
+"1,340원"
+],
+"hashtags": [
+"#환율",
+"#금리",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"환율",
+"원대",
+"온다고",
+"벌써",
+"원대까지",
+"내려온",
+"미국주식",
+"투자하는",
+"분들은",
+"환율도",
+"신경",
+"쓰이죠"
+],
+"series": "",
+"chars": 167,
+"lines": 7,
+"emoji_per_100": 1.2,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-03T07:02:44+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeBejYGEwT1/",
+"like_count": 86,
+"comments_count": 2,
+"slides": 3,
+"skeleton": {
+"first_line": "최태원 회장 지분 매각 💸",
+"last_question": "여러분은 이번 매각, 악재 해소로 보시나요? 👀",
+"structure": "문장×11>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#하이닉스",
+"#sk"
+],
+"keywords": [
+"지분",
+"매각",
+"매도",
+"물량이",
+"악재",
+"오너",
+"최태원",
+"회장",
+"SK하이닉스",
+"주가는",
+"영향",
+"없겠죠"
+],
+"series": "",
+"chars": 260,
+"lines": 12,
+"emoji_per_100": 0.77,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-03T01:57:53+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeA7qlvE53K/",
+"like_count": 170,
+"comments_count": 2,
+"slides": 8,
+"skeleton": {
+"first_line": "투자 기회는 왜 항상 지나고 나서 보일까?",
+"last_question": "우리는 w를 찾을 수 있을까?",
+"structure": "질문×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#광고",
+"#찰리멍거바이블",
+"#찰리멍거바이블완결판",
+"#투자"
+],
+"keywords": [
+"투자",
+"기회는",
+"항상",
+"지나고",
+"나서",
+"보일까",
+"우리는",
+"w를",
+"찾을",
+"있을까"
+],
+"series": "",
+"chars": 69,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-10-02T02:48:27+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd-cqFJk9Yu/",
+"like_count": 259,
+"comments_count": 8,
+"slides": 9,
+"skeleton": {
+"first_line": "AI 다음 메타는 AI 보안주?",
+"last_question": "여러분이 주목하는 기업은 어디인가요? 👀",
+"structure": "질문>문장×5>해시태그",
+"numbers": [],
+"hashtags": [
+"#AI",
+"#사이버보안",
+"#미국주식",
+"#주식",
+"#투자"
+],
+"keywords": [
+"AI",
+"다음",
+"메타는",
+"보안주",
+"AI가",
+"해킹까지",
+"시대",
+"공격이",
+"빨라지면",
+"방어도",
+"빨라져야",
+"합니다"
+],
+"series": "",
+"chars": 148,
+"lines": 7,
+"emoji_per_100": 1.35,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-01T23:27:12+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd-FjWVTn4T/",
+"like_count": 594,
+"comments_count": 40,
+"slides": null,
+"skeleton": {
+"first_line": "미국 채권 수익률 근황",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#금리",
+"#재테크"
+],
+"keywords": [
+"미국",
+"채권",
+"수익률",
+"근황"
+],
+"series": "",
+"chars": 25,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-01T02:48:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd736k7EysN/",
+"like_count": 172,
+"comments_count": 3,
+"slides": 10,
+"skeleton": {
+"first_line": "미국의 금리 방향, 이 남자를 주목해야 합니다",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#금리",
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"미국의",
+"금리",
+"방향",
+"남자를",
+"주목해야",
+"합니다"
+],
+"series": "",
+"chars": 42,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-30T23:10:19+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd7e5ftkzMC/",
+"like_count": 228,
+"comments_count": 13,
+"slides": 4,
+"skeleton": {
+"first_line": "부캉이 경제효과가 300억 원이라고? 😱",
+"last_question": "부캉이 경제효과가 300억 원이라고? 😱",
+"structure": "문장>해시태그",
+"numbers": [
+"300억"
+],
+"hashtags": [
+"#부캉이",
+"#부산"
+],
+"keywords": [
+"부캉이",
+"경제효과가",
+"원이라고"
+],
+"series": "",
+"chars": 31,
+"lines": 2,
+"emoji_per_100": 3.23,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T02:53:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd2u4b5k_WU/",
+"like_count": 53,
+"comments_count": 5,
+"slides": 2,
+"skeleton": {
+"first_line": "한국 1인당 생산액 Top 10 도시는?",
+"last_question": "한국 1인당 생산액 Top 10 도시는?",
+"structure": "질문",
+"numbers": [
+"1",
+"10"
+],
+"hashtags": [],
+"keywords": [
+"한국",
+"인당",
+"생산액",
+"Top",
+"도시는"
+],
+"series": "",
+"chars": 22,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-28T23:48:28+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd2Zn9MzrKJ/",
+"like_count": 101,
+"comments_count": 10,
+"slides": null,
+"skeleton": {
+"first_line": "맥킨지가 본 성장 도시 top 10",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"10"
+],
+"hashtags": [],
+"keywords": [
+"맥킨지가",
+"성장",
+"도시",
+"top"
+],
+"series": "",
+"chars": 19,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-28T23:12:30+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd2Vjz7E6Ub/",
+"like_count": 165,
+"comments_count": 8,
+"slides": 9,
+"skeleton": {
+"first_line": "보이지 않는 위기 - AI",
+"last_question": "GPU 가격이 꺾이면, 쌓인 빚은 버틸 수 있을까?",
+"structure": "문장>질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#금리",
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"보이지",
+"않는",
+"위기",
+"AI",
+"GPU",
+"가격이",
+"꺾이면",
+"쌓인",
+"빚은",
+"버틸",
+"있을까"
+],
+"series": "",
+"chars": 60,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-27T22:59:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdzvS1KE_hL/",
+"like_count": 332,
+"comments_count": 10,
+"slides": 4,
+"skeleton": {
+"first_line": "연평균 22%의 낸시 펠로시가 비중 늘리고 있는 주식",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [
+"22%"
+],
+"hashtags": [
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"연평균",
+"낸시",
+"펠로시가",
+"비중",
+"늘리고",
+"주식"
+],
+"series": "",
+"chars": 43,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-26T04:29:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdvLgMKk41D/",
+"like_count": 881,
+"comments_count": 73,
+"slides": 2,
+"skeleton": {
+"first_line": "야구 한일전 20년 만의 패배? 일본 선수 스쿼드",
+"last_question": "야구 한일전 20년 만의 패배? 일본 선수 스쿼드",
+"structure": "문장×2",
+"numbers": [
+"20년",
+"2026년"
+],
+"hashtags": [],
+"keywords": [
+"야구",
+"한일전",
+"만의",
+"패배",
+"일본",
+"선수",
+"스쿼드",
+"나고야",
+"아시안게임"
+],
+"series": "",
+"chars": 50,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-26T00:02:17+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ddus31Tk649/",
+"like_count": 226,
+"comments_count": 1,
+"slides": 2,
+"skeleton": {
+"first_line": "내 월급으로 얼마짜리 아파크를 살 수 있을까?",
+"last_question": "내 월급으로 얼마짜리 아파크를 살 수 있을까?",
+"structure": "질문>문장>해시태그>질문>문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#부동산",
+"#아파트",
+"#재테크",
+"#부동산",
+"#아파트",
+"#재테크"
+],
+"keywords": [
+"월급으로",
+"얼마짜리",
+"아파크를",
+"있을까",
+"경기",
+"인천",
+"비규제지역",
+"서울",
+"전역",
+"규제지역"
+],
+"series": "",
+"chars": 111,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-24T01:17:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ddpr7-ak3hh/",
+"like_count": 61,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "추석 용돈, 얼마나 올랐을까? ㅜ",
+"last_question": "추석 용돈, 얼마나 올랐을까? ㅜ",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"추석",
+"용돈",
+"얼마나",
+"올랐을까"
+],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-22T23:16:33+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ddm5QK0k3Ce/",
+"like_count": 197,
+"comments_count": 5,
+"slides": 6,
+"skeleton": {
+"first_line": "메타 11% 상승! 그 뒤엔 무슨 이유가 있을까?",
+"last_question": "메타 11% 상승! 그 뒤엔 무슨 이유가 있을까?",
+"structure": "질문>해시태그",
+"numbers": [
+"11%"
+],
+"hashtags": [
+"#주식",
+"#나스닥",
+"#ai",
+"#투자"
+],
+"keywords": [
+"메타",
+"상승",
+"뒤엔",
+"무슨",
+"이유가",
+"있을까"
+],
+"series": "",
+"chars": 44,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-21T22:33:04+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdkPeyskxkc/",
+"like_count": 150,
+"comments_count": 9,
+"slides": 4,
+"skeleton": {
+"first_line": "시진핑 건강이상설 루머 최신자료로 총정리",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"시진핑",
+"건강이상설",
+"루머",
+"최신자료로",
+"총정리"
+],
+"series": "",
+"chars": 22,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-20T22:34:44+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ddhq4LUk6ZR/",
+"like_count": 28,
+"comments_count": 2,
+"slides": 10,
+"skeleton": {
+"first_line": "#광고 투자 잘하는 사람이 옆에서",
+"last_question": "내 투자 고민을 어떻게 풀었을까요?",
+"structure": "해시태그>문장×2>질문>이모지소제목>문장×6>해시태그",
+"numbers": [
+"8"
+],
+"hashtags": [
+"#광고",
+"#찰리멍거바이블완결판",
+"#재테크",
+"#주식",
+"#투자"
+],
+"keywords": [
+"투자",
+"찰리",
+"멍거가",
+"잘하는",
+"사람이",
+"옆에서",
+"도와주면",
+"좋겠다고",
+"생각한",
+"있나요",
+"세계적인",
+"투자자"
+],
+"series": "",
+"chars": 257,
+"lines": 12,
+"emoji_per_100": 0.78,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-09-20T02:55:31+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ddfj7UVk2QM/",
+"like_count": 475,
+"comments_count": 6,
+"slides": 10,
+"skeleton": {
+"first_line": "미국은 고금리에도 돈을 풀 겁니다 📈💸",
+"last_question": "",
+"structure": "문장×9>해시태그",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#재테크",
+"#코인",
+"#주식"
+],
+"keywords": [
+"AI",
+"달러",
+"크립토",
+"미국은",
+"고금리에도",
+"돈을",
+"겁니다",
+"이유는",
+"AI는",
+"단순한",
+"산업이",
+"아니라"
+],
+"series": "",
+"chars": 208,
+"lines": 10,
+"emoji_per_100": 0.96,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-17T23:26:34+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdaCbOxkz2f/",
+"like_count": 240,
+"comments_count": 4,
+"slides": 6,
+"skeleton": {
+"first_line": "미국, 3년 만에 금리인상! 📈📈",
+"last_question": "",
+"structure": "문장×6>해시태그",
+"numbers": [
+"3년"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#금리"
+],
+"keywords": [
+"미국",
+"주요",
+"정리했어요",
+"생각보다",
+"만에",
+"금리인상",
+"핵심",
+"내용",
+"인상의",
+"핵심은",
+"단순히",
+"물가가"
+],
+"series": "",
+"chars": 164,
+"lines": 7,
+"emoji_per_100": 1.22,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-15T23:10:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdU2-xEE74M/",
+"like_count": 815,
+"comments_count": 85,
+"slides": 3,
+"skeleton": {
+"first_line": "한국에서 태어날 확률, 얼마나 될까? 🇰🇷",
+"last_question": "한국에서 태어날 확률, 얼마나 될까? 🇰🇷",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"한국에서",
+"태어날",
+"확률",
+"얼마나",
+"될까"
+],
+"series": "",
+"chars": 23,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-14T23:03:07+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdSRUn3zHvF/",
+"like_count": 851,
+"comments_count": 425,
+"slides": null,
+"skeleton": {
+"first_line": "트럼프가 중간선거 이기면",
+"last_question": "여러분이라면 이 공약, 어떻게 보시나요?",
+"structure": "문장×17>질문>해시태그",
+"numbers": [
+"1",
+"700만",
+"2억",
+"4천",
+"1",
+"700만",
+"1,600조",
+"1",
+"25만",
+"14조",
+"115배",
+"25만",
+"1명",
+"200만",
+"250만"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"인당",
+"만원",
+"트럼프가",
+"선거를",
+"앞두고",
+"성인",
+"만원씩",
+"지급하는",
+"조원",
+"중간선거",
+"이기면",
+"만원을"
+],
+"series": "",
+"chars": 415,
+"lines": 19,
+"emoji_per_100": 0.48,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-12T02:04:49+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdK3jEVzgsf/",
+"like_count": 227,
+"comments_count": 18,
+"slides": null,
+"skeleton": {
+"first_line": "환전 최적의 타이밍 왔나? 😃",
+"last_question": "지금이 가장 저렴할 때냐? 라고 하면 글쎄여..",
+"structure": "문장×4>해시태그",
+"numbers": [],
+"hashtags": [
+"#환율",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"환전",
+"최적의",
+"타이밍",
+"왔나",
+"원화가",
+"강세가",
+"되면서",
+"타국",
+"환율이",
+"계속해서",
+"낮아지고",
+"있어요"
+],
+"series": "",
+"chars": 130,
+"lines": 5,
+"emoji_per_100": 0.77,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-09T22:55:35+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdFYhRskyls/",
+"like_count": 89,
+"comments_count": 1,
+"slides": 5,
+"skeleton": {
+"first_line": "삼성전자, HBM 하이닉스 턱밑까지 따라붙었습니다 🤖",
+"last_question": "아니면 삼성이 생각보다 빠르게 돌아온 걸까요?",
+"structure": "문장×8>질문×2>해시태그",
+"numbers": [
+"2026년",
+"2",
+"50%",
+"33%",
+"1위",
+"3",
+"4",
+"38%",
+"25%"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#반도체",
+"#코스피"
+],
+"keywords": [
+"HBM",
+"삼성전자",
+"하이닉스",
+"빠르게",
+"걸까요",
+"턱밑까지",
+"따라붙었습니다",
+"분기",
+"매출",
+"점유율은",
+"SK하이닉스",
+"아직"
+],
+"series": "",
+"chars": 248,
+"lines": 11,
+"emoji_per_100": 0.4,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-08T23:24:58+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdC3FpOE10d/",
+"like_count": 287,
+"comments_count": 61,
+"slides": 5,
+"skeleton": {
+"first_line": "한국, 전세계 6번째로",
+"last_question": "국민 총소득 4만 달러 넘는다고? 🇰🇷🍻",
+"structure": "문장×11",
+"numbers": [
+"6",
+"4만",
+"1",
+"4만",
+"4만",
+"5,000만",
+"1",
+"4만",
+"6"
+],
+"hashtags": [],
+"keywords": [
+"인당",
+"달러를",
+"한국",
+"전세계",
+"번째로",
+"국민",
+"총소득",
+"달러",
+"넘는다고",
+"한국은행은",
+"올해",
+"한국의"
+],
+"series": "",
+"chars": 217,
+"lines": 11,
+"emoji_per_100": 0.46,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-07T22:54:18+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdAOyKBEznT/",
+"like_count": 396,
+"comments_count": 16,
+"slides": 3,
+"skeleton": {
+"first_line": "웬만한 투자자보다 수익 좋다는 빅테크 회사채🌆",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#채권",
+"#재테크"
+],
+"keywords": [
+"웬만한",
+"투자자보다",
+"수익",
+"좋다는",
+"빅테크",
+"회사채",
+"금리가",
+"높아지면서",
+"매력적이라",
+"소문난",
+"회사들",
+"가져왔어요"
+],
+"series": "",
+"chars": 73,
+"lines": 3,
+"emoji_per_100": 1.37,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-07T03:46:49+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dc-LdvoE4bX/",
+"like_count": 700,
+"comments_count": 39,
+"slides": 3,
+"skeleton": {
+"first_line": "우리가 안 본 사이, 삼전닉스는 50% 올랐습니다 📈",
+"last_question": "메모리는 쭉 부족해질까요?",
+"structure": "문장×2>질문>해시태그",
+"numbers": [
+"50%"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#반도체",
+"#코스피"
+],
+"keywords": [
+"우리가",
+"사이",
+"삼전닉스는",
+"올랐습니다",
+"주가와",
+"별개로",
+"파죽지세",
+"반등하는",
+"삼전닉스",
+"메모리는",
+"부족해질까요"
+],
+"series": "",
+"chars": 90,
+"lines": 4,
+"emoji_per_100": 1.11,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-06T22:58:25+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dc9qdZ3k5Qb/",
+"like_count": 873,
+"comments_count": 41,
+"slides": 11,
+"skeleton": {
+"first_line": "AI가 서비스를 해킹해서 서버까지 뚫었다고? 🥶🤖",
+"last_question": "AI가 서비스를 해킹해서 서버까지 뚫었다고? 🥶🤖",
+"structure": "문장×15>해시태그",
+"numbers": [],
+"hashtags": [
+"#ai",
+"#gpt",
+"#허깅페이스",
+"#투자"
+],
+"keywords": [
+"AI가",
+"서비스를",
+"해킹해서",
+"서버까지",
+"뚫었다고",
+"놀라운",
+"누가",
+"해킹하라",
+"시킨",
+"적도",
+"없었다는",
+"겁니다"
+],
+"series": "",
+"chars": 295,
+"lines": 16,
+"emoji_per_100": 0.68,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-05T01:50:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dc40jB8Ex-J/",
+"like_count": 88,
+"comments_count": 1,
+"slides": 3,
+"skeleton": {
+"first_line": "아이폰 18 프로, 203만원부터 시작해요 📱",
+"last_question": "",
+"structure": "문장×8>해시태그",
+"numbers": [
+"18",
+"203만",
+"200만",
+"220만",
+"300만"
+],
+"hashtags": [
+"#아이폰",
+"#애플",
+"#아이폰프로"
+],
+"keywords": [
+"만원",
+"아이폰",
+"프로",
+"만원부터",
+"시작해요",
+"중국",
+"유출",
+"가격과",
+"최근",
+"맥미니에",
+"적용된",
+"애플의"
+],
+"series": "",
+"chars": 210,
+"lines": 9,
+"emoji_per_100": 0.48,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-03T03:44:33+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dcz4Bo3E1eN/",
+"like_count": 1201,
+"comments_count": 213,
+"slides": 4,
+"skeleton": {
+"first_line": "카카오톡 10월 전면유료화? 🫠",
+"last_question": "카톡 메시지도 돈을 내야 한다고요?",
+"structure": "문장>질문>문장×3>해시태그",
+"numbers": [
+"10월"
+],
+"hashtags": [
+"#카카오톡",
+"#카톡",
+"#카카오",
+"#주식"
+],
+"keywords": [
+"카카오톡",
+"전면유료화",
+"카톡",
+"메시지도",
+"돈을",
+"내야",
+"한다고요",
+"이건",
+"사실무근이고",
+"결합",
+"상품이",
+"나올"
+],
+"series": "",
+"chars": 110,
+"lines": 6,
+"emoji_per_100": 0.91,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-02T23:02:23+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DczXu_sE2Ho/",
+"like_count": 307,
+"comments_count": 67,
+"slides": 4,
+"skeleton": {
+"first_line": "한국은행이 금리를 4번 더 올릴 수 있다고? 😵‍💫📈",
+"last_question": "지금 상황만 보면 고금리, 생각보다 더 오래 갈 수 있지 않나요?",
+"structure": "문장×4>질문>해시태그",
+"numbers": [
+"4"
+],
+"hashtags": [
+"#금리",
+"#주식",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"한국은행이",
+"금리를",
+"올릴",
+"있다고",
+"대출",
+"받으신",
+"잡으세요",
+"지금은",
+"인상이",
+"기본",
+"시나리오지만",
+"유가"
+],
+"series": "",
+"chars": 162,
+"lines": 6,
+"emoji_per_100": 1.85,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-01T23:07:59+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcwzlJPE72T/",
+"like_count": 647,
+"comments_count": 20,
+"slides": 5,
+"skeleton": {
+"first_line": "일본 10년물 국채금리가",
+"last_question": "",
+"structure": "문장×7>해시태그",
+"numbers": [
+"10년",
+"30년",
+"3%"
+],
+"hashtags": [
+"#엔화",
+"#일본",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"일본",
+"년물",
+"국채금리가",
+"만에",
+"돌파했습니다",
+"금리",
+"상승은",
+"엔캐리",
+"청산과",
+"미국채",
+"수요",
+"감소로"
+],
+"series": "",
+"chars": 146,
+"lines": 8,
+"emoji_per_100": 0.68,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-01T22:56:40+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcwySKAEwue/",
+"like_count": 1444,
+"comments_count": 50,
+"slides": 5,
+"skeleton": {
+"first_line": "엔화 사세요. 830원, 안 옵니다 🇯🇵💴",
+"last_question": "",
+"structure": "문장×7>해시태그",
+"numbers": [
+"830원",
+"857원",
+"830원",
+"830원",
+"880원"
+],
+"hashtags": [
+"#엔화",
+"#일본",
+"#투자",
+"#환테크"
+],
+"keywords": [
+"수도",
+"원을",
+"엔화",
+"사세요",
+"옵니다",
+"엔화는",
+"원으로",
+"이미",
+"역사적으로",
+"저렴한",
+"구간입니다",
+"원대"
+],
+"series": "",
+"chars": 213,
+"lines": 8,
+"emoji_per_100": 0.47,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-31T22:40:42+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcuLqWiE5BS/",
+"like_count": 952,
+"comments_count": 54,
+"slides": 7,
+"skeleton": {
+"first_line": "미국은 돈을 갚지 못합니다 🇺🇸📉",
+"last_question": "",
+"structure": "문장×9>해시태그",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#스테이블코인",
+"#코인",
+"#비트코인"
+],
+"keywords": [
+"미국은",
+"갚지",
+"돈을",
+"못합니다",
+"빚을",
+"못해",
+"돈의",
+"가치를",
+"낮추는",
+"쪽을",
+"택할",
+"겁니다"
+],
+"series": "",
+"chars": 223,
+"lines": 10,
+"emoji_per_100": 0.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-30T08:14:06+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcqDsTeE6Yj/",
+"like_count": 2264,
+"comments_count": 271,
+"slides": 2,
+"skeleton": {
+"first_line": "앞으로의 3년은 어떤 모습일까?",
+"last_question": "앞으로의 3년은 어떤 모습일까?",
+"structure": "질문>문장×2",
+"numbers": [
+"3년",
+"2"
+],
+"hashtags": [],
+"keywords": [
+"앞으로의",
+"년은",
+"어떤",
+"모습일까",
+"인사",
+"배치를",
+"보면",
+"있어요",
+"청와대",
+"장관",
+"후보자",
+"과거"
+],
+"series": "",
+"chars": 59,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-30T07:09:28+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dcp8J5yzEQl/",
+"like_count": 180,
+"comments_count": 5,
+"slides": null,
+"skeleton": {
+"first_line": "잭슨홀미팅, 케빈 워시가 금리 안 내리겠다고 한 이유는?",
+"last_question": "잭슨홀미팅, 케빈 워시가 금리 안 내리겠다고 한 이유는?",
+"structure": "질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#금리",
+"#주식"
+],
+"keywords": [
+"잭슨홀미팅",
+"케빈",
+"워시가",
+"금리",
+"내리겠다고",
+"이유는"
+],
+"series": "",
+"chars": 43,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-29T02:38:12+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dcm4dNRk2Xk/",
+"like_count": 227,
+"comments_count": 9,
+"slides": 5,
+"skeleton": {
+"first_line": "케빈 워시, 금리 발언 해석해드려요 💸",
+"last_question": "",
+"structure": "문장×6>해시태그",
+"numbers": [],
+"hashtags": [
+"#금리",
+"#주식",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"케빈",
+"워시",
+"금리",
+"발언",
+"해석해드려요",
+"잭슨홀",
+"미팅에서",
+"매파적으로",
+"말했지만",
+"숨겨진",
+"의미는",
+"조금"
+],
+"series": "",
+"chars": 121,
+"lines": 7,
+"emoji_per_100": 0.83,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-27T23:06:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dcj7e6Vk__X/",
+"like_count": 906,
+"comments_count": 49,
+"slides": 8,
+"skeleton": {
+"first_line": "한 줄 요약: 돈(대출)이 다 같은 돈인 줄 아나보네..?",
+"last_question": "금리인상, 어떻게 바라봐야 할까? 📈",
+"structure": "질문>문장×5>해시태그",
+"numbers": [],
+"hashtags": [
+"#금리",
+"#환율",
+"#재테크",
+"#투자",
+"#부동산"
+],
+"keywords": [
+"요약",
+"대출",
+"같은",
+"돈인",
+"아나보네",
+"금리인상",
+"어떻게",
+"바라봐야",
+"할까",
+"한은의",
+"의도는",
+"간단합니다"
+],
+"series": "",
+"chars": 165,
+"lines": 7,
+"emoji_per_100": 0.61,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-26T23:07:59+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DchWz4Ok8om/",
+"like_count": 709,
+"comments_count": 24,
+"slides": 6,
+"skeleton": {
+"first_line": "왜 미국은 왜 미국은 몰래 모스크바에 갔을까? 🤔",
+"last_question": "아니면 전쟁을 막기 위한 협상일까요?",
+"structure": "문장×4>질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"미국은",
+"몰래",
+"모스크바에",
+"갔을까",
+"확전",
+"경고",
+"우크라이나",
+"백채널",
+"협상",
+"이란",
+"문제까지",
+"아직"
+],
+"series": "",
+"chars": 139,
+"lines": 5,
+"emoji_per_100": 0.72,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-24T22:28:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DccIt9pk82m/",
+"like_count": 271,
+"comments_count": 12,
+"slides": 4,
+"skeleton": {
+"first_line": "한국 시간으로 오전 2시, 미국은 이란에 대한 고립 작전을 발표했습니다.",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"2"
+],
+"hashtags": [],
+"keywords": [
+"한국",
+"시간으로",
+"오전",
+"미국은",
+"이란에",
+"고립",
+"작전을",
+"발표했습니다"
+],
+"series": "",
+"chars": 40,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-24T11:27:21+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dca9CjKk9AR/",
+"like_count": 357,
+"comments_count": 13,
+"slides": 2,
+"skeleton": {
+"first_line": "제주도 연도별 실종 건수",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"제주도",
+"연도별",
+"실종",
+"건수"
+],
+"series": "",
+"chars": 13,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-23T09:42:36+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcYMQbFkx0a/",
+"like_count": 409,
+"comments_count": 77,
+"slides": 9,
+"skeleton": {
+"first_line": "서울 월세, 오늘이 가장 저렴합니다 🏠📈",
+"last_question": "‘시세차익’에서 ‘임대수익’ 중심으로 바뀌기 시작한 걸까요?",
+"structure": "문장×14>질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#부동산",
+"#재테크",
+"#투자",
+"#주식"
+],
+"keywords": [
+"서울",
+"월세",
+"집값은",
+"낮은",
+"오늘이",
+"가장",
+"저렴합니다",
+"서울은",
+"비싼데",
+"집값",
+"대비",
+"월세는"
+],
+"series": "",
+"chars": 290,
+"lines": 16,
+"emoji_per_100": 0.69,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-23T06:26:50+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcX12iIE7iv/",
+"like_count": 842,
+"comments_count": 103,
+"slides": 4,
+"skeleton": {
+"first_line": "원·달러 환율, 1,325원 간다고요? 🇰🇷🇺🇸📉",
+"last_question": "원·달러 환율, 1,325원 간다고요? 🇰🇷🇺🇸📉",
+"structure": "문장×7>해시태그",
+"numbers": [
+"1,325원",
+"1,325원"
+],
+"hashtags": [
+"#환율",
+"#투자",
+"#재테크",
+"#달러"
+],
+"keywords": [
+"달러",
+"늘고",
+"환율",
+"간다고요",
+"삼성전자",
+"SK하이닉스의",
+"대규모",
+"주주환원이",
+"새로운",
+"원화",
+"강세",
+"요인으로"
+],
+"series": "",
+"chars": 199,
+"lines": 8,
+"emoji_per_100": 0.5,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-23T05:38:35+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcXwVMaE7fA/",
+"like_count": 630,
+"comments_count": 25,
+"slides": 9,
+"skeleton": {
+"first_line": "미국은 돈을 찍을 거고,",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#비트코인",
+"#암호화폐",
+"#투자",
+"#주식"
+],
+"keywords": [
+"미국은",
+"돈을",
+"찍을",
+"거고",
+"찍은",
+"만큼",
+"비트코인은",
+"오를겁니다"
+],
+"series": "",
+"chars": 52,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-22T00:32:35+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcUohGYkuat/",
+"like_count": 423,
+"comments_count": 15,
+"slides": 11,
+"skeleton": {
+"first_line": "국채를 산다고 했는데 왜 비트코인이 4일 만에 20% 올랐을까? 📈",
+"last_question": "국채를 산다고 했는데 왜 비트코인이 4일 만에 20% 올랐을까? 📈",
+"structure": "문장×9>해시태그",
+"numbers": [
+"4일",
+"20%",
+"30년",
+"5.33%"
+],
+"hashtags": [
+"#투자",
+"#주식",
+"#재테크",
+"#비트코인",
+"#코인"
+],
+"keywords": [
+"오른",
+"국채를",
+"산다고",
+"했는데",
+"비트코인이",
+"만에",
+"올랐을까",
+"미국",
+"년물",
+"금리가",
+"까지",
+"치솟자베센트는"
+],
+"series": "",
+"chars": 329,
+"lines": 10,
+"emoji_per_100": 0.3,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-20T02:31:41+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcPsjrbk_YG/",
+"like_count": 269,
+"comments_count": 45,
+"slides": 7,
+"skeleton": {
+"first_line": "한미연합훈련 취소, 북한 핵 보유국 인정..?🥵",
+"last_question": "한미연합훈련 취소, 북한 핵 보유국 인정..?🥵",
+"structure": "문장×3>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#트럼프"
+],
+"keywords": [
+"한미연합훈련",
+"취소",
+"북한",
+"보유국",
+"인정",
+"갈수록",
+"정도가",
+"심해지는",
+"트럼프",
+"미대통령",
+"이유가",
+"뭔지"
+],
+"series": "",
+"chars": 78,
+"lines": 4,
+"emoji_per_100": 1.28,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-19T23:15:51+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcPWJYgkwVt/",
+"like_count": 488,
+"comments_count": 4,
+"slides": 6,
+"skeleton": {
+"first_line": "11개월 만에 원달러 환율 1300원! 💸",
+"last_question": "왜 떨어졌고 언제 사야할까?",
+"structure": "문장>질문>문장>해시태그",
+"numbers": [
+"11개",
+"1300원"
+],
+"hashtags": [
+"#재테크",
+"#환율",
+"#달러"
+],
+"keywords": [
+"개월",
+"만에",
+"원달러",
+"환율",
+"떨어졌고",
+"언제",
+"사야할까",
+"내용에",
+"대해",
+"알아봤어요"
+],
+"series": "",
+"chars": 69,
+"lines": 4,
+"emoji_per_100": 1.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-19T22:59:34+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcPUSCjE5RI/",
+"like_count": 487,
+"comments_count": 8,
+"slides": 8,
+"skeleton": {
+"first_line": "모더나 177% 상승! 암 드디어 정복 하나요? 🚩",
+"last_question": "모더나 177% 상승! 암 드디어 정복 하나요? 🚩",
+"structure": "문장×5>해시태그",
+"numbers": [
+"177%",
+"3"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#나스닥",
+"#모더나"
+],
+"keywords": [
+"모더나",
+"상승",
+"드디어",
+"정복",
+"하나요",
+"임상",
+"실험이",
+"통과하면서",
+"급증항",
+"얼마나",
+"뉴스이길래",
+"이렇게"
+],
+"series": "",
+"chars": 139,
+"lines": 6,
+"emoji_per_100": 0.72,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-18T23:05:09+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcMwIHWk3qq/",
+"like_count": 2102,
+"comments_count": 54,
+"slides": 10,
+"skeleton": {
+"first_line": "주식 시장에 위기가 찾아오고 있다고요? 💣",
+"last_question": "주식 시장에 위기가 찾아오고 있다고요? 💣",
+"structure": "문장×4>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#코스피",
+"#미국주식"
+],
+"keywords": [
+"주식",
+"시장에",
+"위기가",
+"찾아오고",
+"있다고요",
+"치솟는",
+"장기",
+"채권인데요",
+"녀석",
+"상승",
+"하는게",
+"심상치"
+],
+"series": "",
+"chars": 104,
+"lines": 5,
+"emoji_per_100": 0.96,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-17T08:20:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcImHygE1Hq/",
+"like_count": 446,
+"comments_count": 13,
+"slides": 4,
+"skeleton": {
+"first_line": "삼전·하닉, 이번엔 진짜 반등일까? 👀",
+"last_question": "삼전·하닉, 이번엔 진짜 반등일까? 👀",
+"structure": "문장×7>해시태그",
+"numbers": [
+"7월",
+"+45%",
+"+32%"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#주식",
+"#코스피"
+],
+"keywords": [
+"삼전",
+"하닉",
+"이번엔",
+"반등일까",
+"저점",
+"이후",
+"삼성전자",
+"SK하이닉스",
+"여기에",
+"외국인까지",
+"다시",
+"단위로"
+],
+"series": "",
+"chars": 151,
+"lines": 8,
+"emoji_per_100": 0.66,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-15T05:10:29+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcDGwUaE606/",
+"like_count": 1429,
+"comments_count": 38,
+"slides": 4,
+"skeleton": {
+"first_line": "복잡한데 안 복잡한 기후동행카드 최최최최종 정리 🚌🚉",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#기후동행카드",
+"#지하철"
+],
+"keywords": [
+"복잡한데",
+"복잡한",
+"기후동행카드",
+"최최최최종",
+"정리",
+"이해하기",
+"쉽게",
+"정리했어요"
+],
+"series": "",
+"chars": 58,
+"lines": 3,
+"emoji_per_100": 3.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-13T10:49:58+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Db-kBGZE8Ld/",
+"like_count": 4810,
+"comments_count": 560,
+"slides": 4,
+"skeleton": {
+"first_line": "우리 조상 중에도 친일파가 있을까?",
+"last_question": "우리 조상 중에도 친일파가 있을까?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"조상",
+"중에도",
+"친일파가",
+"있을까"
+],
+"series": "",
+"chars": 19,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-12T22:55:45+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Db9SR9rk33e/",
+"like_count": 438,
+"comments_count": 8,
+"slides": 9,
+"skeleton": {
+"first_line": "나스닥 ETF, 너무 많은데 뭘 사야할까? 🤔",
+"last_question": "나스닥 ETF, 너무 많은데 뭘 사야할까? 🤔",
+"structure": "문장×3>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#나스닥",
+"#미국주식",
+"#재테크"
+],
+"keywords": [
+"ETF",
+"나스닥",
+"많은데",
+"사야할까",
+"유형별로",
+"나에게",
+"맞는",
+"정리했어요",
+"투자하는",
+"친구에게",
+"공유해주면",
+"도움이"
+],
+"series": "",
+"chars": 95,
+"lines": 4,
+"emoji_per_100": 1.05,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-11T22:52:17+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Db6tFwOE1XZ/",
+"like_count": 321,
+"comments_count": 15,
+"slides": 3,
+"skeleton": {
+"first_line": "SK하이닉스,  쪼개기 상장한다고? 😅",
+"last_question": "SK하이닉스,  쪼개기 상장한다고? 😅",
+"structure": "문장×13>해시태그",
+"numbers": [
+"4"
+],
+"hashtags": [
+"#주식",
+"#코스피",
+"#하이닉스",
+"#삼성전자"
+],
+"keywords": [
+"SK하이닉스",
+"쪼개기",
+"상장한다고",
+"자회사인",
+"솔리다임이",
+"나스닥",
+"상장설이",
+"나오면서",
+"상장",
+"우려가",
+"커지고",
+"있습니다"
+],
+"series": "",
+"chars": 277,
+"lines": 14,
+"emoji_per_100": 0.36,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-10T22:50:11+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Db4IDcjk3Qq/",
+"like_count": 203,
+"comments_count": 3,
+"slides": 7,
+"skeleton": {
+"first_line": "AI, 반도체 다음은 2차전지? ⚡️",
+"last_question": "반도체 다음, 이제 배터리도 조사하는 건 어떨까요?",
+"structure": "문장×7>질문>문장>해시태그",
+"numbers": [
+"2"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#코스피",
+"#코스닥"
+],
+"keywords": [
+"AI",
+"반도체",
+"ESS",
+"다음은",
+"차전지",
+"데이터센터가",
+"늘수록",
+"필요한",
+"반도체만이",
+"아닙니다",
+"UPS",
+"BBU까지"
+],
+"series": "",
+"chars": 222,
+"lines": 10,
+"emoji_per_100": 0.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-09T08:31:00+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Db0A7x3EwQt/",
+"like_count": 534,
+"comments_count": 59,
+"slides": 6,
+"skeleton": {
+"first_line": "환율, 최고점 대비 약 10% 떨어졌는데..",
+"last_question": "이제 1,300원 가나요? 💸",
+"structure": "문장×12>해시태그",
+"numbers": [
+"10%",
+"1,300원",
+"1,560원",
+"1,410원",
+"1,300원"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#환율"
+],
+"keywords": [
+"달러",
+"원대까지",
+"한국은행의",
+"금리",
+"환율",
+"최고점",
+"대비",
+"떨어졌는데",
+"가나요",
+"치솟았던",
+"환율이",
+"최근"
+],
+"series": "",
+"chars": 308,
+"lines": 13,
+"emoji_per_100": 0.32,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-09T05:43:51+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbztzfNk4cH/",
+"like_count": 434,
+"comments_count": 3,
+"slides": 7,
+"skeleton": {
+"first_line": "미국 중간선거 이후 주가 폭등? 🇺🇸📈",
+"last_question": "같은 패턴이 반복될 수 있을까요?",
+"structure": "문장×11>질문>해시태그",
+"numbers": [
+"500",
+"3년",
+"4년",
+"1",
+"2018년",
+"2019년",
+"500",
+"+28.9%",
+"2026년"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#나스닥"
+],
+"keywords": [
+"중간선거",
+"미국",
+"이후",
+"주가",
+"폭등",
+"역사적으로",
+"중간선거가",
+"해보다",
+"선거가",
+"끝난",
+"훨씬",
+"강했습니다"
+],
+"series": "",
+"chars": 296,
+"lines": 13,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-08T10:45:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbxrjDSExM3/",
+"like_count": 37,
+"comments_count": 1,
+"slides": 3,
+"skeleton": {
+"first_line": "아이폰 17, 다음주에 가격 오른다고? 🚨",
+"last_question": "아이폰 17, 다음주에 가격 오른다고? 🚨",
+"structure": "문장×11>해시태그",
+"numbers": [
+"17,",
+"8월",
+"10일",
+"17",
+"8월",
+"10일",
+"8월",
+"10일"
+],
+"hashtags": [
+"#아이폰",
+"#애플",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"아이폰",
+"가격",
+"가격이",
+"다음주에",
+"오른다고",
+"최근",
+"X를",
+"중심으로",
+"일부터",
+"오른다",
+"이야기가",
+"빠르게"
+],
+"series": "",
+"chars": 278,
+"lines": 12,
+"emoji_per_100": 0.36,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-06T23:45:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dbt7QWwk12L/",
+"like_count": 1757,
+"comments_count": 208,
+"slides": 3,
+"skeleton": {
+"first_line": "경기도가 진짜 망한 걸까? 🚨",
+"last_question": "경기도가 진짜 망한 걸까? 🚨",
+"structure": "문장×13>해시태그",
+"numbers": [
+"3조"
+],
+"hashtags": [
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"빚을",
+"경기도가",
+"망한",
+"걸까",
+"추미애",
+"경기지사는",
+"재정",
+"비상",
+"선언했습니다",
+"당장",
+"갚는",
+"파산"
+],
+"series": "",
+"chars": 288,
+"lines": 14,
+"emoji_per_100": 0.35,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-05T22:26:44+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbrNZSXk6CJ/",
+"like_count": 334,
+"comments_count": 11,
+"slides": 6,
+"skeleton": {
+"first_line": "ISA 개편, 이제 미국 투자 못한다고? 😡",
+"last_question": "ISA 개편, 이제 미국 투자 못한다고? 😡",
+"structure": "문장×15>해시태그",
+"numbers": [
+"500,",
+"100",
+"10%"
+],
+"hashtags": [
+"#ISA",
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"국내",
+"ISA",
+"미국",
+"생산적",
+"금융",
+"개편",
+"투자",
+"못한다고",
+"새로",
+"나오는",
+"에서는",
+"맞습니다"
+],
+"series": "",
+"chars": 328,
+"lines": 16,
+"emoji_per_100": 0.3,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-04T23:03:59+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dbos3Qjk0AU/",
+"like_count": 675,
+"comments_count": 14,
+"slides": 6,
+"skeleton": {
+"first_line": "엔화의 수상한 움직임,",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#엔화",
+"#투자",
+"#코스피",
+"#주식"
+],
+"keywords": [
+"엔화의",
+"수상한",
+"움직임",
+"속의",
+"일본과",
+"미국의",
+"상황을",
+"정리했습니다"
+],
+"series": "",
+"chars": 54,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-03T22:48:15+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbmGRO2E9J-/",
+"like_count": 208,
+"comments_count": 17,
+"slides": 2,
+"skeleton": {
+"first_line": "삼전닉스 레버리지 거래량, 1/10로 폭락 🥶",
+"last_question": "",
+"structure": "문장×7>해시태그",
+"numbers": [
+"1",
+"10",
+"3천",
+"3배"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"레버리지",
+"삼전닉스",
+"거래량",
+"폭락",
+"현금",
+"천만",
+"예탁",
+"조건이",
+"붙자",
+"단일종목",
+"거래가",
+"순식간에"
+],
+"series": "",
+"chars": 199,
+"lines": 8,
+"emoji_per_100": 0.5,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-01T04:06:05+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dbe8Qe_E0pP/",
+"like_count": 2485,
+"comments_count": 123,
+"slides": 8,
+"skeleton": {
+"first_line": "코스피 폭락은 이 남자에서 시작됐다.",
+"last_question": "",
+"structure": "문장×6>해시태그",
+"numbers": [],
+"hashtags": [
+"#코스피",
+"#주식",
+"#삼성전자",
+"#하이닉스"
+],
+"keywords": [
+"코스피",
+"폭락은",
+"남자에서",
+"시작됐다",
+"끝도",
+"없이",
+"폭락하던",
+"코스피의",
+"갑작스런",
+"급반등",
+"정상적이지",
+"않은"
+],
+"series": "",
+"chars": 131,
+"lines": 7,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-30T23:23:04+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dbb3AVUTp5u/",
+"like_count": 228,
+"comments_count": 15,
+"slides": null,
+"skeleton": {
+"first_line": "메모리 주식, 고점 대비 얼마나 떨어졌을까? (7월 30일 기준) #주식 #하이닉스 #삼성전자 #코스피",
+"last_question": "메모리 주식, 고점 대비 얼마나 떨어졌을까? (7월 30일 기준) #주식 #하이닉스 #삼성전자 #코스피",
+"structure": "문장",
+"numbers": [
+"7월",
+"30일"
+],
+"hashtags": [
+"#주식",
+"#하이닉스",
+"#삼성전자",
+"#코스피"
+],
+"keywords": [
+"메모리",
+"주식",
+"고점",
+"대비",
+"얼마나",
+"떨어졌을까",
+"기준"
+],
+"series": "",
+"chars": 57,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-30T23:17:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dbb2Yh4kxYH/",
+"like_count": 384,
+"comments_count": 17,
+"slides": 8,
+"skeleton": {
+"first_line": "#광고 알아야 흔들리지 않습니다. 😎",
+"last_question": "",
+"structure": "해시태그>문장×14>해시태그",
+"numbers": [],
+"hashtags": [
+"#광고",
+"#적정주가가치투자법칙",
+"#투자",
+"#주식",
+"#SK하이닉스"
+],
+"keywords": [
+"적정",
+"아니라",
+"나만의",
+"기준을",
+"계산하는",
+"주가",
+"가치투자",
+"법칙",
+"알아야",
+"흔들리지",
+"않습니다",
+"주가는"
+],
+"series": "",
+"chars": 354,
+"lines": 16,
+"emoji_per_100": 0.28,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-30T13:59:42+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dba2hLpzw_U/",
+"like_count": 629,
+"comments_count": 25,
+"slides": null,
+"skeleton": {
+"first_line": "최태원 회장 SK하이닉스 매수!",
+"last_question": "SK하이닉스 반등의 신호탄이 될까요?",
+"structure": "문장×25>질문>해시태그",
+"numbers": [
+"7월",
+"30일",
+"3,620",
+"7월",
+"30일",
+"132만",
+"2,000원",
+"47억",
+"8,600만",
+"48억",
+"50억",
+"30일",
+"50억",
+"3,620",
+"0.00%"
+],
+"hashtags": [
+"#SK하이닉스",
+"#코스피",
+"#주식",
+"#투자"
+],
+"keywords": [
+"SK하이닉스",
+"최태원",
+"직접",
+"매수",
+"회장이",
+"개인",
+"명의로",
+"회장",
+"저점",
+"인가",
+"제발",
+"SK그룹"
+],
+"series": "",
+"chars": 553,
+"lines": 27,
+"emoji_per_100": 0.18,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-29T23:04:31+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbZP_QLT3cs/",
+"like_count": 304,
+"comments_count": 7,
+"slides": null,
+"skeleton": {
+"first_line": "비트코인은 도박이라 못하겠다고? 🤔",
+"last_question": "비트코인은 도박이라 못하겠다고? 🤔",
+"structure": "문장×3>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#비트코인",
+"#코스피"
+],
+"keywords": [
+"비트코인은",
+"도박이라",
+"못하겠다고",
+"비트코인과",
+"삼성전자",
+"하이닉스",
+"누가",
+"변동성",
+"높은지",
+"알아봤어요"
+],
+"series": "",
+"chars": 80,
+"lines": 4,
+"emoji_per_100": 1.25,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-29T22:56:36+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbZPP9XEx0f/",
+"like_count": 115,
+"comments_count": 2,
+"slides": 9,
+"skeleton": {
+"first_line": "#광고 수익 난 종목은 너무 빨리 팔고",
+"last_question": "계속 붙잡고 있진 않나요? 🤔",
+"structure": "해시태그>문장×9>해시태그",
+"numbers": [],
+"hashtags": [
+"#광고",
+"#주식의시대",
+"#투자",
+"#주식",
+"#재테크"
+],
+"keywords": [
+"종목은",
+"빨리",
+"손실",
+"투자",
+"원칙을",
+"수익",
+"팔고",
+"본전만",
+"오면",
+"팔아야지",
+"하며",
+"계속"
+],
+"series": "",
+"chars": 237,
+"lines": 11,
+"emoji_per_100": 0.42,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-28T22:58:51+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbWqthDkx8b/",
+"like_count": 1378,
+"comments_count": 61,
+"slides": 10,
+"skeleton": {
+"first_line": "삼성전자, 하이닉스에 물리셨다면 꼭 보셨으면 좋겠습니다 #삼성전자 #하이닉스 #코스피 #주식",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#코스피",
+"#주식"
+],
+"keywords": [
+"삼성전자",
+"하이닉스에",
+"물리셨다면",
+"보셨으면",
+"좋겠습니다"
+],
+"series": "",
+"chars": 51,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-27T23:00:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbUGFzHE3PU/",
+"like_count": 583,
+"comments_count": 26,
+"slides": 5,
+"skeleton": {
+"first_line": "투자하면 망하는 MBTI가 있다고..?😱",
+"last_question": "투자하면 망하는 MBTI가 있다고..?😱",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#주식",
+"#코스피"
+],
+"keywords": [
+"투자하면",
+"망하는",
+"MBTI가",
+"있다고",
+"유형",
+"별로",
+"투자",
+"스타일",
+"나눠봤어요"
+],
+"series": "",
+"chars": 55,
+"lines": 3,
+"emoji_per_100": 1.82,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-26T09:28:29+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbQEYhBEZI-/",
+"like_count": 877,
+"comments_count": 21,
+"slides": 7,
+"skeleton": {
+"first_line": "엔화, 850원 ~ 870원까지 떨어진다고? 😱✈️🇯🇵🛍️",
+"last_question": "과연 어디까지 떨어질까요?",
+"structure": "문장×3>질문>문장>해시태그",
+"numbers": [
+"850원",
+"870원",
+"890원",
+"870원",
+"2.25%",
+"23년"
+],
+"hashtags": [
+"#엔화",
+"#환율",
+"#일본여행",
+"#투자"
+],
+"keywords": [
+"엔화",
+"원까지",
+"떨어진다고",
+"현재",
+"원대에서",
+"원까지는",
+"이후",
+"다시",
+"찾아온",
+"약세",
+"과연",
+"어디까지"
+],
+"series": "",
+"chars": 135,
+"lines": 6,
+"emoji_per_100": 2.22,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-26T01:50:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbPP_Pxj7fa/",
+"like_count": 861,
+"comments_count": 29,
+"slides": 2,
+"skeleton": {
+"first_line": "테슬라 주식 말고 테슬라 차를 되팔았다면 돈 벌었다고? 🤔",
+"last_question": "테슬라 주식 말고 테슬라 차를 되팔았다면 돈 벌었다고? 🤔",
+"structure": "문장×6>해시태그",
+"numbers": [
+"30%",
+"41%"
+],
+"hashtags": [
+"#테슬라",
+"#FSD",
+"#주식",
+"#투자"
+],
+"keywords": [
+"테슬라",
+"구형",
+"주식",
+"말고",
+"차를",
+"되팔았다면",
+"벌었다고",
+"주가는",
+"연초",
+"대비",
+"하락했지만",
+"FSD가"
+],
+"series": "",
+"chars": 168,
+"lines": 7,
+"emoji_per_100": 0.6,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-23T23:15:45+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbJ0q8ckyph/",
+"like_count": 268,
+"comments_count": 7,
+"slides": 8,
+"skeleton": {
+"first_line": "하이닉스는 전고점을 회복해도 난 -23%라고? 🤯",
+"last_question": "하이닉스는 전고점을 회복해도 난 -23%라고? 🤯",
+"structure": "문장×7>해시태그",
+"numbers": [
+"-23%",
+"2배",
+"2배"
+],
+"hashtags": [
+"#주식",
+"#투자",
+"#삼성전자",
+"#하이닉스"
+],
+"keywords": [
+"좋은",
+"하이닉스는",
+"전고점을",
+"회복해도",
+"라고",
+"레버리지는",
+"장기",
+"수익률이",
+"아닌",
+"매일의",
+"수익률을",
+"배로"
+],
+"series": "",
+"chars": 152,
+"lines": 8,
+"emoji_per_100": 0.66,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-22T23:02:37+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbHOX5Rk9gh/",
+"like_count": 186,
+"comments_count": 3,
+"slides": 6,
+"skeleton": {
+"first_line": "주식 투자, 어렵게 느껴진다고요?",
+"last_question": "주식 투자, 어렵게 느껴진다고요?",
+"structure": "질문>문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#코스피"
+],
+"keywords": [
+"주식",
+"투자",
+"어렵게",
+"느껴진다고요",
+"명언들만",
+"알아도",
+"좋은",
+"투자를",
+"있어요",
+"북마크하고",
+"물려서",
+"마음"
+],
+"series": "",
+"chars": 98,
+"lines": 4,
+"emoji_per_100": 1.02,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-21T22:58:12+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbEpEnkk2Ik/",
+"like_count": 814,
+"comments_count": 17,
+"slides": 6,
+"skeleton": {
+"first_line": "북한이 휴전선 코앞에",
+"last_question": "전술도로를 깔고 있다고? 🤯",
+"structure": "문장×12",
+"numbers": [
+"70"
+],
+"hashtags": [],
+"keywords": [
+"북한이",
+"휴전선",
+"코앞에",
+"전술도로를",
+"깔고",
+"있다고",
+"km",
+"있습니다",
+"당장",
+"남침",
+"신호라기보다",
+"철책"
+],
+"series": "",
+"chars": 204,
+"lines": 12,
+"emoji_per_100": 0.49,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-21T05:56:25+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbC0I5ME_Lm/",
+"like_count": 142,
+"comments_count": 12,
+"slides": 3,
+"skeleton": {
+"first_line": "단일종목 레버리지, 어떻게 바뀔까?",
+"last_question": "단일종목 레버리지, 어떻게 바뀔까?",
+"structure": "질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#하이닉스",
+"#투자"
+],
+"keywords": [
+"단일종목",
+"레버리지",
+"어떻게",
+"바뀔까"
+],
+"series": "",
+"chars": 42,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-20T23:03:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbCE3qdk_Pv/",
+"like_count": 862,
+"comments_count": 385,
+"slides": 3,
+"skeleton": {
+"first_line": "한국 반도체가 번 돈, 미국에도 나눠달라? 🇺🇸🇰🇷",
+"last_question": "한국 반도체가 번 돈, 미국에도 나눠달라? 🇺🇸🇰🇷",
+"structure": "문장×5>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"미국",
+"한국",
+"기업의",
+"반도체가",
+"미국에도",
+"나눠달라",
+"코리아타임스는",
+"인사가",
+"삼성전자와",
+"SK하이닉스의",
+"이익",
+"일부를"
+],
+"series": "",
+"chars": 229,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-17T04:44:21+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Da4YthtE-Wt/",
+"like_count": 523,
+"comments_count": 80,
+"slides": 8,
+"skeleton": {
+"first_line": "오세훈 서울시장이 직접 소개하는 서울 집값 안 잡히는 이유",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#부동산",
+"#주식",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"오세훈",
+"서울시장이",
+"직접",
+"소개하는",
+"서울",
+"집값",
+"잡히는",
+"이유",
+"출처",
+"오세훈TV"
+],
+"series": "",
+"chars": 63,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-16T23:05:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Da3x60LEzIs/",
+"like_count": 1245,
+"comments_count": 78,
+"slides": 2,
+"skeleton": {
+"first_line": "삼성전자·SK하이닉스, 왜 폭등하고 폭락할까요?🤔",
+"last_question": "삼성전자·SK하이닉스, 왜 폭등하고 폭락할까요?🤔",
+"structure": "문장×15>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"SK하이닉스",
+"코스피",
+"ETF",
+"레버리지",
+"나오면",
+"삼성전자",
+"폭등하고",
+"폭락할까요",
+"종목은",
+"실적만으로",
+"움직이지",
+"않습니다"
+],
+"series": "",
+"chars": 292,
+"lines": 16,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-15T07:22:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DazhPSgE8dE/",
+"like_count": 204,
+"comments_count": 3,
+"slides": 8,
+"skeleton": {
+"first_line": "내일, 금리를 올리면 주식은 무조건 떨어질까요? 📉",
+"last_question": "내일, 금리를 올리면 주식은 무조건 떨어질까요? 📉",
+"structure": "문장×8",
+"numbers": [
+"7월"
+],
+"hashtags": [
+"#금리",
+"#투자",
+"#코스피",
+"#주식"
+],
+"keywords": [
+"금리",
+"외국인",
+"내일",
+"금리를",
+"올리면",
+"주식은",
+"무조건",
+"떨어질까요",
+"이번에는",
+"그렇게",
+"단순하지",
+"않습니다"
+],
+"series": "",
+"chars": 293,
+"lines": 8,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-13T23:02:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DawDOPxEyej/",
+"like_count": 413,
+"comments_count": 13,
+"slides": 4,
+"skeleton": {
+"first_line": "AI 인프라 관련 주식 최고가 대비 하락률 #AI #삼성전자 #하이닉스 #주식",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#AI",
+"#삼성전자",
+"#하이닉스",
+"#주식"
+],
+"keywords": [
+"AI",
+"인프라",
+"관련",
+"주식",
+"최고가",
+"대비",
+"하락률"
+],
+"series": "",
+"chars": 43,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-13T13:24:33+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DavBEFJE8H5/",
+"like_count": 281,
+"comments_count": 10,
+"slides": 2,
+"skeleton": {
+"first_line": "토스에 떠돌아다니는 하이닉스 미래 차트📉",
+"last_question": "지금이 조정이라면 현금을 미리 준비한 사람에겐 이번이 기회일지도..?",
+"structure": "문장×10>질문>해시태그",
+"numbers": [
+"24823847"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"항상",
+"내가",
+"토스에",
+"떠돌아다니는",
+"하이닉스",
+"미래",
+"차트",
+"투자의",
+"구루들이",
+"말하는",
+"투자는",
+"예측이"
+],
+"series": "",
+"chars": 329,
+"lines": 12,
+"emoji_per_100": 0.3,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-11T11:52:03+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Daps45vE53S/",
+"like_count": 222,
+"comments_count": 8,
+"slides": 5,
+"skeleton": {
+"first_line": "외계인 UFO 영상이 공개됐다고? 👽🛸",
+"last_question": "외계인 UFO 영상이 공개됐다고? 👽🛸",
+"structure": "문장×19",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"외계인",
+"UFO",
+"풍선",
+"영상이",
+"공개됐다고",
+"결론부터",
+"말하면",
+"기술이라기보다",
+"그냥",
+"풍선일",
+"가능성이",
+"큽니다"
+],
+"series": "",
+"chars": 258,
+"lines": 19,
+"emoji_per_100": 0.78,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-11T04:51:50+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dao8zL4kwt2/",
+"like_count": 310,
+"comments_count": 11,
+"slides": 5,
+"skeleton": {
+"first_line": "미국 하이닉스 15% 프리미엄 발생!",
+"last_question": "한국 하이닉스도 그만큼 오르나? 😋",
+"structure": "문장×2>해시태그",
+"numbers": [
+"15%"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#투자",
+"#코스피"
+],
+"keywords": [
+"미국",
+"하이닉스",
+"프리미엄",
+"발생",
+"한국",
+"하이닉스도",
+"그만큼",
+"오르나"
+],
+"series": "",
+"chars": 62,
+"lines": 3,
+"emoji_per_100": 1.61,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-11T00:16:47+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaodI51zX6h/",
+"like_count": 113,
+"comments_count": 18,
+"slides": null,
+"skeleton": {
+"first_line": "한국 외환보유액 근황",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"한국",
+"외환보유액",
+"근황"
+],
+"series": "",
+"chars": 11,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-10T11:53:05+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DanINl_EzsT/",
+"like_count": 1197,
+"comments_count": 164,
+"slides": 4,
+"skeleton": {
+"first_line": "삼성전자 성과급을 지역화폐로 준다고? 😱",
+"last_question": "삼성전자 성과급을 지역화폐로 준다고? 😱",
+"structure": "문장×10>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#코스피",
+"#투자",
+"#주식"
+],
+"keywords": [
+"삼성전자",
+"성과급을",
+"지역화폐로",
+"준다고",
+"반도체",
+"기업의",
+"지급해",
+"지역경제를",
+"살리자는",
+"법안이",
+"발의됐습니다",
+"취지는"
+],
+"series": "",
+"chars": 208,
+"lines": 11,
+"emoji_per_100": 0.48,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-09T11:32:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DakhF9rk1-D/",
+"like_count": 432,
+"comments_count": 71,
+"slides": 3,
+"skeleton": {
+"first_line": "성수대교에 9cm 단차가 생겼다고? 이거 설마..",
+"last_question": "성수대교에 9cm 단차가 생겼다고? 이거 설마..",
+"structure": "문장×8>해시태그",
+"numbers": [
+"9",
+"9",
+"2016년",
+"10년"
+],
+"hashtags": [
+"#성수대교"
+],
+"keywords": [
+"단차가",
+"아니라",
+"성수대교에",
+"cm",
+"생겼다고",
+"이거",
+"설마",
+"논란은",
+"성수대교",
+"본체가",
+"성수대교로",
+"올라가는"
+],
+"series": "",
+"chars": 192,
+"lines": 9,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-08T23:05:07+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DajLh58kz_q/",
+"like_count": 618,
+"comments_count": 90,
+"slides": 5,
+"skeleton": {
+"first_line": "하이닉스, 300억 달러를 원화로 바꾼다고?",
+"last_question": "과연 환율은 1,400원대로 갈 수 있을까요?",
+"structure": "질문>문장×7>질문>해시태그",
+"numbers": [
+"300억",
+"1,400원"
+],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#주식"
+],
+"keywords": [
+"원화로",
+"달러",
+"원화",
+"하이닉스",
+"달러를",
+"바꾼다고",
+"미국에서",
+"달러로",
+"조달한",
+"돈을",
+"국내",
+"공장"
+],
+"series": "",
+"chars": 195,
+"lines": 10,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-07T11:49:59+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DafZeTckxdN/",
+"like_count": 184,
+"comments_count": 10,
+"slides": 3,
+"skeleton": {
+"first_line": "삼성전자, 실적 좋았는데 왜 주가 떨어지냐고? 🤔",
+"last_question": "과연 다시 이전 주가 만큼 회복할 수 있을까요?",
+"structure": "문장×12>질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#주식"
+],
+"keywords": [
+"실적",
+"주가",
+"이미",
+"만큼",
+"삼성전자",
+"좋았는데",
+"떨어지냐고",
+"사상",
+"최대",
+"영업이익이",
+"나왔어요",
+"컨센도"
+],
+"series": "",
+"chars": 280,
+"lines": 14,
+"emoji_per_100": 0.36,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-07T02:06:34+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaeWtNpkwua/",
+"like_count": 902,
+"comments_count": 53,
+"slides": 2,
+"skeleton": {
+"first_line": "본주보다 거래량이 큰 레버리지 주식이 있다고? 😱",
+"last_question": "과연 이 상황은 어떻게 마무리가 될까요?",
+"structure": "문장×3>질문×3>문장×8>질문>해시태그",
+"numbers": [],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#주식"
+],
+"keywords": [
+"레버리지",
+"ETF",
+"본주보다",
+"거래량이",
+"주식이",
+"있다고",
+"그건",
+"자랑스런",
+"한국의",
+"삼전닉스입니다",
+"요즘",
+"코스피장"
+],
+"series": "",
+"chars": 294,
+"lines": 16,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-06T22:59:12+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaeBQ2QEzWD/",
+"like_count": 73,
+"comments_count": 1,
+"slides": 11,
+"skeleton": {
+"first_line": "#광고 AI 다음 1등 기업은 어디서 나올까요?",
+"last_question": "#광고 AI 다음 1등 기업은 어디서 나올까요?",
+"structure": "해시태그>문장×12>해시태그",
+"numbers": [
+"1",
+"1",
+"1"
+],
+"hashtags": [
+"#광고",
+"#제너레이션AI",
+"#도서",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"AI",
+"다음",
+"시대엔",
+"쓰는",
+"기업은",
+"어디서",
+"나올까요",
+"기술",
+"자체보다",
+"중요한",
+"기술을",
+"가장"
+],
+"series": "",
+"chars": 284,
+"lines": 14,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-06T02:17:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DabzNqwEyLh/",
+"like_count": 580,
+"comments_count": 32,
+"slides": 4,
+"skeleton": {
+"first_line": "아이폰 기밀 자료가 유출됐다고? 😱",
+"last_question": "아이폰 기밀 자료가 유출됐다고? 😱",
+"structure": "문장×6>해시태그",
+"numbers": [],
+"hashtags": [
+"#애플",
+"#아이폰",
+"#투자",
+"#주식"
+],
+"keywords": [
+"애플이",
+"어떻게",
+"아이폰",
+"기밀",
+"자료가",
+"유출됐다고",
+"애플의",
+"핵심",
+"공급사인",
+"인도의",
+"타타",
+"일레트로닉스에서"
+],
+"series": "",
+"chars": 159,
+"lines": 7,
+"emoji_per_100": 0.63,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-05T03:58:50+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaZZ9skkzG9/",
+"like_count": 382,
+"comments_count": 23,
+"slides": 5,
+"skeleton": {
+"first_line": "홈플러스 파산 위기인데",
+"last_question": "왜 정부가 4,400억을 지원할까?",
+"structure": "문장>질문>문장×7",
+"numbers": [
+"4,400억"
+],
+"hashtags": [],
+"keywords": [
+"먼저",
+"막겠다는",
+"홈플러스",
+"파산",
+"위기인데",
+"정부가",
+"억을",
+"지원할까",
+"지원의",
+"이유는",
+"홈플러스를",
+"살리는"
+],
+"series": "",
+"chars": 177,
+"lines": 9,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-02T23:14:07+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaTvylcE2cv/",
+"like_count": 1261,
+"comments_count": 69,
+"slides": 5,
+"skeleton": {
+"first_line": "📉 삼전·하이닉스 급락, 진짜 범인은 따로 있었다?",
+"last_question": "실적이 나쁜 것도 아닌데 대체 왜 이렇게까지 밀렸을까요?",
+"structure": "질문×3>문장>번호×4>문장×2>해시태그",
+"numbers": [
+"1",
+"2",
+"3",
+"4"
+],
+"hashtags": [
+"#삼성전자",
+"#sk하이닉스",
+"#주식",
+"#투자"
+],
+"keywords": [
+"레버리지",
+"강제",
+"삼전",
+"하이닉스",
+"급락",
+"범인은",
+"따로",
+"있었다",
+"어제",
+"역대급",
+"하락장",
+"보면서"
+],
+"series": "",
+"chars": 412,
+"lines": 11,
+"emoji_per_100": 0.24,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-02T11:47:11+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaShDo4TJE9/",
+"like_count": 475,
+"comments_count": 22,
+"slides": null,
+"skeleton": {
+"first_line": "레버리지 ETF, 얼마나 올라야 본전 찾을까?",
+"last_question": "레버리지 ETF, 얼마나 올라야 본전 찾을까?",
+"structure": "질문>문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#삼성전자",
+"#하이닉스",
+"#투자"
+],
+"keywords": [
+"레버리지",
+"ETF",
+"얼마나",
+"올라야",
+"본전",
+"찾을까",
+"하락시",
+"필요",
+"상승률"
+],
+"series": "",
+"chars": 56,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-01T23:04:04+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaRJ2KaE0cg/",
+"like_count": 460,
+"comments_count": 11,
+"slides": 5,
+"skeleton": {
+"first_line": "메타가 데이터센터 사업에 진출한다는데, 왜 반도체 주식은 떨어지냐? 😅",
+"last_question": "시장이 “혹시 AI 인프라 투자가 너무 앞서간 거 아냐?”라고",
+"structure": "문장×7>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#sk하이닉스",
+"#주식",
+"#투자"
+],
+"keywords": [
+"좋은",
+"메타가",
+"데이터센터",
+"사업에",
+"진출한다는데",
+"반도체",
+"주식은",
+"떨어지냐",
+"핵심은",
+"반도체의",
+"수요가",
+"꺾였다는"
+],
+"series": "",
+"chars": 186,
+"lines": 8,
+"emoji_per_100": 0.54,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-30T23:06:18+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaOlTrWk8Xa/",
+"like_count": 87,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "오픈AI, 상장 27년으로 미룬다고?",
+"last_question": "오픈AI, 상장 27년으로 미룬다고?",
+"structure": "질문>문장×4>해시태그",
+"numbers": [
+"27년",
+"1조"
+],
+"hashtags": [
+"#ai",
+"#주식",
+"#재테크",
+"#투자"
+],
+"keywords": [
+"오픈AI",
+"상장",
+"년으로",
+"미룬다고",
+"AI",
+"최강자도",
+"버는",
+"회사",
+"임을",
+"증명해야",
+"합니다",
+"올트먼은"
+],
+"series": "",
+"chars": 145,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-29T23:10:13+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaMA9c3k2k_/",
+"like_count": 446,
+"comments_count": 7,
+"slides": 6,
+"skeleton": {
+"first_line": "서남·호남권 AI 데이터센터 투자,",
+"last_question": "발표하자마자 중단될 수도 있다고요? 😱",
+"structure": "문장×3>번호>문장×6>해시태그",
+"numbers": [
+"18.4"
+],
+"hashtags": [
+"#ai",
+"#주식",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"AI",
+"데이터센터",
+"서남",
+"호남권",
+"투자",
+"발표하자마자",
+"중단될",
+"수도",
+"있다고요",
+"이유는",
+"전력입니다",
+"GW라는"
+],
+"series": "",
+"chars": 205,
+"lines": 11,
+"emoji_per_100": 0.49,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-28T03:27:36+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaHU03PE06f/",
+"like_count": 18357,
+"comments_count": 889,
+"slides": 2,
+"skeleton": {
+"first_line": "2030년 월드컵 한국 선수 나이",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"2030년"
+],
+"hashtags": [],
+"keywords": [
+"월드컵",
+"한국",
+"선수",
+"나이"
+],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-27T08:48:54+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaFUzQQE7_G/",
+"like_count": 256,
+"comments_count": 19,
+"slides": 8,
+"skeleton": {
+"first_line": "서울 부동산, 앞으로 2년은 더 오를 수 있다고요? 🤯",
+"last_question": "서울 부동산, 앞으로 2년은 더 오를 수 있다고요? 🤯",
+"structure": "문장×10>해시태그",
+"numbers": [
+"2년"
+],
+"hashtags": [
+"#부동산",
+"#투자",
+"#재테크",
+"#주식"
+],
+"keywords": [
+"서울",
+"오를",
+"부동산",
+"앞으로",
+"년은",
+"있다고요",
+"시장에서",
+"봐야",
+"집값보다",
+"먼저",
+"움직이는",
+"주거비"
+],
+"series": "",
+"chars": 220,
+"lines": 11,
+"emoji_per_100": 0.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-27T06:16:05+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaFDT6Yk0bn/",
+"like_count": 547,
+"comments_count": 14,
+"slides": 3,
+"skeleton": {
+"first_line": "국민연금 국내&해외 포트폴리오",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#포트폴리오",
+"#코스피",
+"#재테크"
+],
+"keywords": [
+"국민연금",
+"국내",
+"해외",
+"포트폴리오"
+],
+"series": "",
+"chars": 42,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-26T00:03:13+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaBz2EAk8QU/",
+"like_count": 599,
+"comments_count": 13,
+"slides": 2,
+"skeleton": {
+"first_line": "AI 인프라 회사는 얼마나 남길까..? 🤔",
+"last_question": "최대 수혜인 이 회사들은 하나 팔면 얼마나 남기고 있을까요?",
+"structure": "문장×6>질문>문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#하이닉스",
+"#코스피",
+"#재테크",
+"#투자",
+"#삼성전자"
+],
+"keywords": [
+"AI",
+"인프라",
+"얼마나",
+"회사는",
+"남길까",
+"미친듯",
+"오르기만",
+"회사들",
+"삼성전자",
+"sk하이닉스",
+"마이크론",
+"엔비디아"
+],
+"series": "",
+"chars": 215,
+"lines": 9,
+"emoji_per_100": 0.47,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-23T12:20:35+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZ7Z2GUE-Q6/",
+"like_count": 641,
+"comments_count": 12,
+"slides": 7,
+"skeleton": {
+"first_line": "코스피 10%하락, 9000에서 8000으로,",
+"last_question": "큰 뉴스도 없었는데 왜 폭락했을까?",
+"structure": "문장×2>질문>문장>해시태그",
+"numbers": [
+"10%",
+"9000",
+"8000",
+"12%"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#투자",
+"#코스피"
+],
+"keywords": [
+"하락",
+"코스피",
+"에서",
+"으로",
+"하이닉스",
+"삼성전자",
+"뉴스도",
+"없었는데",
+"폭락했을까",
+"이유를",
+"정리했어요"
+],
+"series": "",
+"chars": 97,
+"lines": 5,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-22T22:28:28+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZ56ne6kxSC/",
+"like_count": 245,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "SK하이닉스, 시가총액 1위 계속 유지할 수 있을까? 🤔",
+"last_question": "SK하이닉스, 시가총액 1위 계속 유지할 수 있을까? 🤔",
+"structure": "문장×9>해시태그",
+"numbers": [
+"1위",
+"1위"
+],
+"hashtags": [
+"#하이닉스",
+"#코스피",
+"#재테크",
+"#투자"
+],
+"keywords": [
+"SK하이닉스",
+"시가총액",
+"계속",
+"유지할",
+"있을까",
+"한낱",
+"꿈인가",
+"완전한",
+"세대교체인가",
+"과거",
+"시총",
+"교체는"
+],
+"series": "",
+"chars": 186,
+"lines": 10,
+"emoji_per_100": 0.54,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-21T03:30:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZ1TpMAE5s4/",
+"like_count": 1556,
+"comments_count": 55,
+"slides": 5,
+"skeleton": {
+"first_line": "온 세상이 메모리!!",
+"last_question": "",
+"structure": "문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#sk하이닉스",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"세상이",
+"메모리"
+],
+"series": "",
+"chars": 36,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-20T02:12:32+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZyl4CCk1gq/",
+"like_count": 1049,
+"comments_count": 153,
+"slides": 2,
+"skeleton": {
+"first_line": "일론 머스크의 재산을 나눠 준다면..?",
+"last_question": "일론 머스크의 재산을 나눠 준다면..?",
+"structure": "질문>문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#재테크",
+"#투자",
+"#주식"
+],
+"keywords": [
+"일론",
+"머스크의",
+"재산을",
+"나눠",
+"준다면",
+"재미로",
+"만든거니까",
+"진지"
+],
+"series": "",
+"chars": 51,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-17T23:02:21+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZtGhXwk5_A/",
+"like_count": 201,
+"comments_count": 6,
+"slides": 2,
+"skeleton": {
+"first_line": "Fomc 리뷰 금리 동결 #주식 #투자 #재테크 #코스피",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#코스피"
+],
+"keywords": [
+"Fomc",
+"리뷰",
+"금리",
+"동결"
+],
+"series": "",
+"chars": 31,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-16T23:08:40+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZqicuqk_mE/",
+"like_count": 847,
+"comments_count": 73,
+"slides": 13,
+"skeleton": {
+"first_line": "스페이스X가 시총 1위가 된다고? 🚀",
+"last_question": "스페이스X가 시총 1위가 된다고? 🚀",
+"structure": "문장×5>해시태그",
+"numbers": [
+"1위"
+],
+"hashtags": [
+"#스페이스X",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"스페이스X가",
+"시총",
+"위가",
+"된다고",
+"년만",
+"지나면",
+"스페이스x는",
+"통신",
+"국방",
+"우주",
+"물류",
+"AI"
+],
+"series": "",
+"chars": 145,
+"lines": 6,
+"emoji_per_100": 0.69,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-14T23:51:27+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZldwQ2k0TN/",
+"like_count": 303,
+"comments_count": 0,
+"slides": 3,
+"skeleton": {
+"first_line": "이란-미국 찐찐찡진짜최종의최종 합의?🥵",
+"last_question": "이번엔 파키스탄 중재로 전쟁이 끝날 기미가 보이면서 유가 하락 - 금리 동결(인하) - AI투자 더 가냐? ",
+"structure": "문장×3>해시태그",
+"numbers": [],
+"hashtags": [
+"#투자",
+"#하이닉스",
+"#삼성전자",
+"#주식",
+"#코스피"
+],
+"keywords": [
+"이번엔",
+"이란",
+"미국",
+"찐찐찡진짜최종의최종",
+"합의",
+"파키스탄",
+"중재로",
+"전쟁이",
+"끝날",
+"기미가",
+"보이면서",
+"유가"
+],
+"series": "",
+"chars": 147,
+"lines": 4,
+"emoji_per_100": 0.68,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-14T02:09:00+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZjIs2hE8ha/",
+"like_count": 208,
+"comments_count": 1,
+"slides": 11,
+"skeleton": {
+"first_line": "AI 인프라 확장, 이제 군비 경쟁입니다.",
+"last_question": "",
+"structure": "문장×8>해시태그",
+"numbers": [
+"5"
+],
+"hashtags": [
+"#코스피",
+"#주식",
+"#투자",
+"#반도체",
+"#재테크"
+],
+"keywords": [
+"AI",
+"모델",
+"경쟁이",
+"인프라",
+"확장",
+"군비",
+"경쟁입니다",
+"미국이",
+"앤트로픽의",
+"Fable",
+"접근을",
+"막은"
+],
+"series": "",
+"chars": 215,
+"lines": 9,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-13T01:38:23+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZggOLkzVtC/",
+"like_count": 1216,
+"comments_count": 37,
+"slides": null,
+"skeleton": {
+"first_line": "상장 첫 날, 스페이스x 시가총액 7위",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [
+"7위",
+"19%"
+],
+"hashtags": [
+"#스페이스x",
+"#나스닥",
+"#주식",
+"#투자"
+],
+"keywords": [
+"마감",
+"상장",
+"스페이스x",
+"시가총액",
+"상승",
+"양전",
+"테슬라보다",
+"높은",
+"밸류가치로"
+],
+"series": "",
+"chars": 73,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-12T01:52:27+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZd9N54E75S/",
+"like_count": 2516,
+"comments_count": 185,
+"slides": 6,
+"skeleton": {
+"first_line": "오세훈 서울시장 포트폴리오  #주식 #투자 #재테크 #코스피",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#투자",
+"#재테크",
+"#코스피"
+],
+"keywords": [
+"오세훈",
+"서울시장",
+"포트폴리오"
+],
+"series": "",
+"chars": 33,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-10T23:01:32+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZbE3LTE24h/",
+"like_count": 247,
+"comments_count": 2,
+"slides": 8,
+"skeleton": {
+"first_line": "코스피, 나스닥 떨어지는 게 스페이스X 때문이라는데 🚀",
+"last_question": "그럼 이 돈은 다 어디로 갈까?",
+"structure": "문장>질문>문장×11>해시태그",
+"numbers": [],
+"hashtags": [
+"#코스피",
+"#주식",
+"#스페이스x",
+"#나스닥",
+"#재테크"
+],
+"keywords": [
+"스페이스X",
+"어디로",
+"결국",
+"돈이",
+"코스피",
+"나스닥",
+"떨어지는",
+"때문이라는데",
+"그럼",
+"돈은",
+"갈까",
+"시장에선"
+],
+"series": "",
+"chars": 297,
+"lines": 14,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-08T23:00:26+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZV7JXqE0xG/",
+"like_count": 625,
+"comments_count": 4,
+"slides": 6,
+"skeleton": {
+"first_line": "젠슨 황은 한국에 뭘 얻으려고 왔을까? 🤔",
+"last_question": "젠슨 황은 한국에 뭘 얻으려고 왔을까? 🤔",
+"structure": "문장×10>해시태그",
+"numbers": [],
+"hashtags": [
+"#엔비디아",
+"#재테크",
+"#투자",
+"#코스피"
+],
+"keywords": [
+"AI",
+"돌릴",
+"아니라",
+"젠슨",
+"황은",
+"한국에",
+"얻으려고",
+"왔을까",
+"핵심은",
+"엔비디아가",
+"필요한",
+"칩을"
+],
+"series": "",
+"chars": 307,
+"lines": 11,
+"emoji_per_100": 0.65,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-07T04:38:22+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZRYOuRk_41/",
+"like_count": 242,
+"comments_count": 5,
+"slides": 7,
+"skeleton": {
+"first_line": "이 콘텐츠는 도서 지원을 통해 제작되었습니다.",
+"last_question": "",
+"structure": "문장×10>해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#재테크",
+"#투자",
+"#코스피"
+],
+"keywords": [
+"콘텐츠는",
+"도서",
+"지원을",
+"제작되었습니다",
+"주식",
+"초보가",
+"먼저",
+"봐야",
+"종목이",
+"아니라",
+"시장입니다",
+"시장은"
+],
+"series": "",
+"chars": 265,
+"lines": 11,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-06T05:12:23+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZO3VFSE9YX/",
+"like_count": 1118,
+"comments_count": 74,
+"slides": 3,
+"skeleton": {
+"first_line": "삼성전자·하이닉스가 독일에서 폭락했다? 😱📉🇩🇪",
+"last_question": "삼성전자·하이닉스가 독일에서 폭락했다? 😱📉🇩🇪",
+"structure": "문장×5>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#코스피",
+"#주식",
+"#투자"
+],
+"keywords": [
+"삼성전자",
+"하이닉스가",
+"독일에서",
+"폭락했다",
+"독일",
+"GDR은",
+"거래량이",
+"적고",
+"유통",
+"물량도",
+"제한적이라",
+"작은"
+],
+"series": "",
+"chars": 157,
+"lines": 6,
+"emoji_per_100": 1.27,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-06T04:39:59+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZOznsSkx_y/",
+"like_count": 2323,
+"comments_count": 115,
+"slides": 8,
+"skeleton": {
+"first_line": "🚨순수 체급 환율 1,559원🚨",
+"last_question": "이러다 1,600원 가는 거 아닌가요? 🤔",
+"structure": "이모지소제목>문장×10>해시태그",
+"numbers": [
+"1,559원",
+"1,600원"
+],
+"hashtags": [
+"#재테크",
+"#투자",
+"#환율",
+"#코스피"
+],
+"keywords": [
+"환율이",
+"달러를",
+"쉽게",
+"순수",
+"체급",
+"환율",
+"이러다",
+"가는",
+"아닌가요",
+"근데",
+"오르는",
+"한국이"
+],
+"series": "",
+"chars": 213,
+"lines": 12,
+"emoji_per_100": 1.41,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-05T10:37:21+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZM3uQ3Exjm/",
+"like_count": 1402,
+"comments_count": 41,
+"slides": 10,
+"skeleton": {
+"first_line": "삼성전자, 하이닉스가 떨어진 이유 🧨",
+"last_question": "",
+"structure": "문장×12>질문>문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#투자",
+"#코스피",
+"#주식"
+],
+"keywords": [
+"문제가",
+"시장이",
+"삼성전자",
+"하이닉스가",
+"떨어진",
+"이유",
+"반도체",
+"아닙니다",
+"커진",
+"기대감이",
+"흔들렸기",
+"때문이에요"
+],
+"series": "",
+"chars": 293,
+"lines": 15,
+"emoji_per_100": 0.68,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-03T22:48:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZJB1lMk6oD/",
+"like_count": 1709,
+"comments_count": 106,
+"slides": 5,
+"skeleton": {
+"first_line": "2026년 전국지방동시선거 결과",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"2026년"
+],
+"hashtags": [],
+"keywords": [
+"전국지방동시선거",
+"결과"
+],
+"series": "",
+"chars": 17,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-02T23:10:07+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZGffE5k78X/",
+"like_count": 351,
+"comments_count": 3,
+"slides": 12,
+"skeleton": {
+"first_line": "침착맨도 곧 수익률 2배..? 😱",
+"last_question": "침착맨도 곧 수익률 2배..? 😱",
+"structure": "문장×12>해시태그",
+"numbers": [
+"2배",
+"21만",
+"2배",
+"50만"
+],
+"hashtags": [
+"#삼성전자",
+"#반도체",
+"#하이닉스",
+"#코스피",
+"#투자"
+],
+"keywords": [
+"침착맨도",
+"다시",
+"삼성전자",
+"수익률",
+"만원에",
+"들어갔다던",
+"수익을",
+"있어요",
+"목표가가",
+"만원까지",
+"나오면서",
+"시장"
+],
+"series": "",
+"chars": 262,
+"lines": 13,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-01T23:13:49+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZD7HQQk7qP/",
+"like_count": 722,
+"comments_count": 4,
+"slides": 10,
+"skeleton": {
+"first_line": "엔비디아 젠슨황이 말아주는 다음 AI 투자처? 😱",
+"last_question": "엔비디아 젠슨황이 말아주는 다음 AI 투자처? 😱",
+"structure": "문장×7>해시태그",
+"numbers": [],
+"hashtags": [
+"#엔비디아",
+"#삼성전자",
+"#SK하이닉스",
+"#투자",
+"#재테크"
+],
+"keywords": [
+"AI",
+"엔비디아",
+"토큰을",
+"젠슨황이",
+"말아주는",
+"다음",
+"투자처",
+"GTC",
+"키노트의",
+"핵심은",
+"데이터센터를",
+"만드는"
+],
+"series": "",
+"chars": 232,
+"lines": 8,
+"emoji_per_100": 0.43,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-05-31T12:19:19+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZALauCk-vI/",
+"like_count": 540,
+"comments_count": 26,
+"slides": 11,
+"skeleton": {
+"first_line": "스페이스X 상장 D-12, 장투해도 좋을까? 🚀",
+"last_question": "스페이스X 상장 D-12, 장투해도 좋을까? 🚀",
+"structure": "문장×8>해시태그",
+"numbers": [
+"-12,"
+],
+"hashtags": [
+"#스페이스x",
+"#나스닥",
+"#투자",
+"#우주",
+"#재테크"
+],
+"keywords": [
+"스페이스X",
+"상장",
+"장투해도",
+"좋을까",
+"로켓",
+"스타링크",
+"AI",
+"화성",
+"인프라까지",
+"스페이스X가",
+"어디까지",
+"가려는지"
+],
+"series": "",
+"chars": 157,
+"lines": 9,
+"emoji_per_100": 1.27,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-05-29T03:03:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DY6CREOk7rf/",
+"like_count": 582,
+"comments_count": 16,
+"slides": 8,
+"skeleton": {
+"first_line": "😱AI 인프라 투자",
+"last_question": "리스크 관리는 미리미리 해야겠죠?",
+"structure": "이모지소제목>문장×7>질문>문장×4>질문>문장×2>해시태그",
+"numbers": [],
+"hashtags": [
+"#AI",
+"#엔비디아",
+"#오픈ai",
+"#주식",
+"#투자"
+],
+"keywords": [
+"AI",
+"GPU를",
+"사고",
+"다시",
+"인프라",
+"투자",
+"자기들끼리",
+"돌고",
+"돈다고요",
+"빅테크가",
+"OpenAI에",
+"투자하고"
+],
+"series": "",
+"chars": 334,
+"lines": 17,
+"emoji_per_100": 0.6,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-05-27T22:45:04+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DY2_2UuE2Zt/",
+"like_count": 911,
+"comments_count": 62,
+"slides": 7,
+"skeleton": {
+"first_line": "🚨떨어지고 후회해도 몰라요🚨",
+"last_question": "",
+"structure": "이모지소제목>문장×11>해시태그",
+"numbers": [
+"2배"
+],
+"hashtags": [
+"#삼성전자",
+"#하이닉스",
+"#주식",
+"#반도체",
+"#코스피"
+],
+"keywords": [
+"다들",
+"취해서",
+"떨어지고",
+"후회해도",
+"몰라요",
+"보는",
+"위기",
+"반도체",
+"시장은",
+"삼성전자와",
+"SK하이닉스가",
+"못해서"
+],
+"series": "",
+"chars": 259,
+"lines": 13,
+"emoji_per_100": 1.16,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-05-26T23:05:08+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DY0dWe5kxIQ/",
+"like_count": 815,
+"comments_count": 17,
+"slides": 8,
+"skeleton": {
+"first_line": "😱하이닉스, 지금 가격에서 2배 더 오른다고??😱",
+"last_question": "“진짜 400만원 가냐?”가 아니라",
+"structure": "이모지소제목>문장×15>해시태그",
+"numbers": [
+"2배",
+"400만",
+"400만",
+"320만"
+],
+"hashtags": [
+"#하이닉스",
+"#SK하이닉스",
+"#삼성전자",
+"#코스피",
+"#주식"
+],
+"keywords": [
+"SK하이닉스",
+"만원으로",
+"아니라",
+"AI",
+"메모리",
+"있다는",
+"하이닉스",
+"가격에서",
+"오른다고",
+"일본",
+"노무라증권이",
+"목표가를"
+],
+"series": "",
+"chars": 364,
+"lines": 17,
+"emoji_per_100": 0.55,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-05-25T04:33:09+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DYv5THbk9R3/",
+"like_count": 1655,
+"comments_count": 99,
+"slides": 7,
+"skeleton": {
+"first_line": "🚨당장 내일, 삼성전자 30만원, 하이닉스 200만원 이라고요?",
+"last_question": "🚨당장 내일, 삼성전자 30만원, 하이닉스 200만원 이라고요?",
+"structure": "질문>문장×8>해시태그",
+"numbers": [
+"30만",
+"200만",
+"30만",
+"200만"
+],
+"hashtags": [
+"#삼성전자",
+"#sk하이닉스",
+"#코스피",
+"#주식"
+],
+"keywords": [
+"만원",
+"해외",
+"아니라",
+"당장",
+"내일",
+"삼성전자",
+"하이닉스",
+"이라고요",
+"아직",
+"한국장은",
+"열리지",
+"않았지만"
+],
+"series": "",
+"chars": 311,
+"lines": 10,
+"emoji_per_100": 0.32,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-05-22T03:22:26+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DYoC0o0Ez5_/",
+"like_count": 238,
+"comments_count": 8,
+"slides": 8,
+"skeleton": {
+"first_line": "🚨스페이스x 상장 임박🚨",
+"last_question": "가격의 핵심은 데이터센터라고? 🚀",
+"structure": "이모지소제목>문장×4>해시태그",
+"numbers": [],
+"hashtags": [
+"#스페이스x",
+"#주식",
+"#나스닥",
+"#투자"
+],
+"keywords": [
+"있어요",
+"스페이스x",
+"상장",
+"임박",
+"가격의",
+"핵심은",
+"데이터센터라고",
+"로켓",
+"회사로",
+"보였던",
+"스페이스X",
+"이제는"
+],
+"series": "",
+"chars": 162,
+"lines": 6,
+"emoji_per_100": 1.85,
 "ends_with_question": false,
 "giveaway": false,
 "ad": false

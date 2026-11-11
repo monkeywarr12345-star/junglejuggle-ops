@@ -1,17 +1,63 @@
 {
 "account": "joshproductletter",
-"collected_at": "2026-11-11T06:32:54+00:00",
-"pages": 1,
-"followers_count": 7620,
-"media_count": 57,
+"collected_at": "2026-11-11T16:42:19+00:00",
+"pages": 3,
+"followers_count": 7661,
+"media_count": 53,
 "posts": [
+{
+"timestamp": "2026-11-11T11:17:03+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DfmWlWPM9tK/",
+"like_count": 19,
+"comments_count": 47,
+"slides": null,
+"skeleton": {
+"first_line": "댓글에 \"구글\"이라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [
+"1만",
+"7천"
+],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#클로드스킬",
+"#구글",
+"#바이브코딩"
+],
+"keywords": [
+"대화를",
+"설계",
+"egm",
+"줄이면",
+"댓글에",
+"구글",
+"이라고",
+"달아주세요",
+"설치",
+"명령어까지",
+"정리한",
+"가이드"
+],
+"series": "",
+"chars": 279,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
 {
 "timestamp": "2026-11-11T06:02:43+0000",
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/Dflyr4Pj3U0/",
-"like_count": 2,
-"comments_count": 0,
+"like_count": 6,
+"comments_count": 8,
 "slides": 8,
 "skeleton": {
 "first_line": "댓글에 '대화'라고 남겨 주세요. 대화 습관 6가지 체크리스트와 바로 쓰는 질문 문장을 가이드로 바로 보내드",
@@ -72,8 +118,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/Dfllio4Mjpb/",
-"like_count": 1,
-"comments_count": 8,
+"like_count": 3,
+"comments_count": 18,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"이펙트\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -117,8 +163,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DflZH-asbBM/",
-"like_count": 9,
-"comments_count": 7,
+"like_count": 16,
+"comments_count": 15,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"페이블\"이라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -169,8 +215,8 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DflXN3lDxE5/",
-"like_count": 10,
-"comments_count": 83,
+"like_count": 24,
+"comments_count": 150,
 "slides": 9,
 "skeleton": {
 "first_line": "댓글에 '애니'라고 남겨 주세요. 스킬 6개 한글 정리와 설치·프롬프트 가이드를 바로 보내드릴게요.",
@@ -231,8 +277,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfjyLPjsJ5j/",
-"like_count": 20,
-"comments_count": 67,
+"like_count": 21,
+"comments_count": 73,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"SEO\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -279,8 +325,8 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfjwRYtD-WW/",
-"like_count": 10,
-"comments_count": 18,
+"like_count": 12,
+"comments_count": 21,
 "slides": 9,
 "skeleton": {
 "first_line": "댓글에 '도구'라고 남겨 주세요. AI 도구 7개 한글 정리와 도구별 시작 가이드를 바로 보내드릴게요.",
@@ -339,7 +385,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/Dfjem6Zj6cA/",
-"like_count": 9,
+"like_count": 10,
 "comments_count": 3,
 "slides": 10,
 "skeleton": {
@@ -398,130 +444,12 @@
 }
 },
 {
-"timestamp": "2026-11-10T06:04:49+0000",
-"media_type": "CAROUSEL_ALBUM",
-"media_product_type": "FEED",
-"permalink": "https://www.instagram.com/p/DfjOIfxj5Lu/",
-"like_count": 12,
-"comments_count": 22,
-"slides": 9,
-"skeleton": {
-"first_line": "댓글에 '신입'이라고 남겨 주세요. AI 신입 교육 6단계 체크리스트와 바로 쓰는 업무 지시 틀을 가이드로 ",
-"last_question": "",
-"structure": "문장×2>항목×6>문장×2>출처>해시태그",
-"numbers": [
-"6",
-"6",
-"0개",
-"0개",
-"3",
-"5개",
-"1.25배",
-"0.1배",
-"50%",
-"1",
-"2026",
-"-11",
-"-10",
-"101"
-],
-"hashtags": [
-"#클로드",
-"#클로드코드",
-"#ClaudeCode",
-"#프롬프트",
-"#AI활용",
-"#업무자동화",
-"#직장인AI",
-"#빌더조쉬"
-],
-"keywords": [
-"신입",
-"공식",
-"앤트로픽",
-"쓰는",
-"프롬프트",
-"회사",
-"규칙은",
-"모르는",
-"처럼",
-"일을",
-"동료가",
-"있게"
-],
-"series": "",
-"chars": 1015,
-"lines": 12,
-"emoji_per_100": 0.69,
-"ends_with_question": false,
-"giveaway": false,
-"ad": false
-}
-},
-{
-"timestamp": "2026-11-10T03:03:58+0000",
-"media_type": "CAROUSEL_ALBUM",
-"media_product_type": "FEED",
-"permalink": "https://www.instagram.com/p/Dfi5b4WD-yO/",
-"like_count": 17,
-"comments_count": 30,
-"slides": 8,
-"skeleton": {
-"first_line": "댓글에 '개념'이라고 남겨 주세요. 클로드 개념 25개를 한 페이지에 담은 한글 정리표를 가이드로 바로 보내",
-"last_question": "모델·요금제·기능 이름이 많아서 \"뭐부터 알아야 하지?\" 싶은 분이 많습니다. 코딩을 몰라도 알아야 할 클로",
-"structure": "문장×2>항목×5>문장×2>출처>해시태그",
-"numbers": [
-"25개",
-"25개",
-"5",
-"100만",
-"5",
-"200",
-"25개",
-"2026",
-"-11",
-"-10"
-],
-"hashtags": [
-"#클로드",
-"#클로드코드",
-"#ClaudeCode",
-"#AI활용",
-"#업무자동화",
-"#직장인AI",
-"#AI공부",
-"#빌더조쉬"
-],
-"keywords": [
-"claude",
-"com",
-"개념",
-"클로드",
-"개를",
-"공식",
-"유료",
-"베타",
-"goal",
-"모델",
-"요금제",
-"알아야"
-],
-"series": "",
-"chars": 1023,
-"lines": 11,
-"emoji_per_100": 0.49,
-"ends_with_question": false,
-"giveaway": false,
-"ad": false
-}
-},
-{
 "timestamp": "2026-11-09T11:28:31+0000",
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfhOTUHsQug/",
 "like_count": 13,
-"comments_count": 17,
+"comments_count": 19,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"백번\"이라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -572,8 +500,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfgylhiM3g0/",
-"like_count": 137,
-"comments_count": 815,
+"like_count": 139,
+"comments_count": 847,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"인스타\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -619,8 +547,8 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfgwOA5D_kw/",
-"like_count": 23,
-"comments_count": 75,
+"like_count": 25,
+"comments_count": 81,
 "slides": 8,
 "skeleton": {
 "first_line": "댓글에 '언슬롭'이라고 남겨 주세요. AI 티 점검 항목 64가지 한글 정리와 설치 가이드를 바로 보내드릴게",
@@ -682,8 +610,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfgPQ8fM2zt/",
-"like_count": 11,
-"comments_count": 16,
+"like_count": 12,
+"comments_count": 18,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"활용\"이라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -814,63 +742,12 @@
 }
 },
 {
-"timestamp": "2026-11-08T00:30:20+0000",
-"media_type": "VIDEO",
-"media_product_type": "REELS",
-"permalink": "https://www.instagram.com/reel/DfdeLwQsS6o/",
-"like_count": 163,
-"comments_count": 847,
-"slides": null,
-"skeleton": {
-"first_line": "댓글에 \"렌더\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
-"last_question": "",
-"structure": "문장×4>해시태그",
-"numbers": [
-"20배",
-"1",
-"1,800",
-"6",
-"3",
-"30개"
-],
-"hashtags": [
-"#클로드",
-"#클로드코드",
-"#클로드스킬",
-"#AI영상",
-"#모션그래픽",
-"#바이브코딩"
-],
-"keywords": [
-"설치",
-"렌더",
-"가이드",
-"클로드",
-"게임",
-"영상",
-"댓글에",
-"라고",
-"달아주세요",
-"명령어까지",
-"정리한",
-"보내드릴게요"
-],
-"series": "",
-"chars": 367,
-"lines": 5,
-"emoji_per_100": 0.0,
-"ends_with_question": false,
-"giveaway": false,
-"ad": false
-}
-},
-{
 "timestamp": "2026-11-07T01:05:37+0000",
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/Dfa9gZpj5dj/",
-"like_count": 20,
-"comments_count": 110,
+"like_count": 21,
+"comments_count": 112,
 "slides": 7,
 "skeleton": {
 "first_line": "댓글에 '개발자'라고 남겨 주세요. 플러그인 5개 설치 명령어와 붙여 넣기만 하면 되는 첫 프롬프트를 가이드",
@@ -928,59 +805,12 @@
 }
 },
 {
-"timestamp": "2026-11-06T09:14:08+0000",
-"media_type": "VIDEO",
-"media_product_type": "REELS",
-"permalink": "https://www.instagram.com/reel/DfZQe1SMOFm/",
-"like_count": 24,
-"comments_count": 70,
-"slides": null,
-"skeleton": {
-"first_line": "댓글에 \"조사\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
-"last_question": "",
-"structure": "문장×4>해시태그",
-"numbers": [
-"10만",
-"9천",
-"1"
-],
-"hashtags": [
-"#클로드",
-"#클로드코드",
-"#클로드스킬",
-"#AgentReach",
-"#자료조사"
-],
-"keywords": [
-"클로드",
-"설치",
-"깃허브",
-"댓글에",
-"조사",
-"라고",
-"달아주세요",
-"명령어까지",
-"정리한",
-"가이드",
-"보내드릴게요",
-"유튜브로"
-],
-"series": "",
-"chars": 317,
-"lines": 5,
-"emoji_per_100": 0.0,
-"ends_with_question": false,
-"giveaway": false,
-"ad": false
-}
-},
-{
 "timestamp": "2026-11-06T06:03:54+0000",
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfY62PMD83C/",
 "like_count": 15,
-"comments_count": 95,
+"comments_count": 101,
 "slides": 8,
 "skeleton": {
 "first_line": "댓글에 '마케팅'이라고 남겨 주세요. 스킬 53개 한글 정리와 설치 명령, 바로 쓰는 프롬프트까지 가이드로 ",
@@ -1097,7 +927,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfWr31bsLhx/",
 "like_count": 29,
-"comments_count": 96,
+"comments_count": 98,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"디자인\"이라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -1242,7 +1072,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfUMwqwj_qb/",
-"like_count": 22,
+"like_count": 23,
 "comments_count": 85,
 "slides": 8,
 "skeleton": {
@@ -1342,7 +1172,7 @@
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfT-UUkj6Dh/",
 "like_count": 11,
-"comments_count": 60,
+"comments_count": 62,
 "slides": 10,
 "skeleton": {
 "first_line": "댓글에 '질문'이라고 남겨 주세요. 스킬 7개 설치법과 바로 쓰는 명령어 예시까지 가이드로 바로 보내드릴게요",
@@ -1396,7 +1226,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfTgq3msPWo/",
 "like_count": 17,
-"comments_count": 38,
+"comments_count": 42,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"동시\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -1485,8 +1315,8 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfRBx9Pj6gC/",
-"like_count": 58,
-"comments_count": 266,
+"like_count": 63,
+"comments_count": 294,
 "slides": 8,
 "skeleton": {
 "first_line": "댓글에 '찾기'라고 남겨 주세요. 설치 명령어랑 바로 쓰는 질문 예시 40개까지 가이드로 바로 보내드릴게요.",
@@ -1537,8 +1367,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfQfj2zsOHw/",
-"like_count": 30,
-"comments_count": 141,
+"like_count": 31,
+"comments_count": 142,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"효과음\"이라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
@@ -1582,8 +1412,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfO7ArjsMoT/",
-"like_count": 165,
-"comments_count": 666,
+"like_count": 168,
+"comments_count": 674,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"검증\"이라고 달아주세요. 설치 방법이랑 아이디어 검증용 질문 예시 정리한 가이드 바로 보내드릴게요",
@@ -1672,7 +1502,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfLnFxZsr1P/",
 "like_count": 36,
-"comments_count": 204,
+"comments_count": 206,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"에이전시\"라고 달아주세요. 분야별 전문가 한글 정리랑 부르는 법, 설치 명령어까지 정리한 가이드 바",
@@ -1718,7 +1548,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfJIuHLsNyI/",
 "like_count": 102,
-"comments_count": 456,
+"comments_count": 457,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"찾기\"라고 달아주세요. 설치 명령어랑 바로 쓰는 질문 예시 정리한 가이드 바로 보내드릴게요",
@@ -1811,8 +1641,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfG_s5osGZK/",
-"like_count": 69,
-"comments_count": 390,
+"like_count": 68,
+"comments_count": 395,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"웹사이트\"라고 달아주세요. 설치 가이드랑 바로 쓰는 프롬프트 30개 바로 보내드릴게요",
@@ -1903,7 +1733,7 @@
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfGJCpIE-su/",
 "like_count": 41,
-"comments_count": 171,
+"comments_count": 175,
 "slides": 8,
 "skeleton": {
 "first_line": "댓글에 '자문단'이라고 남겨 주세요. 설치 문장부터 쓰는 법까지 한글 가이드로 바로 보내드릴게요.",
@@ -1986,8 +1816,8 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfBm9NuD0EN/",
-"like_count": 176,
-"comments_count": 831,
+"like_count": 182,
+"comments_count": 850,
 "slides": 8,
 "skeleton": {
 "first_line": "댓글에 '백개'라고 남겨 주세요. 설치 명령어까지 정리한 스킬 100개 목록 바로 보내드릴게요.",
@@ -2032,51 +1862,6 @@
 "chars": 449,
 "lines": 10,
 "emoji_per_100": 0.89,
-"ends_with_question": false,
-"giveaway": false,
-"ad": false
-}
-},
-{
-"timestamp": "2026-10-27T23:02:45+0000",
-"media_type": "VIDEO",
-"media_product_type": "REELS",
-"permalink": "https://www.instagram.com/reel/DfA_awrsq-d/",
-"like_count": 445,
-"comments_count": 2976,
-"slides": null,
-"skeleton": {
-"first_line": "댓글에 \"연구\"라고 달아주세요. 스킬 177개 한글 분류표 바로 보내드릴게요",
-"last_question": "",
-"structure": "문장×4>해시태그",
-"numbers": [
-"177개",
-"177개",
-"3년"
-],
-"hashtags": [
-"#클로드",
-"#클로드코드",
-"#클로드스킬"
-],
-"keywords": [
-"논문",
-"라고",
-"스킬",
-"전부",
-"정리해",
-"댓글에",
-"연구",
-"달아주세요",
-"한글",
-"분류표",
-"보내드릴게요",
-"쓰는"
-],
-"series": "",
-"chars": 225,
-"lines": 5,
-"emoji_per_100": 0.0,
 "ends_with_question": false,
 "giveaway": false,
 "ad": false
@@ -2303,8 +2088,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/Deyrh4_sgTb/",
-"like_count": 323,
-"comments_count": 1965,
+"like_count": 325,
+"comments_count": 1980,
 "slides": null,
 "skeleton": {
 "first_line": "댓글에 \"모션\"이라고 달아주세요. 한글 모션 프롬프트 100개 바로 보내드릴게요",
@@ -2469,6 +2254,187 @@
 "series": "",
 "chars": 229,
 "lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-19T13:44:07+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DerZJ32sIki/",
+"like_count": 19,
+"comments_count": 59,
+"slides": null,
+"skeleton": {
+"first_line": "댓글에 \"그릴미\"라고 달아주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요",
+"last_question": "",
+"structure": "문장×3>해시태그",
+"numbers": [
+"29만"
+],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#클로드스킬"
+],
+"keywords": [
+"그릴미",
+"일을",
+"클로드가",
+"댓글에",
+"라고",
+"달아주세요",
+"설치",
+"명령어까지",
+"정리한",
+"가이드",
+"보내드릴게요",
+"클로드한테"
+],
+"series": "",
+"chars": 270,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-19T08:59:06+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Deq4gisMwoF/",
+"like_count": 140,
+"comments_count": 352,
+"slides": null,
+"skeleton": {
+"first_line": "댓글에 \"스킬\"이라고 남겨주세요. 설치 명령어까지 정리한 가이드 바로 보내드릴게요.",
+"last_question": "",
+"structure": "문장×2>번호>문장>번호>문장>번호>문장>번호>문장>번호>문장×2>해시태그",
+"numbers": [
+"5개",
+"1",
+"2",
+"3",
+"4",
+"5"
+],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#클로드스킬"
+],
+"keywords": [
+"스킬",
+"댓글에",
+"이라고",
+"남겨주세요",
+"설치",
+"명령어까지",
+"정리한",
+"가이드",
+"보내드릴게요",
+"요즘",
+"깃허브에서",
+"제일"
+],
+"series": "",
+"chars": 353,
+"lines": 14,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-29T07:48:19+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbXnTiaD2NJ/",
+"like_count": 32,
+"comments_count": 6,
+"slides": null,
+"skeleton": {
+"first_line": "올해 상반기 내내 저를 고생시킨 책,",
+"last_question": "",
+"structure": "문장×18",
+"numbers": [
+"7",
+"30",
+"24",
+"193994560"
+],
+"hashtags": [],
+"keywords": [
+"있어요",
+"많은",
+"올해",
+"상반기",
+"내내",
+"저를",
+"고생시킨",
+"클로드",
+"에이전트",
+"협업의",
+"기술",
+"출간됩니다"
+],
+"series": "",
+"chars": 453,
+"lines": 18,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2025-10-12T02:39:25+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DPsVbS9j6hD/",
+"like_count": 28,
+"comments_count": 3,
+"slides": null,
+"skeleton": {
+"first_line": "",
+"last_question": "",
+"structure": "",
+"numbers": [],
+"hashtags": [],
+"keywords": [],
+"series": "",
+"chars": 0,
+"lines": 0,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2025-07-06T14:38:50+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DLxR2s8zxBM/",
+"like_count": 31,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "",
+"last_question": "",
+"structure": "",
+"numbers": [],
+"hashtags": [],
+"keywords": [],
+"series": "",
+"chars": 0,
+"lines": 0,
 "emoji_per_100": 0.0,
 "ends_with_question": false,
 "giveaway": false,
