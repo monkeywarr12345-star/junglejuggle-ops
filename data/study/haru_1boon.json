@@ -1,7 +1,7 @@
 {
 "account": "haru_1boon",
-"collected_at": "2026-11-11T02:03:53+00:00",
-"pages": 1,
+"collected_at": "2026-11-11T02:10:08+00:00",
+"pages": 6,
 "followers_count": 61245,
 "media_count": 262,
 "posts": [
@@ -38,7 +38,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DflJEshEoIA/",
-"like_count": 20,
+"like_count": 23,
 "comments_count": 1,
 "slides": 4,
 "skeleton": {
@@ -62,7 +62,7 @@
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DflFp7WEo3p/",
-"like_count": 93,
+"like_count": 104,
 "comments_count": 4,
 "slides": 2,
 "skeleton": {
@@ -2586,6 +2586,7895 @@
 "series": "",
 "chars": 11,
 "lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-19T04:21:51+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeqY3DNj5wR/",
+"like_count": 45,
+"comments_count": 10,
+"slides": 5,
+"skeleton": {
+"first_line": "유럽 위기론이 끊기질 않고 있는데",
+"last_question": "",
+"structure": "문장×19>출처>해시태그",
+"numbers": [
+"26개",
+"2026.10",
+"18",
+"2",
+"1"
+],
+"hashtags": [
+"#중국전기차",
+"#유럽",
+"#폭스바겐",
+"#CATL",
+"#배터리"
+],
+"keywords": [
+"유럽",
+"전기차",
+"관세를",
+"공장을",
+"자동차",
+"LG에너지솔루션",
+"삼성SDI",
+"SK온",
+"위기론이",
+"끊기질",
+"않고",
+"있는데"
+],
+"series": "",
+"chars": 539,
+"lines": 21,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-19T03:10:15+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeqQqrTD2rr/",
+"like_count": 24386,
+"comments_count": 413,
+"slides": 6,
+"skeleton": {
+"first_line": "교보문고는 행보가 다르다...",
+"last_question": "",
+"structure": "문장×13>해시태그",
+"numbers": [
+"10",
+"10만",
+"1"
+],
+"hashtags": [
+"#교보문고",
+"#AI",
+"#인공지능",
+"#AI학습",
+"#출판"
+],
+"keywords": [
+"AI",
+"책은",
+"교보문고는",
+"같은",
+"책을",
+"종류별로",
+"행보가",
+"다르다",
+"올해",
+"초부터",
+"미국",
+"영국"
+],
+"series": "",
+"chars": 473,
+"lines": 14,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-18T15:29:00+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DepAXDyNo74/",
+"like_count": 160,
+"comments_count": 52,
+"slides": null,
+"skeleton": {
+"first_line": "실시간 프랑스... 전역에서 일어난 시위가 폭동으로 번지는 중...",
+"last_question": "",
+"structure": "문장×9>해시태그",
+"numbers": [
+"80만",
+"50만",
+"1"
+],
+"hashtags": [
+"#프랑스",
+"#파리",
+"#프랑스시위",
+"#해외뉴스",
+"#국제뉴스",
+"#물가",
+"#생활비",
+"#시사이슈",
+"#하루1분부자연습"
+],
+"keywords": [
+"실시간",
+"프랑스",
+"전역에서",
+"일어난",
+"시위가",
+"폭동으로",
+"번지는",
+"주최",
+"측은",
+"경찰은",
+"명이",
+"모였다고"
+],
+"series": "",
+"chars": 371,
+"lines": 10,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-18T11:11:11+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Deoi6M0jyGp/",
+"like_count": 72,
+"comments_count": 1,
+"slides": 6,
+"skeleton": {
+"first_line": "레버리지가 이렇게 무서운거다...",
+"last_question": "",
+"structure": "문장×17>해시태그",
+"numbers": [
+"12월",
+"5억",
+"6월",
+"35억",
+"2년",
+"5월",
+"7월",
+"7.5억",
+"10월",
+"2억",
+"10월",
+"6일",
+"15일",
+"7",
+"2,981억"
+],
+"hashtags": [
+"#삼성전자",
+"#SK하이닉스",
+"#레버리지",
+"#주식폭락",
+"#반대매매"
+],
+"keywords": [
+"레버리지가",
+"이렇게",
+"무서운거다",
+"블라인드에",
+"올라온",
+"하나가",
+"난리임",
+"작년",
+"메모리",
+"주식에",
+"몰빵",
+"월까지"
+],
+"series": "",
+"chars": 452,
+"lines": 18,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-18T03:41:14+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DenvasUDy1y/",
+"like_count": 183,
+"comments_count": 23,
+"slides": 5,
+"skeleton": {
+"first_line": "중국에서는 아이한테 나쁜 짓하면 이렇게 됨......",
+"last_question": "",
+"structure": "문장×11>해시태그",
+"numbers": [
+"2025년",
+"5월",
+"3명",
+"90%",
+"1"
+],
+"hashtags": [
+"#중국",
+"#아동성범죄",
+"#사형",
+"#무관용",
+"#중국뉴스"
+],
+"keywords": [
+"중국",
+"남자",
+"미성년자",
+"교사",
+"중국에서는",
+"아이한테",
+"나쁜",
+"짓하면",
+"이렇게",
+"최고인민법원이",
+"성범죄자",
+"명의"
+],
+"series": "",
+"chars": 390,
+"lines": 12,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-17T05:40:16+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DelYPpdjx7K/",
+"like_count": 25,
+"comments_count": 2,
+"slides": 5,
+"skeleton": {
+"first_line": "스페이스X가 테슬라를 주식으로 인수?",
+"last_question": "스페이스X가 테슬라를 주식으로 인수?",
+"structure": "질문>문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"스페이스X가",
+"테슬라를",
+"주식으로",
+"인수",
+"합병되면",
+"엄청난",
+"주식이",
+"같긴"
+],
+"series": "",
+"chars": 45,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-17T00:12:45+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dekyw16E5tQ/",
+"like_count": 1057,
+"comments_count": 111,
+"slides": 4,
+"skeleton": {
+"first_line": "판사가 3위..?",
+"last_question": "판사가 3위..?",
+"structure": "질문",
+"numbers": [
+"3위"
+],
+"hashtags": [],
+"keywords": [
+"판사가"
+],
+"series": "",
+"chars": 9,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-16T13:42:45+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DejqojhtJ5k/",
+"like_count": 16,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "ai 영상 아님.... 차가 하늘을 날았다..주가도 날아갈까? 🚀📈",
+"last_question": "📌 그래서 테슬라 주가는?",
+"structure": "문장×3>이모지소제목>문장×4>이모지소제목>항목×3>문장>이모지소제목>문장×6>질문>문장×8>해시태그",
+"numbers": [
+"15일",
+"3",
+"0.9",
+"10개",
+"1",
+"9년",
+"2017년",
+"5만",
+"7천",
+"2020년",
+"2028년",
+"9년",
+"2024년",
+"9%",
+"1"
+],
+"hashtags": [
+"#테슬라",
+"#테슬라주가",
+"#로드스터",
+"#테슬라로드스터",
+"#일론머스크",
+"#하늘나는자동차",
+"#스페이스X",
+"#미국주식",
+"#경제뉴스",
+"#하루1분부자연습"
+],
+"keywords": [
+"타고",
+"영상",
+"주가도",
+"추진기",
+"로켓",
+"년에",
+"예약금",
+"테슬라",
+"주가는",
+"ai",
+"아님",
+"차가"
+],
+"series": "",
+"chars": 673,
+"lines": 30,
+"emoji_per_100": 1.93,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-16T03:57:37+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Deins9Cj0no/",
+"like_count": 334,
+"comments_count": 17,
+"slides": 5,
+"skeleton": {
+"first_line": "부자연습생 친구들아 너무 화난다....중국 IP가 직원 100명 명의로 대출 시도함 ㅠㅠ",
+"last_question": "",
+"structure": "문장×3>이모지소제목>문장×3>이모지소제목>문장×6>이모지소제목>문장×8>이모지소제목>문장×4>이모지소제목>항목×3>문장>이모지소제목>문장>해시태그",
+"numbers": [
+"100명",
+"14일",
+"100",
+"16",
+"10만",
+"2",
+"16",
+"1"
+],
+"hashtags": [
+"#금융권해킹",
+"#개인정보유출",
+"#DB저축은행",
+"#명의도용",
+"#보이스피싱"
+],
+"keywords": [
+"중국",
+"IP가",
+"대출",
+"한도",
+"조회",
+"직원",
+"명의로",
+"DB저축은행",
+"피해는",
+"해킹",
+"은행",
+"저축은행"
+],
+"series": "",
+"chars": 816,
+"lines": 36,
+"emoji_per_100": 1.1,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-15T08:45:58+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Degj58PD9ue/",
+"like_count": 16,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "코스피가 일주일 만에 약 20% 빠졌음",
+"last_question": "",
+"structure": "문장×2>이모지소제목>문장×5>이모지소제목>문장×4>이모지소제목>문장×5>이모지소제목>문장×7>이모지소제목>문장>해시태그>문장",
+"numbers": [
+"20%",
+"1,000조",
+"13일",
+"15일",
+"15일",
+"7.6%",
+"5,554",
+"5%",
+"5",
+"8%",
+"20",
+"−20%",
+"−26%",
+"18%",
+"4"
+],
+"hashtags": [
+"#코스피",
+"#삼성전자",
+"#SK하이닉스",
+"#서킷브레이커",
+"#사이드카"
+],
+"keywords": [
+"넘게",
+"삼전",
+"D램",
+"일주일",
+"만에",
+"일엔",
+"빠지면",
+"멈추는",
+"장치",
+"같이",
+"삼성전자",
+"중국"
+],
+"series": "",
+"chars": 859,
+"lines": 31,
+"emoji_per_100": 0.58,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-15T05:01:27+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DegKNimj4GU/",
+"like_count": 7,
+"comments_count": 1,
+"slides": 5,
+"skeleton": {
+"first_line": "내가 현금 27억 있다면..",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"27억"
+],
+"hashtags": [],
+"keywords": [
+"내가",
+"현금",
+"있다면"
+],
+"series": "",
+"chars": 15,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-15T00:23:42+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DefqbSpDyJs/",
+"like_count": 18,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "홍라희 리움미술관 명예관장이",
+"last_question": "📌 왜 넘겼을까?",
+"structure": "문장×2>이모지소제목>항목×2>결론>문장×2>질문>문장×5>이모지소제목>문장×5>이모지소제목>문장×7>해시태그",
+"numbers": [
+"766만",
+"1조",
+"9,206억",
+"1,115만",
+"2조",
+"6천",
+"11월",
+"12일",
+"1,882만",
+"4조",
+"5천",
+"1.58%",
+"1.75%",
+"0.98%",
+"0.81%"
+],
+"hashtags": [
+"#삼성",
+"#이재용",
+"#홍라희",
+"#증여",
+"#상속세"
+],
+"keywords": [
+"이재용",
+"천억",
+"삼성전자",
+"상속세",
+"세금",
+"회장한테",
+"주식을",
+"팔고",
+"합치면",
+"회장",
+"에서",
+"명예관장은"
+],
+"series": "",
+"chars": 844,
+"lines": 29,
+"emoji_per_100": 0.59,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T13:04:37+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeecthsDxzr/",
+"like_count": 11,
+"comments_count": 0,
+"slides": 3,
+"skeleton": {
+"first_line": "33억 오피스텔....",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"33억"
+],
+"hashtags": [],
+"keywords": [
+"오피스텔"
+],
+"series": "",
+"chars": 12,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T06:34:06+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DedwBRJD4Fi/",
+"like_count": 7,
+"comments_count": 1,
+"slides": 7,
+"skeleton": {
+"first_line": "아니 작년에 폭락해서 물려있는데.......왜 세금까지 내라하냐...",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"아니",
+"작년에",
+"폭락해서",
+"물려있는데",
+"세금까지",
+"내라하냐"
+],
+"series": "",
+"chars": 38,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T05:53:08+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DedrVL2DzUS/",
+"like_count": 115,
+"comments_count": 11,
+"slides": 6,
+"skeleton": {
+"first_line": "신현송 한국은행 총재님... 스펙 대박이다....",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"신현송",
+"한국은행",
+"총재님",
+"스펙",
+"대박이다"
+],
+"series": "",
+"chars": 27,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T05:21:44+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DednvRiD97W/",
+"like_count": 4,
+"comments_count": 2,
+"slides": 6,
+"skeleton": {
+"first_line": "고소득이라고 무조건 부자는 아니다..!!!",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"고소득이라고",
+"무조건",
+"부자는",
+"아니다"
+],
+"series": "",
+"chars": 23,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T03:47:03+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dedc5u4D49n/",
+"like_count": 18,
+"comments_count": 7,
+"slides": 5,
+"skeleton": {
+"first_line": "프랑스 부채 부담 증가에 학생 시위까지... 심상치 않군....",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"프랑스",
+"부채",
+"부담",
+"증가에",
+"학생",
+"시위까지",
+"심상치",
+"않군"
+],
+"series": "",
+"chars": 35,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-14T00:21:08+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DedFVicDzGt/",
+"like_count": 2,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "주주한테 vip혜택 주는거",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"주주한테",
+"vip혜택",
+"주는거"
+],
+"series": "",
+"chars": 14,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-13T01:21:08+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeanaLED-ap/",
+"like_count": 15,
+"comments_count": 1,
+"slides": 5,
+"skeleton": {
+"first_line": "10월 22일 기준금리 인상 할까?",
+"last_question": "10월 22일 기준금리 인상 할까?",
+"structure": "질문",
+"numbers": [
+"10월",
+"22일"
+],
+"hashtags": [],
+"keywords": [
+"기준금리",
+"인상",
+"할까"
+],
+"series": "",
+"chars": 19,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-13T01:08:29+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Deal9hljyeE/",
+"like_count": 15,
+"comments_count": 1,
+"slides": 5,
+"skeleton": {
+"first_line": "진짜....금리 올릴까..?",
+"last_question": "진짜....금리 올릴까..?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"금리",
+"올릴까"
+],
+"series": "",
+"chars": 15,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-13T00:50:06+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Deaj0nctw1C/",
+"like_count": 21,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "2년전에는 뭔소리냐 했는데 이제 점점 무섭다...",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"2년"
+],
+"hashtags": [],
+"keywords": [
+"년전에는",
+"뭔소리냐",
+"했는데",
+"점점",
+"무섭다"
+],
+"series": "",
+"chars": 27,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-12T13:11:33+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeZT6hXD-3Z/",
+"like_count": 62,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "왜 이걸 이제 알았을까...ㅜ",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"이걸",
+"알았을까"
+],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-12T07:58:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeYwIO8kxw_/",
+"like_count": 2,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "청약 확률 이거 보고",
+"last_question": "",
+"structure": "문장×4",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"청약",
+"확률",
+"이거",
+"보고",
+"조금이라도",
+"높이세요",
+"부자연습생",
+"분들의",
+"분양을",
+"항상",
+"응원합니다"
+],
+"series": "",
+"chars": 54,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-11T08:54:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeWRwHtD0P9/",
+"like_count": 3,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "청약할때 이거 까지 확인하고 하셔야해요!",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"청약할때",
+"이거",
+"까지",
+"확인하고",
+"하셔야해요"
+],
+"series": "",
+"chars": 22,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-11T08:03:51+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeWL6DyE3lO/",
+"like_count": 12,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "비트야 제발 이제 올라가자....바닥 많이 다졌잖아....",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"비트야",
+"제발",
+"올라가자",
+"바닥",
+"다졌잖아"
+],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-10T08:50:51+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeTsfZnD-88/",
+"like_count": 30,
+"comments_count": 4,
+"slides": 6,
+"skeleton": {
+"first_line": "한미약품 주식..지금 들어갈까??",
+"last_question": "한미약품 주식..지금 들어갈까??",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"한미약품",
+"주식",
+"들어갈까"
+],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-10T07:50:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeTlhz4j24V/",
+"like_count": 5,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "부동산 알긴아는데.. LTV, DSR이 뭐예요?",
+"last_question": "부동산 알긴아는데.. LTV, DSR이 뭐예요?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"부동산",
+"알긴아는데",
+"LTV",
+"DSR이",
+"뭐예요"
+],
+"series": "",
+"chars": 26,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-10T05:51:57+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeTYBCQDxfd/",
+"like_count": 16,
+"comments_count": 0,
+"slides": 4,
+"skeleton": {
+"first_line": "와....성과급이 로또급이네..",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"성과급이",
+"로또급이네"
+],
+"series": "",
+"chars": 17,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-09T07:47:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeRAdCYjwBz/",
+"like_count": 1,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "등기부등본에 뭐라고",
+"last_question": "적혀있는지 모르겠다고?",
+"structure": "문장>질문>문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"등기부등본에",
+"뭐라고",
+"적혀있는지",
+"모르겠다고",
+"이거",
+"읽어봐"
+],
+"series": "",
+"chars": 35,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-08T13:26:52+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DePCfL6D5Uo/",
+"like_count": 16,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "6억짜리 집만 계속 찾는 이유?",
+"last_question": "6억짜리 집만 계속 찾는 이유?",
+"structure": "질문",
+"numbers": [
+"6억"
+],
+"hashtags": [],
+"keywords": [
+"억짜리",
+"집만",
+"계속",
+"찾는",
+"이유"
+],
+"series": "",
+"chars": 17,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-08T12:44:52+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeO9rm1j0x0/",
+"like_count": 2,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "부자 연습생 친구들아! 내집마련 포기하지말자",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"부자",
+"연습생",
+"친구들아",
+"내집마련",
+"포기하지말자"
+],
+"series": "",
+"chars": 24,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-08T08:53:01+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeOjO_OD1QP/",
+"like_count": 14,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "내가 투자한 주식도 상한가 맞아봤으면....",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"내가",
+"투자한",
+"주식도",
+"상한가",
+"맞아봤으면"
+],
+"series": "",
+"chars": 24,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-08T04:02:50+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeOB8L3DxWe/",
+"like_count": 40,
+"comments_count": 1,
+"slides": 2,
+"skeleton": {
+"first_line": "Ai야.....아직은 부족하구나",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"Ai야",
+"아직은",
+"부족하구나"
+],
+"series": "",
+"chars": 17,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-07T07:51:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeL3Tk7j-po/",
+"like_count": 15,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "이런건 매번봐도 까먹더라...",
+"last_question": "",
+"structure": "문장×3",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"이런건",
+"매번봐도",
+"까먹더라",
+"한번",
+"정리해서",
+"올려",
+"안외워지면",
+"반복해서",
+"보자"
+],
+"series": "",
+"chars": 50,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-07T04:01:15+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeLc9qck9df/",
+"like_count": 35,
+"comments_count": 2,
+"slides": 4,
+"skeleton": {
+"first_line": "반도체가 신이네....내가 삼전 성과급받으면 어디 살까?",
+"last_question": "반도체가 신이네....내가 삼전 성과급받으면 어디 살까?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"반도체가",
+"신이네",
+"내가",
+"삼전",
+"성과급받으면",
+"어디",
+"살까"
+],
+"series": "",
+"chars": 31,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-06T07:49:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeJSV48D-u9/",
+"like_count": 33,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "수익에만 미쳐있었는데",
+"last_question": "",
+"structure": "문장×4",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"수익에만",
+"미쳐있었는데",
+"세금도",
+"중요하더라",
+"부자",
+"연습생",
+"친구들아",
+"절세도",
+"같이",
+"챙기자"
+],
+"series": "",
+"chars": 52,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-05T12:10:01+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeHLTwjD3y7/",
+"like_count": 6,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "앤트로픽 CEO가 사무직 절반은 5년안에 AI로 대체된다고 했습니다..... 발전속도가 어마어마하네요",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"5년"
+],
+"hashtags": [],
+"keywords": [
+"앤트로픽",
+"CEO가",
+"사무직",
+"절반은",
+"년안에",
+"AI로",
+"대체된다고",
+"했습니다",
+"발전속도가",
+"어마어마하네요"
+],
+"series": "",
+"chars": 56,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-05T07:47:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeGtTujD76j/",
+"like_count": 13,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "나도 배당주투자 많이 해서",
+"last_question": "",
+"structure": "문장×2",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"나도",
+"배당주투자",
+"파이어족",
+"하고",
+"싶다"
+],
+"series": "",
+"chars": 29,
+"lines": 2,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-05T00:52:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeF9zbbj9ov/",
+"like_count": 84,
+"comments_count": 14,
+"slides": 6,
+"skeleton": {
+"first_line": "드디어 은마아파트와 잠실주공 5단지 조합원 분양 시작! 재건축 되고 나면 어마어마할 듯...",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"5"
+],
+"hashtags": [],
+"keywords": [
+"드디어",
+"은마아파트와",
+"잠실주공",
+"단지",
+"조합원",
+"분양",
+"시작",
+"재건축",
+"되고",
+"나면",
+"어마어마할"
+],
+"series": "",
+"chars": 51,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T08:04:46+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeEKcklk0Ms/",
+"like_count": 4,
+"comments_count": 0,
+"slides": 4,
+"skeleton": {
+"first_line": "10억 로또 청약! 무주택자 부자연습생 친구들은 필독!!",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"10억"
+],
+"hashtags": [],
+"keywords": [
+"로또",
+"청약",
+"무주택자",
+"부자연습생",
+"친구들은",
+"필독"
+],
+"series": "",
+"chars": 31,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T07:46:01+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeEIY7YDzrv/",
+"like_count": 6,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "부자 연습생 친구들아",
+"last_question": "미주에 투자하는 친구들도 많지?",
+"structure": "문장>질문>문장×4",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"부자",
+"연습생",
+"친구들아",
+"미주에",
+"투자하는",
+"친구들도",
+"많지",
+"나도",
+"미주",
+"들고",
+"있는데",
+"모르는"
+],
+"series": "",
+"chars": 81,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T06:26:28+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeD_MlJD361/",
+"like_count": 1146,
+"comments_count": 60,
+"slides": 6,
+"skeleton": {
+"first_line": "우리 다음 세대는 출근을 안한다고?!",
+"last_question": "우리 다음 세대는 출근을 안한다고?!",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"다음",
+"세대는",
+"출근을",
+"안한다고"
+],
+"series": "",
+"chars": 20,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T05:48:34+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeD62sNzK3j/",
+"like_count": 7,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "젠슨황과 머스크가 알려주는 ai시대 살아남는 직업",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"젠슨황과",
+"머스크가",
+"알려주는",
+"ai시대",
+"살아남는",
+"직업"
+],
+"series": "",
+"chars": 27,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-04T05:15:43+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeD3GbdE0k2/",
+"like_count": 3,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "공모주 요약!",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"공모주",
+"요약"
+],
+"series": "",
+"chars": 7,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-03T08:02:00+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeBlVgPE7-5/",
+"like_count": 10,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "청년미래적금 2차 10월 7일 신청시작!!",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"2",
+"10월",
+"7일"
+],
+"hashtags": [],
+"keywords": [
+"청년미래적금",
+"신청시작"
+],
+"series": "",
+"chars": 23,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-03T07:44:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeBjUhQD6Ge/",
+"like_count": 16,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "초보 주식 투자자들은",
+"last_question": "전문가들이 말하잖아?",
+"structure": "문장×2>질문>문장×4",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"초보",
+"주식",
+"투자자들은",
+"ETF에",
+"투자하라고",
+"매번",
+"전문가들이",
+"말하잖아",
+"ETF투자하기전에",
+"알아야할",
+"개념들",
+"모아봤어"
+],
+"series": "",
+"chars": 91,
+"lines": 7,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-03T06:38:32+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DeBbyLLjwY4/",
+"like_count": 24,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "주식으로 번 돈 세금으로 날릴 수 없지",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"주식으로",
+"세금으로",
+"날릴",
+"없지"
+],
+"series": "",
+"chars": 21,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-02T09:37:10+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd_Lbl3kZ8m/",
+"like_count": 28,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "내가 먹고 살만큼 돈이 모인다면?",
+"last_question": "내가 먹고 살만큼 돈이 모인다면?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"내가",
+"먹고",
+"살만큼",
+"돈이",
+"모인다면"
+],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-02T08:41:01+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd_FD6CD81I/",
+"like_count": 4,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "데이터센터가 어쩌고",
+"last_question": "AI얘기할때 마다 나오지?",
+"structure": "문장>질문>문장×7",
+"numbers": [
+"1개"
+],
+"hashtags": [],
+"keywords": [
+"데이터센터가",
+"어쩌고",
+"AI얘기할때",
+"마다",
+"나오지",
+"데이터센터는",
+"서버",
+"수천대가",
+"모여",
+"건물이고",
+"데이터센터",
+"투자확대한다는"
+],
+"series": "",
+"chars": 126,
+"lines": 9,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-02T07:40:36+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd--FzuEf_9/",
+"like_count": 0,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "오피스텔이 30억?!",
+"last_question": "오피스텔이 30억?!",
+"structure": "문장",
+"numbers": [
+"30억"
+],
+"hashtags": [],
+"keywords": [
+"오피스텔이"
+],
+"series": "",
+"chars": 11,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-02T02:10:41+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd-YVhgD912/",
+"like_count": 31,
+"comments_count": 2,
+"slides": 2,
+"skeleton": {
+"first_line": "트럼프 옆 머스크...ㄷㄷ",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"트럼프",
+"머스크"
+],
+"series": "",
+"chars": 14,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-02T00:24:53+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd-MOmFDxC0/",
+"like_count": 57,
+"comments_count": 1,
+"slides": 2,
+"skeleton": {
+"first_line": "제일 신기한 나이 42살?!",
+"last_question": "제일 신기한 나이 42살?!",
+"structure": "문장",
+"numbers": [
+"42"
+],
+"hashtags": [],
+"keywords": [
+"제일",
+"신기한",
+"나이"
+],
+"series": "",
+"chars": 15,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-01T14:40:02+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd39lq0v7qG/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "이런 친구들 생각해보니까 많네......",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"이런",
+"친구들",
+"생각해보니까",
+"많네"
+],
+"series": "",
+"chars": 22,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-10-01T08:39:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd8gAZqDzH-/",
+"like_count": 12,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "2차전지 많이 들어봤는데",
+"last_question": "",
+"structure": "문장×6",
+"numbers": [
+"2",
+"2",
+"1"
+],
+"hashtags": [],
+"keywords": [
+"차전지",
+"들어봤는데",
+"뭔지",
+"모르겠더라고",
+"내가",
+"찾아봤어",
+"전지는",
+"외부로부터",
+"전기",
+"에너지를",
+"화학",
+"에너지로"
+],
+"series": "",
+"chars": 142,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-30T23:09:33+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd7ez5-kwo0/",
+"like_count": 3,
+"comments_count": 0,
+"slides": 3,
+"skeleton": {
+"first_line": "나이 든 내 얼굴...보기 싫은데, 저금은 더 하게됨",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"나이",
+"얼굴",
+"보기",
+"싫은데",
+"저금은",
+"하게됨"
+],
+"series": "",
+"chars": 29,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-30T11:35:03+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd39RerPu7q/",
+"like_count": 19,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "돈 잘모으는 애들은 이렇게 하더라....",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"잘모으는",
+"애들은",
+"이렇게",
+"하더라"
+],
+"series": "",
+"chars": 22,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-30T10:22:12+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd6G_QoSh_6/",
+"like_count": 9,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "돈 잘 모으는 커플들 특징?!",
+"last_question": "돈 잘 모으는 커플들 특징?!",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"모으는",
+"커플들",
+"특징"
+],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-30T08:45:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd5746Nj_SE/",
+"like_count": 7,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "환율이 바뀌어서 손해를 봤다고?",
+"last_question": "환율이 바뀌어서 손해를 봤다고?",
+"structure": "질문>문장>해시태그",
+"numbers": [],
+"hashtags": [
+"#환헤지",
+"#달러인덱스",
+"#강달러",
+"#환율"
+],
+"keywords": [
+"환율이",
+"바뀌어서",
+"손해를",
+"봤다고",
+"그럼",
+"환헤지",
+"상품을",
+"찾아보자",
+"친구들아"
+],
+"series": "",
+"chars": 58,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-30T03:37:56+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd5YutmD5Qf/",
+"like_count": 1,
+"comments_count": 0,
+"slides": 7,
+"skeleton": {
+"first_line": "조정지역 일시적 1가구 2주택 처분기한 3년에서 2년으로 바뀜!!!!",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"1",
+"2",
+"3년",
+"2년"
+],
+"hashtags": [],
+"keywords": [
+"조정지역",
+"일시적",
+"가구",
+"주택",
+"처분기한",
+"년에서",
+"년으로",
+"바뀜"
+],
+"series": "",
+"chars": 38,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T13:53:24+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd36XTIv0-O/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "월급이 통장을 스쳐지나가는 사람?",
+"last_question": "월급이 통장을 스쳐지나가는 사람?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"월급이",
+"통장을",
+"스쳐지나가는",
+"사람"
+],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T09:00:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd3Y4jij8o7/",
+"like_count": 7,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "부자 연습생친구들아!",
+"last_question": "돈이 풀리니 묶이니 얘기하지?",
+"structure": "문장×2>질문>문장×12",
+"numbers": [
+"1"
+],
+"hashtags": [],
+"keywords": [
+"돈이",
+"물가가",
+"오르게",
+"미국의",
+"부자",
+"연습생친구들아",
+"맨날",
+"뉴스보면",
+"풀리니",
+"묶이니",
+"얘기하지",
+"중앙은행이"
+],
+"series": "",
+"chars": 224,
+"lines": 15,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T08:33:40+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd3VxZjz5ZD/",
+"like_count": 154,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "가난한 사람들의 삶 10선",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"10"
+],
+"hashtags": [],
+"keywords": [
+"가난한",
+"사람들의"
+],
+"series": "",
+"chars": 14,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T05:27:38+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd3AfXZj7d8/",
+"like_count": 6,
+"comments_count": 0,
+"slides": 4,
+"skeleton": {
+"first_line": "하루1분 부자연습 팔로우 하시고, 청약 정보 놓치지마세요!",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"1"
+],
+"hashtags": [],
+"keywords": [
+"하루",
+"부자연습",
+"팔로우",
+"하시고",
+"청약",
+"정보",
+"놓치지마세요"
+],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T00:53:55+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dd2hIuMtUir/",
+"like_count": 1,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "s&p배당 재투자할 생각을 왜 10년전에 못했냐....",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"10년"
+],
+"hashtags": [],
+"keywords": [
+"p배당",
+"재투자할",
+"생각을",
+"년전에",
+"못했냐"
+],
+"series": "",
+"chars": 30,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-29T00:40:33+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dd2fm4XtutM/",
+"like_count": 7,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "아..그냥 s&p나 살걸...",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"그냥",
+"p나",
+"살걸"
+],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-28T08:15:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dd0u5oqDzvX/",
+"like_count": 15,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "부자 연습생 친구들아",
+"last_question": "경제에는 금리가 거의 다라는거 알지?",
+"structure": "문장>질문>문장×3>해시태그",
+"numbers": [],
+"hashtags": [
+"#은행",
+"#경제",
+"#예대마진",
+"#금리"
+],
+"keywords": [
+"부자",
+"연습생",
+"친구들아",
+"경제에는",
+"금리가",
+"거의",
+"다라는거",
+"알지",
+"물가와",
+"금리는",
+"계속해서",
+"시장에"
+],
+"series": "",
+"chars": 89,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-27T11:32:03+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdygmoLD23Y/",
+"like_count": 9,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "클래리티법안이 도대체 뭐길래?",
+"last_question": "클래리티법안이 도대체 뭐길래?",
+"structure": "질문",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"클래리티법안이",
+"도대체",
+"뭐길래"
+],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": true,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-27T01:13:01+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdxZ0V9DzPT/",
+"like_count": 59,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "부자연습생 친구들아",
+"last_question": "",
+"structure": "문장×4>해시태그",
+"numbers": [],
+"hashtags": [
+"#cpi",
+"#FOMC",
+"#기준금리"
+],
+"keywords": [
+"부자연습생",
+"친구들아",
+"경제뉴스보면",
+"매번",
+"나오는",
+"단어",
+"모음이야",
+"매일",
+"같이",
+"공부해보자",
+"화이팅"
+],
+"series": "",
+"chars": 68,
+"lines": 5,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-26T04:23:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdvKvYND3sm/",
+"like_count": 6,
+"comments_count": 0,
+"slides": 7,
+"skeleton": {
+"first_line": "부자 연습생 분들,",
+"last_question": "혼란스럽다구요?",
+"structure": "문장×3>질문>문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"부자",
+"연습생",
+"분들",
+"전세로",
+"살고",
+"있는데",
+"부동산",
+"정책이",
+"계속",
+"바뀌어서",
+"혼란스럽다구요",
+"체크리스트는"
+],
+"series": "",
+"chars": 66,
+"lines": 5,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-25T06:42:00+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dds10f0jw8e/",
+"like_count": 2,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "전월세 가격 왜 이렇게 오를까..?ㅠ",
+"last_question": "전월세 가격 왜 이렇게 오를까..?ㅠ",
+"structure": "문장×3",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"전월세",
+"가격",
+"이렇게",
+"오를까",
+"부자연습생",
+"친구들아",
+"빨리",
+"부자",
+"되어서",
+"사봅시다"
+],
+"series": "",
+"chars": 54,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-25T05:37:54+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdsufBMD-u7/",
+"like_count": 11,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "이거 어디까지 내려가는거예요?",
+"last_question": "다 알고계시죠?",
+"structure": "질문>문장×3>질문>문장",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"이거",
+"어디까지",
+"내려가는거예요",
+"엔화가",
+"끊임없이",
+"계속",
+"내려가는",
+"바닥인줄",
+"알고",
+"들어가면",
+"지하실이",
+"있는거"
+],
+"series": "",
+"chars": 108,
+"lines": 6,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-25T05:20:03+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdsscTMj6WG/",
+"like_count": 11,
+"comments_count": 0,
+"slides": 8,
+"skeleton": {
+"first_line": "환율이 미친듯이 오르더니",
+"last_question": "또 갑자기 내린다?!",
+"structure": "문장×9",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"환율이",
+"갑자기",
+"이렇게",
+"미친듯이",
+"오르더니",
+"내린다",
+"내리는",
+"이상해서",
+"이유를",
+"찾아봤습니다",
+"떨어지면",
+"나한테는"
+],
+"series": "",
+"chars": 143,
+"lines": 9,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-25T05:01:26+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdsqT8yDy4Z/",
+"like_count": 40,
+"comments_count": 0,
+"slides": 6,
+"skeleton": {
+"first_line": "파운드리, 팹리스, D램, HBM, 수율....??",
+"last_question": "파운드리, 팹리스, D램, HBM, 수율....??",
+"structure": "질문>문장×10",
+"numbers": [
+"5",
+"1"
+],
+"hashtags": [],
+"keywords": [
+"반도체",
+"파운드리",
+"팹리스",
+"D램",
+"HBM",
+"수율",
+"슈퍼사이클인건",
+"알겠는데",
+"기사",
+"내용",
+"때마다",
+"뭔지"
+],
+"series": "",
+"chars": 170,
+"lines": 11,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-25T04:24:44+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdsmHMDD3ei/",
+"like_count": 3,
+"comments_count": 0,
+"slides": 5,
+"skeleton": {
+"first_line": "부자연습생 여러분, 안녕하세요!",
+"last_question": "",
+"structure": "문장×5",
+"numbers": [
+"1",
+"1"
+],
+"hashtags": [],
+"keywords": [
+"부자연습생",
+"여러분",
+"안녕하세요",
+"하루",
+"부자연습입니다",
+"매일",
+"조금씩",
+"부자에",
+"가까워지는",
+"연습",
+"좋은",
+"콘텐츠로"
+],
+"series": "",
+"chars": 98,
+"lines": 5,
+"emoji_per_100": 1.02,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2025-06-13T10:26:12+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DK1mqPDRQRr/",
+"like_count": 42,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "#qqq #schd #일반상식",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#qqq",
+"#schd",
+"#일반상식"
+],
+"keywords": [],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2025-06-11T03:52:15+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DKvv_GFx8f1/",
+"like_count": 19,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#일반상식 #s&p500",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"500"
+],
+"hashtags": [
+"#일반상식",
+"#s&p500"
+],
+"keywords": [],
+"series": "",
+"chars": 13,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T14:44:15+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwgXAtPdbd/",
+"like_count": 20,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#알트코인#비트코인#도지#시바이누#이더리움#솔라나#리플",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#알트코인",
+"#비트코인",
+"#도지",
+"#시바이누",
+"#이더리움",
+"#솔라나",
+"#리플"
+],
+"keywords": [],
+"series": "",
+"chars": 30,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T14:43:09+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwgOYsPXBE/",
+"like_count": 10,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#비트코인#btc#암호화폐#투자",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#비트코인",
+"#btc",
+"#암호화폐",
+"#투자"
+],
+"keywords": [],
+"series": "",
+"chars": 17,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T14:42:10+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwgH8ePT5n/",
+"like_count": 7,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#제롬파월#연준의장#미국#fed",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#제롬파월",
+"#연준의장",
+"#미국",
+"#fed"
+],
+"keywords": [],
+"series": "",
+"chars": 17,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T14:40:19+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwf5L6Pp78/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#연방준비제도#연준#fed#파월#미국기준금리",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#연방준비제도",
+"#연준",
+"#fed",
+"#파월",
+"#미국기준금리"
+],
+"keywords": [],
+"series": "",
+"chars": 24,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T14:37:59+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwfqTSPLwd/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#가산금리#이자#대출",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#가산금리",
+"#이자",
+"#대출"
+],
+"keywords": [],
+"series": "",
+"chars": 11,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T13:50:01+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwaLPEPF49/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#시가총액#주식#계산법#시총",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#시가총액",
+"#주식",
+"#계산법",
+"#시총"
+],
+"keywords": [],
+"series": "",
+"chars": 15,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T13:49:20+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwaGosPr3T/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#스프레드#시세차익",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#스프레드",
+"#시세차익"
+],
+"keywords": [],
+"series": "",
+"chars": 10,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T13:48:19+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwZ9YKPn6n/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#엔캐리트레이드#일본#엔화#비트코인#주식#나스닥#코스피",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#엔캐리트레이드",
+"#일본",
+"#엔화",
+"#비트코인",
+"#주식",
+"#나스닥",
+"#코스피"
+],
+"keywords": [],
+"series": "",
+"chars": 30,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T13:46:44+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwZy9rPQcI/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#듀프소비#가성비#명품",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#듀프소비",
+"#가성비",
+"#명품"
+],
+"keywords": [],
+"series": "",
+"chars": 12,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2024-11-24T13:43:22+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DCwZZlGvoi5/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#액상과당#고속노화",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#액상과당",
+"#고속노화"
+],
+"keywords": [],
+"series": "",
+"chars": 10,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2023-04-19T13:18:11+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CrOBiFZrhpI/",
+"like_count": 199,
+"comments_count": 4,
+"slides": 2,
+"skeleton": {
+"first_line": "아이패드 그림 네이버카페 \"패그\"",
+"last_question": "",
+"structure": "해시태그>문장×3",
+"numbers": [],
+"hashtags": [
+"#하루일분",
+"#일반상식",
+"#chatGPT"
+],
+"keywords": [
+"아이패드",
+"그림",
+"네이버카페",
+"패그",
+"https",
+"cafe",
+"naver",
+"com",
+"padgrim"
+],
+"series": "",
+"chars": 70,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2023-04-19T13:14:38+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CrOBIJeLNOc/",
+"like_count": 157,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "아이패드 그림 네이버카페 \"패그\"",
+"last_question": "",
+"structure": "해시태그>문장×3",
+"numbers": [],
+"hashtags": [
+"#경제상식",
+"#코픽스"
+],
+"keywords": [
+"아이패드",
+"그림",
+"네이버카페",
+"패그",
+"https",
+"cafe",
+"naver",
+"com",
+"padgrim"
+],
+"series": "",
+"chars": 61,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2023-04-19T13:04:02+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CrN_6dqLcoa/",
+"like_count": 123,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "https://cafe.naver.com/padgrim",
+"last_question": "",
+"structure": "해시태그>문장×2",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#하루1분",
+"#일반상식"
+],
+"keywords": [
+"https",
+"cafe",
+"naver",
+"com",
+"padgrim",
+"아이패드",
+"그림",
+"네이버카페",
+"패그"
+],
+"series": "",
+"chars": 60,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2023-04-19T13:02:30+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CrN_vQLLr53/",
+"like_count": 80,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "아이패드 그림 네이버카페 \"패그\"",
+"last_question": "",
+"structure": "해시태그>문장×3",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#하루1분",
+"#일반상식"
+],
+"keywords": [
+"아이패드",
+"그림",
+"네이버카페",
+"패그",
+"https",
+"cafe",
+"naver",
+"com",
+"padgrim"
+],
+"series": "",
+"chars": 62,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-12-03T03:42:07+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/ClsOs_ovkD2/",
+"like_count": 401,
+"comments_count": 8,
+"slides": null,
+"skeleton": {
+"first_line": "#일반상식#아스퍼거증후군",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#일반상식",
+"#아스퍼거증후군"
+],
+"keywords": [],
+"series": "",
+"chars": 13,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-09-03T00:11:41+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CiBiSGyPMY5/",
+"like_count": 220,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "#잊힐권리#온라인#댓글#사이버#인권",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#잊힐권리",
+"#온라인",
+"#댓글",
+"#사이버",
+"#인권"
+],
+"keywords": [],
+"series": "",
+"chars": 19,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-09-01T14:45:01+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ch98o7WP4le/",
+"like_count": 175,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "📺하루1분 유튜브개설했어요📺#숏커버링 #공매도 #주식 #경제 #일반상식",
+"last_question": "",
+"structure": "문장",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#숏커버링",
+"#공매도",
+"#주식",
+"#경제",
+"#일반상식"
+],
+"keywords": [
+"하루",
+"유튜브개설했어요"
+],
+"series": "",
+"chars": 39,
+"lines": 1,
+"emoji_per_100": 5.13,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-09-01T14:43:18+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ch98cWgvLa-/",
+"like_count": 151,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "#공황장애 #하루일분 #유튜브",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#공황장애",
+"#하루일분",
+"#유튜브"
+],
+"keywords": [],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-09-01T14:42:21+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ch98VWPPari/",
+"like_count": 179,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "#유튜브 #하루일분 #경제 #상식 #인플레이션",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#유튜브",
+"#하루일분",
+"#경제",
+"#상식",
+"#인플레이션"
+],
+"keywords": [],
+"series": "",
+"chars": 25,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-08-31T01:41:07+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ch5-IhkvAkh/",
+"like_count": 204,
+"comments_count": 4,
+"slides": 2,
+"skeleton": {
+"first_line": "하루일분 유튜브 개설📺 #랜섬웨어#일반상식#이슈#IT#알약#윈도우#엑셀",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#랜섬웨어",
+"#일반상식",
+"#이슈",
+"#IT",
+"#알약",
+"#윈도우",
+"#엑셀"
+],
+"keywords": [
+"하루일분",
+"유튜브",
+"개설"
+],
+"series": "",
+"chars": 39,
+"lines": 1,
+"emoji_per_100": 2.56,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-08-31T01:37:27+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ch59to5vq74/",
+"like_count": 94,
+"comments_count": 0,
+"slides": 2,
+"skeleton": {
+"first_line": "하루일분 일반상식 유튜브 개설📺#일반상식#수족구병#유튜브",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#일반상식",
+"#수족구병",
+"#유튜브"
+],
+"keywords": [
+"하루일분",
+"일반상식",
+"유튜브",
+"개설"
+],
+"series": "",
+"chars": 31,
+"lines": 1,
+"emoji_per_100": 3.23,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-08-30T14:24:36+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Ch4wti1vx4C/",
+"like_count": 101,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#하루1분#경제#상식#일반상식#ncs",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#하루1분",
+"#경제",
+"#상식",
+"#일반상식",
+"#ncs"
+],
+"keywords": [],
+"series": "",
+"chars": 20,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-08-12T11:32:51+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/ChKGv5lPoza/",
+"like_count": 153,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#일반상식#하루1분#짬내서#공부#경제#시사#사회",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#일반상식",
+"#하루1분",
+"#짬내서",
+"#공부",
+"#경제",
+"#시사",
+"#사회"
+],
+"keywords": [],
+"series": "",
+"chars": 26,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-05-12T13:13:02+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CddZFMBLgNv/",
+"like_count": 165,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#바둑#자충수#지식#상식#단어",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#바둑",
+"#자충수",
+"#지식",
+"#상식",
+"#단어"
+],
+"keywords": [],
+"series": "",
+"chars": 16,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-05-11T13:13:12+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Cda0Ti-Pdlj/",
+"like_count": 101,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#셰어웨어#NCS#상식공부#하루일분#IT",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#셰어웨어",
+"#NCS",
+"#상식공부",
+"#하루일분",
+"#IT"
+],
+"keywords": [],
+"series": "",
+"chars": 22,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-05-11T01:28:09+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CdZjngoPwRI/",
+"like_count": 217,
+"comments_count": 6,
+"slides": null,
+"skeleton": {
+"first_line": "#스태그플레이션#물가#경제불황#하루일분#경제용어#공부#NCS",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#스태그플레이션",
+"#물가",
+"#경제불황",
+"#하루일분",
+"#경제용어",
+"#공부",
+"#NCS"
+],
+"keywords": [],
+"series": "",
+"chars": 33,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-05-11T01:22:40+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CdZi_Zrv6HX/",
+"like_count": 61,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#주식#개념#PER#하루일분#상식#공부",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#개념",
+"#PER",
+"#하루일분",
+"#상식",
+"#공부"
+],
+"keywords": [],
+"series": "",
+"chars": 21,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-05-11T01:18:41+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CdZiiLlPu7v/",
+"like_count": 79,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#베어마켓#일반상식#경제#하루일분",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#베어마켓",
+"#일반상식",
+"#경제",
+"#하루일분"
+],
+"keywords": [],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-02-21T14:23:08+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CaPhgmUvwnf/",
+"like_count": 194,
+"comments_count": 9,
+"slides": null,
+"skeleton": {
+"first_line": "하루일분 일반상식 #주식#공매도#개념#경제",
+"last_question": "",
+"structure": "문장",
+"numbers": [],
+"hashtags": [
+"#주식",
+"#공매도",
+"#개념",
+"#경제"
+],
+"keywords": [
+"하루일분",
+"일반상식"
+],
+"series": "",
+"chars": 23,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-02-19T13:54:20+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CaKUn9hPSwz/",
+"like_count": 234,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#metaverse#메타버스#일반상식#하루일분",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#metaverse",
+"#메타버스",
+"#일반상식",
+"#하루일분"
+],
+"keywords": [],
+"series": "",
+"chars": 25,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2022-02-19T13:44:46+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CaKThydPbUl/",
+"like_count": 154,
+"comments_count": 4,
+"slides": null,
+"skeleton": {
+"first_line": "#NFT#가상화폐#크립토#일반상식",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#NFT",
+"#가상화폐",
+"#크립토",
+"#일반상식"
+],
+"keywords": [],
+"series": "",
+"chars": 18,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-21T13:09:57+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVSrW_UP39Y/",
+"like_count": 76,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#일반상식#NCS#역사공부#국사#한능검#취준#취준생",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#일반상식",
+"#NCS",
+"#역사공부",
+"#국사",
+"#한능검",
+"#취준",
+"#취준생"
+],
+"keywords": [],
+"series": "",
+"chars": 28,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-21T13:09:11+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVSrRZbv6lK/",
+"like_count": 57,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#하루1분#일반상식#한능검#역사공부#고려#중추원",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#하루1분",
+"#일반상식",
+"#한능검",
+"#역사공부",
+"#고려",
+"#중추원"
+],
+"keywords": [],
+"series": "",
+"chars": 26,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-20T14:27:56+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVQPfQ-vyzz/",
+"like_count": 61,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "#시뮬라르크#일반상식#취준#취준생#매일공부#간단공부",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#시뮬라르크",
+"#일반상식",
+"#취준",
+"#취준생",
+"#매일공부",
+"#간단공부"
+],
+"keywords": [],
+"series": "",
+"chars": 28,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-20T14:27:13+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVQPZ_kPzcT/",
+"like_count": 46,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#미술#상식#하루1분#매일공부#데일리#공기업#NCS#취준생",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#미술",
+"#상식",
+"#하루1분",
+"#매일공부",
+"#데일리",
+"#공기업",
+"#NCS",
+"#취준생"
+],
+"keywords": [],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-19T14:11:19+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVNoyn1PBWh/",
+"like_count": 51,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#열섬현상#하루1분#NCS#공기업준비#일반상식#환경오염",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#열섬현상",
+"#하루1분",
+"#NCS",
+"#공기업준비",
+"#일반상식",
+"#환경오염"
+],
+"keywords": [],
+"series": "",
+"chars": 30,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-19T14:03:25+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVNn4xBPWQH/",
+"like_count": 38,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#하루1분#베드타운#경제#경영#NCS#일반상식",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#하루1분",
+"#베드타운",
+"#경제",
+"#경영",
+"#NCS",
+"#일반상식"
+],
+"keywords": [],
+"series": "",
+"chars": 25,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2021-10-19T14:01:23+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CVNnp5GPFRV/",
+"like_count": 64,
+"comments_count": 2,
+"slides": null,
+"skeleton": {
+"first_line": "#하루1분#카페라테효과#NCS#일반상식",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [
+"1"
+],
+"hashtags": [
+"#하루1분",
+"#카페라테효과",
+"#NCS",
+"#일반상식"
+],
+"keywords": [],
+"series": "",
+"chars": 21,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-26T13:39:09+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CJQ1BJxDfnl/",
+"like_count": 44,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#스낵#컬쳐#웹툰#웹소설#카드뉴스#공기업#공시생#정보#상식",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#스낵",
+"#컬쳐",
+"#웹툰",
+"#웹소설",
+"#카드뉴스",
+"#공기업",
+"#공시생",
+"#정보",
+"#상식"
+],
+"keywords": [],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-24T14:17:15+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CJLvycTDFL_/",
+"like_count": 30,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#정보#ncs#공기업#레드존#레드#청소년#통행금지구역",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#정보",
+"#ncs",
+"#공기업",
+"#레드존",
+"#레드",
+"#청소년",
+"#통행금지구역"
+],
+"keywords": [],
+"series": "",
+"chars": 29,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-22T14:13:39+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CJGlycXjOrM/",
+"like_count": 25,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#즉결심판#단어#정보#고급#법#법대생",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#즉결심판",
+"#단어",
+"#정보",
+"#고급",
+"#법",
+"#법대생"
+],
+"keywords": [],
+"series": "",
+"chars": 20,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-21T11:17:48+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CJDs3hmDOmG/",
+"like_count": 28,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#NCS#공시생#공기업#정보#상식#일반정보#시험#화이팅#맞팔",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#NCS",
+"#공시생",
+"#공기업",
+"#정보",
+"#상식",
+"#일반정보",
+"#시험",
+"#화이팅",
+"#맞팔"
+],
+"keywords": [],
+"series": "",
+"chars": 33,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-19T14:04:45+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CI-2Ymbjqav/",
+"like_count": 39,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 141,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-18T12:04:51+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CI8D3g7DG0D/",
+"like_count": 17,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 141,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-17T08:00:02+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CI5DDhoD6tn/",
+"like_count": 9,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#펨토셀"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 145,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-16T11:35:37+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CI227p2j1iC/",
+"like_count": 10,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#GUI",
+"#IT",
+"#전산",
+"#맞팔",
+"#맞팔로우"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 159,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-15T12:37:16+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CI0ZMVcDs8V/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#열오염"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 145,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-14T01:34:17+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIwohmWjBFS/",
+"like_count": 9,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 144,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-13T15:05:33+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIvgkrgDqlS/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#시뮬라르크"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 147,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-12T12:07:59+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIsndMPjmSw/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#인터페론",
+"#취업",
+"#맞팔"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 152,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-11T13:17:56+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIqKqq6DGcI/",
+"like_count": 11,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 141,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-10T11:46:12+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CInbX8wjTGV/",
+"like_count": 9,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#증산",
+"#증산작용",
+"#기화",
+"#식물"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-09T11:33:48+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIk1KLGD3yU/",
+"like_count": 10,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#듀스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 144,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-08T12:26:51+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIiWb3zjZc9/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#스마트그리드"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 148,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-05T13:05:28+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIaseHzj-Hf/",
+"like_count": 11,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 144,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-05T13:03:31+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIasP1UjgaZ/",
+"like_count": 9,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#포괄수가제",
+"#맞팔",
+"#맞팔해요"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-05T12:59:30+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIaryd7jWiR/",
+"like_count": 10,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#ppp",
+"#환경"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 148,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-05T01:56:25+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIZf52rjO6E/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#워킹푸어",
+"#일",
+"#취업",
+"#취직",
+"#근로"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 160,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-05T01:54:56+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIZfvCEjglb/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#잡셰어링",
+"#취업",
+"#구직",
+"#구인"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T12:28:41+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIYDd3OjFZy/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#클로즈드숍",
+"#노동",
+"#노동조합",
+"#조건",
+"#근로자"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 170,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T12:26:40+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIYDPGsjFyC/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#유니온숍"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 146,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T12:24:03+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIYC73TDCE5/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#잊힐권리"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 146,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T01:43:52+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIW5rEXjQ5h/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#오픈숍",
+"#노동조합",
+"#근로자",
+"#자유결정",
+"#노사"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 162,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T01:39:15+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIW5JR5DHef/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#NPO",
+"#비영리민간단체",
+"#공공의이익",
+"#공익"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 162,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T01:36:24+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIW40bhjTXA/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#젠트리피케이션",
+"#중산층",
+"#저소득층",
+"#원주민",
+"#주거비"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 184,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T01:33:06+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIW4cMjD3Jc/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#인구보너스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 147,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-04T01:29:37+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIW4CqzjtR4/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#인구오너스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 147,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-03T12:09:50+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIVcg6CDULj/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#하이타오족",
+"#하이타오",
+"#해외직구",
+"#직구",
+"#중국"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 171,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-03T12:07:37+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIVcQnLj-Jo/",
+"like_count": 7,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#램프증후군",
+"#램프",
+"#현대인",
+"#노동자",
+"#정신"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 168,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-03T12:02:35+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIVbrwzDUDV/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식#nc",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#코쿠닝",
+"#코쿠닝현상",
+"#코쿠닝족"
+],
+"keywords": [],
+"series": "",
+"chars": 125,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-03T12:00:17+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIVba5qjHME/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식#nc",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#파노플리효과",
+"#상품",
+"#소비"
+],
+"keywords": [],
+"series": "",
+"chars": 134,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-03T11:57:42+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIVbH-2Dkrk/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식#nc",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#업사이클링"
+],
+"keywords": [],
+"series": "",
+"chars": 116,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-02T14:16:40+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CITGPAzjn-4/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#쇼비니즘",
+"#애국주의",
+"#호전적"
+],
+"keywords": [
+"이익"
+],
+"series": "",
+"chars": 140,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-02T14:14:24+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CITF-WvDgPr/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#제로섬사회"
+],
+"keywords": [],
+"series": "",
+"chars": 117,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-02T14:12:04+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CITFtT7DbQZ/",
+"like_count": 7,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#번아웃증후군",
+"#극도의",
+"#피로"
+],
+"keywords": [],
+"series": "",
+"chars": 135,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-01T16:05:31+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIQt5WnD0pp/",
+"like_count": 7,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#헤일로효과",
+"#후광효과",
+"#이미지"
+],
+"keywords": [],
+"series": "",
+"chars": 126,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-12-01T16:03:12+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIQtoYZDg10/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#풍선효과"
+],
+"keywords": [],
+"series": "",
+"chars": 116,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-30T13:55:52+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIN6Q4CDwry/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#스몸비",
+"#좀비",
+"#스마트폰"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 163,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-30T13:54:08+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIN6EI9DaE-/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#맞팔",
+"#선팔하면맞팔",
+"#스티그마효과"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 158,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-30T13:19:43+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIN2IKLjSP4/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#확증편향"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 146,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-30T13:17:05+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIN10xvjV8v/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#엘렉트라콤플렉스",
+"#아버지에게애정"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 158,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-30T13:14:34+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIN1iZpjwiY/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30",
+"52"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#주52시간근무제",
+"#근로시간",
+"#법정근로시간단축",
+"#한국폴리텍대학교"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 173,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-29T15:28:37+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CILgFSHjIAL/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#종합편성채널"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 148,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-29T15:25:06+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CILfrjSDddL/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#클라우드서비스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 149,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-29T15:23:14+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CILfd8DD0fF/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#케인스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 145,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-29T15:17:32+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CILe0KdDiin/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#블랙아웃"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 146,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-29T10:36:58+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIK-tPND02n/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#스톡홀름중후군",
+"#범죄심리학"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-29T10:35:16+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIK-gzdDmP7/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#기초연금",
+"#연금"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 149,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-28T14:19:45+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIIzaH6DSzX/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#레몬법",
+"#리콜",
+"#자동차"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 152,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-28T14:15:41+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIIy8RPDDYJ/",
+"like_count": 7,
+"comments_count": 1,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#유니콘",
+"#페이스북",
+"#벤처기업",
+"#IT"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 158,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-28T14:13:31+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIIyscUjpgC/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#지카바이러스",
+"#소두증",
+"#이집트숲모기",
+"#이집트",
+"#바이러스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 171,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T16:02:24+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIGaXAmDRuR/",
+"like_count": 9,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#블랙스완",
+"#경제용어",
+"#파급효과"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 156,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T15:59:19+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIGaAdHjpS6/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#엠부시마케팅",
+"#마케팅"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 152,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T15:50:10+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIGY9X0jPag/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#리쇼어링",
+"#유턴기업"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 151,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T15:47:43+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIGYrbZDMpq/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#명품",
+"#매스티지"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 149,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T15:44:51+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIGYWhhD9q_/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#더블딥",
+"#경기침체",
+"#이중침체"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T15:41:54+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIGYA4pj7YT/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#노모포비아",
+"#공포",
+"#걱정",
+"#불안",
+"#우울"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 159,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T11:08:23+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF4tm6jcsk/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#CBDC",
+"#중앙은행",
+"#블록체인",
+"#비트코인",
+"#전자형태"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 180,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T11:03:59+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF4NWiD-Nd/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#블랙아이스"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 147,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T11:01:52+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF39yeD-Kc/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#프라임에디팅",
+"#바이오기술",
+"#유전자"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 158,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T10:56:54+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF3Zh7DNIq/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30",
+"19"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#사이토카인폭풍",
+"#면역",
+"#과다면역",
+"#코로나",
+"#코로나19"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 167,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T10:55:59+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF3SwqjGok/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#일론머스크",
+"#크루드래곤",
+"#테슬라",
+"#스페이스X",
+"#유인우주선"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 169,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T10:53:19+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF2_ORDhgz/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#아프리카",
+"#돼지열병"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 151,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T10:46:46+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF2PTnDcR4/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30",
+"4"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#4B운동",
+"#여성운동"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 151,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-27T10:36:15+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIF1CMpjXSR/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#노멀크러시",
+"#놈코어"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 151,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T15:16:30+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDwT-Ij78U/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#사이버망명"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 147,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T15:14:24+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDwElbjmXt/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#텔레그램",
+"#메신저",
+"#보안",
+"#범죄",
+"#암호화메신저"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 163,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T15:11:50+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDvxwfDPbw/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#인포데믹스",
+"#코로나",
+"#사회적거리두기",
+"#가짜뉴스",
+"#루머"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 167,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T15:04:47+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDu-MYDMtR/",
+"like_count": 1,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#롤오버",
+"#백워데이션",
+"#경제",
+"#선물",
+"#상식"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 170,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T15:02:41+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDuu0RjrKU/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#콘탱고",
+"#롤오버",
+"#선물투자",
+"#만기",
+"#재투자"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 161,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T14:57:32+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDuJBfDJ1u/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#롤오버",
+"#만기교체비용",
+"#재투자비용",
+"#경제상식",
+"#경제용어"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 168,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T14:47:47+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDtBqajnMs/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#TRQ",
+"#저율관세할당",
+"#이중관세제도"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 159,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T14:41:57+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDsW3kj4lk/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#일드캡",
+"#중앙은행",
+"#통화정책"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T14:36:06+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDrsF2j8wS/",
+"like_count": 4,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#질적완화",
+"#통화정책",
+"#중앙은행",
+"#경기부양"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 161,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T14:33:08+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDrWSADcYf/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#중앙은행",
+"#양적완화",
+"#통화정책"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 156,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-26T14:30:14+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIDrBD3DXUX/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs#정보#일분상식#상식#헬리코터머니#경기부양#중앙은행",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#정보",
+"#일분상식",
+"#상식",
+"#헬리코터머니",
+"#경기부양",
+"#중앙은행"
+],
+"keywords": [],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T07:40:50+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAXXvADZmS/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#NCS#일반상식#상식퀴즈#NCS공부#파운드리#반도체#제조",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#NCS",
+"#일반상식",
+"#상식퀴즈",
+"#NCS공부",
+"#파운드리",
+"#반도체",
+"#제조"
+],
+"keywords": [],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T07:39:08+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAXLLoDepQ/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#NCS#일반상식#상식퀴즈#NCS공부#파운드리#반도체#제조",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#NCS",
+"#일반상식",
+"#상식퀴즈",
+"#NCS공부",
+"#파운드리",
+"#반도체",
+"#제조"
+],
+"keywords": [],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T07:35:53+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAWzd_jy5Z/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#NCS#일반상식#상식퀴즈#NCS공부#파운드리#반도체#제조",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#NCS",
+"#일반상식",
+"#상식퀴즈",
+"#NCS공부",
+"#파운드리",
+"#반도체",
+"#제조"
+],
+"keywords": [],
+"series": "",
+"chars": 32,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T05:17:05+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAG61sjz7n/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#밴드왜건",
+"#펭귄효과",
+"#마케팅",
+"#소비조장",
+"#소비동조"
+],
+"keywords": [],
+"series": "",
+"chars": 129,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T05:16:15+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAG0s4D2vQ/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#펭귄효과",
+"#밴드왜건효과",
+"#소비동조",
+"#마케팅"
+],
+"keywords": [],
+"series": "",
+"chars": 119,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T05:09:30+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAGDRGj5va/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#디지털세",
+"#디지털",
+"#구글",
+"#페이스북",
+"#세금"
+],
+"keywords": [],
+"series": "",
+"chars": 130,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T05:01:39+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAFJyODBtQ/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#레그테크",
+"#AI",
+"#regtech",
+"#금융규제",
+"#기술"
+],
+"keywords": [],
+"series": "",
+"chars": 125,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:56:17+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAEicxDp3s/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "#ncs #일반상식 #취준 #공기업 #공기업일반상식 #n",
+"last_question": "",
+"structure": "해시태그",
+"numbers": [],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#부동산",
+"#부동산정보",
+"#프롭테크",
+"#기술",
+"#테크놀로지"
+],
+"keywords": [],
+"series": "",
+"chars": 141,
+"lines": 1,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:50:47+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAD6JCDsTd/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#오픈뱅킹",
+"#핀테크",
+"#은행",
+"#뱅크",
+"#기술"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 167,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:46:58+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIADeTBDEc4/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30",
+"3"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#데이터3법",
+"#개인정보법",
+"#개인정보보호법",
+"#정보통신망법",
+"#신용정보법개정안"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 191,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:45:38+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIADUesjZpW/",
+"like_count": 3,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30",
+"19"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#언택트마케팅",
+"#비대면마케팅",
+"#비대면",
+"#코로나",
+"#코로나19"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 194,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:40:39+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIACv77DFTT/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#부동산",
+"#부동산정보",
+"#분양가상한제",
+"#분양가",
+"#고분양가"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 179,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:38:14+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIACeVqjM3x/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#규제샌드박스",
+"#샌드박스",
+"#신기술",
+"#보호제도"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 162,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:31:44+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIABurkDzIp/",
+"like_count": 2,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#조국",
+"#법무부장관",
+"#민정수석"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 155,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:18:14+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CIAAL0-DmVW/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30",
+"3"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#유치원3법",
+"#유아교육법",
+"#사립학교법",
+"#학교급식법",
+"#교육기본법"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 188,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:14:18+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CH__u9NDPKa/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#그린뉴딜",
+"#기후변화",
+"#경제문제",
+"#문재인대통령",
+"#한국판뉴딜"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 169,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T04:09:39+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CH__M-aDsoq/",
+"like_count": 8,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그>문장",
+"numbers": [
+"30",
+"12"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보",
+"#민식이법",
+"#어린이보호구역",
+"#교통안전"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 165,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T03:40:47+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CH_75jfjY8I/",
+"like_count": 6,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그>문장",
+"numbers": [
+"30",
+"12"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 147,
+"lines": 4,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-25T03:23:40+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CH_58JpDW2Z/",
+"like_count": 7,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 141,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-24T01:24:13+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CH9HebyDJnm/",
+"like_count": 5,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"ncs"
+],
+"series": "",
+"chars": 141,
+"lines": 3,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2020-11-23T12:38:47+0000",
+"media_type": "IMAGE",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/CH7v4JBjQoP/",
+"like_count": 10,
+"comments_count": 0,
+"slides": null,
+"skeleton": {
+"first_line": "하루30초로 ncs일반상식 때려잡자!",
+"last_question": "",
+"structure": "문장×2>해시태그",
+"numbers": [
+"30"
+],
+"hashtags": [
+"#ncs",
+"#일반상식",
+"#취준",
+"#공기업",
+"#공기업일반상식",
+"#ncs일반상식",
+"#뉴스",
+"#시사",
+"#상식",
+"#정보"
+],
+"keywords": [
+"하루",
+"초로",
+"ncs일반상식",
+"때려잡자"
+],
+"series": "",
+"chars": 76,
+"lines": 3,
 "emoji_per_100": 0.0,
 "ends_with_question": false,
 "giveaway": false,
