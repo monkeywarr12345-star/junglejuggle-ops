@@ -1,17 +1,64 @@
 {
 "account": "sebia.ai",
-"collected_at": "2026-11-11T02:03:53+00:00",
-"pages": 1,
-"followers_count": 60337,
+"collected_at": "2026-11-11T06:32:54+00:00",
+"pages": 2,
+"followers_count": 60382,
 "media_count": 78,
 "posts": [
+{
+"timestamp": "2026-11-11T02:22:09+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DflZMyUBQPt/",
+"like_count": 10,
+"comments_count": 15,
+"slides": null,
+"skeleton": {
+"first_line": "🏎️ 아직 모르면 당장 알려줘야 하는 게임 만드는 법",
+"last_question": "",
+"structure": "이모지소제목>문장×5>해시태그>이모지소제목",
+"numbers": [
+"5",
+"5.2",
+"3일",
+"3"
+],
+"hashtags": [
+"#HiggsfieldCreator",
+"#힉스필드",
+"#클로드",
+"#제작지원"
+],
+"keywords": [
+"달라는",
+"Claude에",
+"그림",
+"프롬프트",
+"ai",
+"영상",
+"아직",
+"모르면",
+"당장",
+"알려줘야",
+"게임",
+"만드는"
+],
+"series": "",
+"chars": 523,
+"lines": 8,
+"emoji_per_100": 0.57,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
 {
 "timestamp": "2026-11-10T06:20:31+0000",
 "media_type": "CAROUSEL_ALBUM",
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DfjP7c2nxB0/",
-"like_count": 304,
-"comments_count": 2024,
+"like_count": 329,
+"comments_count": 2207,
 "slides": 7,
 "skeleton": {
 "first_line": "💡 사람들이 이 한마디를 붙이자 클로드가 달라졌대요",
@@ -155,7 +202,7 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfYtzzIhhRf/",
-"like_count": 124,
+"like_count": 125,
 "comments_count": 439,
 "slides": null,
 "skeleton": {
@@ -294,7 +341,7 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfTqQQ8hlTd/",
-"like_count": 51,
+"like_count": 52,
 "comments_count": 99,
 "slides": null,
 "skeleton": {
@@ -345,7 +392,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfQrZZHhM9K/",
 "like_count": 68,
-"comments_count": 124,
+"comments_count": 126,
 "slides": null,
 "skeleton": {
 "first_line": "✍️소재 찾고, 글 쓰고, 디자인하고. 이 반복을 AI로 돌리는 법.",
@@ -484,7 +531,7 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DfGlREShYFo/",
-"like_count": 28,
+"like_count": 29,
 "comments_count": 86,
 "slides": null,
 "skeleton": {
@@ -940,7 +987,7 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DexvcK9hSqJ/",
-"like_count": 393,
+"like_count": 394,
 "comments_count": 778,
 "slides": null,
 "skeleton": {
@@ -1093,7 +1140,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DeoxzU-h12N/",
 "like_count": 66,
-"comments_count": 85,
+"comments_count": 86,
 "slides": null,
 "skeleton": {
 "first_line": "🩵 제가 클로드를 처음 켰던 날로 돌아간다면, 채팅창보다 이 다섯 개를 먼저 세팅할 거예요.",
@@ -1138,7 +1185,7 @@
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DenuZBIhHwn/",
 "like_count": 514,
-"comments_count": 1992,
+"comments_count": 1994,
 "slides": null,
 "skeleton": {
 "first_line": "🩵 제가 클로드를 처음 켰던 날로 돌아간다면, 채팅창보다 이 다섯 개를 먼저 세팅할 거예요.",
@@ -1510,7 +1557,7 @@
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DeItPn0HxXS/",
 "like_count": 147,
-"comments_count": 482,
+"comments_count": 481,
 "slides": 7,
 "skeleton": {
 "first_line": "🧶 가상 캐릭터 하나 만들어 봤는데, 생각보다 너무 쉬워서 좀 무서웠어요",
@@ -1646,8 +1693,8 @@
 "media_type": "VIDEO",
 "media_product_type": "REELS",
 "permalink": "https://www.instagram.com/reel/DeGNmVghMaI/",
-"like_count": 822,
-"comments_count": 4838,
+"like_count": 823,
+"comments_count": 4837,
 "slides": null,
 "skeleton": {
 "first_line": "💻 아직도 클로드랑 코덱스 왔다갔다 하면서 쓰세요?",
@@ -1937,7 +1984,7 @@
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DdqAiaqEZEQ/",
 "like_count": 421,
-"comments_count": 1695,
+"comments_count": 1697,
 "slides": 7,
 "skeleton": {
 "first_line": "🤦‍♀️AI 툴 켜놓고 결과 나올 때까지 기다린 적 있으시죠?",
@@ -2339,7 +2386,7 @@
 "media_product_type": "FEED",
 "permalink": "https://www.instagram.com/p/DdQFhrVHxqo/",
 "like_count": 204,
-"comments_count": 395,
+"comments_count": 397,
 "slides": 7,
 "skeleton": {
 "first_line": "🎬영상 프롬프트는 한 줄 쓰려고 해도 챙길 게 너무 많아요.",
@@ -2422,6 +2469,2306 @@
 "chars": 871,
 "lines": 10,
 "emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-10T03:51:49+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DdF5h1_hfYO/",
+"like_count": 133,
+"comments_count": 366,
+"slides": null,
+"skeleton": {
+"first_line": "⚡ GPT-6 아스트라는 내가 컨텍스트 관리 안해도 된대요",
+"last_question": "",
+"structure": "문장×8>해시태그>이모지소제목",
+"numbers": [
+"-6",
+"70%",
+"7개",
+"6"
+],
+"hashtags": [
+"#코덱스",
+"#codex",
+"#openai",
+"#astra",
+"#gpt6"
+],
+"keywords": [
+"컨텍스트",
+"확인하는",
+"당연한",
+"그게",
+"목록을",
+"대신",
+"설정",
+"따로",
+"클로드",
+"GPT",
+"아스트라는",
+"내가"
+],
+"series": "",
+"chars": 836,
+"lines": 10,
+"emoji_per_100": 0.36,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-09T02:50:50+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DdDOpZOHzKP/",
+"like_count": 1419,
+"comments_count": 3433,
+"slides": 10,
+"skeleton": {
+"first_line": "👩‍💻밤에 자려다가 게임 두 개 만들고 잤어요.",
+"last_question": "",
+"structure": "이모지소제목>문장×7>해시태그>이모지소제목",
+"numbers": [
+"5",
+"8",
+"-6",
+"3일",
+"6"
+],
+"hashtags": [
+"#HiggsfieldPartner",
+"#힉스필드",
+"#GPT6Astra",
+"#AI게임",
+"#ChatGPT"
+],
+"keywords": [
+"하나",
+"게임",
+"사람들이",
+"만든",
+"문단",
+"제가",
+"ai",
+"밤에",
+"자려다가",
+"만들고",
+"잤어요",
+"라떼"
+],
+"series": "",
+"chars": 513,
+"lines": 10,
+"emoji_per_100": 0.78,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-06T07:02:28+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dc79DyADzGi/",
+"like_count": 86,
+"comments_count": 315,
+"slides": 7,
+"skeleton": {
+"first_line": "🩵팔로워 전용 이벤트🩵",
+"last_question": "",
+"structure": "이모지소제목>문장×8>해시태그>이모지소제목",
+"numbers": [
+"5"
+],
+"hashtags": [
+"#immersivetranslate",
+"#번역확장",
+"#AI번역",
+"#크롬확장",
+"#광고"
+],
+"keywords": [
+"그냥",
+"원문이",
+"나서",
+"같이",
+"쓰는",
+"팔로워",
+"전용",
+"이벤트",
+"저는",
+"번역본을",
+"믿는",
+"편이에요"
+],
+"series": "",
+"chars": 514,
+"lines": 11,
+"emoji_per_100": 0.78,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-09-04T01:56:58+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dc2QghPH-5T/",
+"like_count": 1429,
+"comments_count": 6641,
+"slides": 7,
+"skeleton": {
+"first_line": "🌏사진 한 장 넣었는데 지구 밖에서 내려왔습니다.",
+"last_question": "",
+"structure": "이모지소제목>문장×5>해시태그>이모지소제목",
+"numbers": [
+"62개",
+"1",
+"62개"
+],
+"hashtags": [
+"#HiggsfieldPartner",
+"#GPT",
+"#ChatGPT",
+"#OpenAI"
+],
+"keywords": [
+"사진",
+"코드",
+"영상이",
+"전체",
+"찍은",
+"ai",
+"넣었는데",
+"지구",
+"밖에서",
+"내려왔습니다",
+"ChatGPT에",
+"플러그인"
+],
+"series": "",
+"chars": 343,
+"lines": 8,
+"emoji_per_100": 0.87,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-09-02T03:49:05+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcxTv5bEZTT/",
+"like_count": 92,
+"comments_count": 118,
+"slides": 6,
+"skeleton": {
+"first_line": "🔀 \"루프는 끝났다\"는 말, 절반만 맞습니다",
+"last_question": "여러분 요즘 피드에 그래프 엔지니어링 얘기 자주 보이시죠? 저도 궁금해서 직접 한번 돌려봤어요.",
+"structure": "이모지소제목>문장×7>해시태그>이모지소제목",
+"numbers": [
+"5",
+"45",
+"3",
+"40",
+"6"
+],
+"hashtags": [
+"#클로드코드",
+"#claudecode",
+"#AI에이전트",
+"#서브에이전트",
+"#AI활용"
+],
+"keywords": [
+"그래프",
+"일곱",
+"루프는",
+"절반만",
+"맞습니다",
+"엔지니어링",
+"하나는",
+"에이전트",
+"하나",
+"여러",
+"일은",
+"됩니다"
+],
+"series": "",
+"chars": 843,
+"lines": 10,
+"emoji_per_100": 0.36,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-30T02:34:25+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dcpc0cEn6vd/",
+"like_count": 187,
+"comments_count": 270,
+"slides": 6,
+"skeleton": {
+"first_line": "💸 AI 구독료, 아직 다 내고 계세요?",
+"last_question": "💸 AI 구독료, 아직 다 내고 계세요?",
+"structure": "질문>문장>항목×3>문장×2>해시태그>이모지소제목",
+"numbers": [
+"1년",
+"12개",
+"90%",
+"10만",
+"10월",
+"50만",
+"5"
+],
+"hashtags": [
+"#AI구독료지원",
+"#청년정책",
+"#제미나이",
+"#챗GPT"
+],
+"keywords": [
+"신청",
+"AI",
+"구독료",
+"아직",
+"내고",
+"계세요",
+"지자체에서",
+"돌려주고",
+"있습니다",
+"구글은",
+"아예",
+"년을"
+],
+"series": "",
+"chars": 279,
+"lines": 9,
+"emoji_per_100": 2.15,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-28T05:37:20+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dckn3_CxBsS/",
+"like_count": 82,
+"comments_count": 149,
+"slides": null,
+"skeleton": {
+"first_line": "🔒 잠금 없이 내 맥에 그대로 쌓입니다",
+"last_question": "여러분 맥에서 ChatGPT 쓰시는 분들, 이번에 Computer History라는 기능 나온 거 보셨어요?",
+"structure": "이모지소제목>질문>문장×6>해시태그>이모지소제목",
+"numbers": [
+"12",
+"48",
+"12"
+],
+"hashtags": [
+"#챗gpt",
+"#chatgpt",
+"#openai",
+"#ai툴",
+"#맥북"
+],
+"keywords": [
+"직접",
+"다른",
+"기능",
+"시간",
+"있는데",
+"근데",
+"아니라",
+"파일이",
+"파일은",
+"메모리",
+"읽을",
+"수도"
+],
+"series": "",
+"chars": 863,
+"lines": 10,
+"emoji_per_100": 0.35,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-26T08:28:47+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcfyMVlkeRR/",
+"like_count": 113,
+"comments_count": 654,
+"slides": 7,
+"skeleton": {
+"first_line": "클로드 코드랑 클로드 디자인, 따로 쓰고 계셨다면 절반만 쓰신 거예요.",
+"last_question": "",
+"structure": "문장×8>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#클로드코드",
+"#클로드디자인",
+"#claudecode",
+"#디자인"
+],
+"keywords": [
+"클로드",
+"따로",
+"코드",
+"디자인",
+"원래",
+"시안",
+"다시",
+"매번",
+"되는",
+"코드랑",
+"쓰고",
+"계셨다면"
+],
+"series": "",
+"chars": 529,
+"lines": 10,
+"emoji_per_100": 0.19,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-23T04:01:04+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcXkgIsR0PO/",
+"like_count": 77,
+"comments_count": 319,
+"slides": null,
+"skeleton": {
+"first_line": "빨라지긴 했는데 결과 보고 충격..!",
+"last_question": "",
+"structure": "문장×16>이모지소제목>문장×2>해시태그>이모지소제목",
+"numbers": [
+"5",
+"45",
+"3",
+"40",
+"2024년"
+],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#claudecode",
+"#에이전트",
+"#AI"
+],
+"keywords": [
+"일곱",
+"했는데",
+"번은",
+"하나씩",
+"거예요",
+"아니라",
+"이미",
+"그래프",
+"빨라지긴",
+"결과",
+"보고",
+"충격"
+],
+"series": "",
+"chars": 542,
+"lines": 21,
+"emoji_per_100": 0.37,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-21T04:53:11+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DcShi8BkSSN/",
+"like_count": 124,
+"comments_count": 438,
+"slides": 8,
+"skeleton": {
+"first_line": "광고를 만들어야 하는데 카메라도 스튜디오도 없습니다.",
+"last_question": "",
+"structure": "문장×8>해시태그>이모지소제목",
+"numbers": [
+"15",
+"3일"
+],
+"hashtags": [
+"#힉스필드",
+"#챗지피티",
+"#higgsfieldcreator",
+"#광고"
+],
+"keywords": [
+"만들어야",
+"하는데",
+"ChatGPT에",
+"상세페이지",
+"나왔고",
+"사람이",
+"쓰고",
+"광고",
+"브랜드",
+"나왔어요",
+"다른",
+"영상"
+],
+"series": "",
+"chars": 679,
+"lines": 10,
+"emoji_per_100": 0.29,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-16T06:32:00+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DcFzyPNRNNe/",
+"like_count": 81,
+"comments_count": 27,
+"slides": null,
+"skeleton": {
+"first_line": "🩵 팔로워 전용 이벤트 🩵",
+"last_question": "",
+"structure": "이모지소제목>문장×11>해시태그>이모지소제목",
+"numbers": [
+"200",
+"9249858863",
+"200"
+],
+"hashtags": [
+"#마오노",
+"#maono",
+"#PD200W",
+"#마이크추천",
+"#광고"
+],
+"keywords": [
+"팔로워",
+"전용",
+"이벤트",
+"말로",
+"원래",
+"AI",
+"근데",
+"마오노",
+"프롬프트",
+"타이핑하다가",
+"하려던",
+"잊어버릴"
+],
+"series": "",
+"chars": 785,
+"lines": 14,
+"emoji_per_100": 1.15,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-13T08:45:34+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Db-UinpRhEr/",
+"like_count": 398,
+"comments_count": 1878,
+"slides": null,
+"skeleton": {
+"first_line": "솔직히 이번 건 저도 좀 당황했습니다",
+"last_question": "",
+"structure": "문장×10>해시태그>이모지소제목",
+"numbers": [
+"48",
+"30",
+"18",
+"30",
+"18",
+"6개",
+"80%",
+"6개",
+"3",
+"6"
+],
+"hashtags": [
+"#클로드",
+"#claude",
+"#claudecode",
+"#anthropic",
+"#클로드코드"
+],
+"keywords": [
+"지침",
+"아니라",
+"지난번에",
+"중에",
+"줄을",
+"줄씩",
+"근데",
+"파일",
+"지우는",
+"지우고",
+"거죠",
+"정리랑"
+],
+"series": "",
+"chars": 856,
+"lines": 12,
+"emoji_per_100": 0.23,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-11T06:13:59+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Db44Fzvxs6N/",
+"like_count": 66,
+"comments_count": 135,
+"slides": null,
+"skeleton": {
+"first_line": "팔로워 3,500명일 때 실리콘밸리에서 연락이 왔어요.",
+"last_question": "",
+"structure": "문장×7>해시태그>이모지소제목",
+"numbers": [
+"3,500명",
+"8월",
+"20일",
+"101"
+],
+"hashtags": [
+"#ai수익화",
+"#클래스101"
+],
+"keywords": [
+"근데",
+"있더라고요",
+"인터넷",
+"되는",
+"구간에서는",
+"클로드",
+"계정이",
+"정하는",
+"팔로워",
+"명일",
+"실리콘밸리에서",
+"연락이"
+],
+"series": "",
+"chars": 618,
+"lines": 9,
+"emoji_per_100": 0.32,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-10T06:25:11+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Db2WCcVx9FA/",
+"like_count": 62,
+"comments_count": 15,
+"slides": null,
+"skeleton": {
+"first_line": "일론 머스크가 인터뷰에서 이런 질문을 받더라고요.",
+"last_question": "10년 뒤에도 인간이 세상을 주도하고 있을까요?",
+"structure": "문장>질문>문장×19>해시태그>이모지소제목",
+"numbers": [
+"10년",
+"2.5",
+"35일",
+"25%"
+],
+"hashtags": [
+"#MadeWithNewtake",
+"#AIVideo",
+"#AIFilmmaking",
+"#newtake",
+"#광고"
+],
+"keywords": [
+"세상을",
+"거래요",
+"장면이",
+"소설",
+"최대",
+"일론",
+"머스크가",
+"인터뷰에서",
+"이런",
+"질문을",
+"받더라고요",
+"뒤에도"
+],
+"series": "",
+"chars": 669,
+"lines": 23,
+"emoji_per_100": 0.3,
+"ends_with_question": false,
+"giveaway": true,
+"ad": true
+}
+},
+{
+"timestamp": "2026-08-08T03:50:28+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/Dbw6lzTxHL8/",
+"like_count": 151,
+"comments_count": 750,
+"slides": null,
+"skeleton": {
+"first_line": "💻 오퍼스 시스템 프롬프트, 열어보신 적 있으세요?",
+"last_question": "여러분 클로드에 에이전트 만들어두신 적 있으세요? 작업 종류별로 하나씩 세팅해두고, 이제 알아서 굴러가겠지 ",
+"structure": "질문>문장×7>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#클로드",
+"#claude",
+"#claudecode",
+"#클로드코드",
+"#서브에이전트"
+],
+"keywords": [
+"시스템",
+"있으세요",
+"여러분",
+"에이전트",
+"실제로",
+"다시",
+"지침에",
+"같은",
+"어떤",
+"세션은",
+"오퍼스",
+"프롬프트"
+],
+"series": "",
+"chars": 666,
+"lines": 10,
+"emoji_per_100": 0.45,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-06T04:48:27+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Dbr5FE3kYk8/",
+"like_count": 99,
+"comments_count": 205,
+"slides": 8,
+"skeleton": {
+"first_line": "팔로워 3,500명일 때, 실리콘밸리에서 메일이 왔습니다.",
+"last_question": "",
+"structure": "문장×9>해시태그>이모지소제목",
+"numbers": [
+"3,500명",
+"0명",
+"7개",
+"5만",
+"10",
+"8월",
+"20일",
+"8",
+"101"
+],
+"hashtags": [
+"#ai수익화",
+"#클래스101"
+],
+"keywords": [
+"쓰는",
+"순서가",
+"AI를",
+"데도",
+"SNS",
+"팔로워",
+"명일",
+"실리콘밸리에서",
+"메일이",
+"왔습니다",
+"명에서",
+"시작해"
+],
+"series": "",
+"chars": 300,
+"lines": 11,
+"emoji_per_100": 0.33,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-05T02:38:14+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbpFYcrkcjs/",
+"like_count": 1517,
+"comments_count": 2329,
+"slides": 6,
+"skeleton": {
+"first_line": "💻 지시가 길수록 클로드는 덜 합니다",
+"last_question": "여러분 클로드한테 일 시킬 때, 혹시 단계별로 쫙 적어주고 계신가요?",
+"structure": "이모지소제목>질문>문장×8>해시태그>이모지소제목",
+"numbers": [
+"5",
+"80%",
+"7개",
+"6"
+],
+"hashtags": [
+"#클로드",
+"#claude",
+"#claudecode",
+"#클로드코드",
+"#anthropic"
+],
+"keywords": [
+"하고",
+"있다는",
+"클로드",
+"겁니다",
+"나올",
+"되는",
+"지시가",
+"길수록",
+"클로드는",
+"합니다",
+"여러분",
+"클로드한테"
+],
+"series": "",
+"chars": 781,
+"lines": 12,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-08-03T07:09:02+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DbkZq8yR45j/",
+"like_count": 247,
+"comments_count": 1143,
+"slides": null,
+"skeleton": {
+"first_line": "클로드 지침 열어놓고 커서만 깜빡인 사람 ✋",
+"last_question": "",
+"structure": "문장×7>이모지소제목>문장×2>해시태그>이모지소제목",
+"numbers": [
+"100",
+"80%",
+"48",
+"30",
+"18",
+"3천",
+"30"
+],
+"hashtags": [
+"#클로드",
+"#claude",
+"#claudecode",
+"#클로드코드",
+"#anthropic"
+],
+"keywords": [
+"같은",
+"클로드",
+"뭐를",
+"줄이",
+"지침",
+"제가",
+"열어보면",
+"하고요",
+"지우고",
+"열어놓고",
+"커서만",
+"깜빡인"
+],
+"series": "",
+"chars": 868,
+"lines": 12,
+"emoji_per_100": 0.35,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-30T04:41:19+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbZ2swCkXYe/",
+"like_count": 253,
+"comments_count": 1816,
+"slides": 8,
+"skeleton": {
+"first_line": "프롬프트를 잘 쓰는 사람보다",
+"last_question": "",
+"structure": "문장×15>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#loopengineering",
+"#claude",
+"#claudecode"
+],
+"keywords": [
+"AI에게",
+"일하게",
+"만드는",
+"많은",
+"구조를",
+"AI",
+"실무",
+"프롬프트를",
+"쓰는",
+"사람보다",
+"이제는",
+"AI가"
+],
+"series": "",
+"chars": 394,
+"lines": 17,
+"emoji_per_100": 0.25,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-27T06:11:35+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DbSRyyBR1kW/",
+"like_count": 261,
+"comments_count": 1010,
+"slides": null,
+"skeleton": {
+"first_line": "💡 요즘 제 일 중에 제가 안 하는 게 하나씩 늘어요",
+"last_question": "",
+"structure": "이모지소제목>문장×5>이모지소제목>문장×2>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#클로드",
+"#claude",
+"#claudecode",
+"#claudecowork",
+"#클로드코워크"
+],
+"keywords": [
+"제가",
+"기능이",
+"어떤",
+"일을",
+"하던",
+"하면서",
+"말로",
+"자동화가",
+"저장해두세요",
+"뭔지",
+"요즘",
+"중에"
+],
+"series": "",
+"chars": 788,
+"lines": 11,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-25T08:48:09+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DbNabRYxFp4/",
+"like_count": 40,
+"comments_count": 9,
+"slides": null,
+"skeleton": {
+"first_line": "젠스파크@서울 현장 후기",
+"last_question": "그럼 젠스파크는 어떤데? 싶었는데 숫자가 나왔다.",
+"structure": "문장×15>해시태그>이모지소제목",
+"numbers": [
+"6.0",
+"70명",
+"50명",
+"2",
+"200만",
+"50명",
+"70명",
+"6.0",
+"10배"
+],
+"hashtags": [
+"#workwithgenspark",
+"#젠스파크",
+"#젠스파크AI",
+"#secondbrain"
+],
+"keywords": [
+"AI가",
+"AI",
+"젠스파크가",
+"구조를",
+"그대로",
+"쓰고",
+"보고",
+"명이",
+"나왔다",
+"전부",
+"쓰는",
+"아니라"
+],
+"series": "",
+"chars": 1040,
+"lines": 17,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-24T07:13:55+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DbKrG3DxZaC/",
+"like_count": 53,
+"comments_count": 152,
+"slides": null,
+"skeleton": {
+"first_line": "클로드가 무서운 건",
+"last_question": "",
+"structure": "문장×16>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#claudecode",
+"#claude",
+"#anthropic"
+],
+"keywords": [
+"만드는",
+"이걸",
+"클로드가",
+"무서운",
+"그냥",
+"똑똑해서가",
+"아닙니다",
+"AI",
+"툴은",
+"이미",
+"많아요",
+"근데"
+],
+"series": "",
+"chars": 353,
+"lines": 18,
+"emoji_per_100": 0.28,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-21T05:05:48+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DbCuWMtERe_/",
+"like_count": 205,
+"comments_count": 949,
+"slides": 8,
+"skeleton": {
+"first_line": "Claude Code, 어디까지 써봤어요?",
+"last_question": "Claude Code, 어디까지 써봤어요?",
+"structure": "질문>문장×12>해시태그>이모지소제목",
+"numbers": [
+"7"
+],
+"hashtags": [
+"#클로드",
+"#클로드코드",
+"#claude",
+"#claudecode",
+"#anthropic"
+],
+"keywords": [
+"Claude",
+"Code",
+"단계",
+"업무",
+"구조를",
+"만드는",
+"아니라",
+"어디까지",
+"써봤어요",
+"대부분은",
+"여기서",
+"멈춥니다"
+],
+"series": "",
+"chars": 544,
+"lines": 15,
+"emoji_per_100": 0.18,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-16T09:22:59+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/Da2Tze3kVWX/",
+"like_count": 412,
+"comments_count": 2945,
+"slides": 6,
+"skeleton": {
+"first_line": "앤트로픽이 공식 블로그에서 정리했어요.",
+"last_question": "",
+"structure": "문장×9>해시태그>이모지소제목",
+"numbers": [
+"7",
+"7"
+],
+"hashtags": [
+"#클로드코드",
+"#ClaudeCode",
+"#앤트로픽",
+"#AI자동화",
+"#프롬프트엔지니어링"
+],
+"keywords": [
+"Claude",
+"지시를",
+"CLAUDE",
+"앤트로픽이",
+"공식",
+"블로그에서",
+"정리했어요",
+"Code는",
+"어디에",
+"넣느냐",
+"따라",
+"반응이"
+],
+"series": "",
+"chars": 454,
+"lines": 11,
+"emoji_per_100": 0.44,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-13T00:16:55+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DatiK5_BKug/",
+"like_count": 100,
+"comments_count": 781,
+"slides": null,
+"skeleton": {
+"first_line": "Claude Code 비용 많이 나오는 사람들,",
+"last_question": "혹시 파일을 너무 정직하게 넣고 있지 않나요?",
+"structure": "문장>질문>문장×14>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#클로드",
+"#토큰",
+"#claude",
+"#claudecode",
+"#token"
+],
+"keywords": [
+"전체",
+"아니라",
+"토큰",
+"Claude",
+"Code",
+"비용",
+"나오는",
+"사람들",
+"혹시",
+"파일을",
+"정직하게",
+"넣고"
+],
+"series": "",
+"chars": 316,
+"lines": 18,
+"emoji_per_100": 0.32,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-10T03:16:26+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DamNFjSEVyY/",
+"like_count": 144,
+"comments_count": 495,
+"slides": 5,
+"skeleton": {
+"first_line": "ChatGPT가 이제 진짜 “일하는 앱” 쪽으로 가고 있습니다.",
+"last_question": "“AI가 어떤 순서로 일하게 만들지?”가 더 중요해질 겁니다.",
+"structure": "문장×14>해시태그>이모지소제목",
+"numbers": [],
+"hashtags": [
+"#openai",
+"#chatgpt",
+"#codex",
+"#chatgptwork"
+],
+"keywords": [
+"ChatGPT",
+"만들고",
+"실무",
+"ChatGPT가",
+"일하는",
+"쪽으로",
+"가고",
+"있습니다",
+"이번에",
+"OpenAI가",
+"공개한",
+"Work"
+],
+"series": "",
+"chars": 458,
+"lines": 16,
+"emoji_per_100": 0.22,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-09T08:29:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DakMKuokRqO/",
+"like_count": 666,
+"comments_count": 6373,
+"slides": 5,
+"skeleton": {
+"first_line": "Claude 답변이 자꾸 아쉬웠던 이유, Anthropic 내부 지시서에 다 있더라구요.",
+"last_question": "",
+"structure": "문장×9>해시태그>이모지소제목",
+"numbers": [
+"5",
+"38,000",
+"12",
+"5",
+"7",
+"12",
+"38,000",
+"12",
+"5"
+],
+"hashtags": [
+"#ClaudeFable5",
+"#Claude",
+"#프롬프트엔지니어링",
+"#앤트로픽",
+"#Anthropic"
+],
+"keywords": [
+"Fable",
+"가드레일",
+"저장",
+"어떤",
+"Claude",
+"답변이",
+"자꾸",
+"아쉬웠던",
+"이유",
+"Anthropic",
+"내부",
+"지시서에"
+],
+"series": "",
+"chars": 455,
+"lines": 11,
+"emoji_per_100": 0.44,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-06T04:45:02+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DacDh0sRWvf/",
+"like_count": 34,
+"comments_count": 90,
+"slides": null,
+"skeleton": {
+"first_line": "#광고 AI 디자인 툴을 써보면",
+"last_question": "",
+"structure": "해시태그>문장×12>해시태그",
+"numbers": [],
+"hashtags": [
+"#광고",
+"#genspark",
+"#WorkwithGenspark",
+"#젠스파크",
+"#젠스파크ai"
+],
+"keywords": [
+"디자인",
+"AI",
+"과정",
+"툴을",
+"써보면",
+"결과물보다",
+"중요한",
+"순간이",
+"있어요",
+"이걸",
+"실제로",
+"있게"
+],
+"series": "",
+"chars": 340,
+"lines": 14,
+"emoji_per_100": 0.0,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-05T07:39:07+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaZyzWaRjnV/",
+"like_count": 47,
+"comments_count": 10,
+"slides": null,
+"skeleton": {
+"first_line": "CES 혁신상을 받은 한국 AI가 이제 이미지 생성을 넘어 제품 제조 과정까지 들어가고 있습니다.",
+"last_question": "",
+"structure": "문장×5>해시태그>문장>이모지소제목",
+"numbers": [
+"2",
+"3",
+"2026"
+],
+"hashtags": [
+"#광고",
+"#리빌더AI",
+"#RebuilderAI",
+"#VRINGON",
+"#DesignToManufacturing"
+],
+"keywords": [
+"제품",
+"AI가",
+"제조",
+"있습니다",
+"이미지를",
+"만드는",
+"sebia",
+"CES",
+"혁신상을",
+"받은",
+"한국",
+"이미지"
+],
+"series": "",
+"chars": 486,
+"lines": 8,
+"emoji_per_100": 0.41,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-07-03T02:36:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaUHAAxn1_i/",
+"like_count": 58,
+"comments_count": 245,
+"slides": 5,
+"skeleton": {
+"first_line": "OpenAI가 직접 알려준 코덱스 활용법.",
+"last_question": "",
+"structure": "문장×5>이모지소제목>해시태그",
+"numbers": [
+"10"
+],
+"hashtags": [
+"#코덱스",
+"#codex",
+"#openai"
+],
+"keywords": [
+"스레드",
+"OpenAI가",
+"직접",
+"알려준",
+"코덱스",
+"활용법",
+"핵심은",
+"장기",
+"작업",
+"하나에",
+"일이",
+"살고"
+],
+"series": "",
+"chars": 244,
+"lines": 7,
+"emoji_per_100": 0.41,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-07-01T06:32:13+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaPYRGoxQQr/",
+"like_count": 81,
+"comments_count": 606,
+"slides": null,
+"skeleton": {
+"first_line": "클로드 스킬은",
+"last_question": "",
+"structure": "문장×19>이모지소제목",
+"numbers": [],
+"hashtags": [],
+"keywords": [
+"시킬",
+"필요한",
+"작업을",
+"건지",
+"클로드",
+"스킬은",
+"깔수록",
+"좋은",
+"보다",
+"작업에",
+"맞게",
+"고르는"
+],
+"series": "",
+"chars": 355,
+"lines": 20,
+"emoji_per_100": 0.28,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-30T08:35:15+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaNBNJXRdI6/",
+"like_count": 67,
+"comments_count": 384,
+"slides": null,
+"skeleton": {
+"first_line": "인스타 마케팅하는데 데이터 안 보고 감으로 올리는 거 진짜 손해예요.",
+"last_question": "",
+"structure": "문장×4>항목×2>문장×3>결론>해시태그>문장>이모지소제목",
+"numbers": [
+"20개",
+"60%",
+"100만",
+"5달러",
+"5",
+"5"
+],
+"hashtags": [
+"#typeless",
+"#ai음성입력",
+"#인스타마케팅",
+"#apify",
+"#광고"
+],
+"keywords": [
+"인스타",
+"Typeless",
+"셋업",
+"가이드",
+"sebia",
+"ai",
+"계정도",
+"있어요",
+"Apify",
+"무료",
+"영구",
+"마케팅하는데"
+],
+"series": "",
+"chars": 513,
+"lines": 13,
+"emoji_per_100": 0.97,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-06-29T08:48:01+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaKeLTwxwVZ/",
+"like_count": 42,
+"comments_count": 252,
+"slides": null,
+"skeleton": {
+"first_line": "20년 SEO 시대가, AI 등장에 끝났어요.",
+"last_question": "",
+"structure": "문장×8>해시태그>이모지소제목",
+"numbers": [
+"20년",
+"1위",
+"8",
+"5",
+"1"
+],
+"hashtags": [
+"#GEO",
+"#SEO",
+"#프롬프트",
+"#claude",
+"#클로드"
+],
+"keywords": [
+"사이트",
+"구글",
+"AI",
+"GEO",
+"프롬프트",
+"점수",
+"사이트도",
+"SEO",
+"시대가",
+"등장에",
+"끝났어요",
+"만들고"
+],
+"series": "",
+"chars": 373,
+"lines": 10,
+"emoji_per_100": 0.27,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-28T02:32:17+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DaHNWs9B-Mj/",
+"like_count": 47,
+"comments_count": 189,
+"slides": null,
+"skeleton": {
+"first_line": "여러분, AI 영상 아직도 티 난다고 생각하시나요?",
+"last_question": "여러분, AI 영상 아직도 티 난다고 생각하시나요?",
+"structure": "질문>문장×15>해시태그>이모지소제목",
+"numbers": [
+"4"
+],
+"hashtags": [
+"#higgsfield",
+"#HiggsfieldCreator",
+"#Claude",
+"#MCP",
+"#협업"
+],
+"keywords": [
+"영상",
+"AI",
+"ai",
+"아니라",
+"시키는",
+"콘텐츠",
+"쇼츠",
+"흐름에",
+"여러분",
+"아직도",
+"난다고",
+"생각하시나요"
+],
+"series": "",
+"chars": 516,
+"lines": 18,
+"emoji_per_100": 0.19,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-26T10:01:39+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DaC4VJekboQ/",
+"like_count": 48,
+"comments_count": 191,
+"slides": 7,
+"skeleton": {
+"first_line": "카카오톡 안에 AI가 들어오면 뭐가 달라질까요?",
+"last_question": "카카오톡 안에 AI가 들어오면 뭐가 달라질까요?",
+"structure": "질문>문장×9>이모지소제목>해시태그",
+"numbers": [
+"6월"
+],
+"hashtags": [
+"#카나나",
+"#Kanana",
+"#카카오톡",
+"#카카오"
+],
+"keywords": [
+"카나나",
+"카카오톡",
+"안에",
+"AI가",
+"들어오면",
+"뭐가",
+"달라질까요",
+"단순히",
+"AI",
+"챗봇",
+"하나",
+"추가"
+],
+"series": "",
+"chars": 261,
+"lines": 12,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-25T04:56:32+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZ_wGJrRpkE/",
+"like_count": 72,
+"comments_count": 741,
+"slides": null,
+"skeleton": {
+"first_line": "여러분 주식 분석할 때 야후 파이낸스, 블룸버그, 인베스팅닷컴, 시킹알파 매번 왔다갔다 하시죠?",
+"last_question": "여러분 주식 분석할 때 야후 파이낸스, 블룸버그, 인베스팅닷컴, 시킹알파 매번 왔다갔다 하시죠?",
+"structure": "질문>문장×5>해시태그>이모지소제목",
+"numbers": [
+"50",
+"5",
+"60"
+],
+"hashtags": [
+"#주식분석",
+"#투자",
+"#클로드코드",
+"#종목분석",
+"#claudecode"
+],
+"keywords": [
+"주식",
+"종목",
+"데이터",
+"여러분",
+"분석할",
+"야후",
+"파이낸스",
+"블룸버그",
+"인베스팅닷컴",
+"시킹알파",
+"매번",
+"왔다갔다"
+],
+"series": "",
+"chars": 404,
+"lines": 8,
+"emoji_per_100": 0.5,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-24T05:18:48+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZ9OXx2EXI6/",
+"like_count": 407,
+"comments_count": 2705,
+"slides": 8,
+"skeleton": {
+"first_line": "클로드코드를 아직 “한 명의 AI”처럼 쓰고 있다면",
+"last_question": "“독립적인 교차검증이 중요한가?”",
+"structure": "문장×33>이모지소제목",
+"numbers": [
+"20개",
+"10"
+],
+"hashtags": [],
+"keywords": [
+"AI",
+"쓰면",
+"쓰고",
+"Dynamic",
+"여러",
+"동시에",
+"아니라",
+"클로드코드를",
+"아직",
+"명의",
+"처럼",
+"있다면"
+],
+"series": "",
+"chars": 669,
+"lines": 34,
+"emoji_per_100": 0.15,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-21T10:25:44+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZ2CsC7x-P5/",
+"like_count": 53,
+"comments_count": 206,
+"slides": null,
+"skeleton": {
+"first_line": "새벽에 ASMR 영상 무한 스크롤 한 번제 하지 않으셨어요? 저도 잘 자려고 보다가 결국 다 보고 잠 못 자",
+"last_question": "새벽에 ASMR 영상 무한 스크롤 한 번제 하지 않으셨어요? 저도 잘 자려고 보다가 결국 다 보고 잠 못 자",
+"structure": "문장×7>해시태그>이모지소제목",
+"numbers": [
+"5개",
+"1,000만"
+],
+"hashtags": [
+"#higgsfield",
+"#HiggsfieldCreator",
+"#Claude",
+"#ASMR",
+"#광고"
+],
+"keywords": [
+"ASMR",
+"무한",
+"ai",
+"키보드",
+"페이스리스",
+"새벽에",
+"영상",
+"스크롤",
+"번제",
+"하지",
+"않으셨어요",
+"저도"
+],
+"series": "",
+"chars": 488,
+"lines": 9,
+"emoji_per_100": 0.2,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-06-19T03:59:22+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZwMu3qxcWt/",
+"like_count": 162,
+"comments_count": 1469,
+"slides": null,
+"skeleton": {
+"first_line": "내가 말한 것 이상으로 생각해주는 클로드 만드는 스킬, 있는 거 아세요?",
+"last_question": "내가 말한 것 이상으로 생각해주는 클로드 만드는 스킬, 있는 거 아세요?",
+"structure": "질문>문장×5>해시태그>이모지소제목",
+"numbers": [
+"1%",
+"8",
+"6개",
+"5",
+"5"
+],
+"hashtags": [
+"#클로드",
+"#claude",
+"#claudeskill",
+"#클로드코드"
+],
+"keywords": [
+"결정",
+"내가",
+"클로드",
+"스킬",
+"앞두면",
+"클로드가",
+"가지",
+"말한",
+"이상으로",
+"생각해주는",
+"만드는",
+"아세요"
+],
+"series": "",
+"chars": 554,
+"lines": 8,
+"emoji_per_100": 0.36,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-16T06:26:36+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZovZDVxx3O/",
+"like_count": 58,
+"comments_count": 253,
+"slides": null,
+"skeleton": {
+"first_line": "제 채널 인트로 만들려고 외주 견적 받아봤거든요.",
+"last_question": "",
+"structure": "문장×8>해시태그>이모지소제목",
+"numbers": [
+"50만",
+"50만"
+],
+"hashtags": [
+"#광고",
+"#higgsfield",
+"#HiggsfieldCreator",
+"#Claude",
+"#AI도구"
+],
+"keywords": [
+"ai",
+"제가",
+"채널",
+"인트로",
+"만들려고",
+"외주",
+"견적",
+"받아봤거든요",
+"건당",
+"최소",
+"만원이래요",
+"솔직히"
+],
+"series": "",
+"chars": 298,
+"lines": 10,
+"emoji_per_100": 0.34,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-06-15T06:10:18+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZmIQMvxZQx/",
+"like_count": 18,
+"comments_count": 38,
+"slides": null,
+"skeleton": {
+"first_line": "요즘 진짜 자주 드는 생각.",
+"last_question": "",
+"structure": "문장×24>해시태그>이모지소제목",
+"numbers": [
+"1",
+"200"
+],
+"hashtags": [
+"#EnterPro",
+"#바이브코딩",
+"#convergeai",
+"#파트너"
+],
+"keywords": [
+"필요한",
+"그냥",
+"직접",
+"메일",
+"시그니처에",
+"Enter",
+"디지털",
+"명함",
+"요즘",
+"자주",
+"드는",
+"생각"
+],
+"series": "",
+"chars": 603,
+"lines": 26,
+"emoji_per_100": 0.17,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-14T09:32:55+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZj7gR9kf1X/",
+"like_count": 195,
+"comments_count": 850,
+"slides": 10,
+"skeleton": {
+"first_line": "앤트로픽 엔지니어가 직접 알려주는 AI 에이전트 만드는 법.",
+"last_question": "",
+"structure": "문장×7>해시태그>이모지소제목",
+"numbers": [
+"50",
+"4",
+"3개",
+"10",
+"20",
+"3"
+],
+"hashtags": [
+"#Claude",
+"#클로드",
+"#앤트로픽",
+"#claudecode",
+"#클로드코드"
+],
+"keywords": [
+"프롬프트",
+"AI",
+"에이전트",
+"에이전트는",
+"도구",
+"앤트로픽",
+"엔지니어가",
+"직접",
+"알려주는",
+"만드는",
+"제가",
+"분짜리"
+],
+"series": "",
+"chars": 530,
+"lines": 9,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-11T07:11:41+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZb8SLDRi7S/",
+"like_count": 45,
+"comments_count": 156,
+"slides": null,
+"skeleton": {
+"first_line": "여러분, 옛날에 글로벌 매크로 파생상품 트레이더였을 때, 매일 새벽까지 시황 분석이 일상이었거든요.",
+"last_question": "",
+"structure": "문장×11>해시태그>이모지소제목",
+"numbers": [
+"3",
+"2",
+"-3",
+"15",
+"1,000명",
+"1,000"
+],
+"hashtags": [
+"#광고",
+"#ManusAI",
+"#마누스AI",
+"#와이드리서치",
+"#AI에이전트"
+],
+"keywords": [
+"시황",
+"보고서",
+"AI",
+"자료",
+"노가다",
+"글로벌",
+"매크로",
+"매일",
+"미국",
+"새벽",
+"근데",
+"리서치"
+],
+"series": "",
+"chars": 790,
+"lines": 13,
+"emoji_per_100": 0.13,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-06-10T05:27:36+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZZMP9bkdvu/",
+"like_count": 157,
+"comments_count": 355,
+"slides": 8,
+"skeleton": {
+"first_line": "✨ 어제 클로드가 새 모델 2개를 동시에 공개했어요.",
+"last_question": "",
+"structure": "이모지소제목>문장×8>이모지소제목>문장×4>해시태그>이모지소제목",
+"numbers": [
+"2개",
+"5",
+"5",
+"5",
+"5",
+"5",
+"3",
+"5",
+"5"
+],
+"hashtags": [
+"#Claude",
+"#클로드",
+"#Fable5",
+"#Mythos5",
+"#Anthropic"
+],
+"keywords": [
+"Fable",
+"쓰는",
+"모델",
+"페이지",
+"같은",
+"Mythos",
+"이전",
+"어제",
+"클로드가",
+"개를",
+"동시에",
+"공개했어요"
+],
+"series": "",
+"chars": 606,
+"lines": 16,
+"emoji_per_100": 0.66,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-09T09:28:49+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZXAkbvxh-O/",
+"like_count": 28,
+"comments_count": 81,
+"slides": null,
+"skeleton": {
+"first_line": "🎬 AI영상 캐릭터 일관성 잡는 비결",
+"last_question": "",
+"structure": "이모지소제목>문장×3>번호×3>문장×4>해시태그>이모지소제목",
+"numbers": [
+"2.0",
+"1",
+"2",
+"3",
+"2.0",
+"10개",
+"1",
+"2.0"
+],
+"hashtags": [
+"#광고",
+"#Pippit",
+"#PippitSeedance",
+"#PippitPartner",
+"#DreaminaSeedance"
+],
+"keywords": [
+"캐릭터",
+"Seedance",
+"AI영상",
+"일관성",
+"잡는",
+"비결",
+"얼굴이",
+"씬마다",
+"바뀌는",
+"AI",
+"영상의",
+"가장"
+],
+"series": "",
+"chars": 477,
+"lines": 13,
+"emoji_per_100": 0.63,
+"ends_with_question": false,
+"giveaway": false,
+"ad": true
+}
+},
+{
+"timestamp": "2026-06-08T06:23:12+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZUIp8hx3UM/",
+"like_count": 369,
+"comments_count": 2505,
+"slides": null,
+"skeleton": {
+"first_line": "여러분 빛삭됐다가 다시 등장한 신상 클로드 명령어 보셨어요?",
+"last_question": "여러분 빛삭됐다가 다시 등장한 신상 클로드 명령어 보셨어요?",
+"structure": "질문>문장×6>해시태그>이모지소제목",
+"numbers": [
+"16명",
+"12개",
+"1"
+],
+"hashtags": [
+"#클로드코드",
+"#AI자동화",
+"#업무자동화",
+"#AI도구",
+"#AI팁"
+],
+"keywords": [
+"어떻게",
+"클로드",
+"워크플로우",
+"deep",
+"research",
+"출처",
+"Workflows",
+"여러분",
+"빛삭됐다가",
+"다시",
+"등장한",
+"신상"
+],
+"series": "",
+"chars": 528,
+"lines": 9,
+"emoji_per_100": 0.38,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-06T07:00:33+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZPCQ-7Ruzn/",
+"like_count": 31,
+"comments_count": 117,
+"slides": null,
+"skeleton": {
+"first_line": "자격증·대학원 준비하는 직장인분들, 이거 한번 보세요.",
+"last_question": "셋째, 퀴즈가 챗GPT랑 달라요. 챗GPT는 다른 데서 정보 가져와서 가끔 헛소리하잖아요? 테라박스는 내가 ",
+"structure": "문장×11>해시태그>이모지소제목",
+"numbers": [
+"3",
+"4",
+"1",
+"167",
+"5",
+"20",
+"4",
+"1"
+],
+"hashtags": [
+"#TeraBox",
+"#TeraBoxAIStudy",
+"#teraboxai",
+"#ai툴",
+"#studyhacks"
+],
+"keywords": [
+"자격증",
+"AI",
+"카드",
+"대학원",
+"한번",
+"친구가",
+"자료",
+"AI가",
+"시험",
+"준비하는",
+"직장인분들",
+"이거"
+],
+"series": "",
+"chars": 671,
+"lines": 13,
+"emoji_per_100": 0.15,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-04T09:18:32+0000",
+"media_type": "VIDEO",
+"media_product_type": "REELS",
+"permalink": "https://www.instagram.com/reel/DZKJhXUxTJ8/",
+"like_count": 39,
+"comments_count": 122,
+"slides": null,
+"skeleton": {
+"first_line": "건강검진 결과지 받고 수치 뜻 몰라서 챗지피티한테 물어보신 적 있으세요?",
+"last_question": "건강검진 결과지 받고 수치 뜻 몰라서 챗지피티한테 물어보신 적 있으세요?",
+"structure": "질문>문장×2>항목×2>이모지소제목×2>문장>이모지소제목×2>문장>이모지소제목>문장×2>해시태그>이모지소제목",
+"numbers": [
+"4개",
+"4",
+"4원",
+"3"
+],
+"hashtags": [
+"#gemini",
+"#퍼플렉시티",
+"#챗gpt",
+"#perplexity",
+"#claude"
+],
+"keywords": [
+"의학",
+"건강검진",
+"수치",
+"질문",
+"AI",
+"PMC",
+"Perplexity",
+"원문",
+"링크",
+"결과지",
+"받고",
+"몰라서"
+],
+"series": "",
+"chars": 553,
+"lines": 16,
+"emoji_per_100": 1.63,
+"ends_with_question": false,
+"giveaway": false,
+"ad": false
+}
+},
+{
+"timestamp": "2026-06-03T09:34:05+0000",
+"media_type": "CAROUSEL_ALBUM",
+"media_product_type": "FEED",
+"permalink": "https://www.instagram.com/p/DZHm5J7kZ9_/",
+"like_count": 48,
+"comments_count": 92,
+"slides": 7,
+"skeleton": {
+"first_line": "카카오톡이 이제 영상까지 만들어준다는 거 아세요?",
+"last_question": "근데 이걸 본 다음에 든 생각. ”어떤 컨셉이 카톡으로 가장 잘 퍼질까?“",
+"structure": "질문>문장×8>이모지소제목>항목×3>문장>해시태그>이모지소제목",
+"numbers": [
+"429",
+"20",
+"1995",
+"95년",
+"3",
+"48명",
+"20",
+"5"
+],
+"hashtags": [
+"#카나나",
+"#카나나키네마",
+"#카카오",
+"#ai영상",
+"#프롬프트"
+],
+"keywords": [
+"부모님",
+"데뷔",
+"프롬프트",
+"카카오",
+"카나나",
+"카카오톡",
+"만들기",
+"만든",
+"레트로",
+"ai",
+"카카오톡이",
+"영상까지"
+],
+"series": "",
+"chars": 581,
+"lines": 16,
+"emoji_per_100": 1.03,
 "ends_with_question": false,
 "giveaway": false,
 "ad": false
