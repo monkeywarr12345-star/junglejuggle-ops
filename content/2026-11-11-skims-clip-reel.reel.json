@@ -1,0 +1,76 @@
+{
+ "id": "2026-11-11-skims-clip-reel",
+ "music": {
+  "auto": "upbeat"
+ },
+ "codes": {
+  "topic_major": "소비·브랜드",
+  "angle": "가격 대비 가치",
+  "hook_cover": "금액 충격",
+  "hook_first": "공감",
+  "structure": "클립 통째",
+  "devices": [
+   "외부 클립",
+   "원작자 표기"
+  ]
+ },
+ "scenes": [
+  {
+   "t": "clip",
+   "clip": "clips/inbox/c1.mp4",
+   "title": "20만 원 캘린더 열었더니\n머리끈이 나옴",
+   "kw": "20만 원",
+   "credit": "@wetsloppyswollen · TikTok",
+   "grade": "C",
+   "layout": "ekke",
+   "start": 0,
+   "sec": 23,
+   "subs": [
+    [
+     19.5,
+     23,
+     "이번 칸에서 나온 건… 곱창밴드"
+    ]
+   ],
+   "focus_y": 0.2
+  },
+  {
+   "t": "clip",
+   "clip": "clips/inbox/c1.mp4",
+   "title": "20만 원 캘린더 열었더니\n머리끈이 나옴",
+   "kw": "20만 원",
+   "credit": "@wetsloppyswollen · TikTok",
+   "grade": "C",
+   "layout": "ekke",
+   "start": 23,
+   "sec": 17,
+   "subs": [
+    [
+     3,
+     16.5,
+     "이번 칸은 브라 끈 소재 머리띠"
+    ]
+   ],
+   "focus_y": 0.2
+  },
+  {
+   "t": "clip",
+   "clip": "clips/inbox/c1.mp4",
+   "title": "20만 원 캘린더 열었더니\n머리끈이 나옴",
+   "kw": "20만 원",
+   "credit": "@wetsloppyswollen · TikTok",
+   "grade": "C",
+   "layout": "ekke",
+   "start": 40,
+   "sec": 15,
+   "subs": [
+    [
+     5,
+     14.5,
+     "마지막 칸까지 다 열어봄"
+    ]
+   ],
+   "focus_y": 0.2
+  }
+ ]
+}

@@ -21,6 +21,9 @@ Scene types ("t"):
          "credit":"@원작자 · TikTok","grade":"B"|"C","fit":"contain"(default, whole frame)|"cover"(crop to fill),
          "layout":"ekke"(default)|"box", "subs":[[0.0,2.4,"한글 자막"],...] (optional, times from the clip scene start),
          "more":"▼ 자세한 건 캡션에 ▼"}.
+        Portrait clips (TikTok/Reels, h > w) use EKKE_V_BOX: full width, a 1080x940 window cropped from the
+        clip ("focus_y" = where the window starts, fraction of the clip height, default 0.1 — faces and hands
+        usually sit in the upper-middle); "fit":"contain" keeps the whole frame instead (small, pillarboxed).
         layout "ekke" (2026-11-10 user decision: copy how ekke.now grew) = a whole reel that is just the clip:
         black frame, 정글저글 logo, bold 2-line title, credit, the video full-width in the middle (EKKE_BOX),
         optional Korean subtitles under it, and a '▼ 자세한 건 캡션에 ▼' line that sends viewers to the caption,
@@ -53,7 +56,8 @@ W, H, FPS = 1080, 1920, 30
 INK, VIOLET, BLUE, RED = "#0E0E12", "#6C3BFF", "#3D7BFF", "#FF3B30"
 OUT_T = 0.22  # length of the exit cut
 CLIP_BOX = (72, 640, 936, 820)  # x, y, w, h of the video window in a clip scene (above the 430 px bottom safe area)
-EKKE_BOX = (0, 610, 1080, 720)  # full-width video in the ekke layout (16:9 fills it; vertical clips are pillarboxed)
+EKKE_BOX = (0, 610, 1080, 720)  # full-width video in the ekke layout for landscape clips
+EKKE_V_BOX = (0, 470, 1080, 940)  # portrait clips (TikTok/Reels): full width, cropped window ("focus_y" = top of window, 0..1)
 CLIP_MAX_SEC = 60.0  # 2026-11-10: ekke.now used the whole viral clip, so no 5 s / 40 % limit any more
 CLIP_DUCK = 0.18  # library track volume while a clip's original sound plays
 
@@ -169,16 +173,21 @@ def scene_html(sc, idx, n, sec):
         x, y, w, h = clip_box(sc)
         subs = json.dumps(sc.get("subs") or [], ensure_ascii=False)
         bg, note = "", ""
-        main = (f'<div class="etop"><div class="title etitle">{title}</div>'
-                f'<div class="ccredit">🎥 {esc(sc.get("credit", ""))}</div></div>'
+        portrait = is_portrait(sc)
+        # portrait clips get a taller video window, so the 'see caption' line moves up under the credit
+        more = f'<div class="emore{" emore-top" if portrait else ""}">{esc(sc.get("more", "▼ 자세한 건 캡션에 ▼"))}</div>'
+        main = (f'<div class="etop"{" style=\'top:190px;height:272px;gap:6px\'" if portrait else ""}>'
+                f'{"<div class=\'ebrand\'>정글저글</div>" if portrait else ""}<div class="title etitle">{title}</div>'
+                f'<div class="ccredit">🎥 {esc(sc.get("credit", ""))}</div>{more if portrait else ""}</div>'
                 f'<div class="clipbox" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px"></div>'
                 f'<div class="esub" data-a="subs" data-v="{esc(subs)}"></div>'
-                f'<div class="emore">{esc(sc.get("more", "▼ 자세한 건 캡션에 ▼"))}</div>')
+                f'{"" if portrait else more}')
     elif t == "clip":
         x, y, w, h = CLIP_BOX
         main = (f'<div class="ctop">{chip}<div class="title ctitle">{title}</div>'
                 f'<div class="ccredit">🎥 {esc(sc.get("credit", ""))}</div></div>'
                 f'<div class="clipbox" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px"></div>')
+    ekke_portrait = t == "clip" and sc.get("layout", "ekke") == "ekke" and is_portrait(sc)  # brand moves into the title block
     segs = "".join(f'<div class="seg"><div class="fill" data-seg="{k}"></div></div>' for k in range(n))
     return f"""<html><head><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
@@ -215,14 +224,16 @@ body{{width:{W}px;height:{H}px;background:{INK};color:#fff;font-family:'Noto San
 .clipbox{{position:absolute;background:#000;box-shadow:0 0 0 4px rgba(255,255,255,.18)}}
 .etop{{position:absolute;left:60px;right:60px;top:250px;height:340px;display:flex;flex-direction:column;
   justify-content:flex-end;align-items:center;text-align:center;gap:16px}}
-.etitle{{font-size:{78 if len(sc.get("title", "")) <= 22 else 66}px;letter-spacing:-2px;line-height:1.2}}
-.esub{{position:absolute;left:60px;right:60px;top:{EKKE_BOX[1] + EKKE_BOX[3] + 22}px;text-align:center;font-size:44px;font-weight:800;
+.ebrand{{font-size:28px;font-weight:900;opacity:.9;margin-bottom:4px}}
+.etitle{{font-size:{(64 if ekke_portrait else 78) if len(sc.get("title", "")) <= 22 else (60 if ekke_portrait else 66)}px;letter-spacing:-2px;line-height:1.2}}
+.esub{{position:absolute;left:60px;right:60px;top:{(EKKE_V_BOX if t == "clip" and sc.get("layout", "ekke") == "ekke" and is_portrait(sc) else EKKE_BOX)[1] + (EKKE_V_BOX if t == "clip" and sc.get("layout", "ekke") == "ekke" and is_portrait(sc) else EKKE_BOX)[3] + 16}px;text-align:center;font-size:44px;font-weight:800;
   line-height:1.3;color:#FFE14D;text-shadow:0 2px 0 #000,0 0 12px rgba(0,0,0,.8)}}
+.emore.emore-top{{position:static;font-size:28px}}
 .emore{{position:absolute;left:60px;right:60px;top:1418px;text-align:center;font-size:36px;font-weight:900;color:{VIOLET};
   filter:brightness(1.5)}}
 .note{{position:absolute;left:72px;right:72px;bottom:430px;text-align:center;font-size:28px;line-height:1.5;color:rgba(255,255,255,.72)}}
 </style></head><body><div id="stage">{bg}
-<div class="top"><div class="brand">정글저글</div><div class="bar">{segs}</div></div>
+{"" if ekke_portrait else f'<div class="top"><div class="brand">정글저글</div><div class="bar">{segs}</div></div>'}
 {main}{note}</div>
 <script>
 (()=>{{
@@ -299,8 +310,26 @@ def pick_audio(spec, out, total, tmp):
     return ["-i", track]
 
 
+_PORTRAIT = {}
+
+
+def is_portrait(sc):
+    path = str(ROOT / sc.get("clip", ""))
+    if path not in _PORTRAIT:
+        r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                            "-of", "csv=p=0", path], capture_output=True, text=True)
+        try:
+            w, h = (int(x) for x in r.stdout.strip().split(",")[:2])
+        except ValueError:
+            w, h = 16, 9
+        _PORTRAIT[path] = h > w
+    return _PORTRAIT[path]
+
+
 def clip_box(sc):
-    return EKKE_BOX if sc.get("layout", "ekke") == "ekke" else CLIP_BOX
+    if sc.get("layout", "ekke") != "ekke":
+        return CLIP_BOX
+    return EKKE_V_BOX if is_portrait(sc) else EKKE_BOX
 
 
 def check_clips(scenes, total):
@@ -333,8 +362,12 @@ def overlay_clips(silent, clips, tmp):
         sec = float(sc.get("sec", 3.5))
         show = max(0.1, sec - OUT_T)
         args += ["-ss", f"{float(sc.get('start', 0)):.2f}", "-t", f"{show:.2f}", "-i", str(ROOT / sc["clip"])]
-        fit = (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}" if sc.get("fit") == "cover" else
-               f"scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:color=black")
+        fy = float(sc.get("focus_y", 0.1))
+        if sc.get("layout", "ekke") == "ekke" and is_portrait(sc) and sc.get("fit", "cover") == "cover":
+            fit = f"scale={w}:-2,crop={w}:{h}:0:'min(ih-{h},ih*{fy})'"
+        else:
+            fit = (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}" if sc.get("fit") == "cover" else
+                   f"scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:color=black")
         chains.append(f"[{k}:v]fps={FPS},{fit},setsar=1,setpts=PTS-STARTPTS+{t0:.3f}/TB[c{k}]")
         nxt = f"[v{k}]"
         chains.append(f"{last}[c{k}]overlay={x}:{y}:enable='between(t,{t0:.3f},{t0 + show:.3f})':eof_action=pass{nxt}")
