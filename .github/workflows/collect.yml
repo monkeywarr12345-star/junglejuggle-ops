@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install image tools
-        if: inputs.mode != 'insights' && github.event.schedule != '13 14 * * *'
+        if: inputs.mode != 'insights' && inputs.mode != 'study' && github.event.schedule != '13 14 * * *'
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor >/dev/null
           pip install -q opencv-python-headless pillow numpy
