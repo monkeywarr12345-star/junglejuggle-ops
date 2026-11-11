@@ -138,7 +138,12 @@ def study():
         if out.exists() and json.loads(out.read_text(encoding="utf-8")).get("pages", 0) >= pages:
             continue
         try:
-            posts, info = _discover(name, pages, 50)
+            try:
+                posts, info = _discover(name, pages, 50)
+            except RuntimeError as exc:
+                if "reduce the amount" not in str(exc):
+                    raise
+                posts, info = _discover(name, pages * 3, 17, with_children=False)
         except RuntimeError as exc:
             failed[name] = str(exc)[:200]
             print(f"{name}: {exc}", file=sys.stderr)
