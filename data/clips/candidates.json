@@ -29,13 +29,14 @@
   "money_angle": "바이럴 혹평 하나가 기업 환불 정책을 바꿈 — 148달러 전액 환불 또는 150달러 크레딧, 리뷰 경제의 힘",
   "score": 7,
   "grade_possible": "C",
-  "status": "new",
+  "status": "expired",
   "slot": "19:00",
   "length_sec": null,
   "sources": [
    "https://www.inc.com/annabel-burba/skims-advent-calendar-viral-backlash-refunds/91433398",
    "https://www.starnewskorea.com/star/2026/11/10/2026111009571237657"
   ],
-  "note": "1번 후보와 같은 이슈라 둘 중 하나만 사용. 얼굴 노출·배경음 확인 필요."
+  "note": "1번 후보와 같은 이슈라 둘 중 하나만 사용. 얼굴 노출·배경음 확인 필요. / 11.11 19:00 슬롯 지남 → expired(11.12 05시 발굴)",
+  "expired_at": "2026-11-12T05:40:00+09:00"
  }
 ]
