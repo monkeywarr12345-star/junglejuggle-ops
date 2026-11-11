@@ -10,7 +10,7 @@ Compares the new caption with the last RECENT published/queued captions and fail
   - the caption does not have exactly 5 hashtags including #정글저글 (user decision 2026-11-09),
   - a body line other than the fixed footer (출처/정보 제공/@junglejuggle/해시태그) is nearly identical to a recent one,
   - (클립 트랙, 2026-11-10) a reel spec has a "clip" scene but the caption lacks the line
-    '📹 영상: @원작자 (플랫폼 · 원본 링크 · 등급 X)', or a grade-C clip would make this KST month's grade-C reels
+    '📹 영상: @원작자' (ID only — no link or grade, user decision 2026-11-11), or a grade-C clip would make this KST month's grade-C reels
     exceed CLIP_C_MONTHLY (counted from data/clips/ledger.json; Instagram drops accounts that post unoriginal
     reels 10+ times in 30 days from recommendations).
 Extra files (card/reel specs) are checked for reaction words too, so on-screen copy also varies.
@@ -94,15 +94,15 @@ def clip_problems(cap, spec_paths):
             grade = sc.get("grade")
             handle = (re.findall(r"@[\w.]+", sc.get("credit", "")) or [""])[0]
             line = next((l for l in cap.splitlines() if l.strip().startswith("📹") and "영상" in l), "")
+            # 2026-11-11 user decision: the caption carries only the creator's ID ('📹 영상: @원작자');
+            # the original link and grade live in data/clips/ledger.json, never in the caption
             if not line:
-                out.append("클립 장면이 있는데 캡션에 '📹 영상: @원작자 (플랫폼 · 원본 링크 · 등급 X)' 줄이 없음")
+                out.append("클립 장면이 있는데 캡션에 '📹 영상: @원작자' 줄이 없음")
             else:
                 if handle and handle not in line:
                     out.append(f"📹 줄에 화면 표기와 같은 원작자 {handle}가 없음")
-                if f"등급 {grade}" not in line:
-                    out.append(f"📹 줄에 '등급 {grade}' 표기가 없음")
-                if "http" not in line:
-                    out.append("📹 줄에 원본 링크가 없음")
+                if "http" in line or "등급" in line:
+                    out.append("📹 줄에는 원작자 아이디만 — 링크·등급은 쓰지 않음(ledger.json에만 기록)")
             if grade == "C":
                 kst = timezone(timedelta(hours=9))
                 month = datetime.now(kst).strftime("%Y-%m")
