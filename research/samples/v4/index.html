@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>AI 구독료 정리 견본 v4</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="timeline.js"></script>
+    <style>
+      @font-face { font-family: "Pretendard"; font-weight: 500; font-display: block; src: url("assets/fonts/Pretendard-Medium.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 600; font-display: block; src: url("assets/fonts/Pretendard-SemiBold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 700; font-display: block; src: url("assets/fonts/Pretendard-Bold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 800; font-display: block; src: url("assets/fonts/Pretendard-ExtraBold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 900; font-display: block; src: url("assets/fonts/Pretendard-Black.woff2") format("woff2"); }
+      :root { --ink: #1d1b19; --sub: #8a8077; --cream: #f4efe8; --line: #e8e1d7; --yel: #ffd23f; --red: #e5484d; --blue: #2f6fed; --pur: #7c5cff; }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cream); font-family: "Pretendard", "Noto Sans CJK KR", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+      #root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
+      .dots { position: absolute; inset: 0; background-image: radial-gradient(rgba(60,40,20,.075) 2.2px, transparent 2.6px); background-size: 34px 34px; background-position: 8px 8px; }
+      .scene { position: absolute; inset: 0; visibility: hidden; }
+      .abs { position: absolute; }
+      .num { font-variant-numeric: tabular-nums; }
+
+      /* caption: one dark line, always the same place */
+      #cap { position: absolute; left: 60px; right: 60px; top: 1398px; height: 90px; z-index: 80; }
+      #cap > div { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-weight: 800; font-size: 58px; line-height: 1.2; letter-spacing: -1.6px; color: var(--ink); white-space: nowrap; }
+      #cap.onimg > div { color: var(--ink); }
+
+      /* full-bleed illustration plates */
+      .plate { position: absolute; left: 0; width: 1080px; height: 1920px; overflow: hidden; }
+      .plate img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .plate.fb { background: linear-gradient(160deg, #f6dcc2, #e9c9a8); }
+      .fadeb { position: absolute; left: 0; right: 0; height: 520px; background: linear-gradient(180deg, rgba(244,239,232,0) 0%, rgba(244,239,232,.92) 45%, var(--cream) 70%); }
+
+      /* headline (hook only) */
+      .head { position: absolute; left: 0; right: 0; text-align: center; letter-spacing: -2px; }
+      .head .l1 { display: block; font-size: 60px; font-weight: 700; color: var(--ink); }
+      .head .l2 { display: inline-block; position: relative; margin-top: 6px; font-size: 104px; font-weight: 900; letter-spacing: -3.5px; z-index: 0; }
+      .head .l2::before { content: ""; position: absolute; left: -14px; right: -14px; bottom: 10px; height: 44px; background: var(--yel); border-radius: 6px; z-index: -1; transform-origin: left center; transform: scaleX(var(--mk, 1)); }
+
+      /* notification chips */
+      .noti { position: absolute; width: 400px; padding: 20px 24px; border-radius: 26px; background: rgba(255,255,255,.96); box-shadow: 0 18px 50px rgba(60,40,20,.2); display: flex; align-items: center; gap: 16px; }
+      .noti .ic { width: 58px; height: 58px; border-radius: 16px; background: var(--ink); color: #fff; display: grid; place-items: center; font-weight: 900; font-size: 26px; flex: none; }
+      .noti b { display: block; font-size: 25px; font-weight: 700; color: var(--sub); letter-spacing: -.5px; }
+      .noti span { display: block; font-size: 36px; font-weight: 800; letter-spacing: -1px; }
+      .noti span i { font-style: normal; color: var(--red); }
+
+      /* phone */
+      .phone { position: absolute; width: 470px; height: 960px; border-radius: 72px; background: #111; padding: 16px; box-shadow: 0 50px 120px rgba(60,40,20,.28); }
+      .phone .scr { position: relative; width: 100%; height: 100%; border-radius: 58px; background: #fff; overflow: hidden; }
+      .phone .island { position: absolute; left: 50%; top: 18px; width: 130px; height: 38px; margin-left: -65px; background: #111; border-radius: 20px; z-index: 5; }
+      .phone .sb { height: 74px; display: flex; justify-content: space-between; align-items: flex-end; padding: 0 44px 8px; font-size: 22px; font-weight: 700; }
+      .card-app .top { padding: 26px 34px 18px; }
+      .card-app .top small { display: block; font-size: 24px; font-weight: 600; color: var(--sub); }
+      .card-app .top h3 { font-size: 36px; font-weight: 800; letter-spacing: -1px; margin-top: 4px; }
+      .card-app .top .tot { font-size: 56px; font-weight: 900; letter-spacing: -2px; margin-top: 10px; }
+      .card-app .cardpic { position: absolute; right: 30px; top: 104px; width: 120px; height: 76px; border-radius: 12px; background: linear-gradient(135deg, #2b2b2b, #565656); }
+      .card-app .cardpic::after { content: ""; position: absolute; left: 14px; top: 22px; width: 24px; height: 18px; border-radius: 4px; background: #e8c66a; }
+      .list { position: relative; margin-top: 8px; border-top: 10px solid #f4f2ef; }
+      .row { position: relative; display: flex; align-items: center; height: 82px; padding: 0 34px; border-bottom: 1px solid #f0ece6; }
+      .row .d { width: 74px; font-size: 21px; font-weight: 600; color: var(--sub); }
+      .row .m { flex: 1; font-size: 27px; font-weight: 700; letter-spacing: -.6px; }
+      .row .a { font-size: 27px; font-weight: 800; }
+      .sel { position: absolute; left: 0; right: 0; top: 0; height: 656px; background: rgba(47,111,237,.16); border-left: 6px solid var(--blue); transform-origin: top; transform: scaleY(0); }
+      .toast { position: absolute; padding: 18px 30px; border-radius: 40px; background: var(--ink); color: #fff; font-size: 30px; font-weight: 800; letter-spacing: -.5px; white-space: nowrap; box-shadow: 0 16px 40px rgba(0,0,0,.25); }
+      .toast em { font-style: normal; color: var(--yel); }
+
+      /* mac window: AI chat */
+      #winwrap { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 540px 1220px; }
+      .win { position: absolute; left: 60px; top: 250px; width: 960px; height: 1010px; border-radius: 34px; background: #fff; box-shadow: 0 50px 120px rgba(60,40,20,.25), 0 0 0 1px rgba(0,0,0,.06); overflow: hidden; }
+      .win .bar { height: 76px; display: flex; align-items: center; gap: 12px; padding-left: 30px; background: #f7f5f2; border-bottom: 1px solid var(--line); }
+      .win .bar i { width: 20px; height: 20px; border-radius: 10px; display: block; }
+      .win .bar p { position: absolute; left: 0; right: 0; text-align: center; font-size: 26px; font-weight: 700; color: #6d655d; pointer-events: none; }
+      .hello { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-size: 46px; font-weight: 800; letter-spacing: -1.5px; color: #3a3631; }
+      .hello small { display: block; font-size: 26px; font-weight: 600; color: var(--sub); margin-top: 10px; letter-spacing: 0; }
+      .composer { position: absolute; left: 40px; right: 40px; bottom: 40px; min-height: 210px; border-radius: 34px; border: 2px solid #e3ddd4; background: #fff; box-shadow: 0 10px 30px rgba(60,40,20,.08); padding: 22px 26px 90px; }
+      .pchip { display: flex; gap: 18px; align-items: center; width: 560px; padding: 16px 20px; border-radius: 20px; background: #f6f3ef; border: 1px solid #ebe5dc; opacity: 0; }
+      .pchip .doc { width: 64px; height: 76px; border-radius: 10px; background: #fff; border: 2px solid #e1dad0; position: relative; flex: none; }
+      .pchip .doc::before { content: ""; position: absolute; left: 12px; right: 12px; top: 18px; height: 34px; background: repeating-linear-gradient(180deg, #cfc6ba 0 4px, transparent 4px 11px); }
+      .pchip b { display: block; font-size: 27px; font-weight: 800; letter-spacing: -.5px; }
+      .pchip span { display: block; font-size: 21px; font-weight: 600; color: var(--sub); margin-top: 4px; font-family: ui-monospace, Menlo, monospace; letter-spacing: -.5px; }
+      .ptext { margin-top: 18px; font-size: 34px; font-weight: 600; letter-spacing: -.8px; min-height: 44px; }
+      .ptext.ph { color: #b3aaa0; }
+      .caret { display: inline-block; width: 3px; height: 38px; background: var(--ink); vertical-align: -7px; margin-left: 2px; }
+      .sendb { position: absolute; right: 22px; bottom: 20px; width: 68px; height: 68px; border-radius: 34px; background: #d8d2c9; display: grid; place-items: center; }
+      .sendb svg { width: 34px; height: 34px; }
+      .plus { position: absolute; left: 26px; bottom: 30px; font-size: 44px; font-weight: 500; color: #8f877d; line-height: 1; }
+      .keycap { position: absolute; padding: 14px 22px; border-radius: 16px; background: #fff; border: 2px solid #ddd5ca; box-shadow: 0 6px 0 #ddd5ca; font-size: 34px; font-weight: 800; }
+      .tag { position: absolute; padding: 14px 26px; border-radius: 40px; background: var(--ink); color: #fff; font-size: 32px; font-weight: 800; letter-spacing: -.5px; white-space: nowrap; }
+      .tag::after { content: ""; position: absolute; left: 50%; bottom: -14px; margin-left: -12px; border: 12px solid transparent; border-top-color: var(--ink); border-bottom: 0; }
+      .ripple { position: absolute; width: 120px; height: 120px; border-radius: 50%; border: 6px solid var(--yel); opacity: 0; }
+
+      /* conversation */
+      .thread { position: absolute; left: 0; right: 0; top: 76px; bottom: 0; padding: 34px 44px; }
+      .ub { margin-left: auto; width: fit-content; max-width: 640px; padding: 20px 28px; border-radius: 30px 30px 8px 30px; background: #efe9e1; font-size: 28px; font-weight: 600; line-height: 1.45; letter-spacing: -.5px; opacity: 0; }
+      .ub i { font-style: normal; display: inline-block; padding: 2px 12px; border-radius: 10px; background: #fff; font-size: 23px; font-weight: 700; color: var(--sub); margin-bottom: 6px; }
+      .ans { margin-top: 26px; opacity: 0; }
+      .ans .lead { display: flex; align-items: center; gap: 14px; font-size: 30px; font-weight: 700; letter-spacing: -.6px; margin-bottom: 16px; }
+      .ans .lead .ai { width: 46px; height: 46px; border-radius: 23px; background: var(--ink); color: var(--yel); display: grid; place-items: center; font-size: 22px; font-weight: 900; }
+      table.t { width: 100%; border-collapse: collapse; }
+      table.t th { text-align: left; font-size: 22px; font-weight: 700; color: var(--sub); padding: 10px 14px; border-bottom: 2px solid var(--line); }
+      table.t td { padding: 15px 14px; font-size: 30px; font-weight: 700; letter-spacing: -.6px; border-bottom: 1px solid #f1ece5; }
+      table.t td.r, table.t th.r { text-align: right; }
+      table.t td .k { display: inline-block; padding: 3px 12px; border-radius: 9px; font-size: 21px; font-weight: 800; color: #fff; }
+      .tot2 { display: flex; justify-content: space-between; padding: 18px 14px 0; font-size: 32px; font-weight: 900; letter-spacing: -.8px; opacity: 0; }
+      .once { margin-top: 16px; padding: 14px 18px; border-radius: 16px; background: #f6f3ef; font-size: 24px; font-weight: 600; color: var(--sub); opacity: 0; }
+      .once s { color: #b0a79c; margin: 0 6px; }
+
+      /* overlap pair cards */
+      .pairs-h { position: absolute; left: 0; right: 0; top: 168px; text-align: center; font-size: 52px; font-weight: 900; letter-spacing: -2px; }
+      .pairs-h u { text-decoration: none; background: linear-gradient(transparent 60%, var(--yel) 60%); padding: 0 6px; }
+      .pair { position: absolute; left: 60px; width: 960px; height: 200px; border-radius: 34px; background: #fff; box-shadow: 0 24px 60px rgba(60,40,20,.14); display: flex; align-items: center; padding: 0 36px; gap: 22px; }
+      .pair .cat { width: 132px; height: 132px; border-radius: 30px; display: grid; place-items: center; color: #fff; font-size: 30px; font-weight: 900; flex: none; text-align: center; line-height: 1.1; }
+      .pair .it { position: relative; font-size: 32px; font-weight: 800; letter-spacing: -.8px; white-space: nowrap; }
+      .pair .it small { display: block; font-size: 24px; font-weight: 700; color: var(--sub); margin-top: 4px; }
+      .pair .it .strike { position: absolute; left: -8px; right: -8px; top: 50%; height: 6px; margin-top: -10px; background: var(--red); border-radius: 3px; transform-origin: left; transform: scaleX(0); }
+      .pair .pl { font-size: 36px; font-weight: 800; color: #c2b8ab; }
+      .pair .sum { margin-left: auto; text-align: right; font-size: 44px; font-weight: 900; letter-spacing: -1.5px; }
+      .pair .sum small { display: block; font-size: 22px; font-weight: 700; color: var(--sub); letter-spacing: 0; }
+      .stamp { position: absolute; right: 26px; top: -30px; padding: 8px 20px; border: 6px solid var(--red); border-radius: 14px; color: var(--red); font-size: 34px; font-weight: 900; transform: rotate(-10deg); background: rgba(255,255,255,.9); opacity: 0; }
+      .minus { position: absolute; right: 30px; bottom: -26px; padding: 10px 20px; border-radius: 30px; background: var(--red); color: #fff; font-size: 30px; font-weight: 900; opacity: 0; box-shadow: 0 10px 24px rgba(229,72,77,.35); }
+
+      /* counters */
+      .pill { position: absolute; left: 50%; display: flex; align-items: baseline; gap: 12px; padding: 22px 42px 26px; border-radius: 34px; background: var(--ink); color: #fff; white-space: nowrap; box-shadow: 0 24px 60px rgba(0,0,0,.25); }
+      .pill .lab { font-size: 36px; font-weight: 800; color: #cfc6ba; }
+      .pill .big { font-size: 120px; font-weight: 900; letter-spacing: -4px; line-height: 1; }
+      .pill .u { font-size: 48px; font-weight: 900; color: var(--yel); }
+      .pill.s .big { font-size: 76px; letter-spacing: -2.5px; }
+
+      /* caption post */
+      .post .ph { height: 430px; background: var(--cream); position: relative; overflow: hidden; }
+      .post .ph .mini { position: absolute; left: 0; right: 0; top: 130px; text-align: center; font-size: 30px; font-weight: 700; letter-spacing: -1px; }
+      .post .ph .mini b { display: inline-block; margin-top: 6px; font-size: 52px; font-weight: 900; letter-spacing: -2px; background: linear-gradient(transparent 58%, var(--yel) 58%); }
+      .post .acts { display: flex; gap: 26px; padding: 22px 30px 8px; align-items: center; }
+      .post .acts svg { width: 44px; height: 44px; }
+      .post .acts .bm { margin-left: auto; }
+      .post .cap { padding: 8px 30px; font-size: 24px; line-height: 1.55; font-weight: 600; letter-spacing: -.4px; }
+      .post .cap b { font-weight: 800; }
+      .post .cap .pr { display: block; margin-top: 8px; padding: 10px 14px; border-radius: 12px; background: #f6f3ef; font-weight: 700; }
+
+      /* characters (half-body cutouts, faded at the bottom) */
+      .chr { position: absolute; height: auto; opacity: 0; -webkit-mask-image: linear-gradient(180deg, #000 82%, transparent 100%); mask-image: linear-gradient(180deg, #000 82%, transparent 100%); }
+      .shadow-floor { position: absolute; left: 0; right: 0; top: 1350px; height: 2px; background: transparent; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1080" data-height="1920">
+      <div class="dots"></div>
+
+      <!-- S1 hook: illustration + 2-line headline + payment notifications (all visible at frame 0) -->
+      <div id="s1" class="scene" style="visibility: visible">
+        <div class="plate" id="p1" style="top: 160px"><img src="assets/img0.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
+        <div class="fadeb" style="top: 1060px"></div>
+        <div class="abs" style="left: 0; right: 0; top: 0; height: 420px; background: linear-gradient(180deg, var(--cream) 62%, rgba(244,239,232,0))"></div>
+        <div class="head" id="h1" style="top: 92px"><span class="l1">매달 새는 구독료</span><span class="l2" id="mk1">AI로 30초 컷</span></div>
+        <div class="noti" id="n1" style="left: 630px; top: 840px"><div class="ic">₩</div><div><b>정기결제 · 방금</b><span>영상 앱 <i>-13,900</i></span></div></div>
+        <div class="noti" id="n2" style="left: 600px; top: 985px"><div class="ic">₩</div><div><b>정기결제 · 어제</b><span>음악 앱 <i>-10,900</i></span></div></div>
+        <div class="noti" id="n3" style="left: 640px; top: 1130px"><div class="ic">₩</div><div><b>정기결제 · 3일 전</b><span>클라우드 <i>-2,400</i></span></div></div>
+      </div>
+
+      <!-- S2 card app: select all, copy -->
+      <div id="s2" class="scene">
+        <img class="chr" id="c5" src="assets/cut5.png" style="left: -30px; top: 820px; width: 420px" onerror="this.remove()" />
+        <div class="phone" id="ph1" style="left: 470px; top: 210px">
+          <div class="scr card-app">
+            <div class="island"></div>
+            <div class="sb"><span>9:41</span><span>●●● ▮</span></div>
+            <div class="top"><small>11월 이용내역</small><h3>내 카드</h3><div class="tot num">70,400원</div></div>
+            <div class="cardpic"></div>
+            <div class="list" id="lst">
+              <div class="sel" id="sel"></div>
+              <div class="row"><span class="d">11.03</span><span class="m">넷플릭스</span><span class="a num">13,500</span></div>
+              <div class="row"><span class="d">11.04</span><span class="m">GS25</span><span class="a num">4,300</span></div>
+              <div class="row"><span class="d">11.05</span><span class="m">티빙</span><span class="a num">13,900</span></div>
+              <div class="row"><span class="d">11.07</span><span class="m">유튜브 프리미엄</span><span class="a num">14,900</span></div>
+              <div class="row"><span class="d">11.08</span><span class="m">스타벅스</span><span class="a num">6,100</span></div>
+              <div class="row"><span class="d">11.10</span><span class="m">아이클라우드</span><span class="a num">4,400</span></div>
+              <div class="row"><span class="d">11.12</span><span class="m">멜론</span><span class="a num">10,900</span></div>
+              <div class="row"><span class="d">11.15</span><span class="m">구글 원</span><span class="a num">2,400</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="toast" id="cp" style="left: 545px; top: 1150px">✓ 8건 <em>복사됨</em></div>
+      </div>
+
+      <!-- S3..S5 AI chat window -->
+      <div id="sChat" class="scene">
+        <div id="winwrap">
+          <div class="win" id="win">
+            <div class="bar"><i style="background: #ff5f57"></i><i style="background: #febc2e"></i><i style="background: #28c840"></i><p>AI 채팅</p></div>
+            <div class="hello" id="hello">무엇을 도와드릴까요?<small>파일이나 텍스트를 붙여 넣어 보세요</small></div>
+            <div class="thread" id="thread">
+              <div class="ub" id="ub"><i>📋 카드 내역 8건</i><br />매달 반복 결제만 표로 뽑아 줘.<br />기능 겹치는 건 표시해 줘.</div>
+              <div class="ans" id="ans">
+                <div class="lead"><span class="ai">AI</span>반복 결제는 6건이에요.</div>
+                <table class="t" id="tbl">
+                  <tr><th>항목</th><th>분류</th><th class="r">월 결제액</th></tr>
+                  <tr><td>넷플릭스</td><td><span class="k" style="background: var(--red)">영상</span></td><td class="r num">13,500원</td></tr>
+                  <tr><td>티빙</td><td><span class="k" style="background: var(--red)">영상</span></td><td class="r num">13,900원</td></tr>
+                  <tr><td>유튜브 프리미엄</td><td><span class="k" style="background: var(--pur)">음악</span></td><td class="r num">14,900원</td></tr>
+                  <tr><td>멜론</td><td><span class="k" style="background: var(--pur)">음악</span></td><td class="r num">10,900원</td></tr>
+                  <tr><td>아이클라우드</td><td><span class="k" style="background: var(--blue)">클라우드</span></td><td class="r num">4,400원</td></tr>
+                  <tr><td>구글 원</td><td><span class="k" style="background: var(--blue)">클라우드</span></td><td class="r num">2,400원</td></tr>
+                </table>
+                <div class="tot2" id="tot2"><span>월 정기결제 합계</span><span class="num">60,000원</span></div>
+                <div class="once" id="once">일회성이라 뺐어요 <s>GS25 4,300</s><s>스타벅스 6,100</s></div>
+              </div>
+            </div>
+            <div class="composer" id="comp">
+              <div class="pchip" id="pchip"><div class="doc"></div><div><b>붙여넣은 텍스트 · 8줄</b><span>11.03 넷플릭스 13,500 · 11.04 GS25…</span></div></div>
+              <div class="ptext ph" id="ptext">메시지를 입력하세요</div>
+              <div class="plus">+</div>
+              <div class="sendb" id="sendb"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7" /></svg></div>
+            </div>
+          </div>
+          <div class="keycap" id="kc" style="left: 760px; top: 930px; opacity: 0">Ctrl + V</div>
+          <div class="tag" id="tag1" style="left: 330px; top: 860px; opacity: 0">딱 한 줄이면 돼요</div>
+          <div class="ripple" id="rip" style="left: 885px; top: 1130px"></div>
+        </div>
+      </div>
+
+      <!-- S6..S7 overlap pairs -->
+      <div id="sPair" class="scene">
+        <div class="pairs-h" id="ph">기능이 겹치는 구독 <u>3쌍</u></div>
+        <div class="pair" id="q1" style="top: 300px"><div class="cat" style="background: var(--red)">영상</div><div class="it" id="i1a">넷플릭스<small class="num">13,500원</small></div><div class="pl">+</div><div class="it" id="i1b">티빙<small class="num">13,900원</small><i class="strike"></i></div><div class="sum num">27,400<small>원 / 월</small></div><div class="stamp">겹침</div><div class="minus num">-13,900원</div></div>
+        <div class="pair" id="q2" style="top: 540px"><div class="cat" style="background: var(--pur)">음악</div><div class="it" id="i2a">유튜브 프리미엄<small class="num">14,900원</small></div><div class="pl">+</div><div class="it" id="i2b">멜론<small class="num">10,900원</small><i class="strike"></i></div><div class="sum num">25,800<small>원 / 월</small></div><div class="stamp">겹침</div><div class="minus num">-10,900원</div></div>
+        <div class="pair" id="q3" style="top: 780px"><div class="cat" style="background: var(--blue)">클라<br />우드</div><div class="it" id="i3a">아이클라우드<small class="num">4,400원</small></div><div class="pl">+</div><div class="it" id="i3b">구글 원<small class="num">2,400원</small><i class="strike"></i></div><div class="sum num">6,800<small>원 / 월</small></div><div class="stamp">겹침</div><div class="minus num">-2,400원</div></div>
+        <img class="chr" id="c3" src="assets/cut3.png" style="left: 690px; top: 960px; width: 380px; transform: scaleX(-1)" onerror="this.remove()" />
+      </div>
+
+      <!-- S8 result: illustration + counters -->
+      <div id="s8" class="scene">
+        <div class="plate" id="p2" style="top: 330px"><img src="assets/img2.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
+        <div class="fadeb" style="top: 1040px"></div>
+        <div class="abs" style="left: 0; right: 0; top: 0; height: 560px; background: linear-gradient(180deg, var(--cream) 70%, rgba(244,239,232,0))"></div>
+        <div class="pill" id="pm" style="top: 150px; transform: translateX(-50%)"><span class="lab">한 달</span><span class="big num" id="cnt">-0</span><span class="u">원</span></div>
+        <div class="pill s" id="py" style="top: 360px; transform: translateX(-50%); background: #fff; color: var(--ink); box-shadow: 0 20px 50px rgba(60,40,20,.18), 0 0 0 3px var(--ink)"><span class="lab" style="color: var(--sub)">1년이면</span><span class="big num">-326,400</span><span class="u" style="color: var(--red)">원</span></div>
+      </div>
+
+      <!-- S9 CTA: prompts in the caption, save -->
+      <div id="s9" class="scene">
+        <img class="chr" id="c3b" src="assets/cut3.png" style="left: -40px; top: 860px; width: 400px" onerror="this.remove()" />
+        <div class="phone post" id="ph2" style="left: 430px; top: 150px; height: 1000px">
+          <div class="scr">
+            <div class="island"></div>
+            <div class="sb"><span>9:41</span><span>●●● ▮</span></div>
+            <div class="ph"><div class="mini">매달 새는 구독료<br /><b>AI로 30초 컷</b></div></div>
+            <div class="acts">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1d1b19" stroke-width="2"><path d="M12 21s-7-4.6-9.3-9A5.3 5.3 0 0 1 12 6a5.3 5.3 0 0 1 9.3 6C19 16.4 12 21 12 21z" /></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1d1b19" stroke-width="2"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12z" /></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1d1b19" stroke-width="2" stroke-linejoin="round"><path d="M22 3 2 10l8 3 3 8z" /></svg>
+              <svg class="bm" id="bm" viewBox="0 0 24 24" fill="none" stroke="#1d1b19" stroke-width="2" stroke-linejoin="round"><path id="bmp" d="M6 3h12v18l-6-4-6 4z" /></svg>
+            </div>
+            <div class="cap"><b>junglejuggle</b> 프롬프트 그대로 복사해 쓰세요 👇
+              <span class="pr">① 매달 반복 결제만 표로 뽑아 줘</span>
+              <span class="pr">② 기능 겹치는 건 표시해 줘</span>
+              <span class="pr">③ 하나씩 남기면 얼마 아끼는지 계산해 줘</span>
+            </div>
+          </div>
+        </div>
+        <div class="toast" id="sv" style="left: 560px; top: 1180px">🔖 <em>저장됨</em> · 월말에 다시 보기</div>
+        <div class="ripple" id="rip2" style="left: 862px; top: 640px"></div>
+      </div>
+
+      <div id="cap"></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const T = window.TL; // generated by build.py: {dur, s:{id:[start,end]}, caps:[[t0,t1,text,sid]], cue:{...}}
+      const tl = gsap.timeline({ paused: true });
+      const S = (id) => T.s[id];
+      const C = T.cue;
+      const show = (sel, a, b) => { tl.set(sel, { visibility: "visible" }, a); tl.set(sel, { visibility: "hidden" }, b); };
+      const pop = (sel, t, from) => tl.fromTo(sel, Object.assign({ scale: 0.6, opacity: 0 }, from || {}), { scale: 1, opacity: 1, x: 0, y: 0, rotation: 0, duration: 0.4, ease: "back.out(2)" }, t);
+      const chrIn = (sel, t, dx) => tl.fromTo(sel, { y: 160, x: dx || 0, opacity: 0 }, { y: 0, x: 0, opacity: 1, duration: 0.45, ease: "back.out(1.5)" }, t);
+      const bob = (sel, t, n) => tl.to(sel, { y: -12, duration: 0.55, yoyo: true, repeat: n || 3, ease: "sine.inOut" }, t);
+
+      // ---------- S1 hook: everything already on screen at frame 0 ----------
+      const s1 = S("s1"), s2 = S("s2"), s3 = S("s3"), s4 = S("s4"), s5 = S("s5"), s6 = S("s6"), s7 = S("s7"), s8 = S("s8"), s9 = S("s9");
+      show("#s1", 0, s1[1]);
+      tl.fromTo("#p1", { scale: 1.08 }, { scale: 1.0, duration: s1[1], ease: "power1.out", transformOrigin: "50% 40%" }, 0);
+            tl.fromTo("#mk1", { scale: 1 }, { scale: 1.06, duration: 0.2, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 60%" }, 0.35);
+      [["#n1", 0.0], ["#n2", 0.35], ["#n3", 0.7]].forEach(([n, t], i) => {
+        if (i === 0) tl.fromTo(n, { y: 10 }, { y: 0, duration: 0.3 }, 0);
+        else pop(n, t, { y: 30 });
+      });
+      tl.to(["#n1", "#n2", "#n3"], { y: -10, duration: 0.8, yoyo: true, repeat: 2, ease: "sine.inOut", stagger: 0.15 }, 1.1);
+
+      // ---------- S2 card app: drag-select, copy ----------
+      show("#s2", s2[0], s2[1]);
+      tl.fromTo("#ph1", { y: 900, rotation: 6 }, { y: 0, rotation: 0, duration: 0.5, ease: "power3.out" }, s2[0]);
+      chrIn("#c5", s2[0] + 0.2, -60);
+      tl.to("#sel", { scaleY: 1, duration: Math.max(0.5, C.copy - s2[0] - 0.75), ease: "power1.inOut" }, s2[0] + 0.55);
+      pop("#cp", C.copy, { y: 30 });
+      tl.to("#ph1", { scale: 0.97, duration: 0.08, yoyo: true, repeat: 1 }, C.copy);
+
+      // ---------- S3..S5 AI chat ----------
+      show("#sChat", s3[0], s5[1]);
+      tl.fromTo("#win", { y: 60, scale: 0.9, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.45, ease: "power3.out" }, s3[0]);
+      pop("#kc", C.paste - 0.35, { y: 20 });
+      tl.to("#kc", { y: 6, duration: 0.08, yoyo: true, repeat: 1 }, C.paste - 0.05);
+      tl.to("#kc", { opacity: 0, duration: 0.2 }, C.paste + 0.5);
+      tl.fromTo("#pchip", { opacity: 0, y: -260, scale: 0.7 }, { opacity: 1, y: 0, scale: 1, duration: 0.42, ease: "back.out(1.6)" }, C.paste);
+      tl.to("#hello", { opacity: 0.35, duration: 0.3 }, C.paste);
+      // S4: zoom into the composer, type the one line, send
+      tl.to("#winwrap", { scale: 1.12, y: -40, duration: 0.6, ease: "power2.inOut" }, s4[0] - 0.05);
+      pop("#tag1", s4[0] + 0.25, { y: 30 });
+      bob("#tag1", s4[0] + 0.7, 2);
+      const line = "매달 반복 결제만 표로 뽑아 줘. 기능 겹치는 건 표시해 줘.";
+      const pt = document.getElementById("ptext"); const o = { n: 0 };
+      tl.set(pt, { className: "ptext" }, C.type0);
+      tl.to(o, { n: line.length, duration: C.type1 - C.type0, ease: "none", onUpdate: () => { pt.innerHTML = line.slice(0, Math.round(o.n)) + '<span class="caret"></span>'; } }, C.type0);
+      tl.set("#sendb", { backgroundColor: "#1d1b19" }, C.type1 - 0.1);
+      tl.fromTo("#rip", { scale: 0.3, opacity: 1 }, { scale: 1.6, opacity: 0, duration: 0.5, immediateRender: false }, C.send);
+      tl.to("#sendb", { scale: 0.82, duration: 0.08, yoyo: true, repeat: 1 }, C.send);
+      tl.to("#tag1", { opacity: 0, y: 40, duration: 0.25 }, C.send + 0.05);
+      // S5: answer streams in
+      tl.to("#winwrap", { scale: 1, y: 0, duration: 0.5, ease: "power2.inOut" }, s5[0] - 0.05);
+      tl.to(["#hello", "#comp"], { opacity: 0, duration: 0.2 }, s5[0] - 0.05);
+      tl.fromTo("#ub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3 }, s5[0]);
+      tl.set("#ans", { opacity: 1 }, C.rows);
+      tl.from("#ans .lead", { opacity: 0, x: -20, duration: 0.25 }, C.rows);
+      tl.from("#tbl tr", { opacity: 0, y: 16, duration: 0.2, stagger: 0.1 }, C.rows + 0.15);
+      tl.to("#tot2", { opacity: 1, duration: 0.25 }, C.rows + 0.95);
+      tl.fromTo("#once", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3 }, C.drop);
+
+      // ---------- S6..S7 overlap pairs ----------
+      show("#sPair", s6[0], s7[1]);
+      tl.fromTo("#ph", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, s6[0]);
+      [["#q1", C.pair1], ["#q2", C.pair2], ["#q3", C.pair3]].forEach(([q, t]) => tl.fromTo(q, { x: -1100 }, { x: 0, duration: 0.45, ease: "power3.out" }, t));
+      tl.fromTo("#sPair .stamp", { scale: 2.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "power3.in", stagger: 0.12 }, C.stamp);
+      chrIn("#c3", s6[0] + 0.3, 60);
+      bob("#c3", s6[0] + 0.9, 3);
+      // S7: keep one of each, strike the other
+      ["#i1b", "#i2b", "#i3b"].forEach((it, k) => {
+        const t = C.x0 + 0.25 * k;
+        tl.to(it + " .strike", { scaleX: 1, duration: 0.22, ease: "power2.out" }, t);
+        tl.to(it, { opacity: 0.4, duration: 0.2 }, t + 0.1);
+        pop("#q" + (k + 1) + " .minus", t + 0.12, { y: 20 });
+      });
+      tl.to("#sPair .stamp", { opacity: 0, duration: 0.2 }, C.x0);
+
+      // ---------- S8 result ----------
+      show("#s8", s8[0], s8[1]);
+      tl.fromTo("#p2", { y: 160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, s8[0]);
+      tl.fromTo("#pm", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "back.out(2)" }, s8[0] + 0.05);
+      const cnt = { v: 0 }; const ce = document.getElementById("cnt");
+      tl.to(cnt, { v: 27200, duration: 1.0, ease: "power2.out", onUpdate: () => { ce.textContent = "-" + Math.round(cnt.v).toLocaleString("ko-KR"); } }, C.count0);
+      tl.fromTo("#py", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "back.out(1.8)" }, C.year);
+      tl.to("#py", { scale: 1.06, duration: 0.2, yoyo: true, repeat: 1 }, C.year + 0.4);
+
+      // ---------- S9 CTA ----------
+      show("#s9", s9[0], T.dur + 1);
+      tl.fromTo("#ph2", { y: 900, rotation: -5 }, { y: 0, rotation: 0, duration: 0.5, ease: "power3.out" }, s9[0]);
+      chrIn("#c3b", s9[0] + 0.2, -60);
+      tl.from("#ph2 .pr", { opacity: 0, x: 30, duration: 0.25, stagger: 0.18 }, s9[0] + 0.45);
+      tl.fromTo("#rip2", { scale: 0.3, opacity: 1 }, { scale: 1.6, opacity: 0, duration: 0.5, immediateRender: false }, C.save);
+      tl.set("#bmp", { attr: { fill: "#1d1b19" } }, C.save + 0.05);
+      tl.fromTo("#bm", { scale: 1 }, { scale: 1.35, duration: 0.14, yoyo: true, repeat: 1, transformOrigin: "50% 50%" }, C.save + 0.05);
+      pop("#sv", C.save + 0.15, { y: 30 });
+      bob("#c3b", s9[0] + 0.8, 4);
+
+      // ---------- captions: one line, same spot ----------
+      const cap = document.getElementById("cap");
+      T.caps.forEach(([t0, t1, html], i) => {
+        const d = document.createElement("div"); d.innerHTML = html.replace(/<\/?b>/g, ""); d.style.visibility = "hidden"; cap.appendChild(d);
+        show(d, t0, t1);
+        tl.fromTo(d, { y: 14, opacity: 0.2 }, { y: 0, opacity: 1, duration: 0.12, ease: "power2.out" }, t0);
+      });
+      tl.set({}, {}, T.dur);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
