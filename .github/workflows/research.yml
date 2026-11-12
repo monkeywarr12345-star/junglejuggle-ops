@@ -1,0 +1,91 @@
+name: research (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+permissions:
+  contents: read
+jobs:
+  meta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 research/tools/repo_meta.py
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+      - uses: actions/upload-artifact@v4
+        with: { name: meta, path: research/out }
+  igperm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 research/tools/ig_perm.py
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_IGLOGIN_TOKEN: ${{ secrets.IG_IGLOGIN_TOKEN }}
+          IG_LOGIN_TOKEN: ${{ secrets.IG_LOGIN_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        with: { name: igperm, path: research/out }
+  hyperframes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null || true
+      - name: render
+        working-directory: research/samples/hf
+        env: { HYPERFRAMES_TELEMETRY_DISABLED: "1", DO_NOT_TRACK: "1" }
+        run: |
+          set -x
+          START=$(date +%s)
+          npx -y hyperframes@latest --version || true
+          npx -y hyperframes@latest check --json > ../../out/hf_check.json 2>&1 || true
+          npx -y hyperframes@latest render --output ../../out/hf_sample.mp4 > ../../out/hf_render.log 2>&1 || npx -y hyperframes@latest render > ../../out/hf_render2.log 2>&1 || true
+          ls -la . ../../out
+          find . -name "*.mp4" -newer index.html -exec cp {} ../../out/ \; || true
+          echo "sec=$(( $(date +%s)-START ))" > ../../out/hf_time.txt
+          npx -y hyperframes@latest tts --help > ../../out/hf_tts_help.txt 2>&1 || true
+          npx -y hyperframes@latest transcribe --help > ../../out/hf_transcribe_help.txt 2>&1 || true
+      - uses: actions/upload-artifact@v4
+        with: { name: hyperframes, path: research/out }
+  remotion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sudo apt-get install -y -qq fonts-noto-cjk >/dev/null || true
+      - working-directory: research/samples/remotion
+        run: |
+          START=$(date +%s)
+          npm install --no-audit --no-fund > ../../out/rm_install.log 2>&1 || true
+          npx remotion render src/index.ts Main ../../out/remotion_sample.mp4 > ../../out/rm_render.log 2>&1 || true
+          echo "sec=$(( $(date +%s)-START ))" > ../../out/rm_time.txt
+      - uses: actions/upload-artifact@v4
+        with: { name: remotion, path: research/out }
+  tts_avatar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.10" }
+      - run: sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null || true
+      - name: install
+        run: |
+          START=$(date +%s)
+          pip install -q git+https://github.com/myshell-ai/MeloTTS.git > research/out/melo_install.log 2>&1 || true
+          python -m unidic download >> research/out/melo_install.log 2>&1 || true
+          pip install -q faster-whisper playwright >> research/out/melo_install.log 2>&1 || true
+          python -m playwright install --with-deps chromium >> research/out/melo_install.log 2>&1 || true
+          echo "install_sec=$(( $(date +%s)-START ))" > research/out/tts_time.txt
+      - run: python research/tools/tts_test.py || true
+      - name: avatar
+        working-directory: research/samples/avatar
+        run: |
+          START=$(date +%s)
+          python render_avatar.py ../../out/tts_melo_kr.wav avatar.html ../../out/avatar_sample.mp4 > ../../out/avatar.log 2>&1 || true
+          echo "avatar_sec=$(( $(date +%s)-START ))" >> ../../out/tts_time.txt
+      - uses: actions/upload-artifact@v4
+        with: { name: tts_avatar, path: research/out }

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>AI 구독료 정리 견본</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=block" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0d0f14; font-family: "Noto Sans KR", sans-serif; color: #fff; }
+      #root { position: absolute; inset: 0; }
+      .bg { position: absolute; inset: 0; background: radial-gradient(1200px 900px at 80% 10%, #2b1d6b 0%, transparent 60%), radial-gradient(900px 700px at 0% 90%, #0e3b4a 0%, transparent 60%), #0d0f14; }
+      .bar { position: absolute; top: 200px; left: 70px; right: 70px; height: 10px; border-radius: 5px; background: #262a35; overflow: hidden; }
+      .bar i { display: block; height: 100%; width: 100%; transform-origin: left center; transform: scaleX(0); background: linear-gradient(90deg, #7c5cff, #31d0aa); }
+      .tag { position: absolute; top: 240px; left: 70px; font-size: 36px; font-weight: 700; color: #9aa3b2; }
+      .scene { position: absolute; inset: 0; }
+      .hook { position: absolute; top: 470px; left: 70px; right: 70px; font-size: 104px; font-weight: 900; line-height: 1.18; letter-spacing: -3px; }
+      .hook b { color: #0d0f14; background: #ffd35c; padding: 0 16px; border-radius: 14px; }
+      .hook .w { display: inline-block; }
+      .sub { position: absolute; top: 980px; left: 70px; right: 70px; font-size: 48px; font-weight: 700; color: #c9d0dc; }
+      .step { position: absolute; top: 330px; left: 70px; right: 70px; font-size: 64px; font-weight: 900; letter-spacing: -1px; }
+      .step em { font-style: normal; display: inline-block; width: 86px; height: 86px; line-height: 86px; text-align: center; border-radius: 22px; background: #7c5cff; margin-right: 22px; }
+      .win { position: absolute; top: 470px; left: 60px; right: 60px; height: 700px; border-radius: 40px; background: #171a22; border: 2px solid #2d3240; box-shadow: 0 40px 120px rgba(0,0,0,.5); overflow: hidden; }
+      .win .top { height: 78px; border-bottom: 2px solid #2d3240; display: flex; align-items: center; padding-left: 30px; gap: 14px; }
+      .win .top span { width: 20px; height: 20px; border-radius: 10px; background: #3a3f4d; }
+      .win .top p { margin-left: 18px; font-size: 30px; color: #8b93a3; font-weight: 700; }
+      .msg { margin: 34px 34px 0 auto; max-width: 860px; background: #2b2f3b; border-radius: 28px 28px 6px 28px; padding: 30px 36px; font-size: 42px; line-height: 1.5; font-weight: 500; white-space: pre-wrap; min-height: 120px; }
+      .ans { margin: 26px 34px 0 34px; font-size: 40px; line-height: 1.55; font-weight: 500; color: #dfe4ee; }
+      .ans .row { display: flex; gap: 16px; align-items: center; margin-top: 10px; }
+      .ans .chip { font-size: 30px; padding: 6px 16px; border-radius: 12px; background: #23382f; color: #5ee3b4; font-weight: 700; }
+      .note { position: absolute; top: 1210px; left: 70px; right: 70px; font-size: 44px; font-weight: 700; color: #ffd35c; }
+      .cta { position: absolute; top: 640px; left: 70px; right: 70px; text-align: center; font-size: 96px; font-weight: 900; line-height: 1.25; letter-spacing: -2px; }
+      .cta small { display: block; margin-top: 40px; font-size: 46px; color: #9aa3b2; font-weight: 700; letter-spacing: 0; }
+      .cursor { display: inline-block; width: 5px; height: 46px; background: #fff; vertical-align: -6px; margin-left: 4px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1080" data-height="1920">
+      <div class="bg"></div>
+      <div class="bar"><i id="pb"></i></div>
+      <div class="tag">AI로 생활비 줄이기 · 1편</div>
+
+      <div id="s1" class="scene clip" data-start="0" data-duration="2.6">
+        <div class="hook" id="hook"><span class="w">구독료</span> <span class="w">정리,</span><br /><span class="w"><b>프롬프트 3줄</b></span><span class="w">이면</span> <span class="w">끝</span></div>
+        <div class="sub" id="hooksub">카드 명세서만 있으면 됨</div>
+      </div>
+
+      <div id="s2" class="scene clip" data-start="2.6" data-duration="5">
+        <div class="step"><em>1</em>반복 결제만 뽑기</div>
+        <div class="win"><div class="top"><span></span><span></span><span></span><p>AI 채팅</p></div>
+          <div class="msg" id="m1"></div>
+          <div class="ans" id="a1"><div class="row"><span class="chip">표</span>넷플릭스 · 유튜브 · 클라우드 · 음악 앱</div><div class="row"><span class="chip">합계</span>매달 반복 결제 목록 정리</div></div>
+        </div>
+        <div class="note">준비물: 카드 앱 명세서 복사</div>
+      </div>
+
+      <div id="s3" class="scene clip" data-start="7.6" data-duration="5">
+        <div class="step"><em>2</em>겹치는 것 찾기</div>
+        <div class="win"><div class="top"><span></span><span></span><span></span><p>AI 채팅</p></div>
+          <div class="msg" id="m2"></div>
+          <div class="ans" id="a2"><div class="row"><span class="chip">겹침</span>영상 2개 · 저장공간 2개</div><div class="row"><span class="chip">추천</span>하나만 남길 항목과 이유</div></div>
+        </div>
+        <div class="note">가족 공유 중인 건 따로 표시</div>
+      </div>
+
+      <div id="s4" class="scene clip" data-start="12.6" data-duration="5">
+        <div class="step"><em>3</em>해지 순서 받기</div>
+        <div class="win"><div class="top"><span></span><span></span><span></span><p>AI 채팅</p></div>
+          <div class="msg" id="m3"></div>
+          <div class="ans" id="a3"><div class="row"><span class="chip">순서</span>결제일 가까운 것부터</div><div class="row"><span class="chip">위치</span>앱별 해지 메뉴 경로</div></div>
+        </div>
+        <div class="note">연간 결제는 환불 조건 먼저 확인</div>
+      </div>
+
+      <div id="s5" class="scene clip" data-start="17.6" data-duration="2.4">
+        <div class="cta" id="cta">프롬프트 전문은<br />캡션에<small>저장해 두고 월말에 한 번</small></div>
+      </div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const typeInto = (sel, text, at, dur) => {
+        const o = { n: 0 };
+        const el = document.querySelector(sel);
+        tl.set(o, { n: 0, onUpdate: () => { el.textContent = ""; } }, at - 0.01);
+        tl.to(o, { n: text.length, duration: dur, ease: "none", onUpdate: () => { const k = Math.round(o.n); el.innerHTML = text.slice(0, k).replace(/</g, "&lt;") + (k < text.length ? '<span class="cursor"></span>' : ""); } }, at);
+      };
+      tl.to("#pb", { scaleX: 1, duration: 20, ease: "none" }, 0);
+      tl.from("#hook .w", { y: 60, opacity: 0, duration: 0.35, stagger: 0.08, ease: "power3.out" }, 0);
+      tl.from("#hooksub", { opacity: 0, y: 20, duration: 0.3 }, 0.7);
+      typeInto("#m1", "카드 명세서 붙일게.\n매달 반복 결제되는 것만\n표로 정리해 줘.", 2.9, 1.6);
+      tl.from("#a1 .row", { opacity: 0, x: -30, duration: 0.3, stagger: 0.25 }, 4.7);
+      typeInto("#m2", "기능이 겹치는 서비스를 묶고,\n하나만 남긴다면 뭘지\n이유와 함께 알려 줘.", 7.9, 1.6);
+      tl.from("#a2 .row", { opacity: 0, x: -30, duration: 0.3, stagger: 0.25 }, 9.7);
+      typeInto("#m3", "해지할 항목을 결제일 순으로\n정렬하고 해지 메뉴 위치를\n단계별로 알려 줘.", 12.9, 1.6);
+      tl.from("#a3 .row", { opacity: 0, x: -30, duration: 0.3, stagger: 0.25 }, 14.7);
+      tl.from("#cta", { scale: 0.92, opacity: 0, duration: 0.4, ease: "back.out(1.6)" }, 17.65);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

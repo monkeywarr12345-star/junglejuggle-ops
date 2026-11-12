@@ -1,0 +1,33 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;background:#0d0f14;color:#fff;font-family:"Noto Sans CJK KR","Noto Sans KR",sans-serif}
+.win{position:absolute;top:300px;left:60px;right:60px;height:760px;border-radius:40px;background:#171a22;border:2px solid #2d3240;padding:40px}
+.win p{font-size:44px;line-height:1.55;white-space:pre-wrap;background:#2b2f3b;border-radius:28px;padding:30px 36px}
+.cap{position:absolute;top:1150px;left:60px;right:60px;text-align:center;font-size:50px;font-weight:800;line-height:1.4}
+.cap b{background:#ffd35c;color:#0d0f14;padding:0 12px;border-radius:10px}
+#av{position:absolute;left:640px;top:1260px;width:380px;height:380px}
+.title{position:absolute;top:190px;left:70px;font-size:40px;font-weight:800;color:#9aa3b2}
+</style></head><body>
+<div class="title">AI로 생활비 줄이기 · 캐릭터 진행 견본</div>
+<div class="win"><p id="msg"></p></div>
+<div class="cap" id="cap"></div>
+<svg id="av" viewBox="0 0 200 200">
+ <g id="body"><ellipse cx="100" cy="190" rx="70" ry="14" fill="#000" opacity=".35"/>
+ <path d="M100 18 C 112 4, 130 6, 128 22" stroke="#31d0aa" stroke-width="7" fill="none" stroke-linecap="round"/>
+ <ellipse cx="128" cy="20" rx="12" ry="7" fill="#31d0aa" transform="rotate(-25 128 20)"/>
+ <rect x="30" y="34" width="140" height="132" rx="56" fill="#7c5cff"/>
+ <rect x="48" y="56" width="104" height="80" rx="34" fill="#f4f1ff"/>
+ <ellipse id="eL" cx="80" cy="88" rx="8" ry="11" fill="#1b1530"/><ellipse id="eR" cx="120" cy="88" rx="8" ry="11" fill="#1b1530"/>
+ <ellipse cx="66" cy="110" rx="8" ry="5" fill="#ff9ec4" opacity=".7"/><ellipse cx="134" cy="110" rx="8" ry="5" fill="#ff9ec4" opacity=".7"/>
+ <ellipse id="mouth" cx="100" cy="114" rx="13" ry="3" fill="#1b1530"/></g></svg>
+<script>
+const LINES=window.LINES||[];const ENV=window.ENV||[];const FPS=30;
+const caps=[[0,3.2,'구독료 정리, <b>프롬프트 세 줄</b>이면 끝나요'],[3.2,99,'카드 명세서 붙이고 <b>반복 결제만</b> 뽑아 달라고 하세요']];
+const msg='카드 명세서 붙일게.\n매달 반복 결제되는 것만\n표로 정리해 줘.';
+window.seek=t=>{const i=Math.min(ENV.length-1,Math.floor(t*FPS));const a=ENV.length?ENV[i]:0;
+ document.getElementById('mouth').setAttribute('ry',3+Math.min(1,a)*16);
+ const blink=(t%3.1)<0.12;['eL','eR'].forEach(id=>document.getElementById(id).setAttribute('ry',blink?1.5:11));
+ document.getElementById('body').setAttribute('transform',`translate(0 ${Math.sin(t*3)*3})`);
+ const c=caps.find(c=>t>=c[0]&&t<c[1]);document.getElementById('cap').innerHTML=c?c[2]:'';
+ const k=Math.max(0,Math.min(msg.length,Math.floor((t-2.8)*24)));document.getElementById('msg').textContent=msg.slice(0,k)};
+seek(0);
+</script></body></html>

@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;background:#0f1115;color:#fff;font-family:"Noto Sans CJK KR",sans-serif;overflow:hidden}
+.bar{position:absolute;top:70px;left:60px;right:60px;height:8px;background:#2a2e37;border-radius:4px}.bar i{display:block;height:100%;background:#7c5cff;border-radius:4px}
+.tag{position:absolute;top:120px;left:60px;font-size:34px;color:#9aa3b2;font-weight:700}
+h1{position:absolute;top:210px;left:60px;right:60px;font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-2px}h1 b{background:#7c5cff;padding:0 14px;border-radius:12px}
+.chat{position:absolute;top:640px;left:60px;right:60px;background:#1b1e26;border:2px solid #2f3440;border-radius:36px;padding:44px;min-height:520px}
+.who{font-size:30px;color:#7c5cff;font-weight:800;margin-bottom:18px}.p{font-size:46px;line-height:1.5;font-weight:500;white-space:pre-wrap}
+.cur{display:inline-block;width:4px;height:48px;background:#fff;vertical-align:-8px}
+.step{position:absolute;top:1230px;left:60px;right:60px;font-size:44px;color:#c9d0dc;line-height:1.5}
+.step span{color:#7c5cff;font-weight:900}
+.cta{position:absolute;bottom:470px;left:60px;right:60px;text-align:center;font-size:46px;font-weight:800;color:#ffd35c}
+</style></head><body>
+<div class="bar"><i id="pb"></i></div><div class="tag">AI로 생활비 줄이기 · 1편</div>
+<h1 id="h"></h1><div class="chat"><div class="who">AI에게 그대로 붙여 넣기</div><div class="p" id="p"></div></div>
+<div class="step" id="st"></div><div class="cta" id="c"></div>
+<script>
+const sc=[
+ {h:'구독료 정리,<br><b>프롬프트 3줄</b>이면 끝',p:'',st:'',d:2.5},
+ {h:'<b>1</b> 목록부터 뽑기',p:'내 카드 명세서 내역을 붙일게.\n매달 반복 결제되는 항목만\n표로 정리해 줘.',st:'<span>준비물</span> 카드 앱 명세서 복사',d:4.5},
+ {h:'<b>2</b> 겹치는 것 찾기',p:'이 중에서 기능이 겹치는\n서비스를 묶어서 보여 주고,\n하나만 남긴다면 뭘 남길지\n이유와 함께 알려 줘.',st:'<span>확인</span> 가족 공유 중인 건 따로 표시',d:5},
+ {h:'<b>3</b> 해지 순서 받기',p:'해지할 항목을 결제일이\n가까운 순서로 정렬하고,\n각각 해지 메뉴 위치를\n단계별로 알려 줘.',st:'<span>주의</span> 연간 결제는 환불 조건 확인',d:5},
+ {h:'프롬프트 <b>전문</b>은<br>캡션에',p:'',st:'',d:2.5,c:'저장해 두고 월말에 한 번'}];
+const total=sc.reduce((a,s)=>a+s.d,0);window.TOTAL=total;
+window.seek=t=>{let a=0,s=sc[0],lt=0;for(const x of sc){if(t<a+x.d){s=x;lt=t-a;break}a+=x.d;s=x;lt=x.d}
+ pb.style.width=(t/total*100)+'%';h.innerHTML=s.h;const n=Math.min(s.p.length,Math.floor(lt*28));
+ p.innerHTML=s.p.slice(0,n).replace(/</g,'&lt;')+(s.p&&n<s.p.length?'<span class="cur"></span>':'');
+ p.parentElement.style.display=s.p?'block':'none';st.innerHTML=(n>=s.p.length)?s.st:'';c.textContent=s.c||''};
+seek(0)</script></body></html>
