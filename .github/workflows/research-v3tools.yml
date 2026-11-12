@@ -1,0 +1,67 @@
+name: research v3 tools (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/tools/v3/**']
+permissions:
+  contents: write
+concurrency: { group: v3tools-${{ github.ref }}, cancel-in-progress: false }
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix: { engine: [qwen06, qwen17, supertonic, chatterbox] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: sudo apt-get install -y -qq ffmpeg sox libsndfile1 >/dev/null || true
+      - name: install
+        run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu || true
+          case "${{ matrix.engine }}" in
+            qwen*) pip install -q -U qwen-tts soundfile ;;
+            supertonic) pip install -q supertonic soundfile ;;
+            chatterbox) pip install -q chatterbox-tts ;;
+          esac
+      - name: run
+        run: |
+          OUT=research/results/v3tools/tts_${{ matrix.engine }}
+          python research/tools/v3/tts_test.py ${{ matrix.engine }} $OUT || true
+          for f in $OUT/*.wav; do [ -f "$f" ] && ffmpeg -y -loglevel error -i "$f" -b:a 96k "${f%.wav}.mp3" && rm "$f"; done
+          ls -la $OUT || true
+      - name: commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/v3tools && git commit -qm "research: v3 tts ${{ matrix.engine }}" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM % 20 + 5)); done
+  img:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: { idx: [0, 1, 2] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: build stable-diffusion.cpp
+        run: |
+          git clone -q --recursive --depth 1 https://github.com/leejet/stable-diffusion.cpp /tmp/sdcpp
+          cd /tmp/sdcpp && cmake -B build -DCMAKE_BUILD_TYPE=Release -DGGML_NATIVE=ON >/dev/null && cmake --build build -j4 --config Release >/dev/null
+          ls build/bin
+      - name: generate
+        run: |
+          pip install -q huggingface_hub pillow
+          SD=$(ls /tmp/sdcpp/build/bin/sd-cli 2>/dev/null || ls /tmp/sdcpp/build/bin/sd)
+          OUT=research/results/v3tools/img
+          python research/tools/v3/img_zimage.py $OUT ${{ matrix.idx }} $SD || true
+          [ -f $OUT/img${{ matrix.idx }}.png ] && python -c "from PIL import Image;im=Image.open('$OUT/img${{ matrix.idx }}.png').convert('RGB');im.save('$OUT/img${{ matrix.idx }}.jpg',quality=90)" 2>/dev/null && rm $OUT/img${{ matrix.idx }}.png || true
+          cat $OUT/img${{ matrix.idx }}.json || true
+      - name: commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/v3tools && git commit -qm "research: v3 img ${{ matrix.idx }}" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM % 20 + 5)); done
