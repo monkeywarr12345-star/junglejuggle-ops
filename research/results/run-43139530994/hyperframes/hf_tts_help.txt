@@ -1,0 +1,19 @@
+Generate speech audio from text using a local AI model (Kokoro-82M) (hyperframes tts v0.9.36)
+
+USAGE hyperframes tts [OPTIONS] [INPUT]
+
+ARGUMENTS
+
+  INPUT    Text to speak, or path to a .txt file
+
+OPTIONS
+
+      --text-file=<text_file>    Read text from a .txt file (compatibility alias)                                                                                                                                                                                                                 
+  -o, -out, --output=<output>    Output file path (default: speech.wav in current directory)                                                                                                                                                                                                      
+          -v, --voice=<voice>    Voice ID (default: af_heart). Options: af_heart (Heart), af_nova (Nova), af_sky (Sky), am_adam (Adam), am_michael (Michael), bf_emma (Emma), bf_isabella (Isabella), bm_george (George), ef_dora (Dora), ff_siwis (Siwis), jf_alpha (Alpha), zf_xiaobei (Xiaobei)
+          -s, --speed=<speed>    Speech speed multiplier (default: 1.0)                                                                                                                                                                                                                           
+            -l, --lang=<lang>    Phonemizer language (auto-detected from voice prefix when omitted). Options: en-us, en-gb, es, fr-fr, hi, it, pt-br, ja, zh                                                                                                                                      
+                       --list    List available voices and exit (Default: false)                                                                                                                                                                                                                  
+                       --json    Output result as JSON (Default: false)                                                                                                                                                                                                                           
+
+

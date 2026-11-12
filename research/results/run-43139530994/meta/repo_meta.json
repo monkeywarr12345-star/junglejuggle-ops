@@ -1,0 +1,397 @@
+[
+ {
+  "repo": "heygen-com/hyperframes",
+  "stars": 82947,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "desc": "Write HTML. Render video. Built for agents.",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "remotion-dev/remotion",
+  "stars": 72560,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "🎥      Make videos programmatically with React",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "motion-canvas/motion-canvas",
+  "stars": 19778,
+  "license": "MIT",
+  "pushed": "2026-07-02",
+  "archived": false,
+  "desc": "Visualize Your Ideas With Code",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "midrender/revideo",
+  "stars": 4204,
+  "license": "MIT",
+  "pushed": "2026-07-15",
+  "archived": false,
+  "desc": "Create Videos with Code",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "mifi/editly",
+  "stars": 5606,
+  "license": "MIT",
+  "pushed": "2025-05-12",
+  "archived": false,
+  "desc": "Slick, declarative command line video editing & API",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "vercel/satori",
+  "stars": 14180,
+  "license": "MPL-2.0",
+  "pushed": "2026-11-06",
+  "archived": false,
+  "desc": "Enlightened library to convert HTML and CSS to SVG",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "openai/whisper",
+  "stars": 112522,
+  "license": "MIT",
+  "pushed": "2026-08-31",
+  "archived": false,
+  "desc": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "lang": "Python"
+ },
+ {
+  "repo": "SYSTRAN/faster-whisper",
+  "stars": 26677,
+  "license": "MIT",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "Faster Whisper transcription with CTranslate2",
+  "lang": "Python"
+ },
+ {
+  "repo": "m-bain/whisperX",
+  "stars": 25222,
+  "license": "BSD-2-Clause",
+  "pushed": "2026-10-22",
+  "archived": false,
+  "desc": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+  "lang": "Python"
+ },
+ {
+  "repo": "myshell-ai/MeloTTS",
+  "stars": 7711,
+  "license": "MIT",
+  "pushed": "2024-12-24",
+  "archived": false,
+  "desc": "High-quality multi-lingual text-to-speech library by MyShell.ai. Support English, Spanish, French, Chinese, Japanese and Korean.",
+  "lang": "Python"
+ },
+ {
+  "repo": "hexgrad/kokoro",
+  "stars": 10059,
+  "license": "Apache-2.0",
+  "pushed": "2025-08-06",
+  "archived": false,
+  "desc": "https://hf.co/hexgrad/Kokoro-82M",
+  "lang": "JavaScript"
+ },
+ {
+  "repo": "rany2/edge-tts",
+  "stars": 12518,
+  "license": "NOASSERTION",
+  "pushed": "2026-10-14",
+  "archived": false,
+  "desc": "Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge",
+  "lang": "Python"
+ },
+ {
+  "repo": "QwenAudio/CosyVoice",
+  "stars": 24368,
+  "license": "Apache-2.0",
+  "pushed": "2026-05-25",
+  "archived": false,
+  "desc": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.",
+  "lang": "Python"
+ },
+ {
+  "repo": "fishaudio/fish-speech",
+  "stars": 33689,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "SOTA Open Source TTS",
+  "lang": "Python"
+ },
+ {
+  "repo": "SWivid/F5-TTS",
+  "stars": 15565,
+  "license": "MIT",
+  "pushed": "2026-11-03",
+  "archived": false,
+  "desc": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
+  "lang": "Python"
+ },
+ {
+  "repo": "2noise/ChatTTS",
+  "stars": 40003,
+  "license": "AGPL-3.0",
+  "pushed": "2026-04-10",
+  "archived": false,
+  "desc": "A generative speech model for daily dialogue.",
+  "lang": "Python"
+ },
+ {
+  "repo": "KlingAIResearch/LivePortrait",
+  "stars": 19452,
+  "license": "NOASSERTION",
+  "pushed": "2026-06-01",
+  "archived": false,
+  "desc": "Bring portraits to life!",
+  "lang": "Python"
+ },
+ {
+  "repo": "OpenTalker/SadTalker",
+  "stars": 14198,
+  "license": "NOASSERTION",
+  "pushed": "2024-06-26",
+  "archived": false,
+  "desc": "[CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
+  "lang": "Python"
+ },
+ {
+  "repo": "TMElyralab/MuseTalk",
+  "stars": 6924,
+  "license": "NOASSERTION",
+  "pushed": "2025-09-26",
+  "archived": false,
+  "desc": "MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting",
+  "lang": "Python"
+ },
+ {
+  "repo": "Rudrabha/Wav2Lip",
+  "stars": 13274,
+  "license": null,
+  "pushed": "2025-06-22",
+  "archived": false,
+  "desc": "This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multime",
+  "lang": "Python"
+ },
+ {
+  "repo": "fudan-generative-vision/hallo",
+  "stars": 8675,
+  "license": "MIT",
+  "pushed": "2024-09-14",
+  "archived": false,
+  "desc": "Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation",
+  "lang": "Python"
+ },
+ {
+  "repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+  "stars": 39212,
+  "license": "MIT",
+  "pushed": "2026-08-04",
+  "archived": false,
+  "desc": "Easily train a good VC model with voice data <= 10 mins!",
+  "lang": "Python"
+ },
+ {
+  "repo": "pixiv/three-vrm",
+  "stars": 2282,
+  "license": "MIT",
+  "pushed": "2026-10-22",
+  "archived": false,
+  "desc": "Use VRM on Three.js",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "CapSoftware/Cap",
+  "stars": 24876,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "desc": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+  "lang": "Rust"
+ },
+ {
+  "repo": "siddharthvaddem/openscreen",
+  "stars": 40027,
+  "license": "MIT",
+  "pushed": "2026-10-17",
+  "archived": true,
+  "desc": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "danielgatis/rembg",
+  "stars": 25429,
+  "license": "MIT",
+  "pushed": "2026-11-06",
+  "archived": false,
+  "desc": "Rembg is a tool to remove images background",
+  "lang": "Python"
+ },
+ {
+  "repo": "ManimCommunity/manim",
+  "stars": 42425,
+  "license": "MIT",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "A community-maintained Python framework for creating mathematical animations. ",
+  "lang": "Python"
+ },
+ {
+  "repo": "diffusionstudio/core",
+  "stars": 1250,
+  "license": "MPL-2.0",
+  "pushed": "2025-11-18",
+  "archived": false,
+  "desc": "A fast, browser based video compositing engine powered by WebCodecs",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "microsoft/playwright",
+  "stars": 99902,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "desc": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "FFmpeg/FFmpeg",
+  "stars": 67079,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "desc": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+  "lang": "C"
+ },
+ {
+  "repo": "jitsi/jiwer",
+  "stars": 945,
+  "license": "Apache-2.0",
+  "pushed": "2026-09-03",
+  "archived": false,
+  "desc": "Evaluate your speech-to-text system with similarity measures such as word error rate (WER)",
+  "lang": "Python"
+ },
+ {
+  "repo": "remotion-dev/template-tiktok",
+  "stars": 308,
+  "license": null,
+  "pushed": "2026-11-09",
+  "archived": false,
+  "desc": "Generate TikTok-style captions with Whisper.cpp",
+  "lang": "TypeScript"
+ },
+ {
+  "repo": "gyroflow/gyroflow",
+  "stars": 9717,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "Video stabilization using gyroscope data",
+  "lang": "Rust"
+ },
+ {
+  "repo": "obsproject/obs-studio",
+  "stars": 79425,
+  "license": "GPL-2.0",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "OBS Studio - Free and open source software for live streaming and screen recording",
+  "lang": "C"
+ },
+ {
+  "repo": "JamesWDrake/screen-studio-alternative",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "repo": "Zackriya-Solutions/meetily",
+  "stars": 32640,
+  "license": "MIT",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "desc": "Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker dia",
+  "lang": "Rust"
+ },
+ {
+  "repo": "openvinotoolkit/openvino",
+  "stars": 11147,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+  "lang": "C++"
+ },
+ {
+  "repo": "coqui-ai/TTS",
+  "stars": 46215,
+  "license": "MPL-2.0",
+  "pushed": "2024-08-16",
+  "archived": false,
+  "desc": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+  "lang": "Python"
+ },
+ {
+  "repo": "resemble-ai/chatterbox",
+  "stars": 27764,
+  "license": "MIT",
+  "pushed": "2026-11-04",
+  "archived": false,
+  "desc": "SoTA open-source TTS",
+  "lang": "Python"
+ },
+ {
+  "repo": "Pinokio/pinokio",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "repo": "kijai/ComfyUI-LivePortraitKJ",
+  "stars": 2210,
+  "license": "MIT",
+  "pushed": "2024-08-05",
+  "archived": false,
+  "desc": "ComfyUI nodes for LivePortrait",
+  "lang": "Python"
+ },
+ {
+  "repo": "Comfy-Org/ComfyUI",
+  "stars": 146375,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the w",
+  "lang": "Python"
+ },
+ {
+  "repo": "black-forest-labs/flux",
+  "stars": 26058,
+  "license": "Apache-2.0",
+  "pushed": "2025-07-31",
+  "archived": false,
+  "desc": "Official inference repo for FLUX.1 models",
+  "lang": "Python"
+ },
+ {
+  "repo": "Wan-Video/Wan2.1",
+  "stars": 17419,
+  "license": "Apache-2.0",
+  "pushed": "2026-03-05",
+  "archived": false,
+  "desc": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "lang": "Python"
+ },
+ {
+  "repo": "Lightricks/LTX-Video",
+  "stars": 11365,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-02",
+  "archived": false,
+  "desc": "Official repository for LTX-Video",
+  "lang": "Python"
+ }
+]

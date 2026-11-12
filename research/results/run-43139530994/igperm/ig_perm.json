@@ -1,0 +1,43 @@
+{
+ "facebook_login_permissions": {
+  "status": 200,
+  "granted": [
+   "pages_show_list",
+   "business_management",
+   "instagram_basic",
+   "instagram_manage_insights",
+   "instagram_content_publish",
+   "pages_read_engagement",
+   "public_profile"
+  ],
+  "declined": [],
+  "error": null
+ },
+ "instagram_login_me": {
+  "status": 400,
+  "username": null,
+  "account_type": null,
+  "error": "Invalid OAuth access token - Cannot parse access token"
+ },
+ "instagram_login_permissions": {
+  "status": 400,
+  "data": null,
+  "error": "Invalid OAuth access token - Cannot parse access token"
+ },
+ "own_media": {
+  "status": 400,
+  "count": 0,
+  "with_comments": 0,
+  "error": "Invalid OAuth access token - Cannot parse access token"
+ },
+ "comments_read": {
+  "status": 0,
+  "n": 0,
+  "error": null
+ },
+ "messages_conversations_read": {
+  "status": 400,
+  "n": 0,
+  "error": "Invalid OAuth access token - Cannot parse access token"
+ }
+}
