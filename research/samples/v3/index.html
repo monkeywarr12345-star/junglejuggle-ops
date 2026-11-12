@@ -82,7 +82,6 @@
 
       /* S7 CTA */
       .cards { position: absolute; left: 64px; top: 520px; width: 610px; height: 560px; }
-      #cut3 { position: absolute; left: 640px; top: 780px; width: 440px; height: auto; transform: scaleX(-1); }
       .save .yr b { background: linear-gradient(transparent 58%, #ffcf3f 58%); padding: 0 4px; }
       .dim { position: absolute; inset: 0; background: rgba(239,231,220,.82); opacity: 0; }
       .bigc { position: absolute; left: 64px; top: 620px; width: 820px; height: 150px; border-radius: 75px; background: #fff; box-shadow: 0 30px 80px rgba(70,45,20,.25), 0 0 0 2px #1c1b1f; display: flex; align-items: center; padding: 0 26px 0 46px; opacity: 0; }
@@ -167,7 +166,7 @@
           <div class="pcard" id="k2" style="top: 170px"><div class="n">2</div><div>겹치는 것 찾기<small>하나만 남길 이유까지</small></div></div>
           <div class="pcard" id="k3" style="top: 340px"><div class="n">3</div><div>해지 순서 받기<small>결제일 가까운 것부터</small></div></div>
         </div>
-        <img id="cut3" src="assets/cut3.png" onerror="this.remove()" />
+        <div id="cut3w" style="position: absolute; left: 640px; top: 780px; width: 440px; transform: scaleX(-1)"><img id="cut3" src="assets/cut3.png" style="width: 100%; height: auto; display: block" onerror="this.remove()" /></div>
         <div class="savebtn" id="sb"><svg viewBox="0 0 24 24" fill="#ffcf3f"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z" /></svg>저장해 두기</div>
       </div>
 
@@ -198,8 +197,8 @@
       tl.fromTo("#mk2", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, a0 + 1.2);
       tl.fromTo("#pasteWrap", { opacity: 0, scale: 0.92, transformOrigin: "100% 0%" }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.8)" }, T.cue.paste);
       // STEP 2: big prompt box over a dimmed window
-      tl.to("#h2", { opacity: 0, duration: 0.2 }, s3[0] - 0.2);
-      tl.fromTo("#h3", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, s3[0] - 0.15);
+      tl.to("#h2", { opacity: 0, duration: 0.15 }, s3[0] - 0.2);
+      tl.fromTo("#h3", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, s3[0] + 0.02);
       tl.fromTo("#mk3", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, s3[0] + 0.1);
       tl.to("#dim", { opacity: 1, duration: 0.25 }, s3[0] - 0.2);
       tl.fromTo("#bigc", { y: 80, scale: 0.9, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.35, ease: "back.out(1.7)" }, s3[0] - 0.15);
@@ -221,8 +220,8 @@
       tl.to("#comp", { opacity: 0, duration: 0.2 }, T.cue.send + 0.3);
       tl.fromTo("#ub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25 }, T.cue.send + 0.32);
       // STEP 3: answer table + pointing character
-      tl.to("#h3", { opacity: 0, duration: 0.2 }, s4[0] - 0.1);
-      tl.fromTo("#h4", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, s4[0] - 0.05);
+      tl.to("#h3", { opacity: 0, duration: 0.15 }, s4[0] - 0.12);
+      tl.fromTo("#h4", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, s4[0] + 0.05);
       tl.fromTo("#mk4", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, s4[0] + 0.2);
       tl.fromTo("#ans", { opacity: 0 }, { opacity: 1, duration: 0.2 }, T.cue.ans);
       tl.from("#lead", { opacity: 0, x: -20, duration: 0.25 }, T.cue.ans);
@@ -254,7 +253,7 @@
       tl.fromTo("#mk7", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, c[0] + 0.3);
       tl.to(".cards", { scale: 1.04, transformOrigin: "0% 0%", duration: T.dur - c[0], ease: "none" }, c[0]);
       tl.fromTo(["#k1", "#k2", "#k3"], { x: 900, rotation: 6 }, { x: 0, rotation: 0, duration: 0.45, ease: "power3.out", stagger: 0.18 }, c[0] + 0.15);
-      tl.fromTo("#cut3", { x: 300, opacity: 0, scaleX: -1 }, { x: 0, opacity: 1, scaleX: -1, duration: 0.45, ease: "back.out(1.6)" }, c[0] + 0.05);
+      tl.fromTo("#cut3", { x: -300, opacity: 0 }, { x: 0, opacity: 1, duration: 0.45, ease: "back.out(1.6)" }, c[0] + 0.05);
       tl.to("#cut3", { y: -12, duration: 0.6, yoyo: true, repeat: 3, ease: "sine.inOut" }, c[0] + 0.6);
       tl.fromTo("#sb", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.35, ease: "back.out(2.4)" }, c[0] + 0.9);
       tl.to("#sb", { scale: 1.06, duration: 0.25, yoyo: true, repeat: 3, ease: "sine.inOut" }, c[0] + 1.4);
