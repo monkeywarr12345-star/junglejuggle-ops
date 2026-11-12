@@ -35,7 +35,7 @@ jobs:
           OUT=research/results/v3; mkdir -p $OUT; rm -f $OUT/v3_*.mp4 $OUT/voices.txt $OUT/timeline_*.json
           printf "skip\n" > /dev/null
           MUSIC=$(head -1 research/samples/v3/music.txt)
-          case "$MUSIC" in freepd:*) CAT=$(echo $MUSIC | cut -d: -f2); NAME=$(echo $MUSIC | cut -d: -f3); curl -sfL -A "Mozilla/5.0" https://freepd.com/$CAT.php -o /tmp/fp.html; grep -oiE "[^\"' ]*\.mp3" /tmp/fp.html | sort -u | head -40; U=$(grep -oiE "[^\"' ]*\.mp3" /tmp/fp.html | grep -i "$NAME" | head -1); case "$U" in http*) ;; /*) U=https://freepd.com$U ;; *) U=https://freepd.com/$U ;; esac; echo "freepd url: $U"; MUSIC="$U" ;; esac
+          case "$MUSIC" in cc0:*) Q=${MUSIC#cc0:}; if python research/samples/v3/cc0_music.py "$Q" /tmp/music.mp3 | tee /tmp/music_pick.txt; then MUSIC=/tmp/music.mp3; else MUSIC=music/library/chill/astroshroom-lofi-house-480aed.mp3; fi ;; esac
           case "$MUSIC" in http*) curl -sfL -A "Mozilla/5.0" -o /tmp/music.mp3 "$MUSIC" && MUSIC=/tmp/music.mp3 || MUSIC=music/library/chill/astroshroom-lofi-house-480aed.mp3 ;; esac; ffprobe -v error -show_entries format=duration -of csv=p=0 "$MUSIC"; echo "music: $MUSIC"
           K=0
           while IFS= read -r VOICE; do
@@ -49,7 +49,7 @@ jobs:
               "[1:a]aresample=48000,asplit[n][nk];[2:a]aresample=48000,volume=0.7[s];[3:a]aresample=48000,volume=0.16,afade=t=in:d=0.4,afade=t=out:st=$FO:d=1.2[m0];[m0][nk]sidechaincompress=threshold=0.02:ratio=6:attack=15:release=350[m];[n][s][m]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.95[a]" \
               -map 0:v -map "[a]" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -c:a aac -b:a 192k -t $DUR $OUT/v3_$TAG.mp4
             ffmpeg -nostdin -y -loglevel error -i $W/silent.mp4 -i $W/narration.wav -i $W/sfx.wav -filter_complex "[1:a]aresample=48000[n];[2:a]aresample=48000,volume=0.7[s];[n][s]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.95[a]" -map 0:v -map "[a]" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -c:a aac -b:a 192k -t $DUR $OUT/v3_${TAG}_nomusic.mp4
-            cp $W/timeline.json $OUT/timeline_$TAG.json; echo "$TAG: $VOICE" >> $OUT/voices.txt
+            cp /tmp/music_pick.txt $OUT/music_pick.txt 2>/dev/null || true; cp $W/timeline.json $OUT/timeline_$TAG.json; echo "$TAG: $VOICE" >> $OUT/voices.txt
           done < research/samples/v3/voice.txt
           F=$OUT/v3_A.mp4
           python - "$F" <<'E'
