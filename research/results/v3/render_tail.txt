@@ -1,0 +1,5 @@
+
+◇  /tmp/v3/silent.mp4
+   2.2 MB · 21.2s video · rendered in 34.4s
+   beginframe capture · software gpu · compile 1.0s · extract 0.0s · audio 0.0s · probe 0.1s · setup 1.4s · capture 31.9s · encode (during capture) 31.9s · assemble 0.1s
+@hf-result {"version":1,"operation":"render","reference_background":{"kind":"solid","rgb":[239,231,220]}}
