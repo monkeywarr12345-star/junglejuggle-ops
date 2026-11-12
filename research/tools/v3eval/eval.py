@@ -14,7 +14,7 @@ m = WhisperModel("medium", device="cpu", compute_type="int8")
 res = []
 for f in sorted(glob.glob("research/results/v3tools/tts_*/*.mp3")):
     y, sr = librosa.load(f, sr=16000)
-    segs, _ = m.transcribe(f, language="ko", beam_size=5)
+    segs, _ = m.transcribe(y.astype(np.float32), language="ko", beam_size=5)
     hyp = "".join(s.text for s in segs)
     f0, vf, _ = librosa.pyin(y, fmin=70, fmax=400, sr=sr)
     f0v = f0[~np.isnan(f0)]
