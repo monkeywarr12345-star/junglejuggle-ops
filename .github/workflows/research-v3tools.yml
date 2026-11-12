@@ -5,7 +5,6 @@ on:
     paths: ['research/tools/v3/**']
 permissions:
   contents: write
-concurrency: { group: v3tools-${{ github.ref }}, cancel-in-progress: false }
 jobs:
   tts:
     runs-on: ubuntu-latest
