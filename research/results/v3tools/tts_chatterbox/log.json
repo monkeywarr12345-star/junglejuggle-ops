@@ -1,0 +1,10 @@
+{
+ "engine": "chatterbox",
+ "runs": [
+  {
+   "name": "ko default",
+   "sec": 99.2,
+   "file": "research/results/v3tools/tts_chatterbox/chatterbox_ko.wav"
+  }
+ ]
+}
