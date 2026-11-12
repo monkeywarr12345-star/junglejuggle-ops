@@ -1,0 +1,26 @@
+{
+ "engine": "qwen06",
+ "runs": [
+  {
+   "name": "sohee plain",
+   "sec": 211.3,
+   "file": "research/results/v3tools/tts_qwen06/qwen06_sohee_plain.wav"
+  },
+  {
+   "name": "sohee 밝고 경쾌한 숏폼 내레이션, 조금 빠르게",
+   "sec": 173.5,
+   "file": "research/results/v3tools/tts_qwen06/qwen06_sohee_inst.wav"
+  }
+ ],
+ "speakers": [
+  "aiden",
+  "dylan",
+  "eric",
+  "ono_anna",
+  "ryan",
+  "serena",
+  "sohee",
+  "uncle_fu",
+  "vivian"
+ ]
+}
