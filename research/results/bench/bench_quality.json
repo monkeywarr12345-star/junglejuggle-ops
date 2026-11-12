@@ -1,0 +1,517 @@
+{
+ "grappt_": {
+  "followers": 120716,
+  "n_recent": 17,
+  "reel_share_recent": 0.65,
+  "top": [
+   {
+    "kind": "reel",
+    "date": "2026-07-25",
+    "eng": 101428,
+    "slides": null,
+    "caption_chars": 387,
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.316,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#505030",
+     "#707050"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-10-01",
+    "eng": 44155,
+    "slides": null,
+    "caption_chars": 429,
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.375,
+    "n_colors": 51,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#705050"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-08-21",
+    "eng": 43450,
+    "slides": null,
+    "caption_chars": 641,
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.351,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#70F070",
+     "#101010"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-08-15",
+    "eng": 11323,
+    "slides": 7,
+    "caption_chars": 526,
+    "cover_chars": 22,
+    "visual": "photo",
+    "top5_share": 0.612,
+    "n_colors": 73,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#70F0D0"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-08-06",
+    "eng": 7148,
+    "slides": 11,
+    "caption_chars": 405,
+    "cover_chars": 31,
+    "visual": "photo",
+    "top5_share": 0.568,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#70D0D0"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-07-29",
+    "eng": 2941,
+    "slides": 9,
+    "caption_chars": 549,
+    "cover_chars": 15,
+    "visual": "graphic",
+    "top5_share": 0.778,
+    "n_colors": 55,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#70D0D0"
+    ]
+   }
+  ]
+ },
+ "ai.trend.kr": {
+  "followers": 271401,
+  "n_recent": 100,
+  "reel_share_recent": 0.28,
+  "top": [
+   {
+    "kind": "reel",
+    "date": "2026-10-20",
+    "eng": 76409,
+    "slides": null,
+    "caption_chars": 974,
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.52,
+    "n_colors": 44,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-10-11",
+    "eng": 38172,
+    "slides": null,
+    "caption_chars": 1054,
+    "cover_chars": 16,
+    "visual": "photo",
+    "top5_share": 0.563,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#301010"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-10-23",
+    "eng": 14459,
+    "slides": null,
+    "caption_chars": 1181,
+    "cover_chars": 12,
+    "visual": "photo",
+    "top5_share": 0.69,
+    "n_colors": 66,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-10-08",
+    "eng": 6992,
+    "slides": 7,
+    "caption_chars": 1036,
+    "cover_chars": 16,
+    "visual": "graphic",
+    "top5_share": 0.633,
+    "n_colors": 49,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-10-27",
+    "eng": 6639,
+    "slides": 8,
+    "caption_chars": 1070,
+    "cover_chars": 10,
+    "visual": "graphic",
+    "top5_share": 0.687,
+    "n_colors": 36,
+    "face": false,
+    "colors": [
+     "#70D0D0",
+     "#101010"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-10-10",
+    "eng": 5675,
+    "slides": 12,
+    "caption_chars": 958,
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.709,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   }
+  ]
+ },
+ "adu.aihub": {
+  "followers": 119478,
+  "n_recent": 77,
+  "reel_share_recent": 0.77,
+  "top": [
+   {
+    "kind": "reel",
+    "date": "2026-09-09",
+    "eng": 19190,
+    "slides": null,
+    "caption_chars": 604,
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.995,
+    "n_colors": 3,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0F0"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-07-20",
+    "eng": 14357,
+    "slides": null,
+    "caption_chars": 346,
+    "cover_chars": 6,
+    "visual": "graphic",
+    "top5_share": 0.836,
+    "n_colors": 41,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-07-21",
+    "eng": 12571,
+    "slides": null,
+    "caption_chars": 296,
+    "cover_chars": 4,
+    "visual": "graphic",
+    "top5_share": 0.812,
+    "n_colors": 32,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#109090"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-09-01",
+    "eng": 6739,
+    "slides": 5,
+    "caption_chars": 316,
+    "cover_chars": 18,
+    "visual": "graphic",
+    "top5_share": 0.752,
+    "n_colors": 37,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#505050"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-08-13",
+    "eng": 6533,
+    "slides": 4,
+    "caption_chars": 629,
+    "cover_chars": 26,
+    "visual": "graphic",
+    "top5_share": 0.758,
+    "n_colors": 26,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#109070"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-10-17",
+    "eng": 6250,
+    "slides": 5,
+    "caption_chars": 714,
+    "cover_chars": 30,
+    "visual": "graphic",
+    "top5_share": 0.689,
+    "n_colors": 29,
+    "face": false,
+    "colors": [
+     "#50D0D0",
+     "#303030"
+    ]
+   }
+  ]
+ },
+ "ai_newpd": {
+  "followers": 120506,
+  "n_recent": 100,
+  "reel_share_recent": 0.49,
+  "top": [
+   {
+    "kind": "reel",
+    "date": "2026-09-06",
+    "eng": 3279,
+    "slides": null,
+    "caption_chars": 465,
+    "cover_chars": 17,
+    "visual": "graphic",
+    "top5_share": 0.87,
+    "n_colors": 28,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-09-24",
+    "eng": 1734,
+    "slides": null,
+    "caption_chars": 474,
+    "cover_chars": 3,
+    "visual": "photo",
+    "top5_share": 0.407,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-09-06",
+    "eng": 1053,
+    "slides": null,
+    "caption_chars": 535,
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.469,
+    "n_colors": 65,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#70F0D0"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-09-22",
+    "eng": 11857,
+    "slides": 7,
+    "caption_chars": 755,
+    "cover_chars": 1,
+    "visual": "photo",
+    "top5_share": 0.353,
+    "n_colors": 52,
+    "face": false,
+    "colors": [
+     "#503030",
+     "#50B090"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-10-01",
+    "eng": 10637,
+    "slides": 9,
+    "caption_chars": 800,
+    "cover_chars": 9,
+    "visual": "photo",
+    "top5_share": 0.552,
+    "n_colors": 56,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#303030"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-10-21",
+    "eng": 10619,
+    "slides": 8,
+    "caption_chars": 681,
+    "cover_chars": 0,
+    "visual": "photo",
+    "top5_share": 0.476,
+    "n_colors": 48,
+    "face": false,
+    "colors": [
+     "#70F0F0",
+     "#303030"
+    ]
+   }
+  ]
+ },
+ "gpt_haterz": {
+  "followers": 27964,
+  "n_recent": 56,
+  "reel_share_recent": 0.79,
+  "top": [
+   {
+    "kind": "reel",
+    "date": "2026-09-25",
+    "eng": 8004,
+    "slides": null,
+    "caption_chars": 318,
+    "cover_chars": 22,
+    "visual": "photo",
+    "top5_share": 0.501,
+    "n_colors": 66,
+    "face": false,
+    "colors": [
+     "#303030",
+     "#101010"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-09-15",
+    "eng": 7605,
+    "slides": null,
+    "caption_chars": 419,
+    "cover_chars": 13,
+    "visual": "graphic",
+    "top5_share": 0.768,
+    "n_colors": 58,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#103030"
+    ]
+   },
+   {
+    "kind": "reel",
+    "date": "2026-08-28",
+    "eng": 7295,
+    "slides": null,
+    "caption_chars": 680,
+    "cover_chars": 14,
+    "visual": "graphic",
+    "top5_share": 0.761,
+    "n_colors": 39,
+    "face": false,
+    "colors": [
+     "#101010",
+     "#101030"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-09-14",
+    "eng": 12640,
+    "slides": 5,
+    "caption_chars": 603,
+    "cover_chars": 24,
+    "visual": "photo",
+    "top5_share": 0.393,
+    "n_colors": 61,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#70D0B0"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-09-17",
+    "eng": 8829,
+    "slides": 7,
+    "caption_chars": 615,
+    "cover_chars": 36,
+    "visual": "graphic",
+    "top5_share": 0.724,
+    "n_colors": 42,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#70F0F0"
+    ]
+   },
+   {
+    "kind": "carousel",
+    "date": "2026-09-27",
+    "eng": 8742,
+    "slides": 8,
+    "caption_chars": 166,
+    "cover_chars": 38,
+    "visual": "graphic",
+    "top5_share": 0.781,
+    "n_colors": 43,
+    "face": false,
+    "colors": [
+     "#70F0D0",
+     "#101010"
+    ]
+   }
+  ]
+ }
+}
