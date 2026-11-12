@@ -1,0 +1,9 @@
+[
+ {"media_id": "TEST_MEDIA_1", "comment_id": "c1", "text": "받기", "timestamp": "2026-11-12T01:00:00+0000", "user_id": "u1", "username": "a_user"},
+ {"media_id": "TEST_MEDIA_1", "comment_id": "c2", "text": "받 기 부탁드려요!", "timestamp": "2026-11-12T01:05:00+0000", "user_id": "u2", "username": "b_user"},
+ {"media_id": "TEST_MEDIA_1", "comment_id": "c3", "text": "와 대박", "timestamp": "2026-11-12T01:06:00+0000", "user_id": "u3", "username": "c_user"},
+ {"media_id": "TEST_MEDIA_1", "comment_id": "c4", "text": "받기", "timestamp": "2026-11-01T01:00:00+0000", "user_id": "u4", "username": "d_user"},
+ {"media_id": "TEST_MEDIA_1", "comment_id": "c5", "text": "받기 받기", "timestamp": "2026-11-12T01:10:00+0000", "user_id": "u1", "username": "a_user"},
+ {"media_id": "OTHER", "comment_id": "c6", "text": "받기", "timestamp": "2026-11-12T01:10:00+0000", "user_id": "u5", "username": "e_user"},
+ {"media_id": "TEST_MEDIA_1", "comment_id": "c7", "text": "구독료 정리 받고 싶어요", "timestamp": "2026-11-12T01:11:00+0000", "user_id": "u6", "username": "junglejuggle"}
+]

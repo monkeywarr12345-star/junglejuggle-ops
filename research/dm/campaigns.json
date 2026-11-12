@@ -1,0 +1,9 @@
+{
+ "own_username": "junglejuggle",
+ "daily_cap": 150,
+ "gap_sec": 3,
+ "template": "안녕하세요! 댓글 고마워요 🙌\n말씀하신 '{title}' 정리본 여기 있어요 👉 {link}\n써 보고 막히는 데 있으면 이 대화방에 편하게 물어봐 주세요.",
+ "campaigns": {
+  "TEST_MEDIA_1": {"title": "구독료 정리 프롬프트 3개", "keywords": ["받기", "구독"], "link": "https://example.com/prompt-pack-1"}
+ }
+}
