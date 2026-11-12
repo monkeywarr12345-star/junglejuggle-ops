@@ -16,7 +16,8 @@ jobs:
         run: |
           ID=$(head -1 research/fetch_run.txt)
           mkdir -p research/results/run-$ID
-          gh run download $ID -R ${{ github.repository }} -D research/results/run-$ID || true
+          rm -rf /tmp/dl && gh run download $ID -R ${{ github.repository }} -D /tmp/dl || true
+          cp -rn /tmp/dl/* research/results/run-$ID/ || true
           find research/results -name "*.mp4" -size +40M -delete || true
           git config user.name "github-actions"; git config user.email "actions@github.com"
           git add research/results
