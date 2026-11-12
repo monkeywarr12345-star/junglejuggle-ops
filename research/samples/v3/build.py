@@ -20,7 +20,7 @@ LINES = [
 # real screen recording (OpenScreen, 2576x1416). source times in seconds, crop = chat column.
 REC = "assets/rec1.mp4"; REC_OUT = "assets/rec_cut.mp4"
 REC_CROP = (1000, 100, 820, 1300)  # x, y, w, h in source px (camera coords in index.html use this crop)
-REC_PROMPT, REC_SEND, REC_SEND_END, REC_ANS0, REC_TBL1, REC_DONE = 0.0, 3.3, 3.8, 9.6, 11.6, 15.0
+REC_PROMPT, REC_SEND, REC_SEND_END, REC_ANS0, REC_TBL1, REC_DONE = 0.0, 3.3, 3.65, 9.6, 11.6, 15.0
 LEAD, GAP, TAIL = 0.12, 0.16, 1.3
 
 
@@ -144,7 +144,7 @@ def synth_sfx(cues, dur):
     return out[: int(SR * dur)]
 
 
-CARD = (40, 470, 1000, 700)  # on-screen recording card: left, top, w, h (must match #rec in index.html)
+CARD = (40, 470, 1000, 820)  # on-screen recording card: left, top, w, h (must match #rec in index.html)
 
 
 def cam_at(cams, t):
@@ -241,11 +241,12 @@ def main():
     ]
     s3a, s4a = win["s3"][0], win["s4"][0]
     r = lambda t: round(t - a0, 3)
-    WIDE, CAM_PROMPT, CAM_SEND, CAM_THREAD, CAM_TBL, CAM_DUP = (410, 640, 1.22), (410, 615, 1.3), (585, 630, 2.25), (410, 400, 1.22), (410, 440, 1.3), (410, 905, 1.27)
+    WIDE, CAM_PROMPT, CAM_SEND, CAM_THREAD, CAM_TBL, CAM_DUP = (410, 640, 1.22), (300, 610, 1.85), (575, 630, 2.25), (410, 420, 1.22), (390, 440, 1.45), (300, 935, 1.75)
     cams = [
         (0.0, *WIDE), (0.9, *WIDE),
         (r(s3a), *CAM_PROMPT),                 # read the pasted statement
-        (r(s3a + 0.7), *CAM_SEND),             # the one-line request + send button
+        (r(min(s3a + 0.8, send - 0.9)), *CAM_PROMPT),
+        (r(min(s3a + 1.4, send - 0.3)), *CAM_SEND),  # the one-line request + send button
         (r(send + 0.12), *CAM_SEND),
         (r(cue["ans"] + 0.1), *CAM_THREAD),    # zoom out as the thread appears
         (r(s5a - 0.4), *CAM_TBL),
@@ -257,6 +258,7 @@ def main():
     hl = []
     for yy in (901, 938, 975):  # overlap rows (OTT / music / cloud) in crop px
         x0, y0 = to_screen(CAM_DUP, 22, yy - 17); x1, y1 = to_screen(CAM_DUP, 798, yy + 17)
+        L, T, W, H = CARD; x0 = max(x0, L + 6); x1 = min(x1, L + W - 6)
         hl.append([round(x0), round(y0), round(x1 - x0), round(y1 - y0)])
     tl = {"dur": dur, "s": win, "caps": caps, "cue": cue, "rip": rip, "hl": hl}
     open(os.path.join(HERE, "timeline.js"), "w", encoding="utf-8").write("window.TL = " + json.dumps(tl, ensure_ascii=False) + ";\n")

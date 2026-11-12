@@ -71,7 +71,7 @@
       .ripple { position: absolute; width: 90px; height: 90px; border-radius: 50%; border: 5px solid #ffcf3f; z-index: 39; opacity: 0; }
 
       /* real recording card (video is a root-level clip; camera moves are baked in by build.py) */
-      #rec { position: absolute; left: 40px; top: 470px; width: 1000px; height: 700px; border-radius: 28px; background: #fafafa; box-shadow: 0 40px 100px rgba(70,45,20,.28), 0 0 0 2px #1c1b1f; object-fit: cover; }
+      #rec { position: absolute; left: 40px; top: 470px; width: 1000px; height: 820px; border-radius: 28px; background: #fafafa; box-shadow: 0 40px 100px rgba(70,45,20,.28), 0 0 0 2px #1c1b1f; object-fit: cover; }
       .hlbar { position: absolute; border-radius: 10px; background: rgba(255,207,63,.5); mix-blend-mode: multiply; transform-origin: 0 50%; transform: scaleX(0); z-index: 5; }
       .recrip { position: absolute; width: 110px; height: 110px; border-radius: 50%; border: 6px solid #ffcf3f; z-index: 6; opacity: 0; }
 
@@ -123,8 +123,8 @@
         <div class="plate" id="p2" style="left: 0; top: 0; width: 1080px; height: 1920px"><img src="assets/img6.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
         <div class="hlbar" id="hb1"></div><div class="hlbar" id="hb2"></div><div class="hlbar" id="hb3"></div>
         <div class="recrip" id="rip"></div>
-        <img class="pose" id="cut4" src="assets/cut4.png" style="left: 790px; top: 1150px; width: 290px" onerror="this.remove()" />
-        <img class="pose" id="cut3b" src="assets/cut3.png" style="left: 0px; top: 1150px; width: 290px" onerror="this.remove()" />
+        <img class="pose" id="cut4" src="assets/cut4.png" style="left: 790px; top: 1270px; width: 290px" onerror="this.remove()" />
+        <img class="pose" id="cut3b" src="assets/cut3.png" style="left: 0px; top: 1270px; width: 290px" onerror="this.remove()" />
         <div class="head" id="h2"><small>STEP 1</small>내역에 <span class="mk" id="mk2">한 줄 붙이기</span></div>
         <div class="head" id="h3" style="opacity: 0"><small>STEP 2</small>보내면 <span class="mk" id="mk3">표가 바로</span></div>
         <div class="head" id="h4" style="opacity: 0"><small>STEP 3</small>겹치는 구독 <span class="mk" id="mk4">바로 보임</span></div>
@@ -225,6 +225,7 @@
         const d = document.createElement("div"); d.id = "cp" + i; d.innerHTML = html; d.style.visibility = "hidden"; cap.appendChild(d);
         if (sid === "s6") d.style.top = "-330px";
         if (sid === "s7") d.style.right = "190px";
+        if (["s2", "s3", "s4", "s5"].includes(sid)) d.style.top = "130px";
         if (sid === "s3" || sid === "s4") d.style.right = "200px";
         if (sid === "s5") d.style.left = "220px";
         show(d, t0, t1);
