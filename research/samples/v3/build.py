@@ -20,7 +20,7 @@ LINES = [
 # real screen recording (OpenScreen, 2576x1416). source times in seconds, crop = chat column.
 REC = "assets/rec1.mp4"; REC_OUT = "assets/rec_cut.mp4"
 REC_CROP = (1000, 100, 820, 1300)  # x, y, w, h in source px (camera coords in index.html use this crop)
-REC_PROMPT, REC_SEND, REC_SEND_END, REC_ANS0, REC_TBL1, REC_DONE = 0.0, 3.3, 3.65, 9.6, 11.6, 15.0
+REC_PROMPT, REC_SEND, REC_SEND_END, REC_ANS0, REC_TBL1, REC_DONE = 0.0, 3.3, 3.45, 9.75, 11.6, 15.0
 LEAD, GAP, TAIL = 0.12, 0.16, 1.3
 
 
@@ -247,8 +247,8 @@ def main():
         (r(s3a), *CAM_PROMPT),                 # read the pasted statement
         (r(min(s3a + 0.8, send - 0.9)), *CAM_PROMPT),
         (r(min(s3a + 1.4, send - 0.3)), *CAM_SEND),  # the one-line request + send button
-        (r(send + 0.12), *CAM_SEND),
-        (r(cue["ans"] + 0.1), *CAM_THREAD),    # zoom out as the thread appears
+        (r(send + 0.05), *CAM_SEND),
+        (r(cue["ans"] + 0.25), *CAM_THREAD),   # zoom out as the thread appears
         (r(s5a - 0.4), *CAM_TBL),
         (r(s5a + 0.3), *CAM_DUP),             # pan down to the overlap table
         (r(a1) + 1, *CAM_DUP),
