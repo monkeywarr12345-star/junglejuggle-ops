@@ -170,7 +170,7 @@
       // ---------- S1 hook (visible at frame 0) ----------
       show("#s1", 0, S("s1")[1]);
       tl.fromTo("#p1", { scale: 1.12, y: 0 }, { scale: 1.0, y: -20, duration: S("s1")[1], ease: "power1.out" }, 0);
-      tl.fromTo("#mk1", { "--mk": 0 }, { "--mk": 1, duration: 0.35, ease: "power2.out" }, 0.15);
+      tl.fromTo("#mk1", { scale: 1 }, { scale: 1.07, duration: 0.22, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "0% 50%" }, 0.3);
       [["#c1", 0.35], ["#c2", 0.75], ["#c3", 1.15]].forEach(([c, t]) => tl.fromTo(c, { scale: 0.4, opacity: 0, rotation: -6 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.32, ease: "back.out(2.2)" }, t));
       tl.to(["#c1", "#c2", "#c3"], { y: -14, duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: 3, stagger: 0.2 }, 1.4);
 
