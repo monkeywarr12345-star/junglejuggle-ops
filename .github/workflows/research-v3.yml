@@ -35,7 +35,7 @@ jobs:
           OUT=research/results/v3; mkdir -p $OUT; rm -f $OUT/v3_*.mp4 $OUT/voices.txt $OUT/timeline_*.json
           printf "skip\n" > /dev/null
           MUSIC=$(head -1 research/samples/v3/music.txt)
-          case "$MUSIC" in cc0:*) Q=${MUSIC#cc0:}; if python research/samples/v3/cc0_music.py "$Q" /tmp/music.mp3 | tee /tmp/music_pick.txt; then MUSIC=/tmp/music.mp3; else MUSIC=music/library/chill/astroshroom-lofi-house-480aed.mp3; fi ;; esac
+          case "$MUSIC" in gen:*) python scripts/music.py ${MUSIC#gen:} 40 /tmp/music.wav jj-v3 && MUSIC=/tmp/music.wav && echo "gen music (self-made, no credit)" > /tmp/music_pick.txt ;; esac
           case "$MUSIC" in http*) curl -sfL -A "Mozilla/5.0" -o /tmp/music.mp3 "$MUSIC" && MUSIC=/tmp/music.mp3 || MUSIC=music/library/chill/astroshroom-lofi-house-480aed.mp3 ;; esac; ffprobe -v error -show_entries format=duration -of csv=p=0 "$MUSIC"; echo "music: $MUSIC"
           K=0
           while IFS= read -r VOICE; do
