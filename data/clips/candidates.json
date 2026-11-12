@@ -38,5 +38,28 @@
   ],
   "note": "1번 후보와 같은 이슈라 둘 중 하나만 사용. 얼굴 노출·배경음 확인 필요. / 11.11 19:00 슬롯 지남 → expired(11.12 05시 발굴)",
   "expired_at": "2026-11-12T05:40:00+09:00"
+ },
+ {
+  "found_at": "2026-11-13T05:50:00+09:00",
+  "url": "https://x.com/nodan_anoda/status/2120079333574451457",
+  "creator": "@nodan_anoda",
+  "platform": "X",
+  "what": "일본 기타큐슈 공항 2층 출발 로비 전시차(닛산 엑스트레일)를 교체하려고 터미널 실내 계단(폭 약 2.5m)에 임시 발판을 깔고 차를 몰고 내려오는 영상(11.2~3 심야 작업), 이어서 엘그란드를 같은 계단으로 올림",
+  "angle": "공항 로비에 차를 세워두는 게 광고비 얼마짜리일까 — 닛산이 2006년부터 20년째 이어온 공항 전시 마케팅과 요즘 닛산 구조조정 상황",
+  "views": null,
+  "likes": null,
+  "posted_at": "2026-11-10",
+  "length_sec": null,
+  "score": 6,
+  "score_note": "속도 2(11.10 게시, 11.11 해외 기사화) + 해설 2 + 훅 2(차가 계단을 내려오는 첫 장면) + 한국 공감 0~1(닛산·일본 여행)",
+  "grade_possible": "C",
+  "korea_spread": "낮음",
+  "korea_spread_note": "국내 기사 검색 0건(11.13 05시), 인스타 국내 확산은 Chrome 미연결로 미확인",
+  "check_before_use": "작업자 얼굴이 크게 식별되는지, 배경 음악 유무, 길이를 영상에서 직접 확인(원본 X 게시물 수치 미확인)",
+  "source_article": "https://sundayguardianlive.com/world/watch-video-nissan-x-trail-makes-a-nerve-racking-descent-down-indoor-staircase-in-japan-as-unusual-airport-car-display-replacement-goes-viral-320652/",
+  "file_name": "c2.mp4",
+  "file_status": "needs_user",
+  "slot": "19:00",
+  "status": "new"
  }
 ]
