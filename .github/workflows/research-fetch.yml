@@ -1,0 +1,24 @@
+name: research fetch results (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/fetch_run.txt']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: download and commit
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: |
+          ID=$(head -1 research/fetch_run.txt)
+          mkdir -p research/results/run-$ID
+          gh run download $ID -R ${{ github.repository }} -D research/results/run-$ID || true
+          find research/results -name "*.mp4" -size +40M -delete || true
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results
+          git commit -m "research: results of run $ID" || exit 0
+          git push
