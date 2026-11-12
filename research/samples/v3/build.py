@@ -63,7 +63,7 @@ def make_tts(spec):
         m = Qwen3TTSModel.from_pretrained(f"Qwen/Qwen3-TTS-12Hz-{size}-CustomVoice", device_map="cpu", dtype=torch.float32)
         spk, _, inst = arg.partition(" ")
         def f(t):
-            kw = dict(text=t, language="Korean", speaker=spk or "Sohee")
+            kw = dict(text=t, language="Korean", speaker=(spk or "sohee").lower())
             if inst: kw["instruct"] = inst
             w, sr = m.generate_custom_voice(**kw)
             return resample(np.asarray(w[0], np.float32), sr)
@@ -148,7 +148,7 @@ def main():
     type0 = sp["s3"][0] + 0.1; type1 = max(type0 + 0.9, sp["s3"][1] - 0.2)
     send = type1 + 0.15
     cue = {
-        "paste": round(win["s2"][0] + 0.55, 3),
+        "paste": round(win["s2"][0] + 1.45, 3),
         "type0": round(type0, 3), "type1": round(type1, 3), "send": round(send, 3),
         "ans": round(max(send + 0.4, win["s4"][0] + 0.05), 3),
         "hl1": round(sp["s5"][0] + 0.15, 3),

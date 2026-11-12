@@ -15,7 +15,7 @@ jobs:
         with: { python-version: '3.12' }
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: sudo apt-get install -y -qq ffmpeg libsndfile1 >/dev/null || true
+      - run: sudo apt-get install -y -qq ffmpeg libsndfile1 fonts-noto-cjk >/dev/null || true
       - name: voice deps
         run: |
           VOICE=$(head -1 research/samples/v3/voice.txt)
@@ -29,7 +29,10 @@ jobs:
         working-directory: research/samples/v3
         run: |
           mkdir -p assets /tmp/v3
-          for i in 0 1 2; do f=../../results/v3tools/img/img$i.jpg; [ -f $f ] && [ ! -f assets/img$i.jpg ] && cp $f assets/img$i.jpg; done
+          mkdir -p assets/fonts; for W in Medium SemiBold Bold ExtraBold Black; do curl -sfL -o assets/fonts/Pretendard-$W.woff2 https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-$W.woff2 || echo font-fail $W; done; ls -la assets/fonts
+          pip install -q pillow scipy
+          for i in 0 1 2 3 4 5 6; do f=../../results/v3tools/img/img$i.jpg; [ -f $f ] && [ ! -f assets/img$i.jpg ] && python -c "from PIL import Image;Image.open('$f').resize((1080,1920),Image.LANCZOS).save('assets/img$i.jpg',quality=92)"; done
+          for i in 3 4 5; do [ -f assets/img$i.jpg ] && python cutout.py assets/img$i.jpg assets/cut$i.png; done; ls assets
           python build.py "$(head -1 voice.txt)" /tmp/v3
       - name: render
         working-directory: research/samples/v3

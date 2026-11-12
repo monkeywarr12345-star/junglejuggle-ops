@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=1080, height=1920" />
     <title>AI 구독료 정리 견본 v3</title>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <script src="timeline.js"></script>
     <style>
+      @font-face { font-family: "Pretendard"; font-weight: 500; font-display: block; src: url("assets/fonts/Pretendard-Medium.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 600; font-display: block; src: url("assets/fonts/Pretendard-SemiBold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 700; font-display: block; src: url("assets/fonts/Pretendard-Bold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 800; font-display: block; src: url("assets/fonts/Pretendard-ExtraBold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 900; font-display: block; src: url("assets/fonts/Pretendard-Black.woff2") format("woff2"); }
       * { box-sizing: border-box; margin: 0; padding: 0; }
-      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #efe7dc; font-family: "Pretendard", sans-serif; color: #1c1b1f; -webkit-font-smoothing: antialiased; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #efe7dc; font-family: "Pretendard", "Noto Sans CJK KR", sans-serif; color: #1c1b1f; -webkit-font-smoothing: antialiased; }
       #root { position: absolute; inset: 0; overflow: hidden; }
       .bg { position: absolute; inset: 0; background: radial-gradient(900px 700px at 80% 8%, #fff7ec 0%, transparent 65%), radial-gradient(900px 900px at 10% 100%, #f2d9c0 0%, transparent 60%), #efe7dc; }
       .scene { position: absolute; inset: 0; visibility: hidden; }
@@ -31,8 +35,8 @@
       .plate.fb { background: linear-gradient(160deg, #f6dcc2, #e9c9a8); }
 
       /* S1 hook */
-      #s1 .plate { left: 0; top: 0; width: 1080px; height: 1920px; }
-      #s1 .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(239,231,220,.97) 0%, rgba(239,231,220,.86) 22%, rgba(239,231,220,0) 40%, rgba(0,0,0,0) 62%, rgba(28,27,31,.35) 100%); }
+      #s1 .plate { left: 0; top: 330px; width: 1080px; height: 1920px; }
+      #s1 .shade { position: absolute; inset: 0; background: linear-gradient(180deg, #efe7dc 0%, #efe7dc 17%, rgba(239,231,220,0) 30%, rgba(0,0,0,0) 70%, rgba(28,27,31,.28) 100%); }
       .chip { position: absolute; font-weight: 800; font-size: 40px; padding: 14px 24px; border-radius: 18px; background: #fff; box-shadow: 0 14px 40px rgba(60,40,20,.22); letter-spacing: -1px; }
       .chip i { font-style: normal; color: #e5484d; margin-left: 10px; }
 
@@ -77,11 +81,12 @@
       .save .yr b { color: #1c1b1f; }
 
       /* S7 CTA */
-      .cards { position: absolute; left: 90px; top: 560px; width: 760px; height: 560px; }
-      .pcard { position: absolute; left: 0; width: 760px; height: 170px; border-radius: 28px; background: #fff; box-shadow: 0 24px 60px rgba(70,45,20,.18); display: flex; align-items: center; gap: 26px; padding: 0 34px; font-size: 40px; font-weight: 800; letter-spacing: -1px; }
+      .cards { position: absolute; left: 64px; top: 520px; width: 610px; height: 560px; }
+      #cut3 { position: absolute; left: 610px; top: 760px; width: 470px; height: auto; }
+      .pcard { position: absolute; left: 0; width: 610px; height: 150px; border-radius: 28px; background: #fff; box-shadow: 0 24px 60px rgba(70,45,20,.18); display: flex; align-items: center; gap: 26px; padding: 0 34px; font-size: 40px; font-weight: 800; letter-spacing: -1px; }
       .pcard .n { width: 74px; height: 74px; border-radius: 22px; background: #1c1b1f; color: #ffcf3f; display: grid; place-items: center; font-size: 38px; font-weight: 900; flex: none; }
       .pcard small { display: block; font-size: 26px; font-weight: 600; color: #8a8178; margin-top: 4px; letter-spacing: 0; }
-      .savebtn { position: absolute; left: 64px; top: 1140px; display: flex; align-items: center; gap: 18px; font-size: 44px; font-weight: 900; letter-spacing: -1px; background: #1c1b1f; color: #fff; padding: 22px 34px; border-radius: 24px; }
+      .savebtn { position: absolute; left: 64px; top: 1040px; display: flex; align-items: center; gap: 18px; font-size: 44px; font-weight: 900; letter-spacing: -1px; background: #1c1b1f; color: #fff; padding: 22px 34px; border-radius: 24px; }
       .savebtn svg { width: 44px; height: 44px; }
       .brand { position: absolute; left: 64px; top: 150px; font-size: 28px; font-weight: 800; color: #8a8178; letter-spacing: -.5px; z-index: 60; }
     </style>
@@ -95,13 +100,14 @@
         <div class="plate" id="p1"><img src="assets/img0.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
         <div class="shade"></div>
         <div class="head" id="h1"><small>AI로 생활비 줄이기 · 1편</small>매달 새는 구독료<br /><span class="mk" id="mk1">AI로 30초 컷</span></div>
-        <div class="chip" id="c1" style="left: 470px; top: 760px">영상 앱<i>-13,500</i></div>
-        <div class="chip" id="c2" style="left: 90px; top: 900px">클라우드<i>-7,500</i></div>
-        <div class="chip" id="c3" style="left: 400px; top: 1010px">뭔지 모를 결제<i>-4,400</i></div>
+        <div class="chip" id="c1" style="left: 560px; top: 760px">영상 앱<i>-13,500</i></div>
+        <div class="chip" id="c2" style="left: 60px; top: 870px">클라우드<i>-7,500</i></div>
+        <div class="chip" id="c3" style="left: 500px; top: 1000px">뭔지 모를 결제<i>-4,400</i></div>
       </div>
 
       <!-- S2..S5 app (one continuous camera) -->
       <div id="sApp" class="scene">
+        <div class="plate" id="p2" style="left: 0; top: 0; width: 1080px; height: 1920px"><img src="assets/img6.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
         <div class="head" id="h2"><small>STEP 1</small>명세서 붙이고 <span class="mk" id="mk2">딱 한 줄</span></div>
         <div id="cam">
           <div class="win" id="win">
@@ -144,13 +150,13 @@
         <div class="head" id="h7"><small>저장해두고 월말에 한 번</small>프롬프트 3개<br /><span class="mk" id="mk7">캡션에 그대로</span></div>
         <div class="cards">
           <div class="pcard" id="k1" style="top: 0"><div class="n">1</div><div>반복 결제만 표로<small>명세서 붙여 넣고 한 줄</small></div></div>
-          <div class="pcard" id="k2" style="top: 195px"><div class="n">2</div><div>겹치는 것 찾기<small>하나만 남길 이유까지</small></div></div>
-          <div class="pcard" id="k3" style="top: 390px"><div class="n">3</div><div>해지 순서 받기<small>결제일 가까운 것부터</small></div></div>
+          <div class="pcard" id="k2" style="top: 170px"><div class="n">2</div><div>겹치는 것 찾기<small>하나만 남길 이유까지</small></div></div>
+          <div class="pcard" id="k3" style="top: 340px"><div class="n">3</div><div>해지 순서 받기<small>결제일 가까운 것부터</small></div></div>
         </div>
+        <img id="cut3" src="assets/cut3.png" onerror="this.remove()" />
         <div class="savebtn" id="sb"><svg viewBox="0 0 24 24" fill="#ffcf3f"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z" /></svg>저장해 두기</div>
       </div>
 
-      <div class="brand">@junglejuggle</div>
       <div id="cap"></div>
     </div>
 
@@ -172,13 +178,16 @@
       const a0 = S("s2")[0], a1 = S("s5")[1];
       show("#sApp", a0, a1);
       // camera: start zoomed out (window slides up), then push into composer, then into answer table
-      tl.fromTo("#win", { y: 520, rotation: 2.5, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.55, ease: "power3.out" }, a0);
-      tl.fromTo("#h2", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35 }, a0 + 0.05);
-      tl.fromTo("#mk2", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, a0 + 0.35);
+      tl.fromTo("#p2", { scale: 1.06 }, { scale: 1.0, duration: 0.8, ease: "power1.out" }, a0);
+      tl.to("#p2", { scale: 3.0, transformOrigin: "700px 580px", opacity: 0, duration: 0.5, ease: "power2.in" }, a0 + 0.8);
+      tl.fromTo("#win", { scale: 0.3, opacity: 0, transformOrigin: "66% 10%" }, { scale: 1, opacity: 1, duration: 0.55, ease: "power3.out" }, a0 + 0.95);
+      tl.fromTo("#h2", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35 }, a0 + 1.0);
+      tl.fromTo("#mk2", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, a0 + 1.3);
       // paste
       tl.fromTo("#pasteWrap", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, T.cue.paste);
       // cursor moves to composer and clicks
-      tl.set("#cur", { x: 820, y: 1700, opacity: 1 }, a0);
+      tl.set("#cur", { x: 820, y: 1700, opacity: 0 }, a0);
+      tl.to("#cur", { opacity: 1, duration: 0.2 }, T.cue.paste);
       tl.to("#cur", { x: 430, y: 1450, duration: 0.6, ease: "power2.inOut" }, T.cue.paste + 0.35);
       // zoom to composer for typing (camera)
       const cz = S("s3");
@@ -196,8 +205,9 @@
       tl.set("#pasteWrap", { display: "none" }, T.cue.send + 0.05);
       tl.fromTo("#ub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25 }, T.cue.send + 0.05);
       tl.to("#cur", { opacity: 0, duration: 0.2 }, T.cue.send + 0.2);
+      tl.to(".composer", { opacity: 0, duration: 0.25 }, T.cue.send + 0.3);
       // camera out to the thread, answer streams
-      tl.to("#cam", { scale: 1.08, x: -40, y: -330, duration: 0.6, ease: "power3.inOut" }, T.cue.send + 0.1);
+      tl.to("#cam", { scale: 1.08, x: -40, y: -260, duration: 0.6, ease: "power3.inOut" }, T.cue.send + 0.1);
       tl.fromTo("#ans", { opacity: 0 }, { opacity: 1, duration: 0.2 }, T.cue.ans);
       tl.from("#lead", { opacity: 0, x: -20, duration: 0.25 }, T.cue.ans);
       tl.from("#tbl tr", { opacity: 0, y: 18, duration: 0.22, stagger: 0.12 }, T.cue.ans + 0.25);
@@ -226,6 +236,8 @@
       tl.fromTo("#h7", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, c[0]);
       tl.fromTo("#mk7", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, c[0] + 0.3);
       tl.fromTo(["#k1", "#k2", "#k3"], { x: 900, rotation: 6 }, { x: 0, rotation: 0, duration: 0.45, ease: "power3.out", stagger: 0.18 }, c[0] + 0.15);
+      tl.fromTo("#cut3", { x: 300, opacity: 0 }, { x: 0, opacity: 1, duration: 0.45, ease: "back.out(1.6)" }, c[0] + 0.05);
+      tl.to("#cut3", { y: -12, duration: 0.6, yoyo: true, repeat: 3, ease: "sine.inOut" }, c[0] + 0.6);
       tl.fromTo("#sb", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.35, ease: "back.out(2.4)" }, c[0] + 0.9);
       tl.to("#sb", { scale: 1.06, duration: 0.25, yoyo: true, repeat: 3, ease: "sine.inOut" }, c[0] + 1.4);
 
