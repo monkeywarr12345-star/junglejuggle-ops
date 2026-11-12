@@ -1,0 +1,36 @@
+{
+ "engine": "qwen17",
+ "runs": [
+  {
+   "name": "sohee plain",
+   "sec": 300.4,
+   "file": "research/results/v3tools/tts_qwen17/qwen17_sohee_plain.wav"
+  },
+  {
+   "name": "sohee 밝고 경쾌한 숏폼 내레이션, 조금 빠르게",
+   "sec": 255.9,
+   "file": "research/results/v3tools/tts_qwen17/qwen17_sohee_inst.wav"
+  },
+  {
+   "name": "design_f",
+   "sec": 227.8,
+   "file": "research/results/v3tools/tts_qwen17/qwen17_design_f.wav"
+  },
+  {
+   "name": "design_m",
+   "sec": 215.6,
+   "file": "research/results/v3tools/tts_qwen17/qwen17_design_m.wav"
+  }
+ ],
+ "speakers": [
+  "aiden",
+  "dylan",
+  "eric",
+  "ono_anna",
+  "ryan",
+  "serena",
+  "sohee",
+  "uncle_fu",
+  "vivian"
+ ]
+}
