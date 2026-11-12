@@ -1,0 +1,676 @@
+[hyperframes] Using system Chrome at /usr/bin/google-chrome; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[hyperframes] check: the report is saved to /home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/.hyperframes/artifacts/checks/4a66103f-9d5e-4d2a-ba2a-c1c1615228c8.json when the check ends, unless a warning says it could not be saved
+[hyperframes] Using system Chrome at /usr/bin/google-chrome; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[INFO] [Compiler] Fetched 3 font face(s) for "Noto Sans KR" from Google Fonts (cached to /home/runner/.cache/hyperframes/fonts/noto-sans-kr)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] check: starting Chrome
+[hyperframes] Using system Chrome at /usr/bin/google-chrome; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+[hyperframes] check: loading the page
+[hyperframes] check: waiting for the page to be ready
+[hyperframes] check: checking samples
+[hyperframes] check: samples 1/9
+[hyperframes] check: samples 2/9
+[hyperframes] check: samples 3/9
+[hyperframes] check: samples 4/9
+[hyperframes] check: samples 5/9
+[hyperframes] check: samples 6/9
+[hyperframes] check: samples 7/9
+[hyperframes] check: samples 8/9
+[hyperframes] check: samples 9/9
+[hyperframes] check: running the overlap pass
+[hyperframes] check: craft 1/160
+[hyperframes] check: craft 2/160
+[hyperframes] check: craft 3/160
+[hyperframes] check: craft 4/160
+[hyperframes] check: craft 5/160
+[hyperframes] check: craft 6/160
+[hyperframes] check: craft 7/160
+[hyperframes] check: craft 8/160
+[hyperframes] check: craft 9/160
+[hyperframes] check: craft 10/160
+[hyperframes] check: craft 11/160
+[hyperframes] check: craft 12/160
+[hyperframes] check: craft 13/160
+[hyperframes] check: craft 14/160
+[hyperframes] check: craft 15/160
+[hyperframes] check: craft 16/160
+[hyperframes] check: craft 17/160
+[hyperframes] check: craft 18/160
+[hyperframes] check: craft 19/160
+[hyperframes] check: craft 20/160
+[hyperframes] check: craft 21/160
+[hyperframes] check: craft 22/160
+[hyperframes] check: craft 23/160
+[hyperframes] check: craft 24/160
+[hyperframes] check: craft 25/160
+[hyperframes] check: craft 26/160
+[hyperframes] check: craft 27/160
+[hyperframes] check: craft 28/160
+[hyperframes] check: craft 29/160
+[hyperframes] check: craft 30/160
+[hyperframes] check: craft 31/160
+[hyperframes] check: craft 32/160
+[hyperframes] check: craft 33/160
+[hyperframes] check: craft 34/160
+[hyperframes] check: craft 35/160
+[hyperframes] check: craft 36/160
+[hyperframes] check: craft 37/160
+[hyperframes] check: craft 38/160
+[hyperframes] check: craft 39/160
+[hyperframes] check: craft 40/160
+[hyperframes] check: craft 41/160
+[hyperframes] check: craft 42/160
+[hyperframes] check: craft 43/160
+[hyperframes] check: craft 44/160
+[hyperframes] check: craft 45/160
+[hyperframes] check: craft 46/160
+[hyperframes] check: craft 47/160
+[hyperframes] check: craft 48/160
+[hyperframes] check: craft 49/160
+[hyperframes] check: craft 50/160
+[hyperframes] check: craft 51/160
+[hyperframes] check: craft 52/160
+[hyperframes] check: craft 53/160
+[hyperframes] check: craft 54/160
+[hyperframes] check: craft 55/160
+[hyperframes] check: craft 56/160
+[hyperframes] check: craft 57/160
+[hyperframes] check: craft 58/160
+[hyperframes] check: craft 59/160
+[hyperframes] check: craft 60/160
+[hyperframes] check: craft 61/160
+[hyperframes] check: craft 62/160
+[hyperframes] check: craft 63/160
+[hyperframes] check: craft 64/160
+[hyperframes] check: craft 65/160
+[hyperframes] check: craft 66/160
+[hyperframes] check: craft 67/160
+[hyperframes] check: craft 68/160
+[hyperframes] check: craft 69/160
+[hyperframes] check: craft 70/160
+[hyperframes] check: craft 71/160
+[hyperframes] check: craft 72/160
+[hyperframes] check: craft 73/160
+[hyperframes] check: craft 74/160
+[hyperframes] check: craft 75/160
+[hyperframes] check: craft 76/160
+[hyperframes] check: craft 77/160
+[hyperframes] check: craft 78/160
+[hyperframes] check: craft 79/160
+[hyperframes] check: craft 80/160
+[hyperframes] check: craft 81/160
+[hyperframes] check: craft 82/160
+[hyperframes] check: craft 83/160
+[hyperframes] check: craft 84/160
+[hyperframes] check: craft 85/160
+[hyperframes] check: craft 86/160
+[hyperframes] check: craft 87/160
+[hyperframes] check: craft 88/160
+[hyperframes] check: craft 89/160
+[hyperframes] check: craft 90/160
+[hyperframes] check: craft 91/160
+[hyperframes] check: craft 92/160
+[hyperframes] check: craft 93/160
+[hyperframes] check: craft 94/160
+[hyperframes] check: craft 95/160
+[hyperframes] check: craft 96/160
+[hyperframes] check: craft 97/160
+[hyperframes] check: craft 98/160
+[hyperframes] check: craft 99/160
+[hyperframes] check: craft 100/160
+[hyperframes] check: craft 101/160
+[hyperframes] check: craft 102/160
+[hyperframes] check: craft 103/160
+[hyperframes] check: craft 104/160
+[hyperframes] check: craft 105/160
+[hyperframes] check: craft 106/160
+[hyperframes] check: craft 107/160
+[hyperframes] check: craft 108/160
+[hyperframes] check: craft 109/160
+[hyperframes] check: craft 110/160
+[hyperframes] check: craft 111/160
+[hyperframes] check: craft 112/160
+[hyperframes] check: craft 113/160
+[hyperframes] check: craft 114/160
+[hyperframes] check: craft 115/160
+[hyperframes] check: craft 116/160
+[hyperframes] check: craft 117/160
+[hyperframes] check: craft 118/160
+[hyperframes] check: craft 119/160
+[hyperframes] check: craft 120/160
+[hyperframes] check: craft 121/160
+[hyperframes] check: craft 122/160
+[hyperframes] check: craft 123/160
+[hyperframes] check: craft 124/160
+[hyperframes] check: craft 125/160
+[hyperframes] check: craft 126/160
+[hyperframes] check: craft 127/160
+[hyperframes] check: craft 128/160
+[hyperframes] check: craft 129/160
+[hyperframes] check: craft 130/160
+[hyperframes] check: craft 131/160
+[hyperframes] check: craft 132/160
+[hyperframes] check: craft 133/160
+[hyperframes] check: craft 134/160
+[hyperframes] check: craft 135/160
+[hyperframes] check: craft 136/160
+[hyperframes] check: craft 137/160
+[hyperframes] check: craft 138/160
+[hyperframes] check: craft 139/160
+[hyperframes] check: craft 140/160
+[hyperframes] check: craft 141/160
+[hyperframes] check: craft 142/160
+[hyperframes] check: craft 143/160
+[hyperframes] check: craft 144/160
+[hyperframes] check: craft 145/160
+[hyperframes] check: craft 146/160
+[hyperframes] check: craft 147/160
+[hyperframes] check: craft 148/160
+[hyperframes] check: craft 149/160
+[hyperframes] check: craft 150/160
+[hyperframes] check: craft 151/160
+[hyperframes] check: craft 152/160
+[hyperframes] check: craft 153/160
+[hyperframes] check: craft 154/160
+[hyperframes] check: craft 155/160
+[hyperframes] check: craft 156/160
+[hyperframes] check: craft 157/160
+[hyperframes] check: craft 158/160
+[hyperframes] check: craft 159/160
+[hyperframes] check: craft 160/160
+[hyperframes] check: overlap 1/20
+[hyperframes] check: overlap 2/20
+[hyperframes] check: overlap 3/20
+[hyperframes] check: overlap 4/20
+[hyperframes] check: overlap 5/20
+[hyperframes] check: overlap 6/20
+[hyperframes] check: overlap 7/20
+[hyperframes] check: overlap 8/20
+[hyperframes] check: overlap 9/20
+[hyperframes] check: overlap 10/20
+[hyperframes] check: overlap 11/20
+[hyperframes] check: overlap 12/20
+[hyperframes] check: overlap 13/20
+[hyperframes] check: overlap 14/20
+[hyperframes] check: overlap 15/20
+[hyperframes] check: overlap 16/20
+[hyperframes] check: overlap 17/20
+[hyperframes] check: overlap 18/20
+[hyperframes] check: overlap 19/20
+[hyperframes] check: overlap 20/20
+[hyperframes] check: checking samples
+[hyperframes] check: analyze 0/3
+[hyperframes] check: analyzing the samples
+[hyperframes] check: analyze 1/3
+[hyperframes] check: analyze 2/3
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s1\"> is a timeline element that contains nested <div id=\"hook\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s1",
+        "dataAttributes": {},
+        "sourceFile": "/home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s1\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s2\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s2",
+        "dataAttributes": {},
+        "sourceFile": "/home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s2\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s3\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s3",
+        "dataAttributes": {},
+        "sourceFile": "/home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s3\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s4\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s4",
+        "dataAttributes": {},
+        "sourceFile": "/home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s4\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s5\"> is a timeline element that contains nested <div id=\"cta\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s5",
+        "dataAttributes": {},
+        "sourceFile": "/home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s5\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 20,
+    "samples": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "checked": 25,
+    "passed": 25
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 20 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"해지할 것만 결제일 가까운 순서로 정렬하고, 앱마다 해지 메뉴 위치 알려 줘.\" (12 words) is on screen 2.46 s (±0.01 s), under its 3.07 s floor: hold it about 0.5 s + 0.3 s a word (4.10 s here) before it leaves or changes; see references/motion.md.",
+        "text": "해지할 것만 결제일 가까운 순서로 정렬하고, 앱마다 해지 메뉴 위치 알려 줘.",
+        "selector": "#m2",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 146,
+          "y": 503,
+          "width": 115.92000000000002,
+          "height": 61
+        },
+        "time": 15.539,
+        "words": 12,
+        "seconds": 2.461,
+        "floorSeconds": 3.075,
+        "measured": [
+          {
+            "time": 15.25,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 15.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 15.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 15.625,
+            "opacity": 1,
+            "heightPx": 61
+          },
+          {
+            "time": 15.75,
+            "opacity": 1,
+            "heightPx": 61
+          },
+          {
+            "time": 15.875,
+            "opacity": 1,
+            "heightPx": 61
+          },
+          {
+            "time": 16,
+            "opacity": 1,
+            "heightPx": 61
+          },
+          {
+            "time": 17.5,
+            "opacity": 1,
+            "heightPx": 187
+          },
+          {
+            "time": 17.625,
+            "opacity": 1,
+            "heightPx": 187
+          },
+          {
+            "time": 17.75,
+            "opacity": 1,
+            "heightPx": 187
+          },
+          {
+            "time": 17.875,
+            "opacity": 1,
+            "heightPx": 187
+          },
+          {
+            "time": 18,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.125,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.25,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"프롬프트 3개 캡션에 그대로 '받기' 댓글이면 DM으로 보내드림\" (8 words) is on screen 2.00 s (±0.01 s), under the 2.17 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "프롬프트 3개 캡션에 그대로 '받기' 댓글이면 DM으로 보내드림",
+        "selector": "#cta",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 70,
+          "y": 549,
+          "width": 519.61,
+          "height": 245.23000000000002
+        },
+        "time": 18,
+        "words": 8,
+        "seconds": 2.004,
+        "floorSeconds": 2.175,
+        "measured": [
+          {
+            "time": 17.625,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 17.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 17.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 18.125,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 18.25,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 18.375,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 19.75,
+            "opacity": 1,
+            "heightPx": 245
+          },
+          {
+            "time": 19.875,
+            "opacity": 1,
+            "heightPx": 245
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"'받기' 댓글이면 DM으로 보내드림\" (4 words) is on screen 1.50 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "'받기' 댓글이면 DM으로 보내드림",
+        "selector": "#cta > small:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 855.8,
+          "width": 681.22,
+          "height": 70
+        },
+        "time": 18.5,
+        "words": 4,
+        "seconds": 1.504,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 18.125,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.25,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": 0.56,
+            "heightPx": 70
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.89,
+            "heightPx": 70
+          },
+          {
+            "time": 18.75,
+            "opacity": 1,
+            "heightPx": 70
+          },
+          {
+            "time": 18.875,
+            "opacity": 1,
+            "heightPx": 70
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 70
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 70
+          },
+          {
+            "time": 19.75,
+            "opacity": 1,
+            "heightPx": 70
+          },
+          {
+            "time": 19.875,
+            "opacity": 1,
+            "heightPx": 70
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 160
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "4a66103f-9d5e-4d2a-ba2a-c1c1615228c8",
+    "revision": null,
+    "report": "/home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/.hyperframes/artifacts/checks/4a66103f-9d5e-4d2a-ba2a-c1c1615228c8.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.9.36",
+    "updateAvailable": false
+  }
+}
+[hyperframes] check: report saved to /home/runner/work/junglejuggle-ops/junglejuggle-ops/research/samples/hf2/.hyperframes/artifacts/checks/4a66103f-9d5e-4d2a-ba2a-c1c1615228c8.json
