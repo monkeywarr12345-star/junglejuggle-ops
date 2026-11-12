@@ -1,0 +1,23 @@
+name: research bench quality (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/tools/bench_quality.py']
+permissions:
+  contents: write
+jobs:
+  bench_quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          for i in 1 2 3; do sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor >/dev/null && break || sleep 20; done
+          pip install -q opencv-python-headless pillow numpy || true
+      - run: python3 research/tools/bench_quality.py
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      - run: |
+          mkdir -p research/results/bench && cp research/out/bench_quality.json research/results/bench/ || true
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/bench && git commit -m "research: bench quality features" && git pull --rebase -q && git push || true

@@ -2,7 +2,7 @@ name: research (experiment branch only)
 on:
   push:
     branches: [research/ai-tools-2026-11]
-    paths: ['research/samples/**', 'research/tools/**']
+    paths: ['research/samples/**', 'research/tools/repos.txt', 'research/tools/repo_meta.py', 'research/tools/tts_test.py', 'research/tools/ig_perm.py']
 permissions:
   contents: read
 jobs:
