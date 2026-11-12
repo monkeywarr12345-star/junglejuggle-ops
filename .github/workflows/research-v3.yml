@@ -33,16 +33,17 @@ jobs:
         env: { HYPERFRAMES_TELEMETRY_DISABLED: "1", DO_NOT_TRACK: "1" }
         run: |
           OUT=research/results/v3; mkdir -p $OUT; rm -f $OUT/v3_*.mp4 $OUT/voices.txt $OUT/timeline_*.json
+          printf "skip\n" > /dev/null
           MUSIC=$(head -1 research/samples/v3/music.txt)
           K=0
           while IFS= read -r VOICE; do
             [ -z "$VOICE" ] && continue
             TAG=$(echo ABCDEFGH | cut -c$((K+1))); K=$((K+1)); W=/tmp/v3/$TAG; mkdir -p $W
             echo "== $TAG: $VOICE"
-            (cd research/samples/v3 && python build.py "$VOICE" $W) || { echo "build fail $TAG"; continue; }
-            (cd research/samples/v3 && npx -y hyperframes@latest render --output $W/silent.mp4 > $W/render.log 2>&1) || { tail -30 $W/render.log; continue; }
+            (cd research/samples/v3 && python build.py "$VOICE" $W < /dev/null) || { echo "build fail $TAG"; continue; }
+            (cd research/samples/v3 && npx -y hyperframes@latest render --output $W/silent.mp4 > $W/render.log 2>&1 < /dev/null) || { tail -30 $W/render.log; continue; }
             DUR=$(python -c "import json;print(json.load(open('$W/timeline.json'))['dur'])"); FO=$(python -c "print(round($DUR-1.2,2))")
-            ffmpeg -y -loglevel error -i $W/silent.mp4 -i $W/narration.wav -i $W/sfx.wav -stream_loop -1 -i "$MUSIC" -filter_complex \
+            ffmpeg -nostdin -y -loglevel error -i $W/silent.mp4 -i $W/narration.wav -i $W/sfx.wav -stream_loop -1 -i "$MUSIC" -filter_complex \
               "[1:a]aresample=48000,asplit[n][nk];[2:a]aresample=48000,volume=0.7[s];[3:a]aresample=48000,volume=0.16,afade=t=in:d=0.4,afade=t=out:st=$FO:d=1.2[m0];[m0][nk]sidechaincompress=threshold=0.02:ratio=6:attack=15:release=350[m];[n][s][m]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.95[a]" \
               -map 0:v -map "[a]" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -c:a aac -b:a 192k -t $DUR $OUT/v3_$TAG.mp4
             cp $W/timeline.json $OUT/timeline_$TAG.json; echo "$TAG: $VOICE" >> $OUT/voices.txt
