@@ -19,9 +19,9 @@
       .scene { position: absolute; inset: 0; visibility: hidden; }
 
       /* headline (top, inside safe area) */
-      .head { position: absolute; top: 210px; left: 64px; width: 860px; font-weight: 900; font-size: 74px; line-height: 1.18; letter-spacing: -2.5px; color: #1c1b1f; }
+      .head { position: absolute; top: 200px; left: 64px; width: 880px; font-weight: 900; font-size: 84px; line-height: 1.18; letter-spacing: -2.5px; color: #1c1b1f; }
       .head .mk { position: relative; display: inline-block; z-index: 0; }
-      .head .mk::before { content: ""; position: absolute; left: -8px; right: -8px; bottom: 6px; height: 34px; background: #ffcf3f; border-radius: 6px; z-index: -1; transform-origin: left center; transform: scaleX(var(--mk, 1)); }
+      .head .mk::before { content: ""; position: absolute; left: -8px; right: -8px; bottom: 8px; height: 38px; background: #ffcf3f; border-radius: 6px; z-index: -1; transform-origin: left center; transform: scaleX(var(--mk, 1)); }
       .head small { display: block; font-size: 40px; font-weight: 700; letter-spacing: -1px; color: #6b6259; margin-bottom: 14px; }
 
       /* captions (white + dark stroke, above bottom UI zone) */
@@ -100,9 +100,9 @@
         <div class="plate" id="p1"><img src="assets/img0.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
         <div class="shade"></div>
         <div class="head" id="h1"><small>AI로 생활비 줄이기 · 1편</small>매달 새는 구독료<br /><span class="mk" id="mk1">AI로 30초 컷</span></div>
-        <div class="chip" id="c1" style="left: 560px; top: 760px">영상 앱<i>-13,500</i></div>
-        <div class="chip" id="c2" style="left: 60px; top: 870px">클라우드<i>-7,500</i></div>
-        <div class="chip" id="c3" style="left: 500px; top: 1000px">뭔지 모를 결제<i>-4,400</i></div>
+        <div class="chip" id="c1" style="left: 40px; top: 650px">영상 앱<i>-13,500</i></div>
+        <div class="chip" id="c2" style="left: 70px; top: 830px">클라우드<i>-7,500</i></div>
+        <div class="chip" id="c3" style="left: 30px; top: 1010px">정체불명 결제<i>-4,400</i></div>
       </div>
 
       <!-- S2..S5 app (one continuous camera) -->
@@ -243,8 +243,9 @@
 
       // ---------- captions ----------
       const cap = document.getElementById("cap");
-      T.caps.forEach(([t0, t1, html], i) => {
+      T.caps.forEach(([t0, t1, html, sid], i) => {
         const d = document.createElement("div"); d.id = "cp" + i; d.innerHTML = html; d.style.visibility = "hidden"; cap.appendChild(d);
+        if (sid === "s6") d.style.top = "-400px";
         show(d, t0, t1);
         tl.fromTo(d, { scale: 0.9 }, { scale: 1, duration: 0.14, ease: "back.out(2)" }, t0);
       });

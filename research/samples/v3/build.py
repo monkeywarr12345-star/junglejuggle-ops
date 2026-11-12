@@ -33,7 +33,24 @@ def trim(x, thr=0.01):
     return x[a:b]
 
 
+def atempo(x, t):
+    if abs(t - 1) < 1e-3: return x
+    import subprocess, tempfile
+    d = tempfile.mkdtemp(); a, b = f"{d}/a.wav", f"{d}/b.wav"
+    sf.write(a, x, SR)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", a, "-filter:a", f"atempo={t}", b], check=True)
+    y, _ = sf.read(b); return y.astype(np.float32)
+
+
 def make_tts(spec):
+    tempo = 1.0
+    if "@" in spec:
+        spec, _, tp = spec.rpartition("@"); spec = spec.strip(); tempo = float(tp)
+    base = _make_tts(spec)
+    return lambda t: atempo(base(t), tempo)
+
+
+def _make_tts(spec):
     eng, *rest = spec.split(maxsplit=1)
     arg = rest[0] if rest else ""
     if eng == "none":
@@ -135,7 +152,7 @@ def main():
         tot = sum(len(re.sub(r"\*", "", c)) for c in chunks); u = t
         for c in chunks:
             cd = d * len(re.sub(r"\*", "", c)) / tot
-            caps.append([round(u, 3), round(u + cd, 3), cap_html(c)]); u += cd
+            caps.append([round(u, 3), round(u + cd, 3), cap_html(c), sid]); u += cd
         t += d + GAP
     dur = round(t - GAP + TAIL, 2)
     # scene windows: each scene runs until the next scene's speech starts
