@@ -1,0 +1,12 @@
+{
+ "melotts": {
+  "ok": true,
+  "sec": 25.2
+ },
+ "faster_whisper_small": {
+  "ok": true,
+  "sec": 7.8,
+  "text": " 구독료 정리, 프롬프트 세 줄이면 끝나요.  먼저 카드 명세서를 붙이고  매달 반복 별제만 표로 뽑아 달라고 하세요.",
+  "words": 17
+ }
+}
