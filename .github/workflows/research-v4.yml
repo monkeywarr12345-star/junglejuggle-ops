@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p assets/fonts; for W in Medium SemiBold Bold ExtraBold Black; do curl -sfL -o assets/fonts/Pretendard-$W.woff2 https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-$W.woff2 || echo font-fail $W; done
           for i in 0 1 2 3 4 5 6; do f=../../results/v3tools/imghq/img$i.jpg; [ -f $f ] || f=../../results/v3tools/img/img$i.jpg; [ -f $f ] && [ ! -f assets/img$i.jpg ] && python -c "from PIL import Image;Image.open('$f').resize((1080,1920),Image.LANCZOS).save('assets/img$i.jpg',quality=92)"; done
-          for i in 3 4 5; do [ -f assets/img$i.jpg ] && python cutout.py assets/img$i.jpg assets/cut$i.png; done; ls assets
+          for i in 0 2 3 4 5; do [ -f assets/img$i.jpg ] && python cutout.py assets/img$i.jpg assets/cut$i.png; done; ls assets
       - name: build, render, mix (one video per voice line)
         env: { HYPERFRAMES_TELEMETRY_DISABLED: "1", DO_NOT_TRACK: "1" }
         run: |

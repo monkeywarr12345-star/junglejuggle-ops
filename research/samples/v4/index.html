@@ -22,7 +22,7 @@
       .num { font-variant-numeric: tabular-nums; }
 
       /* caption: one dark line, always the same place */
-      #cap { position: absolute; left: 60px; right: 60px; top: 1398px; height: 90px; z-index: 80; }
+      #cap { position: absolute; left: 60px; right: 60px; top: 1352px; height: 90px; z-index: 80; }
       #cap > div { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-weight: 800; font-size: 58px; line-height: 1.2; letter-spacing: -1.6px; color: var(--ink); white-space: nowrap; }
       #cap.onimg > div { color: var(--ink); }
 
@@ -41,7 +41,7 @@
       /* notification chips */
       .noti { position: absolute; width: 400px; padding: 20px 24px; border-radius: 26px; background: rgba(255,255,255,.96); box-shadow: 0 18px 50px rgba(60,40,20,.2); display: flex; align-items: center; gap: 16px; }
       .noti .ic { width: 58px; height: 58px; border-radius: 16px; background: var(--ink); color: #fff; display: grid; place-items: center; font-weight: 900; font-size: 26px; flex: none; }
-      .noti b { display: block; font-size: 25px; font-weight: 700; color: var(--sub); letter-spacing: -.5px; }
+      .noti b { display: block; font-size: 26px; font-weight: 700; color: var(--sub); letter-spacing: -.5px; }
       .noti span { display: block; font-size: 36px; font-weight: 800; letter-spacing: -1px; }
       .noti span i { font-style: normal; color: var(--red); }
 
@@ -58,7 +58,7 @@
       .card-app .cardpic::after { content: ""; position: absolute; left: 14px; top: 22px; width: 24px; height: 18px; border-radius: 4px; background: #e8c66a; }
       .list { position: relative; margin-top: 8px; border-top: 10px solid #f4f2ef; }
       .row { position: relative; display: flex; align-items: center; height: 82px; padding: 0 34px; border-bottom: 1px solid #f0ece6; }
-      .row .d { width: 74px; font-size: 21px; font-weight: 600; color: var(--sub); }
+      .row .d { width: 80px; font-size: 24px; font-weight: 600; color: var(--sub); }
       .row .m { flex: 1; font-size: 27px; font-weight: 700; letter-spacing: -.6px; }
       .row .a { font-size: 27px; font-weight: 800; }
       .sel { position: absolute; left: 0; right: 0; top: 0; height: 656px; background: rgba(47,111,237,.16); border-left: 6px solid var(--blue); transform-origin: top; transform: scaleY(0); }
@@ -66,19 +66,19 @@
       .toast em { font-style: normal; color: var(--yel); }
 
       /* mac window: AI chat */
-      #winwrap { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 540px 1220px; }
-      .win { position: absolute; left: 60px; top: 250px; width: 960px; height: 1010px; border-radius: 34px; background: #fff; box-shadow: 0 50px 120px rgba(60,40,20,.25), 0 0 0 1px rgba(0,0,0,.06); overflow: hidden; }
+      #winwrap { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 540px 1110px; }
+      .win { position: absolute; left: 60px; top: 330px; width: 960px; height: 780px; border-radius: 34px; background: #fff; box-shadow: 0 50px 120px rgba(60,40,20,.25), 0 0 0 1px rgba(0,0,0,.06); overflow: hidden; }
       .win .bar { height: 76px; display: flex; align-items: center; gap: 12px; padding-left: 30px; background: #f7f5f2; border-bottom: 1px solid var(--line); }
       .win .bar i { width: 20px; height: 20px; border-radius: 10px; display: block; }
       .win .bar p { position: absolute; left: 0; right: 0; text-align: center; font-size: 26px; font-weight: 700; color: #6d655d; pointer-events: none; }
-      .hello { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-size: 46px; font-weight: 800; letter-spacing: -1.5px; color: #3a3631; }
+      .hello { position: absolute; left: 0; right: 0; top: 22%; text-align: center; font-size: 46px; font-weight: 800; letter-spacing: -1.5px; color: #3a3631; }
       .hello small { display: block; font-size: 26px; font-weight: 600; color: var(--sub); margin-top: 10px; letter-spacing: 0; }
       .composer { position: absolute; left: 40px; right: 40px; bottom: 40px; min-height: 210px; border-radius: 34px; border: 2px solid #e3ddd4; background: #fff; box-shadow: 0 10px 30px rgba(60,40,20,.08); padding: 22px 26px 90px; }
       .pchip { display: flex; gap: 18px; align-items: center; width: 560px; padding: 16px 20px; border-radius: 20px; background: #f6f3ef; border: 1px solid #ebe5dc; opacity: 0; }
       .pchip .doc { width: 64px; height: 76px; border-radius: 10px; background: #fff; border: 2px solid #e1dad0; position: relative; flex: none; }
       .pchip .doc::before { content: ""; position: absolute; left: 12px; right: 12px; top: 18px; height: 34px; background: repeating-linear-gradient(180deg, #cfc6ba 0 4px, transparent 4px 11px); }
       .pchip b { display: block; font-size: 27px; font-weight: 800; letter-spacing: -.5px; }
-      .pchip span { display: block; font-size: 21px; font-weight: 600; color: var(--sub); margin-top: 4px; font-family: ui-monospace, Menlo, monospace; letter-spacing: -.5px; }
+      .pchip span { display: block; font-size: 24px; font-weight: 600; color: var(--sub); margin-top: 4px; font-family: ui-monospace, Menlo, monospace; letter-spacing: -.5px; }
       .ptext { margin-top: 18px; font-size: 34px; font-weight: 600; letter-spacing: -.8px; min-height: 44px; }
       .ptext.ph { color: #b3aaa0; }
       .caret { display: inline-block; width: 3px; height: 38px; background: var(--ink); vertical-align: -7px; margin-left: 2px; }
@@ -98,12 +98,12 @@
       .ans .lead { display: flex; align-items: center; gap: 14px; font-size: 30px; font-weight: 700; letter-spacing: -.6px; margin-bottom: 16px; }
       .ans .lead .ai { width: 46px; height: 46px; border-radius: 23px; background: var(--ink); color: var(--yel); display: grid; place-items: center; font-size: 22px; font-weight: 900; }
       table.t { width: 100%; border-collapse: collapse; }
-      table.t th { text-align: left; font-size: 22px; font-weight: 700; color: var(--sub); padding: 10px 14px; border-bottom: 2px solid var(--line); }
+      table.t th { text-align: left; font-size: 25px; font-weight: 700; color: var(--sub); padding: 10px 14px; border-bottom: 2px solid var(--line); }
       table.t td { padding: 15px 14px; font-size: 30px; font-weight: 700; letter-spacing: -.6px; border-bottom: 1px solid #f1ece5; }
       table.t td.r, table.t th.r { text-align: right; }
       table.t td .k { display: inline-block; padding: 3px 12px; border-radius: 9px; font-size: 21px; font-weight: 800; color: #fff; }
       .tot2 { display: flex; justify-content: space-between; padding: 18px 14px 0; font-size: 32px; font-weight: 900; letter-spacing: -.8px; opacity: 0; }
-      .once { margin-top: 16px; padding: 14px 18px; border-radius: 16px; background: #f6f3ef; font-size: 24px; font-weight: 600; color: var(--sub); opacity: 0; }
+      .once { margin-top: 16px; padding: 14px 18px; border-radius: 16px; background: #f6f3ef; font-size: 27px; font-weight: 600; color: var(--sub); opacity: 0; }
       .once s { color: #b0a79c; margin: 0 6px; }
 
       /* overlap pair cards */
@@ -112,7 +112,7 @@
       .pair { position: absolute; left: 60px; width: 960px; height: 200px; border-radius: 34px; background: #fff; box-shadow: 0 24px 60px rgba(60,40,20,.14); display: flex; align-items: center; padding: 0 36px; gap: 22px; }
       .pair .cat { width: 132px; height: 132px; border-radius: 30px; display: grid; place-items: center; color: #fff; font-size: 30px; font-weight: 900; flex: none; text-align: center; line-height: 1.1; }
       .pair .it { position: relative; font-size: 32px; font-weight: 800; letter-spacing: -.8px; white-space: nowrap; }
-      .pair .it small { display: block; font-size: 24px; font-weight: 700; color: var(--sub); margin-top: 4px; }
+      .pair .it small { display: block; font-size: 28px; font-weight: 700; color: var(--sub); margin-top: 4px; }
       .pair .it .strike { position: absolute; left: -8px; right: -8px; top: 50%; height: 6px; margin-top: -10px; background: var(--red); border-radius: 3px; transform-origin: left; transform: scaleX(0); }
       .pair .pl { font-size: 36px; font-weight: 800; color: #c2b8ab; }
       .pair .sum { margin-left: auto; text-align: right; font-size: 44px; font-weight: 900; letter-spacing: -1.5px; }
@@ -134,7 +134,7 @@
       .post .acts { display: flex; gap: 26px; padding: 22px 30px 8px; align-items: center; }
       .post .acts svg { width: 44px; height: 44px; }
       .post .acts .bm { margin-left: auto; }
-      .post .cap { padding: 8px 30px; font-size: 24px; line-height: 1.55; font-weight: 600; letter-spacing: -.4px; }
+      .post .cap { padding: 8px 26px; font-size: 27px; line-height: 1.55; font-weight: 600; letter-spacing: -.4px; }
       .post .cap b { font-weight: 800; }
       .post .cap .pr { display: block; margin-top: 8px; padding: 10px 14px; border-radius: 12px; background: #f6f3ef; font-weight: 700; }
 
@@ -149,13 +149,11 @@
 
       <!-- S1 hook: illustration + 2-line headline + payment notifications (all visible at frame 0) -->
       <div id="s1" class="scene" style="visibility: visible">
-        <div class="plate" id="p1" style="top: 160px"><img src="assets/img0.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
-        <div class="fadeb" style="top: 1060px"></div>
-        <div class="abs" style="left: 0; right: 0; top: 0; height: 420px; background: linear-gradient(180deg, var(--cream) 62%, rgba(244,239,232,0))"></div>
-        <div class="head" id="h1" style="top: 92px"><span class="l1">매달 새는 구독료</span><span class="l2" id="mk1">AI로 30초 컷</span></div>
-        <div class="noti" id="n1" style="left: 630px; top: 840px"><div class="ic">₩</div><div><b>정기결제 · 방금</b><span>영상 앱 <i>-13,900</i></span></div></div>
-        <div class="noti" id="n2" style="left: 600px; top: 985px"><div class="ic">₩</div><div><b>정기결제 · 어제</b><span>음악 앱 <i>-10,900</i></span></div></div>
-        <div class="noti" id="n3" style="left: 640px; top: 1130px"><div class="ic">₩</div><div><b>정기결제 · 3일 전</b><span>클라우드 <i>-2,400</i></span></div></div>
+        <img class="chr" id="c0" src="assets/cut0.png" style="left: 10px; top: 470px; width: 640px; opacity: 1; -webkit-mask-image: none; mask-image: none" onerror="this.remove()" />
+        <div class="head" id="h1" style="top: 220px"><span class="l1">매달 새는 구독료</span><span class="l2" id="mk1">AI로 30초 컷</span></div>
+        <div class="noti" id="n1" style="left: 620px; top: 560px"><div class="ic">₩</div><div><b>정기결제 · 방금</b><span>영상 앱 <i>-13,900</i></span></div></div>
+        <div class="noti" id="n2" style="left: 600px; top: 720px"><div class="ic">₩</div><div><b>정기결제 · 어제</b><span>음악 앱 <i>-10,900</i></span></div></div>
+        <div class="noti" id="n3" style="left: 630px; top: 880px"><div class="ic">₩</div><div><b>정기결제 · 3일 전</b><span>클라우드 <i>-2,400</i></span></div></div>
       </div>
 
       <!-- S2 card app: select all, copy -->
@@ -213,9 +211,9 @@
               <div class="sendb" id="sendb"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7" /></svg></div>
             </div>
           </div>
-          <div class="keycap" id="kc" style="left: 760px; top: 930px; opacity: 0">Ctrl + V</div>
-          <div class="tag" id="tag1" style="left: 330px; top: 860px; opacity: 0">딱 한 줄이면 돼요</div>
-          <div class="ripple" id="rip" style="left: 885px; top: 1130px"></div>
+          <div class="keycap" id="kc" style="left: 770px; top: 790px; opacity: 0">Ctrl + V</div>
+          <div class="tag" id="tag1" style="left: 330px; top: 700px; opacity: 0">딱 한 줄이면 돼요</div>
+          <div class="ripple" id="rip" style="left: 885px; top: 1012px"></div>
         </div>
       </div>
 
@@ -230,11 +228,11 @@
 
       <!-- S8 result: illustration + counters -->
       <div id="s8" class="scene">
-        <div class="plate" id="p2" style="top: 330px"><img src="assets/img2.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
-        <div class="fadeb" style="top: 1040px"></div>
-        <div class="abs" style="left: 0; right: 0; top: 0; height: 560px; background: linear-gradient(180deg, var(--cream) 70%, rgba(244,239,232,0))"></div>
-        <div class="pill" id="pm" style="top: 150px; transform: translateX(-50%)"><span class="lab">한 달</span><span class="big num" id="cnt">-0</span><span class="u">원</span></div>
-        <div class="pill s" id="py" style="top: 360px; transform: translateX(-50%); background: #fff; color: var(--ink); box-shadow: 0 20px 50px rgba(60,40,20,.18), 0 0 0 3px var(--ink)"><span class="lab" style="color: var(--sub)">1년이면</span><span class="big num">-326,400</span><span class="u" style="color: var(--red)">원</span></div>
+        <img class="chr" id="c2" src="assets/cut2.png" style="left: 300px; top: 600px; width: 480px" onerror="this.remove()" />
+        <div class="abs" id="spk1" style="left: 220px; top: 700px; font-size: 64px; color: var(--yel); opacity: 0">✦</div>
+        <div class="abs" id="spk2" style="left: 800px; top: 820px; font-size: 48px; color: var(--yel); opacity: 0">✦</div>
+        <div class="pill" id="pm" style="top: 240px; transform: translateX(-50%)"><span class="lab">한 달</span><span class="big num" id="cnt">-0</span><span class="u">원</span></div>
+        <div class="pill s" id="py" style="top: 448px; transform: translateX(-50%); background: #fff; color: var(--ink); box-shadow: 0 20px 50px rgba(60,40,20,.18), 0 0 0 3px var(--ink)"><span class="lab" style="color: var(--sub)">1년이면</span><span class="big num">-326,400</span><span class="u" style="color: var(--red)">원</span></div>
       </div>
 
       <!-- S9 CTA: prompts in the caption, save -->
@@ -279,7 +277,7 @@
       // ---------- S1 hook: everything already on screen at frame 0 ----------
       const s1 = S("s1"), s2 = S("s2"), s3 = S("s3"), s4 = S("s4"), s5 = S("s5"), s6 = S("s6"), s7 = S("s7"), s8 = S("s8"), s9 = S("s9");
       show("#s1", 0, s1[1]);
-      tl.fromTo("#p1", { scale: 1.08 }, { scale: 1.0, duration: s1[1], ease: "power1.out", transformOrigin: "50% 40%" }, 0);
+      tl.fromTo("#c0", { scale: 1.04 }, { scale: 1.0, duration: s1[1], ease: "power1.out", transformOrigin: "50% 100%" }, 0);
             tl.fromTo("#mk1", { scale: 1 }, { scale: 1.06, duration: 0.2, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 60%" }, 0.35);
       [["#n1", 0.0], ["#n2", 0.35], ["#n3", 0.7]].forEach(([n, t], i) => {
         if (i === 0) tl.fromTo(n, { y: 10 }, { y: 0, duration: 0.3 }, 0);
@@ -317,6 +315,7 @@
       tl.to("#tag1", { opacity: 0, y: 40, duration: 0.25 }, C.send + 0.05);
       // S5: answer streams in
       tl.to("#winwrap", { scale: 1, y: 0, duration: 0.5, ease: "power2.inOut" }, s5[0] - 0.05);
+      tl.to("#win", { top: 230, height: 1080, duration: 0.5, ease: "power2.inOut" }, s5[0] - 0.05);
       tl.to(["#hello", "#comp"], { opacity: 0, duration: 0.2 }, s5[0] - 0.05);
       tl.fromTo("#ub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3 }, s5[0]);
       tl.set("#ans", { opacity: 1 }, C.rows);
@@ -343,12 +342,15 @@
 
       // ---------- S8 result ----------
       show("#s8", s8[0], s8[1]);
-      tl.fromTo("#p2", { y: 160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, s8[0]);
+      chrIn("#c2", s8[0] + 0.1, 0);
+      bob("#c2", s8[0] + 0.7, 4);
+      tl.fromTo(["#spk1", "#spk2"], { scale: 0, opacity: 0, rotation: -40 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.35, ease: "back.out(2.5)", stagger: 0.2 }, C.year + 0.1);
+      tl.to(["#spk1", "#spk2"], { scale: 0.8, duration: 0.4, yoyo: true, repeat: 3, stagger: 0.2 }, C.year + 0.5);
       tl.fromTo("#pm", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "back.out(2)" }, s8[0] + 0.05);
       const cnt = { v: 0 }; const ce = document.getElementById("cnt");
       tl.to(cnt, { v: 27200, duration: 1.0, ease: "power2.out", onUpdate: () => { ce.textContent = "-" + Math.round(cnt.v).toLocaleString("ko-KR"); } }, C.count0);
       tl.fromTo("#py", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "back.out(1.8)" }, C.year);
-      tl.to("#py", { scale: 1.06, duration: 0.2, yoyo: true, repeat: 1 }, C.year + 0.4);
+      tl.to("#py", { scale: 1.06, duration: 0.25, yoyo: true, repeat: 5, ease: "sine.inOut" }, C.year + 0.4);
 
       // ---------- S9 CTA ----------
       show("#s9", s9[0], T.dur + 1);
@@ -364,9 +366,11 @@
       // ---------- captions: one line, same spot ----------
       const cap = document.getElementById("cap");
       T.caps.forEach(([t0, t1, html], i) => {
+        if (i === 0) t0 = 0;
         const d = document.createElement("div"); d.innerHTML = html.replace(/<\/?b>/g, ""); d.style.visibility = "hidden"; cap.appendChild(d);
+        if (i === 0) d.style.visibility = "visible";
         show(d, t0, t1);
-        tl.fromTo(d, { y: 14, opacity: 0.2 }, { y: 0, opacity: 1, duration: 0.12, ease: "power2.out" }, t0);
+        if (i > 0) tl.fromTo(d, { y: 14, opacity: 0.2 }, { y: 0, opacity: 1, duration: 0.12, ease: "power2.out" }, t0);
       });
       tl.set({}, {}, T.dur);
       window.__timelines["main"] = tl;
