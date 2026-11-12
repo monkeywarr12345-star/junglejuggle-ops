@@ -1,0 +1,31 @@
+{
+ "engine": "supertonic",
+ "runs": [
+  {
+   "name": "F1",
+   "sec": 10.2,
+   "file": "research/results/v3tools/tts_supertonic/supertonic_F1.wav"
+  },
+  {
+   "name": "F2",
+   "sec": 10.0,
+   "file": "research/results/v3tools/tts_supertonic/supertonic_F2.wav"
+  },
+  {
+   "name": "F3",
+   "sec": 10.6,
+   "file": "research/results/v3tools/tts_supertonic/supertonic_F3.wav"
+  },
+  {
+   "name": "M1",
+   "sec": 10.3,
+   "file": "research/results/v3tools/tts_supertonic/supertonic_M1.wav"
+  },
+  {
+   "name": "M2",
+   "sec": 10.2,
+   "file": "research/results/v3tools/tts_supertonic/supertonic_M2.wav"
+  }
+ ],
+ "sig": "(text: 'str', voice_style: 'Style', total_steps: 'int' = 8, speed: 'float' = 1.05, max_chunk_length: 'Optional[int]' = None, silence_duration: 'float' = 0.3, lang: 'Optional[str]' = None, verbose: 'bool' = False) -> 'tuple[np.ndarray, np.ndarray]'"
+}
