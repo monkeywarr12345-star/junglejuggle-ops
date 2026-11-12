@@ -10,13 +10,17 @@ SR = 24000
 # (scene id, spoken text, caption chunks; **x** = highlighted)
 LINES = [
     ("s1", "카드값 보다가, 이거 뭐지? 싶었던 적 있죠.", ["카드값 보다가", "**이거 뭐지?** 싶었던 적"]),
-    ("s2", "명세서를 AI한테 그대로 붙여 넣고, 딱 한 줄만 쳐 보세요.", ["명세서를 AI한테 그대로", "**딱 한 줄**만 쳐 보세요"]),
-    ("s3", "매달 반복 결제만 표로 뽑아 줘.", ["이렇게 딱 한 줄", "**반복 결제만 표로**"]),
-    ("s4", "그럼 겹치는 구독이 바로 보여요.", ["겹치는 구독이 **바로** 보여요"]),
-    ("s5", "저는 영상 앱 두 개, 클라우드 두 개가 겹쳐 있었어요.", ["영상 앱 **2개**", "클라우드 **2개**가 겹쳐 있었어요"]),
-    ("s6", "하나씩만 남기니까, 한 달에 이만 천 원이 줄었어요.", ["하나씩만 남기니까", "한 달에 **2만 1천 원** 절약"]),
+    ("s2", "카드 내역을 챗지피티에 그대로 붙여 넣고,", ["카드 내역을 **챗GPT**에", "그대로 붙여 넣고"]),
+    ("s3", "매달 반복 결제만 표로 뽑아 달라고, 한 줄만 붙이세요.", ["**반복 결제만 표로**", "딱 한 줄만 붙이세요"]),
+    ("s4", "보내면 몇 초 만에 표가 나와요.", ["몇 초 만에 **표 완성**"]),
+    ("s5", "영상, 음악, 클라우드가 두 개씩 겹쳐 있네요.", ["영상·음악·클라우드", "**2개씩** 겹쳐 있네요"]),
+    ("s6", "하나씩만 남기면, 한 달에 이만 칠천이백 원이 줄어요.", ["하나씩만 남기면", "한 달에 **2만 7,200원** 절약"]),
     ("s7", "프롬프트 세 개, 캡션에 그대로 적어 뒀어요.", ["프롬프트 3개", "**캡션에 그대로**"]),
 ]
+# real screen recording (OpenScreen, 2576x1416). source times in seconds, crop = chat column.
+REC = "assets/rec1.mp4"; REC_OUT = "assets/rec_cut.mp4"
+REC_CROP = (1000, 100, 820, 1300)  # x, y, w, h in source px (camera coords in index.html use this crop)
+REC_PROMPT, REC_SEND, REC_SEND_END, REC_ANS0, REC_TBL1, REC_DONE = 0.0, 3.3, 3.8, 9.6, 11.6, 15.0
 LEAD, GAP, TAIL = 0.12, 0.16, 1.3
 
 
@@ -140,6 +144,59 @@ def synth_sfx(cues, dur):
     return out[: int(SR * dur)]
 
 
+CARD = (40, 470, 1000, 700)  # on-screen recording card: left, top, w, h (must match #rec in index.html)
+
+
+def cam_at(cams, t):
+    """camera (cx, cy, scale) in crop px at time t; smooth ease between keyframes."""
+    if t <= cams[0][0]: return cams[0][1:]
+    for (t0, *p0), (t1, *p1) in zip(cams, cams[1:]):
+        if t <= t1:
+            u = 0 if t1 <= t0 else (t - t0) / (t1 - t0)
+            e = u * u * (3 - 2 * u)
+            # interpolate zoom in log space so it feels even
+            sc = math.exp(math.log(p0[2]) + (math.log(p1[2]) - math.log(p0[2])) * e)
+            return (p0[0] + (p1[0] - p0[0]) * e, p0[1] + (p1[1] - p0[1]) * e, sc)
+    return cams[-1][1:]
+
+
+def to_screen(cam, x, y):
+    cx, cy, sc = cam; L, T, W, H = CARD
+    return (L + W / 2 + (x - cx) * sc, T + H / 2 + (y - cy) * sc)
+
+
+def make_clip(segs, total, cams):
+    """cut + retime + crop the screen recording, then bake the camera (zoom/pan) into a card-sized clip."""
+    import subprocess
+    from PIL import Image
+    x, y, w, h = REC_CROP
+    parts, labels = [], []
+    for i, (a, b, d) in enumerate(segs):
+        k = d / (b - a)
+        parts.append(f"[0:v]trim=start={a}:end={b},setpts=(PTS-STARTPTS)*{k:.5f},crop={w}:{h}:{x}:{y},fps=30,setsar=1[v{i}]")
+        labels.append(f"[v{i}]")
+    used = sum(d for _, _, d in segs)
+    fc = ";".join(parts) + ";" + "".join(labels) + f"concat=n={len(segs)}:v=1:a=0,tpad=stop_mode=clone:stop_duration={max(0.0, total - used) + 0.5:.3f}[v]"
+    dec = subprocess.Popen(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", os.path.join(HERE, REC), "-filter_complex", fc, "-map", "[v]",
+                            "-t", f"{total:.3f}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+    _, _, W, H = CARD
+    enc = subprocess.Popen(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", "30", "-i", "-",
+                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-g", "15", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+                            os.path.join(HERE, REC_OUT)], stdin=subprocess.PIPE)
+    n, fb = 0, w * h * 3
+    while True:
+        buf = dec.stdout.read(fb)
+        if len(buf) < fb: break
+        cx, cy, sc = cam_at(cams, n / 30)
+        hw, hh = W / 2 / sc, H / 2 / sc
+        cx = min(max(cx, hw), w - hw); cy = min(max(cy, hh), h - hh)
+        im = Image.frombuffer("RGB", (w, h), buf, "raw", "RGB", 0, 1)
+        enc.stdin.write(im.resize((W, H), Image.LANCZOS, box=(cx - hw, cy - hh, cx + hw, cy + hh)).tobytes())
+        n += 1
+    enc.stdin.close(); enc.wait(); dec.wait()
+    print("rec clip", [(a, b, round(d, 2)) for a, b, d in segs], "frames", n, "total", round(total, 2))
+
+
 def main():
     spec, out = sys.argv[1], sys.argv[2]
     os.makedirs(out, exist_ok=True)
@@ -162,20 +219,50 @@ def main():
         b = (s[ids[i + 1]][0] - 0.08) if i + 1 < len(ids) else dur
         win[sid] = [round(a, 3), round(b, 3)]
     sp = s
-    type0 = sp["s3"][0] + 0.1; type1 = max(type0 + 0.9, sp["s3"][1] - 0.2)
-    send = type1 + 0.15
+    send = round(sp["s3"][1] + 0.05, 3)
+    a0, a1 = win["s2"][0], win["s5"][1]
+    s5a = win["s5"][0]
     cue = {
         "paste": round(win["s2"][0] + 0.95, 3),
-        "type0": round(type0, 3), "type1": round(type1, 3), "send": round(send, 3),
-        "ans": round(max(send + 0.4, win["s4"][0] + 0.05), 3),
-        "hl1": round(sp["s5"][0] + 0.15, 3),
-        "hl2": round(sp["s5"][0] + 0.48 * (sp["s5"][1] - sp["s5"][0]), 3),
+        "type0": send, "type1": send, "send": send,
+        "ans": round(send + (REC_SEND_END - REC_SEND), 3),
+        "hl1": round(s5a + 0.6, 3),
+        "hl2": round(s5a + 0.6 + 0.3 * max(0.6, sp["s5"][1] - s5a - 0.6), 3),
+        "hl3": round(s5a + 0.6 + 0.6 * max(0.6, sp["s5"][1] - s5a - 0.6), 3),
         "count0": round(win["s6"][0] + 0.08, 3),
+        "rec0": a0, "rec1": a1,
     }
-    tl = {"dur": dur, "s": win, "caps": caps, "cue": cue}
+    # piecewise retime of the recording to the narration: (src0, src1, out duration)
+    segs = [
+        (REC_PROMPT, REC_SEND, send - a0),                 # prompt visible until the click
+        (REC_SEND, REC_SEND_END, REC_SEND_END - REC_SEND), # click + jump to the thread (1x)
+        (REC_ANS0, REC_TBL1, max(0.4, s5a - 0.35 - cue["ans"])),  # thinking cut out; first table streams in
+        (REC_TBL1, REC_DONE, 0.8),                         # rest of the answer, fast-forwarded, done before the highlights
+    ]
+    s3a, s4a = win["s3"][0], win["s4"][0]
+    r = lambda t: round(t - a0, 3)
+    WIDE, CAM_PROMPT, CAM_SEND, CAM_THREAD, CAM_TBL, CAM_DUP = (410, 640, 1.22), (410, 615, 1.3), (585, 630, 2.25), (410, 400, 1.22), (410, 440, 1.3), (410, 905, 1.27)
+    cams = [
+        (0.0, *WIDE), (0.9, *WIDE),
+        (r(s3a), *CAM_PROMPT),                 # read the pasted statement
+        (r(s3a + 0.7), *CAM_SEND),             # the one-line request + send button
+        (r(send + 0.12), *CAM_SEND),
+        (r(cue["ans"] + 0.1), *CAM_THREAD),    # zoom out as the thread appears
+        (r(s5a - 0.4), *CAM_TBL),
+        (r(s5a + 0.3), *CAM_DUP),             # pan down to the overlap table
+        (r(a1) + 1, *CAM_DUP),
+    ]
+    make_clip(segs, a1 - a0, cams)
+    rip = [round(v, 1) for v in to_screen(CAM_SEND, 766, 686)]
+    hl = []
+    for yy in (901, 938, 975):  # overlap rows (OTT / music / cloud) in crop px
+        x0, y0 = to_screen(CAM_DUP, 22, yy - 17); x1, y1 = to_screen(CAM_DUP, 798, yy + 17)
+        hl.append([round(x0), round(y0), round(x1 - x0), round(y1 - y0)])
+    tl = {"dur": dur, "s": win, "caps": caps, "cue": cue, "rip": rip, "hl": hl}
     open(os.path.join(HERE, "timeline.js"), "w", encoding="utf-8").write("window.TL = " + json.dumps(tl, ensure_ascii=False) + ";\n")
     html = open(os.path.join(HERE, "index.html"), encoding="utf-8").read()
     html = re.sub(r'data-duration="[^"]*"( data-width)', f'data-duration="{dur}"\\1', html, count=1)
+    html = re.sub(r'(<video id="rec"[^>]*?)data-start="[^"]*" data-duration="[^"]*"', lambda m: f'{m.group(1)}data-start="{cue["rec0"]}" data-duration="{round(cue["rec1"] - cue["rec0"], 3)}"', html, count=1)
     open(os.path.join(HERE, "index.html"), "w", encoding="utf-8").write(html)
     # narration track
     nar = np.zeros(int(SR * dur), np.float32)
@@ -184,10 +271,10 @@ def main():
     pk = np.abs(nar).max() or 1; nar = nar / pk * 0.89
     sf.write(os.path.join(out, "narration.wav"), nar, SR)
     sfxc = {
-        "whoosh": [win["s2"][0], cue["type0"] - 0.3, win["s5"][0], win["s6"][0], win["s7"][0]],
+        "whoosh": [win["s2"][0], cue["ans"] - 0.1, win["s5"][0], win["s6"][0], win["s7"][0]],
         "pop": [0.35, 0.75, 1.15, cue["paste"], win["s7"][0] + 0.9],
-        "tick": [cue["ans"] + 0.25 + 0.12 * k for k in range(6)],
-        "swish": [cue["hl1"], cue["hl2"]] + [win["s7"][0] + 0.15 + 0.18 * k for k in range(3)],
+        "tick": [],
+        "swish": [cue["hl1"], cue["hl2"], cue["hl3"]] + [win["s7"][0] + 0.15 + 0.18 * k for k in range(3)],
         "type0": cue["type0"], "type1": cue["type1"], "send": cue["send"], "count0": cue["count0"],
     }
     sf.write(os.path.join(out, "sfx.wav"), synth_sfx(sfxc, dur), SR)
