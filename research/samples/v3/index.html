@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>AI 구독료 정리 견본 v3</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <script src="timeline.js"></script>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #efe7dc; font-family: "Pretendard", sans-serif; color: #1c1b1f; -webkit-font-smoothing: antialiased; }
+      #root { position: absolute; inset: 0; overflow: hidden; }
+      .bg { position: absolute; inset: 0; background: radial-gradient(900px 700px at 80% 8%, #fff7ec 0%, transparent 65%), radial-gradient(900px 900px at 10% 100%, #f2d9c0 0%, transparent 60%), #efe7dc; }
+      .scene { position: absolute; inset: 0; visibility: hidden; }
+
+      /* headline (top, inside safe area) */
+      .head { position: absolute; top: 210px; left: 64px; width: 860px; font-weight: 900; font-size: 74px; line-height: 1.18; letter-spacing: -2.5px; color: #1c1b1f; }
+      .head .mk { position: relative; display: inline-block; z-index: 0; }
+      .head .mk::before { content: ""; position: absolute; left: -8px; right: -8px; bottom: 6px; height: 34px; background: #ffcf3f; border-radius: 6px; z-index: -1; transform-origin: left center; transform: scaleX(var(--mk, 1)); }
+      .head small { display: block; font-size: 40px; font-weight: 700; letter-spacing: -1px; color: #6b6259; margin-bottom: 14px; }
+
+      /* captions (white + dark stroke, above bottom UI zone) */
+      #cap { position: absolute; left: 70px; width: 780px; top: 1190px; text-align: center; font-weight: 800; font-size: 58px; line-height: 1.25; letter-spacing: -1.5px; color: #fff; paint-order: stroke fill; -webkit-text-stroke: 11px #1c1b1f; z-index: 50; }
+      #cap b { color: #ffcf3f; }
+      #cap > div { position: absolute; left: 0; right: 0; top: 0; }
+
+      /* illustration plates */
+      .plate { position: absolute; overflow: hidden; border-radius: 0; }
+      .plate img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .plate.fb { background: linear-gradient(160deg, #f6dcc2, #e9c9a8); }
+
+      /* S1 hook */
+      #s1 .plate { left: 0; top: 0; width: 1080px; height: 1920px; }
+      #s1 .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(239,231,220,.97) 0%, rgba(239,231,220,.86) 22%, rgba(239,231,220,0) 40%, rgba(0,0,0,0) 62%, rgba(28,27,31,.35) 100%); }
+      .chip { position: absolute; font-weight: 800; font-size: 40px; padding: 14px 24px; border-radius: 18px; background: #fff; box-shadow: 0 14px 40px rgba(60,40,20,.22); letter-spacing: -1px; }
+      .chip i { font-style: normal; color: #e5484d; margin-left: 10px; }
+
+      /* app window (camera wrapper) */
+      #cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 0 0; }
+      .desk { position: absolute; inset: 0; }
+      .win { position: absolute; left: 60px; top: 470px; width: 960px; height: 1060px; background: #fff; border-radius: 30px; box-shadow: 0 50px 120px rgba(70,45,20,.28), 0 0 0 1px rgba(0,0,0,.06); overflow: hidden; }
+      .win .bar { height: 70px; display: flex; align-items: center; gap: 12px; padding-left: 26px; border-bottom: 1px solid #eee; background: #fafafa; }
+      .win .bar span { width: 18px; height: 18px; border-radius: 9px; }
+      .win .bar span:nth-child(1) { background: #ff5f57; } .win .bar span:nth-child(2) { background: #febc2e; } .win .bar span:nth-child(3) { background: #28c840; }
+      .win .bar p { margin-left: 20px; font-size: 26px; font-weight: 600; color: #8a8a8e; }
+      .thread { position: absolute; left: 0; right: 0; top: 70px; bottom: 166px; padding: 30px 40px; overflow: hidden; }
+      .ubub { margin-left: auto; width: fit-content; max-width: 720px; background: #f1f1f3; border-radius: 30px; padding: 22px 30px; font-size: 32px; line-height: 1.45; font-weight: 500; }
+      .paste { margin-left: auto; width: 640px; background: #f7f7f9; border: 1px solid #ececf0; border-radius: 22px; padding: 18px 22px; font-size: 22px; line-height: 1.6; color: #6f6f76; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; margin-bottom: 14px; }
+      .paste em { font-style: normal; display: inline-block; background: #e9e9ee; border-radius: 6px; padding: 0 8px; font-family: "Pretendard"; font-weight: 700; font-size: 20px; color: #55555b; margin-bottom: 6px; }
+      .ans { margin-top: 26px; font-size: 30px; line-height: 1.5; font-weight: 500; }
+      .ans .lead { margin-bottom: 16px; }
+      table.t { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 30px; }
+      table.t th { text-align: left; font-weight: 700; color: #6b6b72; font-size: 24px; padding: 10px 16px; border-bottom: 2px solid #ececf0; }
+      table.t td { padding: 15px 16px; border-bottom: 1px solid #f0f0f3; position: relative; }
+      table.t td.num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+      table.t tr.dup td { background: linear-gradient(90deg, rgba(255,207,63,.55), rgba(255,207,63,.55)) no-repeat; background-size: var(--hl, 0%) 100%; }
+      table.t tr.dup td:first-child { border-radius: 10px 0 0 10px; } table.t tr.dup td:last-child { border-radius: 0 10px 10px 0; }
+      .tag { display: inline-block; font-size: 20px; font-weight: 800; padding: 3px 10px; border-radius: 8px; background: #1c1b1f; color: #ffcf3f; margin-left: 10px; vertical-align: 3px; opacity: 0; }
+      .composer { position: absolute; left: 30px; right: 30px; bottom: 30px; height: 112px; border-radius: 56px; border: 1.5px solid #e3e3e8; background: #fff; display: flex; align-items: center; padding: 0 22px 0 34px; box-shadow: 0 8px 24px rgba(0,0,0,.05); }
+      .composer .ph { font-size: 38px; color: #a3a3a9; flex: 1; white-space: nowrap; overflow: hidden; }
+      .composer .ph.on { color: #1c1b1f; font-weight: 500; }
+      .composer .send { width: 62px; height: 62px; border-radius: 31px; background: #d9d9de; display: grid; place-items: center; }
+      .composer .send svg { width: 30px; height: 30px; }
+      .caret { display: inline-block; width: 3px; height: 34px; background: #1c1b1f; vertical-align: -6px; margin-left: 2px; }
+      .cursor { position: absolute; width: 46px; height: 46px; z-index: 40; pointer-events: none; filter: drop-shadow(0 4px 6px rgba(0,0,0,.3)); }
+      .ripple { position: absolute; width: 90px; height: 90px; border-radius: 50%; border: 5px solid #ffcf3f; z-index: 39; opacity: 0; }
+
+      /* S6 result */
+      #s6 .plate { left: 0; top: 640px; width: 1080px; height: 1280px; }
+      #s6 .fade { position: absolute; left: 0; right: 0; top: 640px; height: 260px; background: linear-gradient(180deg, #efe7dc, rgba(239,231,220,0)); }
+      .save { position: absolute; left: 64px; top: 470px; width: 900px; }
+      .save .row { display: flex; align-items: baseline; gap: 20px; font-weight: 900; letter-spacing: -3px; }
+      .save .big { font-size: 150px; color: #e5484d; font-variant-numeric: tabular-nums; }
+      .save .unit { font-size: 64px; color: #1c1b1f; }
+      .save .yr { margin-top: 6px; font-size: 42px; font-weight: 800; color: #6b6259; letter-spacing: -1px; }
+      .save .yr b { color: #1c1b1f; }
+
+      /* S7 CTA */
+      .cards { position: absolute; left: 90px; top: 560px; width: 760px; height: 560px; }
+      .pcard { position: absolute; left: 0; width: 760px; height: 170px; border-radius: 28px; background: #fff; box-shadow: 0 24px 60px rgba(70,45,20,.18); display: flex; align-items: center; gap: 26px; padding: 0 34px; font-size: 40px; font-weight: 800; letter-spacing: -1px; }
+      .pcard .n { width: 74px; height: 74px; border-radius: 22px; background: #1c1b1f; color: #ffcf3f; display: grid; place-items: center; font-size: 38px; font-weight: 900; flex: none; }
+      .pcard small { display: block; font-size: 26px; font-weight: 600; color: #8a8178; margin-top: 4px; letter-spacing: 0; }
+      .savebtn { position: absolute; left: 64px; top: 1140px; display: flex; align-items: center; gap: 18px; font-size: 44px; font-weight: 900; letter-spacing: -1px; background: #1c1b1f; color: #fff; padding: 22px 34px; border-radius: 24px; }
+      .savebtn svg { width: 44px; height: 44px; }
+      .brand { position: absolute; left: 64px; top: 150px; font-size: 28px; font-weight: 800; color: #8a8178; letter-spacing: -.5px; z-index: 60; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1080" data-height="1920">
+      <div class="bg"></div>
+
+      <!-- S1 hook -->
+      <div id="s1" class="scene">
+        <div class="plate" id="p1"><img src="assets/img0.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
+        <div class="shade"></div>
+        <div class="head" id="h1"><small>AI로 생활비 줄이기 · 1편</small>매달 새는 구독료<br /><span class="mk" id="mk1">AI로 30초 컷</span></div>
+        <div class="chip" id="c1" style="left: 470px; top: 760px">영상 앱<i>-13,500</i></div>
+        <div class="chip" id="c2" style="left: 90px; top: 900px">클라우드<i>-7,500</i></div>
+        <div class="chip" id="c3" style="left: 400px; top: 1010px">뭔지 모를 결제<i>-4,400</i></div>
+      </div>
+
+      <!-- S2..S5 app (one continuous camera) -->
+      <div id="sApp" class="scene">
+        <div class="head" id="h2"><small>STEP 1</small>명세서 붙이고 <span class="mk" id="mk2">딱 한 줄</span></div>
+        <div id="cam">
+          <div class="win" id="win">
+            <div class="bar"><span></span><span></span><span></span><p>AI 채팅</p></div>
+            <div class="thread" id="thread">
+              <div id="pasteWrap" style="opacity: 0">
+                <div class="paste"><em>카드 이용내역 · 붙여넣기</em><br />10/03 OO뮤직 정기결제 8,690<br />10/05 영상앱A 멤버십 17,000<br />10/07 클라우드A 저장공간 2,900<br />10/11 영상앱B 프리미엄 13,500<br />10/14 편의점 4,300 · 10/15 카페 5,600<br />10/18 클라우드B 백업 7,500 …</div>
+              </div>
+              <div class="ubub" id="ub" style="opacity: 0">매달 반복 결제만 표로 뽑아 줘.<br />기능이 겹치는 건 표시해 줘.</div>
+              <div class="ans" id="ans" style="opacity: 0">
+                <div class="lead" id="lead">반복 결제 6건을 찾았어요.</div>
+                <table class="t" id="tbl">
+                  <tr><th>서비스</th><th>분류</th><th style="text-align: right">월 금액</th></tr>
+                  <tr class="dup" id="r1"><td>영상앱A<span class="tag">겹침</span></td><td>영상</td><td class="num">17,000</td></tr>
+                  <tr class="dup" id="r2"><td>영상앱B<span class="tag">겹침</span></td><td>영상</td><td class="num">13,500</td></tr>
+                  <tr class="dup" id="r3"><td>클라우드A<span class="tag">겹침</span></td><td>저장공간</td><td class="num">2,900</td></tr>
+                  <tr class="dup" id="r4"><td>클라우드B<span class="tag">겹침</span></td><td>저장공간</td><td class="num">7,500</td></tr>
+                  <tr id="r5"><td>OO뮤직</td><td>음악</td><td class="num">8,690</td></tr>
+                  <tr id="r6"><td>뉴스 구독</td><td>뉴스</td><td class="num">4,400</td></tr>
+                </table>
+              </div>
+            </div>
+            <div class="composer"><div class="ph" id="ph">메시지를 입력하세요</div><div class="send" id="send"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7" /></svg></div></div>
+          </div>
+          <div class="ripple" id="rip"></div>
+          <svg class="cursor" id="cur" viewBox="0 0 24 24"><path d="M4 2l15 10-7 1.3L8.4 21z" fill="#fff" stroke="#1c1b1f" stroke-width="1.6" stroke-linejoin="round" /></svg>
+        </div>
+      </div>
+
+      <!-- S6 result -->
+      <div id="s6" class="scene">
+        <div class="plate" id="p3"><img src="assets/img2.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
+        <div class="fade"></div>
+        <div class="head" id="h6"><small>결과</small>하나씩만 남겼더니</div>
+        <div class="save"><div class="row"><span class="big" id="cnt">0</span><span class="unit">원 / 월</span></div><div class="yr" id="yr">1년이면 <b>252,000원</b> 아낌</div></div>
+      </div>
+
+      <!-- S7 CTA -->
+      <div id="s7" class="scene">
+        <div class="head" id="h7"><small>저장해두고 월말에 한 번</small>프롬프트 3개<br /><span class="mk" id="mk7">캡션에 그대로</span></div>
+        <div class="cards">
+          <div class="pcard" id="k1" style="top: 0"><div class="n">1</div><div>반복 결제만 표로<small>명세서 붙여 넣고 한 줄</small></div></div>
+          <div class="pcard" id="k2" style="top: 195px"><div class="n">2</div><div>겹치는 것 찾기<small>하나만 남길 이유까지</small></div></div>
+          <div class="pcard" id="k3" style="top: 390px"><div class="n">3</div><div>해지 순서 받기<small>결제일 가까운 것부터</small></div></div>
+        </div>
+        <div class="savebtn" id="sb"><svg viewBox="0 0 24 24" fill="#ffcf3f"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z" /></svg>저장해 두기</div>
+      </div>
+
+      <div class="brand">@junglejuggle</div>
+      <div id="cap"></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const T = window.TL; // generated: {dur, s:{id:[start,end]}, caps:[[t0,t1,html]], cue:{...}}
+      const tl = gsap.timeline({ paused: true });
+      const S = (id) => T.s[id];
+      const show = (sel, a, b) => { tl.set(sel, { visibility: "visible" }, a); tl.set(sel, { visibility: "hidden" }, b); };
+
+      // ---------- S1 hook (visible at frame 0) ----------
+      show("#s1", 0, S("s1")[1]);
+      tl.fromTo("#p1", { scale: 1.12, y: 0 }, { scale: 1.0, y: -20, duration: S("s1")[1], ease: "power1.out" }, 0);
+      tl.fromTo("#mk1", { "--mk": 0 }, { "--mk": 1, duration: 0.35, ease: "power2.out" }, 0.15);
+      [["#c1", 0.35], ["#c2", 0.75], ["#c3", 1.15]].forEach(([c, t]) => tl.fromTo(c, { scale: 0.4, opacity: 0, rotation: -6 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.32, ease: "back.out(2.2)" }, t));
+      tl.to(["#c1", "#c2", "#c3"], { y: -14, duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: 3, stagger: 0.2 }, 1.4);
+
+      // ---------- App (S2..S5) ----------
+      const a0 = S("s2")[0], a1 = S("s5")[1];
+      show("#sApp", a0, a1);
+      // camera: start zoomed out (window slides up), then push into composer, then into answer table
+      tl.fromTo("#win", { y: 520, rotation: 2.5, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.55, ease: "power3.out" }, a0);
+      tl.fromTo("#h2", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35 }, a0 + 0.05);
+      tl.fromTo("#mk2", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, a0 + 0.35);
+      // paste
+      tl.fromTo("#pasteWrap", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, T.cue.paste);
+      // cursor moves to composer and clicks
+      tl.set("#cur", { x: 820, y: 1700, opacity: 1 }, a0);
+      tl.to("#cur", { x: 430, y: 1450, duration: 0.6, ease: "power2.inOut" }, T.cue.paste + 0.35);
+      // zoom to composer for typing (camera)
+      const cz = S("s3");
+      tl.to("#cam", { scale: 1.15, x: -81, y: -760, duration: 0.6, ease: "power3.inOut" }, cz[0] - 0.25);
+      tl.to("#h2", { opacity: 0, duration: 0.2 }, cz[0] - 0.25);
+      const prompt = "매달 반복 결제만 표로 뽑아 줘.";
+      const o = { n: 0 }; const ph = document.getElementById("ph");
+      tl.set(ph, { className: "ph on" }, T.cue.type0);
+      tl.to(o, { n: prompt.length, duration: T.cue.type1 - T.cue.type0, ease: "none", onUpdate: () => { const k = Math.round(o.n); ph.innerHTML = prompt.slice(0, k) + '<span class="caret"></span>'; } }, T.cue.type0);
+      tl.set("#send", { backgroundColor: "#1c1b1f" }, T.cue.type1);
+      tl.to("#cur", { x: 930, y: 1448, duration: 0.3, ease: "power2.inOut" }, T.cue.type1 - 0.1);
+      tl.fromTo("#rip", { x: 885, y: 1400, scale: 0.3, opacity: 1 }, { scale: 1.4, opacity: 0, duration: 0.45 }, T.cue.send);
+      tl.to("#send", { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1 }, T.cue.send);
+      tl.set(ph, { innerHTML: "메시지를 입력하세요", className: "ph" }, T.cue.send + 0.05);
+      tl.set("#pasteWrap", { display: "none" }, T.cue.send + 0.05);
+      tl.fromTo("#ub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25 }, T.cue.send + 0.05);
+      tl.to("#cur", { opacity: 0, duration: 0.2 }, T.cue.send + 0.2);
+      // camera out to the thread, answer streams
+      tl.to("#cam", { scale: 1.08, x: -40, y: -330, duration: 0.6, ease: "power3.inOut" }, T.cue.send + 0.1);
+      tl.fromTo("#ans", { opacity: 0 }, { opacity: 1, duration: 0.2 }, T.cue.ans);
+      tl.from("#lead", { opacity: 0, x: -20, duration: 0.25 }, T.cue.ans);
+      tl.from("#tbl tr", { opacity: 0, y: 18, duration: 0.22, stagger: 0.12 }, T.cue.ans + 0.25);
+      // highlight duplicates (S4 -> S5)
+      tl.to(["#r1 td", "#r2 td"], { "--hl": "100%", duration: 0.35, ease: "power2.out" }, T.cue.hl1);
+      tl.to(["#r3 td", "#r4 td"], { "--hl": "100%", duration: 0.35, ease: "power2.out" }, T.cue.hl2);
+      tl.to(["#r1 .tag", "#r2 .tag"], { opacity: 1, duration: 0.15 }, T.cue.hl1 + 0.2);
+      tl.to(["#r3 .tag", "#r4 .tag"], { opacity: 1, duration: 0.15 }, T.cue.hl2 + 0.2);
+      tl.to("#cam", { scale: 1.18, x: -97, y: -528, duration: 0.7, ease: "power3.inOut" }, S("s5")[0]);
+      tl.to(["#r2", "#r4"], { opacity: 0.35, duration: 0.25 }, S("s5")[1] - 0.6);
+      tl.to(["#r2 td.num", "#r4 td.num"], { textDecoration: "line-through", duration: 0.01 }, S("s5")[1] - 0.6);
+
+      // ---------- S6 result ----------
+      const r = S("s6");
+      show("#s6", r[0], r[1]);
+      tl.fromTo("#p3", { scale: 1.1, y: 60 }, { scale: 1.0, y: 0, duration: r[1] - r[0], ease: "power1.out" }, r[0]);
+      tl.fromTo("#h6", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, r[0]);
+      const cnt = { v: 0 }; const ce = document.getElementById("cnt");
+      tl.to(cnt, { v: 21000, duration: 1.0, ease: "power2.out", onUpdate: () => { ce.textContent = "-" + Math.round(cnt.v).toLocaleString("ko-KR"); } }, T.cue.count0);
+      tl.fromTo(".save .row", { scale: 0.85 }, { scale: 1, duration: 0.5, ease: "back.out(2)" }, T.cue.count0);
+      tl.fromTo("#yr", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3 }, T.cue.count0 + 1.05);
+
+      // ---------- S7 CTA ----------
+      const c = S("s7");
+      show("#s7", c[0], T.dur + 1);
+      tl.fromTo("#h7", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, c[0]);
+      tl.fromTo("#mk7", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, c[0] + 0.3);
+      tl.fromTo(["#k1", "#k2", "#k3"], { x: 900, rotation: 6 }, { x: 0, rotation: 0, duration: 0.45, ease: "power3.out", stagger: 0.18 }, c[0] + 0.15);
+      tl.fromTo("#sb", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.35, ease: "back.out(2.4)" }, c[0] + 0.9);
+      tl.to("#sb", { scale: 1.06, duration: 0.25, yoyo: true, repeat: 3, ease: "sine.inOut" }, c[0] + 1.4);
+
+      // ---------- captions ----------
+      const cap = document.getElementById("cap");
+      T.caps.forEach(([t0, t1, html], i) => {
+        const d = document.createElement("div"); d.id = "cp" + i; d.innerHTML = html; d.style.visibility = "hidden"; cap.appendChild(d);
+        show(d, t0, t1);
+        tl.fromTo(d, { scale: 0.9 }, { scale: 1, duration: 0.14, ease: "back.out(2)" }, t0);
+      });
+      tl.set({}, {}, T.dur);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

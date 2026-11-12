@@ -1,0 +1,64 @@
+name: research v3 sample (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/samples/v3/**']
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sudo apt-get install -y -qq ffmpeg libsndfile1 >/dev/null || true
+      - name: voice deps
+        run: |
+          VOICE=$(head -1 research/samples/v3/voice.txt)
+          pip install -q numpy soundfile
+          case "$VOICE" in
+            qwen*) pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q -U qwen-tts ;;
+            supertonic*) pip install -q supertonic ;;
+            chatterbox*) pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q chatterbox-tts ;;
+          esac
+      - name: build timeline + audio
+        working-directory: research/samples/v3
+        run: |
+          mkdir -p assets /tmp/v3
+          for i in 0 1 2; do f=../../results/v3tools/img/img$i.jpg; [ -f $f ] && [ ! -f assets/img$i.jpg ] && cp $f assets/img$i.jpg; done
+          python build.py "$(head -1 voice.txt)" /tmp/v3
+      - name: render
+        working-directory: research/samples/v3
+        env: { HYPERFRAMES_TELEMETRY_DISABLED: "1", DO_NOT_TRACK: "1" }
+        run: |
+          npx -y hyperframes@latest render --output /tmp/v3/silent.mp4 > /tmp/v3/render.log 2>&1 || (tail -40 /tmp/v3/render.log; exit 1)
+      - name: mix + frames
+        run: |
+          OUT=research/results/v3; mkdir -p $OUT
+          DUR=$(python -c "import json;print(json.load(open('/tmp/v3/timeline.json'))['dur'])")
+          MUSIC=$(head -1 research/samples/v3/music.txt)
+          FO=$(python -c "print(round($DUR-1.2,2))")
+          ffmpeg -y -loglevel error -i /tmp/v3/silent.mp4 -i /tmp/v3/narration.wav -i /tmp/v3/sfx.wav -stream_loop -1 -i "$MUSIC" -filter_complex \
+            "[1:a]aresample=48000,asplit[n][nk];[2:a]aresample=48000,volume=0.7[s];[3:a]aresample=48000,volume=0.16,afade=t=in:d=0.4,afade=t=out:st=$FO:d=1.2[m0];[m0][nk]sidechaincompress=threshold=0.02:ratio=6:attack=15:release=350[m];[n][s][m]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.95[a]" \
+            -map 0:v -map "[a]" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -c:a aac -b:a 192k -t $DUR $OUT/v3_sample.mp4
+          python - <<'E'
+          import json, subprocess
+          d = json.load(open('/tmp/v3/timeline.json'))['dur']
+          ts = [0.0] + [round(x * 0.9, 2) for x in range(1, int(d / 0.9) + 1)]
+          ts = ts[:24]
+          for i, t in enumerate(ts):
+              subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(t), '-i', 'research/results/v3/v3_sample.mp4', '-frames:v', '1', '-vf', 'scale=270:-1', f'/tmp/v3/f{i:02d}.png'])
+          subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', '/tmp/v3/f%02d.png', '-vf', 'tile=6x4:padding=6:color=white', '-frames:v', '1', 'research/results/v3/contact.jpg'])
+          subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', '0', '-i', 'research/results/v3/v3_sample.mp4', '-frames:v', '1', 'research/results/v3/frame0.jpg'])
+          E
+          cp /tmp/v3/timeline.json $OUT/; tail -5 /tmp/v3/render.log > $OUT/render_tail.txt
+          head -1 research/samples/v3/voice.txt > $OUT/voice_used.txt
+      - name: commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/v3 && git commit -qm "research: v3 render" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done
