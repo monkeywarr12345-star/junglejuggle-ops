@@ -1,1 +1,2 @@
 A: supertonic F1 @1.25
+B: qwen17 sohee 밝고 경쾌한 숏폼 내레이션, 조금 빠르게 @1.3
