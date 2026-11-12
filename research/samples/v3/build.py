@@ -13,9 +13,9 @@ LINES = [
     ("s2", "명세서를 AI한테 그대로 붙여 넣고, 딱 한 줄만 쳐 보세요.", ["명세서를 AI한테 그대로", "**딱 한 줄**만 쳐 보세요"]),
     ("s3", "매달 반복 결제만 표로 뽑아 줘.", ["이렇게 딱 한 줄", "**반복 결제만 표로**"]),
     ("s4", "그럼 겹치는 구독이 바로 보여요.", ["겹치는 구독이 **바로** 보여요"]),
-    ("s5", "저는 영상 앱 두 개, 클라우드 두 개가 겹쳐 있었어요.", ["영상 앱 **2개**", "클라우드 **2개**가 겹쳐 있었음"]),
+    ("s5", "저는 영상 앱 두 개, 클라우드 두 개가 겹쳐 있었어요.", ["영상 앱 **2개**", "클라우드 **2개**가 겹쳐 있었어요"]),
     ("s6", "하나씩만 남기니까, 한 달에 이만 천 원이 줄었어요.", ["하나씩만 남기니까", "한 달에 **2만 1천 원** 절약"]),
-    ("s7", "프롬프트 세 개, 캡션에 그대로 적어 뒀어요.", ["프롬프트 3개", "**캡션에 그대로** 적어 둠"]),
+    ("s7", "프롬프트 세 개, 캡션에 그대로 적어 뒀어요.", ["프롬프트 3개", "**캡션에 그대로** 적어 뒀어요"]),
 ]
 LEAD, GAP, TAIL = 0.12, 0.16, 1.3
 
@@ -165,12 +165,12 @@ def main():
     type0 = sp["s3"][0] + 0.1; type1 = max(type0 + 0.9, sp["s3"][1] - 0.2)
     send = type1 + 0.15
     cue = {
-        "paste": round(win["s2"][0] + 1.2, 3),
+        "paste": round(win["s2"][0] + 0.95, 3),
         "type0": round(type0, 3), "type1": round(type1, 3), "send": round(send, 3),
         "ans": round(max(send + 0.4, win["s4"][0] + 0.05), 3),
         "hl1": round(sp["s5"][0] + 0.15, 3),
         "hl2": round(sp["s5"][0] + 0.48 * (sp["s5"][1] - sp["s5"][0]), 3),
-        "count0": round(win["s6"][0] + 0.35, 3),
+        "count0": round(win["s6"][0] + 0.08, 3),
     }
     tl = {"dur": dur, "s": win, "caps": caps, "cue": cue}
     open(os.path.join(HERE, "timeline.js"), "w", encoding="utf-8").write("window.TL = " + json.dumps(tl, ensure_ascii=False) + ";\n")
@@ -186,7 +186,7 @@ def main():
     sfxc = {
         "whoosh": [win["s2"][0], cue["type0"] - 0.3, win["s5"][0], win["s6"][0], win["s7"][0]],
         "pop": [0.35, 0.75, 1.15, cue["paste"], win["s7"][0] + 0.9],
-        "tick": [cue["ans"] + 0.25 + 0.12 * k for k in range(7)],
+        "tick": [cue["ans"] + 0.25 + 0.12 * k for k in range(6)],
         "swish": [cue["hl1"], cue["hl2"]] + [win["s7"][0] + 0.15 + 0.18 * k for k in range(3)],
         "type0": cue["type0"], "type1": cue["type1"], "send": cue["send"], "count0": cue["count0"],
     }

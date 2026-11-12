@@ -19,7 +19,7 @@
       .scene { position: absolute; inset: 0; visibility: hidden; }
 
       /* headline (top, inside safe area) */
-      .head { position: absolute; top: 200px; left: 64px; width: 880px; font-weight: 900; font-size: 84px; line-height: 1.18; letter-spacing: -2.5px; color: #1c1b1f; }
+      .head { position: absolute; top: 240px; left: 64px; width: 880px; font-weight: 900; font-size: 84px; line-height: 1.18; letter-spacing: -2.5px; color: #1c1b1f; }
       .head .mk { position: relative; display: inline-block; z-index: 0; }
       .head .mk::before { content: ""; position: absolute; left: -8px; right: -8px; bottom: 8px; height: 38px; background: #ffcf3f; border-radius: 6px; z-index: -1; transform-origin: left center; transform: scaleX(var(--mk, 1)); }
       .head small { display: block; font-size: 40px; font-weight: 700; letter-spacing: -1px; color: #6b6259; margin-bottom: 14px; }
@@ -43,12 +43,12 @@
       /* app window (camera wrapper) */
       #cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 0 0; }
       .desk { position: absolute; inset: 0; }
-      .win { position: absolute; left: 60px; top: 400px; width: 820px; height: 980px; background: #fff; border-radius: 30px; box-shadow: 0 50px 120px rgba(70,45,20,.28), 0 0 0 1px rgba(0,0,0,.06); overflow: hidden; }
+      .win { position: absolute; left: 60px; top: 410px; width: 820px; height: 860px; background: #fff; border-radius: 30px; box-shadow: 0 50px 120px rgba(70,45,20,.28), 0 0 0 1px rgba(0,0,0,.06); overflow: hidden; }
       .win .bar { height: 70px; display: flex; align-items: center; gap: 12px; padding-left: 26px; border-bottom: 1px solid #eee; background: #fafafa; }
       .win .bar span { width: 18px; height: 18px; border-radius: 9px; }
       .win .bar span:nth-child(1) { background: #ff5f57; } .win .bar span:nth-child(2) { background: #febc2e; } .win .bar span:nth-child(3) { background: #28c840; }
       .win .bar p { margin-left: 20px; font-size: 26px; font-weight: 600; color: #8a8a8e; }
-      .thread { position: absolute; left: 0; right: 0; top: 70px; bottom: 166px; padding: 30px 40px; overflow: hidden; }
+      .thread { position: absolute; left: 0; right: 0; top: 70px; bottom: 20px; padding: 30px 40px; overflow: hidden; }
       .ubub { margin-left: auto; width: fit-content; max-width: 640px; background: #f1f1f3; border-radius: 30px; padding: 20px 28px; font-size: 32px; line-height: 1.45; font-weight: 500; }
       .paste { margin-left: auto; width: 640px; background: #f7f7f9; border: 1px solid #ececf0; border-radius: 22px; padding: 20px 26px; font-size: 29px; line-height: 1.6; color: #6f6f76; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; margin-bottom: 14px; }
       .paste em { font-style: normal; display: inline-block; background: #e9e9ee; border-radius: 6px; padding: 0 8px; font-family: "Pretendard"; font-weight: 700; font-size: 24px; color: #55555b; margin-bottom: 6px; }
@@ -106,7 +106,7 @@
       <div id="s1" class="scene">
         <div class="plate" id="p1"><img src="assets/img0.jpg" onerror="this.parentNode.classList.add('fb');this.remove()" /></div>
         <div class="shade"></div>
-        <div class="head" id="h1"><small>AI로 생활비 줄이기 · 1편</small>매달 새는 구독료<br /><span class="mk" id="mk1">AI로 30초 컷</span></div>
+        <div class="head" id="h1"><small>AI로 생활비 줄이기 · 1편</small>매달 새는 <span style="color: #e5484d">25,400원</span><br /><span class="mk" id="mk1">AI로 30초 컷</span></div>
         <div class="chip" id="c1" style="left: 40px; top: 650px">영상 앱<i>-13,500</i></div>
         <div class="chip" id="c2" style="left: 70px; top: 830px">클라우드<i>-7,500</i></div>
         <div class="chip" id="c3" style="left: 30px; top: 1010px">정체불명 결제<i>-4,400</i></div>
@@ -124,7 +124,7 @@
               </div>
               <div class="ubub" id="ub" style="opacity: 0">매달 반복 결제만 표로 뽑아 줘.<br />기능이 겹치는 건 표시해 줘.</div>
               <div class="ans" id="ans" style="opacity: 0">
-                <div class="lead" id="lead">반복 결제 6건을 찾았어요.</div>
+                <div class="lead" id="lead">반복 결제 5건을 찾았어요.</div>
                 <table class="t" id="tbl">
                   <tr><th>서비스</th><th>분류</th><th style="text-align: right">월 금액</th></tr>
                   <tr class="dup" id="r1"><td>영상앱A<span class="tag">겹침</span></td><td>영상</td><td class="num">17,000</td></tr>
@@ -132,17 +132,15 @@
                   <tr class="dup" id="r3"><td>클라우드A<span class="tag">겹침</span></td><td>저장</td><td class="num">2,900</td></tr>
                   <tr class="dup" id="r4"><td>클라우드B<span class="tag">겹침</span></td><td>저장</td><td class="num">7,500</td></tr>
                   <tr id="r5"><td>OO뮤직</td><td>음악</td><td class="num">8,690</td></tr>
-                  <tr id="r6"><td>뉴스 구독</td><td>뉴스</td><td class="num">4,400</td></tr>
                 </table>
               </div>
             </div>
-            <div class="composer" id="comp"><div class="ph">메시지를 입력하세요</div><div class="send"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7" /></svg></div></div>
           </div>
         </div>
         <div class="dim" id="dim"></div>
         <div class="bigc" id="bigc"><div class="ph" id="ph"></div><div class="send" id="send"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7" /></svg></div></div>
         <img class="pose" id="cut4" src="assets/cut4.png" style="left: 560px; top: 860px; width: 500px" onerror="this.remove()" />
-        <img class="pose" id="cut3b" src="assets/cut3.png" style="left: -20px; top: 1240px; width: 420px" onerror="this.remove()" />
+        <img class="pose" id="cut3b" src="assets/cut3.png" style="left: -10px; top: 1250px; width: 380px" onerror="this.remove()" />
         <div class="ripple" id="rip"></div>
         <svg class="cursor" id="cur" viewBox="0 0 24 24"><path d="M4 2l15 10-7 1.3L8.4 21z" fill="#fff" stroke="#1c1b1f" stroke-width="1.6" stroke-linejoin="round" /></svg>
         <div class="head" id="h2"><small>STEP 1</small>명세서 <span class="mk" id="mk2">그대로 붙여넣기</span></div>
@@ -191,10 +189,10 @@
       const a0 = S("s2")[0], a1 = S("s5")[1], s3 = S("s3"), s4 = S("s4"), s5 = S("s5");
       show("#sApp", a0, a1);
       tl.fromTo("#p2", { scale: 1.06 }, { scale: 1.0, duration: 0.8, ease: "power1.out" }, a0);
-      tl.to("#p2", { scale: 3.0, transformOrigin: "700px 580px", opacity: 0, duration: 0.5, ease: "power2.in" }, a0 + 0.8);
-      tl.fromTo("#win", { scale: 0.3, opacity: 0, transformOrigin: "78% 18%" }, { scale: 1, opacity: 1, duration: 0.5, ease: "power3.out" }, a0 + 0.9);
-      tl.fromTo("#h2", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, a0 + 0.95);
-      tl.fromTo("#mk2", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, a0 + 1.2);
+      tl.to("#p2", { scale: 3.0, transformOrigin: "700px 580px", opacity: 0, duration: 0.5, ease: "power2.in" }, a0 + 0.55);
+      tl.fromTo("#win", { scale: 0.3, opacity: 0, transformOrigin: "78% 18%" }, { scale: 1, opacity: 1, duration: 0.5, ease: "power3.out" }, a0 + 0.65);
+      tl.fromTo("#h2", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, a0 + 0.05);
+      tl.fromTo("#mk2", { "--mk": 0 }, { "--mk": 1, duration: 0.3 }, a0 + 0.35);
       tl.fromTo("#pasteWrap", { opacity: 0, scale: 0.92, transformOrigin: "100% 0%" }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.8)" }, T.cue.paste);
       // STEP 2: big prompt box over a dimmed window
       tl.to("#h2", { opacity: 0, duration: 0.15 }, s3[0] - 0.2);
@@ -217,7 +215,6 @@
       tl.to("#dim", { opacity: 0, duration: 0.3 }, T.cue.send + 0.2);
       tl.to("#cut4", { x: 300, opacity: 0, duration: 0.3, ease: "power2.in" }, T.cue.send + 0.1);
       tl.set("#pasteWrap", { display: "none" }, T.cue.send + 0.3);
-      tl.to("#comp", { opacity: 0, duration: 0.2 }, T.cue.send + 0.3);
       tl.fromTo("#ub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25 }, T.cue.send + 0.32);
       // STEP 3: answer table + pointing character
       tl.to("#h3", { opacity: 0, duration: 0.15 }, s4[0] - 0.12);
@@ -240,11 +237,12 @@
       const r = S("s6");
       show("#s6", r[0], r[1]);
       tl.fromTo("#p3", { scale: 1.1, y: 60 }, { scale: 1.0, y: 0, duration: r[1] - r[0], ease: "power1.out" }, r[0]);
-      tl.fromTo("#h6", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3 }, r[0]);
+      tl.fromTo("#h6", { scale: 0.96 }, { scale: 1, duration: 0.3 }, r[0]);
       const cnt = { v: 0 }; const ce = document.getElementById("cnt");
       tl.to(cnt, { v: 21000, duration: 1.0, ease: "power2.out", onUpdate: () => { ce.textContent = "-" + Math.round(cnt.v).toLocaleString("ko-KR"); } }, T.cue.count0);
       tl.fromTo(".save .row", { scale: 0.85 }, { scale: 1, duration: 0.5, ease: "back.out(2)" }, T.cue.count0);
       tl.fromTo("#yr", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3 }, T.cue.count0 + 1.05);
+      tl.to("#yr b", { scale: 1.08, duration: 0.25, yoyo: true, repeat: 1, display: "inline-block" }, T.cue.count0 + 1.4);
 
       // ---------- S7 CTA ----------
       const c = S("s7");
