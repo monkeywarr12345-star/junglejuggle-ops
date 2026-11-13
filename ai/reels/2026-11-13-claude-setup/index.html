@@ -229,8 +229,10 @@
       #dm .ic { background: #ffd43b; }
     </style>
     <style>
+      #camBg { position: absolute; inset: 0; z-index: 0; }
+      #cam { position: absolute; inset: 0; z-index: 10; }
       /* ===== layout: caption band 1110-1300, mascot zones never overlap text ===== */
-      .w { top: 1112px; font-size: 94px; }
+      .w { top: 1112px; font-size: 94px; transform-origin: 50% 0%; }
       .sub { top: 1246px; font-size: 29px; }
       #hook { top: 250px; }
       #hook .l1 { font-size: 58px; }
@@ -271,12 +273,14 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="28.41" data-width="1080" data-height="1920">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="27.35" data-width="1080" data-height="1920">
+      <div id="camBg">
       <div id="bg"></div>
       <svg width="0" height="0" style="position:absolute"><defs><symbol id="leaf" viewBox="0 0 400 200" preserveAspectRatio="none"><path d="M0 100 C80 8 250 -12 400 100 C250 212 80 192 0 100Z" fill="currentColor"/><path d="M0 100 C140 96 270 98 400 100" stroke="rgba(0,0,0,.28)" stroke-width="5" fill="none"/><path d="M80 99 L140 42 M155 99 L225 30 M235 99 L300 46 M80 101 L140 158 M155 101 L225 170 M235 101 L300 154" stroke="rgba(0,0,0,.2)" stroke-width="4" fill="none"/><path d="M175 22 L205 99 M175 178 L205 101 M265 40 L290 99" stroke="rgba(6,20,13,.9)" stroke-width="9" fill="none"/></symbol></defs></svg>
       <div id="leaves"></div>
       <div class="beam" id="beamL"></div><div class="beam" id="beamR"></div>
       <div id="floor"></div><div id="rimline"></div>
+      </div>
       <canvas id="three" width="1080" height="1920"></canvas>
       <div id="vig"></div>
 
@@ -287,6 +291,7 @@
       <div id="hook"><span class="l1">클로드 깔았으면</span><span class="l2"><em>이 설정 5개</em>부터</span></div>
       <div id="chips"></div>
 
+      <div id="cam">
       <!-- s2: five settings preview -->
       <div class="scene" id="c0"><div class="tags"><span><i>1</i>학습 끄기</span><span><i>2</i>지시사항</span><span><i>3</i>메모리</span><span><i>4</i>파일 생성</span><span><i>5</i>웹 검색</span></div></div>
 
@@ -368,6 +373,7 @@
         <div class="abs" id="dm"><span class="ic">🎁</span><span>설정 위치 전체본 보내드렸어요 · 자료 열기</span></div>
       </div>
 
+      </div>
       <div id="caps"></div>
       <svg id="wipe"><use href="#leaf"/></svg>
     </div>
@@ -386,6 +392,8 @@
       const pop = (sel, t, from = {}) => tl.fromTo(sel, { opacity: 0, scale: 0.85, ...from }, { opacity: 1, scale: 1, x: 0, y: 0, duration: 0.42, ease: "back.out(1.7)" }, t);
       const inn = (sel, t) => tl.fromTo(sel, { y: 80, opacity: 0, filter: "blur(14px)" }, { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.45, ease: "power3.out" }, t);
       const W = (k, f) => S(k)[0] + f * (S(k)[1] - S(k)[0]);
+      const shake = (t, amp = 12) => { tl.fromTo("#cam", { x: -amp, y: amp * 0.4 }, { x: 0, y: 0, duration: 0.35, ease: "elastic.out(1, 0.3)" }, t); tl.fromTo("#camBg", { x: amp * 0.6 }, { x: 0, duration: 0.35, ease: "elastic.out(1, 0.3)" }, t); };
+      const zoomTo = (sel, origin, t, back, z = 1.1) => { tl.to(sel, { scale: z, transformOrigin: origin, duration: 0.35, ease: "power2.out" }, t); if (back) tl.to(sel, { scale: 1, duration: 0.4, ease: "power2.inOut" }, back); };
 
       // pills / small lines / word captions
       const pills = document.getElementById("pills"), caps = document.getElementById("caps");
@@ -396,7 +404,9 @@
         const el = document.createElement("div"); el.className = "w"; el.id = "w" + i; el.innerHTML = w[2]; if (!i) el.style.visibility = "visible"; caps.appendChild(el);
         const a = i === 0 ? 0 : w[0], b = i + 1 < T.words.length ? T.words[i + 1][0] : T.dur;
         show("#w" + i, a, b);
-        if (i) tl.fromTo("#w" + i, { scale: 1.12 }, { scale: 1, duration: 0.18, ease: "power2.out" }, a);
+        const punch = /<b>/.test(w[2]);
+        if (i) tl.fromTo("#w" + i, { scale: punch ? 1.6 : 1.3, y: 16, rotation: ((i % 3) - 1) * 3 }, { scale: 1, y: 0, rotation: 0, duration: punch ? 0.3 : 0.2, ease: punch ? "back.out(3.5)" : "back.out(2.5)" }, a);
+        if (punch) { tl.fromTo(`#w${i} b`, { scale: 0.3, rotation: -14 }, { scale: 1, rotation: -1.5, duration: 0.45, ease: "elastic.out(1, 0.5)" }, a + 0.04); shake(a + 0.05, 14); }
       });
       let chips = [];
       Object.keys(T.s).forEach((k) => { const m = T.meta[k]; const last = chips[chips.length - 1]; if (!m.chip) return; if (last && last.chip === m.chip && Math.abs(last.b - S(k)[0]) < 0.01) last.b = S(k)[1]; else chips.push({ chip: m.chip, a: S(k)[0], b: S(k)[1] }); });
@@ -411,10 +421,20 @@
       });
       tl.fromTo("#trail .nd", { scale: 1 }, { scale: 1.25, duration: 0.16, yoyo: true, repeat: 1, stagger: 0.2 }, S("s9")[0] + 0.1);
       // leaves sway, fireflies drift, beams
-      LEAVES.forEach(([x, y, w, r], i) => { gsap.set("#lf" + i, { transformOrigin: "0% 50%", rotation: r }); tl.fromTo("#lf" + i, { rotation: r - 3 }, { rotation: r + 3, duration: 2 + (i % 3) * 0.4, yoyo: true, repeat: Math.ceil(T.dur / 2) + 1, ease: "sine.inOut" }, 0); });
+      LEAVES.forEach(([x, y, w, r], i) => { gsap.set("#lf" + i, { transformOrigin: "0% 50%", rotation: r }); tl.fromTo("#lf" + i, { rotation: r - 5 }, { rotation: r + 5, duration: 1.4 + (i % 3) * 0.3, yoyo: true, repeat: Math.ceil(T.dur / 2) + 1, ease: "sine.inOut" }, 0); });
       for (let k = 0; k < 16; k++) tl.fromTo("#ff" + k, { x: 0, y: 0, opacity: 0.15 }, { x: ((k % 5) - 2) * 26, y: -40 - (k % 3) * 25, opacity: 0.95, duration: 1.4 + (k % 4) * 0.35, yoyo: true, repeat: Math.ceil(T.dur / 1.4) + 1, ease: "sine.inOut" }, 0);
-      tl.fromTo("#beamL", { rotation: -19 }, { rotation: -13, duration: T.dur, ease: "sine.inOut" }, 0);
-      tl.fromTo("#beamR", { rotation: 19 }, { rotation: 13, duration: T.dur, ease: "sine.inOut" }, 0);
+      tl.fromTo("#beamL", { rotation: -22 }, { rotation: -10, duration: 1.8, yoyo: true, repeat: Math.ceil(T.dur / 1.8), ease: "sine.inOut" }, 0);
+      tl.fromTo("#beamR", { rotation: 22 }, { rotation: 10, duration: 2.1, yoyo: true, repeat: Math.ceil(T.dur / 2.1), ease: "sine.inOut" }, 0);
+      // camera: punch-in at each section, then a slow push; background drifts the other way
+      gsap.set(["#cam", "#camBg"], { transformOrigin: "50% 45%" });
+      const SECS = ["s1", "s2", "s3", "s5", "s6", "s7", "s8", "s9", "s10"];
+      SECS.forEach((k, i) => {
+        const t = k === "s1" ? 0 : S(k)[0] + 0.02, end = S(k)[1];
+        if (k !== "s1") tl.fromTo("#cam", { scale: 1.24, rotation: i % 2 ? 1.6 : -1.6 }, { scale: 1, rotation: 0, duration: 0.42, ease: "power3.out" }, t);
+        tl.fromTo("#cam", { scale: 1 }, { scale: 1.035, duration: Math.max(0.3, end - t - 0.45), ease: "none", immediateRender: false }, t + 0.43);
+        tl.fromTo("#camBg", { scale: 1.1, xPercent: i % 2 ? 2 : -2 }, { scale: 1.0, xPercent: 0, duration: end - t, ease: "sine.out" }, t);
+      });
+      tl.to(["#beamL", "#beamR"], { opacity: 0.45, duration: 0.5, yoyo: true, repeat: Math.floor(T.dur / 0.5), ease: "sine.inOut" }, 0);
       // leaf wipe at each section change
       gsap.set("#wipe", { rotation: -12, x: 0 });
       ["s2", "s3", "s5", "s6", "s7", "s8", "s9", "s10"].forEach((k) => tl.fromTo("#wipe", { x: 0 }, { x: -4300, duration: 0.7, ease: "power2.inOut" }, S(k)[0] - 0.35));
@@ -436,6 +456,7 @@
       tl.to("#tgp i", { left: 6, duration: 0.25, ease: "power2.out" }, tOff);
       tl.to("#pr1", { boxShadow: "0 0 0 4px #ffd43b, 0 0 50px rgba(255,212,59,.5)", duration: 0.3 }, tOff);
       tl.fromTo("#offs", { opacity: 0, scale: 2.6, rotation: -30 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.3, ease: "power4.in" }, tOff + 0.2);
+      zoomTo("#pv", "75% 40%", tOff - 0.45, S("s4")[0] + 0.1); shake(tOff + 0.05, 10);
       tl.fromTo("#pvn", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.35 }, S("s4")[0] + 0.1);
 
       // s5 instructions typing -> applied
@@ -445,6 +466,7 @@
       tl.to("#caret", { opacity: 0, duration: 0.25, yoyo: true, repeat: Math.floor(L5 / 0.5), ease: "steps(1)" }, s5[0]);
       tl.fromTo("#pf2", { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "back.out(1.4)" }, W("s5", 0.7));
       tl.set("#pf2", { className: "card glow" }, W("s5", 0.7) + 0.3);
+      zoomTo("#pf", "50% 75%", W("s5", 0.28), W("s5", 0.66));
 
       // s6 memory: items pop, wrong one gets struck and deleted
       show("#x6", S("s6")[0], S("s6")[1]); inn("#mm", S("s6")[0]);
@@ -452,6 +474,7 @@
       tl.to("#m3", { backgroundColor: "rgba(229,72,77,.12)", duration: 0.2 }, W("s6", 0.72));
       tl.fromTo("#stk", { width: 0 }, { width: 330, duration: 0.3, ease: "power2.out" }, W("s6", 0.78));
       tl.to("#m3", { opacity: 0.35, duration: 0.3 }, W("s6", 0.9));
+      zoomTo("#mm", "50% 55%", W("s6", 0.66), W("s6", 0.95), 1.08); shake(W("s6", 0.78), 10);
 
       // s7 file creation toggle on + file chips
       const tOn = W("s7", 0.35);
@@ -461,6 +484,7 @@
       tl.to("#tgf", { backgroundColor: "#2c9a55", duration: 0.2 }, tOn);
       tl.to("#tgf i", { left: 52, duration: 0.25, ease: "power2.out" }, tOn);
       tl.to("#fr1", { boxShadow: "0 0 0 4px #ffd43b, 0 0 50px rgba(255,212,59,.5)", backgroundColor: "rgba(255,212,59,.16)", duration: 0.3 }, tOn);
+      zoomTo("#fc", "75% 45%", tOn - 0.45, W("s7", 0.52)); shake(tOn + 0.05, 10);
       ["#fx1", "#fx2", "#fx3", "#fx4"].forEach((f, i) => pop(f, W("s7", 0.55) + i * 0.15, { y: 40 }));
 
       // s8 web search: + -> menu -> check -> answer
@@ -469,11 +493,12 @@
       tl.fromTo("#menu", { opacity: 0, y: 30, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.3, ease: "back.out(1.8)" }, W("s8", 0.25));
       tl.fromTo("#wsck", { opacity: 0, scale: 2 }, { opacity: 1, scale: 1, duration: 0.25 }, W("s8", 0.45));
       pop("#wsa", W("s8", 0.62), { y: 30 });
+      zoomTo("#ws", "30% 55%", W("s8", 0.18), W("s8", 0.58), 1.08);
       tl.set("#ws", { className: "card set glow" }, W("s8", 0.62));
 
       // s9 checklist
       show("#x9", S("s9")[0], S("s9")[1]);
-      ["#k1", "#k2", "#k3", "#k4", "#k5"].forEach((k, i) => { tl.set(k, { xPercent: -50 }, 0); tl.fromTo(k, { opacity: 0, x: i % 2 ? 140 : -140 }, { opacity: 1, x: 0, duration: 0.35, ease: "back.out(1.6)" }, S("s9")[0] + 0.05 + i * 0.2); });
+      ["#k1", "#k2", "#k3", "#k4", "#k5"].forEach((k, i) => { tl.set(k, { xPercent: -50 }, 0); tl.fromTo(k, { opacity: 0, x: i % 2 ? 260 : -260, rotation: i % 2 ? 8 : -8 }, { opacity: 1, x: 0, rotation: 0, duration: 0.35, ease: "back.out(2)" }, S("s9")[0] + 0.05 + i * 0.2); tl.fromTo(k + " .ok", { scale: 0 }, { scale: 1, duration: 0.3, ease: "back.out(3)" }, S("s9")[0] + 0.25 + i * 0.2); });
       tl.fromTo("#freeb", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, S("s9")[0] + 1.15);
 
       // s10 follow + comment + DM
@@ -485,7 +510,8 @@
       const kwt = document.getElementById("kwt");
       [...T.kw].forEach((ch, i) => { const sp = document.createElement("span"); sp.id = "kw" + i; sp.textContent = ch; sp.style.visibility = "hidden"; kwt.appendChild(sp); tl.set("#kw" + i, { visibility: "visible" }, tC + (i + 1) * 0.14); });
       pop("#dm", tD, { y: 60 });
-      tl.set("#fw", { className: "card glow" }, tD);
+      tl.set("#fw", { className: "card glow" }, tD); shake(tD, 12);
+      tl.to("#dm", { scale: 1.05, duration: 0.35, yoyo: true, repeat: 5, ease: "sine.inOut" }, tD + 0.5);
 
       tl.set({}, {}, T.dur);
       window.__timelines["main"] = tl;
@@ -497,8 +523,8 @@
       const m = createMascot(document.getElementById("three"));
       // poses are fitted to screen boxes (px) so the mascot stays out of the caption band (1110-1300)
       const fit = (cx, top, bot, extra = {}) => { const PX = 398, TOP = 1.7, BOT = 1.45; const yt = 0.1 + (960 - top) / PX, yb = 0.1 + (960 - bot) / PX; const s = (yt - yb) / (TOP + BOT); return { x: (cx - 540) / PX, y: yt - TOP * s, s, ry: 0, look: 0, ...extra }; };
-      const HERO = fit(540, 470, 1085);
-      const HERO2 = fit(540, 470, 1085, { look: 0.35, ry: -0.15 });
+      const HERO = fit(540, 470, 1075);
+      const HERO2 = fit(540, 470, 1075, { look: 0.35, ry: -0.15 });
       const CORNER = fit(250, 1335, 1660, { ry: 0.35, look: 0.5 });
       const plan = [["s1", HERO], ["s2", HERO2], ["s3", CORNER], ["s10", CORNER]];
       const ease = (u) => (u < 0.5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2);
@@ -511,9 +537,14 @@
         for (let i = 0; i + 1 < legs.length; i++) { const [a, A] = legs[i], [b, B] = legs[i + 1]; if (t >= a && t <= b) { st = mix(A, B, ease(Math.min(1, Math.max(0, (t - a) / Math.max(0.001, b - a))))); break; } }
         st = { ...st };
         st.talk = Object.values(T.sp).some(([a, b]) => t >= a && t <= b) ? 1 : 0;
-        const hopAt = [0, 1, 2, 3, 4].map((k) => S("s9")[0] + 0.1 + k * 0.2);
+        const W = (k, f) => S(k)[0] + f * (S(k)[1] - S(k)[0]);
+        const ACT = [W("s3", 0.75), W("s5", 0.68), W("s6", 0.78), W("s7", 0.35), W("s8", 0.45), S("s10")[0] + 0.6 * (S("s10")[1] - S("s10")[0])];
+        const SPIN = ["s2", "s3", "s5", "s6", "s7", "s8", "s9", "s10"].map((k) => S(k)[0] + 0.25);
+        SPIN.forEach((h, i) => { const u = (t - h) / 0.55; if (u > 0 && u < 1) st.ry += ease(u) * Math.PI * 2 * (i % 2 ? -1 : 1); });
+        const hopAt = [0, 1, 2, 3, 4].map((k) => S("s9")[0] + 0.1 + k * 0.2).concat(SPIN.slice(1), ACT);  // no hop in s2: the five tags sit right above the hero mascot
         st.hop = Math.max(0, ...hopAt.map((h) => { const u = (t - h) / 0.3; return u > 0 && u < 1 ? Math.sin(Math.PI * u) : 0; }));
         st.wave = t > S("s10")[0] + 0.3 ? 1 : (t < 1.4 ? Math.max(0, Math.sin(Math.min(1, t / 0.4) * Math.PI / 2)) : 0);
+        ACT.forEach((h) => { const u = (t - h) / 0.9; if (u > 0 && u < 1) st.wave = Math.max(st.wave, Math.sin(Math.PI * u)); });
         st.cz = 9 + Math.max(0, 0.7 - t * 0.35);
         st.cube = t < S("s2")[0] - 0.1 ? 1 : Math.max(0, 1 - (t - (S("s2")[0] - 0.1)) / 0.3);
         return st;
