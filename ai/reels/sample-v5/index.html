@@ -257,13 +257,13 @@
       const T = window.TL, S = (k) => T.s[k], P = (k) => T.sp[k];
       const tl = gsap.timeline({ paused: true });
       const show = (sel, a, b) => { tl.set(sel, { visibility: "visible" }, a); tl.set(sel, { visibility: "hidden" }, b); };
-      const pop = (sel, t, from = {}) => tl.fromTo(sel, { opacity: 0, scale: 0.85, ...from }, { opacity: 1, scale: 1, x: 0, y: 0, duration: 0.42, ease: "back.out(1.7)", immediateRender: false }, t);
+      const pop = (sel, t, from = {}) => tl.fromTo(sel, { opacity: 0, scale: 0.85, ...from }, { opacity: 1, scale: 1, x: 0, y: 0, duration: 0.42, ease: "back.out(1.7)" }, t);
 
       // pills + small lines per scene (one element per distinct run)
       const pills = document.getElementById("pills"), caps = document.getElementById("caps");
       let runs = [];
       Object.keys(T.s).forEach((k) => { const m = T.meta[k]; const last = runs[runs.length - 1]; if (last && last.pill === m.pill) last.b = S(k)[1]; else runs.push({ pill: m.pill, a: S(k)[0], b: S(k)[1] }); });
-      runs.forEach((r, i) => { const el = document.createElement("div"); el.className = "pill"; el.id = "pl" + i; el.textContent = r.pill; if (!i) el.style.visibility = "visible"; pills.appendChild(el); show("#pl" + i, r.a, r.b); if (i) tl.fromTo("#pl" + i, { y: -16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power2.out", immediateRender: false }, r.a); });
+      runs.forEach((r, i) => { const el = document.createElement("div"); el.className = "pill"; el.id = "pl" + i; el.textContent = r.pill; if (!i) el.style.visibility = "visible"; pills.appendChild(el); show("#pl" + i, r.a, r.b); if (i) tl.fromTo("#pl" + i, { y: -16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power2.out" }, r.a); });
       let subs = [];
       Object.keys(T.s).forEach((k) => { const m = T.meta[k]; const last = subs[subs.length - 1]; if (last && last.sub === m.sub) last.b = S(k)[1]; else subs.push({ sub: m.sub, a: S(k)[0], b: S(k)[1] }); });
       subs.forEach((r, i) => { const el = document.createElement("div"); el.className = "sub"; el.id = "sb" + i; el.textContent = r.sub; if (!i) el.style.visibility = "visible"; caps.appendChild(el); show("#sb" + i, r.a, r.b); });
@@ -272,7 +272,7 @@
         const el = document.createElement("div"); el.className = "w"; el.id = "w" + i; el.textContent = w[2]; if (!i) el.style.visibility = "visible"; caps.appendChild(el);
         const a = i === 0 ? 0 : w[0], b = i + 1 < T.words.length ? T.words[i + 1][0] : T.dur;
         show("#w" + i, a, b);
-        if (i) tl.fromTo("#w" + i, { scale: 1.12 }, { scale: 1, duration: 0.18, ease: "power2.out", immediateRender: false }, a);
+        if (i) tl.fromTo("#w" + i, { scale: 1.12 }, { scale: 1, duration: 0.18, ease: "power2.out" }, a);
       });
 
       // stage motion
@@ -300,7 +300,7 @@
       pop("#q4", s4[0] + 0.25, { x: 40 });
       pop("#a4", s4[0] + 0.15 * (s4[1] - s4[0]) + 0.3, { y: 20 });
       tl.fromTo("#panel", { x: 560 }, { x: 0, duration: 0.6, ease: "power3.out" }, s4[0] + 0.42 * (s4[1] - s4[0]));
-      tl.fromTo("#panel tr", { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.25, stagger: 0.12, immediateRender: false }, s4[0] + 0.42 * (s4[1] - s4[0]) + 0.45);
+      tl.fromTo("#panel tr", { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.25, stagger: 0.12 }, s4[0] + 0.42 * (s4[1] - s4[0]) + 0.45);
       tl.set("#aw", { className: "card glow" }, s4[0] + 0.42 * (s4[1] - s4[0]) + 0.3);
       tl.to("#cl1", { rotation: 360, duration: 1.4, ease: "power2.inOut" }, s4[0] + 0.3);
 
@@ -320,7 +320,7 @@
       tl.fromTo("#pj", { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out" }, s7[0]);
       ["#f1", "#f2", "#f3"].forEach((f, i) => pop(f, s7[0] + 0.2 * L7 + i * 0.25, { y: -60 }));
       ["#k1", "#k2", "#k3"].forEach((f, i) => pop(f, s7[0] + 0.38 * L7 + i * 0.22, { x: -50 }));
-      tl.fromTo("#free", { opacity: 0, scale: 2.6, rotation: -30 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.3, ease: "power4.in", immediateRender: false }, s7[0] + 0.7 * L7);
+      tl.fromTo("#free", { opacity: 0, scale: 2.6, rotation: -30 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.3, ease: "power4.in" }, s7[0] + 0.7 * L7);
       tl.to("#pj", { x: 8, duration: 0.05, yoyo: true, repeat: 3 }, s7[0] + 0.7 * L7 + 0.3);
 
       // s9 profile typing -> applied answer
@@ -329,13 +329,13 @@
       tl.fromTo("#pf", { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out" }, s9[0]);
       tl.fromTo("#typed", { width: 0 }, { width: "auto", duration: 0.4 * L9, ease: "steps(22)" }, s9[0] + 0.15 * L9);
       tl.to("#caret", { opacity: 0, duration: 0.25, yoyo: true, repeat: Math.floor(L9 / 0.5), ease: "steps(1)" }, s9[0]);
-      tl.fromTo("#pf2", { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "back.out(1.4)", immediateRender: false }, s9[0] + 0.6 * L9);
+      tl.fromTo("#pf2", { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "back.out(1.4)" }, s9[0] + 0.6 * L9);
       tl.set("#pf2", { className: "card glow" }, s9[0] + 0.6 * L9 + 0.3);
 
       // s10 checklist
       const s10 = S("s10"), L10 = s10[1] - s10[0];
       show("#x10", s10[0], s10[1]);
-      ["#k10a", "#k10b", "#k10c"].forEach((k, i) => { tl.set(k, { xPercent: -50 }, 0); tl.fromTo(k, { opacity: 0, x: i % 2 ? 140 : -140 }, { opacity: 1, x: 0, duration: 0.4, ease: "back.out(1.6)", immediateRender: false }, s10[0] + 0.1 * L10 + i * 0.25); });
+      ["#k10a", "#k10b", "#k10c"].forEach((k, i) => { tl.set(k, { xPercent: -50 }, 0); tl.fromTo(k, { opacity: 0, x: i % 2 ? 140 : -140 }, { opacity: 1, x: 0, duration: 0.4, ease: "back.out(1.6)" }, s10[0] + 0.1 * L10 + i * 0.25); });
 
       // s11 follow + comment + DM
       const s11 = S("s11"), L11 = s11[1] - s11[0], tF = s11[0] + 0.25 * L11, tC = s11[0] + 0.42 * L11, tD = s11[0] + 0.6 * L11;
