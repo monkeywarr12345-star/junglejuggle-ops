@@ -34,7 +34,7 @@
       #vig { position: absolute; inset: 0; z-index: 6; pointer-events: none; background: linear-gradient(180deg, rgba(10, 8, 7, .6) 0%, rgba(10, 8, 7, 0) 20%, rgba(10, 8, 7, 0) 70%, rgba(10, 8, 7, .35) 90%, rgba(10, 8, 7, .55) 100%); }
 
       /* ---------- top: brand + title pill ---------- */
-      #brand { position: absolute; left: 70px; top: 96px; z-index: 30; display: flex; align-items: center; gap: 14px; font-weight: 800; font-size: 34px; letter-spacing: -.5px; }
+      #brand { position: absolute; left: 70px; top: 100px; z-index: 30; display: flex; align-items: center; gap: 14px; font-weight: 800; font-size: 34px; letter-spacing: -.5px; }
       #brand .tag { font-size: 22px; font-weight: 700; padding: 5px 14px; border-radius: 30px; border: 1.5px solid rgba(255, 255, 255, .35); color: #e9ddd2; }
       #brand .dots { display: flex; gap: 7px; } #brand .dots i { width: 11px; height: 11px; border-radius: 50%; display: block; }
       .pill { position: absolute; left: 50%; top: 160px; z-index: 30; transform: translateX(-50%); white-space: nowrap; display: flex; align-items: center; gap: 14px; padding: 14px 30px 15px 22px; border-radius: 18px; background: #f7f1ea; color: #1b1512; font-weight: 900; font-size: 44px; letter-spacing: -1.4px; box-shadow: 0 14px 40px rgba(0, 0, 0, .45); visibility: hidden; }
@@ -50,6 +50,20 @@
       .w { position: absolute; left: 40px; right: 40px; top: 1290px; z-index: 40; text-align: center; font-size: 104px; font-weight: 900; letter-spacing: -3.5px; color: #fff; white-space: nowrap; visibility: hidden; text-shadow: 0 0 2px #000, 0 6px 0 rgba(0, 0, 0, .55), 0 0 40px rgba(0, 0, 0, .85); }
       .sub { position: absolute; left: 60px; right: 60px; top: 1440px; z-index: 40; text-align: center; font-size: 30px; font-weight: 600; color: #cdbfb3; letter-spacing: -.4px; visibility: hidden; text-shadow: 0 2px 10px rgba(0, 0, 0, .9); }
 
+      .w b { display: inline-block; padding: 0 16px 6px; margin: 0 4px; border-radius: 14px; background: var(--or); color: #120c09; text-shadow: none; transform: rotate(-2.5deg); box-shadow: 0 10px 0 rgba(0,0,0,.45); }
+      #ticker { position: absolute; left: 0; right: 0; top: 24px; height: 46px; z-index: 31; overflow: hidden; border-bottom: 2px solid rgba(255,122,61,.55); background: linear-gradient(180deg, rgba(20,14,12,.9), rgba(20,14,12,.5)); }
+      #ticker .tr { position: absolute; left: 0; top: 7px; white-space: nowrap; font-size: 25px; font-weight: 800; color: #e9dcd0; letter-spacing: -.3px; }
+      #ticker .tr span { margin-right: 46px; } #ticker .tr i { font-style: normal; color: var(--or); }
+      .rays { position: absolute; left: 50%; top: 50%; width: 2000px; height: 2000px; margin: -1000px 0 0 -1000px; border-radius: 50%; background: repeating-conic-gradient(from 0deg, rgba(255,122,61,.30) 0deg 5deg, rgba(255,122,61,0) 5deg 15deg); -webkit-mask-image: radial-gradient(circle, #000 0%, rgba(0,0,0,.7) 25%, transparent 55%); mask-image: radial-gradient(circle, #000 0%, rgba(0,0,0,.7) 25%, transparent 55%); }
+      .bignum { position: absolute; left: 0; right: 0; text-align: center; font-size: 900px; line-height: 1; font-weight: 900; color: transparent; -webkit-text-stroke: 7px rgba(255,122,61,.85); letter-spacing: -20px; filter: drop-shadow(0 0 30px rgba(255,122,61,.45)); }
+      .chipc { position: absolute; left: 60px; top: 262px; z-index: 29; display: flex; align-items: center; gap: 14px; padding: 10px 22px 10px 10px; border-radius: 16px; background: rgba(24,18,16,.9); border: 1.5px solid rgba(255,122,61,.5); font-size: 30px; font-weight: 800; visibility: hidden; }
+      .chipc .n { width: 50px; height: 50px; border-radius: 12px; background: linear-gradient(145deg, #ff8a4c, #e8592a); display: grid; place-items: center; font-weight: 900; font-size: 30px; color: #fff; }
+      #flash { position: absolute; inset: 0; z-index: 60; pointer-events: none; opacity: 0; background: radial-gradient(circle at 50% 45%, rgba(255,240,225,.95) 0%, rgba(255,140,80,.55) 30%, rgba(255,122,61,0) 65%); }
+      #c0 .t { position: absolute; left: 0; right: 0; top: 300px; text-align: center; }
+      #c0 .t span { display: block; font-size: 64px; font-weight: 800; letter-spacing: -2px; color: #f3e8de; }
+      #c0 .t b { display: block; margin-top: 6px; font-size: 110px; font-weight: 900; letter-spacing: -4px; color: #fff; }
+      #c0 .t b em { font-style: normal; color: var(--or); }
+
       /* ---------- shared UI ---------- */
       .card { position: absolute; background: var(--card); border: 2px solid var(--line); border-radius: 30px; box-shadow: 0 0 0 1px rgba(255, 122, 61, .15), 0 0 60px rgba(255, 122, 61, .22), 0 40px 90px rgba(0, 0, 0, .55); }
       .glow { box-shadow: 0 0 0 2px var(--or), 0 0 70px rgba(255, 122, 61, .65), 0 40px 90px rgba(0, 0, 0, .55) !important; }
@@ -57,7 +71,7 @@
       .clogo i { position: absolute; left: 50%; top: 50%; width: 7px; height: 22px; margin: -22px 0 0 -3.5px; border-radius: 4px; background: var(--cl); transform-origin: 50% 22px; }
 
       /* chapter cards */
-      .chap { left: 140px; top: 470px; width: 800px; height: 330px; padding: 46px 50px; display: flex; gap: 38px; align-items: center; }
+      .chap { left: 140px; top: 640px; width: 800px; height: 330px; padding: 46px 50px; display: flex; gap: 38px; align-items: center; }
       .chap .no { width: 170px; height: 170px; border-radius: 34px; background: linear-gradient(145deg, #ff8a4c, #e8592a); display: grid; place-items: center; font-size: 110px; font-weight: 900; color: #fff; box-shadow: inset 0 -10px 0 rgba(0, 0, 0, .15), 0 18px 40px rgba(255, 90, 40, .45); flex: none; }
       .chap h2 { font-size: 76px; font-weight: 900; letter-spacing: -2.5px; }
       .chap p { margin-top: 10px; font-size: 32px; font-weight: 600; color: var(--sub); letter-spacing: -.5px; }
@@ -144,7 +158,7 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="24.92" data-width="1080" data-height="1920">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="27.62" data-width="1080" data-height="1920">
       <div id="bg"></div>
       <div class="sidebar" id="sbL"></div><div class="sidebar" id="sbR"></div>
       <div class="beam" id="beamL"></div><div class="beam" id="beamR"></div>
@@ -152,15 +166,18 @@
       <canvas id="three" width="1080" height="1920"></canvas>
       <div id="vig"></div>
 
+      <div id="ticker"><div class="tr" id="tr"></div></div>
       <div id="brand">jungle.gcc <span class="dots"><i style="background:#4c8df6"></i><i style="background:#e07a52"></i><i style="background:#19c37d"></i></span><span class="tag">AI 꿀팁</span></div>
       <div id="pills"></div>
 
       <div id="hook"><span class="l1">클로드, 아직 대화만 해요?</span><span class="l2"><em>숨은 기능</em> 3가지</span></div>
 
+      <div id="chips"></div>
+      <div class="scene" id="c0"><div class="rays" style="top:780px"></div><div class="bignum" style="top:390px">3</div><div class="t"><span>무료로 켜는</span><b>클로드 <em>숨은 기능</em></b></div></div>
       <!-- chapter cards -->
-      <div class="scene" id="c1"><div class="card chap"><div class="no">1</div><div><h2>아티팩트</h2><p>대화 옆에 문서·표·앱이 바로</p><span class="free">무료 플랜 OK</span></div></div></div>
-      <div class="scene" id="c2"><div class="card chap"><div class="no">2</div><div><h2>프로젝트</h2><p>자료와 대화를 한곳에 모으는 작업실</p><span class="free">2026년 3월부터 무료</span></div></div></div>
-      <div class="scene" id="c3"><div class="card chap"><div class="no">3</div><div><h2>나에 대한 설명</h2><p>한 번 적으면 모든 대화에 반영</p><span class="free">설정 › 내 Claude</span></div></div></div>
+      <div class="scene" id="c1"><div class="rays" style="top:640px"></div><div class="bignum" style="top:240px">1</div><div class="card chap"><div class="no">1</div><div><h2>아티팩트</h2><p>대화 옆에 문서·표·앱이 바로</p><span class="free">무료 플랜 OK</span></div></div></div>
+      <div class="scene" id="c2"><div class="rays" style="top:640px"></div><div class="bignum" style="top:240px">2</div><div class="card chap"><div class="no">2</div><div><h2>프로젝트</h2><p>자료와 대화를 한곳에 모으는 작업실</p><span class="free">2026년 3월부터 무료</span></div></div></div>
+      <div class="scene" id="c3"><div class="rays" style="top:640px"></div><div class="bignum" style="top:240px">3</div><div class="card chap"><div class="no">3</div><div><h2>나에 대한 설명</h2><p>한 번 적으면 모든 대화에 반영</p><span class="free">설정 › 내 Claude</span></div></div></div>
 
       <!-- s4 artifact -->
       <div class="scene" id="x4">
@@ -245,6 +262,7 @@
       </div>
 
       <div id="caps"></div>
+      <div id="flash"></div>
     </div>
 
     <script>
@@ -269,11 +287,23 @@
       subs.forEach((r, i) => { const el = document.createElement("div"); el.className = "sub"; el.id = "sb" + i; el.textContent = r.sub; if (!i) el.style.visibility = "visible"; caps.appendChild(el); show("#sb" + i, r.a, r.b); });
       // word-by-word big captions (first one visible from frame 0)
       T.words.forEach((w, i) => {
-        const el = document.createElement("div"); el.className = "w"; el.id = "w" + i; el.textContent = w[2]; if (!i) el.style.visibility = "visible"; caps.appendChild(el);
+        const el = document.createElement("div"); el.className = "w"; el.id = "w" + i; el.innerHTML = w[2]; if (!i) el.style.visibility = "visible"; caps.appendChild(el);
         const a = i === 0 ? 0 : w[0], b = i + 1 < T.words.length ? T.words[i + 1][0] : T.dur;
         show("#w" + i, a, b);
         if (i) tl.fromTo("#w" + i, { scale: 1.12 }, { scale: 1, duration: 0.18, ease: "power2.out" }, a);
       });
+
+      // chapter chips (top-left) for content scenes
+      let chips = [];
+      Object.keys(T.s).forEach((k) => { const m = T.meta[k]; const last = chips[chips.length - 1]; if (!m.chip) return; if (last && last.chip === m.chip && Math.abs(last.b - S(k)[0]) < 0.01) last.b = S(k)[1]; else chips.push({ chip: m.chip, a: S(k)[0], b: S(k)[1] }); });
+      chips.forEach((c, i) => { const [n, name] = c.chip.split("|"); const el = document.createElement("div"); el.className = "chipc"; el.id = "ch" + i; el.innerHTML = `<span class="n">${n}</span>${name}`; document.getElementById("chips").appendChild(el); show("#ch" + i, c.a, c.b); tl.fromTo("#ch" + i, { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, c.a); });
+      // ticker
+      const trEl = document.getElementById("tr"); const items = ["Claude <i>▲</i> 아티팩트", "ChatGPT", "Gemini", "Claude <i>▲</i> 프로젝트", "무료 플랜 <i>✓</i>", "Claude <i>▲</i> 나에 대한 설명"]; trEl.innerHTML = [...items, ...items, ...items].map((x) => `<span>${x}</span>`).join("");
+      tl.fromTo("#tr", { x: 0 }, { x: -1400, duration: T.dur, ease: "none" }, 0);
+      // flash + blur transitions at section changes
+      ["s2", "s3", "s6", "s8", "s10", "s11"].forEach((k) => { const t = S(k)[0]; tl.fromTo("#flash", { opacity: 0 }, { opacity: 0.85, duration: 0.12, ease: "power2.in" }, t - 0.1); tl.to("#flash", { opacity: 0, duration: 0.35, ease: "power2.out" }, t + 0.02); });
+      [["#c0", "s2"], ["#c1", "s3"], ["#c2", "s6"], ["#c3", "s8"], ["#x4 .card", "s4"], ["#x5 .card", "s5"], ["#x7 .card", "s7"], ["#x9 #pf", "s9"], ["#x10", "s10"], ["#x11 #fw", "s11"]].forEach(([sel, k]) => tl.fromTo(sel, { filter: "blur(16px)" }, { filter: "blur(0px)", duration: 0.4, ease: "power2.out" }, S(k)[0]));
+      document.querySelectorAll(".rays").forEach((r, i) => tl.fromTo(r, { rotation: 0 }, { rotation: 40, duration: T.dur, ease: "none" }, 0));
 
       // stage motion
       tl.fromTo("#beamL", { rotation: -19 }, { rotation: -13, duration: T.dur, ease: "sine.inOut" }, 0);
@@ -282,13 +312,18 @@
 
       // s1-s2 hook headline (visible at frame 0 for the grid cover)
       tl.set("#hook", { visibility: "visible" }, 0);
-      tl.to("#hook", { opacity: 0, y: -40, duration: 0.35, ease: "power2.in" }, S("s3")[0] - 0.2);
+      tl.to("#hook", { opacity: 0, y: -40, duration: 0.3, ease: "power2.in" }, S("s2")[0] - 0.2);
+      show("#c0", S("s2")[0], S("s2")[1]);
+      tl.fromTo("#c0 .bignum", { scale: 0.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.8)" }, S("s2")[0]);
+      tl.fromTo("#c0 .t", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, S("s2")[0] + 0.1);
+      tl.to("#c0 .bignum", { scale: 1.06, duration: 0.25, yoyo: true, repeat: 1 }, S("s2")[0] + 0.9);
       tl.fromTo("#hook .l2", { scale: 1.05 }, { scale: 1, duration: 0.6, ease: "power2.out" }, 0);
 
       // chapter cards
       [["#c1", "s3"], ["#c2", "s6"], ["#c3", "s8"]].forEach(([id, k]) => {
         show(id, S(k)[0], S(k)[1]);
         tl.fromTo(id + " .chap", { y: 120, opacity: 0, rotationX: 40 }, { y: 0, opacity: 1, rotationX: 0, duration: 0.55, ease: "power3.out" }, S(k)[0]);
+        tl.fromTo(id + " .bignum", { scale: 0.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(1.8)" }, S(k)[0]);
         tl.fromTo(id + " .no", { scale: 0.3, rotation: -30 }, { scale: 1, rotation: 0, duration: 0.5, ease: "back.out(2.2)" }, S(k)[0] + 0.15);
         tl.to(id + " .chap", { y: -30, opacity: 0, duration: 0.25 }, S(k)[1] - 0.25);
       });
@@ -358,13 +393,13 @@
       const T = window.TL, S = (k) => T.s[k];
       const m = createMascot(document.getElementById("three"));
       const HERO = { x: 0, y: -0.42, s: 0.95, ry: 0, look: 0 };
-      const CHAP = { x: 0, y: -0.62, s: 0.6, ry: 0, look: 0 };
+      const CHAP = { x: 0, y: -0.98, s: 0.52, ry: 0, look: 0 };
       const CORNER = { x: 0.86, y: -1.55, s: 0.36, ry: -0.35, look: -0.5 };
       const HERO10 = { x: 0, y: -0.55, s: 0.75, ry: 0, look: 0 };
       const END = { x: 0, y: -0.5, s: 0.55, ry: 0.15, look: 0 };
       const ease = (u) => (u < 0.5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2);
       const mix = (a, b, u) => { const o = {}; for (const k in a) o[k] = a[k] + (b[k] - a[k]) * u; return o; };
-      const plan = [["s1", HERO], ["s3", CHAP], ["s4", CORNER], ["s6", CHAP], ["s7", CORNER], ["s8", CHAP], ["s9", CORNER], ["s10", HERO10], ["s11", END]];
+      const plan = [["s1", HERO], ["s2", CHAP], ["s3", CHAP], ["s4", CORNER], ["s6", CHAP], ["s7", CORNER], ["s8", CHAP], ["s9", CORNER], ["s10", HERO10], ["s11", END]];
       const legs = [[0, HERO]];
       plan.slice(1).forEach(([k, pose]) => { const t0 = S(k)[0] - 0.1; legs.push([t0, legs[legs.length - 1][1]]); legs.push([t0 + 0.45, pose]); });
       legs.push([T.dur + 5, END]);
@@ -380,6 +415,7 @@
         st.hop = Math.max(0, ...hopAt.map((h) => { const u = (t - h) / 0.32; return u > 0 && u < 1 ? Math.sin(Math.PI * u) : 0; }));
         st.wave = t > S("s11")[0] + 0.3 ? 1 : (t < 1.6 ? Math.max(0, Math.sin(Math.min(1, t / 0.4) * Math.PI / 2)) * (t < 1.4 ? 1 : 0) : 0);
         st.cz = 9 + Math.max(0, 0.7 - t * 0.35);
+        st.cube = t < S("s2")[0] - 0.1 ? 1 : Math.max(0, 1 - (t - (S("s2")[0] - 0.1)) / 0.3);
         return st;
       }
       const render = (t) => m.renderAt(t, state(t));

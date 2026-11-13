@@ -2,6 +2,7 @@
 // Built from primitives so it renders deterministically in HyperFrames (hf-seek) without external models.
 import * as THREE from "three";
 import { RoomEnvironment } from "./vendor/RoomEnvironment.js";
+import { RoundedBoxGeometry } from "./vendor/RoundedBoxGeometry.js";
 
 export function createMascot(canvas, W = 1080, H = 1920) {
   const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, preserveDrawingBuffer: true });
@@ -87,7 +88,18 @@ export function createMascot(canvas, W = 1080, H = 1920) {
   });
   [-1, 1].forEach((sx) => bob.add(mesh(SPH, deep, [0.4 * sx, -0.92, 0.18], [0.27, 0.13, 0.32])));
 
-  // state: { x, y, s, ry, wave (0..1), hop (0..1), talk (0..1), blink (0..1), look }
+  // Claude-logo cube prop (hook): cream rounded cube with the orange starburst on the front
+  const cv = document.createElement("canvas"); cv.width = cv.height = 512;
+  const g2 = cv.getContext("2d"); g2.fillStyle = "#f3ece2"; g2.fillRect(0, 0, 512, 512);
+  g2.translate(256, 256); g2.fillStyle = "#d97757";
+  for (let k = 0; k < 12; k++) { g2.save(); g2.rotate((k * Math.PI * 2) / 12); g2.beginPath(); g2.roundRect(-13, -170, 26, 120, 13); g2.fill(); g2.restore(); }
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace;
+  const side = M(0xf3ece2, { roughness: 0.3, clearcoat: 0.8 });
+  const front = new THREE.MeshPhysicalMaterial({ map: tex, roughness: 0.3, clearcoat: 0.8 });
+  const cube = new THREE.Mesh(new RoundedBoxGeometry(1, 1, 1, 6, 0.16), [side, side, side, side, front, side]);
+  cube.castShadow = true; scene.add(cube);
+
+  // state: { x, y, s, ry, wave (0..1), hop (0..1), talk (0..1), blink (0..1), look, cube (0..1) }
   function renderAt(t, st = {}) {
     const x = st.x ?? 0, y = st.y ?? 0, s = st.s ?? 1;
     root.position.set(x, y, 0); root.scale.setScalar(s);
@@ -108,6 +120,9 @@ export function createMascot(canvas, W = 1080, H = 1920) {
     const wave = st.wave ?? 0;
     arms[1].rotation.z = 0.35 + wave * (2.1 + Math.sin(t * 9) * 0.35);
     arms[0].rotation.z = -0.35 - Math.sin(t * 2.4) * 0.05;
+    const cu = st.cube ?? 0; cube.visible = cu > 0.01;
+    cube.scale.setScalar(0.42 * cu); cube.position.set(0.78, 0.42 + Math.sin(t * 1.6) * 0.06, 0.2);
+    cube.rotation.set(0.25 + Math.sin(t * 0.9) * 0.08, -0.55 + Math.sin(t * 0.7) * 0.25, 0.12);
     camera.position.set(st.cx ?? 0, st.cy ?? 0.35, st.cz ?? 9);
     camera.lookAt(st.tx ?? 0, st.ty ?? 0.1, 0);
     renderer.render(scene, camera);

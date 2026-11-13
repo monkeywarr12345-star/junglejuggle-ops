@@ -30,7 +30,9 @@ jobs:
           echo "reels=$R" >> $GITHUB_OUTPUT; echo "reels: $R"
       - run: sudo apt-get install -y -qq ffmpeg libsndfile1 fonts-noto-cjk >/dev/null || true
       - name: deps
-        run: pip install -q numpy soundfile pillow scipy supertonic
+        run: |
+          pip install -q numpy soundfile pillow scipy supertonic
+          if grep -qs "^qwen" ai/reels/*/voice.txt; then pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q -U qwen-tts; fi
       - name: render
         env: { HYPERFRAMES_TELEMETRY_DISABLED: "1", DO_NOT_TRACK: "1" }
         run: |
