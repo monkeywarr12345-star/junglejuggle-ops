@@ -1,0 +1,20 @@
+name: research bench content (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/tools/bench_content.py']
+permissions:
+  contents: write
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 research/tools/bench_content.py
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      - run: |
+          mkdir -p research/results/bench && cp research/out/bench_content.json research/results/bench/
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/bench && git commit -m "research: bench content (derived fields only)" && git pull --rebase -q && git push
