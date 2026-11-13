@@ -1,0 +1,23 @@
+{
+  "keyword": "명령어",
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
+  "follow_gate": {
+    "text": "댓글 고마워요! 자료는 팔로워 전용이에요. @jungle.gcc 팔로우하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 프로필에서 팔로우하고 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "ChatGPT 숨은 명령어 5개 전체본",
+    "subtitle": "명령어 5개 + 복사해서 바로 쓰는 예시 프롬프트",
+    "button": "자료 열기",
+    "url": "https://junglegcc.github.io/p/chatgpt-commands/"
+  },
+  "dm_text": "요청하신 자료예요 🎁 맨 위 카드가 방금 보신 릴스 자료예요!",
+  "zorcha": "pending",
+  "zorcha_note": "클라우드 예약 실행이라 Zorcha는 건드리지 않음. 상시 자동화(Any post or reel + Any keyword → 자료실 첫 화면)가 Live면 자료실 첫 화면 맨 위 카드만으로 충분",
+  "any_keyword": true
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>정글 GCC 표지 · ChatGPT 숨은 명령어</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+    <style>
+      @font-face { font-family: "Pretendard"; font-weight: 800; font-display: block; src: url("assets/fonts/Pretendard-ExtraBold.woff2") format("woff2"); }
+      @font-face { font-family: "Pretendard"; font-weight: 900; font-display: block; src: url("assets/fonts/Pretendard-Black.woff2") format("woff2"); }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0c2218; font-family: "Pretendard", "Noto Sans CJK KR", sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+      #root { position: absolute; inset: 0; overflow: hidden; }
+      #bg { position: absolute; inset: 0; background: radial-gradient(ellipse 900px 900px at 58% 38%, #4a8a5a 0%, #1f5034 42%, #0c2218 80%); }
+      .beam { position: absolute; top: -200px; width: 560px; height: 1900px; transform-origin: 50% 0; background: linear-gradient(180deg, rgba(255, 236, 150, .32), rgba(255, 236, 150, .05) 70%, rgba(255, 236, 150, 0)); clip-path: polygon(44% 0, 56% 0, 100% 100%, 0 100%); filter: blur(14px); mix-blend-mode: screen; }
+      #leaves svg { position: absolute; overflow: visible; }
+      .ff { position: absolute; width: 12px; height: 12px; border-radius: 50%; background: #fff3a0; box-shadow: 0 0 14px 6px rgba(255, 228, 90, .55); }
+      #three { position: absolute; inset: 0; width: 1080px; height: 1920px; z-index: 5; }
+      #shade { position: absolute; left: 0; right: 0; top: 1000px; height: 920px; z-index: 6; background: linear-gradient(180deg, rgba(6, 20, 13, 0), rgba(6, 20, 13, .72) 32%, rgba(6, 20, 13, .9)); }
+      #tile { position: absolute; left: 50%; top: 262px; width: 168px; height: 168px; margin-left: -84px; border-radius: 40px; background: #fbf6ea; z-index: 7; box-shadow: 0 14px 0 #d9ccb0, 0 30px 60px rgba(0, 0, 0, .4); }
+      #tile i { position: absolute; left: 50%; top: 50%; width: 15px; height: 52px; margin: -52px 0 0 -7.5px; border-radius: 8px; background: #d97757; transform-origin: 50% 52px; }
+      #lab { position: absolute; left: 72px; top: 1110px; z-index: 8; display: flex; align-items: center; gap: 14px; font-size: 54px; font-weight: 900; letter-spacing: -1px; }
+      #lab .dots { display: flex; gap: 9px; } #lab .dots i { width: 16px; height: 16px; border-radius: 50%; display: block; }
+      #title { position: absolute; left: 72px; right: 40px; top: 1190px; z-index: 8; font-size: 118px; line-height: 1.13; font-weight: 900; letter-spacing: -5px; text-shadow: 0 6px 30px rgba(0, 0, 0, .5); }
+      #title em { font-style: normal; color: #ffd43b; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="0.5" data-width="1080" data-height="1920">
+      <div id="bg"></div>
+      <div class="beam" style="left:-40px;transform:rotate(-16deg)"></div><div class="beam" style="right:-40px;transform:rotate(16deg)"></div>
+      <svg width="0" height="0" style="position:absolute"><defs><symbol id="leaf" viewBox="0 0 400 200" preserveAspectRatio="none"><path d="M0 100 C80 8 250 -12 400 100 C250 212 80 192 0 100Z" fill="currentColor"/><path d="M0 100 C140 96 270 98 400 100" stroke="rgba(0,0,0,.28)" stroke-width="5" fill="none"/><path d="M80 99 L140 42 M155 99 L225 30 M235 99 L300 46 M80 101 L140 158 M155 101 L225 170 M235 101 L300 154" stroke="rgba(0,0,0,.2)" stroke-width="4" fill="none"/><path d="M175 22 L205 99 M175 178 L205 101 M265 40 L290 99" stroke="rgba(6,20,13,.9)" stroke-width="9" fill="none"/></symbol></defs></svg>
+      <div id="leaves"></div>
+      <canvas id="three" width="1080" height="1920"></canvas>
+      <div id="shade"></div>
+      <div id="tile"></div>
+      <div id="lab">jungle.gcc <span class="dots"><i style="background:#4c8df6"></i><i style="background:#e07a52"></i><i style="background:#19c37d"></i></span></div>
+      <div id="title">ChatGPT<br /><em>숨은 명령어</em><br />5개만 알면 끝</div>
+    </div>
+    <script>
+      const tile = document.getElementById("tile"); tile.innerHTML = `<svg viewBox="-60 -60 120 120" style="position:absolute;left:24px;top:24px;width:120px;height:120px"><g fill="none" stroke="#111" stroke-width="7">${[0,60,120,180,240,300].map(r=>`<rect x="-14" y="-44" width="28" height="56" rx="14" transform="rotate(${r})"/>`).join("")}</g></svg>`;
+      const L = [[-110, 160, 600, 28, "#1f5a38"], [1190, 120, 620, 152, "#24683f"], [-160, 980, 460, 6, "#17452b"], [1230, 900, 480, 176, "#17452b"]];
+      const le = document.getElementById("leaves");
+      L.forEach(([x, y, w, r, c]) => le.insertAdjacentHTML("beforeend", `<svg style="left:${x}px;top:${y - w / 4}px;width:${w}px;height:${w / 2}px;color:${c};transform-origin:0% 50%;transform:rotate(${r}deg)"><use href="#leaf"/></svg>`));
+      for (let k = 0; k < 12; k++) { const d = document.createElement("i"); d.className = "ff"; d.style.left = (60 + ((k * 211) % 960)) + "px"; d.style.top = (240 + ((k * 397) % 860)) + "px"; d.style.opacity = 0.4 + (k % 3) * 0.25; le.after(d); }
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true }); tl.set({}, {}, 0.5); window.__timelines["main"] = tl;
+    </script>
+    <script type="module">
+      import { createMascot } from "./mascot.js";
+      const m = createMascot(document.getElementById("three"));
+      const PX = 398, TOP = 1.7, BOT = 1.45, top = 470, bot = 1075, cx = 640;
+      const yt = 0.1 + (960 - top) / PX, yb = 0.1 + (960 - bot) / PX, s = (yt - yb) / (TOP + BOT);
+      const st = { x: (cx - 540) / PX, y: yt - TOP * s, s, ry: -0.25, look: -0.35, wave: 1, talk: 0, blink: 0, cube: 0 };
+      const render = () => m.renderAt(0.35, st);
+      window.addEventListener("hf-seek", render); window.__renderMascot = render; render();
+    </script>
+  </body>
+</html>
