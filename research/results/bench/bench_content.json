@@ -1,0 +1,10742 @@
+{
+ "generated_at": "2026-11-13T10:24:14.575013+09:00",
+ "accounts": {
+  "gpt_haterz": {
+   "followers": 28009,
+   "rows": [
+    {
+     "t": "2026-11-12 22:59",
+     "type": "REELS",
+     "likes": 4,
+     "comments": 4,
+     "hashtags": [
+      "제작지원",
+      "higgsfieldcreator",
+      "higgsfieldpartner"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 454,
+     "x": 0.01
+    },
+    {
+     "t": "2026-11-11 13:17",
+     "type": "REELS",
+     "likes": 39,
+     "comments": 209,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "무료",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Midjourney"
+     ],
+     "cap_len": 349,
+     "x": 0.41
+    },
+    {
+     "t": "2026-11-05 08:20",
+     "type": "REELS",
+     "likes": 70,
+     "comments": 554,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 544,
+     "x": 1.07
+    },
+    {
+     "t": "2026-11-04 10:40",
+     "type": "REELS",
+     "likes": 438,
+     "comments": 2602,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "편집",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 442,
+     "x": 5.08
+    },
+    {
+     "t": "2026-11-03 20:04",
+     "type": "REELS",
+     "likes": 9,
+     "comments": 20,
+     "hashtags": [
+      "제작지원",
+      "freebeatAI",
+      "freebeat",
+      "AIMusicVideo"
+     ],
+     "n_tags": 4,
+     "comment_kw": "뮤비",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 399,
+     "x": 0.04
+    },
+    {
+     "t": "2026-11-03 09:23",
+     "type": "FEED",
+     "likes": 26,
+     "comments": 74,
+     "hashtags": [
+      "제작지원",
+      "higgsfieldcreator",
+      "higgsfieldpartner"
+     ],
+     "n_tags": 3,
+     "comment_kw": "프롬프트",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Nano Banana",
+      "Higgsfield"
+     ],
+     "cap_len": 701,
+     "x": 0.15
+    },
+    {
+     "t": "2026-11-02 12:02",
+     "type": "REELS",
+     "likes": 131,
+     "comments": 972,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 468,
+     "x": 1.88
+    },
+    {
+     "t": "2026-11-01 16:27",
+     "type": "REELS",
+     "likes": 21,
+     "comments": 46,
+     "hashtags": [
+      "제작지원",
+      "ManusPartner",
+      "manusai",
+      "마누스ai",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": "마누스",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Manus"
+     ],
+     "cap_len": 517,
+     "x": 0.1
+    },
+    {
+     "t": "2026-10-31 18:07",
+     "type": "REELS",
+     "likes": 673,
+     "comments": 5024,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 386,
+     "x": 9.71
+    },
+    {
+     "t": "2026-10-31 12:00",
+     "type": "REELS",
+     "likes": 65,
+     "comments": 303,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 587,
+     "x": 0.6
+    },
+    {
+     "t": "2026-10-30 18:03",
+     "type": "REELS",
+     "likes": 13,
+     "comments": 92,
+     "hashtags": [
+      "CapCutDidThat",
+      "CapCutWeb",
+      "ChatGPT",
+      "CapCutWorld",
+      "AIContentCreation"
+     ],
+     "n_tags": 5,
+     "comment_kw": "캡컷",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 615,
+     "x": 0.18
+    },
+    {
+     "t": "2026-10-29 20:10",
+     "type": "REELS",
+     "likes": 9,
+     "comments": 18,
+     "hashtags": [
+      "제작지원",
+      "higgsfieldcreator",
+      "higgsfieldpartner"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 455,
+     "x": 0.04
+    },
+    {
+     "t": "2026-10-28 20:05",
+     "type": "REELS",
+     "likes": 332,
+     "comments": 805,
+     "hashtags": [
+      "제작지원"
+     ],
+     "n_tags": 1,
+     "comment_kw": "편집",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 314,
+     "x": 1.69
+    },
+    {
+     "t": "2026-10-27 18:45",
+     "type": "REELS",
+     "likes": 36,
+     "comments": 126,
+     "hashtags": [
+      "드리미나단돈409원",
+      "드리미나",
+      "드리미나파트너"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 813,
+     "x": 0.26
+    },
+    {
+     "t": "2026-10-26 23:57",
+     "type": "REELS",
+     "likes": 8,
+     "comments": 30,
+     "hashtags": [
+      "제작지원",
+      "seedance",
+      "seedance25",
+      "StoryStudio",
+      "PippitAI"
+     ],
+     "n_tags": 5,
+     "comment_kw": "Pippit",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 472,
+     "x": 0.06
+    },
+    {
+     "t": "2026-10-26 19:55",
+     "type": "REELS",
+     "likes": 19,
+     "comments": 24,
+     "hashtags": [
+      "제작지원",
+      "TripoAI",
+      "3DDesign",
+      "AI3D",
+      "CreativeTools"
+     ],
+     "n_tags": 5,
+     "comment_kw": "Tripo",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 750,
+     "x": 0.06
+    },
+    {
+     "t": "2026-10-24 21:54",
+     "type": "REELS",
+     "likes": 120,
+     "comments": 438,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "시니어",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 541,
+     "x": 0.88
+    },
+    {
+     "t": "2026-10-23 16:45",
+     "type": "REELS",
+     "likes": 25,
+     "comments": 30,
+     "hashtags": [
+      "제작지원",
+      "higgsfieldcreator",
+      "higgsfieldpartner"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield",
+      "Kling"
+     ],
+     "cap_len": 670,
+     "x": 0.07
+    },
+    {
+     "t": "2026-10-20 19:37",
+     "type": "REELS",
+     "likes": 22,
+     "comments": 92,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 524,
+     "x": 0.18
+    },
+    {
+     "t": "2026-10-20 16:34",
+     "type": "FEED",
+     "likes": 76,
+     "comments": 169,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 0,
+     "x": 0.36
+    },
+    {
+     "t": "2026-10-19 17:11",
+     "type": "REELS",
+     "likes": 338,
+     "comments": 2243,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 407,
+     "x": 4.36
+    },
+    {
+     "t": "2026-10-18 17:00",
+     "type": "REELS",
+     "likes": 50,
+     "comments": 222,
+     "hashtags": [
+      "제작지원"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Cursor"
+     ],
+     "cap_len": 463,
+     "x": 0.44
+    },
+    {
+     "t": "2026-10-13 16:07",
+     "type": "REELS",
+     "likes": 1634,
+     "comments": 5442,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 431,
+     "x": 11.07
+    },
+    {
+     "t": "2026-10-08 19:55",
+     "type": "REELS",
+     "likes": 1382,
+     "comments": 4460,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 411,
+     "x": 9.1
+    },
+    {
+     "t": "2026-10-06 14:46",
+     "type": "REELS",
+     "likes": 102,
+     "comments": 417,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 481,
+     "x": 0.83
+    },
+    {
+     "t": "2026-10-03 16:04",
+     "type": "REELS",
+     "likes": 10,
+     "comments": 58,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "프롬프트",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 380,
+     "x": 0.11
+    },
+    {
+     "t": "2026-09-30 15:09",
+     "type": "REELS",
+     "likes": 534,
+     "comments": 4829,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 530,
+     "x": 9.26
+    },
+    {
+     "t": "2026-09-27 18:04",
+     "type": "FEED",
+     "likes": 862,
+     "comments": 7880,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "24시간",
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 166,
+     "x": 15.11
+    },
+    {
+     "t": "2026-09-25 17:54",
+     "type": "REELS",
+     "likes": 976,
+     "comments": 7031,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Grok"
+     ],
+     "cap_len": 318,
+     "x": 13.61
+    },
+    {
+     "t": "2026-09-23 21:11",
+     "type": "FEED",
+     "likes": 425,
+     "comments": 2465,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 0,
+     "x": 4.82
+    },
+    {
+     "t": "2026-09-22 18:00",
+     "type": "FEED",
+     "likes": 133,
+     "comments": 1127,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 0,
+     "x": 2.17
+    },
+    {
+     "t": "2026-09-22 16:27",
+     "type": "REELS",
+     "likes": 48,
+     "comments": 262,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 282,
+     "x": 0.51
+    },
+    {
+     "t": "2026-09-21 16:44",
+     "type": "FEED",
+     "likes": 203,
+     "comments": 1897,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "팀",
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 736,
+     "x": 3.63
+    },
+    {
+     "t": "2026-09-21 12:27",
+     "type": "REELS",
+     "likes": 809,
+     "comments": 5714,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 621,
+     "x": 11.07
+    },
+    {
+     "t": "2026-09-19 15:51",
+     "type": "REELS",
+     "likes": 293,
+     "comments": 1243,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 468,
+     "x": 2.48
+    },
+    {
+     "t": "2026-09-17 17:51",
+     "type": "FEED",
+     "likes": 1007,
+     "comments": 7823,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "페이블",
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 615,
+     "x": 15.09
+    },
+    {
+     "t": "2026-09-16 17:51",
+     "type": "REELS",
+     "likes": 29,
+     "comments": 269,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 434,
+     "x": 0.52
+    },
+    {
+     "t": "2026-09-15 18:26",
+     "type": "REELS",
+     "likes": 1280,
+     "comments": 6341,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+     ],
+     "cap_len": 419,
+     "x": 12.52
+    },
+    {
+     "t": "2026-09-14 22:00",
+     "type": "FEED",
+     "likes": 1101,
+     "comments": 11539,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "직원",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Gemini",
+      "Cursor",
+      "Codex"
+     ],
+     "cap_len": 603,
+     "x": 22.02
+    },
+    {
+     "t": "2026-09-14 18:56",
+     "type": "REELS",
+     "likes": 391,
+     "comments": 1831,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 321,
+     "x": 3.63
+    },
+    {
+     "t": "2026-09-13 12:44",
+     "type": "REELS",
+     "likes": 75,
+     "comments": 790,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 225,
+     "x": 1.51
+    },
+    {
+     "t": "2026-09-12 19:39",
+     "type": "REELS",
+     "likes": 410,
+     "comments": 3867,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 228,
+     "x": 7.41
+    },
+    {
+     "t": "2026-09-11 14:13",
+     "type": "FEED",
+     "likes": 60,
+     "comments": 253,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "모션",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 588,
+     "x": 0.5
+    },
+    {
+     "t": "2026-09-10 11:43",
+     "type": "REELS",
+     "likes": 250,
+     "comments": 935,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 361,
+     "x": 1.88
+    },
+    {
+     "t": "2026-09-09 17:24",
+     "type": "REELS",
+     "likes": 132,
+     "comments": 460,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 166,
+     "x": 0.93
+    },
+    {
+     "t": "2026-09-08 19:44",
+     "type": "REELS",
+     "likes": 48,
+     "comments": 220,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 477,
+     "x": 0.44
+    },
+    {
+     "t": "2026-09-08 12:39",
+     "type": "REELS",
+     "likes": 52,
+     "comments": 370,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 490,
+     "x": 0.72
+    },
+    {
+     "t": "2026-09-07 23:50",
+     "type": "FEED",
+     "likes": 219,
+     "comments": 5,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 9,
+     "x": 0.14
+    },
+    {
+     "t": "2026-09-07 15:33",
+     "type": "REELS",
+     "likes": 643,
+     "comments": 5921,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Cursor",
+      "Codex"
+     ],
+     "cap_len": 304,
+     "x": 11.35
+    },
+    {
+     "t": "2026-09-03 22:10",
+     "type": "FEED",
+     "likes": 1313,
+     "comments": 4088,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "레포",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 465,
+     "x": 8.37
+    }
+   ]
+  },
+  "adu.aihub": {
+   "followers": 118746,
+   "rows": [
+    {
+     "t": "2026-11-13 07:40",
+     "type": "REELS",
+     "likes": 16,
+     "comments": 8,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "영상",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 294,
+     "x": 0.08
+    },
+    {
+     "t": "2026-11-11 18:15",
+     "type": "REELS",
+     "likes": 131,
+     "comments": 71,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "페이블",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 238,
+     "x": 0.67
+    },
+    {
+     "t": "2026-11-11 13:45",
+     "type": "REELS",
+     "likes": 120,
+     "comments": 95,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "게임",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 278,
+     "x": 0.79
+    },
+    {
+     "t": "2026-11-11 13:10",
+     "type": "REELS",
+     "likes": 3188,
+     "comments": 2087,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 0,
+     "x": 18.44
+    },
+    {
+     "t": "2026-11-10 17:47",
+     "type": "REELS",
+     "likes": 82,
+     "comments": 36,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "클로드",
+      "힉스필드",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": "무료",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 208,
+     "x": 0.37
+    },
+    {
+     "t": "2026-11-08 13:30",
+     "type": "REELS",
+     "likes": 17,
+     "comments": 8,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "모션그래픽",
+      "AI애니메이션"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 81,
+     "x": 0.08
+    },
+    {
+     "t": "2026-11-08 13:28",
+     "type": "REELS",
+     "likes": 356,
+     "comments": 410,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "모션그래픽",
+      "AI애니메이션"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 81,
+     "x": 3.09
+    },
+    {
+     "t": "2026-11-06 17:40",
+     "type": "REELS",
+     "likes": 3,
+     "comments": 8,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "쇼츠",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 258,
+     "x": 0.05
+    },
+    {
+     "t": "2026-11-06 17:37",
+     "type": "REELS",
+     "likes": 3,
+     "comments": 0,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "쇼츠",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 258,
+     "x": 0.01
+    },
+    {
+     "t": "2026-11-06 17:35",
+     "type": "REELS",
+     "likes": 1,
+     "comments": 10,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "쇼츠",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 258,
+     "x": 0.06
+    },
+    {
+     "t": "2026-11-06 08:33",
+     "type": "REELS",
+     "likes": 95,
+     "comments": 123,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "쇼츠",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 259,
+     "x": 0.91
+    },
+    {
+     "t": "2026-11-05 17:16",
+     "type": "FEED",
+     "likes": 99,
+     "comments": 53,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "AI웹툰",
+      "만가카"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 411,
+     "x": 0.5
+    },
+    {
+     "t": "2026-10-31 10:39",
+     "type": "REELS",
+     "likes": 3,
+     "comments": 0,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "클로드",
+      "힉스필드",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": "클로드",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 448,
+     "x": 0.01
+    },
+    {
+     "t": "2026-10-30 20:11",
+     "type": "REELS",
+     "likes": 95,
+     "comments": 53,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "클로드",
+      "힉스필드",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": "클로드",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 448,
+     "x": 0.5
+    },
+    {
+     "t": "2026-10-27 20:04",
+     "type": "REELS",
+     "likes": 1,
+     "comments": 0,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "ChatGPT",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 196,
+     "x": 0.0
+    },
+    {
+     "t": "2026-10-27 20:02",
+     "type": "REELS",
+     "likes": 59,
+     "comments": 23,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "ChatGPT",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 197,
+     "x": 0.25
+    },
+    {
+     "t": "2026-10-26 17:59",
+     "type": "REELS",
+     "likes": 63,
+     "comments": 68,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "AI영상",
+      "ai애니메이션"
+     ],
+     "n_tags": 4,
+     "comment_kw": "상상",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 811,
+     "x": 0.52
+    },
+    {
+     "t": "2026-10-23 12:13",
+     "type": "REELS",
+     "likes": 12,
+     "comments": 33,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "claudeai",
+      "claudecode",
+      "자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 701,
+     "x": 0.22
+    },
+    {
+     "t": "2026-10-22 14:34",
+     "type": "FEED",
+     "likes": 136,
+     "comments": 227,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "AI활용",
+      "영업자동화",
+      "1인사업"
+     ],
+     "n_tags": 5,
+     "comment_kw": "하비",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 503,
+     "x": 1.59
+    },
+    {
+     "t": "2026-10-22 13:47",
+     "type": "REELS",
+     "likes": 51,
+     "comments": 41,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "AI영상",
+      "ChatGPT",
+      "Higgsfield",
+      "Wan3"
+     ],
+     "n_tags": 5,
+     "comment_kw": "영상",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 687,
+     "x": 0.34
+    },
+    {
+     "t": "2026-10-21 18:10",
+     "type": "REELS",
+     "likes": 248,
+     "comments": 2679,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "claudeai",
+      "claudecode",
+      "이력서"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 586,
+     "x": 16.17
+    },
+    {
+     "t": "2026-10-20 20:58",
+     "type": "REELS",
+     "likes": 94,
+     "comments": 129,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Codex",
+      "Higgsfield"
+     ],
+     "cap_len": 286,
+     "x": 0.94
+    },
+    {
+     "t": "2026-10-17 14:35",
+     "type": "FEED",
+     "likes": 1142,
+     "comments": 5131,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "업무자동화",
+      "AI활용",
+      "프롬프트"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 714,
+     "x": 32.26
+    },
+    {
+     "t": "2026-10-15 18:10",
+     "type": "REELS",
+     "likes": 36,
+     "comments": 14,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": "슬래시",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 144,
+     "x": 0.15
+    },
+    {
+     "t": "2026-10-12 19:56",
+     "type": "REELS",
+     "likes": 253,
+     "comments": 576,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 310,
+     "x": 3.87
+    },
+    {
+     "t": "2026-10-10 15:50",
+     "type": "REELS",
+     "likes": 99,
+     "comments": 170,
+     "hashtags": [
+      "CapCutPC",
+      "CapCutDidThat",
+      "capcutmarketing",
+      "SmallBusinessMarketing"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 315,
+     "x": 1.19
+    },
+    {
+     "t": "2026-10-07 11:45",
+     "type": "FEED",
+     "likes": 519,
+     "comments": 1235,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "닷",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 228,
+     "x": 8.24
+    },
+    {
+     "t": "2026-10-06 19:51",
+     "type": "REELS",
+     "likes": 77,
+     "comments": 117,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "AI인플루언서",
+      "Genjutsu"
+     ],
+     "n_tags": 3,
+     "comment_kw": "캐릭터",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 190,
+     "x": 0.84
+    },
+    {
+     "t": "2026-10-06 18:13",
+     "type": "REELS",
+     "likes": 90,
+     "comments": 104,
+     "hashtags": [
+      "광고",
+      "롯데백화점",
+      "롯데몰벨리타운청량리",
+      "AI뮤직공모전",
+      "suno"
+     ],
+     "n_tags": 5,
+     "comment_kw": "음악",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Suno"
+     ],
+     "cap_len": 560,
+     "x": 0.78
+    },
+    {
+     "t": "2026-10-03 18:34",
+     "type": "REELS",
+     "likes": 65,
+     "comments": 44,
+     "hashtags": [
+      "higgsfieldcreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 251,
+     "x": 0.38
+    },
+    {
+     "t": "2026-09-30 09:48",
+     "type": "FEED",
+     "likes": 154,
+     "comments": 277,
+     "hashtags": [
+      "OpenAIDevDay",
+      "챗GPT",
+      "코덱스",
+      "AI활용"
+     ],
+     "n_tags": 4,
+     "comment_kw": "데브데이",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 649,
+     "x": 1.92
+    },
+    {
+     "t": "2026-09-29 20:22",
+     "type": "REELS",
+     "likes": 142,
+     "comments": 441,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "ChatGPT",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 350,
+     "x": 2.86
+    },
+    {
+     "t": "2026-09-28 19:44",
+     "type": "REELS",
+     "likes": 91,
+     "comments": 147,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldAPI",
+      "AI영상",
+      "생성형AI"
+     ],
+     "n_tags": 4,
+     "comment_kw": "영상",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 712,
+     "x": 1.04
+    },
+    {
+     "t": "2026-09-26 21:57",
+     "type": "REELS",
+     "likes": 227,
+     "comments": 623,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldAPI",
+      "AI영상",
+      "생성형ai"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield",
+      "Kling"
+     ],
+     "cap_len": 663,
+     "x": 4.09
+    },
+    {
+     "t": "2026-09-24 19:45",
+     "type": "FEED",
+     "likes": 371,
+     "comments": 1251,
+     "hashtags": [
+      "GPT이미지",
+      "AI이미지",
+      "이미지생성",
+      "AI활용법",
+      "챗GPT"
+     ],
+     "n_tags": 5,
+     "comment_kw": "수정",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 610,
+     "x": 8.05
+    },
+    {
+     "t": "2026-09-22 18:10",
+     "type": "FEED",
+     "likes": 103,
+     "comments": 143,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 517,
+     "x": 1.04
+    },
+    {
+     "t": "2026-09-18 20:47",
+     "type": "REELS",
+     "likes": 100,
+     "comments": 270,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "higgsfield",
+      "api",
+      "자영업"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 355,
+     "x": 1.78
+    },
+    {
+     "t": "2026-09-13 18:34",
+     "type": "REELS",
+     "likes": 140,
+     "comments": 203,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "ChatGPT",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": "명령어",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 558,
+     "x": 1.46
+    },
+    {
+     "t": "2026-09-12 18:38",
+     "type": "REELS",
+     "likes": 8,
+     "comments": 4,
+     "hashtags": [
+      "higgsfieldcreator",
+      "higgsfield",
+      "gpt",
+      "astra"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 78,
+     "x": 0.04
+    },
+    {
+     "t": "2026-09-12 18:34",
+     "type": "REELS",
+     "likes": 105,
+     "comments": 251,
+     "hashtags": [
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "ChatGPT",
+      "AI",
+      "GPT6Astra"
+     ],
+     "n_tags": 5,
+     "comment_kw": "낙서",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 487,
+     "x": 1.67
+    },
+    {
+     "t": "2026-09-10 21:27",
+     "type": "REELS",
+     "likes": 1910,
+     "comments": 8153,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "GPT6Astra",
+      "SketchUp",
+      "ai건축"
+     ],
+     "n_tags": 4,
+     "comment_kw": "아스트라",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 673,
+     "x": 51.45
+    },
+    {
+     "t": "2026-09-09 21:13",
+     "type": "REELS",
+     "likes": 9014,
+     "comments": 10181,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 604,
+     "x": 77.18
+    },
+    {
+     "t": "2026-09-09 21:09",
+     "type": "REELS",
+     "likes": 419,
+     "comments": 1192,
+     "hashtags": [
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "Astra",
+      "지피티",
+      "인테리어AI"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 412,
+     "x": 7.8
+    },
+    {
+     "t": "2026-09-09 18:00",
+     "type": "REELS",
+     "likes": 57,
+     "comments": 358,
+     "hashtags": [
+      "광고",
+      "썸트렌드MCP",
+      "썸트렌드",
+      "MCP",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": "트렌드",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 310,
+     "x": 2.21
+    },
+    {
+     "t": "2026-09-08 12:00",
+     "type": "REELS",
+     "likes": 91,
+     "comments": 134,
+     "hashtags": [
+      "광고",
+      "마이사운드",
+      "사운드명함",
+      "AI컬러링",
+      "통화연결음"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 366,
+     "x": 0.96
+    },
+    {
+     "t": "2026-09-06 19:40",
+     "type": "REELS",
+     "likes": 161,
+     "comments": 482,
+     "hashtags": [
+      "HiggsfieldPartner",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 370,
+     "x": 3.14
+    },
+    {
+     "t": "2026-09-04 12:49",
+     "type": "REELS",
+     "likes": 698,
+     "comments": 3416,
+     "hashtags": [
+      "지피티",
+      "AI",
+      "HiggsfieldPartner",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 4,
+     "comment_kw": "코드",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 294,
+     "x": 21.36
+    },
+    {
+     "t": "2026-09-02 19:33",
+     "type": "FEED",
+     "likes": 470,
+     "comments": 1718,
+     "hashtags": [
+      "kimi",
+      "kimiai",
+      "kimik3",
+      "AI"
+     ],
+     "n_tags": 4,
+     "comment_kw": "키미",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 291,
+     "x": 10.97
+    },
+    {
+     "t": "2026-09-01 19:46",
+     "type": "REELS",
+     "likes": 69,
+     "comments": 60,
+     "hashtags": [
+      "광고",
+      "Genspark",
+      "WorkwithGenspark",
+      "AI워크스페이스",
+      "업무생산성"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Genspark",
+      "PPT"
+     ],
+     "cap_len": 356,
+     "x": 0.49
+    },
+    {
+     "t": "2026-09-01 18:15",
+     "type": "FEED",
+     "likes": 975,
+     "comments": 5763,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 316,
+     "x": 35.64
+    }
+   ]
+  },
+  "lazy_owen": {
+   "followers": 124515,
+   "rows": [
+    {
+     "t": "2026-11-13 06:15",
+     "type": "REELS",
+     "likes": 12,
+     "comments": 23,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldPartner"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 236,
+     "x": 0.02
+    },
+    {
+     "t": "2026-11-12 16:49",
+     "type": "REELS",
+     "likes": 241,
+     "comments": 304,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldPartner"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 192,
+     "x": 0.22
+    },
+    {
+     "t": "2026-11-10 19:02",
+     "type": "REELS",
+     "likes": 202,
+     "comments": 1613,
+     "hashtags": [
+      "grok",
+      "aitrading"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Grok"
+     ],
+     "cap_len": 313,
+     "x": 0.94
+    },
+    {
+     "t": "2026-11-09 14:18",
+     "type": "REELS",
+     "likes": 74,
+     "comments": 241,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldPartner"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 232,
+     "x": 0.15
+    },
+    {
+     "t": "2026-11-07 18:38",
+     "type": "REELS",
+     "likes": 120,
+     "comments": 637,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 199,
+     "x": 0.38
+    },
+    {
+     "t": "2026-11-07 00:39",
+     "type": "REELS",
+     "likes": 26,
+     "comments": 26,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "higgsfieldpartner"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 242,
+     "x": 0.02
+    },
+    {
+     "t": "2026-11-05 18:44",
+     "type": "REELS",
+     "likes": 430,
+     "comments": 2596,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 154,
+     "x": 1.54
+    },
+    {
+     "t": "2026-11-04 20:40",
+     "type": "REELS",
+     "likes": 1,
+     "comments": 0,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 158,
+     "x": 0.0
+    },
+    {
+     "t": "2026-11-02 19:02",
+     "type": "REELS",
+     "likes": 358,
+     "comments": 3109,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 265,
+     "x": 1.81
+    },
+    {
+     "t": "2026-11-01 19:56",
+     "type": "REELS",
+     "likes": 616,
+     "comments": 1597,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 141,
+     "x": 1.01
+    },
+    {
+     "t": "2026-10-31 19:53",
+     "type": "REELS",
+     "likes": 482,
+     "comments": 3337,
+     "hashtags": [
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 219,
+     "x": 1.96
+    },
+    {
+     "t": "2026-10-30 19:43",
+     "type": "REELS",
+     "likes": 124,
+     "comments": 426,
+     "hashtags": [
+      "Newtake",
+      "MadeWithNewtake",
+      "AIVideo",
+      "Halloween"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 194,
+     "x": 0.26
+    },
+    {
+     "t": "2026-10-30 13:30",
+     "type": "REELS",
+     "likes": 69,
+     "comments": 112,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 158,
+     "x": 0.08
+    },
+    {
+     "t": "2026-10-29 19:41",
+     "type": "REELS",
+     "likes": 39,
+     "comments": 116,
+     "hashtags": [
+      "CapCutPC",
+      "CapCutDidThat",
+      "capcutmarketing",
+      "capcutsale",
+      "CapCutKR2026"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 276,
+     "x": 0.07
+    },
+    {
+     "t": "2026-10-29 01:30",
+     "type": "REELS",
+     "likes": 220,
+     "comments": 1699,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 233,
+     "x": 1.0
+    },
+    {
+     "t": "2026-10-28 18:42",
+     "type": "REELS",
+     "likes": 788,
+     "comments": 3178,
+     "hashtags": [
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 201,
+     "x": 1.93
+    },
+    {
+     "t": "2026-10-27 19:39",
+     "type": "REELS",
+     "likes": 1082,
+     "comments": 5458,
+     "hashtags": [
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 115,
+     "x": 3.27
+    },
+    {
+     "t": "2026-10-25 17:03",
+     "type": "REELS",
+     "likes": 361,
+     "comments": 1668,
+     "hashtags": [
+      "buzzy",
+      "제작지원"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 242,
+     "x": 1.0
+    },
+    {
+     "t": "2026-10-24 16:03",
+     "type": "REELS",
+     "likes": 32,
+     "comments": 107,
+     "hashtags": [
+      "제작지원",
+      "HiggsfieldCreator",
+      "Wan3"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 206,
+     "x": 0.07
+    },
+    {
+     "t": "2026-10-23 19:59",
+     "type": "REELS",
+     "likes": 136,
+     "comments": 801,
+     "hashtags": [
+      "claude"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 149,
+     "x": 0.48
+    },
+    {
+     "t": "2026-10-22 17:38",
+     "type": "REELS",
+     "likes": 1274,
+     "comments": 6874,
+     "hashtags": [
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 155,
+     "x": 4.1
+    },
+    {
+     "t": "2026-10-21 20:02",
+     "type": "REELS",
+     "likes": 165,
+     "comments": 162,
+     "hashtags": [
+      "tripo3d",
+      "tripoai",
+      "gamedev",
+      "smartmesh"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 195,
+     "x": 0.12
+    },
+    {
+     "t": "2026-10-20 20:03",
+     "type": "REELS",
+     "likes": 1325,
+     "comments": 13774,
+     "hashtags": [
+      "grok"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Grok"
+     ],
+     "cap_len": 135,
+     "x": 7.98
+    },
+    {
+     "t": "2026-10-18 20:02",
+     "type": "REELS",
+     "likes": 945,
+     "comments": 7944,
+     "hashtags": [
+      "claude"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 108,
+     "x": 4.64
+    },
+    {
+     "t": "2026-10-17 19:03",
+     "type": "FEED",
+     "likes": 607,
+     "comments": 1323,
+     "hashtags": [
+      "chatgpt",
+      "gpt"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 185,
+     "x": 0.86
+    },
+    {
+     "t": "2026-10-16 19:03",
+     "type": "REELS",
+     "likes": 2290,
+     "comments": 10342,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "ai",
+      "tech"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 221,
+     "x": 6.24
+    },
+    {
+     "t": "2026-10-15 19:03",
+     "type": "FEED",
+     "likes": 602,
+     "comments": 1970,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "youtube"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 283,
+     "x": 1.22
+    },
+    {
+     "t": "2026-10-14 19:03",
+     "type": "REELS",
+     "likes": 293,
+     "comments": 1613,
+     "hashtags": [
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 146,
+     "x": 0.96
+    },
+    {
+     "t": "2026-10-13 19:05",
+     "type": "REELS",
+     "likes": 8556,
+     "comments": 10803,
+     "hashtags": [
+      "claude",
+      "claudecode"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 282,
+     "x": 7.67
+    },
+    {
+     "t": "2026-10-12 19:03",
+     "type": "FEED",
+     "likes": 305,
+     "comments": 1642,
+     "hashtags": [
+      "chatgpt"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 550,
+     "x": 0.98
+    },
+    {
+     "t": "2026-10-11 19:03",
+     "type": "REELS",
+     "likes": 301,
+     "comments": 1287,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldPartner",
+      "제작지원"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 562,
+     "x": 0.78
+    },
+    {
+     "t": "2026-10-10 19:03",
+     "type": "FEED",
+     "likes": 660,
+     "comments": 5277,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 639,
+     "x": 3.09
+    },
+    {
+     "t": "2026-10-09 19:03",
+     "type": "REELS",
+     "likes": 2696,
+     "comments": 2693,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 277,
+     "x": 2.02
+    },
+    {
+     "t": "2026-10-08 15:56",
+     "type": "FEED",
+     "likes": 232,
+     "comments": 755,
+     "hashtags": [
+      "claude",
+      "linkedin",
+      "ai"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 642,
+     "x": 0.47
+    },
+    {
+     "t": "2026-10-06 19:25",
+     "type": "FEED",
+     "likes": 618,
+     "comments": 3824,
+     "hashtags": [
+      "aitrading",
+      "ai",
+      "tech",
+      "claude",
+      "chatgpt"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 747,
+     "x": 2.26
+    },
+    {
+     "t": "2026-10-05 19:25",
+     "type": "REELS",
+     "likes": 1872,
+     "comments": 8508,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "freellmapi",
+      "ai",
+      "tech"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 340,
+     "x": 5.13
+    },
+    {
+     "t": "2026-10-04 19:25",
+     "type": "FEED",
+     "likes": 1821,
+     "comments": 6023,
+     "hashtags": [
+      "chatgpt"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 753,
+     "x": 3.72
+    },
+    {
+     "t": "2026-10-03 19:00",
+     "type": "REELS",
+     "likes": 698,
+     "comments": 5583,
+     "hashtags": [
+      "ai",
+      "tech"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 120,
+     "x": 3.27
+    },
+    {
+     "t": "2026-10-03 07:00",
+     "type": "FEED",
+     "likes": 440,
+     "comments": 112,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 75,
+     "x": 0.15
+    },
+    {
+     "t": "2026-10-02 19:00",
+     "type": "REELS",
+     "likes": 121,
+     "comments": 510,
+     "hashtags": [
+      "manusai",
+      "마누스ai",
+      "광고"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Manus"
+     ],
+     "cap_len": 817,
+     "x": 0.31
+    },
+    {
+     "t": "2026-10-02 07:00",
+     "type": "FEED",
+     "likes": 672,
+     "comments": 3284,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "ai",
+      "tech"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 626,
+     "x": 1.97
+    },
+    {
+     "t": "2026-10-01 07:00",
+     "type": "FEED",
+     "likes": 487,
+     "comments": 1017,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Gemini"
+     ],
+     "cap_len": 699,
+     "x": 0.66
+    },
+    {
+     "t": "2026-09-30 19:14",
+     "type": "REELS",
+     "likes": 210,
+     "comments": 940,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldPartner",
+      "제작지원"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 212,
+     "x": 0.57
+    },
+    {
+     "t": "2026-09-30 07:00",
+     "type": "FEED",
+     "likes": 422,
+     "comments": 2516,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "ecc",
+      "ai",
+      "tech"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 121,
+     "x": 1.49
+    },
+    {
+     "t": "2026-09-29 19:00",
+     "type": "REELS",
+     "likes": 1558,
+     "comments": 5894,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "ai",
+      "tech"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 125,
+     "x": 3.6
+    },
+    {
+     "t": "2026-09-29 07:00",
+     "type": "FEED",
+     "likes": 661,
+     "comments": 2500,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 596,
+     "x": 1.53
+    },
+    {
+     "t": "2026-09-28 19:00",
+     "type": "REELS",
+     "likes": 209,
+     "comments": 754,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Cursor"
+     ],
+     "cap_len": 251,
+     "x": 0.46
+    },
+    {
+     "t": "2026-09-28 07:00",
+     "type": "FEED",
+     "likes": 350,
+     "comments": 65,
+     "hashtags": [
+      "iphone",
+      "apple"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 135,
+     "x": 0.1
+    },
+    {
+     "t": "2026-09-27 19:00",
+     "type": "REELS",
+     "likes": 331,
+     "comments": 2007,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "HiggsfieldPartner"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 144,
+     "x": 1.19
+    },
+    {
+     "t": "2026-09-27 07:00",
+     "type": "FEED",
+     "likes": 521,
+     "comments": 3780,
+     "hashtags": [
+      "claude",
+      "claudecode",
+      "ai",
+      "tech"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 113,
+     "x": 2.22
+    }
+   ]
+  },
+  "oaiwan.kr": {
+   "followers": 16153,
+   "rows": [
+    {
+     "t": "2026-11-10 19:30",
+     "type": "REELS",
+     "likes": 22,
+     "comments": 46,
+     "hashtags": [
+      "챗GPT",
+      "움짤만들기",
+      "GIF",
+      "AI업무"
+     ],
+     "n_tags": 4,
+     "comment_kw": "움짤",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 344,
+     "x": 0.21
+    },
+    {
+     "t": "2026-11-08 19:00",
+     "type": "FEED",
+     "likes": 12,
+     "comments": 67,
+     "hashtags": [
+      "콘텐츠기획",
+      "인스타운영",
+      "챗GPT활용",
+      "SNS마케팅",
+      "콘텐츠캘린더"
+     ],
+     "n_tags": 5,
+     "comment_kw": "달력",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 364,
+     "x": 0.29
+    },
+    {
+     "t": "2026-11-07 19:00",
+     "type": "FEED",
+     "likes": 40,
+     "comments": 41,
+     "hashtags": [
+      "클로드",
+      "챗GPT",
+      "AI구독",
+      "챗GPT플러스",
+      "클로드프로",
+      "AI활용"
+     ],
+     "n_tags": 6,
+     "comment_kw": "요금",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 380,
+     "x": 0.22
+    },
+    {
+     "t": "2026-11-06 19:30",
+     "type": "REELS",
+     "likes": 343,
+     "comments": 2682,
+     "hashtags": [
+      "상세페이지",
+      "클로드코드",
+      "코덱스",
+      "스마트스토어",
+      "쿠팡"
+     ],
+     "n_tags": 5,
+     "comment_kw": "상세",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 212,
+     "x": 11.26
+    },
+    {
+     "t": "2026-11-04 18:32",
+     "type": "REELS",
+     "likes": 1336,
+     "comments": 5182,
+     "hashtags": [
+      "쇼츠편집",
+      "AI영상편집",
+      "클로드",
+      "영상자동편집",
+      "롱폼쇼츠"
+     ],
+     "n_tags": 5,
+     "comment_kw": "이나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 372,
+     "x": 22.66
+    },
+    {
+     "t": "2026-11-01 19:03",
+     "type": "FEED",
+     "likes": 33,
+     "comments": 250,
+     "hashtags": [
+      "상세페이지",
+      "상세페이지제작",
+      "클로드",
+      "스마트스토어",
+      "AI업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "상세",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 460,
+     "x": 1.05
+    },
+    {
+     "t": "2026-10-31 19:40",
+     "type": "FEED",
+     "likes": 20,
+     "comments": 85,
+     "hashtags": [
+      "클로드코드",
+      "AI흔적",
+      "SynthID",
+      "오픈소스",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": "이나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 408,
+     "x": 0.37
+    },
+    {
+     "t": "2026-10-30 19:03",
+     "type": "REELS",
+     "likes": 151,
+     "comments": 1408,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "릴스자동화",
+      "AI자동화",
+      "인스타릴스"
+     ],
+     "n_tags": 5,
+     "comment_kw": "이나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 404,
+     "x": 5.87
+    },
+    {
+     "t": "2026-10-28 18:30",
+     "type": "REELS",
+     "likes": 12,
+     "comments": 28,
+     "hashtags": [
+      "클로드",
+      "클로드프로젝트",
+      "AI활용법",
+      "마케팅자동화",
+      "챗GPT"
+     ],
+     "n_tags": 5,
+     "comment_kw": "세팅",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 306,
+     "x": 0.13
+    },
+    {
+     "t": "2026-10-27 21:22",
+     "type": "REELS",
+     "likes": 19,
+     "comments": 112,
+     "hashtags": [
+      "클로드",
+      "챗GPT",
+      "클로드코드",
+      "AI활용",
+      "직장인꿀팁"
+     ],
+     "n_tags": 5,
+     "comment_kw": "절약",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 500,
+     "x": 0.48
+    },
+    {
+     "t": "2026-10-27 18:58",
+     "type": "FEED",
+     "likes": 21,
+     "comments": 72,
+     "hashtags": [
+      "바이브코딩",
+      "AI홈페이지",
+      "AI사이트",
+      "클로드",
+      "챗GPT",
+      "소상공인"
+     ],
+     "n_tags": 6,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 380,
+     "x": 0.32
+    },
+    {
+     "t": "2026-10-26 19:03",
+     "type": "FEED",
+     "likes": 56,
+     "comments": 314,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "정부지원사업",
+      "소상공인",
+      "지원사업",
+      "AI활용",
+      "업무자동화"
+     ],
+     "n_tags": 7,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 476,
+     "x": 1.34
+    },
+    {
+     "t": "2026-10-25 19:00",
+     "type": "FEED",
+     "likes": 51,
+     "comments": 75,
+     "hashtags": [
+      "무료앱",
+      "포토샵무료",
+      "프리미어무료",
+      "무료오피스",
+      "다빈치리졸브",
+      "캡컷",
+      "한컴독스",
+      "AI툴",
+      "무료툴"
+     ],
+     "n_tags": 9,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Excel",
+      "PPT"
+     ],
+     "cap_len": 688,
+     "x": 0.37
+    },
+    {
+     "t": "2026-10-24 22:45",
+     "type": "FEED",
+     "likes": 1105,
+     "comments": 4394,
+     "hashtags": [
+      "블로그마케팅",
+      "가게홍보",
+      "챗GPT활용",
+      "프롬프트",
+      "소상공인마케팅"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 700,
+     "x": 19.18
+    },
+    {
+     "t": "2026-10-23 19:03",
+     "type": "FEED",
+     "likes": 13,
+     "comments": 78,
+     "hashtags": [
+      "회의록",
+      "녹음텍스트변환",
+      "받아쓰기",
+      "무료프로그램",
+      "AI툴"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 388,
+     "x": 0.33
+    },
+    {
+     "t": "2026-10-23 16:41",
+     "type": "FEED",
+     "likes": 59,
+     "comments": 182,
+     "hashtags": [
+      "한글파일변환",
+      "HWP변환",
+      "PDF변환",
+      "무료프로그램",
+      "업무꿀팁"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Excel",
+      "PPT"
+     ],
+     "cap_len": 438,
+     "x": 0.81
+    },
+    {
+     "t": "2026-10-21 21:00",
+     "type": "FEED",
+     "likes": 22,
+     "comments": 34,
+     "hashtags": [
+      "AI에이전트",
+      "피클",
+      "AI비서",
+      "AI자동화",
+      "생산성"
+     ],
+     "n_tags": 5,
+     "comment_kw": "이나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Grok"
+     ],
+     "cap_len": 618,
+     "x": 0.17
+    },
+    {
+     "t": "2026-10-21 19:02",
+     "type": "REELS",
+     "likes": 15,
+     "comments": 106,
+     "hashtags": [
+      "AI비서",
+      "피클",
+      "AI에이전트",
+      "KTX예매",
+      "생산성"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 372,
+     "x": 0.45
+    },
+    {
+     "t": "2026-10-21 12:03",
+     "type": "FEED",
+     "likes": 39,
+     "comments": 48,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "코덱스",
+      "Codex",
+      "AI코딩",
+      "오픈코드",
+      "Qwen",
+      "GLM",
+      "DeepSeek",
+      "Kimi",
+      "MiniMax",
+      "개발자"
+     ],
+     "n_tags": 12,
+     "comment_kw": "플랜",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 1271,
+     "x": 0.25
+    },
+    {
+     "t": "2026-10-20 20:55",
+     "type": "REELS",
+     "likes": 151,
+     "comments": 876,
+     "hashtags": [
+      "클로드",
+      "PPT",
+      "제안서",
+      "AI업무자동화",
+      "챗GPT"
+     ],
+     "n_tags": 5,
+     "comment_kw": "PPT",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "PPT"
+     ],
+     "cap_len": 380,
+     "x": 3.73
+    },
+    {
+     "t": "2026-10-19 19:02",
+     "type": "REELS",
+     "likes": 323,
+     "comments": 3173,
+     "hashtags": [
+      "네이버블로그",
+      "블로그자동화",
+      "무료AI",
+      "AI자동화",
+      "블로그예약발행"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 552,
+     "x": 13.21
+    },
+    {
+     "t": "2026-10-18 19:13",
+     "type": "REELS",
+     "likes": 106,
+     "comments": 661,
+     "hashtags": [
+      "클로드코드",
+      "클로드",
+      "AI자동화",
+      "토큰절약",
+      "바이브코딩"
+     ],
+     "n_tags": 5,
+     "comment_kw": "토큰",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 285,
+     "x": 2.8
+    },
+    {
+     "t": "2026-10-17 19:03",
+     "type": "REELS",
+     "likes": 61,
+     "comments": 478,
+     "hashtags": [
+      "유튜브자동화",
+      "Claude",
+      "AI자동화",
+      "유튜브운영",
+      "유튜브쇼츠"
+     ],
+     "n_tags": 5,
+     "comment_kw": "채널",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 560,
+     "x": 2.01
+    },
+    {
+     "t": "2026-10-17 09:00",
+     "type": "REELS",
+     "likes": 17,
+     "comments": 111,
+     "hashtags": [
+      "챗GPT",
+      "챗GPT활용법",
+      "업무자동화",
+      "AI활용",
+      "직장인꿀팁"
+     ],
+     "n_tags": 5,
+     "comment_kw": "코드",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 358,
+     "x": 0.47
+    },
+    {
+     "t": "2026-10-16 19:05",
+     "type": "REELS",
+     "likes": 68,
+     "comments": 567,
+     "hashtags": [
+      "클로드코드",
+      "코덱스",
+      "챗GPT",
+      "AI자동화",
+      "무료AI"
+     ],
+     "n_tags": 5,
+     "comment_kw": "무료",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 299,
+     "x": 2.37
+    },
+    {
+     "t": "2026-10-16 07:22",
+     "type": "REELS",
+     "likes": 137,
+     "comments": 997,
+     "hashtags": [
+      "인스타자동화",
+      "클로드",
+      "클로드스킬",
+      "릴스대본",
+      "마케팅자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "세팅",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 612,
+     "x": 4.2
+    },
+    {
+     "t": "2026-10-15 19:03",
+     "type": "REELS",
+     "likes": 14,
+     "comments": 141,
+     "hashtags": [
+      "AI영상",
+      "숏폼",
+      "릴스",
+      "오픈소스",
+      "AI에이전트"
+     ],
+     "n_tags": 5,
+     "comment_kw": "복제",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 619,
+     "x": 0.59
+    },
+    {
+     "t": "2026-10-15 07:25",
+     "type": "REELS",
+     "likes": 36,
+     "comments": 77,
+     "hashtags": [
+      "맥앱",
+      "맥북꿀팁",
+      "파일검색",
+      "AI툴",
+      "생산성"
+     ],
+     "n_tags": 5,
+     "comment_kw": "검색",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 746,
+     "x": 0.36
+    },
+    {
+     "t": "2026-10-14 19:02",
+     "type": "REELS",
+     "likes": 678,
+     "comments": 2767,
+     "hashtags": [
+      "클로드",
+      "AI마케팅",
+      "마케팅자동화",
+      "클로드커넥터",
+      "메타광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": "연결",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 348,
+     "x": 12.05
+    },
+    {
+     "t": "2026-10-14 16:15",
+     "type": "FEED",
+     "likes": 36,
+     "comments": 1,
+     "hashtags": [
+      "AI툴",
+      "생산성앱",
+      "레이캐스트",
+      "옵시디언",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Obsidian"
+     ],
+     "cap_len": 1025,
+     "x": 0.05
+    },
+    {
+     "t": "2026-10-14 07:30",
+     "type": "FEED",
+     "likes": 630,
+     "comments": 721,
+     "hashtags": [
+      "REA",
+      "리버스엔지니어링",
+      "AI도구",
+      "클로드코드",
+      "오픈소스"
+     ],
+     "n_tags": 5,
+     "comment_kw": "분해",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 962,
+     "x": 3.75
+    },
+    {
+     "t": "2026-10-13 19:00",
+     "type": "REELS",
+     "likes": 915,
+     "comments": 2658,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "클로드사용법",
+      "AI활용법",
+      "챗GPT"
+     ],
+     "n_tags": 5,
+     "comment_kw": "세팅",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 670,
+     "x": 11.93
+    },
+    {
+     "t": "2026-10-13 07:30",
+     "type": "REELS",
+     "likes": 263,
+     "comments": 1070,
+     "hashtags": [
+      "클로드",
+      "ClaudeCode",
+      "AI활용",
+      "프롬프트",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "대결",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 681,
+     "x": 4.66
+    },
+    {
+     "t": "2026-10-12 22:10",
+     "type": "REELS",
+     "likes": 5,
+     "comments": 100,
+     "hashtags": [
+      "네이버카페",
+      "네이버카페마케팅",
+      "클로드",
+      "챗GPT",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "카페",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 647,
+     "x": 0.41
+    },
+    {
+     "t": "2026-10-12 20:10",
+     "type": "REELS",
+     "likes": 609,
+     "comments": 5946,
+     "hashtags": [
+      "네이버블로그",
+      "블로그자동화",
+      "클로드",
+      "클로드코드",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "블로그",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 551,
+     "x": 24.76
+    },
+    {
+     "t": "2026-10-12 17:00",
+     "type": "FEED",
+     "likes": 41,
+     "comments": 333,
+     "hashtags": [
+      "릴스후킹",
+      "릴스",
+      "콘텐츠마케팅",
+      "인스타그램마케팅",
+      "챗GPT"
+     ],
+     "n_tags": 5,
+     "comment_kw": "후킹",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 596,
+     "x": 1.4
+    },
+    {
+     "t": "2026-10-11 19:01",
+     "type": "REELS",
+     "likes": 22,
+     "comments": 230,
+     "hashtags": [
+      "ChatGPT",
+      "클로드",
+      "Codex",
+      "ClaudeCode",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 399,
+     "x": 0.96
+    },
+    {
+     "t": "2026-10-11 09:30",
+     "type": "REELS",
+     "likes": 30,
+     "comments": 164,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 155,
+     "x": 0.7
+    },
+    {
+     "t": "2026-10-10 15:00",
+     "type": "REELS",
+     "likes": 139,
+     "comments": 680,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "클로드코드",
+      "모션그래픽",
+      "AI활용법"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 585,
+     "x": 2.92
+    },
+    {
+     "t": "2026-10-10 14:00",
+     "type": "FEED",
+     "likes": 29,
+     "comments": 279,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 231,
+     "x": 1.16
+    },
+    {
+     "t": "2026-10-10 09:00",
+     "type": "FEED",
+     "likes": 173,
+     "comments": 359,
+     "hashtags": [
+      "AI",
+      "무료AI",
+      "AI꿀팁",
+      "크레딧",
+      "1인개발",
+      "사이드프로젝트",
+      "스타트업"
+     ],
+     "n_tags": 7,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Gemini",
+      "Notion"
+     ],
+     "cap_len": 501,
+     "x": 1.68
+    },
+    {
+     "t": "2026-10-09 19:11",
+     "type": "REELS",
+     "likes": 27,
+     "comments": 79,
+     "hashtags": [
+      "광고",
+      "AI",
+      "챗GPT",
+      "클로드",
+      "클로바노트",
+      "힉스필드",
+      "AI툴",
+      "AI추천",
+      "생성형AI"
+     ],
+     "n_tags": 9,
+     "comment_kw": "AI",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "NotebookLM",
+      "Perplexity",
+      "Higgsfield",
+      "PPT"
+     ],
+     "cap_len": 499,
+     "x": 0.35
+    },
+    {
+     "t": "2026-10-09 07:10",
+     "type": "FEED",
+     "likes": 16,
+     "comments": 2,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini",
+      "Nano Banana"
+     ],
+     "cap_len": 740,
+     "x": 0.03
+    },
+    {
+     "t": "2026-10-08 19:05",
+     "type": "REELS",
+     "likes": 101,
+     "comments": 997,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "챗GPT",
+      "ChatGPT",
+      "릴스분석",
+      "인스타그램마케팅",
+      "AI꿀팁"
+     ],
+     "n_tags": 7,
+     "comment_kw": "아무거나",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 392,
+     "x": 4.15
+    },
+    {
+     "t": "2026-10-08 12:00",
+     "type": "FEED",
+     "likes": 28,
+     "comments": 250,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 373,
+     "x": 1.04
+    },
+    {
+     "t": "2026-10-08 07:07",
+     "type": "REELS",
+     "likes": 10,
+     "comments": 94,
+     "hashtags": [
+      "AI인플루언서",
+      "AI영상",
+      "힉스필드",
+      "Higgsfield",
+      "챗GPT",
+      "AI꿀팁",
+      "릴스"
+     ],
+     "n_tags": 7,
+     "comment_kw": "아무거나",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 466,
+     "x": 0.39
+    },
+    {
+     "t": "2026-10-07 19:04",
+     "type": "REELS",
+     "likes": 29,
+     "comments": 447,
+     "hashtags": [
+      "챗GPT",
+      "ChatGPT",
+      "Claude",
+      "네이버검색",
+      "AI꿀팁",
+      "챗GPT활용법",
+      "업무자동화"
+     ],
+     "n_tags": 7,
+     "comment_kw": "아무거나",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 309,
+     "x": 1.84
+    },
+    {
+     "t": "2026-10-07 07:08",
+     "type": "REELS",
+     "likes": 4,
+     "comments": 27,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "웹디자인",
+      "AI웹사이트",
+      "바이브코딩"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 425,
+     "x": 0.11
+    },
+    {
+     "t": "2026-10-06 19:07",
+     "type": "REELS",
+     "likes": 143,
+     "comments": 813,
+     "hashtags": [
+      "SEO",
+      "구글검색",
+      "AI툴",
+      "마케팅자동화",
+      "오픈소스"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 503,
+     "x": 3.47
+    },
+    {
+     "t": "2026-10-06 07:00",
+     "type": "REELS",
+     "likes": 7,
+     "comments": 92,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "모션그래픽",
+      "AI영상",
+      "프롬프트"
+     ],
+     "n_tags": 5,
+     "comment_kw": "아무거나",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 392,
+     "x": 0.38
+    }
+   ]
+  },
+  "sebia.ai": {
+   "followers": 60548,
+   "rows": [
+    {
+     "t": "2026-11-13 10:16",
+     "type": "FEED",
+     "likes": 5,
+     "comments": 9,
+     "hashtags": [
+      "클로드",
+      "클로드모델",
+      "오퍼스",
+      "AI활용",
+      "AI팁"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 445,
+     "x": 0.07
+    },
+    {
+     "t": "2026-11-12 11:40",
+     "type": "REELS",
+     "likes": 24,
+     "comments": 44,
+     "hashtags": [
+      "AI자동화",
+      "AI크리에이터",
+      "클로드",
+      "SNS수익화"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 373,
+     "x": 0.35
+    },
+    {
+     "t": "2026-11-11 16:18",
+     "type": "REELS",
+     "likes": 29,
+     "comments": 57,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "클로드",
+      "영상편집",
+      "제작지원"
+     ],
+     "n_tags": 5,
+     "comment_kw": "미라클",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 671,
+     "x": 0.45
+    },
+    {
+     "t": "2026-11-11 11:22",
+     "type": "REELS",
+     "likes": 20,
+     "comments": 35,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "클로드",
+      "제작지원"
+     ],
+     "n_tags": 4,
+     "comment_kw": "레이싱",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 523,
+     "x": 0.28
+    },
+    {
+     "t": "2026-11-10 15:20",
+     "type": "FEED",
+     "likes": 449,
+     "comments": 3047,
+     "hashtags": [
+      "클로드",
+      "claude",
+      "anthropic"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 592,
+     "x": 21.43
+    },
+    {
+     "t": "2026-11-10 12:04",
+     "type": "REELS",
+     "likes": 74,
+     "comments": 123,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "클로드",
+      "fable5",
+      "제작지원"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 634,
+     "x": 0.99
+    },
+    {
+     "t": "2026-11-09 11:58",
+     "type": "REELS",
+     "likes": 43,
+     "comments": 60,
+     "hashtags": [
+      "AI크리에이터",
+      "인스타성장",
+      "인스타수익화",
+      "무료특강",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 557,
+     "x": 0.5
+    },
+    {
+     "t": "2026-11-06 13:14",
+     "type": "REELS",
+     "likes": 127,
+     "comments": 454,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "Higgsfield",
+      "숏츠",
+      "제작지원"
+     ],
+     "n_tags": 5,
+     "comment_kw": "숏츠",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 546,
+     "x": 3.33
+    },
+    {
+     "t": "2026-11-05 13:16",
+     "type": "FEED",
+     "likes": 40,
+     "comments": 61,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "HiggsfieldMangaka",
+      "AI만화",
+      "제작지원"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 798,
+     "x": 0.5
+    },
+    {
+     "t": "2026-11-04 14:04",
+     "type": "REELS",
+     "likes": 54,
+     "comments": 103,
+     "hashtags": [
+      "미리캔버스",
+      "미리캔버스AI",
+      "AIPPT",
+      "광고"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "PPT"
+     ],
+     "cap_len": 618,
+     "x": 0.81
+    },
+    {
+     "t": "2026-11-03 10:19",
+     "type": "REELS",
+     "likes": 68,
+     "comments": 128,
+     "hashtags": [
+      "클로드",
+      "AI크리에이터",
+      "인스타성장"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 493,
+     "x": 1.01
+    },
+    {
+     "t": "2026-11-01 14:36",
+     "type": "REELS",
+     "likes": 88,
+     "comments": 261,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "클로드대시보드",
+      "dashboard"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 609,
+     "x": 1.95
+    },
+    {
+     "t": "2026-10-31 14:04",
+     "type": "REELS",
+     "likes": 69,
+     "comments": 154,
+     "hashtags": [
+      "AI크리에이터",
+      "인스타성장",
+      "인스타수익화"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 442,
+     "x": 1.19
+    },
+    {
+     "t": "2026-10-30 12:13",
+     "type": "REELS",
+     "likes": 29,
+     "comments": 88,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "클로드",
+      "릴스편집",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 529,
+     "x": 0.65
+    },
+    {
+     "t": "2026-10-29 13:14",
+     "type": "REELS",
+     "likes": 37,
+     "comments": 15,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "클로드",
+      "AI에이전트",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 912,
+     "x": 0.18
+    },
+    {
+     "t": "2026-10-29 13:08",
+     "type": "REELS",
+     "likes": 18,
+     "comments": 0,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "클로드",
+      "AI활용",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 705,
+     "x": 0.04
+    },
+    {
+     "t": "2026-10-29 13:04",
+     "type": "REELS",
+     "likes": 3,
+     "comments": 1,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "AI자동화",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 726,
+     "x": 0.01
+    },
+    {
+     "t": "2026-10-28 10:52",
+     "type": "REELS",
+     "likes": 32,
+     "comments": 57,
+     "hashtags": [
+      "gamma",
+      "presentation",
+      "aitools",
+      "ppt",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": "감마",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 765,
+     "x": 0.45
+    },
+    {
+     "t": "2026-10-27 08:37",
+     "type": "REELS",
+     "likes": 32,
+     "comments": 44,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "할로윈",
+      "ChatGPT",
+      "halloween"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 448,
+     "x": 0.37
+    },
+    {
+     "t": "2026-10-25 10:17",
+     "type": "REELS",
+     "likes": 83,
+     "comments": 373,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "힉스필드",
+      "콘텐츠팩토리"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 686,
+     "x": 2.69
+    },
+    {
+     "t": "2026-10-24 11:59",
+     "type": "REELS",
+     "likes": 84,
+     "comments": 207,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "클로드",
+      "AI자동화"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 953,
+     "x": 1.58
+    },
+    {
+     "t": "2026-10-22 15:21",
+     "type": "REELS",
+     "likes": 55,
+     "comments": 68,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "AI영상",
+      "힉스필드",
+      "Higgsfield"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield",
+      "Kling"
+     ],
+     "cap_len": 557,
+     "x": 0.58
+    },
+    {
+     "t": "2026-10-22 09:56",
+     "type": "REELS",
+     "likes": 397,
+     "comments": 782,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "higgsfield",
+      "wan3",
+      "이커머스"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 779,
+     "x": 6.13
+    },
+    {
+     "t": "2026-10-20 10:46",
+     "type": "FEED",
+     "likes": 166,
+     "comments": 599,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "광고"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Perplexity",
+      "Higgsfield",
+      "Notion",
+      "Canva"
+     ],
+     "cap_len": 588,
+     "x": 4.39
+    },
+    {
+     "t": "2026-10-19 11:48",
+     "type": "REELS",
+     "likes": 669,
+     "comments": 3562,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "클로드",
+      "AI에이전트",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 910,
+     "x": 25.37
+    },
+    {
+     "t": "2026-10-19 00:10",
+     "type": "REELS",
+     "likes": 66,
+     "comments": 86,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "클로드사용법",
+      "AI활용",
+      "AI툴"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 634,
+     "x": 0.72
+    },
+    {
+     "t": "2026-10-18 12:37",
+     "type": "REELS",
+     "likes": 514,
+     "comments": 1994,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "클로드사용법",
+      "AI활용",
+      "AI툴"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 635,
+     "x": 14.52
+    },
+    {
+     "t": "2026-10-15 12:13",
+     "type": "REELS",
+     "likes": 25,
+     "comments": 66,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "광고"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 667,
+     "x": 0.5
+    },
+    {
+     "t": "2026-10-14 12:24",
+     "type": "REELS",
+     "likes": 10,
+     "comments": 0,
+     "hashtags": [
+      "클로드코드",
+      "claudecode",
+      "서브에이전트",
+      "anthropic",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 851,
+     "x": 0.02
+    },
+    {
+     "t": "2026-10-14 12:08",
+     "type": "REELS",
+     "likes": 66,
+     "comments": 167,
+     "hashtags": [
+      "클로드코드",
+      "claudecode",
+      "서브에이전트",
+      "anthropic",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 851,
+     "x": 1.27
+    },
+    {
+     "t": "2026-10-10 16:45",
+     "type": "FEED",
+     "likes": 171,
+     "comments": 1129,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "클로드코드",
+      "AI에이전트",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 639,
+     "x": 7.95
+    },
+    {
+     "t": "2026-10-08 11:46",
+     "type": "FEED",
+     "likes": 353,
+     "comments": 1952,
+     "hashtags": [
+      "ChatGPT",
+      "챗GPT",
+      "openai",
+      "AI비서",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 628,
+     "x": 13.87
+    },
+    {
+     "t": "2026-10-07 11:38",
+     "type": "FEED",
+     "likes": 70,
+     "comments": 152,
+     "hashtags": [
+      "클로드코드",
+      "앤트로픽",
+      "AI자동화",
+      "클로드사용법",
+      "AI툴"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 541,
+     "x": 1.18
+    },
+    {
+     "t": "2026-10-05 17:06",
+     "type": "REELS",
+     "likes": 11,
+     "comments": 5,
+     "hashtags": [
+      "클로드코드",
+      "코덱스",
+      "ClaudeCode",
+      "Codex",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 807,
+     "x": 0.06
+    },
+    {
+     "t": "2026-10-05 14:01",
+     "type": "REELS",
+     "likes": 18,
+     "comments": 12,
+     "hashtags": [
+      "클로드코드",
+      "클로드",
+      "claudecode",
+      "claude",
+      "anthropic"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 926,
+     "x": 0.12
+    },
+    {
+     "t": "2026-10-05 12:13",
+     "type": "REELS",
+     "likes": 825,
+     "comments": 4842,
+     "hashtags": [
+      "클로드코드",
+      "코덱스",
+      "ClaudeCode",
+      "Codex",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 807,
+     "x": 34.3
+    },
+    {
+     "t": "2026-10-02 11:35",
+     "type": "REELS",
+     "likes": 53,
+     "comments": 45,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "챗GPT",
+      "AI애니메이션",
+      "Genjutsu",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 552,
+     "x": 0.42
+    },
+    {
+     "t": "2026-10-01 13:33",
+     "type": "FEED",
+     "likes": 41,
+     "comments": 91,
+     "hashtags": [
+      "메타ai",
+      "뮤즈",
+      "museai",
+      "인스타그램",
+      "instagram"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 521,
+     "x": 0.7
+    },
+    {
+     "t": "2026-09-29 19:24",
+     "type": "FEED",
+     "likes": 66,
+     "comments": 191,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "챗지피티플러그인",
+      "AI영상제작"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield",
+      "PPT"
+     ],
+     "cap_len": 553,
+     "x": 1.43
+    },
+    {
+     "t": "2026-09-29 12:49",
+     "type": "REELS",
+     "likes": 185,
+     "comments": 801,
+     "hashtags": [
+      "챗지피티",
+      "앱샷",
+      "chatgpt",
+      "gpt",
+      "appshot"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 762,
+     "x": 5.78
+    },
+    {
+     "t": "2026-09-28 11:38",
+     "type": "FEED",
+     "likes": 152,
+     "comments": 929,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "GPT6Astra",
+      "AI앱만들기",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 637,
+     "x": 6.57
+    },
+    {
+     "t": "2026-09-24 13:17",
+     "type": "FEED",
+     "likes": 421,
+     "comments": 1701,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "GPT6Astra",
+      "상품사진",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": "API",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 829,
+     "x": 12.34
+    },
+    {
+     "t": "2026-09-22 12:33",
+     "type": "REELS",
+     "likes": 45,
+     "comments": 93,
+     "hashtags": [
+      "gamma",
+      "presentation",
+      "aitools",
+      "광고"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 676,
+     "x": 0.72
+    },
+    {
+     "t": "2026-09-21 11:43",
+     "type": "FEED",
+     "likes": 60,
+     "comments": 114,
+     "hashtags": [
+      "Jev",
+      "AI모델",
+      "AI자동화",
+      "오픈AI",
+      "개발자툴"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 793,
+     "x": 0.9
+    },
+    {
+     "t": "2026-09-19 14:14",
+     "type": "REELS",
+     "likes": 51,
+     "comments": 89,
+     "hashtags": [
+      "광고",
+      "claude",
+      "chatgpt",
+      "mcp",
+      "바이브코딩"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 485,
+     "x": 0.71
+    },
+    {
+     "t": "2026-09-18 11:41",
+     "type": "FEED",
+     "likes": 476,
+     "comments": 2086,
+     "hashtags": [
+      "HiggsfieldPartner",
+      "힉스필드",
+      "GPT6Astra",
+      "광고"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield",
+      "Kling"
+     ],
+     "cap_len": 799,
+     "x": 15.05
+    },
+    {
+     "t": "2026-09-17 11:54",
+     "type": "REELS",
+     "likes": 112,
+     "comments": 358,
+     "hashtags": [
+      "클로드코드",
+      "claudecode",
+      "anthropic",
+      "git",
+      "클로드"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Cursor"
+     ],
+     "cap_len": 701,
+     "x": 2.65
+    },
+    {
+     "t": "2026-09-16 17:51",
+     "type": "FEED",
+     "likes": 791,
+     "comments": 1162,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "GPT6Astra",
+      "3D모델링"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 478,
+     "x": 9.56
+    },
+    {
+     "t": "2026-09-15 15:32",
+     "type": "REELS",
+     "likes": 66,
+     "comments": 138,
+     "hashtags": [
+      "FishAudio",
+      "FishAudioTurns1",
+      "AI더빙",
+      "보이스클로닝",
+      "광고"
+     ],
+     "n_tags": 5,
+     "comment_kw": "FISH",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 873,
+     "x": 1.07
+    },
+    {
+     "t": "2026-09-14 11:41",
+     "type": "FEED",
+     "likes": 204,
+     "comments": 400,
+     "hashtags": [
+      "HiggsfieldCreator",
+      "힉스필드",
+      "챗지피티플러그인",
+      "AI영상제작"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 815,
+     "x": 3.14
+    }
+   ]
+  },
+  "trenddalkak.ai": {
+   "followers": 66601,
+   "rows": [
+    {
+     "t": "2026-11-12 14:34",
+     "type": "FEED",
+     "likes": 122,
+     "comments": 169,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1165,
+     "x": 0.78
+    },
+    {
+     "t": "2026-11-11 19:19",
+     "type": "REELS",
+     "likes": 7,
+     "comments": 2,
+     "hashtags": [
+      "광고",
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "힉스필드"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 438,
+     "x": 0.02
+    },
+    {
+     "t": "2026-11-11 19:03",
+     "type": "REELS",
+     "likes": 217,
+     "comments": 239,
+     "hashtags": [
+      "광고",
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "Claude"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 399,
+     "x": 1.16
+    },
+    {
+     "t": "2026-11-11 10:59",
+     "type": "FEED",
+     "likes": 49,
+     "comments": 8,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 728,
+     "x": 0.09
+    },
+    {
+     "t": "2026-11-10 18:47",
+     "type": "FEED",
+     "likes": 28,
+     "comments": 7,
+     "hashtags": [
+      "광고",
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "Mangaka"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 495,
+     "x": 0.06
+    },
+    {
+     "t": "2026-11-10 12:53",
+     "type": "FEED",
+     "likes": 748,
+     "comments": 1445,
+     "hashtags": [
+      "제작지원",
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "Claude"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 509,
+     "x": 6.29
+    },
+    {
+     "t": "2026-11-06 21:16",
+     "type": "FEED",
+     "likes": 200,
+     "comments": 84,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 667,
+     "x": 0.56
+    },
+    {
+     "t": "2026-11-03 21:19",
+     "type": "FEED",
+     "likes": 154,
+     "comments": 72,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+     ],
+     "cap_len": 966,
+     "x": 0.46
+    },
+    {
+     "t": "2026-11-03 08:00",
+     "type": "REELS",
+     "likes": 205,
+     "comments": 103,
+     "hashtags": [
+      "Fable55",
+      "Claude",
+      "Anthropic",
+      "클로드"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 977,
+     "x": 0.64
+    },
+    {
+     "t": "2026-11-01 17:14",
+     "type": "REELS",
+     "likes": 20,
+     "comments": 2,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 501,
+     "x": 0.03
+    },
+    {
+     "t": "2026-10-31 18:17",
+     "type": "FEED",
+     "likes": 1241,
+     "comments": 992,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini"
+     ],
+     "cap_len": 983,
+     "x": 5.22
+    },
+    {
+     "t": "2026-10-29 15:18",
+     "type": "FEED",
+     "likes": 883,
+     "comments": 932,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 651,
+     "x": 4.55
+    },
+    {
+     "t": "2026-10-29 12:19",
+     "type": "REELS",
+     "likes": 37,
+     "comments": 36,
+     "hashtags": [
+      "광고",
+      "HiggsfieldCreator",
+      "Higgsfield",
+      "힉스필드"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 751,
+     "x": 0.18
+    },
+    {
+     "t": "2026-10-28 12:51",
+     "type": "FEED",
+     "likes": 218,
+     "comments": 40,
+     "hashtags": [
+      "햇반",
+      "햇반AI공모전",
+      "갓지은아이디어",
+      "광고",
+      "CJ제일제당"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1008,
+     "x": 0.42
+    },
+    {
+     "t": "2026-10-27 16:13",
+     "type": "FEED",
+     "likes": 375,
+     "comments": 97,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 1018,
+     "x": 0.82
+    },
+    {
+     "t": "2026-10-26 18:57",
+     "type": "FEED",
+     "likes": 278,
+     "comments": 5,
+     "hashtags": [
+      "광고",
+      "제작지원"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 811,
+     "x": 0.36
+    },
+    {
+     "t": "2026-10-26 17:03",
+     "type": "REELS",
+     "likes": 56,
+     "comments": 59,
+     "hashtags": [
+      "제작지원",
+      "광고",
+      "HiggsfieldCreator",
+      "Higgsfield"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 562,
+     "x": 0.29
+    },
+    {
+     "t": "2026-10-23 18:17",
+     "type": "FEED",
+     "likes": 546,
+     "comments": 232,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Notion",
+      "PPT"
+     ],
+     "cap_len": 883,
+     "x": 1.54
+    },
+    {
+     "t": "2026-10-22 18:35",
+     "type": "FEED",
+     "likes": 78,
+     "comments": 108,
+     "hashtags": [
+      "제작지원",
+      "higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 676,
+     "x": 0.5
+    },
+    {
+     "t": "2026-10-21 21:56",
+     "type": "FEED",
+     "likes": 250,
+     "comments": 291,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini",
+      "NotebookLM",
+      "PPT"
+     ],
+     "cap_len": 733,
+     "x": 1.39
+    },
+    {
+     "t": "2026-10-20 18:33",
+     "type": "FEED",
+     "likes": 779,
+     "comments": 955,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 471,
+     "x": 4.51
+    },
+    {
+     "t": "2026-10-16 18:20",
+     "type": "REELS",
+     "likes": 409,
+     "comments": 521,
+     "hashtags": [
+      "제작지원",
+      "광고"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 711,
+     "x": 2.44
+    },
+    {
+     "t": "2026-10-15 18:38",
+     "type": "FEED",
+     "likes": 69,
+     "comments": 7,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Midjourney"
+     ],
+     "cap_len": 823,
+     "x": 0.11
+    },
+    {
+     "t": "2026-10-14 20:28",
+     "type": "FEED",
+     "likes": 685,
+     "comments": 311,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini",
+      "Antigravity"
+     ],
+     "cap_len": 599,
+     "x": 2.0
+    },
+    {
+     "t": "2026-10-14 11:10",
+     "type": "FEED",
+     "likes": 76,
+     "comments": 3,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 510,
+     "x": 0.11
+    },
+    {
+     "t": "2026-10-14 10:10",
+     "type": "REELS",
+     "likes": 175,
+     "comments": 18,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Gemini"
+     ],
+     "cap_len": 619,
+     "x": 0.28
+    },
+    {
+     "t": "2026-10-13 19:17",
+     "type": "REELS",
+     "likes": 554,
+     "comments": 28,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 227,
+     "x": 0.79
+    },
+    {
+     "t": "2026-10-12 21:04",
+     "type": "FEED",
+     "likes": 892,
+     "comments": 2088,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 605,
+     "x": 8.86
+    },
+    {
+     "t": "2026-10-12 19:14",
+     "type": "REELS",
+     "likes": 647,
+     "comments": 22,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 225,
+     "x": 0.88
+    },
+    {
+     "t": "2026-10-07 10:58",
+     "type": "REELS",
+     "likes": 2759,
+     "comments": 106,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 300,
+     "x": 3.81
+    },
+    {
+     "t": "2026-10-06 17:31",
+     "type": "FEED",
+     "likes": 378,
+     "comments": 175,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 514,
+     "x": 1.12
+    },
+    {
+     "t": "2026-10-05 12:57",
+     "type": "REELS",
+     "likes": 71,
+     "comments": 58,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 641,
+     "x": 0.3
+    },
+    {
+     "t": "2026-10-01 18:24",
+     "type": "FEED",
+     "likes": 447,
+     "comments": 336,
+     "hashtags": [
+      "제작지원",
+      "광고"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Notion"
+     ],
+     "cap_len": 635,
+     "x": 1.8
+    },
+    {
+     "t": "2026-10-01 12:27",
+     "type": "FEED",
+     "likes": 692,
+     "comments": 664,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 760,
+     "x": 3.32
+    },
+    {
+     "t": "2026-09-29 18:33",
+     "type": "REELS",
+     "likes": 3874,
+     "comments": 199,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 468,
+     "x": 5.53
+    },
+    {
+     "t": "2026-09-28 20:43",
+     "type": "FEED",
+     "likes": 137,
+     "comments": 432,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 356,
+     "x": 1.77
+    },
+    {
+     "t": "2026-09-24 14:54",
+     "type": "FEED",
+     "likes": 577,
+     "comments": 756,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 641,
+     "x": 3.52
+    },
+    {
+     "t": "2026-09-23 18:54",
+     "type": "FEED",
+     "likes": 294,
+     "comments": 5,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 624,
+     "x": 0.38
+    },
+    {
+     "t": "2026-09-23 12:54",
+     "type": "FEED",
+     "likes": 247,
+     "comments": 87,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 587,
+     "x": 0.63
+    },
+    {
+     "t": "2026-09-22 20:11",
+     "type": "FEED",
+     "likes": 3134,
+     "comments": 3165,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Notion"
+     ],
+     "cap_len": 673,
+     "x": 15.63
+    },
+    {
+     "t": "2026-09-21 18:46",
+     "type": "REELS",
+     "likes": 1433,
+     "comments": 45,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Midjourney",
+      "Kling"
+     ],
+     "cap_len": 763,
+     "x": 1.94
+    },
+    {
+     "t": "2026-09-21 17:45",
+     "type": "FEED",
+     "likes": 2146,
+     "comments": 1809,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 577,
+     "x": 9.37
+    },
+    {
+     "t": "2026-09-17 17:40",
+     "type": "FEED",
+     "likes": 974,
+     "comments": 985,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 619,
+     "x": 4.86
+    },
+    {
+     "t": "2026-09-16 11:49",
+     "type": "FEED",
+     "likes": 635,
+     "comments": 1389,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 342,
+     "x": 5.94
+    },
+    {
+     "t": "2026-09-15 18:19",
+     "type": "FEED",
+     "likes": 411,
+     "comments": 838,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Notion"
+     ],
+     "cap_len": 574,
+     "x": 3.62
+    },
+    {
+     "t": "2026-09-15 11:08",
+     "type": "FEED",
+     "likes": 649,
+     "comments": 181,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 567,
+     "x": 1.48
+    },
+    {
+     "t": "2026-09-14 11:52",
+     "type": "REELS",
+     "likes": 166,
+     "comments": 115,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 610,
+     "x": 0.63
+    },
+    {
+     "t": "2026-09-11 18:08",
+     "type": "FEED",
+     "likes": 1003,
+     "comments": 1231,
+     "hashtags": [
+      "제작지원"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 789,
+     "x": 5.81
+    },
+    {
+     "t": "2026-09-11 16:02",
+     "type": "REELS",
+     "likes": 108,
+     "comments": 3,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 685,
+     "x": 0.14
+    },
+    {
+     "t": "2026-09-10 17:04",
+     "type": "REELS",
+     "likes": 146,
+     "comments": 2,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 546,
+     "x": 0.19
+    }
+   ]
+  },
+  "grappt_": {
+   "followers": 121572,
+   "rows": [
+    {
+     "t": "2026-11-13 01:39",
+     "type": "REELS",
+     "likes": 667,
+     "comments": 2562,
+     "hashtags": [
+      "클로드",
+      "클로드스킬",
+      "claude",
+      "findskills",
+      "claude"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 468,
+     "x": 0.79
+    },
+    {
+     "t": "2026-10-30 19:10",
+     "type": "REELS",
+     "likes": 129,
+     "comments": 361,
+     "hashtags": [
+      "CapCutPC",
+      "제작지원",
+      "CapCutKR2026",
+      "CapCutDidThat",
+      "capcutmarketing"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 380,
+     "x": 0.11
+    },
+    {
+     "t": "2026-10-26 19:09",
+     "type": "REELS",
+     "likes": 10016,
+     "comments": 20302,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 396,
+     "x": 6.72
+    },
+    {
+     "t": "2026-10-16 17:50",
+     "type": "REELS",
+     "likes": 6739,
+     "comments": 16603,
+     "hashtags": [
+      "클로드",
+      "claude",
+      "토큰절약"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Excel",
+      "PPT"
+     ],
+     "cap_len": 341,
+     "x": 5.36
+    },
+    {
+     "t": "2026-10-07 21:19",
+     "type": "REELS",
+     "likes": 4817,
+     "comments": 5380,
+     "hashtags": [
+      "ChatGPT",
+      "GPT",
+      "챗지피티",
+      "GPT이미지"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 416,
+     "x": 1.99
+    },
+    {
+     "t": "2026-10-01 23:15",
+     "type": "REELS",
+     "likes": 10063,
+     "comments": 34504,
+     "hashtags": [
+      "ChatGPT",
+      "GPT",
+      "챗지피티",
+      "GPT이미지"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 429,
+     "x": 10.77
+    },
+    {
+     "t": "2026-09-22 20:32",
+     "type": "REELS",
+     "likes": 905,
+     "comments": 5728,
+     "hashtags": [
+      "AIPPT",
+      "PPT",
+      "AI"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 337,
+     "x": 1.72
+    },
+    {
+     "t": "2026-09-15 20:57",
+     "type": "FEED",
+     "likes": 304,
+     "comments": 1757,
+     "hashtags": [
+      "AI",
+      "AI글쓰기"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 360,
+     "x": 0.53
+    },
+    {
+     "t": "2026-08-31 18:16",
+     "type": "FEED",
+     "likes": 280,
+     "comments": 746,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Gemini",
+      "PPT"
+     ],
+     "cap_len": 356,
+     "x": 0.24
+    },
+    {
+     "t": "2026-08-21 19:47",
+     "type": "REELS",
+     "likes": 15229,
+     "comments": 28528,
+     "hashtags": [
+      "클로드",
+      "claude"
+     ],
+     "n_tags": 2,
+     "comment_kw": "클로드",
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 641,
+     "x": 9.56
+    },
+    {
+     "t": "2026-08-15 11:41",
+     "type": "FEED",
+     "likes": 2855,
+     "comments": 8478,
+     "hashtags": [
+      "클로드",
+      "claude"
+     ],
+     "n_tags": 2,
+     "comment_kw": "설치",
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 526,
+     "x": 2.68
+    },
+    {
+     "t": "2026-08-12 20:33",
+     "type": "REELS",
+     "likes": 2071,
+     "comments": 6490,
+     "hashtags": [
+      "제작지원",
+      "힉스필드",
+      "Higgsfield",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": "플러그인",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 478,
+     "x": 2.04
+    },
+    {
+     "t": "2026-08-06 17:52",
+     "type": "FEED",
+     "likes": 2453,
+     "comments": 4695,
+     "hashtags": [
+      "챗GPT",
+      "ChatGPT"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "PPT"
+     ],
+     "cap_len": 405,
+     "x": 1.57
+    },
+    {
+     "t": "2026-08-02 16:16",
+     "type": "REELS",
+     "likes": 3388,
+     "comments": 9558,
+     "hashtags": [
+      "클로드",
+      "claude"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 461,
+     "x": 3.04
+    },
+    {
+     "t": "2026-07-29 17:57",
+     "type": "FEED",
+     "likes": 625,
+     "comments": 2318,
+     "hashtags": [
+      "클로드",
+      "코워크",
+      "ClaudeCowork"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 549,
+     "x": 0.72
+    },
+    {
+     "t": "2026-07-25 12:18",
+     "type": "REELS",
+     "likes": 26671,
+     "comments": 74805,
+     "hashtags": [
+      "ChatGPT",
+      "챗지피티"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "PPT"
+     ],
+     "cap_len": 387,
+     "x": 23.81
+    },
+    {
+     "t": "2026-07-21 17:51",
+     "type": "REELS",
+     "likes": 994,
+     "comments": 10033,
+     "hashtags": [
+      "클로드",
+      "fable5",
+      "claude"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 457,
+     "x": 2.95
+    },
+    {
+     "t": "2026-07-17 19:00",
+     "type": "FEED",
+     "likes": 355,
+     "comments": 1254,
+     "hashtags": [
+      "ai"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 357,
+     "x": 0.39
+    },
+    {
+     "t": "2026-07-14 18:24",
+     "type": "REELS",
+     "likes": 323,
+     "comments": 1586,
+     "hashtags": [
+      "PPT",
+      "클로드"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 526,
+     "x": 0.48
+    },
+    {
+     "t": "2026-07-11 10:52",
+     "type": "FEED",
+     "likes": 1293,
+     "comments": 3816,
+     "hashtags": [
+      "엔비디아",
+      "무료AI",
+      "AI툴"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 464,
+     "x": 1.21
+    },
+    {
+     "t": "2026-07-08 20:52",
+     "type": "FEED",
+     "likes": 1637,
+     "comments": 10371,
+     "hashtags": [
+      "클로드",
+      "Fable5"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 313,
+     "x": 3.11
+    },
+    {
+     "t": "2026-07-06 16:22",
+     "type": "FEED",
+     "likes": 3996,
+     "comments": 4123,
+     "hashtags": [
+      "AI툴"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 301,
+     "x": 1.55
+    },
+    {
+     "t": "2026-06-29 17:33",
+     "type": "REELS",
+     "likes": 132,
+     "comments": 527,
+     "hashtags": [
+      "PPT",
+      "노트북LM",
+      "캔바"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "NotebookLM",
+      "Canva",
+      "PPT"
+     ],
+     "cap_len": 383,
+     "x": 0.16
+    },
+    {
+     "t": "2026-06-25 17:55",
+     "type": "FEED",
+     "likes": 4013,
+     "comments": 10715,
+     "hashtags": [
+      "클로드",
+      "클로드스킬",
+      "claude"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 487,
+     "x": 3.43
+    },
+    {
+     "t": "2026-06-23 13:41",
+     "type": "REELS",
+     "likes": 221,
+     "comments": 1008,
+     "hashtags": [
+      "PPT",
+      "노트북LM",
+      "NotebookLM",
+      "PPT제작"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "NotebookLM",
+      "PPT"
+     ],
+     "cap_len": 527,
+     "x": 0.31
+    },
+    {
+     "t": "2026-06-22 17:11",
+     "type": "FEED",
+     "likes": 771,
+     "comments": 2332,
+     "hashtags": [
+      "클로드",
+      "claude"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 403,
+     "x": 0.74
+    },
+    {
+     "t": "2026-06-19 17:19",
+     "type": "REELS",
+     "likes": 439,
+     "comments": 1772,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "AI활용법"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 491,
+     "x": 0.55
+    },
+    {
+     "t": "2026-06-17 12:13",
+     "type": "FEED",
+     "likes": 82,
+     "comments": 669,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "claude",
+      "AI활용법"
+     ],
+     "n_tags": 4,
+     "comment_kw": "클로드코드",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 622,
+     "x": 0.2
+    },
+    {
+     "t": "2026-06-15 14:40",
+     "type": "FEED",
+     "likes": 1020,
+     "comments": 7110,
+     "hashtags": [
+      "claude",
+      "클로드",
+      "ai활용법"
+     ],
+     "n_tags": 3,
+     "comment_kw": "클로드",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion",
+      "PPT"
+     ],
+     "cap_len": 601,
+     "x": 2.12
+    },
+    {
+     "t": "2026-06-12 17:24",
+     "type": "REELS",
+     "likes": 44,
+     "comments": 6,
+     "hashtags": [
+      "디자이너",
+      "디자이너공감"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 111,
+     "x": 0.01
+    },
+    {
+     "t": "2026-06-09 18:08",
+     "type": "REELS",
+     "likes": 250,
+     "comments": 434,
+     "hashtags": [
+      "AI추천",
+      "AI사이트",
+      "AI툴"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 476,
+     "x": 0.15
+    },
+    {
+     "t": "2026-06-05 19:15",
+     "type": "REELS",
+     "likes": 129,
+     "comments": 2380,
+     "hashtags": [
+      "사주",
+      "AI사주",
+      "제미나이",
+      "만세력",
+      "무료사주"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini"
+     ],
+     "cap_len": 246,
+     "x": 0.69
+    },
+    {
+     "t": "2026-05-28 17:23",
+     "type": "REELS",
+     "likes": 215,
+     "comments": 1469,
+     "hashtags": [
+      "클로드",
+      "프롬프트",
+      "AI글쓰기",
+      "claude",
+      "AI활용법"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 501,
+     "x": 0.44
+    },
+    {
+     "t": "2026-05-25 21:03",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 11615,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "claude"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 415,
+     "x": 3.3
+    },
+    {
+     "t": "2026-05-21 18:05",
+     "type": "REELS",
+     "likes": 6058,
+     "comments": 15239,
+     "hashtags": [
+      "클로드",
+      "ChatGPT",
+      "AI활용법",
+      "생산성",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "클로드",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "PPT"
+     ],
+     "cap_len": 444,
+     "x": 4.91
+    },
+    {
+     "t": "2026-05-18 17:40",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 319,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Nano Banana"
+     ],
+     "cap_len": 268,
+     "x": 0.09
+    },
+    {
+     "t": "2026-05-12 12:05",
+     "type": "REELS",
+     "likes": 1727,
+     "comments": 1290,
+     "hashtags": [
+      "폰트",
+      "폰트추천",
+      "한글폰트",
+      "무료폰트",
+      "ppt폰트"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 465,
+     "x": 0.53
+    },
+    {
+     "t": "2026-05-08 20:23",
+     "type": "REELS",
+     "likes": 1789,
+     "comments": 8896,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "PPT",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 391,
+     "x": 2.7
+    },
+    {
+     "t": "2026-05-05 20:21",
+     "type": "FEED",
+     "likes": 52,
+     "comments": 18,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 540,
+     "x": 0.01
+    },
+    {
+     "t": "2026-05-04 00:06",
+     "type": "REELS",
+     "likes": 94,
+     "comments": 233,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "팁",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "PPT"
+     ],
+     "cap_len": 457,
+     "x": 0.08
+    }
+   ]
+  },
+  "ai_newpd": {
+   "followers": 120552,
+   "rows": [
+    {
+     "t": "2026-11-13 09:49",
+     "type": "FEED",
+     "likes": 3,
+     "comments": 5,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "Seedream55"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Higgsfield"
+     ],
+     "cap_len": 953,
+     "x": 0.03
+    },
+    {
+     "t": "2026-11-12 18:39",
+     "type": "FEED",
+     "likes": 259,
+     "comments": 735,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 703,
+     "x": 4.4
+    },
+    {
+     "t": "2026-11-11 20:00",
+     "type": "REELS",
+     "likes": 25,
+     "comments": 10,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "AI게임제작"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 1068,
+     "x": 0.1
+    },
+    {
+     "t": "2026-11-11 12:42",
+     "type": "FEED",
+     "likes": 56,
+     "comments": 101,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 689,
+     "x": 0.64
+    },
+    {
+     "t": "2026-11-10 20:44",
+     "type": "REELS",
+     "likes": 114,
+     "comments": 225,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "AI영상생성"
+     ],
+     "n_tags": 4,
+     "comment_kw": "페이블",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Nano Banana",
+      "Higgsfield"
+     ],
+     "cap_len": 901,
+     "x": 1.41
+    },
+    {
+     "t": "2026-11-10 12:40",
+     "type": "FEED",
+     "likes": 0,
+     "comments": 17,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 757,
+     "x": 0.09
+    },
+    {
+     "t": "2026-11-10 09:07",
+     "type": "FEED",
+     "likes": 49,
+     "comments": 54,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "미라클"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 779,
+     "x": 0.38
+    },
+    {
+     "t": "2026-11-09 17:20",
+     "type": "FEED",
+     "likes": 64,
+     "comments": 39,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 522,
+     "x": 0.32
+    },
+    {
+     "t": "2026-11-07 22:03",
+     "type": "FEED",
+     "likes": 248,
+     "comments": 823,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 714,
+     "x": 4.85
+    },
+    {
+     "t": "2026-11-06 19:33",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 8,
+     "hashtags": [
+      "광고",
+      "MeshyAI",
+      "Meshy7",
+      "meshykr",
+      "메쉬"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 966,
+     "x": 0.04
+    },
+    {
+     "t": "2026-11-06 17:26",
+     "type": "FEED",
+     "likes": 119,
+     "comments": 220,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 634,
+     "x": 1.39
+    },
+    {
+     "t": "2026-11-04 20:11",
+     "type": "FEED",
+     "likes": 115,
+     "comments": 103,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "HiggsfieldManga"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 642,
+     "x": 0.76
+    },
+    {
+     "t": "2026-11-04 17:05",
+     "type": "FEED",
+     "likes": 190,
+     "comments": 369,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 955,
+     "x": 2.32
+    },
+    {
+     "t": "2026-11-03 21:09",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 18,
+     "hashtags": [
+      "광고",
+      "FishAudio",
+      "Drama3",
+      "AI목소리",
+      "AI음성생성"
+     ],
+     "n_tags": 5,
+     "comment_kw": "피쉬",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 732,
+     "x": 0.1
+    },
+    {
+     "t": "2026-11-02 21:14",
+     "type": "FEED",
+     "likes": 134,
+     "comments": 503,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 601,
+     "x": 2.93
+    },
+    {
+     "t": "2026-11-01 19:24",
+     "type": "FEED",
+     "likes": 472,
+     "comments": 1034,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 542,
+     "x": 6.38
+    },
+    {
+     "t": "2026-10-31 14:47",
+     "type": "REELS",
+     "likes": 38,
+     "comments": 84,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "Claude",
+      "AI영상제작"
+     ],
+     "n_tags": 5,
+     "comment_kw": "나도",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 1003,
+     "x": 0.52
+    },
+    {
+     "t": "2026-10-30 21:50",
+     "type": "FEED",
+     "likes": 0,
+     "comments": 51,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "피그마",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 500,
+     "x": 0.27
+    },
+    {
+     "t": "2026-10-30 18:40",
+     "type": "FEED",
+     "likes": 104,
+     "comments": 140,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 721,
+     "x": 0.94
+    },
+    {
+     "t": "2026-10-29 23:39",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 30,
+     "hashtags": [
+      "광고",
+      "뉴테이크",
+      "Newtake",
+      "할로윈",
+      "Halloween"
+     ],
+     "n_tags": 5,
+     "comment_kw": "호박",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 811,
+     "x": 0.16
+    },
+    {
+     "t": "2026-10-29 12:56",
+     "type": "FEED",
+     "likes": 156,
+     "comments": 263,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 468,
+     "x": 1.69
+    },
+    {
+     "t": "2026-10-28 20:58",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 41,
+     "hashtags": [
+      "광고",
+      "Blender",
+      "AI영상",
+      "AI영상제작"
+     ],
+     "n_tags": 4,
+     "comment_kw": "블렌더",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 846,
+     "x": 0.22
+    },
+    {
+     "t": "2026-10-28 18:02",
+     "type": "FEED",
+     "likes": 370,
+     "comments": 734,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 898,
+     "x": 4.59
+    },
+    {
+     "t": "2026-10-27 12:45",
+     "type": "FEED",
+     "likes": 1411,
+     "comments": 2280,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 550,
+     "x": 14.73
+    },
+    {
+     "t": "2026-10-26 19:51",
+     "type": "FEED",
+     "likes": 23,
+     "comments": 0,
+     "hashtags": [
+      "광고",
+      "유토파이스튜디오",
+      "UtopaiStudios",
+      "UtopaiX"
+     ],
+     "n_tags": 4,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 539,
+     "x": 0.04
+    },
+    {
+     "t": "2026-10-26 02:29",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 4,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 400,
+     "x": 0.02
+    },
+    {
+     "t": "2026-10-25 18:45",
+     "type": "FEED",
+     "likes": 1704,
+     "comments": 2915,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 767,
+     "x": 18.66
+    },
+    {
+     "t": "2026-10-24 14:13",
+     "type": "FEED",
+     "likes": 173,
+     "comments": 174,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "키워드",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 995,
+     "x": 1.24
+    },
+    {
+     "t": "2026-10-23 18:21",
+     "type": "FEED",
+     "likes": 741,
+     "comments": 1532,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 644,
+     "x": 9.53
+    },
+    {
+     "t": "2026-10-22 20:44",
+     "type": "REELS",
+     "likes": 36,
+     "comments": 52,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "AI영상",
+      "Kling4"
+     ],
+     "n_tags": 5,
+     "comment_kw": "영상",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield",
+      "Kling"
+     ],
+     "cap_len": 831,
+     "x": 0.34
+    },
+    {
+     "t": "2026-10-22 12:47",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 16,
+     "hashtags": [
+      "광고",
+      "PolloAI",
+      "PolloRecast",
+      "AI영상"
+     ],
+     "n_tags": 4,
+     "comment_kw": "폴로",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 744,
+     "x": 0.09
+    },
+    {
+     "t": "2026-10-21 20:40",
+     "type": "REELS",
+     "likes": 78,
+     "comments": 240,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "Wan3"
+     ],
+     "n_tags": 4,
+     "comment_kw": "완",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 858,
+     "x": 1.43
+    },
+    {
+     "t": "2026-10-21 17:50",
+     "type": "FEED",
+     "likes": 3532,
+     "comments": 7101,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 681,
+     "x": 44.35
+    },
+    {
+     "t": "2026-10-20 16:48",
+     "type": "REELS",
+     "likes": 205,
+     "comments": 6,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 400,
+     "x": 0.4
+    },
+    {
+     "t": "2026-10-19 18:20",
+     "type": "FEED",
+     "likes": 562,
+     "comments": 543,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "바나나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Nano Banana"
+     ],
+     "cap_len": 549,
+     "x": 3.91
+    },
+    {
+     "t": "2026-10-18 12:42",
+     "type": "FEED",
+     "likes": 3755,
+     "comments": 6364,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 524,
+     "x": 40.8
+    },
+    {
+     "t": "2026-10-16 19:53",
+     "type": "REELS",
+     "likes": 122,
+     "comments": 302,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "Genjutsu"
+     ],
+     "n_tags": 4,
+     "comment_kw": "나도",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 754,
+     "x": 1.84
+    },
+    {
+     "t": "2026-10-16 12:38",
+     "type": "FEED",
+     "likes": 482,
+     "comments": 777,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 458,
+     "x": 5.02
+    },
+    {
+     "t": "2026-10-15 22:47",
+     "type": "REELS",
+     "likes": 515,
+     "comments": 27,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 902,
+     "x": 1.06
+    },
+    {
+     "t": "2026-10-15 12:57",
+     "type": "FEED",
+     "likes": 1417,
+     "comments": 2757,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 729,
+     "x": 17.3
+    },
+    {
+     "t": "2026-10-13 19:04",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 47,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": "나도",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Kling"
+     ],
+     "cap_len": 556,
+     "x": 0.25
+    },
+    {
+     "t": "2026-10-13 17:07",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 74,
+     "hashtags": [
+      "광고",
+      "flova",
+      "flovaai",
+      "비욘세",
+      "세일러문"
+     ],
+     "n_tags": 5,
+     "comment_kw": "변신",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 637,
+     "x": 0.4
+    },
+    {
+     "t": "2026-10-13 12:24",
+     "type": "FEED",
+     "likes": 414,
+     "comments": 824,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 648,
+     "x": 5.15
+    },
+    {
+     "t": "2026-10-12 20:47",
+     "type": "REELS",
+     "likes": 36,
+     "comments": 48,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator",
+      "HiggsfieldKatana"
+     ],
+     "n_tags": 4,
+     "comment_kw": "카타나",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 824,
+     "x": 0.32
+    },
+    {
+     "t": "2026-10-12 18:25",
+     "type": "FEED",
+     "likes": 2275,
+     "comments": 5806,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 809,
+     "x": 35.17
+    },
+    {
+     "t": "2026-10-11 21:41",
+     "type": "FEED",
+     "likes": 79,
+     "comments": 3,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 509,
+     "x": 0.16
+    },
+    {
+     "t": "2026-10-11 12:24",
+     "type": "REELS",
+     "likes": 80,
+     "comments": 11,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": "경기",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1033,
+     "x": 0.2
+    },
+    {
+     "t": "2026-10-09 20:58",
+     "type": "FEED",
+     "likes": 356,
+     "comments": 784,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "모션",
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 640,
+     "x": 4.84
+    },
+    {
+     "t": "2026-10-08 21:10",
+     "type": "REELS",
+     "likes": 81,
+     "comments": 11,
+     "hashtags": [
+      "광고",
+      "flova",
+      "flovaai",
+      "KDrama",
+      "Skill"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 734,
+     "x": 0.2
+    },
+    {
+     "t": "2026-10-08 12:24",
+     "type": "FEED",
+     "likes": 1572,
+     "comments": 2391,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 672,
+     "x": 15.62
+    }
+   ]
+  },
+  "ai.trend.kr": {
+   "followers": 271748,
+   "rows": [
+    {
+     "t": "2026-11-13 00:17",
+     "type": "FEED",
+     "likes": 281,
+     "comments": 8,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 1179,
+     "x": 0.37
+    },
+    {
+     "t": "2026-11-13 00:02",
+     "type": "REELS",
+     "likes": 246,
+     "comments": 8,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 1270,
+     "x": 0.33
+    },
+    {
+     "t": "2026-11-12 18:26",
+     "type": "FEED",
+     "likes": 240,
+     "comments": 292,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Nano Banana",
+      "Higgsfield"
+     ],
+     "cap_len": 1312,
+     "x": 1.35
+    },
+    {
+     "t": "2026-11-12 17:00",
+     "type": "FEED",
+     "likes": 0,
+     "comments": 20,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1814,
+     "x": 0.07
+    },
+    {
+     "t": "2026-11-12 10:20",
+     "type": "FEED",
+     "likes": 226,
+     "comments": 809,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Gemini"
+     ],
+     "cap_len": 1144,
+     "x": 3.21
+    },
+    {
+     "t": "2026-11-12 08:00",
+     "type": "FEED",
+     "likes": 144,
+     "comments": 14,
+     "hashtags": [
+      "1"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini"
+     ],
+     "cap_len": 1573,
+     "x": 0.23
+    },
+    {
+     "t": "2026-11-11 20:00",
+     "type": "FEED",
+     "likes": 219,
+     "comments": 120,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "브리핑",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Make"
+     ],
+     "cap_len": 1364,
+     "x": 0.7
+    },
+    {
+     "t": "2026-11-11 16:44",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 62,
+     "hashtags": [
+      "Newtake",
+      "NewtakeCreator"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 1185,
+     "x": 0.23
+    },
+    {
+     "t": "2026-11-11 12:03",
+     "type": "FEED",
+     "likes": 289,
+     "comments": 425,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Gemini",
+      "Codex"
+     ],
+     "cap_len": 1530,
+     "x": 1.89
+    },
+    {
+     "t": "2026-11-11 10:04",
+     "type": "FEED",
+     "likes": 812,
+     "comments": 645,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": "페블",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 1069,
+     "x": 3.33
+    },
+    {
+     "t": "2026-11-10 20:55",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 34,
+     "hashtags": [
+      "Higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 1206,
+     "x": 0.12
+    },
+    {
+     "t": "2026-11-10 19:54",
+     "type": "REELS",
+     "likes": 1647,
+     "comments": 313,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 1447,
+     "x": 3.13
+    },
+    {
+     "t": "2026-11-10 17:20",
+     "type": "FEED",
+     "likes": 1347,
+     "comments": 243,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1155,
+     "x": 2.51
+    },
+    {
+     "t": "2026-11-10 11:59",
+     "type": "FEED",
+     "likes": 133,
+     "comments": 174,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1182,
+     "x": 0.79
+    },
+    {
+     "t": "2026-11-10 10:10",
+     "type": "FEED",
+     "likes": 1264,
+     "comments": 338,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 1118,
+     "x": 2.76
+    },
+    {
+     "t": "2026-11-09 20:45",
+     "type": "FEED",
+     "likes": 1078,
+     "comments": 1386,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "광고",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Gemini"
+     ],
+     "cap_len": 986,
+     "x": 6.34
+    },
+    {
+     "t": "2026-11-09 18:51",
+     "type": "FEED",
+     "likes": 76,
+     "comments": 31,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": "마누스",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Manus",
+      "Make"
+     ],
+     "cap_len": 1059,
+     "x": 0.2
+    },
+    {
+     "t": "2026-11-09 09:46",
+     "type": "FEED",
+     "likes": 513,
+     "comments": 1033,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "깃허브",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1109,
+     "x": 4.37
+    },
+    {
+     "t": "2026-11-08 20:11",
+     "type": "FEED",
+     "likes": 0,
+     "comments": 157,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "이미지",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1112,
+     "x": 0.57
+    },
+    {
+     "t": "2026-11-08 17:42",
+     "type": "FEED",
+     "likes": 846,
+     "comments": 1772,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Make"
+     ],
+     "cap_len": 1335,
+     "x": 7.46
+    },
+    {
+     "t": "2026-11-08 09:53",
+     "type": "REELS",
+     "likes": 371,
+     "comments": 790,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 736,
+     "x": 3.32
+    },
+    {
+     "t": "2026-11-07 17:04",
+     "type": "FEED",
+     "likes": 958,
+     "comments": 125,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "에트",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Canva"
+     ],
+     "cap_len": 997,
+     "x": 1.61
+    },
+    {
+     "t": "2026-11-07 10:23",
+     "type": "FEED",
+     "likes": 384,
+     "comments": 1013,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "일러스트",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1167,
+     "x": 4.14
+    },
+    {
+     "t": "2026-11-06 16:58",
+     "type": "FEED",
+     "likes": 264,
+     "comments": 491,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1086,
+     "x": 2.1
+    },
+    {
+     "t": "2026-11-06 10:17",
+     "type": "FEED",
+     "likes": 1195,
+     "comments": 1406,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 2049,
+     "x": 6.55
+    },
+    {
+     "t": "2026-11-05 19:54",
+     "type": "FEED",
+     "likes": 235,
+     "comments": 67,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 1092,
+     "x": 0.53
+    },
+    {
+     "t": "2026-11-05 17:21",
+     "type": "FEED",
+     "likes": 1384,
+     "comments": 1455,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1138,
+     "x": 6.96
+    },
+    {
+     "t": "2026-11-05 09:53",
+     "type": "FEED",
+     "likes": 508,
+     "comments": 1219,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1309,
+     "x": 5.04
+    },
+    {
+     "t": "2026-11-04 22:40",
+     "type": "REELS",
+     "likes": 14456,
+     "comments": 169,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Make"
+     ],
+     "cap_len": 1141,
+     "x": 18.12
+    },
+    {
+     "t": "2026-11-04 16:59",
+     "type": "FEED",
+     "likes": 227,
+     "comments": 152,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": "만화",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Higgsfield"
+     ],
+     "cap_len": 1321,
+     "x": 0.83
+    },
+    {
+     "t": "2026-11-04 12:09",
+     "type": "FEED",
+     "likes": 861,
+     "comments": 439,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Excel"
+     ],
+     "cap_len": 1296,
+     "x": 2.64
+    },
+    {
+     "t": "2026-11-03 21:01",
+     "type": "FEED",
+     "likes": 227,
+     "comments": 77,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Make"
+     ],
+     "cap_len": 1716,
+     "x": 0.55
+    },
+    {
+     "t": "2026-11-03 16:56",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 12,
+     "hashtags": [
+      "광고",
+      "ad"
+     ],
+     "n_tags": 2,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Gemini",
+      "Nano Banana"
+     ],
+     "cap_len": 1171,
+     "x": 0.04
+    },
+    {
+     "t": "2026-11-03 10:00",
+     "type": "REELS",
+     "likes": 513,
+     "comments": 274,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1159,
+     "x": 1.62
+    },
+    {
+     "t": "2026-11-02 20:57",
+     "type": "FEED",
+     "likes": 268,
+     "comments": 145,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "시럽코어",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1098,
+     "x": 0.85
+    },
+    {
+     "t": "2026-11-02 17:37",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 3,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 1335,
+     "x": 0.01
+    },
+    {
+     "t": "2026-11-02 10:04",
+     "type": "FEED",
+     "likes": 127,
+     "comments": 88,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 2015,
+     "x": 0.47
+    },
+    {
+     "t": "2026-11-01 10:01",
+     "type": "FEED",
+     "likes": 2316,
+     "comments": 463,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "에트",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 916,
+     "x": 4.49
+    },
+    {
+     "t": "2026-10-31 18:50",
+     "type": "FEED",
+     "likes": 345,
+     "comments": 169,
+     "hashtags": [
+      "광고",
+      "Higgsfield",
+      "HiggsfieldCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": "모션",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Higgsfield"
+     ],
+     "cap_len": 1114,
+     "x": 1.03
+    },
+    {
+     "t": "2026-10-31 16:56",
+     "type": "FEED",
+     "likes": 0,
+     "comments": 3,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": "을",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 2019,
+     "x": 0.01
+    },
+    {
+     "t": "2026-10-31 10:04",
+     "type": "FEED",
+     "likes": 1333,
+     "comments": 200,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1378,
+     "x": 2.34
+    },
+    {
+     "t": "2026-10-30 21:37",
+     "type": "REELS",
+     "likes": 0,
+     "comments": 32,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Make"
+     ],
+     "cap_len": 1053,
+     "x": 0.12
+    },
+    {
+     "t": "2026-10-30 20:30",
+     "type": "FEED",
+     "likes": 137,
+     "comments": 113,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1377,
+     "x": 0.58
+    },
+    {
+     "t": "2026-10-30 16:42",
+     "type": "FEED",
+     "likes": 164,
+     "comments": 76,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "할로윈",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1039,
+     "x": 0.47
+    },
+    {
+     "t": "2026-10-30 11:21",
+     "type": "FEED",
+     "likes": 372,
+     "comments": 5,
+     "hashtags": [
+      "광고"
+     ],
+     "n_tags": 1,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 954,
+     "x": 0.47
+    },
+    {
+     "t": "2026-10-29 16:57",
+     "type": "FEED",
+     "likes": 0,
+     "comments": 92,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": "대두",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [],
+     "cap_len": 1018,
+     "x": 0.33
+    },
+    {
+     "t": "2026-10-29 11:14",
+     "type": "FEED",
+     "likes": 331,
+     "comments": 59,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1405,
+     "x": 0.62
+    },
+    {
+     "t": "2026-10-28 19:43",
+     "type": "FEED",
+     "likes": 248,
+     "comments": 184,
+     "hashtags": [
+      "광고",
+      "Newtake",
+      "NewtakeCreator"
+     ],
+     "n_tags": 3,
+     "comment_kw": "바이럴",
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT",
+      "Make"
+     ],
+     "cap_len": 1116,
+     "x": 0.97
+    },
+    {
+     "t": "2026-10-28 17:04",
+     "type": "FEED",
+     "likes": 1229,
+     "comments": 3212,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 1315,
+     "x": 13.15
+    },
+    {
+     "t": "2026-10-27 17:04",
+     "type": "FEED",
+     "likes": 1931,
+     "comments": 4722,
+     "hashtags": [],
+     "n_tags": 0,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+     ],
+     "cap_len": 1070,
+     "x": 19.49
+    }
+   ]
+  },
+  "pickit_.official": {
+   "followers": 17130,
+   "rows": [
+    {
+     "t": "2026-11-13 09:58",
+     "type": "REELS",
+     "likes": 3,
+     "comments": 8,
+     "hashtags": [
+      "클로드",
+      "영상편집",
+      "릴스편집",
+      "AI영상",
+      "픽잇"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 319,
+     "x": 0.03
+    },
+    {
+     "t": "2026-11-12 17:41",
+     "type": "REELS",
+     "likes": 52,
+     "comments": 142,
+     "hashtags": [
+      "AI에이전트",
+      "깃허브",
+      "클로드",
+      "AI활용",
+      "스킬"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 727,
+     "x": 0.51
+    },
+    {
+     "t": "2026-11-12 15:07",
+     "type": "REELS",
+     "likes": 19,
+     "comments": 38,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ChatGPT",
+      "AI활용",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Notion"
+     ],
+     "cap_len": 385,
+     "x": 0.14
+    },
+    {
+     "t": "2026-11-12 12:16",
+     "type": "REELS",
+     "likes": 81,
+     "comments": 184,
+     "hashtags": [
+      "깃허브",
+      "오픈소스",
+      "무료앱",
+      "AI툴",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Higgsfield",
+      "Notion"
+     ],
+     "cap_len": 460,
+     "x": 0.67
+    },
+    {
+     "t": "2026-11-11 16:35",
+     "type": "REELS",
+     "likes": 163,
+     "comments": 701,
+     "hashtags": [
+      "구글상위노출",
+      "SEO",
+      "클로드",
+      "AI활용",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 347,
+     "x": 2.42
+    },
+    {
+     "t": "2026-11-11 10:03",
+     "type": "REELS",
+     "likes": 54,
+     "comments": 216,
+     "hashtags": [
+      "파일전송",
+      "ai",
+      "클로드",
+      "업무꿀팁",
+      "영상"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 397,
+     "x": 0.75
+    },
+    {
+     "t": "2026-11-10 18:57",
+     "type": "REELS",
+     "likes": 20,
+     "comments": 88,
+     "hashtags": [
+      "지원사업",
+      "ai",
+      "사업계획서",
+      "정책자금",
+      "투자"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 555,
+     "x": 0.3
+    },
+    {
+     "t": "2026-11-10 16:17",
+     "type": "REELS",
+     "likes": 914,
+     "comments": 5586,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ai자동화",
+      "AI에이전트",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 480,
+     "x": 18.84
+    },
+    {
+     "t": "2026-11-10 09:38",
+     "type": "REELS",
+     "likes": 198,
+     "comments": 887,
+     "hashtags": [
+      "정책자금",
+      "지원사업",
+      "클로드",
+      "AI에이전트",
+      "소상공인"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 445,
+     "x": 3.05
+    },
+    {
+     "t": "2026-11-09 22:25",
+     "type": "REELS",
+     "likes": 165,
+     "comments": 479,
+     "hashtags": [
+      "클로드",
+      "카카오톡",
+      "ai",
+      "AI활용",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 525,
+     "x": 1.71
+    },
+    {
+     "t": "2026-11-09 21:20",
+     "type": "REELS",
+     "likes": 26,
+     "comments": 256,
+     "hashtags": [
+      "클로드",
+      "자동화",
+      "SNS마케팅",
+      "AI활용",
+      "ai마케팅"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 407,
+     "x": 0.85
+    },
+    {
+     "t": "2026-11-08 12:26",
+     "type": "REELS",
+     "likes": 14,
+     "comments": 81,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "릴스편집",
+      "AI활용",
+      "자동편집"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 327,
+     "x": 0.27
+    },
+    {
+     "t": "2026-11-07 20:09",
+     "type": "REELS",
+     "likes": 108,
+     "comments": 422,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "옵시디언",
+      "AI활용",
+      "Ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Notion",
+      "Obsidian"
+     ],
+     "cap_len": 370,
+     "x": 1.46
+    },
+    {
+     "t": "2026-11-07 18:18",
+     "type": "REELS",
+     "likes": 180,
+     "comments": 374,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "바이브코딩",
+      "AI활용",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 355,
+     "x": 1.39
+    },
+    {
+     "t": "2026-11-06 14:51",
+     "type": "REELS",
+     "likes": 42,
+     "comments": 212,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "MCP",
+      "AI활용",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Perplexity"
+     ],
+     "cap_len": 350,
+     "x": 0.72
+    },
+    {
+     "t": "2026-11-06 13:28",
+     "type": "REELS",
+     "likes": 19,
+     "comments": 112,
+     "hashtags": [
+      "챗gpt",
+      "캡컷",
+      "영상편집",
+      "릴스",
+      "자동편집"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 596,
+     "x": 0.38
+    },
+    {
+     "t": "2026-11-05 12:17",
+     "type": "REELS",
+     "likes": 217,
+     "comments": 1422,
+     "hashtags": [
+      "클로드",
+      "주식",
+      "AI투자",
+      "트레이딩에이전트",
+      "주식자동매매"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 631,
+     "x": 4.78
+    },
+    {
+     "t": "2026-11-04 17:47",
+     "type": "REELS",
+     "likes": 208,
+     "comments": 578,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "바이브코딩",
+      "AI활용",
+      "보안"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 571,
+     "x": 2.07
+    },
+    {
+     "t": "2026-11-04 12:02",
+     "type": "REELS",
+     "likes": 75,
+     "comments": 332,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ai",
+      "모션그래픽",
+      "프롬프트"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 303,
+     "x": 1.14
+    },
+    {
+     "t": "2026-11-03 19:58",
+     "type": "REELS",
+     "likes": 4,
+     "comments": 4,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "트레이딩뷰",
+      "주식분석",
+      "주식"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 431,
+     "x": 0.02
+    },
+    {
+     "t": "2026-11-03 15:39",
+     "type": "REELS",
+     "likes": 50,
+     "comments": 275,
+     "hashtags": [
+      "클로드",
+      "챗GPT",
+      "클로드코드",
+      "AI활용",
+      "Ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 334,
+     "x": 0.93
+    },
+    {
+     "t": "2026-11-03 11:33",
+     "type": "REELS",
+     "likes": 811,
+     "comments": 4313,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "AI",
+      "AI자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 562,
+     "x": 14.66
+    },
+    {
+     "t": "2026-10-31 15:28",
+     "type": "REELS",
+     "likes": 59,
+     "comments": 188,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드사용량",
+      "AI활용",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 487,
+     "x": 0.66
+    },
+    {
+     "t": "2026-10-30 17:23",
+     "type": "REELS",
+     "likes": 350,
+     "comments": 2488,
+     "hashtags": [
+      "AI활용",
+      "클로드",
+      "클로드스킬",
+      "미국주식",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 498,
+     "x": 8.33
+    },
+    {
+     "t": "2026-10-30 13:49",
+     "type": "REELS",
+     "likes": 973,
+     "comments": 4512,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "트레이딩뷰",
+      "주식",
+      "차트분석"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 588,
+     "x": 15.47
+    },
+    {
+     "t": "2026-10-30 03:11",
+     "type": "REELS",
+     "likes": 1,
+     "comments": 2,
+     "hashtags": [
+      "AI활용",
+      "AI도구",
+      "클로드",
+      "챗GPT",
+      "제미나이"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Codex",
+      "Grok"
+     ],
+     "cap_len": 280,
+     "x": 0.01
+    },
+    {
+     "t": "2026-10-29 20:49",
+     "type": "REELS",
+     "likes": 23,
+     "comments": 94,
+     "hashtags": [
+      "클로드",
+      "주식자동화",
+      "AI투자",
+      "모의투자",
+      "주식"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 587,
+     "x": 0.33
+    },
+    {
+     "t": "2026-10-29 16:06",
+     "type": "REELS",
+     "likes": 202,
+     "comments": 784,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "무료효과음",
+      "영상편집",
+      "효과음"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 300,
+     "x": 2.72
+    },
+    {
+     "t": "2026-10-29 11:48",
+     "type": "REELS",
+     "likes": 53,
+     "comments": 396,
+     "hashtags": [
+      "AI활용",
+      "AI도구",
+      "클로드",
+      "유튜브",
+      "유튜브운영"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 379,
+     "x": 1.32
+    },
+    {
+     "t": "2026-10-29 10:17",
+     "type": "REELS",
+     "likes": 26,
+     "comments": 90,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "AI에이전트",
+      "AI활용",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 377,
+     "x": 0.32
+    },
+    {
+     "t": "2026-10-28 16:55",
+     "type": "REELS",
+     "likes": 30,
+     "comments": 122,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "AI활용",
+      "AI도구",
+      "마케팅자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 358,
+     "x": 0.42
+    },
+    {
+     "t": "2026-10-28 15:46",
+     "type": "REELS",
+     "likes": 87,
+     "comments": 387,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "AI활용",
+      "AI에이전트",
+      "마케팅자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 448,
+     "x": 1.33
+    },
+    {
+     "t": "2026-10-28 07:58",
+     "type": "REELS",
+     "likes": 18,
+     "comments": 56,
+     "hashtags": [
+      "챗GPT",
+      "챗GPT이미지",
+      "AI그림",
+      "챗GPT활용",
+      "AI활용"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "ChatGPT"
+     ],
+     "cap_len": 443,
+     "x": 0.2
+    },
+    {
+     "t": "2026-10-27 14:55",
+     "type": "REELS",
+     "likes": 78,
+     "comments": 90,
+     "hashtags": [
+      "AI활용",
+      "클로드",
+      "클로드코드",
+      "AI도구",
+      "분석"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 476,
+     "x": 0.37
+    },
+    {
+     "t": "2026-10-27 10:55",
+     "type": "REELS",
+     "likes": 111,
+     "comments": 615,
+     "hashtags": [
+      "AI활용",
+      "AI도구",
+      "클로드",
+      "챗GPT",
+      "제미나이"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Codex",
+      "Grok"
+     ],
+     "cap_len": 474,
+     "x": 2.09
+    },
+    {
+     "t": "2026-10-26 16:27",
+     "type": "REELS",
+     "likes": 23,
+     "comments": 66,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "한도",
+      "AI활용",
+      "업무자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": "이나",
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 351,
+     "x": 0.24
+    },
+    {
+     "t": "2026-10-26 15:44",
+     "type": "REELS",
+     "likes": 27,
+     "comments": 240,
+     "hashtags": [
+      "AI영상",
+      "클로드",
+      "클로드코드",
+      "AI활용",
+      "릴스"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 300,
+     "x": 0.8
+    },
+    {
+     "t": "2026-10-26 11:00",
+     "type": "REELS",
+     "likes": 1019,
+     "comments": 5676,
+     "hashtags": [
+      "AI활용",
+      "클로드",
+      "챗GPT",
+      "클로드코드",
+      "AI연결"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex"
+     ],
+     "cap_len": 283,
+     "x": 19.24
+    },
+    {
+     "t": "2026-10-25 17:52",
+     "type": "REELS",
+     "likes": 29,
+     "comments": 150,
+     "hashtags": [
+      "클로드",
+      "인스타그램",
+      "릴스",
+      "AI활용",
+      "ai마케팅"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 600,
+     "x": 0.51
+    },
+    {
+     "t": "2026-10-25 16:06",
+     "type": "REELS",
+     "likes": 30,
+     "comments": 204,
+     "hashtags": [
+      "AI활용",
+      "클로드",
+      "블로그자동화",
+      "스레드",
+      "마케팅자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 405,
+     "x": 0.68
+    },
+    {
+     "t": "2026-10-24 16:27",
+     "type": "REELS",
+     "likes": 375,
+     "comments": 1232,
+     "hashtags": [
+      "자동화",
+      "투자",
+      "클로드",
+      "주식",
+      "ai투자"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 605,
+     "x": 4.34
+    },
+    {
+     "t": "2026-10-24 15:21",
+     "type": "REELS",
+     "likes": 175,
+     "comments": 502,
+     "hashtags": [
+      "AI활용",
+      "클로드",
+      "클로드코드",
+      "AI영업",
+      "영업자동화"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 618,
+     "x": 1.79
+    },
+    {
+     "t": "2026-10-24 14:16",
+     "type": "REELS",
+     "likes": 62,
+     "comments": 290,
+     "hashtags": [
+      "AI활용",
+      "AI도구",
+      "클로드",
+      "클로드코드",
+      "자료"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "Notion"
+     ],
+     "cap_len": 334,
+     "x": 0.99
+    },
+    {
+     "t": "2026-10-23 19:01",
+     "type": "REELS",
+     "likes": 944,
+     "comments": 5061,
+     "hashtags": [
+      "AI활용",
+      "AI도구",
+      "클로드",
+      "챗GPT",
+      "ai"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Codex",
+      "Grok"
+     ],
+     "cap_len": 332,
+     "x": 17.19
+    },
+    {
+     "t": "2026-10-23 18:04",
+     "type": "REELS",
+     "likes": 50,
+     "comments": 298,
+     "hashtags": [
+      "AI마캐팅",
+      "클로드",
+      "gpt",
+      "제미나이",
+      "ai연동"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+     ],
+     "cap_len": 316,
+     "x": 1.01
+    },
+    {
+     "t": "2026-10-23 15:03",
+     "type": "REELS",
+     "likes": 286,
+     "comments": 2032,
+     "hashtags": [
+      "ai자동화",
+      "클로드",
+      "클로드코드",
+      "유튜브운영",
+      "유튜브"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 521,
+     "x": 6.8
+    },
+    {
+     "t": "2026-10-22 15:10",
+     "type": "REELS",
+     "likes": 88,
+     "comments": 532,
+     "hashtags": [
+      "AI",
+      "클로드",
+      "클로드코드",
+      "ai사용량",
+      "AI도구"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 399,
+     "x": 1.8
+    },
+    {
+     "t": "2026-10-22 14:18",
+     "type": "REELS",
+     "likes": 30,
+     "comments": 125,
+     "hashtags": [
+      "ai마케팅",
+      "AI도구",
+      "오픈소스",
+      "소상공인",
+      "자영업자"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [],
+     "cap_len": 361,
+     "x": 0.43
+    },
+    {
+     "t": "2026-10-22 12:22",
+     "type": "REELS",
+     "likes": 124,
+     "comments": 558,
+     "hashtags": [
+      "AI",
+      "클로드",
+      "클로드코드",
+      "AI마케팅",
+      "홈페이지"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 409,
+     "x": 1.92
+    },
+    {
+     "t": "2026-10-22 11:15",
+     "type": "REELS",
+     "likes": 28,
+     "comments": 312,
+     "hashtags": [
+      "ai",
+      "AI에이전트",
+      "클로드",
+      "구글",
+      "오픈소스"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": true,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 340,
+     "x": 1.03
+    }
+   ]
+  },
+  "joshproductletter": {
+   "followers": 7788,
+   "rows": [
+    {
+     "t": "2026-11-12 23:04",
+     "type": "REELS",
+     "likes": 6,
+     "comments": 9,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "앤트로픽",
+      "AI공부"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 330,
+     "x": 0.11
+    },
+    {
+     "t": "2026-11-12 22:08",
+     "type": "FEED",
+     "likes": 8,
+     "comments": 7,
+     "hashtags": [
+      "AI활용",
+      "클로드",
+      "클로드코드",
+      "AI에이전트",
+      "직장인AI",
+      "업무효율",
+      "프롬프트",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 667,
+     "x": 0.1
+    },
+    {
+     "t": "2026-11-12 17:04",
+     "type": "FEED",
+     "likes": 6,
+     "comments": 9,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "프롬프트",
+      "AI활용",
+      "팩트체크",
+      "직장인AI",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1124,
+     "x": 0.11
+    },
+    {
+     "t": "2026-11-12 16:10",
+     "type": "REELS",
+     "likes": 24,
+     "comments": 54,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "릴스만들기",
+      "애니메이션"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 330,
+     "x": 0.64
+    },
+    {
+     "t": "2026-11-12 15:04",
+     "type": "FEED",
+     "likes": 8,
+     "comments": 26,
+     "hashtags": [
+      "AI활용",
+      "프롬프트",
+      "클로드",
+      "챗GPT",
+      "직장인AI",
+      "업무효율",
+      "공부법",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 780,
+     "x": 0.3
+    },
+    {
+     "t": "2026-11-12 14:29",
+     "type": "REELS",
+     "likes": 4,
+     "comments": 5,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "바이브코딩",
+      "보안"
+     ],
+     "n_tags": 5,
+     "comment_kw": null,
+     "follow_ask": false,
+     "dm_ask": false,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 329,
+     "x": 0.07
+    },
+    {
+     "t": "2026-11-12 11:10",
+     "type": "FEED",
+     "likes": 27,
+     "comments": 120,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "디자인",
+      "웹디자인",
+      "랜딩페이지",
+      "AI활용",
+      "직장인AI",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": "테마",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Cursor",
+      "Codex"
+     ],
+     "cap_len": 931,
+     "x": 1.33
+    },
+    {
+     "t": "2026-11-11 20:17",
+     "type": "REELS",
+     "likes": 39,
+     "comments": 105,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "구글",
+      "바이브코딩"
+     ],
+     "n_tags": 5,
+     "comment_kw": "구글",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 279,
+     "x": 1.22
+    },
+    {
+     "t": "2026-11-11 15:02",
+     "type": "FEED",
+     "likes": 6,
+     "comments": 12,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "프롬프트",
+      "AI활용",
+      "업무자동화",
+      "직장인AI",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": "대화",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 1021,
+     "x": 0.14
+    },
+    {
+     "t": "2026-11-11 13:08",
+     "type": "REELS",
+     "likes": 10,
+     "comments": 54,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "릴스편집",
+      "영상효과"
+     ],
+     "n_tags": 5,
+     "comment_kw": "이펙트",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 260,
+     "x": 0.59
+    },
+    {
+     "t": "2026-11-11 11:20",
+     "type": "REELS",
+     "likes": 17,
+     "comments": 23,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드페이블",
+      "페이블",
+      "오퍼스",
+      "앤트로픽"
+     ],
+     "n_tags": 6,
+     "comment_kw": "페이블",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 339,
+     "x": 0.3
+    },
+    {
+     "t": "2026-11-11 11:02",
+     "type": "FEED",
+     "likes": 39,
+     "comments": 197,
+     "hashtags": [
+      "클로드코드",
+      "ClaudeCode",
+      "애니메이션",
+      "모션그래픽",
+      "AI활용",
+      "업무자동화",
+      "직장인AI",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": "애니",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1053,
+     "x": 2.17
+    },
+    {
+     "t": "2026-11-10 20:20",
+     "type": "REELS",
+     "likes": 25,
+     "comments": 89,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "SEO",
+      "블로그",
+      "쇼핑몰"
+     ],
+     "n_tags": 6,
+     "comment_kw": "SEO",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 318,
+     "x": 1.01
+    },
+    {
+     "t": "2026-11-10 20:03",
+     "type": "FEED",
+     "likes": 15,
+     "comments": 25,
+     "hashtags": [
+      "AI도구",
+      "클로드코드",
+      "ClaudeCode",
+      "업무자동화",
+      "AI활용",
+      "AI에이전트",
+      "직장인AI",
+      "빌더조쉬"
+     ],
+     "n_tags": 8,
+     "comment_kw": "도구",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT",
+      "Codex",
+      "Grok"
+     ],
+     "cap_len": 1113,
+     "x": 0.31
+    },
+    {
+     "t": "2026-11-10 17:28",
+     "type": "FEED",
+     "likes": 11,
+     "comments": 3,
+     "hashtags": [
+      "클로드",
+      "Claude",
+      "페이블",
+      "앤트로픽",
+      "AI뉴스",
+      "AI활용",
+      "업무자동화",
+      "직장인AI",
+      "빌더조쉬"
+     ],
+     "n_tags": 9,
+     "comment_kw": "페이블",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 1179,
+     "x": 0.07
+    },
+    {
+     "t": "2026-11-09 20:28",
+     "type": "REELS",
+     "likes": 13,
+     "comments": 19,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "프롬프트",
+      "AI코딩"
+     ],
+     "n_tags": 5,
+     "comment_kw": "백번",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 324,
+     "x": 0.24
+    },
+    {
+     "t": "2026-11-09 16:26",
+     "type": "REELS",
+     "likes": 152,
+     "comments": 915,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "인스타그램",
+      "인스타운영"
+     ],
+     "n_tags": 5,
+     "comment_kw": "인스타",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 311,
+     "x": 9.99
+    },
+    {
+     "t": "2026-11-09 16:04",
+     "type": "FEED",
+     "likes": 25,
+     "comments": 92,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "unslop",
+      "바이브코딩",
+      "UI디자인",
+      "AI디자인",
+      "디자인시스템",
+      "AI활용",
+      "빌더조쉬"
+     ],
+     "n_tags": 10,
+     "comment_kw": "언슬롭",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 732,
+     "x": 1.04
+    },
+    {
+     "t": "2026-11-09 11:17",
+     "type": "REELS",
+     "likes": 12,
+     "comments": 18,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드활용",
+      "AI활용",
+      "클로드스킬"
+     ],
+     "n_tags": 5,
+     "comment_kw": "활용",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 300,
+     "x": 0.23
+    },
+    {
+     "t": "2026-11-08 18:15",
+     "type": "REELS",
+     "likes": 15,
+     "comments": 48,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "클로드플러그인"
+     ],
+     "n_tags": 4,
+     "comment_kw": "모드",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 284,
+     "x": 0.55
+    },
+    {
+     "t": "2026-11-08 11:13",
+     "type": "REELS",
+     "likes": 9,
+     "comments": 37,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "AI도구",
+      "옴니라우트"
+     ],
+     "n_tags": 5,
+     "comment_kw": "한도",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 307,
+     "x": 0.41
+    },
+    {
+     "t": "2026-11-07 10:05",
+     "type": "FEED",
+     "likes": 22,
+     "comments": 118,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "클로드플러그인",
+      "개발자",
+      "바이브코딩",
+      "코딩",
+      "깃허브",
+      "AI툴",
+      "빌더조쉬"
+     ],
+     "n_tags": 10,
+     "comment_kw": "개발자",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 734,
+     "x": 1.3
+    },
+    {
+     "t": "2026-11-06 15:03",
+     "type": "FEED",
+     "likes": 19,
+     "comments": 112,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "클로드스킬",
+      "마케팅",
+      "마케팅자동화",
+      "AI마케팅",
+      "깃허브",
+      "AI툴",
+      "빌더조쉬"
+     ],
+     "n_tags": 10,
+     "comment_kw": "마케팅",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 588,
+     "x": 1.22
+    },
+    {
+     "t": "2026-11-06 12:05",
+     "type": "FEED",
+     "likes": 35,
+     "comments": 140,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "깃허브",
+      "오픈소스",
+      "역설계",
+      "AI툴",
+      "MCP",
+      "바이브코딩",
+      "빌더조쉬"
+     ],
+     "n_tags": 10,
+     "comment_kw": "역설계",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Cursor",
+      "Codex",
+      "Notion"
+     ],
+     "cap_len": 665,
+     "x": 1.57
+    },
+    {
+     "t": "2026-11-05 18:15",
+     "type": "REELS",
+     "likes": 31,
+     "comments": 103,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "바이브코딩",
+      "UI디자인"
+     ],
+     "n_tags": 5,
+     "comment_kw": "디자인",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 291,
+     "x": 1.17
+    },
+    {
+     "t": "2026-11-05 12:13",
+     "type": "REELS",
+     "likes": 9,
+     "comments": 16,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "엔비디아",
+      "온톨로지",
+      "AI에이전트",
+      "데이터분석",
+      "SQL"
+     ],
+     "n_tags": 8,
+     "comment_kw": "온톨로지",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 299,
+     "x": 0.2
+    },
+    {
+     "t": "2026-11-05 11:13",
+     "type": "REELS",
+     "likes": 3,
+     "comments": 16,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "TimesFM",
+      "매출예측",
+      "엑셀"
+     ],
+     "n_tags": 6,
+     "comment_kw": "예측",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Excel"
+     ],
+     "cap_len": 340,
+     "x": 0.18
+    },
+    {
+     "t": "2026-11-04 19:04",
+     "type": "FEED",
+     "likes": 24,
+     "comments": 93,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "클로드플러그인",
+      "claudemem",
+      "AI에이전트",
+      "AI툴",
+      "개발자",
+      "빌더조쉬"
+     ],
+     "n_tags": 9,
+     "comment_kw": "기억",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 525,
+     "x": 1.04
+    },
+    {
+     "t": "2026-11-04 18:07",
+     "type": "REELS",
+     "likes": 19,
+     "comments": 60,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "AI보안",
+      "엔비디아"
+     ],
+     "n_tags": 5,
+     "comment_kw": "보안",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 257,
+     "x": 0.69
+    },
+    {
+     "t": "2026-11-04 16:58",
+     "type": "FEED",
+     "likes": 11,
+     "comments": 68,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "클로드스킬",
+      "AgentSkills",
+      "mattpocock",
+      "AI에이전트",
+      "AI툴",
+      "직장인AI",
+      "업무자동화",
+      "빌더조쉬"
+     ],
+     "n_tags": 11,
+     "comment_kw": "질문",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 618,
+     "x": 0.74
+    },
+    {
+     "t": "2026-11-04 12:40",
+     "type": "REELS",
+     "likes": 17,
+     "comments": 42,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "AI에이전트",
+      "herdr"
+     ],
+     "n_tags": 5,
+     "comment_kw": "동시",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Codex"
+     ],
+     "cap_len": 320,
+     "x": 0.49
+    },
+    {
+     "t": "2026-11-03 13:30",
+     "type": "FEED",
+     "likes": 67,
+     "comments": 346,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬",
+      "AI에이전트",
+      "코덱스",
+      "커서",
+      "AI툴"
+     ],
+     "n_tags": 7,
+     "comment_kw": "찾기",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Cursor",
+      "Codex"
+     ],
+     "cap_len": 296,
+     "x": 3.81
+    },
+    {
+     "t": "2026-11-03 08:32",
+     "type": "REELS",
+     "likes": 31,
+     "comments": 142,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "효과음",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 222,
+     "x": 1.58
+    },
+    {
+     "t": "2026-11-02 17:53",
+     "type": "REELS",
+     "likes": 177,
+     "comments": 704,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "검증",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 276,
+     "x": 7.89
+    },
+    {
+     "t": "2026-11-02 11:06",
+     "type": "REELS",
+     "likes": 19,
+     "comments": 72,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "개발자",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 194,
+     "x": 0.81
+    },
+    {
+     "t": "2026-11-01 11:01",
+     "type": "REELS",
+     "likes": 36,
+     "comments": 206,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "에이전시",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 289,
+     "x": 2.26
+    },
+    {
+     "t": "2026-10-31 11:57",
+     "type": "REELS",
+     "likes": 102,
+     "comments": 460,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "찾기",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "PPT"
+     ],
+     "cap_len": 249,
+     "x": 5.11
+    },
+    {
+     "t": "2026-10-31 08:03",
+     "type": "FEED",
+     "likes": 13,
+     "comments": 67,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "무료프로그램",
+      "오픈소스",
+      "포토샵",
+      "엑셀",
+      "AI툴"
+     ],
+     "n_tags": 7,
+     "comment_kw": "무료앱",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Excel",
+      "PPT"
+     ],
+     "cap_len": 313,
+     "x": 0.74
+    },
+    {
+     "t": "2026-10-30 16:00",
+     "type": "REELS",
+     "likes": 68,
+     "comments": 397,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "웹사이트",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 192,
+     "x": 4.34
+    },
+    {
+     "t": "2026-10-30 12:07",
+     "type": "REELS",
+     "likes": 35,
+     "comments": 215,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "세팅",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 197,
+     "x": 2.34
+    },
+    {
+     "t": "2026-10-30 08:02",
+     "type": "FEED",
+     "likes": 42,
+     "comments": 181,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "자문단",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 289,
+     "x": 2.02
+    },
+    {
+     "t": "2026-10-29 10:00",
+     "type": "REELS",
+     "likes": 21,
+     "comments": 113,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "개발팀",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 230,
+     "x": 1.24
+    },
+    {
+     "t": "2026-10-28 13:47",
+     "type": "FEED",
+     "likes": 190,
+     "comments": 871,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "ClaudeCode",
+      "AI스킬",
+      "AI툴",
+      "업무자동화",
+      "빌더조쉬"
+     ],
+     "n_tags": 7,
+     "comment_kw": "백개",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "Notion",
+      "Excel",
+      "PPT"
+     ],
+     "cap_len": 449,
+     "x": 9.67
+    },
+    {
+     "t": "2026-10-26 11:00",
+     "type": "REELS",
+     "likes": 65,
+     "comments": 351,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "영상편집"
+     ],
+     "n_tags": 3,
+     "comment_kw": "편집",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 199,
+     "x": 3.86
+    },
+    {
+     "t": "2026-10-25 18:00",
+     "type": "REELS",
+     "likes": 24,
+     "comments": 88,
+     "hashtags": [
+      "클로드",
+      "구글드라이브",
+      "클로드활용"
+     ],
+     "n_tags": 3,
+     "comment_kw": "정리",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 195,
+     "x": 0.99
+    },
+    {
+     "t": "2026-10-24 18:47",
+     "type": "REELS",
+     "likes": 10,
+     "comments": 76,
+     "hashtags": [
+      "클로드",
+      "ChatGPT",
+      "프롬프트"
+     ],
+     "n_tags": 3,
+     "comment_kw": "정직",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude",
+      "ChatGPT"
+     ],
+     "cap_len": 210,
+     "x": 0.82
+    },
+    {
+     "t": "2026-10-24 09:00",
+     "type": "REELS",
+     "likes": 11,
+     "comments": 38,
+     "hashtags": [
+      "클로드",
+      "개인정보",
+      "클로드활용"
+     ],
+     "n_tags": 3,
+     "comment_kw": "개인정보",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 197,
+     "x": 0.43
+    },
+    {
+     "t": "2026-10-23 16:41",
+     "type": "REELS",
+     "likes": 32,
+     "comments": 193,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "블렌더"
+     ],
+     "n_tags": 3,
+     "comment_kw": "블렌더",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 264,
+     "x": 2.11
+    },
+    {
+     "t": "2026-10-22 18:39",
+     "type": "REELS",
+     "likes": 334,
+     "comments": 2025,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "모션그래픽"
+     ],
+     "n_tags": 3,
+     "comment_kw": "모션",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 243,
+     "x": 22.1
+    },
+    {
+     "t": "2026-10-21 22:24",
+     "type": "REELS",
+     "likes": 62,
+     "comments": 457,
+     "hashtags": [
+      "클로드",
+      "클로드코드",
+      "클로드스킬"
+     ],
+     "n_tags": 3,
+     "comment_kw": "자문단",
+     "follow_ask": false,
+     "dm_ask": true,
+     "tools": [
+      "Claude"
+     ],
+     "cap_len": 281,
+     "x": 4.94
+    }
+   ]
+  }
+ }
+}
