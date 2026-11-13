@@ -96,7 +96,7 @@
       .ub i { font-style: normal; display: inline-block; padding: 2px 12px; border-radius: 10px; background: #fff; font-size: 23px; font-weight: 700; color: var(--sub); margin-bottom: 6px; }
       .ans { margin-top: 26px; opacity: 0; }
       .ans .lead { display: flex; align-items: center; gap: 14px; font-size: 30px; font-weight: 700; letter-spacing: -.6px; margin-bottom: 16px; }
-      .ans .lead .ai { width: 46px; height: 46px; border-radius: 23px; background: var(--ink); color: var(--yel); display: grid; place-items: center; font-size: 22px; font-weight: 900; }
+      .ans .lead .ai { width: 46px; height: 46px; border-radius: 23px; background: var(--ink); color: #fff; display: grid; place-items: center; font-size: 15px; font-weight: 900; letter-spacing: -0.5px; }
       table.t { width: 100%; border-collapse: collapse; }
       table.t th { text-align: left; font-size: 25px; font-weight: 700; color: var(--sub); padding: 10px 14px; border-bottom: 2px solid var(--line); }
       table.t td { padding: 15px 14px; font-size: 30px; font-weight: 700; letter-spacing: -.6px; border-bottom: 1px solid #f1ece5; }
@@ -211,12 +211,12 @@
       <div id="sChat" class="scene">
         <div id="winwrap">
           <div class="win" id="win">
-            <div class="bar"><i style="background: #ff5f57"></i><i style="background: #febc2e"></i><i style="background: #28c840"></i><p>AI 채팅</p></div>
-            <div class="hello" id="hello">무엇을 도와드릴까요?<small>파일이나 텍스트를 붙여 넣어 보세요</small></div>
+            <div class="bar"><i style="background: #ff5f57"></i><i style="background: #febc2e"></i><i style="background: #28c840"></i><p>ChatGPT</p></div>
+            <div class="hello" id="hello">무엇을 도와드릴까요?<small>ChatGPT · 무료 플랜</small></div>
             <div class="thread" id="thread">
               <div class="ub" id="ub"><i>📋 카드 내역 8건</i><br />매달 반복 결제만 표로 뽑아 줘.<br />기능 겹치는 건 표시해 줘.</div>
               <div class="ans" id="ans">
-                <div class="lead"><span class="ai">AI</span>반복 결제는 6건이에요.</div>
+                <div class="lead"><span class="ai">GPT</span>반복 결제는 6건이에요.</div>
                 <table class="t" id="tbl">
                   <tr><th>항목</th><th>분류</th><th class="r">월 결제액</th></tr>
                   <tr><td>넷플릭스</td><td><span class="k" style="background: var(--red)">영상</span></td><td class="r num">13,500원</td></tr>
@@ -232,7 +232,7 @@
             </div>
             <div class="composer" id="comp">
               <div class="pchip" id="pchip"><div class="doc"></div><div><b>붙여넣은 텍스트 · 8줄</b><span>11.03 넷플릭스 13,500 · 11.04 GS25…</span></div></div>
-              <div class="ptext ph" id="ptext">메시지를 입력하세요</div>
+              <div class="ptext ph" id="ptext">무엇이든 물어보세요</div>
               <div class="plus">+</div>
               <div class="sendb" id="sendb"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7" /></svg></div>
             </div>
