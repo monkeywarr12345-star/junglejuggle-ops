@@ -1,0 +1,31 @@
+name: voice test (jungle.gcc)
+on:
+  workflow_dispatch:
+    inputs:
+      line: { description: "line to speak", required: true, default: "클로드, 아직 대화만 하고 있다면 손해예요. 무료로도 되는 기능, 딱 세 개만 켜 보세요." }
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: sudo apt-get install -y -qq ffmpeg libsndfile1 sox >/dev/null || true
+      - name: deps
+        run: |
+          pip install -q numpy soundfile scipy supertonic
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q -U qwen-tts || true
+      - name: synth
+        run: |
+          python ai/tools/voice_test.py "${{ github.event.inputs.line }}" media/ai/voicetest ai/tools/voices.txt
+          cd media/ai/voicetest && cat list.txt && ls -la
+          for f in v*.wav; do ffmpeg -nostdin -y -loglevel error -i $f -b:a 96k ${f%.wav}.mp3 && rm $f; done
+      - name: commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add -A media/ai/voicetest && git commit -qm "ai: voice test" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -q && git push -q && break; sleep 10; done
