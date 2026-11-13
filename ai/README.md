@@ -21,10 +21,10 @@
 8. 캡션(caption.txt): 첫 줄 = 결과 + "💬 팔로우하고 댓글에 '○○' 남기면 프롬프트 전체본 보내드려요". 본문 2줄, 📌 프롬프트 핵심 3개, 🎁 전체본 안내, ℹ️ 무료/유료·예시 표시, 해시태그 5~10개(도구 이름 한·영 + 활용어 + 주제어, 개수 제한 없음).
 9. 자료 페이지(자료실 저장소): `p/<slug>/index.html`(subscription 페이지 형식: 칩, 제목 2줄 형광펜, 리드 1문장, 따라 하기 3단계 + 영상 화면 3장, 복사 버튼 프롬프트 5개, 팁 2~3개, 팔로우 버튼), 화면 jpg 3장은 reel.mp4에서 ffmpeg로 뽑는다. 루트 `index.html` 목록 맨 위에 카드 추가, 자료실 저장소에 커밋·push(1~2분 뒤 주소가 열리는지 WebFetch로 확인).
 10. dm.json: keyword, 댓글 답글 3개, 팔로우 확인 문구·버튼, 자료 카드(제목·설명·버튼 '자료 열기'·url=자료 페이지). PC용 링크 줄은 넣지 않는다.
-11. Zorcha 자동화: 2026-11-13 확인 — Zorcha 무료 플랜은 AI(MCP)로 자동화를 만들 수 없다(Business 이상). 그래서 사용자가 Zorcha 화면에서 직접 만든다. 알림 끝에 'Zorcha에 넣을 것'을 붙인다: 대상 다음 게시물 · 키워드(+비슷한 말) · 공개 답글 3개 · 팔로우 확인 켜기(문구·버튼) · DM 문구 · 버튼 '자료 열기' + 자료 페이지 주소. 단, Zorcha 도구의 list_workspaces가 관리 가능하다고 나오면(플랜 변경 시) dm.json대로 직접 만든다(next_reel, ask_to_follow, public_replies, status START).
+11. Zorcha 자동화: 무료 플랜이라 AI(MCP)로는 못 만든다(2026-11-13 확인). 별도 예약 작업 'jungle.gcc Zorcha 자동화 (집 Chrome)'가 08:07·12:07에 집 Chrome으로 zorcha.com에 들어가 dm.json대로 만든다. 그래서 제작 작업은 dm.json만 정확히 쓰고 `"zorcha": "pending"`을 넣는다. dm.json 형식: keyword, keywords_also, comment_replies 3개, opening{text,button}, follow_gate{text: "댓글 고마워요! 팔로우하셨다면 아래 버튼을 눌러 주세요! 🙏", button: "팔로우했어요 ✅"}, dm_text, card{title, subtitle, button: "자료 열기", url}, target "next_post". Zorcha 화면 순서(검증됨): Automations → New Automation → 'DM from Comments' → 이름 → ① Next Post or Reel ② 키워드 입력 후 Enter ③ DM 문구 + Add Link(제목·주소) → Advanced: Public reply 켜고 영어 기본 답글 3개를 교체, Opening Message 켜고(팔로우 확인에 필수) 문구·버튼 교체, Ask to follow 켜고 문구·'I'm following' 버튼 교체 → Go Live → 목록에서 Live 확인.
 12. 검토: 서로 결과를 보지 않는 별도 에이전트 2명 — 팩트체커(기능·메뉴·요금·숫자가 공식 문서와 맞는지), 그로스(0초 훅·키워드 일치·마지막 장면·캡션 첫 줄). FAIL은 고쳐서 다시.
-13. 기록·알림: topics.json status done(게시 예정 시각), `playbook/predictions/`의 예측표에 한 줄(예측 도달·저장·팔로우·키워드 댓글), `playbook/log/<날짜>.md` 한 줄, 커밋·push. PushNotification:
-    "<요일> <시각> 릴스 준비 완료: <제목>\n영상: https://github.com/monkeywarr12345-star/junglejuggle-ops/blob/main/media/ai/<id>/reel.mp4 (앱 음악 쓸 땐 reel_nomusic.mp4)\n표지: …/cover.jpg\n캡션: …/ai/reels/<id>/caption.txt\n자료: https://junglegcc.github.io/p/<slug>/\nDM 자동화: 완료 / 직접 필요".
+13. 기록·알림: topics.json status done(게시 예정 시각), `playbook/predictions/`의 예측표에 한 줄(예측 도달·저장·팔로우·키워드 댓글), `playbook/log/<날짜>.md` 한 줄, 커밋·push. PushNotification(영상은 항상 두 버전 다):
+    "<요일> <시각> 릴스 준비 완료: <제목>\n영상(음악 있음): https://github.com/monkeywarr12345-star/junglejuggle-ops/raw/main/media/ai/<id>/reel.mp4\n영상(음악 없음): https://github.com/monkeywarr12345-star/junglejuggle-ops/raw/main/media/ai/<id>/reel_nomusic.mp4\n표지: …/cover.jpg\n캡션: …/ai/reels/<id>/caption.txt\n자료: https://junglegcc.github.io/p/<slug>/\nDM 자동화: 완료 / 직접 필요".
 
 ## 준비 마감
 18·21시 게시분은 같은 날 12:00, 11시 게시분은 같은 날 08:00까지 알림까지 끝낸다. 마감이 다가오면 다듬기보다 완성을 우선한다.

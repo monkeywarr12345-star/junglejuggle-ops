@@ -11,7 +11,7 @@
   ],
   "follow_gate": {
     "text": "댓글 고마워요! 팔로우하셨다면 아래 버튼을 눌러 주세요! 🙏",
-    "button": "팔로우했어요",
+    "button": "팔로우했어요 ✅",
     "not_following": "아직 팔로우가 안 보여요. 프로필에서 팔로우하고 다시 눌러 주세요!"
   },
   "card": {
@@ -20,5 +20,11 @@
     "button": "자료 열기",
     "url": "https://junglegcc.github.io/p/subscription/"
   },
-  "target": "next_post"
+  "target": "next_post",
+  "opening": {
+    "text": "안녕하세요! 정글 GCC예요 👋 아래 버튼을 누르면 프롬프트 전체본을 바로 보내드릴게요.",
+    "button": "자료 받기 🎁"
+  },
+  "dm_text": "요청하신 구독료 정리 프롬프트 전체본이에요 🎁 복사해서 바로 쓰는 프롬프트 5개 + 따라 하기 3단계",
+  "zorcha": "live: 11.13 구독료 · 키워드 구독 (2026-11-13 12:20 브라우저로 생성)"
 }
