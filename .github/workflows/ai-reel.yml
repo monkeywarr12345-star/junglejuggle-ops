@@ -35,11 +35,13 @@ jobs:
         env: { HYPERFRAMES_TELEMETRY_DISABLED: "1", DO_NOT_TRACK: "1" }
         run: |
           set -u
-          mkdir -p /tmp/fonts; for W in Medium SemiBold Bold ExtraBold Black; do curl -sfL -o /tmp/fonts/Pretendard-$W.woff2 https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-$W.woff2 || echo font-fail $W; done
+          mkdir -p /tmp/fonts; for W in Medium SemiBold Bold ExtraBold Black; do curl -sfL -o /tmp/fonts/Pretendard-$W.woff2 https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2/Pretendard-$W.woff2 || echo font-fail $W; done
+          if ! ls /tmp/fonts/*.woff2 >/dev/null 2>&1; then git clone -q --depth 1 --filter=blob:none --sparse https://github.com/orioncactus/pretendard /tmp/pt && (cd /tmp/pt && git sparse-checkout set packages/pretendard/dist/web/static/woff2) && cp /tmp/pt/packages/pretendard/dist/web/static/woff2/Pretendard-{Medium,SemiBold,Bold,ExtraBold,Black}.woff2 /tmp/fonts/; fi
+          ls /tmp/fonts
           for R in ${{ steps.which.outputs.reels }}; do
             D=ai/reels/$R; [ -f $D/index.html ] || { echo "skip $R"; continue; }
             echo "==== $R"
-            mkdir -p $D/assets/fonts; cp /tmp/fonts/*.woff2 $D/assets/fonts/
+            mkdir -p $D/assets/fonts; cp /tmp/fonts/*.woff2 $D/assets/fonts/ || echo "no fonts"
             for i in 0 1 2 3 4 5 6; do [ -f $D/assets/img$i.jpg ] || cp ai/chars/img$i.jpg $D/assets/ 2>/dev/null || true; done
             for i in 0 2 3 4 5; do [ -f $D/assets/cut$i.png ] || python ai/template/cutout.py $D/assets/img$i.jpg $D/assets/cut$i.png; done
             cp docs/assets/avatar.png $D/assets/avatar.png
