@@ -1,15 +1,98 @@
 {
-  "note": "첫 10편(2026-11-13 벤치마크 11곳 540개 분석 기준). x = 벤치마크에서 비슷한 글이 그 계정 평소 반응의 몇 배였는지. 순서는 주간 회고가 바꾼다.",
-  "topics": [
-    {"n": 1, "slug": "subscription", "title": "매달 새는 구독료, 30초 만에 찾기", "tool": "ChatGPT", "keyword": "구독", "evidence": "sebia.ai 카드 명세서 AI 구독 15.1x", "status": "doing", "reel": "2026-11-13-subscription"},
-    {"n": 2, "slug": "claude-setup", "title": "Claude 깔고 제일 먼저 바꿀 설정 5개", "tool": "Claude", "keyword": "세팅", "evidence": "oaiwan.kr 설정 5개 11.9x, sebia.ai 처음 세팅 5개 14.5x", "status": "todo"},
-    {"n": 3, "slug": "chatgpt-commands", "title": "나만 몰랐던 ChatGPT 숨은 명령어 5개", "tool": "ChatGPT", "keyword": "명령어", "evidence": "grappt_ ChatGPT 비밀코드 5개 23.8x(댓글 7.5만)", "status": "todo"},
-    {"n": 4, "slug": "devils-advocate", "title": "맞장구만 치는 AI, 반대 의견 받는 한 줄", "tool": "Claude", "keyword": "반대", "evidence": "gpt_haterz 재판 9.1x, lazy_owen 법정 7.7x", "status": "todo"},
-    {"n": 5, "slug": "ai-tone", "title": "AI가 쓴 티 안 나게 글 고치기", "tool": "Claude·ChatGPT", "keyword": "글티", "evidence": "gpt_haterz 글 티는 구조 12.5x, ai.trend.kr 7.5x", "status": "todo"},
-    {"n": 6, "slug": "compare-3", "title": "같은 질문, ChatGPT·Claude·Gemini 비교", "tool": "ChatGPT·Claude·Gemini", "keyword": "비교", "evidence": "pickit_.official AI 여러 개 같이 17.2x", "status": "todo"},
-    {"n": 7, "slug": "profile-photo", "title": "사진 한 장으로 프로필 사진 만들기", "tool": "Gemini·ChatGPT", "keyword": "사진", "evidence": "ai.trend.kr 사진 한 장 13.2x, ai_newpd 사진 프롬프트 14.7x", "status": "todo"},
-    {"n": 8, "slug": "claude-ppt", "title": "Claude로 PPT 10장 초안 한 번에", "tool": "Claude", "keyword": "PPT", "evidence": "PPT 주제 평균 1.3x, grappt_ PPT 시리즈", "status": "todo"},
-    {"n": 9, "slug": "resume", "title": "이력서·자기소개서 AI 첨삭", "tool": "Claude·ChatGPT", "keyword": "이력서", "evidence": "adu.aihub 이력서 16.2x", "status": "todo"},
-    {"n": 10, "slug": "claude-blog", "title": "Claude에게 블로그 글 맡기기", "tool": "Claude", "keyword": "블로그", "evidence": "oaiwan.kr 블로그 자동화 24.8x, 19.2x", "status": "todo"}
-  ]
+ "note": "첫 10편(2026-11-13 벤치마크 11곳 540개 분석 기준). x = 벤치마크에서 비슷한 글이 그 계정 평소 반응의 몇 배였는지. 순서는 주간 회고가 바꾼다.",
+ "topics": [
+  {
+   "n": 1,
+   "slug": "subscription",
+   "title": "매달 새는 구독료, 30초 만에 찾기",
+   "tool": "ChatGPT",
+   "keyword": "구독",
+   "evidence": "sebia.ai 카드 명세서 AI 구독 15.1x",
+   "status": "dropped",
+   "reel": "2026-11-13-subscription",
+   "note": "사용자 판단 별로 → 릴스 삭제(2026-11-13)"
+  },
+  {
+   "n": 2,
+   "slug": "claude-setup",
+   "title": "Claude 깔고 제일 먼저 바꿀 설정 5개",
+   "tool": "Claude",
+   "keyword": "세팅",
+   "evidence": "oaiwan.kr 설정 5개 11.9x, sebia.ai 처음 세팅 5개 14.5x",
+   "status": "doing",
+   "reel": "2026-11-13-claude-setup"
+  },
+  {
+   "n": 3,
+   "slug": "chatgpt-commands",
+   "title": "나만 몰랐던 ChatGPT 숨은 명령어 5개",
+   "tool": "ChatGPT",
+   "keyword": "명령어",
+   "evidence": "grappt_ ChatGPT 비밀코드 5개 23.8x(댓글 7.5만)",
+   "status": "todo"
+  },
+  {
+   "n": 4,
+   "slug": "devils-advocate",
+   "title": "맞장구만 치는 AI, 반대 의견 받는 한 줄",
+   "tool": "Claude",
+   "keyword": "반대",
+   "evidence": "gpt_haterz 재판 9.1x, lazy_owen 법정 7.7x",
+   "status": "todo"
+  },
+  {
+   "n": 5,
+   "slug": "ai-tone",
+   "title": "AI가 쓴 티 안 나게 글 고치기",
+   "tool": "Claude·ChatGPT",
+   "keyword": "글티",
+   "evidence": "gpt_haterz 글 티는 구조 12.5x, ai.trend.kr 7.5x",
+   "status": "todo"
+  },
+  {
+   "n": 6,
+   "slug": "compare-3",
+   "title": "같은 질문, ChatGPT·Claude·Gemini 비교",
+   "tool": "ChatGPT·Claude·Gemini",
+   "keyword": "비교",
+   "evidence": "pickit_.official AI 여러 개 같이 17.2x",
+   "status": "todo"
+  },
+  {
+   "n": 7,
+   "slug": "profile-photo",
+   "title": "사진 한 장으로 프로필 사진 만들기",
+   "tool": "Gemini·ChatGPT",
+   "keyword": "사진",
+   "evidence": "ai.trend.kr 사진 한 장 13.2x, ai_newpd 사진 프롬프트 14.7x",
+   "status": "todo"
+  },
+  {
+   "n": 8,
+   "slug": "claude-ppt",
+   "title": "Claude로 PPT 10장 초안 한 번에",
+   "tool": "Claude",
+   "keyword": "PPT",
+   "evidence": "PPT 주제 평균 1.3x, grappt_ PPT 시리즈",
+   "status": "todo"
+  },
+  {
+   "n": 9,
+   "slug": "resume",
+   "title": "이력서·자기소개서 AI 첨삭",
+   "tool": "Claude·ChatGPT",
+   "keyword": "이력서",
+   "evidence": "adu.aihub 이력서 16.2x",
+   "status": "todo"
+  },
+  {
+   "n": 10,
+   "slug": "claude-blog",
+   "title": "Claude에게 블로그 글 맡기기",
+   "tool": "Claude",
+   "keyword": "블로그",
+   "evidence": "oaiwan.kr 블로그 자동화 24.8x, 19.2x",
+   "status": "todo"
+  }
+ ]
 }
