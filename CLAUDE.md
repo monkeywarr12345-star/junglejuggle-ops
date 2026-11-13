@@ -8,7 +8,7 @@
 - 게시는 사용자가 앱에서 직접 한다(pause.json 유지). 제작은 영상(음악 있음/없음)·표지·캡션·DM 문구·자료 페이지까지 만들고 PushNotification으로 알린다.
 - 매 릴스: 주제에 맞는 댓글 키워드를 새로 정한다(구독·세팅·명령어처럼 한글 2~3자, 매번 다르게). 마지막 장면과 마지막 대사는 항상 "팔로우하고 댓글에 '키워드' 남기면 프롬프트 전체본 보내드려요". 캡션 첫 줄에도 같은 키워드.
 - 자료 DM: Zorcha(무료, @jungle.gcc 연결됨, Claude 커넥터 `https://zorcha.com/mcp`)로 '다음 게시물' 대상 댓글 키워드 자동화를 만든다 — 1차 DM 팔로우 확인 버튼 → 팔로우 확인되면 자료 카드(버튼 [자료 열기] → 자료 페이지). 커넥터가 없으면 사용자에게 DM 문구와 링크를 알림에 함께 보낸다.
-- 자료실: GitHub Pages(main 브랜치 `docs/`) https://monkeywarr12345-star.github.io/junglejuggle-ops/ — 릴스마다 `docs/p/<slug>/index.html` 1장(제목·따라 하기 3단계·복사 버튼 프롬프트 5개·팁·팔로우 버튼)을 만들고 첫 화면 목록에 카드를 추가한다.
+- 자료실: GitHub Pages(별도 저장소 junglegcc/junglegcc.github.io) https://junglegcc.github.io/ — 릴스마다 그 저장소의 `p/<slug>/index.html` 1장(제목·따라 하기 3단계·복사 버튼 프롬프트 5개·팁·팔로우 버튼)을 만들고 첫 화면 목록에 카드를 추가한다.
 - 해시태그 개수 제한 없음(5개 규칙 폐기). 도구 이름 한·영 + 활용어 + 주제어 5~10개.
 - 벤치마크 계정(gpt_haterz, adu.aihub, lazy_owen, oaiwan.kr, sebia.ai, trenddalkak.ai, grappt_, ai_newpd, ai.trend.kr, pickit_.official, joshproductletter)이 이미 하고 있는 방식은 자체적으로 제한하지 않고 따른다(2026-11-13 사용자 지시). '디자인 복제 금지' 규칙은 폐기했다. 사칭(남의 계정인 척), 남의 캡션 원문·이미지 저장, Anthropic 픽셀 마스코트 등 남의 캐릭터 사용, 유료 결제는 계속 하지 않는다.
 - 인스타 둘러보기는 개인 계정 @wig_glwiggl로 하고(필요하면 계정 전환 후 되돌림), 브라우저는 monkeywarr12345 gmail로 로그인된 집 Chrome만 쓴다(회사 노트북 브라우저 금지).
