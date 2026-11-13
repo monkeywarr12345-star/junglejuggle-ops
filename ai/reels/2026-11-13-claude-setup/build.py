@@ -25,7 +25,7 @@ LINES = [
     ("s9", "이 다섯 개, 전부 무료 플랜에서 돼요.", "이 5개, 전부 **무료 플랜**에서 돼요.", "개인정보 · 지시사항 · 메모리 · 파일 생성 · 웹 검색", P0, ""),
     ("s10", "팔로우하고 댓글에 세팅, 남기면 설정 위치 전체본 디엠으로 보내드려요.", "팔로우하고 댓글에 **'세팅'** 남기면 설정 위치 전체본 DM으로 보내드려요.", "메뉴 위치 + 바로 쓰는 지시사항 문구까지", "설정법 보내 드려요", ""),
 ]
-LEAD, GAP, TAIL = 0.12, 0.18, 1.4
+LEAD, GAP, TAIL = 0.05, 0.07, 1.4
 
 
 def chunks(text):
@@ -98,7 +98,7 @@ def main():
         "pop": [0.45, W("s2", 0.3), W("s2", 0.4), W("s2", 0.5), W("s3", 0.75), W("s6", 0.3), W("s6", 0.45), W("s6", 0.6), W("s7", 0.55), W("s7", 0.7), W("s8", 0.35), W("s8", 0.6), W("s10", 0.25), W("s10", 0.6)],
         "tick": [W("s9", 0.1) + 0.2 * k for k in range(5)],
         "type0": W("s5", 0.3), "type1": W("s5", 0.65), "send": W("s5", 0.68),
-        "swish": [W("s4", 0.1), W("s6", 0.8)], "count0": W("s10", 0.72) - 1.0,
+        "swish": [W("s4", 0.1), W("s6", 0.8)] + [w[0] for w in words if "<b>" in w[2]], "count0": W("s10", 0.72) - 1.0,
     }
     sf.write(os.path.join(out, "sfx.wav"), v4.synth_sfx(sfx, dur), SR)
     json.dump(tl, open(os.path.join(out, "timeline.json"), "w"), ensure_ascii=False, indent=1)
