@@ -1,0 +1,17 @@
+{
+  "keyword": "구독",
+  "keywords_also": ["구독료", "구독!"],
+  "comment_replies": ["DM 보냈어요 📩", "확인해 보세요! 📩", "보내드렸어요 🎁"],
+  "follow_gate": {
+    "text": "댓글 고마워요! 자료는 팔로우한 분께만 보내드려요 🙏 팔로우하셨다면 아래 버튼을 눌러 주세요.",
+    "button": "팔로우했어요",
+    "not_following": "아직 팔로우가 안 보여요. 프로필에서 팔로우하고 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "구독료 정리 프롬프트 전체본",
+    "subtitle": "복사해서 바로 쓰는 프롬프트 5개 + 따라 하기 3단계",
+    "button": "자료 열기",
+    "url": "https://monkeywarr12345-star.github.io/junglejuggle-ops/p/subscription/"
+  },
+  "target": "next_post"
+}
