@@ -344,8 +344,8 @@
       tl.to("#fbtn", { backgroundColor: "#4a3f39", scale: 0.94, duration: 0.15 }, tF);
       tl.to("#fbtn", { scale: 1, duration: 0.2 }, tF + 0.15);
       tl.to("#fbtn .a", { opacity: 0, duration: 0.1 }, tF); tl.to("#fbtn .b", { opacity: 1, duration: 0.1 }, tF);
-      const kw = T.kw; for (let i = 1; i <= kw.length; i++) tl.set("#kwt", { textContent: kw.slice(0, i) }, tC + i * 0.12);
-      tl.set("#kwt", { textContent: "" }, 0);
+      const kwt = document.getElementById("kwt");
+      [...T.kw].forEach((ch, i) => { const sp = document.createElement("span"); sp.id = "kw" + i; sp.textContent = ch; sp.style.visibility = "hidden"; kwt.appendChild(sp); tl.set("#kw" + i, { visibility: "visible" }, tC + (i + 1) * 0.14); });
       pop("#dm", tD, { y: 60 });
       tl.set("#fw", { className: "card glow" }, tD);
 
