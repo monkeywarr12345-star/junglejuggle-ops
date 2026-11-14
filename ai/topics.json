@@ -29,7 +29,10 @@
    "tool": "ChatGPT",
    "keyword": "명령어",
    "evidence": "grappt_ ChatGPT 비밀코드 5개 23.8x(댓글 7.5만)",
-   "status": "todo"
+   "status": "done",
+   "reel": "2026-11-14-chatgpt-commands",
+   "publish_at": "2026-11-14T18:00:00+09:00",
+   "note": "명령어 5개(ELI5·TL;DR·역할·단계별로·먼저 질문) — 공식 기능이 아닌 프롬프트 표현임을 캡션·자료에 명시"
   },
   {
    "n": 4,
