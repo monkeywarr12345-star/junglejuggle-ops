@@ -1,0 +1,68 @@
+name: research kaggle gpu video (experiment branch only)
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/tools/kaggle/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  kaggle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KSECRET: ${{ secrets.KAGGLE_KEY }}
+      SLUG: jj-wan22-i2v
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: sudo apt-get install -y -qq ffmpeg >/dev/null || true
+      - name: auth
+        run: |
+          pip install -q -U kaggle
+          [ -n "$KAGGLE_USERNAME" ] && [ -n "$KSECRET" ] || { echo "KAGGLE_USERNAME / KAGGLE_KEY secret missing"; exit 1; }
+          mkdir -p ~/.kaggle
+          case "$KSECRET" in
+            KGAT_*) echo "token style: new"; echo "KAGGLE_API_TOKEN=$KSECRET" >> $GITHUB_ENV; printf '%s' "$KSECRET" > ~/.kaggle/access_token ;;
+            *) echo "token style: legacy"; printf '{"username":"%s","key":"%s"}' "$KAGGLE_USERNAME" "$KSECRET" > ~/.kaggle/kaggle.json ;;
+          esac
+          chmod 600 ~/.kaggle/* ; kaggle --version
+      - name: push kernel
+        run: |
+          kaggle kernels list --mine --page-size 5 || true
+          D=/tmp/kpush; mkdir -p $D; cp research/tools/kaggle/kernel.py $D/
+          cat > $D/kernel-metadata.json <<EOF
+          {"id": "$KAGGLE_USERNAME/$SLUG", "title": "$SLUG", "code_file": "kernel.py", "language": "python",
+           "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": true,
+           "dataset_sources": [], "competition_sources": [], "kernel_sources": [], "model_sources": []}
+          EOF
+          ACC=""; kaggle kernels push --help 2>&1 | grep -q -- "--accelerator" && ACC="--accelerator NvidiaTeslaT4"
+          kaggle kernels push -p $D $ACC
+      - name: wait
+        run: |
+          sleep 60
+          for i in $(seq 1 330); do
+            S=$(kaggle kernels status $KAGGLE_USERNAME/$SLUG 2>&1 | tail -1); echo "$(date +%H:%M) $S"
+            echo "$S" | grep -qiE 'complete|error|cancel' && break; sleep 60
+          done
+      - name: collect
+        if: always()
+        run: |
+          OUT=research/results/kaggle; mkdir -p $OUT /tmp/kout
+          kaggle kernels output $KAGGLE_USERNAME/$SLUG -p /tmp/kout || true
+          ls -la /tmp/kout
+          cp /tmp/kout/*.mp4 /tmp/kout/status.json $OUT/ 2>/dev/null || true
+          for f in /tmp/kout/*.log; do [ -f "$f" ] && tail -c 20000 "$f" > $OUT/kernel_log_tail.txt; done
+          for f in $OUT/*.mp4; do [ -f "$f" ] || continue; b=${f%.mp4}
+            D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
+            for k in 0 1 2 3 4 5; do ffmpeg -nostdin -y -loglevel error -ss $(python -c "print(round($D*$k/6,2))") -i "$f" -frames:v 1 -vf scale=240:-1 /tmp/c$k.png; done
+            ffmpeg -nostdin -y -loglevel error -i /tmp/c%d.png -vf tile=6x1:padding=4:color=white -frames:v 1 ${b}_contact.jpg; done
+          ls -la $OUT
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/kaggle && git commit -qm "research: kaggle gpu i2v" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -q && git push -q && break; sleep 15; done
