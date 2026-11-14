@@ -20,12 +20,26 @@ gpu = sh("nvidia-smi --query-gpu=name,memory.total,compute_cap --format=csv,nohe
 note(step="gpu", gpu=gpu, cpus=os.cpu_count())
 cap = (gpu[0].split(",")[-1].strip().replace(".", "") if gpu else "") or "75"
 
+def find_sd():
+    return next((p for p in (f"{T}/sd/build/bin/sd-cli", f"{T}/sd/build/bin/sd") if os.path.exists(p)), None)
+
+# Kaggle images ship the real driver lib under /usr/local/nvidia/lib64 and no CUDA stubs,
+# so CMake's CUDA::cuda_driver target is missing unless we point at it.
+libcuda = next((f"{d}/libcuda.so" for d in ("/usr/local/nvidia/lib64", "/usr/local/cuda/lib64/stubs",
+                "/usr/lib/x86_64-linux-gnu", "/usr/local/cuda/lib64") if os.path.exists(f"{d}/libcuda.so")), "")
+drv = f"-DCUDA_cuda_driver_LIBRARY={libcuda}" if libcuda else ""
 t = time.time()
-r = sh(f"git clone -q --recursive --depth 1 https://github.com/leejet/stable-diffusion.cpp {T}/sd && cd {T}/sd && "
-       f"cmake -B build -DCMAKE_BUILD_TYPE=Release -DSD_CUDA=ON -DCMAKE_CUDA_ARCHITECTURES={cap} > {T}/cmake.log 2>&1 && "
-       f"cmake --build build -j{os.cpu_count()} --config Release > {T}/build.log 2>&1; tail -c 1500 {T}/cmake.log {T}/build.log")
-sd = next((p for p in (f"{T}/sd/build/bin/sd-cli", f"{T}/sd/build/bin/sd") if os.path.exists(p)), None)
-note(step="build", sec=round(time.time() - t), ok=bool(sd), tail=(r.stdout + r.stderr)[-1500:])
+r = None
+if not find_sd():
+    if not os.path.exists(f"{T}/sd"):
+        sh(f"git clone -q --recursive --depth 1 https://github.com/leejet/stable-diffusion.cpp {T}/sd")
+    r = sh(f"cd {T}/sd && rm -rf build && "
+           f"cmake -B build -DCMAKE_BUILD_TYPE=Release -DSD_CUDA=ON -DCMAKE_CUDA_ARCHITECTURES={cap} {drv} > {T}/cmake.log 2>&1 && "
+           f"cmake --build build -j{os.cpu_count()} --config Release > {T}/build.log 2>&1; "
+           f"grep -iE 'error' {T}/cmake.log {T}/build.log | head -20; tail -c 800 {T}/build.log")
+sd = find_sd()
+note(step="build", sec=round(time.time() - t), ok=bool(sd), libcuda=libcuda,
+     tail=((r.stdout + r.stderr)[-1500:] if r else "reused"))
 if not sd:
     sys.exit(1)
 
