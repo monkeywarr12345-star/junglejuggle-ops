@@ -1,0 +1,84 @@
+[
+ {
+  "step": "gpu",
+  "gpu": [
+   "Tesla T4, 15360 MiB, 7.5",
+   "Tesla T4, 15360 MiB, 7.5"
+  ],
+  "cpus": 4
+ },
+ {
+  "step": "build",
+  "sec": 2370,
+  "ok": true,
+  "libcuda": "/usr/local/nvidia/lib64/libcuda.so",
+  "tail": "/tmp/jj/build.log:[  4%] Building C object thirdparty/CMakeFiles/onig.dir/oniguruma/regerror.c.o\nkeFiles/sd-server.dir/runtime.cpp.o\n[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/model_catalog.cpp.o\n[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_models.cpp.o\n[ 98%] Linking CXX executable ../../bin/sd-cli\n[ 98%] Built target sd-cli\n[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/async_jobs.cpp.o\n[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_index.cpp.o\n[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_openai.cpp.o\n[100%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_sdapi.cpp.o\n[100%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_sdcpp.cpp.o\n[100%] Linking CXX executable ../../bin/sd-server\n[100%] Built target sd-server\n"
+ },
+ {
+  "step": "gen",
+  "tag": "q4_480p",
+  "job": 0,
+  "quant": "Q4_K_M",
+  "size": "480x832",
+  "frames": 33,
+  "steps": 20,
+  "sec": 171,
+  "rc": 0,
+  "files": [
+   "q4_480p_0.avi"
+  ],
+  "mp4": true,
+  "tail": "=========================>            | 15/20 -   6.17s/it - ETA 00:29\u001b[K\n  |========================================>         | 16/20 -   6.22s/it - ETA 00:24\u001b[K\n  |==========================================>       | 17/20 -   6.26s/it - ETA 00:18\u001b[K\n  |=============================================>    | 18/20 -   6.31s/it - ETA 00:12\u001b[K\n  |===============================================>  | 19/20 -   6.35s/it - ETA 00:06\u001b[K\n  |==================================================| 20/20 -   6.39s/it\u001b[K\n[I] sampling completed, taking 121.46s --- video.cpp:2028\n[I] generating latent video completed, taking 121.50s --- video.cpp:2198\n[I] wan_vae build cached graph cut plan done (taking 3 ms) --- ggml_graph_cut.cpp:1032\n\n  |####################                              |  42/110 -   2.15GB/s\u001b[K\n  |###########################################       |  93/110 -   2.49GB/s\u001b[K\n  |##################################################| 110/110 -   1.72GB/s\u001b[K\n[I] loading tensors completed, taking 0.60s (read: 0.12s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.19s) --- model_loader.cpp:1437\n[I] decode_first_stage completed, taking 40.95s --- video.cpp:1293\n[I] generate_video completed in 166.28s --- video.cpp:2286\n[I] save result video to '/tmp/jj/q4_480p_0.avi' --- main.cpp:560\nggml_cuda_init: found 2 CUDA devices (Total VRAM: 29823 MiB):\n  Device 0: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n  Device 1: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n"
+ },
+ {
+  "step": "gen",
+  "tag": "q4_480p",
+  "job": 1,
+  "quant": "Q4_K_M",
+  "size": "480x832",
+  "frames": 33,
+  "steps": 20,
+  "sec": 177,
+  "rc": 0,
+  "files": [
+   "q4_480p_1.avi"
+  ],
+  "mp4": true,
+  "tail": "=========================>            | 15/20 -   6.44s/it - ETA 00:32\u001b[K\n  |========================================>         | 16/20 -   6.45s/it - ETA 00:26\u001b[K\n  |==========================================>       | 17/20 -   6.44s/it - ETA 00:19\u001b[K\n  |=============================================>    | 18/20 -   6.45s/it - ETA 00:13\u001b[K\n  |===============================================>  | 19/20 -   6.45s/it - ETA 00:06\u001b[K\n  |==================================================| 20/20 -   6.46s/it\u001b[K\n[I] sampling completed, taking 130.28s --- video.cpp:2028\n[I] generating latent video completed, taking 130.32s --- video.cpp:2198\n[I] wan_vae build cached graph cut plan done (taking 3 ms) --- ggml_graph_cut.cpp:1032\n\n  |#################                                 |  36/110 -   1.62GB/s\u001b[K\n  |##################################                |  74/110 -   2.27GB/s\u001b[K\n  |##################################################| 110/110 -   1.72GB/s\u001b[K\n[I] loading tensors completed, taking 0.60s (read: 0.12s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.22s) --- model_loader.cpp:1437\n[I] decode_first_stage completed, taking 40.44s --- video.cpp:1293\n[I] generate_video completed in 174.68s --- video.cpp:2286\n[I] save result video to '/tmp/jj/q4_480p_1.avi' --- main.cpp:560\nggml_cuda_init: found 2 CUDA devices (Total VRAM: 29823 MiB):\n  Device 0: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n  Device 1: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n"
+ },
+ {
+  "step": "gen",
+  "tag": "q8_720p",
+  "job": 0,
+  "quant": "Q8_0",
+  "size": "704x1280",
+  "frames": 81,
+  "steps": 30,
+  "sec": 2351,
+  "rc": 0,
+  "files": [
+   "q8_720p_0.avi"
+  ],
+  "mp4": true,
+  "tail": "        | 24/36 -  16.93s/it - ETA 03:23\u001b[K\n  |==================================>               | 25/36 -  16.88s/it - ETA 03:06\u001b[K\n  |====================================>             | 26/36 -  16.90s/it - ETA 02:49\u001b[K\n  |=====================================>            | 27/36 -  16.95s/it - ETA 02:32\u001b[K\n  |======================================>           | 28/36 -  16.90s/it - ETA 02:15\u001b[K\n  |========================================>         | 29/36 -  16.92s/it - ETA 01:58\u001b[K\n  |=========================================>        | 30/36 -  16.91s/it - ETA 01:41\u001b[K\n  |===========================================>      | 31/36 -  16.96s/it - ETA 01:24\u001b[K\n  |============================================>     | 32/36 -  16.89s/it - ETA 01:07\u001b[K\n  |=============================================>    | 33/36 -  16.94s/it - ETA 00:50\u001b[K\n  |===============================================>  | 34/36 -  16.93s/it - ETA 00:33\u001b[K\n  |================================================> | 35/36 -  16.94s/it - ETA 00:16\u001b[K\n  |==================================================| 36/36 -  16.86s/it\u001b[K\n[I] decode_first_stage completed, taking 611.34s --- video.cpp:1293\n[I] generate_video completed in 2347.52s --- video.cpp:2286\n[I] save result video to '/tmp/jj/q8_720p_0.avi' --- main.cpp:560\nggml_cuda_init: found 2 CUDA devices (Total VRAM: 29823 MiB):\n  Device 0: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n  Device 1: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n"
+ },
+ {
+  "step": "gen",
+  "tag": "q8_720p",
+  "job": 1,
+  "quant": "Q8_0",
+  "size": "704x1280",
+  "frames": 81,
+  "steps": 30,
+  "sec": 2356,
+  "rc": 0,
+  "files": [
+   "q8_720p_1.avi"
+  ],
+  "mp4": true,
+  "tail": "        | 24/36 -  17.01s/it - ETA 03:24\u001b[K\n  |==================================>               | 25/36 -  16.99s/it - ETA 03:07\u001b[K\n  |====================================>             | 26/36 -  17.00s/it - ETA 02:50\u001b[K\n  |=====================================>            | 27/36 -  16.96s/it - ETA 02:33\u001b[K\n  |======================================>           | 28/36 -  16.95s/it - ETA 02:16\u001b[K\n  |========================================>         | 29/36 -  16.96s/it - ETA 01:59\u001b[K\n  |=========================================>        | 30/36 -  16.99s/it - ETA 01:42\u001b[K\n  |===========================================>      | 31/36 -  16.96s/it - ETA 01:25\u001b[K\n  |============================================>     | 32/36 -  16.91s/it - ETA 01:08\u001b[K\n  |=============================================>    | 33/36 -  16.95s/it - ETA 00:51\u001b[K\n  |===============================================>  | 34/36 -  16.91s/it - ETA 00:34\u001b[K\n  |================================================> | 35/36 -  16.92s/it - ETA 00:17\u001b[K\n  |==================================================| 36/36 -  16.90s/it\u001b[K\n[I] decode_first_stage completed, taking 612.87s --- video.cpp:1293\n[I] generate_video completed in 2352.86s --- video.cpp:2286\n[I] save result video to '/tmp/jj/q8_720p_1.avi' --- main.cpp:560\nggml_cuda_init: found 2 CUDA devices (Total VRAM: 29823 MiB):\n  Device 0: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n  Device 1: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n"
+ },
+ {
+  "step": "done"
+ }
+]
