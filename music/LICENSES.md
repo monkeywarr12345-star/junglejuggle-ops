@@ -5,6 +5,11 @@ CC BY/BY-SA 곡은 캡션에 크레딧(곡명 - 아티스트, 라이선스)을 �
 
 | 파일 | 곡 | 아티스트 | 라이선스 | 원본 | 추가일 |
 | --- | --- | --- | --- | --- | --- |
+| music/library/upbeat/tryad-alone-648616.mp3 | Alone | Tryad | CC BY-SA 2.5 | https://www.jamendo.com/track/26738 | 2026-11-14 |
+| music/library/upbeat/devon-elizabeth-nothing-new-bf7d0f.mp3 | Nothing New | Devon Elizabeth | CC BY 3.0 | https://www.jamendo.com/track/1227192 | 2026-11-14 |
+| music/library/upbeat/david-amber-i-luv-it-feat-ashley-jana-421431.mp3 | i LuV iT (feat. Ashley Jana) | David Amber | CC BY 3.0 | https://www.jamendo.com/track/1243461 | 2026-11-14 |
+| music/library/upbeat/lawrence-beamen-looking-for-me-08fbf0.mp3 | Looking For Me | LAWRENCE BEAMEN | CC BY-SA 3.0 | https://www.jamendo.com/track/1439531 | 2026-11-14 |
+| music/library/upbeat/urtzi-azkue-tell-me-feat-khaoula-bouchkhi-43db0f.mp3 | Tell Me (feat Khaoula Bouchkhi) | Urtzi Azkue | CC BY-SA 3.0 | https://www.jamendo.com/track/508903 | 2026-11-14 |
 | music/library/upbeat/felixjd-make-believe-aa349a.mp3 | Make Believe | Felixjd | CC BY 3.0 | https://www.jamendo.com/track/366748 | 2026-11-09 |
 | music/library/upbeat/manhat10-dreams-822c17.mp3 | Dreams | Manhat10 | CC BY 3.0 | https://www.jamendo.com/track/1215808 | 2026-11-09 |
 | music/library/upbeat/neon-niteclub-i-want-you-d485c8.mp3 | I Want You | Neon NiteClub | CC BY-SA 3.0 | https://www.jamendo.com/track/1187780 | 2026-11-09 |
@@ -21,14 +26,21 @@ CC BY/BY-SA 곡은 캡션에 크레딧(곡명 - 아티스트, 라이선스)을 �
 | music/library/upbeat/david-amber-gnarly-feat-devyn-rush-378c83.mp3 | Gnarly (feat. Devyn Rush) | David Amber | CC BY 3.0 | https://www.jamendo.com/track/1243462 | 2026-11-08 |
 | music/library/upbeat/manhat10-dance-with-me-be4a20.mp3 | Dance with me | Manhat10 | CC BY 3.0 | https://www.jamendo.com/track/1215805 | 2026-11-08 |
 | music/library/upbeat/tom-orlando-love-you-anymore-feat-seven-484025.mp3 | Love You Anymore (feat. Seven) | Tom Orlando | CC BY-SA 3.0 | https://www.jamendo.com/track/2180016 | 2026-11-08 |
-| music/library/upbeat/professor-kliq-museum-fakeout-funk-db6e37.mp3 | Museum (Fakeout Funk) | Professor Kliq | CC BY-SA 3.0 | https://www.jamendo.com/track/925452 | 2026-11-08 |
 | music/library/upbeat/vienna-in-love-anima-pop-ink-baab43.mp3 | Anima Pop - Ink | Vienna In Love | CC BY-SA 3.0 | https://www.jamendo.com/track/665946 | 2026-11-08 |
-| music/library/upbeat/rudyseb-india-funk-89d7f1.mp3 | India Funk | RudySeb | CC BY-SA 2.0 | https://www.jamendo.com/track/178481 | 2026-11-08 |
 | music/library/upbeat/lollita-i-want-you-pop-rock-remix-4ae23d.mp3 | I want you (pop rock remix) | Lollita | CC BY-SA 3.0 | https://www.jamendo.com/track/1015339 | 2026-11-08 |
 | music/library/upbeat/hasenchat-all-my-life-male-pop-mix-d42ba7.mp3 | All my Life ( Male Pop Mix ) | Hasenchat | CC BY-SA 3.0 | https://www.jamendo.com/track/1270845 | 2026-11-08 |
-| music/library/upbeat/quot-quot-4d61f2.mp3 | Ты меня не понимаешь (инструментал) | Группа "Группа" НСК | CC BY-SA 3.0 | https://www.jamendo.com/track/1531937 | 2026-11-08 |
 | music/library/upbeat/seth-power-only-life-68e7d5.mp3 | Only Life | Seth Power | CC BY 3.0 | https://www.jamendo.com/track/1483589 | 2026-11-08 |
 | music/library/upbeat/lilly-wolf-nightmare-277a3b.mp3 | Nightmare | Lilly Wolf | CC BY 3.0 | https://www.jamendo.com/track/1093610 | 2026-11-08 |
+| music/library/tense/a-virtual-friend-paris-la-nuit-f82a5e.mp3 | Paris La Nuit | A Virtual Friend | CC BY 3.0 | https://www.jamendo.com/track/1217479 | 2026-11-14 |
+| music/library/tense/wordsmith-fill-the-space-95c7c1.mp3 | Fill the Space | Wordsmith | CC BY 3.0 | https://www.jamendo.com/track/1490068 | 2026-11-14 |
+| music/library/tense/wordsmith-on-the-come-up-b172b5.mp3 | On the Come Up | Wordsmith | CC BY 3.0 | https://www.jamendo.com/track/1564155 | 2026-11-14 |
+| music/library/tense/a-virtual-friend-clair-obscur-3f9911.mp3 | Clair Obscur | A Virtual Friend | CC BY 3.0 | https://www.jamendo.com/track/2043553 | 2026-11-14 |
+| music/library/tense/kidd-young-paradise-featuring-scolla-cbb641.mp3 | Paradise (Featuring Scolla) | Kidd Young | CC BY-SA 3.0 | https://www.jamendo.com/track/1157594 | 2026-11-14 |
+| music/library/tense/zero-project-pass-me-by-feat-konnie-689ae5.mp3 | Pass me by (feat. Konnie) | zero-project | CC BY 3.0 | https://www.jamendo.com/track/2250638 | 2026-11-14 |
+| music/library/tense/jason-silver-bye-bye-love-b31628.mp3 | Bye Bye Love | Jason Silver | CC BY-SA 3.0 | https://www.jamendo.com/track/398186 | 2026-11-14 |
+| music/library/tense/finn-anderson-some-days-99134a.mp3 | Some Days | Finn Anderson | CC BY 3.0 | https://www.jamendo.com/track/1442650 | 2026-11-14 |
+| music/library/tense/dj-fubu-g-our-fubu-g-09-fubu-entre-nos-9e0449.mp3 | 09 Fubu - Entre Nos | Dj Fubu G our Fubu G | CC BY-SA 3.0 | https://www.jamendo.com/track/1172514 | 2026-11-14 |
+| music/library/tense/mkhlsdrv-mkhlsdrv-hold-the-secret-17c27a.mp3 | MKHLSDRV — Hold the Secret | MKHLSDRV | CC BY-SA 3.0 | https://www.jamendo.com/track/1916494 | 2026-11-14 |
 | music/library/tense/melanie-ungar-what-is-love-7872ad.mp3 | What Is Love | Melanie Ungar | CC BY 3.0 | https://www.jamendo.com/track/1204669 | 2026-11-09 |
 | music/library/tense/chaz-robinson-love-will-come-back-again-f6eb10.mp3 | Love Will Come Back Again | Chaz Robinson | CC BY-SA 3.0 | https://www.jamendo.com/track/1141572 | 2026-11-09 |
 | music/library/tense/modern-pitch-boys-girls-toys-words-fb1ecf.mp3 | Boys, Girls, Toys & Words | Modern Pitch | CC BY-SA 3.0 | https://www.jamendo.com/track/1165005 | 2026-11-09 |
@@ -40,22 +52,21 @@ CC BY/BY-SA 곡은 캡션에 크레딧(곡명 - 아티스트, 라이선스)을 �
 | music/library/tense/jonathan-dimmel-have-i-wasted-93aa66.mp3 | Have I Wasted | Jonathan Dimmel | CC BY-SA 3.0 | https://www.jamendo.com/track/938327 | 2026-11-09 |
 | music/library/tense/lollita-lollita-on-flawless-de559e.mp3 | Lollita On Flawless | Lollita | CC BY-SA 3.0 | https://www.jamendo.com/track/1255497 | 2026-11-09 |
 | music/library/tense/pokki-dj-born-free-b5b987.mp3 | Born Free | Pokki DJ | CC BY 3.0 | https://www.jamendo.com/track/1179546 | 2026-11-08 |
-| music/library/tense/daniel-bautista-symphony-no-7-in-g-minor-op-32-mov-a501c1.mp3 | Symphony No. 7 in G minor, Op. 32 (Movement 1, Molto Allegro) | Daniel Bautista | CC BY 3.0 | https://www.jamendo.com/track/2126275 | 2026-11-08 |
-| music/library/tense/jamvortix-mirage-c2368d.mp3 | Mirage | Jamvortix | CC BY-SA 3.0 | https://www.jamendo.com/track/1973408 | 2026-11-08 |
 | music/library/tense/muciojad-time-to-army-b06467.mp3 | Time To Army | Muciojad | CC BY-SA 3.0 | https://www.jamendo.com/track/1250890 | 2026-11-08 |
 | music/library/tense/zero-project-lux-aeterna-b844db.mp3 | Lux aeterna | zero-project | CC BY 3.0 | https://www.jamendo.com/track/703935 | 2026-11-08 |
-| music/library/tense/jos-montoya-ignis-dei-96c1a4.mp3 | Ignis Dei | José Montoya | CC BY-SA 3.0 | https://www.jamendo.com/track/1407851 | 2026-11-08 |
-| music/library/tense/jahzzar-cinematic-d284da.mp3 | Cinematic | Jahzzar | CC BY-SA 3.0 | https://www.jamendo.com/track/918921 | 2026-11-08 |
-| music/library/tense/arnaud-cond-posthumus-regnum-trailer-edit-e694aa.mp3 | Posthumus Regnum (trailer edit) | Arnaud Condé | CC BY-SA 3.0 | https://www.jamendo.com/track/898544 | 2026-11-08 |
-| music/library/tense/digital-content-project-cinematic-hip-hop-1-1f2a8f.mp3 | Cinematic Hip Hop #1 | Digital Content Project | CC BY-SA 3.0 | https://www.jamendo.com/track/967006 | 2026-11-08 |
-| music/library/tense/e-erkut-dark-moment-dark-epic-trailer-1fc0ec.mp3 | Dark Moment - Dark Epic Trailer | E. Erkut | CC BY 3.0 | https://www.jamendo.com/track/1308699 | 2026-11-08 |
-| music/library/tense/digital-content-project-cinematic-hip-hop-2-59c41a.mp3 | Cinematic Hip Hop #2 | Digital Content Project | CC BY-SA 3.0 | https://www.jamendo.com/track/967010 | 2026-11-08 |
-| music/library/tense/zero-project-the-return-of-the-king-7d6c42.mp3 | The return of the king | zero-project | CC BY 3.0 | https://www.jamendo.com/track/1901345 | 2026-11-08 |
 | music/library/tense/zero-project-lux-aeterna-9f427a.mp3 | Lux aeterna | zero-project | CC BY 3.0 | https://www.jamendo.com/track/703935 | 2026-11-08 |
-| music/library/tense/eddy-j-dark-matter-dark-electronic-asian-207023.mp3 | Dark Matter - Dark Electronic Asian | Eddy J | CC BY 3.0 | https://www.jamendo.com/track/1182871 | 2026-11-08 |
 | music/library/tense/pal-zoltan-illes-a-drama-of-hope-romantic-dramatic-d1fd34.mp3 | A Drama Of Hope (Romantic, Dramatic) | Pal Zoltan Illes | CC BY-SA 3.0 | https://www.jamendo.com/track/875313 | 2026-11-08 |
-| music/library/tense/hardcore-scm-electron-wake-techno-f7c492.mp3 | Electron Wake [techno] | Hardcore Scm | CC BY 3.0 | https://www.jamendo.com/track/1196244 | 2026-11-08 |
 | music/library/tense/pal-zoltan-illes-tainted-vision-dramatic-1f1120.mp3 | Tainted Vision (Dramatic) | Pal Zoltan Illes | CC BY-SA 3.0 | https://www.jamendo.com/track/875314 | 2026-11-08 |
+| music/library/chill/madelyn-munsell-street-signs-and-white-lies-1d0033.mp3 | Street Signs and White Lies | madelyn munsell | CC BY 3.0 | https://www.jamendo.com/track/1174820 | 2026-11-14 |
+| music/library/chill/law-les-files-d-attente-cd889d.mp3 | Les files d'attente | Law' | CC BY-SA 3.0 | https://www.jamendo.com/track/964535 | 2026-11-14 |
+| music/library/chill/zero-project-blind-girl-feat-dia-yiannopoulou-87e16e.mp3 | Blind girl (feat. Dia Yiannopoulou) | zero-project | CC BY 3.0 | https://www.jamendo.com/track/1870772 | 2026-11-14 |
+| music/library/chill/pierce-murphy-athens-f82aa5.mp3 | Athens | Pierce Murphy | CC BY 3.0 | https://www.jamendo.com/track/1860165 | 2026-11-14 |
+| music/library/chill/josh-woodward-the-parade-6a8ee0.mp3 | The Parade | Josh Woodward | CC BY 3.0 | https://www.jamendo.com/track/162027 | 2026-11-14 |
+| music/library/chill/bayard-russell-i-know-cc46e3.mp3 | I Know | Bayard Russell | CC BY-SA 3.0 | https://www.jamendo.com/track/1033252 | 2026-11-14 |
+| music/library/chill/sevennotes-lights-lounge-piano-ab3c2c.mp3 | Lights Lounge Piano | Sevennotes | CC BY 3.0 | https://www.jamendo.com/track/2011896 | 2026-11-14 |
+| music/library/chill/lenny-wiles-lionstar-galaxy-bandstand-secret-of-th-646109.mp3 | Secret Of The Stars - Quasar Light - Experience This - 80s Vinyl LP | Lenny Wiles Lionstar GALAXY BANDSTAND | CC BY 3.0 | https://www.jamendo.com/track/1497980 | 2026-11-14 |
+| music/library/chill/pokki-dj-energy-d3f628.mp3 | Energy | Pokki DJ | CC BY 3.0 | https://www.jamendo.com/track/1129271 | 2026-11-14 |
+| music/library/chill/carl-friedrich-von-steegen-gipsy-df3dcb.mp3 | Gipsy | Carl-Friedrich von Steegen | CC BY-SA 2.0 | https://www.jamendo.com/track/1163315 | 2026-11-14 |
 | music/library/chill/tryad-struttin-196415.mp3 | Struttin' | Tryad | CC BY-SA 2.5 | https://www.jamendo.com/track/26736 | 2026-11-09 |
 | music/library/chill/lollita-lollita-don-t-let-me-go-feat-youngbirdy-eb8415.mp3 | Lollita Don't Let Me Go feat. Youngbirdy | Lollita | CC BY-SA 2.0 | https://www.jamendo.com/track/1103000 | 2026-11-09 |
 | music/library/chill/madelyn-munsell-leave-and-never-look-back-d33b10.mp3 | Leave and Never Look Back | madelyn munsell | CC BY 3.0 | https://www.jamendo.com/track/1174817 | 2026-11-09 |
@@ -70,11 +81,3 @@ CC BY/BY-SA 곡은 캡션에 크레딧(곡명 - 아티스트, 라이선스)을 �
 | music/library/chill/intoxicated-piano-mr-mrs-rains-802107.mp3 | Mr.&Mrs Rains | Intoxicated Piano | CC BY-SA 3.0 | https://www.jamendo.com/track/1070219 | 2026-11-08 |
 | music/library/chill/studybreak-waves-d127f9.mp3 | Waves | studyBreak | CC BY-SA 3.0 | https://www.jamendo.com/track/1234661 | 2026-11-08 |
 | music/library/chill/snowflake-ccmixter-winter-sunlight-airtone-feat-le-f2956a.mp3 | Winter Sunlight (airtone feat. Leza2unes) | Snowflake & ccMixter | CC BY 3.0 | https://www.jamendo.com/track/472893 | 2026-11-08 |
-| music/library/chill/sbut-lounge-intro-edit-1dfe83.mp3 | Lounge (Intro Edit) | SBUT | CC BY-SA 3.0 | https://www.jamendo.com/track/340067 | 2026-11-08 |
-| music/library/chill/luke-mckenty-after-work-chillout-a9dafe.mp3 | After Work Chillout | Luke McKenty | CC BY-SA 3.0 | https://www.jamendo.com/track/828263 | 2026-11-08 |
-| music/library/chill/jahzzar-lounge-efb76d.mp3 | Lounge | Jahzzar | CC BY-SA 3.0 | https://www.jamendo.com/track/327323 | 2026-11-08 |
-| music/library/chill/mazelo-nostra-bang-bang-lazy-hammock-chillout-mix--934b14.mp3 | Bang Bang (Lazy Hammock Chillout Mix) - Jean Honeymoon | Mazelo Nostra | CC BY-SA 3.0 | https://www.jamendo.com/track/1478851 | 2026-11-08 |
-| music/library/chill/mazelo-nostra-jazz-cantina-7cfee6.mp3 | Jazz Cantina | Mazelo Nostra | CC BY-SA 3.0 | https://www.jamendo.com/track/1227396 | 2026-11-08 |
-| music/library/chill/astroshroom-lofi-house-480aed.mp3 | Lofi House | AstroShroom | CC BY-SA 3.0 | https://www.jamendo.com/track/1356703 | 2026-11-08 |
-| music/library/chill/stellar-art-wars-free-license-group-8-acoustic-gui-9d8070.mp3 | group 8 acoustic guitar (master) | Stellar Art Wars Free License | CC BY 3.0 | https://www.jamendo.com/track/465206 | 2026-11-08 |
-| music/library/chill/adele-vivari-parler-l-invisible-ambient-piano-requ-1c75b7.mp3 | Parler à l'Invisible (Ambient Piano Requiem) | Adele Vivari | CC BY-SA 3.0 | https://www.jamendo.com/track/2325550 | 2026-11-08 |
