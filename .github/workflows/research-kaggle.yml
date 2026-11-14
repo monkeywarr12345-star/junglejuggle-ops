@@ -4,6 +4,10 @@ on:
     branches: [research/ai-tools-2026-11]
     paths: ['research/tools/kaggle/**']
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'push = push kernel and wait; collect = only download latest version output'
+        default: push
 permissions:
   contents: write
 jobs:
@@ -30,6 +34,7 @@ jobs:
           esac
           chmod 600 ~/.kaggle/* ; kaggle --version
       - name: push kernel
+        if: ${{ github.event.inputs.mode != 'collect' }}
         run: |
           kaggle kernels list --mine --page-size 5 || true
           D=/tmp/kpush; mkdir -p $D; cp research/tools/kaggle/kernel.py $D/
@@ -41,6 +46,7 @@ jobs:
           ACC=""; kaggle kernels push --help 2>&1 | grep -q -- "--accelerator" && ACC="--accelerator $(cat research/tools/kaggle/accel.txt 2>/dev/null || echo NvidiaTeslaT4)"
           kaggle kernels push -p $D $ACC
       - name: wait
+        if: ${{ github.event.inputs.mode != 'collect' }}
         run: |
           sleep 60
           for i in $(seq 1 330); do
