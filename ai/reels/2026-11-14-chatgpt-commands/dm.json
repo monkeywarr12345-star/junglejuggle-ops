@@ -14,11 +14,11 @@
     "title": "ChatGPT 숨은 명령어 5개 전체본",
     "subtitle": "명령어 5개 + 복사해서 바로 쓰는 예시 프롬프트",
     "button": "자료 열기",
-    "url": "https://junglegcc.github.io/p/chatgpt-commands/"
+    "url": "https://app.notion.com/p/418980830424819d8be1d60c884c062a"
   },
   "dm_text": "요청하신 자료예요 🎁 맨 위 카드가 방금 보신 릴스 자료예요!",
-  "zorcha": "pending",
-  "zorcha_note": "클라우드 예약 실행이라 Zorcha는 건드리지 않음. 상시 자동화(Any post or reel + Any keyword → 자료실 첫 화면)가 Live면 자료실 첫 화면 맨 위 카드만으로 충분",
+  "zorcha": "live",
   "any_keyword": true,
-  "notion": "https://app.notion.com/p/41898083042481cb8a32fb86b7e32139"
+  "notion": "https://app.notion.com/p/418980830424819d8be1d60c884c062a",
+  "zorcha_auto": "11.14 ChatGPT 명령어 5개 · 명령어 → 노션"
 }
