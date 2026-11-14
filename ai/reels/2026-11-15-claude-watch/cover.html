@@ -24,6 +24,8 @@
       #lab .dots { display: flex; gap: 9px; } #lab .dots i { width: 16px; height: 16px; border-radius: 50%; display: block; }
       #title { position: absolute; left: 72px; right: 40px; top: 1190px; z-index: 8; font-size: 118px; line-height: 1.13; font-weight: 900; letter-spacing: -5px; text-shadow: 0 6px 30px rgba(0, 0, 0, .5); }
       #title em { font-style: normal; color: #ffd43b; }
+      #stk { position: absolute; left: 640px; top: 1040px; z-index: 9; padding: 12px 26px 14px; border-radius: 8px 26px 8px 26px; background: #e5484d; color: #fff; font-size: 46px; font-weight: 900; letter-spacing: -1.5px; transform: rotate(-6deg); box-shadow: 0 8px 0 rgba(6, 20, 13, .5); }
+      .spk { position: absolute; z-index: 7; color: #ffe066; font-weight: 900; text-shadow: 0 0 24px rgba(255, 228, 90, .95); }
     </style>
   </head>
   <body>
@@ -36,7 +38,8 @@
       <div id="shade"></div>
       <div id="tile"></div>
       <div id="lab">jungle.gcc <span class="dots"><i style="background:#4c8df6"></i><i style="background:#e07a52"></i><i style="background:#19c37d"></i></span></div>
-      <div id="title">클로드에<br /><em>눈 달아 주는</em><br />스킬 1개</div>
+      <div id="stk">캡처 이제 끝</div><div class="spk" style="left:300px;top:600px;font-size:80px">✦</div><div class="spk" style="left:860px;top:560px;font-size:64px">✦</div><div class="spk" style="left:880px;top:880px;font-size:48px">✦</div>
+      <div id="title">클로드가<br /><em>눈을 떴어요</em><br />유튜브도 봐요</div>
     </div>
     <script>
       const tile = document.getElementById("tile"); for (let k = 0; k < 12; k++) { const i = document.createElement("i"); i.style.transform = `rotate(${k * 30}deg)`; tile.appendChild(i); }
@@ -52,7 +55,7 @@
       const m = createMascot(document.getElementById("three"));
       const PX = 398, TOP = 1.7, BOT = 1.45, top = 470, bot = 1075, cx = 640;
       const yt = 0.1 + (960 - top) / PX, yb = 0.1 + (960 - bot) / PX, s = (yt - yb) / (TOP + BOT);
-      const st = { x: (cx - 540) / PX, y: yt - TOP * s, s, ry: -0.2, look: -0.25, wave: 1, talk: 0, blink: 0, wide: 0.7, cube: 0 };
+      const st = { x: (cx - 540) / PX, y: yt - TOP * s, s, ry: -0.2, look: -0.25, wave: 1, talk: 0, blink: 0, wide: 1, cube: 0 };
       const render = () => m.renderAt(0.35, st);
       window.addEventListener("hf-seek", render); window.__renderMascot = render; render();
     </script>
