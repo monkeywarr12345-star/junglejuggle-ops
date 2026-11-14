@@ -1,0 +1,22 @@
+{
+  "keyword": "와치",
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
+  "follow_gate": {
+    "text": "댓글 고마워요! 자료는 팔로워 전용이에요. @jungle.gcc 팔로우하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 프로필에서 팔로우하고 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "클로드 Watch 스킬 설치법 전체본",
+    "subtitle": "설치 2줄 + 바로 쓰는 영상 프롬프트 5개",
+    "button": "자료 열기",
+    "url": ""
+  },
+  "dm_text": "요청하신 자료예요 🎁 맨 위 카드가 방금 보신 릴스 자료예요!",
+  "zorcha": "pending",
+  "any_keyword": true
+}

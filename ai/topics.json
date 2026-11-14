@@ -36,6 +36,18 @@
   },
   {
    "n": 4,
+   "slug": "claude-watch",
+   "title": "영상 못 보던 클로드에 눈 달기 (Watch 스킬)",
+   "tool": "Claude",
+   "keyword": "와치",
+   "evidence": "사용자가 준 참고 릴스(클로드 와치 스킬, 2026-11-14) — 정글 GCC식으로 재구성(정글이 눈 감음→눈 뜸)",
+   "status": "doing",
+   "reel": "2026-11-15-claude-watch",
+   "publish_at": "2026-11-15T18:00:00+09:00",
+   "note": "2026-11-14 사용자 지시로 끼워 넣음, 기존 4번(반대 의견)부터 한 칸씩 미룸. 출처: github.com/bradautomates/claude-video (MIT)"
+  },
+  {
+   "n": 5,
    "slug": "devils-advocate",
    "title": "맞장구만 치는 AI, 반대 의견 받는 한 줄",
    "tool": "Claude",
@@ -44,7 +56,7 @@
    "status": "todo"
   },
   {
-   "n": 5,
+   "n": 6,
    "slug": "ai-tone",
    "title": "AI가 쓴 티 안 나게 글 고치기",
    "tool": "Claude·ChatGPT",
@@ -53,7 +65,7 @@
    "status": "todo"
   },
   {
-   "n": 6,
+   "n": 7,
    "slug": "compare-3",
    "title": "같은 질문, ChatGPT·Claude·Gemini 비교",
    "tool": "ChatGPT·Claude·Gemini",
@@ -62,7 +74,7 @@
    "status": "todo"
   },
   {
-   "n": 7,
+   "n": 8,
    "slug": "profile-photo",
    "title": "사진 한 장으로 프로필 사진 만들기",
    "tool": "Gemini·ChatGPT",
@@ -71,7 +83,7 @@
    "status": "todo"
   },
   {
-   "n": 8,
+   "n": 9,
    "slug": "claude-ppt",
    "title": "Claude로 PPT 10장 초안 한 번에",
    "tool": "Claude",
@@ -80,7 +92,7 @@
    "status": "todo"
   },
   {
-   "n": 9,
+   "n": 10,
    "slug": "resume",
    "title": "이력서·자기소개서 AI 첨삭",
    "tool": "Claude·ChatGPT",
@@ -89,7 +101,7 @@
    "status": "todo"
   },
   {
-   "n": 10,
+   "n": 11,
    "slug": "claude-blog",
    "title": "Claude에게 블로그 글 맡기기",
    "tool": "Claude",
