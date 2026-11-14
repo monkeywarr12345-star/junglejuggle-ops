@@ -20,6 +20,5 @@
   "zorcha": "pending",
   "zorcha_note": "클라우드 예약 실행이라 Zorcha는 건드리지 않음. 상시 자동화(Any post or reel + Any keyword → 자료실 첫 화면)가 Live면 자료실 첫 화면 맨 위 카드만으로 충분",
   "any_keyword": true,
-  "notion": "pending",
-  "site_note": "2026-11-14 예약 실행: 이 세션에 Notion 커넥터·자료실 저장소 쓰기 권한이 없어 자료 페이지 미게시. 내용은 site_page/에 완성본."
+  "notion": "https://app.notion.com/p/41898083042481cb8a32fb86b7e32139"
 }
