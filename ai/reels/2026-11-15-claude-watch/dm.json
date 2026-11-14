@@ -14,11 +14,13 @@
     "title": "클로드 Watch 스킬 설치법 전체본",
     "subtitle": "설치 2줄 + 바로 쓰는 영상 프롬프트 5개",
     "button": "자료 열기",
-    "url": "https://observant-kiwi-cfe.notion.site/4189808304248149a1c5c420f5f9cff9"
+    "url": "https://junglegcc.github.io/go/claude-watch/"
   },
   "dm_text": "요청하신 자료예요 🎁 맨 위 카드가 방금 보신 릴스 자료예요!",
   "zorcha": "pending",
   "any_keyword": true,
-  "notion": "https://app.notion.com/p/4189808304248149a1c5c420f5f9cff9",
-  "notion_public": "https://observant-kiwi-cfe.notion.site/4189808304248149a1c5c420f5f9cff9"
+  "notion": "https://junglegcc.github.io/go/claude-watch/",
+  "notion_public": "https://observant-kiwi-cfe.notion.site/4189808304248149a1c5c420f5f9cff9",
+  "notion_page": "https://observant-kiwi-cfe.notion.site/4189808304248149a1c5c420f5f9cff9",
+  "gate": "https://junglegcc.github.io/go/claude-watch/"
 }

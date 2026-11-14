@@ -4,11 +4,13 @@
     "title": "Claude 깔자마자 바꿀 설정 5개 전체본",
     "subtitle": "메뉴 위치 + 바로 쓰는 지시사항 문구 5개",
     "button": "자료 열기",
-    "url": "https://observant-kiwi-cfe.notion.site/4189808304248114ae85dd3d286cdf88"
+    "url": "https://junglegcc.github.io/go/setup/"
   },
   "zorcha": "live",
   "any_keyword": true,
-  "notion": "https://app.notion.com/p/4189808304248114ae85dd3d286cdf88",
+  "notion": "https://junglegcc.github.io/go/setup/",
   "zorcha_auto": "11.13 Claude 설정 5개 · 세팅 → 노션",
-  "notion_public": "https://observant-kiwi-cfe.notion.site/4189808304248114ae85dd3d286cdf88"
+  "notion_public": "https://observant-kiwi-cfe.notion.site/4189808304248114ae85dd3d286cdf88",
+  "notion_page": "https://observant-kiwi-cfe.notion.site/4189808304248114ae85dd3d286cdf88",
+  "gate": "https://junglegcc.github.io/go/setup/"
 }
