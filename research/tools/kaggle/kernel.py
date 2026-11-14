@@ -1,6 +1,6 @@
 """Kaggle GPU kernel: Wan2.2 TI2V-5B image-to-video via stable-diffusion.cpp (CUDA).
 Same inputs/prompts as research/tools/v4video/run_i2v.py (CPU test) so the two can be compared.
-Pushed and collected by .github/workflows/research-kaggle.yml. Outputs land in /kaggle/working."""
+Pushed and collected by .github/workflows/research-kaggle.yml. Outputs land in /kaggle/working.""" (rev2)
 import os, subprocess, time, json, sys, shutil
 W, T = "/kaggle/working", "/tmp/jj"
 os.makedirs(T, exist_ok=True)

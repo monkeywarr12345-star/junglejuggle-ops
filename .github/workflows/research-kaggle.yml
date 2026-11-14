@@ -21,7 +21,7 @@ jobs:
       - run: sudo apt-get install -y -qq ffmpeg >/dev/null || true
       - name: auth
         run: |
-          pip install -q -U kaggle
+          pip install -q -U kaggle six
           [ -n "$KAGGLE_USERNAME" ] && [ -n "$KSECRET" ] || { echo "KAGGLE_USERNAME / KAGGLE_KEY secret missing"; exit 1; }
           mkdir -p ~/.kaggle
           case "$KSECRET" in
