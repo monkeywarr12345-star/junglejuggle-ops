@@ -38,7 +38,7 @@ jobs:
            "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": true,
            "dataset_sources": [], "competition_sources": [], "kernel_sources": [], "model_sources": []}
           EOF
-          ACC=""; kaggle kernels push --help 2>&1 | grep -q -- "--accelerator" && ACC="--accelerator NvidiaTeslaT4"
+          ACC=""; kaggle kernels push --help 2>&1 | grep -q -- "--accelerator" && ACC="--accelerator $(cat research/tools/kaggle/accel.txt 2>/dev/null || echo NvidiaTeslaT4)"
           kaggle kernels push -p $D $ACC
       - name: wait
         run: |
