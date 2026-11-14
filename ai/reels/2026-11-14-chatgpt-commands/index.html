@@ -275,16 +275,16 @@
       .gw .gh .ex { margin-left: auto; padding: 6px 14px; border-radius: 10px; background: rgba(0,0,0,.06); color: #6d7a6f; font-size: 22px; font-weight: 800; }
       .glogo { width: 52px; height: 52px; border-radius: 50%; background: #111; flex: none; display: grid; place-items: center; }
       .glogo svg { width: 36px; height: 36px; }
-      .ub { margin: 26px 0 0 auto; max-width: 700px; width: fit-content; padding: 20px 26px; border-radius: 28px; background: #ece6da; font-size: 32px; font-weight: 700; line-height: 1.38; letter-spacing: -.8px; }
+      .ub { margin: 30px 0 0 auto; max-width: 720px; width: fit-content; padding: 22px 28px; border-radius: 28px; background: #ece6da; font-size: 34px; font-weight: 700; line-height: 1.38; letter-spacing: -.8px; }
       .ub .k { display: inline-block; padding: 0 10px; margin-right: 6px; border-radius: 8px; background: #ffd43b; font-weight: 900; }
       .ub .doc { display: block; margin-top: 12px; padding: 14px 18px; border-radius: 16px; background: #fff; font-size: 24px; color: #8a938c; }
       .ub .doc i { display: block; height: 12px; border-radius: 6px; background: #e4ddcf; margin-top: 10px; }
       .ar { margin-top: 26px; display: flex; gap: 16px; align-items: flex-start; }
       .ar .tx { flex: 1; }
-      .ar .hd { font-size: 31px; font-weight: 900; letter-spacing: -.8px; }
-      .ar .ln { margin-top: 12px; font-size: 30px; font-weight: 700; line-height: 1.35; letter-spacing: -.7px; color: #26332b; }
+      .ar .hd { font-size: 34px; font-weight: 900; letter-spacing: -.8px; }
+      .ar .ln { margin-top: 14px; font-size: 34px; font-weight: 700; line-height: 1.35; letter-spacing: -.7px; color: #26332b; }
       .ar .ln mark { background: linear-gradient(transparent 55%, #ffd43b 55%); color: inherit; }
-      .ar .row { margin-top: 12px; padding: 14px 20px; border-radius: 16px; background: rgba(0,0,0,.045); font-size: 30px; font-weight: 800; letter-spacing: -.7px; display: flex; gap: 14px; align-items: center; }
+      .ar .row { margin-top: 14px; padding: 16px 22px; border-radius: 16px; background: rgba(0,0,0,.045); font-size: 33px; font-weight: 800; letter-spacing: -.7px; display: flex; gap: 14px; align-items: center; }
       .ar .row i { font-style: normal; flex: none; padding: 4px 12px; border-radius: 10px; background: #123a26; color: #fff; font-size: 22px; font-weight: 900; }
       .gw .inp { position: absolute; left: 44px; right: 44px; bottom: 34px; height: 96px; border-radius: 48px; border: 2px solid #e2d8c4; background: #fff; display: flex; align-items: center; gap: 18px; padding: 0 22px; font-size: 29px; font-weight: 600; color: #9aa59c; }
       .gw .inp .pl { width: 56px; height: 56px; border-radius: 50%; border: 2px solid #d6ccb8; display: grid; place-items: center; font-size: 38px; color: #123a26; }
@@ -434,11 +434,11 @@
       // s3-s7 ChatGPT windows: card in -> user bubble -> command chip punch -> answer lines one by one
       [["s3", 3], ["s4", 4], ["s5", 5], ["s6", 6], ["s7", 7]].forEach(([k, i]) => {
         show("#x" + i, S(k)[0], S(k)[1]); inn("#g" + i, S(k)[0]);
-        pop("#u" + i, W(k, 0.12), { y: 40 });
-        tl.fromTo("#u" + i + " .k", { scale: 1.5 }, { scale: 1, duration: 0.35, ease: "back.out(3)" }, W(k, 0.2));
-        tl.fromTo("#a" + i, { opacity: 0 }, { opacity: 1, duration: 0.2 }, W(k, 0.4));
+        pop("#u" + i, W(k, 0.06), { y: 40 });
+        tl.fromTo("#u" + i + " .k", { scale: 1.5 }, { scale: 1, duration: 0.35, ease: "back.out(3)" }, W(k, 0.14));
+        tl.fromTo("#a" + i, { opacity: 0 }, { opacity: 1, duration: 0.2 }, W(k, 0.26));
         const items = document.querySelectorAll("#a" + i + " .hd, #a" + i + " .ln, #a" + i + " .row");
-        items.forEach((el, j) => tl.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, W(k, 0.42) + j * Math.min(0.45, 0.5 * (S(k)[1] - S(k)[0]) / items.length)));
+        items.forEach((el, j) => tl.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, W(k, 0.28) + j * 0.28));
         tl.set("#g" + i, { className: "card set gw glow" }, W(k, 0.85));
       });
 
