@@ -1,0 +1,51 @@
+{
+ "account": {
+  "id": "17841410918177759",
+  "followers_count": 4,
+  "media_count": 2
+ },
+ "media": [
+  {
+   "id": "18040437002891495",
+   "caption": "질문 앞에 한 줄만 붙였더니 ChatGPT 답이 달라졌어요 ✨ 💬 팔로우하고 댓글에 ’명령어‘ 남기면 프롬프트 전체본 보내드려요\n\n어려운 건 쉽게, 긴 글은 핵심만, 계획은 단계별로 받아요.\n복붙해서 질문 앞에 붙이기만 하면 돼요.\n\n📌 오늘의 명령어 5개\n① ELI5: → 아주 쉽게 풀어 줘요\n② TL;DR → 긴 글을 핵심만 짧게 요약해요(”3줄로“를 붙이면 3줄)\n③ 너는 ○○야 → 면접관·선생님처럼 답해요\n④ 단계별로 → 복잡한 일을 순서대로 쪼개요\n⑤ 먼저 질문해 줘 → 필요한 걸 물어보고 답해요\n\n💾 저장해 두고 질문할 때 꺼내 쓰세요\n\n🎁 전체본(명령어 5개 + 바로 쓰는 예시 프롬프트 5개)\n→ 팔로우 + 댓글 ’명령어‘ 남기면 DM으로 보내드려요\n\nℹ️ 공식 기능이 아니라 질문 앞에 붙이는 부탁 표현이라 무료 플랜에서도 돼요 · 영상 속 회의록·금액은 예시예요 · 2026년 11월 기준\n\n#ChatGPT #챗GPT #프롬프트 #AI꿀팁 #업무효율",
+   "comments_count": 1,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Dft1Us0BvBw/",
+   "timestamp": "2026-11-14T09:00:32+0000",
+   "insights": {
+    "reach": 130,
+    "saved": 0,
+    "shares": 0,
+    "likes": 2,
+    "comments": 1,
+    "total_interactions": 3,
+    "views": 140,
+    "ig_reels_avg_watch_time": 2653
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "18112404254191271",
+   "caption": "클로드 깔고 그대로 쓰면, 내 대화가 AI 학습에 쓰일 수도 있어요 🔒 팔로우하고 댓글에 ’세팅‘ 남기면 설정 위치 전체본 보내드려요\n\n깔자마자 바꾸면 좋은 설정 5개예요. 전부 무료 플랜에서 돼요.\n한 번만 바꿔 두면 답이 내 스타일로 바뀌어요.\n\n📌 오늘의 설정 5개\n① 개인정보 보호 › AI 모델 개선 돕기 끄기\n② 내 Claude › 지시사항에 직업·말투 적기\n③ 메모리에서 Claude가 기억하는 나 점검하기\n④ 기능 › 코드 실행 및 파일 생성 켜기\n⑤ + 버튼 › 웹 검색 켜기\n\n🎁 전체본(메뉴 위치 + 바로 쓰는 지시사항 문구 5개) → 팔로우 + 댓글 ’세팅‘ 남기면 DM으로 보내드려요\n\nℹ️ 2026년 11월 기준 · 메뉴 이름은 앱 버전마다 조금 달라요\n\n#클로드 #Claude #AI꿀팁 #AI설정 #업무자동화",
+   "comments_count": 8,
+   "like_count": 11,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Dfrwzu9Bd-_/",
+   "timestamp": "2026-11-13T13:45:15+0000",
+   "insights": {
+    "reach": 1850,
+    "saved": 29,
+    "shares": 4,
+    "likes": 11,
+    "comments": 8,
+    "total_interactions": 52,
+    "views": 2103,
+    "ig_reels_avg_watch_time": 7038
+   },
+   "insights_via": "system"
+  }
+ ]
+}
