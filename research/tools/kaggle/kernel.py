@@ -32,8 +32,12 @@ def works(sd):
 
 t = time.time(); sd = None; how = None; info = ""
 tars = glob.glob("/kaggle/input/**/sd_bin.tar.gz", recursive=True)
-if tars:
-    sh(f"mkdir -p {T}/pre && tar xzf {tars[0]} -C {T}/pre")
+clis = glob.glob("/kaggle/input/**/sd-cli", recursive=True)   # Kaggle auto-extracts uploaded archives
+if tars or clis:
+    if clis:   # input is read-only and loses +x: copy the folder out
+        sh(f"mkdir -p {T}/pre/bin && cp -r {os.path.dirname(clis[0])}/. {T}/pre/bin/ && chmod +x {T}/pre/bin/*")
+    else:
+        sh(f"mkdir -p {T}/pre && tar xzf {tars[0]} -C {T}/pre")
     cand = find_sd(f"{T}/pre/bin")
     if cand:
         ok, info = works(cand)
@@ -54,7 +58,7 @@ if not sd:
     if sd:
         sh(f"cd {T}/sd/build && mkdir -p /tmp/pk/bin && cp bin/* /tmp/pk/bin/ && find . -name '*.so*' -exec cp {{}} /tmp/pk/bin/ \\; "
            f"&& tar czf {W}/sd_bin.tar.gz -C /tmp/pk bin")
-note(step="binary", how=how, sec=round(time.time() - t), ok=bool(sd), prebuilt_found=bool(tars), info=info[-300:])
+note(step="binary", how=how, sec=round(time.time() - t), ok=bool(sd), prebuilt_found=bool(tars or clis), info=info[-300:])
 if not sd:
     sys.exit(1)
 os.environ["LD_LIBRARY_PATH"] = os.path.dirname(sd) + ":" + os.environ.get("LD_LIBRARY_PATH", "")
