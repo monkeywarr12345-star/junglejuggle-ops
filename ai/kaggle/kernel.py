@@ -240,37 +240,41 @@ def tts():
     except Exception as e:
         note(step="tts", tag="supertonic_M1_x1.3", ok=False, err=repr(e)[:600])
 
-    sh("pip install -q -U qwen-tts")
-    sh('pip install -q -U "huggingface_hub>=0.34,<1.0" "transformers<5"')
+    # Qwen runs in its own interpreter: whisper already imported a different huggingface_hub in this process
+    sh('pip install -q -U qwen-tts "huggingface_hub>=0.34,<1.0" "transformers<5"')
+    reel = get(REEL + "reel_ludyte_nomusic.mp4", f"{T}/reel.mp4")
+    sh(f"{FF} -v error -y -ss 2.15 -t 2.45 -i {reel} -vn -ac 1 -ar 24000 {T}/ref.wav")
+    gen = f'''
+import sys, json, torch, soundfile as sf, inspect, traceback
+from qwen_tts import Qwen3TTSModel
+LINES = json.loads(open("{T}/lines.json").read()); out = {{}}
+def run(tag, mk, fn):
     try:
-        from qwen_tts import Qwen3TTSModel
-        dt = torch.float32  # T4 has no bf16; fp32 avoids fp16 NaNs
-        d = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign", device_map="cuda", dtype=dt)
-        inst = "20대 후반 한국 남성, 밝고 친근하고 또렷한 목소리, 인스타 릴스 AI 꿀팁 채널 내레이션, 빠르고 경쾌한 템포, 해요체"
-
-        def qd(t):
-            w, sr = d.generate_voice_design(text=t, language="Korean", instruct=inst)
-            return rs(w[0], sr)
-        score("qwen17_design_male", qd)
-        del d; torch.cuda.empty_cache()
+        m = mk()
+        for i, t in enumerate(LINES):
+            w, sr = fn(m, t); sf.write(f"{T}/q_{{tag}}_{{i}}.wav", w[0], sr)
+        out[tag] = "ok"
+        del m; torch.cuda.empty_cache()
     except Exception as e:
-        note(step="tts", tag="qwen17_design_male", ok=False, err=repr(e)[:600], tb=traceback.format_exc()[-1200:])
-
-    try:  # clone the current Supertonic M1 narration so the channel voice stays the same, but with a bigger model
-        from qwen_tts import Qwen3TTSModel
-        reel = get(REEL + "reel_ludyte_nomusic.mp4", f"{T}/reel.mp4")
-        sh(f"{FF} -v error -y -ss 2.15 -t 2.45 -i {reel} -vn -ac 1 -ar 24000 {T}/ref.wav")  # line 2 has no sfx under it
-        b = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cuda", dtype=torch.float32)
-        fn = getattr(b, "generate_voice_clone")
-        import inspect; note(step="qwen_clone_sig", sig=str(inspect.signature(fn)))
-
-        def qc(t):
-            w, sr = fn(text=t, language="Korean", ref_audio=f"{T}/ref.wav", ref_text=LINES[1])
-            return rs(w[0], sr)
-        score("qwen17_clone_current", qc)
-        del b; torch.cuda.empty_cache()
-    except Exception as e:
-        note(step="tts", tag="qwen17_clone_current", ok=False, err=repr(e)[:600], tb=traceback.format_exc()[-1200:])
+        out[tag] = repr(e)[:400] + " | " + traceback.format_exc()[-600:]
+    json.dump(out, open("{T}/qwen_status.json", "w"), ensure_ascii=False)
+INST = "20대 후반 한국 남성, 밝고 친근하고 또렷한 목소리, 인스타 릴스 AI 꿀팁 채널 내레이션, 빠르고 경쾌한 템포, 해요체"
+run("qwen17_design_male", lambda: Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign", device_map="cuda", dtype=torch.float32),
+    lambda m, t: m.generate_voice_design(text=t, language="Korean", instruct=INST))
+run("qwen17_clone_current", lambda: Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cuda", dtype=torch.float32),
+    lambda m, t: m.generate_voice_clone(text=t, language="Korean", ref_audio="{T}/ref.wav", ref_text=LINES[1]))
+'''
+    json.dump(LINES, open(f"{T}/lines.json", "w"), ensure_ascii=False)
+    open(f"{T}/qwen_gen.py", "w").write(gen)
+    r = sh(f"{sys.executable} {T}/qwen_gen.py", timeout=5400)
+    qs = json.load(open(f"{T}/qwen_status.json")) if os.path.exists(f"{T}/qwen_status.json") else {}
+    note(step="qwen_gen", status=qs, rc=r.returncode, tail=(r.stdout + r.stderr)[-600:])
+    for tag, st in qs.items():
+        if st == "ok":
+            def rd(line, tag=tag):
+                x, sr = sf.read(f"{T}/q_{tag}_{LINES.index(line)}.wav", dtype="float32")
+                return rs(x, sr)
+            score(tag, rd)
 
 
 for name, fn in [("upscale", upscale), ("whisper", check_reel), ("tts", tts)]:
