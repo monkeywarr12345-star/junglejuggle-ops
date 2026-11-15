@@ -7,7 +7,7 @@ Output: research/out/bench_content.json
 import json, os, re, statistics, urllib.parse, urllib.request, datetime as dt
 
 ACCOUNTS = ["gpt_haterz", "adu.aihub", "lazy_owen", "oaiwan.kr", "sebia.ai", "trenddalkak.ai", "grappt_", "ai_newpd",
-            "ai.trend.kr", "pickit_.official", "joshproductletter"]
+            "ai.trend.kr", "pickit_.official", "joshproductletter", "prompt_what", "roy.branding", "mart_eting", "theaigeekk"]
 G = "https://graph.facebook.com/v23.0"
 TOK, UID = os.environ["IG_ACCESS_TOKEN"], os.environ["IG_USER_ID"]
 KST = dt.timezone(dt.timedelta(hours=9))
@@ -55,3 +55,5 @@ for u in ACCOUNTS:
     out["accounts"][u] = {"followers": d.get("followers_count"), "rows": rows}
 os.makedirs("research/out", exist_ok=True)
 json.dump(out, open("research/out/bench_content.json", "w"), ensure_ascii=False, indent=1)
+
+# run: 2026-11-16 weekly review W47

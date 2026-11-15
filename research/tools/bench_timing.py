@@ -6,7 +6,7 @@ Official Business Discovery API only (no scraping). Stores only timestamps, type
 import json, os, statistics, urllib.parse, urllib.request, datetime as dt
 
 ACCOUNTS = ["gpt_haterz", "grappt_", "adu.aihub", "ai.trend.kr", "ai_newpd", "sebia.ai", "lazy_owen",
-            "oaiwan.kr", "pickit_.official", "joshproductletter", "trenddalkak.ai"]
+            "oaiwan.kr", "pickit_.official", "joshproductletter", "trenddalkak.ai", "prompt_what", "roy.branding", "mart_eting", "theaigeekk"]
 G = "https://graph.facebook.com/v23.0"
 TOK, UID = os.environ["IG_ACCESS_TOKEN"], os.environ["IG_USER_ID"]
 KST = dt.timezone(dt.timedelta(hours=9))
@@ -72,3 +72,5 @@ os.makedirs("research/out", exist_ok=True)
 json.dump(out, open("research/out/bench_timing.json", "w"), ensure_ascii=False, indent=1)
 print(json.dumps({u: {k: v for k, v in a.items() if k != "rows"} for u, a in out["accounts"].items()}, ensure_ascii=False, indent=1))
 print(json.dumps(out["pooled"], ensure_ascii=False, indent=1))
+
+# run: 2026-11-16 weekly review W47
