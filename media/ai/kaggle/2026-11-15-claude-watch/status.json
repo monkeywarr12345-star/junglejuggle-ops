@@ -21,7 +21,7 @@
   "cer_mean": 0.024,
   "sec_total": 34.1,
   "chars_per_sec": 5.51,
-  "gen_sec": 59,
+  "gen_sec": 51,
   "lines": [
    {
     "line": 1,
@@ -94,7 +94,7 @@
    },
    {
     "spelling": "와-치",
-    "heard": "팔로우하고 댓글에 왓츠 남기면 프롬프트 전체본 보내드려요.",
+    "heard": "팔로우하고 댓글에 왓츠 남기면 프롬프트 전체번 보내드려요.",
     "file": "kw_2.mp3"
    },
    {
@@ -105,18 +105,143 @@
   ]
  },
  {
+  "step": "qwen_gen",
+  "status": {
+   "qwen17_design_male": "ok",
+   "qwen17_clone_current": "ok"
+  },
+  "rc": 0,
+  "tail": "`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\nSetting `pad_token_id` to `eos_token_id`:2150 for open-end generation.\n"
+ },
+ {
   "step": "tts",
   "tag": "qwen17_design_male",
-  "ok": false,
-  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
-  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
+  "ok": true,
+  "cer_mean": 0.04,
+  "sec_total": 38.9,
+  "chars_per_sec": 4.83,
+  "gen_sec": 8,
+  "lines": [
+   {
+    "line": 1,
+    "cer": 0.0,
+    "heard": "영상 못 보던 클로드한테 눈을 달아줬어요.",
+    "sec": 4.0
+   },
+   {
+    "line": 2,
+    "cer": 0.0,
+    "heard": "원래는 유튜브 링크를 줘도 영상은 못 본다고 해요.",
+    "sec": 4.24
+   },
+   {
+    "line": 3,
+    "cer": 0.0,
+    "heard": "그래서 매번 캡처하고 자막 복사해서 설명해줬죠.",
+    "sec": 4.0
+   },
+   {
+    "line": 4,
+    "cer": 0.1,
+    "heard": "근데 왓츠 스킬을 깔았더니 클로드가 눈을 떴어요.",
+    "sec": 4.4
+   },
+   {
+    "line": 5,
+    "cer": 0.0,
+    "heard": "이제 링크만 주면 영상을 직접 보고 답해요.",
+    "sec": 3.6
+   },
+   {
+    "line": 6,
+    "cer": 0.143,
+    "heard": "잡히는 사진으로 말은 글자로 바꿔서 같이 읽거든요.",
+    "sec": 3.52
+   },
+   {
+    "line": 7,
+    "cer": 0.0,
+    "heard": "그래서 몇 분 몇 초에 뭐가 나왔는지도 짚어줘요.",
+    "sec": 3.6
+   },
+   {
+    "line": 8,
+    "cer": 0.0,
+    "heard": "클로드 코드에서 명령어 두 줄이면 설치 끝이에요.",
+    "sec": 4.24
+   },
+   {
+    "line": 9,
+    "cer": 0.118,
+    "heard": "팔로우하고 댓글에 왓츠, 남기면 설치법이랑 프롬프트 전체본 DM으로 보내드려요.",
+    "sec": 6.24
+   }
+  ]
  },
  {
   "step": "tts",
   "tag": "qwen17_clone_current",
-  "ok": false,
-  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
-  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
+  "ok": true,
+  "cer_mean": 0.024,
+  "sec_total": 25.5,
+  "chars_per_sec": 7.38,
+  "gen_sec": 8,
+  "lines": [
+   {
+    "line": 1,
+    "cer": 0.0,
+    "heard": "영상 못 보던 클로드한테 눈을 달아줬어요",
+    "sec": 2.48
+   },
+   {
+    "line": 2,
+    "cer": 0.0,
+    "heard": "원래는 유튜브 링크를 줘도 영상은 못 본다고 해요",
+    "sec": 2.56
+   },
+   {
+    "line": 3,
+    "cer": 0.0,
+    "heard": "그래서 매번 캡처하고 자막 복사해서 설명해줬죠.",
+    "sec": 2.72
+   },
+   {
+    "line": 4,
+    "cer": 0.1,
+    "heard": "근데 왓츠 스킬을 깔았더니 클로드가 눈을 떴어요.",
+    "sec": 2.48
+   },
+   {
+    "line": 5,
+    "cer": 0.0,
+    "heard": "이제 링크만 주면 영상을 직접 보고 답해요.",
+    "sec": 2.32
+   },
+   {
+    "line": 6,
+    "cer": 0.0,
+    "heard": "장면은 사진으로 말은 글자로 바꿔서 같이 읽거든요",
+    "sec": 2.96
+   },
+   {
+    "line": 7,
+    "cer": 0.0,
+    "heard": "그래서 몇 분 몇 초에 뭐가 나왔는지도 짚어줘요.",
+    "sec": 2.24
+   },
+   {
+    "line": 8,
+    "cer": 0.0,
+    "heard": "클로드 코드에서 명령어 두 줄이면 설치 끝이에요.",
+    "sec": 2.64
+   },
+   {
+    "line": 9,
+    "cer": 0.118,
+    "heard": "팔로우하고 댓글에 왓츠 남기면 설치법이랑 프롬프트 전체본 DM으로 보내드려요.",
+    "sec": 4.0
+   }
+  ]
  },
  {
   "step": "done"
