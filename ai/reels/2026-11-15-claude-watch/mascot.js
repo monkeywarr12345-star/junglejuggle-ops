@@ -138,7 +138,8 @@ export function createMascot(canvas, W = 1080, H = 1920) {
     const open = talk * (0.5 + 0.5 * Math.abs(Math.sin(t * 13)));
     mouthO.scale.y = 0.01 + open * 0.9; smile.visible = open < 0.15;
     const wave = st.wave ?? 0;
-    arms[1].rotation.z = 0.35 + wave * (2.1 + Math.sin(t * 9) * 0.35);
+    const point = st.point ?? 0;
+    arms[1].rotation.z = 0.35 + wave * (2.1 + Math.sin(t * 9) * 0.35) + point * 1.25;
     arms[0].rotation.z = -0.35 - Math.sin(t * 2.4) * 0.05;
     const cu = st.cube ?? 0; cube.visible = cu > 0.01;
     cube.scale.setScalar(0.44 * cu * s); cube.position.set(x + 0.95 * s, y + (0.55 + Math.sin(t * 1.6) * 0.06) * s, 0.2);

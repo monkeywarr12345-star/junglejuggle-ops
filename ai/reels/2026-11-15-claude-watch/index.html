@@ -347,9 +347,30 @@
       .term .done { margin-top: 26px; font-size: 36px; font-weight: 900; color: #2c9a55; }
       .ex2 { margin-left: auto; padding: 6px 14px; border-radius: 10px; background: rgba(0,0,0,.06); color: #6d7a6f; font-size: 22px; font-weight: 800; }
     </style>
+    <style>
+      /* ===== v7 polish: calmer motion, depth, readability ===== */
+      .w { font-size: 98px; }
+      .w b { transform: none; border-radius: 12px 28px 12px 28px; padding: 0 18px 8px; }
+      #hook { top: 236px; }
+      #hook .l1 { font-size: 62px; }
+      #hook .l2 { font-size: 124px; letter-spacing: -5px; }
+      #hook .l3 { display: inline-block; margin-top: 18px; padding: 10px 26px 12px; border-radius: 8px 26px 8px 26px; background: #e5484d; color: #fff; font-size: 44px; font-weight: 900; letter-spacing: -1.4px; transform: rotate(-3deg); box-shadow: 0 8px 0 rgba(6,20,13,.5); }
+      #leaves svg { filter: blur(2.2px); }
+      #grain { position: absolute; inset: 0; z-index: 7; pointer-events: none; opacity: .07; mix-blend-mode: overlay; }
+      #edge { position: absolute; inset: 0; z-index: 7; pointer-events: none; background: radial-gradient(ellipse 120% 90% at 50% 45%, rgba(0,0,0,0) 55%, rgba(4,14,9,.55) 100%); }
+      .gw { height: 760px; }
+      .cw .ub, .ub { font-size: 38px; }
+      .ar .hd { font-size: 37px; }
+      .ar .ln { font-size: 37px; }
+      .ar .row, .tsr { font-size: 36px; }
+      .cmd { font-size: 33px; }
+      .chore { font-size: 52px; height: 138px; }
+      .dcard h5 { font-size: 40px; }
+      .term .ln2 { font-size: 31px; }
+    </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="21.97" data-width="1080" data-height="1920">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="21.62" data-width="1080" data-height="1920">
       <div id="bg"></div>
       <svg width="0" height="0" style="position:absolute"><defs><symbol id="leaf" viewBox="0 0 400 200" preserveAspectRatio="none"><path d="M0 100 C80 8 250 -12 400 100 C250 212 80 192 0 100Z" fill="currentColor"/><path d="M0 100 C140 96 270 98 400 100" stroke="rgba(0,0,0,.28)" stroke-width="5" fill="none"/><path d="M80 99 L140 42 M155 99 L225 30 M235 99 L300 46 M80 101 L140 158 M155 101 L225 170 M235 101 L300 154" stroke="rgba(0,0,0,.2)" stroke-width="4" fill="none"/><path d="M175 22 L205 99 M175 178 L205 101 M265 40 L290 99" stroke="rgba(6,20,13,.9)" stroke-width="9" fill="none"/></symbol></defs></svg>
       <div id="leaves"></div>
@@ -357,13 +378,13 @@
       <div id="floor"></div><div id="rimline"></div>
       <div id="burst"><div class="glowc"></div><div class="ring"></div></div>
       <canvas id="three" width="1080" height="1920"></canvas>
-      <div id="vig"></div>
+      <div id="vig"></div><div id="edge"></div><svg id="grain" width="1080" height="1920"><filter id="gn"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/></filter><rect width="1080" height="1920" filter="url(#gn)"/></svg>
 
       <div id="trail"><span class="lb">🌿 탐험 진행</span><i class="nd" id="n1">1</i><i class="ln"><s id="l1"></s></i><i class="nd" id="n2">2</i><i class="ln"><s id="l2"></s></i><i class="nd" id="n3">3</i><i class="ln"><s id="l3"></s></i><i class="nd" id="n4">4</i><i class="ln"><s id="l4"></s></i><i class="nd" id="n5">5</i></div>
       <div id="brand">jungle.gcc <span class="dots"><i style="background:#4c8df6"></i><i style="background:#e07a52"></i><i style="background:#19c37d"></i></span><span class="tag">AI 꿀팁</span></div>
       <div id="pills"></div>
 
-      <div id="hook"><span class="l1">영상 못 보던 클로드에</span><span class="l2"><em>눈</em> 달아 줬어요</span></div>
+      <div id="hook"><span class="l1">영상 못 보던 클로드에</span><span class="l2"><em>눈</em>을 달았더니</span><br /><span class="l3">유튜브를 직접 봐요</span></div>
       <div id="chips"></div>
 
       <!-- s2: link but can't see -->
@@ -453,13 +474,13 @@
       // pills / small lines / word captions
       const pills = document.getElementById("pills"), caps = document.getElementById("caps");
       const runsOf = (key) => { const r = []; Object.keys(T.s).forEach((k) => { const v = T.meta[k][key]; const last = r[r.length - 1]; if (last && last.v === v) last.b = S(k)[1]; else r.push({ v, a: S(k)[0], b: S(k)[1] }); }); return r; };
-      runsOf("pill").forEach((r, i) => { const el = document.createElement("div"); el.className = "pill"; el.id = "pl" + i; el.textContent = r.v; if (!i) el.style.visibility = "visible"; pills.appendChild(el); show("#pl" + i, r.a, r.b); if (i) tl.fromTo("#pl" + i, { y: -16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power2.out" }, r.a); });
+      runsOf("pill").forEach((r, i) => { const el = document.createElement("div"); el.className = "pill"; el.id = "pl" + i; el.textContent = r.v; if (!i) el.style.visibility = "hidden"; pills.appendChild(el); show("#pl" + i, i ? r.a : S("s2")[0], r.b); if (i) tl.fromTo("#pl" + i, { y: -16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power2.out" }, r.a); });
       runsOf("sub").forEach((r, i) => { const el = document.createElement("div"); el.className = "sub"; el.id = "sb" + i; el.textContent = r.v; if (!i) el.style.visibility = "visible"; caps.appendChild(el); show("#sb" + i, r.a, r.b); });
       T.words.forEach((w, i) => {
         const el = document.createElement("div"); el.className = "w"; el.id = "w" + i; el.innerHTML = w[2]; if (!i) el.style.visibility = "visible"; caps.appendChild(el);
         const a = i === 0 ? 0 : w[0], b = i + 1 < T.words.length ? T.words[i + 1][0] : T.dur;
         show("#w" + i, a, b);
-        if (i) tl.fromTo("#w" + i, { scale: 1.12 }, { scale: 1, duration: 0.18, ease: "power2.out" }, a);
+        if (el.querySelector("b")) tl.fromTo("#w" + i + " b", { scaleX: 0.3, opacity: 0, transformOrigin: "0% 50%" }, { scaleX: 1, opacity: 1, duration: 0.22, ease: "power3.out" }, a + 0.04);
       });
       let chips = [];
       Object.keys(T.s).forEach((k) => { const m = T.meta[k]; const last = chips[chips.length - 1]; if (!m.chip) return; if (last && last.chip === m.chip && Math.abs(last.b - S(k)[0]) < 0.01) last.b = S(k)[1]; else chips.push({ chip: m.chip, a: S(k)[0], b: S(k)[1] }); });
@@ -480,7 +501,7 @@
       tl.fromTo("#beamR", { rotation: 19 }, { rotation: 13, duration: T.dur, ease: "sine.inOut" }, 0);
       // leaf wipe at each section change
       gsap.set("#wipe", { rotation: -12, x: 0 });
-      ["s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9"].forEach((k) => tl.fromTo("#wipe", { x: 0 }, { x: -4300, duration: 0.7, ease: "power2.inOut" }, S(k)[0] - 0.35));
+      ["s2", "s4", "s9"].forEach((k) => tl.fromTo("#wipe", { x: 0 }, { x: -4300, duration: 0.7, ease: "power2.inOut" }, S(k)[0] - 0.35));
 
       // claude logos
       document.querySelectorAll(".clogo, .mk").forEach((el) => { if (el.children.length) return; for (let k = 0; k < 10; k++) { const i = document.createElement("i"); i.style.transform = `rotate(${k * 36}deg)`; el.appendChild(i); } });
@@ -565,7 +586,7 @@
       const T = window.TL, S = (k) => T.s[k];
       const m = createMascot(document.getElementById("three"));
       const fit = (cx, top, bot, extra = {}) => { const PX = 398, TOP = 1.7, BOT = 1.45; const yt = 0.1 + (960 - top) / PX, yb = 0.1 + (960 - bot) / PX; const s = (yt - yb) / (TOP + BOT); return { x: (cx - 540) / PX, y: yt - TOP * s, s, ry: 0, look: 0, ...extra }; };
-      const HERO = fit(540, 470, 1085);
+      const HERO = fit(540, 560, 1100);
       const HERO4 = fit(540, 470, 1085, { look: 0, ry: 0 });
       const CORNER = fit(250, 1335, 1660, { ry: 0.35, look: 0.5 });
       const plan = [["s1", HERO], ["s2", CORNER], ["s4", HERO4], ["s5", CORNER]];
@@ -589,7 +610,11 @@
         const hopAt = [TO + 0.05];
         st.hop = Math.max(0, ...hopAt.map((h) => { const u = (t - h) / 0.4; return u > 0 && u < 1 ? Math.sin(Math.PI * u) : 0; }));
         st.wave = t > S("s9")[0] + 0.3 ? 1 : (t > TO + 0.3 && t < TO + 1.6 ? 1 : 0);
-        st.cz = 9 + Math.max(0, 0.7 - t * 0.35);
+        const sk = Object.keys(T.s).find((k) => t >= T.s[k][0] && t < T.s[k][1]) || "s9";
+        const u = Math.min(1, (t - T.s[sk][0]) / Math.max(0.5, T.s[sk][1] - T.s[sk][0]));
+        st.cz = 9 + Math.max(0, 0.7 - t * 0.35) - 0.3 * u;
+        const pt = (k, a, b) => { const A = S(k)[0] + a * (S(k)[1] - S(k)[0]), B = S(k)[0] + b * (S(k)[1] - S(k)[0]); return t > A && t < B ? Math.min(1, (t - A) / 0.25, (B - t) / 0.25) : 0; };
+        st.point = Math.max(pt("s6", 0.25, 0.85), pt("s7", 0.45, 0.95));
         st.cube = t < S("s2")[0] - 0.1 ? 1 : Math.max(0, 1 - (t - (S("s2")[0] - 0.1)) / 0.3);
         return st;
       }
