@@ -1,0 +1,216 @@
+izer.cpp.o
+[ 91%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/clip_tokenizer.cpp.o
+[ 92%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/gemma_tokenizer.cpp.o
+[ 92%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/hf_tokenizer.cpp.o
+[ 92%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/mistral_tokenizer.cpp.o
+[ 92%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/qwen2_tokenizer.cpp.o
+[ 92%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/sensenova_u1_tokenizer.cpp.o
+[ 92%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/t5_unigram_tokenizer.cpp.o
+[ 93%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/tokenize_util.cpp.o
+[ 93%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/tokenizer.cpp.o
+[ 93%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/tokenizer_config.cpp.o
+[ 93%] Building CXX object CMakeFiles/stable-diffusion.dir/src/tokenizers/vocab/vocab.cpp.o
+[ 93%] Building CXX object CMakeFiles/stable-diffusion.dir/src/upscaler.cpp.o
+[ 94%] Building CXX object CMakeFiles/stable-diffusion.dir/src/version.cpp.o
+[ 94%] Building CUDA object CMakeFiles/stable-diffusion.dir/src/core/cuda/cute_attention.cu.o
+[ 94%] Building CUDA object CMakeFiles/stable-diffusion.dir/src/core/cuda/i8_projection.cu.o
+[ 94%] Building CUDA object CMakeFiles/stable-diffusion.dir/src/core/cuda/i8_gated_residual.cu.o
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:599:33: warning: 'long4' is deprecated: use long4_16a or long4_32a [-Wdeprecated-declarations]
+  599 | struct alignment_of<long4> {
+      |                                 ^    
+In file included from /usr/local/cuda/targets/x86_64-linux/include/driver_types.h:61,
+                 from /usr/local/cuda/targets/x86_64-linux/include/builtin_types.h:59,
+                 from /usr/local/cuda/targets/x86_64-linux/include/crt/host_runtime.h:58,
+                 from /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:218:
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:530:98: note: declared here
+  530 | typedef __device_builtin__ struct long4 __VECTOR_TYPE_DEPRECATED__("use long4_16a or long4_32a") long4;
+      |                                                                                                  ^~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:603:33: warning: 'ulong4' is deprecated: use ulong4_16a or ulong4_32a [-Wdeprecated-declarations]
+  603 | struct alignment_of<ulong4> {
+      |                                 ^     
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:531:101: note: declared here
+  531 | typedef __device_builtin__ struct ulong4 __VECTOR_TYPE_DEPRECATED__("use ulong4_16a or ulong4_32a") ulong4;
+      |                                                                                                     ^~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:619:33: warning: 'longlong4' is deprecated: use longlong4_16a or longlong4_32a [-Wdeprecated-declarations]
+  619 | struct alignment_of<longlong4> {
+      |                                 ^        
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:548:110: note: declared here
+  548 | typedef __device_builtin__ struct longlong4 __VECTOR_TYPE_DEPRECATED__("use longlong4_16a or longlong4_32a") longlong4;
+      |                                                                                                              ^~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:623:33: warning: 'ulonglong4' is deprecated: use ulonglong4_16a or ulonglong4_32a [-Wdeprecated-declarations]
+  623 | struct alignment_of<ulonglong4> {
+      |                                 ^         
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:549:113: note: declared here
+  549 | typedef __device_builtin__ struct ulonglong4 __VECTOR_TYPE_DEPRECATED__("use ulonglong4_16a or ulonglong4_32a") ulonglong4;
+      |                                                                                                                 ^~~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:627:33: warning: 'double4' is deprecated: use double4_16a or double4_32a [-Wdeprecated-declarations]
+  627 | struct alignment_of<double4> {
+      |                                 ^      
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:559:104: note: declared here
+  559 | typedef __device_builtin__ struct double4 __VECTOR_TYPE_DEPRECATED__("use double4_16a or double4_32a") double4;
+      |                                                                                                        ^~~~~~~
+[ 94%] Building CUDA object CMakeFiles/stable-diffusion.dir/src/core/cuda/i8_gemm.cu.o
+[ 94%] Building CUDA object CMakeFiles/stable-diffusion.dir/src/core/cuda/bf16_gemm.cu.o
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:599:33: warning: 'long4' is deprecated: use long4_16a or long4_32a [-Wdeprecated-declarations]
+  599 | struct alignment_of<long4> {
+      |                                 ^    
+In file included from /usr/local/cuda/targets/x86_64-linux/include/driver_types.h:61,
+                 from /usr/local/cuda/targets/x86_64-linux/include/builtin_types.h:59,
+                 from /usr/local/cuda/targets/x86_64-linux/include/crt/host_runtime.h:58,
+                 from /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:218:
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:530:98: note: declared here
+  530 | typedef __device_builtin__ struct long4 __VECTOR_TYPE_DEPRECATED__("use long4_16a or long4_32a") long4;
+      |                                                                                                  ^~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:603:33: warning: 'ulong4' is deprecated: use ulong4_16a or ulong4_32a [-Wdeprecated-declarations]
+  603 | struct alignment_of<ulong4> {
+      |                                 ^     
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:531:101: note: declared here
+  531 | typedef __device_builtin__ struct ulong4 __VECTOR_TYPE_DEPRECATED__("use ulong4_16a or ulong4_32a") ulong4;
+      |                                                                                                     ^~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:619:33: warning: 'longlong4' is deprecated: use longlong4_16a or longlong4_32a [-Wdeprecated-declarations]
+  619 | struct alignment_of<longlong4> {
+      |                                 ^        
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:548:110: note: declared here
+  548 | typedef __device_builtin__ struct longlong4 __VECTOR_TYPE_DEPRECATED__("use longlong4_16a or longlong4_32a") longlong4;
+      |                                                                                                              ^~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:623:33: warning: 'ulonglong4' is deprecated: use ulonglong4_16a or ulonglong4_32a [-Wdeprecated-declarations]
+  623 | struct alignment_of<ulonglong4> {
+      |                                 ^         
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:549:113: note: declared here
+  549 | typedef __device_builtin__ struct ulonglong4 __VECTOR_TYPE_DEPRECATED__("use ulonglong4_16a or ulonglong4_32a") ulonglong4;
+      |                                                                                                                 ^~~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:627:33: warning: 'double4' is deprecated: use double4_16a or double4_32a [-Wdeprecated-declarations]
+  627 | struct alignment_of<double4> {
+      |                                 ^      
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:559:104: note: declared here
+  559 | typedef __device_builtin__ struct double4 __VECTOR_TYPE_DEPRECATED__("use double4_16a or double4_32a") double4;
+      |                                                                                                        ^~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:599:33: warning: 'long4' is deprecated: use long4_16a or long4_32a [-Wdeprecated-declarations]
+  599 | struct alignment_of<long4> {
+      |                                 ^    
+In file included from /usr/local/cuda/targets/x86_64-linux/include/driver_types.h:61,
+                 from /usr/local/cuda/targets/x86_64-linux/include/builtin_types.h:59,
+                 from /usr/local/cuda/targets/x86_64-linux/include/crt/host_runtime.h:58,
+                 from /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:218:
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:530:98: note: declared here
+  530 | typedef __device_builtin__ struct long4 __VECTOR_TYPE_DEPRECATED__("use long4_16a or long4_32a") long4;
+      |                                                                                                  ^~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:603:33: warning: 'ulong4' is deprecated: use ulong4_16a or ulong4_32a [-Wdeprecated-declarations]
+  603 | struct alignment_of<ulong4> {
+      |                                 ^     
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:531:101: note: declared here
+  531 | typedef __device_builtin__ struct ulong4 __VECTOR_TYPE_DEPRECATED__("use ulong4_16a or ulong4_32a") ulong4;
+      |                                                                                                     ^~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:619:33: warning: 'longlong4' is deprecated: use longlong4_16a or longlong4_32a [-Wdeprecated-declarations]
+  619 | struct alignment_of<longlong4> {
+      |                                 ^        
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:548:110: note: declared here
+  548 | typedef __device_builtin__ struct longlong4 __VECTOR_TYPE_DEPRECATED__("use longlong4_16a or longlong4_32a") longlong4;
+      |                                                                                                              ^~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:623:33: warning: 'ulonglong4' is deprecated: use ulonglong4_16a or ulonglong4_32a [-Wdeprecated-declarations]
+  623 | struct alignment_of<ulonglong4> {
+      |                                 ^         
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:549:113: note: declared here
+  549 | typedef __device_builtin__ struct ulonglong4 __VECTOR_TYPE_DEPRECATED__("use ulonglong4_16a or ulonglong4_32a") ulonglong4;
+      |                                                                                                                 ^~~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:627:33: warning: 'double4' is deprecated: use double4_16a or double4_32a [-Wdeprecated-declarations]
+  627 | struct alignment_of<double4> {
+      |                                 ^      
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:559:104: note: declared here
+  559 | typedef __device_builtin__ struct double4 __VECTOR_TYPE_DEPRECATED__("use double4_16a or double4_32a") double4;
+      |                                                                                                        ^~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:599:33: warning: 'long4' is deprecated: use long4_16a or long4_32a [-Wdeprecated-declarations]
+  599 | struct alignment_of<long4> {
+      |                                 ^    
+In file included from /usr/local/cuda/targets/x86_64-linux/include/driver_types.h:61,
+                 from /usr/local/cuda/targets/x86_64-linux/include/builtin_types.h:59,
+                 from /usr/local/cuda/targets/x86_64-linux/include/crt/host_runtime.h:58,
+                 from /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:218:
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:530:98: note: declared here
+  530 | typedef __device_builtin__ struct long4 __VECTOR_TYPE_DEPRECATED__("use long4_16a or long4_32a") long4;
+      |                                                                                                  ^~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:603:33: warning: 'ulong4' is deprecated: use ulong4_16a or ulong4_32a [-Wdeprecated-declarations]
+  603 | struct alignment_of<ulong4> {
+      |                                 ^     
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:531:101: note: declared here
+  531 | typedef __device_builtin__ struct ulong4 __VECTOR_TYPE_DEPRECATED__("use ulong4_16a or ulong4_32a") ulong4;
+      |                                                                                                     ^~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:619:33: warning: 'longlong4' is deprecated: use longlong4_16a or longlong4_32a [-Wdeprecated-declarations]
+  619 | struct alignment_of<longlong4> {
+      |                                 ^        
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:548:110: note: declared here
+  548 | typedef __device_builtin__ struct longlong4 __VECTOR_TYPE_DEPRECATED__("use longlong4_16a or longlong4_32a") longlong4;
+      |                                                                                                              ^~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:623:33: warning: 'ulonglong4' is deprecated: use ulonglong4_16a or ulonglong4_32a [-Wdeprecated-declarations]
+  623 | struct alignment_of<ulonglong4> {
+      |                                 ^         
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:549:113: note: declared here
+  549 | typedef __device_builtin__ struct ulonglong4 __VECTOR_TYPE_DEPRECATED__("use ulonglong4_16a or ulonglong4_32a") ulonglong4;
+      |                                                                                                                 ^~~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:627:33: warning: 'double4' is deprecated: use double4_16a or double4_32a [-Wdeprecated-declarations]
+  627 | struct alignment_of<double4> {
+      |                                 ^      
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:559:104: note: declared here
+  559 | typedef __device_builtin__ struct double4 __VECTOR_TYPE_DEPRECATED__("use double4_16a or double4_32a") double4;
+      |                                                                                                        ^~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:599:33: warning: 'long4' is deprecated: use long4_16a or long4_32a [-Wdeprecated-declarations]
+  599 | struct alignment_of<long4> {
+      |                                 ^    
+In file included from /usr/local/cuda/targets/x86_64-linux/include/driver_types.h:61,
+                 from /usr/local/cuda/targets/x86_64-linux/include/builtin_types.h:59,
+                 from /usr/local/cuda/targets/x86_64-linux/include/crt/host_runtime.h:58,
+                 from /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:218:
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:530:98: note: declared here
+  530 | typedef __device_builtin__ struct long4 __VECTOR_TYPE_DEPRECATED__("use long4_16a or long4_32a") long4;
+      |                                                                                                  ^~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:603:33: warning: 'ulong4' is deprecated: use ulong4_16a or ulong4_32a [-Wdeprecated-declarations]
+  603 | struct alignment_of<ulong4> {
+      |                                 ^     
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:531:101: note: declared here
+  531 | typedef __device_builtin__ struct ulong4 __VECTOR_TYPE_DEPRECATED__("use ulong4_16a or ulong4_32a") ulong4;
+      |                                                                                                     ^~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:619:33: warning: 'longlong4' is deprecated: use longlong4_16a or longlong4_32a [-Wdeprecated-declarations]
+  619 | struct alignment_of<longlong4> {
+      |                                 ^        
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:548:110: note: declared here
+  548 | typedef __device_builtin__ struct longlong4 __VECTOR_TYPE_DEPRECATED__("use longlong4_16a or longlong4_32a") longlong4;
+      |                                                                                                              ^~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:623:33: warning: 'ulonglong4' is deprecated: use ulonglong4_16a or ulonglong4_32a [-Wdeprecated-declarations]
+  623 | struct alignment_of<ulonglong4> {
+      |                                 ^         
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:549:113: note: declared here
+  549 | typedef __device_builtin__ struct ulonglong4 __VECTOR_TYPE_DEPRECATED__("use ulonglong4_16a or ulonglong4_32a") ulonglong4;
+      |                                                                                                                 ^~~~~~~~~~
+/src/thirdparty/cutlass/include/cutlass/platform/platform.h:627:33: warning: 'double4' is deprecated: use double4_16a or double4_32a [-Wdeprecated-declarations]
+  627 | struct alignment_of<double4> {
+      |                                 ^      
+/usr/local/cuda/targets/x86_64-linux/include/vector_types.h:559:104: note: declared here
+  559 | typedef __device_builtin__ struct double4 __VECTOR_TYPE_DEPRECATED__("use double4_16a or double4_32a") double4;
+      |                                                                                                        ^~~~~~~
+[ 95%] Linking CXX static library libstable-diffusion.a
+[ 95%] Built target stable-diffusion
+[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/common.cpp.o
+[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/generation_metadata.cpp.o
+[ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/generation_metadata.cpp.o
+[ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/common.cpp.o
+[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/log.cpp.o
+[ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/log.cpp.o
+[ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/media_io.cpp.o
+[ 97%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/media_metadata.cpp.o
+[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/media_io.cpp.o
+[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/media_metadata.cpp.o
+[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/main.cpp.o
+[ 97%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/image_metadata.cpp.o
+[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/runtime.cpp.o
+[ 98%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/main.cpp.o
+[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/model_catalog.cpp.o
+[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_models.cpp.o
+[ 98%] Linking CXX executable ../../bin/sd-cli
+[ 98%] Built target sd-cli
+[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/async_jobs.cpp.o
+[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_index.cpp.o
+[ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_openai.cpp.o
+[100%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_sdapi.cpp.o
+[100%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_sdcpp.cpp.o
+[100%] Linking CXX executable ../../bin/sd-server
+[100%] Built target sd-server
