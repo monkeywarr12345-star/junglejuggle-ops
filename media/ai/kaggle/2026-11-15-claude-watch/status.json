@@ -7,7 +7,6 @@
   ],
   "cpus": 4,
   "steps": [
-   "whisper",
    "tts"
   ]
  },
@@ -16,20 +15,13 @@
   "device": "cuda"
  },
  {
-  "step": "whisper_reel",
-  "cer": 0.032,
-  "ndiff": 3,
-  "nlow": 0,
-  "sec": 44
- },
- {
   "step": "tts",
   "tag": "supertonic_M1_x1.3",
   "ok": true,
   "cer_mean": 0.024,
   "sec_total": 34.1,
   "chars_per_sec": 5.51,
-  "gen_sec": 21,
+  "gen_sec": 59,
   "lines": [
    {
     "line": 1,
@@ -88,18 +80,43 @@
   ]
  },
  {
+  "step": "keyword_pronunciation",
+  "results": [
+   {
+    "spelling": "와치",
+    "heard": "팔로우하고 댓글에 왓츠 남기면 프롬프트 전체본 보내드려요.",
+    "file": "kw_0.mp3"
+   },
+   {
+    "spelling": "워치",
+    "heard": "팔로우하고 댓글에 워치 남기면 프롬프트 전체본 보내드려요.",
+    "file": "kw_1.mp3"
+   },
+   {
+    "spelling": "와-치",
+    "heard": "팔로우하고 댓글에 왓츠 남기면 프롬프트 전체본 보내드려요.",
+    "file": "kw_2.mp3"
+   },
+   {
+    "spelling": "Watch",
+    "heard": "팔로우하고 댓글에 Watch 남기면 프롬프트 전체본 보내드려요.",
+    "file": "kw_3.mp3"
+   }
+  ]
+ },
+ {
   "step": "tts",
   "tag": "qwen17_design_male",
   "ok": false,
-  "err": "ImportError(\"huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\")",
-  "tb": "r/local/lib/python3.13/dist-packages/transformers/__init__.py\", line 27, in <module>\n    from . import dependency_versions_check\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/dependency_versions_check.py\", line 57, in <module>\n    require_version_core(deps[pkg])\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 117, in require_version_core\n    return require_version(requirement, hint)\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 111, in require_version\n    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 44, in _compare_versions\n    raise ImportError(\n        f\"{requirement} is required for a normal functioning of this module, but found {pkg}=={got_ver}.{hint}\"\n    )\nImportError: huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\n"
+  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
+  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
  },
  {
   "step": "tts",
   "tag": "qwen17_clone_current",
   "ok": false,
-  "err": "ImportError(\"huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\")",
-  "tb": "r/local/lib/python3.13/dist-packages/transformers/__init__.py\", line 27, in <module>\n    from . import dependency_versions_check\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/dependency_versions_check.py\", line 57, in <module>\n    require_version_core(deps[pkg])\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 117, in require_version_core\n    return require_version(requirement, hint)\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 111, in require_version\n    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 44, in _compare_versions\n    raise ImportError(\n        f\"{requirement} is required for a normal functioning of this module, but found {pkg}=={got_ver}.{hint}\"\n    )\nImportError: huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\n"
+  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
+  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
  },
  {
   "step": "done"
