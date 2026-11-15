@@ -1,6 +1,6 @@
 const { chromium } = require('playwright'); const path=require('path'), fs=require('fs');
 (async()=>{const [port,out,fps,list]=[process.argv[2],process.argv[3],+process.argv[4]||30,process.argv[5]];fs.mkdirSync(out,{recursive:true});
-const dur=JSON.parse(fs.readFileSync('/home/claude/main/media/ai/2026-11-16-devils-advocate/timeline.json')).dur;
+const dur=JSON.parse(fs.readFileSync('/home/claude/main/media/ai/2026-11-18-devils-advocate/timeline.json')).dur;
 const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});
 await p.goto(`http://127.0.0.1:${port}/index.html`);
 const ts=list?list.split(',').map(Number):Array.from({length:Math.round(dur*fps)},(_,i)=>i/fps);

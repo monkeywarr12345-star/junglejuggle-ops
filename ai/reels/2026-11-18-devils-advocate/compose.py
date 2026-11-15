@@ -1,7 +1,7 @@
 import subprocess, sys
 # usage: compose.py A|B video_src frames_dir out_prefix
 V, src, fr, out = sys.argv[1:5]
-M = '/home/claude/main/media/ai/2026-11-16-devils-advocate'
+M = '/home/claude/main/media/ai/2026-11-18-devils-advocate'
 DUR, CUT = 20.48, 15.852
 TAIL = {'A': 21.3, 'B': 22.6}[V]          # where the closing shot starts in the source
 nC = round(CUT*30); nT = round(DUR*30) - nC
