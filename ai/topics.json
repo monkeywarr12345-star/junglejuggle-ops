@@ -1,5 +1,5 @@
 {
- "note": "첫 10편(2026-11-13 벤치마크 11곳 540개 분석 기준). x = 벤치마크에서 비슷한 글이 그 계정 평소 반응의 몇 배였는지. 순서는 주간 회고가 바꾼다.",
+ "note": "x = 벤치마크에서 비슷한 글이 그 계정 평소 반응의 몇 배였는지. 순서는 주간 회고가 바꾼다. W47(2026-11-16) 회고: 11.16까지 Claude 2편 연속(watch·반대)이라 다음은 Gemini → Claude → ChatGPT·Gemini 순으로 도구를 번갈아 배치.",
  "topics": [
   {
    "n": 1,
@@ -19,8 +19,9 @@
    "tool": "Claude",
    "keyword": "세팅",
    "evidence": "oaiwan.kr 설정 5개 11.9x, sebia.ai 처음 세팅 5개 14.5x",
-   "status": "doing",
-   "reel": "2026-11-13-claude-setup"
+   "status": "done",
+   "reel": "2026-11-13-claude-setup",
+   "publish_at": "2026-11-13T22:45:00+09:00"
   },
   {
    "n": 3,
@@ -41,7 +42,7 @@
    "tool": "Claude",
    "keyword": "와치",
    "evidence": "사용자가 준 참고 릴스(클로드 와치 스킬, 2026-11-14) — 정글 GCC식으로 재구성(정글이 눈 감음→눈 뜸)",
-   "status": "doing",
+   "status": "done",
    "reel": "2026-11-15-claude-watch",
    "publish_at": "2026-11-15T18:00:00+09:00",
    "note": "2026-11-14 사용자 지시로 끼워 넣음, 기존 4번(반대 의견)부터 한 칸씩 미룸. 출처: github.com/bradautomates/claude-video (MIT)"
@@ -61,15 +62,35 @@
   },
   {
    "n": 6,
-   "slug": "ai-tone",
-   "title": "AI가 쓴 티 안 나게 글 고치기",
-   "tool": "Claude·ChatGPT",
-   "keyword": "글티",
-   "evidence": "gpt_haterz 글 티는 구조 12.5x, ai.trend.kr 7.5x",
-   "status": "todo"
+   "slug": "privacy-ads",
+   "title": "Gemini가 내 메일·사진을 맞춤 광고에 쓰지 않게 끄기",
+   "tool": "Gemini",
+   "keyword": "광고",
+   "evidence": "ai.trend.kr 내 메일·드라이브 정보 맞춤 광고 7.1x(댓글 1,568) + 우리 '학습에 쓰일 수도' 손해 경고 훅 claude-setup 도달 1,905(W47 최고)",
+   "status": "todo",
+   "note": "W47 회고 신규. 제작 때 Google 공식 도움말로 실제 설정 이름·적용 지역(한국 적용 여부) 확인 필수 — 한국 미적용이면 'Gemini 활동 기록 끄기'로 바꿈"
   },
   {
    "n": 7,
+   "slug": "claude-skills-3",
+   "title": "클로드 스킬, 진짜 쓸 만한 3개만",
+   "tool": "Claude",
+   "keyword": "스킬",
+   "evidence": "pickit_.official 우승자 스킬 23.5x(댓글 7,022)·주식 스킬 3개 11.9x·인스타 9.0x, prompt_what 계정 운영 스킬 13개 16.1x, joshproductletter 애니 스킬 6개 3.1x",
+   "status": "todo",
+   "note": "W47 회고 신규. 무료 플랜 가능 여부·설치 경로를 공식 문서로 확인, 스킬 출처(공식/오픈소스 라이선스) 캡션에 표기"
+  },
+  {
+   "n": 8,
+   "slug": "profile-photo",
+   "title": "사진 한 장으로 프로필 사진 만들기",
+   "tool": "Gemini·ChatGPT",
+   "keyword": "사진",
+   "evidence": "ai.trend.kr 사진 한 장 13.2x, ai_newpd 사진 프롬프트 14.7x, prompt_what 보정 앱 없이 챗GPT 사진 고치기 6.4x(W47)",
+   "status": "todo"
+  },
+  {
+   "n": 9,
    "slug": "compare-3",
    "title": "같은 질문, ChatGPT·Claude·Gemini 비교",
    "tool": "ChatGPT·Claude·Gemini",
@@ -78,25 +99,36 @@
    "status": "todo"
   },
   {
-   "n": 8,
-   "slug": "profile-photo",
-   "title": "사진 한 장으로 프로필 사진 만들기",
-   "tool": "Gemini·ChatGPT",
-   "keyword": "사진",
-   "evidence": "ai.trend.kr 사진 한 장 13.2x, ai_newpd 사진 프롬프트 14.7x",
-   "status": "todo"
-  },
-  {
-   "n": 9,
-   "slug": "claude-ppt",
-   "title": "Claude로 PPT 10장 초안 한 번에",
-   "tool": "Claude",
-   "keyword": "PPT",
-   "evidence": "PPT 주제 평균 1.3x, grappt_ PPT 시리즈",
-   "status": "todo"
-  },
-  {
    "n": 10,
+   "slug": "ai-tone",
+   "title": "AI가 쓴 티 안 나게 글 고치기",
+   "tool": "Claude·ChatGPT",
+   "keyword": "글티",
+   "evidence": "gpt_haterz 글 티는 구조 12.5x, ai.trend.kr 7.5x",
+   "status": "todo"
+  },
+  {
+   "n": 11,
+   "slug": "ai-video-light",
+   "title": "조명 이름 5개만 알아도 AI 영상 분위기가 바뀌어요",
+   "tool": "Gemini",
+   "keyword": "조명",
+   "evidence": "prompt_what 조명 이름 34개 12.0x·재게시 6.6x, AI 영화 제작 순서 2.0x",
+   "status": "todo",
+   "note": "W47 회고 신규. Gemini 앱 Veo(유료 여부 확인). 남의 캐릭터(엘사 등) 예시 금지"
+  },
+  {
+   "n": 12,
+   "slug": "stock-study",
+   "title": "공시·실적 3분 요약, 주식 공부용 AI 프롬프트",
+   "tool": "Claude",
+   "keyword": "공시",
+   "evidence": "pickit_.official 주식 AI 스킬 3가지 11.9x(댓글 3,335)",
+   "status": "todo",
+   "note": "W47 회고 신규. 종목 추천·매수 언급 금지, '정보 제공 목적' 표기"
+  },
+  {
+   "n": 13,
    "slug": "resume",
    "title": "이력서·자기소개서 AI 첨삭",
    "tool": "Claude·ChatGPT",
@@ -105,12 +137,21 @@
    "status": "todo"
   },
   {
-   "n": 11,
+   "n": 14,
    "slug": "claude-blog",
    "title": "Claude에게 블로그 글 맡기기",
    "tool": "Claude",
    "keyword": "블로그",
    "evidence": "oaiwan.kr 블로그 자동화 24.8x, 19.2x",
+   "status": "todo"
+  },
+  {
+   "n": 15,
+   "slug": "claude-ppt",
+   "title": "Claude로 PPT 10장 초안 한 번에",
+   "tool": "Claude",
+   "keyword": "PPT",
+   "evidence": "PPT 주제 평균 1.3x, grappt_ PPT 시리즈",
    "status": "todo"
   }
  ]
