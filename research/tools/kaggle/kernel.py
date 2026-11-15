@@ -39,8 +39,12 @@ if tars or clis:
     else:
         sh(f"mkdir -p {T}/pre && tar xzf {tars[0]} -C {T}/pre")
     cand = find_sd(f"{T}/pre/bin")
-    if cand:
-        ok, info = works(cand)
+    # the first upload was built with -march=native on an AVX-512 runner and dies with SIGILL here;
+    # only trust builds that carry the portable marker
+    flags = open(f"{T}/pre/bin/BUILD_FLAGS").read() if os.path.exists(f"{T}/pre/bin/BUILD_FLAGS") else ""
+    info = f"flags={flags.strip() or 'none'}"
+    if cand and "portable" in flags:
+        ok, winfo = works(cand); info += " " + winfo
         if ok:
             sd, how = cand, "prebuilt"
 if not sd:

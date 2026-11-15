@@ -32,7 +32,7 @@ jobs:
               -DBUILD_SHARED_LIBS=OFF -DGGML_NATIVE=OFF -DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON -DGGML_F16C=ON -DGGML_AVX512=OFF -DCUDA_cuda_driver_LIBRARY=/usr/local/cuda/lib64/stubs/libcuda.so > /out/cmake.log 2>&1
             cmake --build build -j$(nproc) --config Release > /out/build.log 2>&1 || { tail -c 4000 /out/build.log; exit 1; }
             mkdir -p /out/bin && cp build/bin/* /out/bin/ && find build -name "*.so*" -exec cp {} /out/bin/ \;
-            git rev-parse HEAD > /out/bin/SD_COMMIT; nvcc --version | tail -2 > /out/bin/NVCC
+            git rev-parse HEAD > /out/bin/SD_COMMIT; echo portable-avx2 > /out/bin/BUILD_FLAGS; nvcc --version | tail -2 > /out/bin/NVCC
             ls -la /out/bin'
           cd /tmp/out && tar czf sd_bin.tar.gz bin && ls -la
       - name: upload private kaggle dataset
