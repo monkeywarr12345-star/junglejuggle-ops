@@ -8,7 +8,7 @@ os.environ.setdefault("HF_HOME", "/tmp/hf")
 RAW = "https://raw.githubusercontent.com/monkeywarr12345-star/junglejuggle-ops/main/"
 REEL = "media/ai/2026-11-15-claude-watch/"
 LOG = []
-STEPS = [s.strip() for s in os.environ.get("JJ_STEPS", "whisper,tts").split(",")]  # upscale done 11-15 14:39
+STEPS = [s.strip() for s in os.environ.get("JJ_STEPS", "tts").split(",")]  # upscale done 11-15 14:39
 try:
     STEPS = [s.strip() for s in open(f"{T}/steps.txt").read().split(",")]
 except Exception:
@@ -229,11 +229,19 @@ def tts():
                 x, _ = sf.read(f"{T}/_s13.wav", dtype="float32")
             return x
         score("supertonic_M1_x1.3", sup)
+        # keyword pronunciation check: which spelling does whisper hear as the on-screen keyword?
+        kw = []
+        for v in ["와치", "워치", "와-치", "Watch"]:
+            line = f"팔로우하고 댓글에 {v}, 남기면 프롬프트 전체본 보내드려요."
+            p = f"{T}/kw_{len(kw)}.wav"; sf.write(p, sup(line), SR)
+            sh(f"{FF} -v error -y -i {p} -c:a libmp3lame -b:a 128k {W}/kw_{len(kw)}.mp3")
+            _, hyp = transcribe(p); kw.append({"spelling": v, "heard": hyp, "file": f"kw_{len(kw)}.mp3"})
+        note(step="keyword_pronunciation", results=kw)
     except Exception as e:
         note(step="tts", tag="supertonic_M1_x1.3", ok=False, err=repr(e)[:600])
 
     sh("pip install -q -U qwen-tts")
-    sh("pip install -q -U huggingface_hub")
+    sh('pip install -q -U "huggingface_hub>=0.34,<1.0" "transformers<5"')
     try:
         from qwen_tts import Qwen3TTSModel
         dt = torch.float32  # T4 has no bf16; fp32 avoids fp16 NaNs
