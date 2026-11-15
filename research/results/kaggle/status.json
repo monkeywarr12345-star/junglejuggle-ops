@@ -89,5 +89,23 @@
   "rc": 0,
   "mp4": true,
   "tail": " 02:37\u001b[K\n  |======================================>           | 28/36 -  17.44s/it - ETA 02:19\u001b[K\n  |========================================>         | 29/36 -  17.51s/it - ETA 02:02\u001b[K\n  |=========================================>        | 30/36 -  17.50s/it - ETA 01:44\u001b[K\n  |===========================================>      | 31/36 -  17.37s/it - ETA 01:27\u001b[K\n  |============================================>     | 32/36 -  17.35s/it - ETA 01:09\u001b[K\n  |=============================================>    | 33/36 -  17.35s/it - ETA 00:52\u001b[K\n  |===============================================>  | 34/36 -  17.37s/it - ETA 00:34\u001b[K\n  |================================================> | 35/36 -  17.40s/it - ETA 00:17\u001b[K\n  |==================================================| 36/36 -  17.47s/it\u001b[K\n[I] decode_first_stage completed, taking 629.85s --- video.cpp:1293\n[I] generate_video completed in 871.98s --- video.cpp:2286\n[I] save result video to '/tmp/jj/turbo8_p1v2.avi' --- main.cpp:560\nggml_cuda_init: found 2 CUDA devices (Total VRAM: 29823 MiB):\n  Device 0: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n  Device 1: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n"
+ },
+ {
+  "step": "gen",
+  "tag": "base_p1v2",
+  "img": 1,
+  "prompt": "p1v2",
+  "model": "base",
+  "steps": 30,
+  "cfg": 5.0,
+  "shift": 3.0,
+  "seed": 11,
+  "sec": 2381,
+  "rc": 0,
+  "mp4": true,
+  "tail": "A 02:37\u001b[K\n  |======================================>           | 28/36 -  17.49s/it - ETA 02:19\u001b[K\n  |========================================>         | 29/36 -  17.48s/it - ETA 02:02\u001b[K\n  |=========================================>        | 30/36 -  17.33s/it - ETA 01:44\u001b[K\n  |===========================================>      | 31/36 -  17.27s/it - ETA 01:27\u001b[K\n  |============================================>     | 32/36 -  17.41s/it - ETA 01:09\u001b[K\n  |=============================================>    | 33/36 -  17.47s/it - ETA 00:52\u001b[K\n  |===============================================>  | 34/36 -  17.44s/it - ETA 00:34\u001b[K\n  |================================================> | 35/36 -  17.35s/it - ETA 00:17\u001b[K\n  |==================================================| 36/36 -  17.36s/it\u001b[K\n[I] decode_first_stage completed, taking 628.92s --- video.cpp:1293\n[I] generate_video completed in 2377.35s --- video.cpp:2286\n[I] save result video to '/tmp/jj/base_p1v2.avi' --- main.cpp:560\nggml_cuda_init: found 2 CUDA devices (Total VRAM: 29823 MiB):\n  Device 0: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n  Device 1: Tesla T4, compute capability 7.5, VMM: yes, VRAM: 14911 MiB\n"
+ },
+ {
+  "step": "done"
  }
 ]
