@@ -1,0 +1,72 @@
+name: Kaggle GPU tools (jungle.gcc)
+# Runs ai/kaggle/kernel.py on a free Kaggle T4: Real-ESRGAN upscale of Ludyte clips, whisper check, TTS comparison.
+# Results are committed to media/ai/kaggle/<run>/ (Actions artifacts can't be downloaded from the Claude workspace).
+on:
+  push:
+    branches: [main]
+    paths: ['ai/kaggle/**']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'push = push kernel and wait; collect = only download the latest output'
+        default: push
+permissions:
+  contents: write
+concurrency: { group: kaggle-gpu, cancel-in-progress: false }
+jobs:
+  kaggle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KSECRET: ${{ secrets.KAGGLE_KEY }}
+      SLUG: jgcc-gpu-tools
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: sudo apt-get install -y -qq ffmpeg >/dev/null || true
+      - name: auth
+        run: |
+          pip install -q -U kaggle six
+          [ -n "$KAGGLE_USERNAME" ] && [ -n "$KSECRET" ] || { echo "KAGGLE_USERNAME / KAGGLE_KEY secret missing"; exit 1; }
+          mkdir -p ~/.kaggle
+          case "$KSECRET" in
+            KGAT_*) echo "KAGGLE_API_TOKEN=$KSECRET" >> $GITHUB_ENV; printf '%s' "$KSECRET" > ~/.kaggle/access_token ;;
+            *) printf '{"username":"%s","key":"%s"}' "$KAGGLE_USERNAME" "$KSECRET" > ~/.kaggle/kaggle.json ;;
+          esac
+          chmod 600 ~/.kaggle/* ; kaggle --version
+      - name: push kernel
+        if: ${{ github.event.inputs.mode != 'collect' }}
+        run: |
+          D=/tmp/kpush; mkdir -p $D; cp ai/kaggle/kernel.py $D/
+          cat > $D/kernel-metadata.json <<EOF
+          {"id": "$KAGGLE_USERNAME/$SLUG", "title": "$SLUG", "code_file": "kernel.py", "language": "python",
+           "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": true,
+           "dataset_sources": [], "competition_sources": [], "kernel_sources": [], "model_sources": []}
+          EOF
+          ACC=""; kaggle kernels push --help 2>&1 | grep -q -- "--accelerator" && ACC="--accelerator $(cat ai/kaggle/accel.txt 2>/dev/null || echo NvidiaTeslaT4)"
+          kaggle kernels push -p $D $ACC
+      - name: wait
+        if: ${{ github.event.inputs.mode != 'collect' }}
+        run: |
+          sleep 60
+          for i in $(seq 1 330); do
+            S=$(kaggle kernels status $KAGGLE_USERNAME/$SLUG 2>&1 | tail -1); echo "$(date +%H:%M) $S"
+            echo "$S" | grep -qiE 'complete|error|cancel' && break; sleep 60
+          done
+      - name: collect
+        if: always()
+        run: |
+          RUN=$(cat ai/kaggle/run.txt 2>/dev/null || echo latest); OUT=media/ai/kaggle/$RUN; mkdir -p $OUT /tmp/kout
+          kaggle kernels output $KAGGLE_USERNAME/$SLUG -p /tmp/kout || true
+          ls -la /tmp/kout
+          cp /tmp/kout/*.mp4 /tmp/kout/*.mp3 /tmp/kout/*.json $OUT/ 2>/dev/null || true
+          for f in /tmp/kout/*.log; do [ -f "$f" ] && tail -c 30000 "$f" > $OUT/kernel_log_tail.txt; done
+          ls -la $OUT
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add media/ai/kaggle && git commit -qm "media: kaggle gpu tools output [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -q && git push -q && break; sleep 15; done
