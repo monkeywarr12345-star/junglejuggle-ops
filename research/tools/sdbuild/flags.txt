@@ -1,0 +1,1 @@
+portable: GGML_NATIVE=OFF, AVX2 only (runner had AVX-512 -> SIGILL on Kaggle Xeon)
