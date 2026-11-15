@@ -1,0 +1,33 @@
+name: AI narration only (jungle.gcc)
+# For reels whose picture is made elsewhere (Ludyte etc.): builds narration.wav + sfx.wav + timeline.json
+# from ai/voice/<id>/build.py and commits them to media/ai/<id>/.
+on:
+  push:
+    branches: [main]
+    paths: ['ai/voice/**']
+permissions:
+  contents: write
+concurrency: { group: ai-voice, cancel-in-progress: false }
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: sudo apt-get install -y -qq ffmpeg libsndfile1 >/dev/null || true
+      - run: pip install -q numpy soundfile pillow scipy supertonic
+      - name: build
+        run: |
+          for R in $(git diff --name-only HEAD^ HEAD -- ai/voice | cut -d/ -f3 | sort -u); do
+            D=ai/voice/$R; [ -f $D/build.py ] || continue; OUT=media/ai/$R; mkdir -p $OUT
+            (cd $D && python build.py "$(head -1 voice.txt)" ../../../$OUT) || echo "fail $R"
+            ls -la $OUT
+          done
+      - name: commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add media/ai && git commit -qm "ai: narration build [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -q && git push -q && break; sleep 10; done
