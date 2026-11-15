@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/>
+<script src="gsap.min.js"></script><script src="timeline.js"></script>
+<style>
+@font-face{font-family:P;font-weight:500;src:url(assets/fonts/Pretendard-Medium.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,"Noto Sans CJK KR",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+#root{position:absolute;inset:0;overflow:hidden}
+#prog{position:absolute;left:64px;right:64px;top:62px;height:5px;border-radius:3px;background:rgba(255,255,255,.14);overflow:hidden}
+#prog s{display:block;height:100%;width:0;background:#ffd43b}
+#brand{position:absolute;left:64px;top:96px;display:flex;align-items:center;gap:14px;font-weight:800;font-size:32px;letter-spacing:-.4px;color:rgba(255,255,255,.92)}
+#brand i{width:10px;height:10px;border-radius:50%;background:#ffd43b;box-shadow:0 0 14px #ffd43b}
+#brand span{font-weight:600;font-size:22px;padding:5px 13px;border-radius:20px;border:1.5px solid rgba(255,255,255,.28);color:rgba(255,255,255,.75)}
+.st{display:inline-block;padding:10px 24px;border-radius:12px;background:#ff3b3b;color:#fff;font-weight:900;letter-spacing:-1px;transform:rotate(-3deg)}
+.card{position:absolute;border-radius:30px;background:rgba(16,16,18,.9);border:1.5px solid rgba(255,255,255,.14);box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.08);padding:28px 32px;visibility:hidden}
+.card h6{font-size:25px;font-weight:700;color:rgba(255,255,255,.6);margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.card h6 b{width:12px;height:12px;border-radius:50%;background:#ffd43b;display:inline-block}
+.card h6 b.r{background:#ff4d4d}
+.bub{max-width:88%;padding:18px 24px;border-radius:24px;font-size:34px;font-weight:700;line-height:1.3;letter-spacing:-.8px;margin-top:12px}
+.me{margin-left:auto;background:#3b82f6;border-bottom-right-radius:6px}
+.ai{background:rgba(255,255,255,.1);border-bottom-left-radius:6px}
+.row{display:flex;align-items:center;gap:18px;font-size:36px;font-weight:800;letter-spacing:-1px;padding:13px 0;border-top:1px solid rgba(255,255,255,.08)}
+.row:first-of-type{border-top:0}
+.row .ic{flex:none;width:54px;height:54px;border-radius:16px;background:rgba(255,255,255,.08);display:grid;place-items:center;font-size:28px}
+.row .ic.n{background:#ff4d4d;font-size:28px;font-weight:900}
+.row small{display:block;font-size:25px;font-weight:600;color:rgba(255,255,255,.6);letter-spacing:-.4px;margin-top:2px}
+.pr{font-size:36px;font-weight:800;line-height:1.38;letter-spacing:-1px;padding:22px 24px;border-radius:20px;background:rgba(255,212,59,.12);box-shadow:inset 0 0 0 2px #ffd43b;min-height:150px}
+.pr i{font-style:normal;display:inline-block;width:3px;height:38px;background:#ffd43b;vertical-align:-6px;margin-left:4px}
+.tag{display:inline-block;margin-top:16px;font-size:26px;font-weight:700;color:rgba(255,255,255,.65)}
+.stamp{position:absolute;right:26px;top:22px;padding:8px 18px;border:4px solid #ff4d4d;border-radius:12px;color:#ff4d4d;font-size:34px;font-weight:900;transform:rotate(8deg);opacity:0}
+.prof{display:flex;align-items:center;gap:20px}
+.av{width:84px;height:84px;border-radius:50%;background:#ffd43b;color:#111;font-weight:900;font-size:22px;display:grid;place-items:center;text-align:center;line-height:1.05}
+.nm b{display:block;font-size:36px;font-weight:900}.nm span{font-size:24px;color:rgba(255,255,255,.55);font-weight:600}
+#fb{margin-left:auto;position:relative;width:170px;height:62px}
+#fb span{position:absolute;inset:0;border-radius:16px;display:grid;place-items:center;font-size:28px;font-weight:900}
+#fb .a{background:#3b82f6}#fb .b{background:rgba(255,255,255,.14);opacity:0}
+.cm{margin-top:22px;display:flex;align-items:center;gap:16px;padding:18px 22px;border-radius:18px;background:rgba(255,255,255,.07);font-size:34px;font-weight:700}
+.cm em{font-style:normal;color:#ffd43b;font-weight:900}
+.dm{margin-top:16px;display:flex;align-items:center;gap:14px;padding:16px 22px;border-radius:18px;background:#ffd43b;color:#111;font-size:30px;font-weight:900}
+.w{position:absolute;left:30px;right:30px;text-align:center;font-weight:900;white-space:nowrap;visibility:hidden;text-shadow:0 0 2px #000,0 6px 24px rgba(0,0,0,.85)}
+.w b{display:inline-block;border-radius:14px;background:#ffd43b;color:#111;text-shadow:none}
+#bg div{position:absolute;left:0;right:0;background:#0a0a0b}
+#vf{position:absolute;left:0;right:0;top:498px;height:612px;border-top:2px solid rgba(255,255,255,.12);border-bottom:2px solid rgba(255,255,255,.12)}
+#title{position:absolute;left:64px;right:40px;top:170px}
+#title .t{font-size:88px;line-height:1.1;font-weight:900;letter-spacing:-4px}
+#title .t em{font-style:normal;color:#ffd43b}
+#title .st{font-size:34px;margin-top:20px}
+.card{left:64px;right:64px;top:1255px}
+.w{top:1140px;font-size:64px;letter-spacing:-2.5px}
+.w b{padding:0 14px 6px}
+
+</style></head><body>
+<div id="root">
+<div id="bg"><div style="top:0;height:500px"></div><div style="top:1108px;bottom:0"></div></div><div id="vf"></div>
+<div id="prog"><s></s></div>
+<div id="brand"><i></i>jungle.gcc<span>AI 꿀팁</span></div>
+<div id="title"><div class="t">AI가 칭찬만 하면<br/><em>이 한 줄</em> 붙이세요</div><div class="st">아첨 AI 탈출법</div></div>
+<div class="card" id="c1"><h6><b></b>평범한 AI 답변</h6><div class="bub me q">퇴근 후 쇼츠로 6개월 안에 월 300 벌 거야</div><div class="bub ai q">정말 멋진 계획이에요! 무조건 응원해요 👏👏</div><div class="stamp" id="stp">맞장구</div></div>
+<div class="card" id="c2"><h6><b class="r"></b>AI의 '아첨 성향'</h6><div class="row q"><span class="ic">👍</span>일단 칭찬부터</div><div class="row q"><span class="ic">🙆</span>내 말에 동의</div><div class="row q"><span class="ic">🙈</span>약점은 잘 안 말함</div></div>
+<div class="card" id="c3"><h6><b></b>질문 끝에 이 한 줄</h6><div class="pr"><span id="ty1"></span><i></i></div><span class="tag">Claude · ChatGPT · Gemini 공통</span></div>
+<div class="card" id="c4"><h6><b class="r"></b>반대 입장 AI 답변</h6><div class="row q"><span class="ic n">1</span><div>수익 구조<small>쇼츠 광고만으론 월 300 어려움</small></div></div><div class="row q"><span class="ic n">2</span><div>시간<small>하루 2시간이면 영상 수가 적음</small></div></div><div class="row q"><span class="ic n">3</span><div>장비비<small>검증 전 100만 원은 위험</small></div></div></div>
+<div class="card" id="c5"><h6><b></b>더 세게 시키기</h6><div class="pr"><span id="ty2"></span><i></i></div><span class="tag">거절 사유 3가지 + 통과 조건</span></div>
+<div class="card" id="c6"><div class="prof"><div class="av">jungle<br/>.gcc</div><div class="nm"><b>jungle.gcc</b><span>클로드·챗GPT·제미나이 AI 꿀팁</span></div><div id="fb"><span class="a">팔로우</span><span class="b">팔로잉 ✓</span></div></div><div class="cm">💬 댓글: <em id="kw"></em></div><div class="dm" id="dm">🎁 상황별 반대 프롬프트 5개 DM으로 보냈어요</div></div>
+<div id="caps"></div>
+</div>
+<script>
+const T=window.TL,S=k=>T.s[k],W=(k,f)=>S(k)[0]+f*(S(k)[1]-S(k)[0]);
+const tl=gsap.timeline({paused:true});window.__timelines={main:tl};
+const show=(sel,a,b)=>{tl.set(sel,{visibility:"visible"},a);tl.set(sel,{visibility:"hidden"},b)};
+tl.fromTo("#prog s",{width:"0%"},{width:"100%",duration:T.dur,ease:"none"},0);
+const cardIn=(id,a,b)=>{show(id,a,b);tl.fromTo(id,{y:60,opacity:0,filter:"blur(12px)"},{y:0,opacity:1,filter:"blur(0px)",duration:.4,ease:"power3.out"},a);
+  document.querySelectorAll(id+" .q").forEach((el,j)=>tl.fromTo(el,{opacity:0,x:-30},{opacity:1,x:0,duration:.28,ease:"power2.out"},a+.2+j*.3));};
+const typ=(el,txt,a,b)=>{const o={n:0};tl.set("#"+el,{textContent:""},0);tl.to(o,{n:txt.length,duration:b-a,ease:"none",onUpdate:()=>{document.getElementById(el).textContent=txt.slice(0,Math.round(o.n))}},a)};
+const C1A=0,C1B=S("s2")[0],USE_C2=true;tl.fromTo("#title .st",{scale:.5,opacity:0},{scale:1,opacity:1,duration:.35,ease:"back.out(2.4)"},.3);
+cardIn("#c1",C1A,C1B);
+tl.fromTo("#stp",{opacity:0,scale:1.8},{opacity:1,scale:1,duration:.25,ease:"back.out(2)"},W("s1",.75));
+if(USE_C2)cardIn("#c2",S("s2")[0],S("s3")[0]);
+cardIn("#c3",S("s3")[0],S("s5")[0]);
+typ("ty1","반대 입장에서 이 계획의 가장 약한 부분 3가지를 근거와 함께 짚고, 보완책도 알려줘.",S("s4")[0],W("s4",.92));
+cardIn("#c4",S("s5")[0],S("s6")[0]);
+cardIn("#c5",S("s6")[0],S("s7")[0]);
+typ("ty2","냉정한 투자 심사역이라고 생각하고, 거절 사유 3가지와 통과 조건을 말해줘.",W("s6",.12),W("s6",.85));
+show("#c6",S("s7")[0],T.dur);tl.fromTo("#c6",{y:60,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},S("s7")[0]);
+tl.to("#fb .a",{opacity:0,duration:.15},W("s7",.22));tl.to("#fb .b",{opacity:1,duration:.15},W("s7",.22));
+const kw=T.kw;const o2={n:0};tl.to(o2,{n:kw.length,duration:.3,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s7",.38));
+tl.fromTo("#dm",{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:"back.out(2)"},W("s7",.62));
+const caps=document.getElementById("caps");
+T.words.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
+ const a=i===0?0:w[0],b=i+1<T.words.length?T.words[i+1][0]:T.dur;show("#w"+i,a,b);
+ if(el.querySelector("b"))tl.fromTo("#w"+i+" b",{scaleX:.3,opacity:0,transformOrigin:"0% 50%"},{scaleX:1,opacity:1,duration:.22,ease:"power3.out"},a+.04)});
+tl.set({}, {}, T.dur);
+</script></body></html>
