@@ -7,73 +7,99 @@
   ],
   "cpus": 4,
   "steps": [
-   "upscale",
    "whisper",
    "tts"
   ]
  },
  {
-  "step": "upscale",
-  "clip": "cut1",
-  "frames": 240,
-  "sec": 434,
-  "model": "RealESRGAN_x2plus",
-  "out": "cut1_up.mp4"
- },
- {
-  "step": "upscale",
-  "clip": "cutA",
-  "frames": 240,
-  "sec": 437,
-  "model": "RealESRGAN_x2plus",
-  "out": "cutA_up.mp4"
- },
- {
-  "step": "upscale",
-  "clip": "cutB",
-  "frames": 240,
-  "sec": 438,
-  "model": "RealESRGAN_x2plus",
-  "out": "cutB_up.mp4"
- },
- {
   "step": "whisper_load",
-  "device": "cpu",
-  "why": "TypeError(\"open() got an unexpected keyword argument 'metadata_errors'\")"
+  "device": "cuda"
  },
  {
-  "step": "whisper",
-  "ok": false,
-  "err": "TypeError(\"open() got an unexpected keyword argument 'metadata_errors'\")",
-  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 278, in <module>\n    fn()\n    ~~^^\n  File \"/kaggle/src/script.py\", line 165, in check_reel\n    segs, hyp = transcribe(f\"{T}/reel.wav\", words=True)\n                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/src/script.py\", line 156, in transcribe\n    segs, _ = whisper().transcribe(path, language=\"ko\", beam_size=5, word_timestamps=words, vad_filter=False)\n              ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/transcribe.py\", line 876, in transcribe\n    audio = decode_audio(audio, sampling_rate=sampling_rate)\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/audio.py\", line 46, in decode_audio\n    with av.open(input_file, mode=\"r\", metadata_errors=\"ignore\") as container:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"av/container/core.py\", line 479, in av.container.core.open\n    def open(\nTypeError: open() got an unexpected keyword argument 'metadata_errors'\n"
+  "step": "whisper_reel",
+  "cer": 0.032,
+  "ndiff": 3,
+  "nlow": 0,
+  "sec": 44
  },
  {
   "step": "tts",
   "tag": "supertonic_M1_x1.3",
-  "ok": false,
-  "err": "TypeError(\"open() got an unexpected keyword argument 'metadata_errors'\")",
-  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 193, in score\n    _, hyp = transcribe(p)\n             ~~~~~~~~~~^^^\n  File \"/kaggle/src/script.py\", line 156, in transcribe\n    segs, _ = whisper().transcribe(path, language=\"ko\", beam_size=5, word_timestamps=words, vad_filter=False)\n              ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/transcribe.py\", line 876, in transcribe\n    audio = decode_audio(audio, sampling_rate=sampling_rate)\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/audio.py\", line 46, in decode_audio\n    with av.open(input_file, mode=\"r\", metadata_errors=\"ignore\") as container:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"av/container/core.py\", line 479, in av.container.core.open\n    def open(\nTypeError: open() got an unexpected keyword argument 'metadata_errors'\n"
+  "ok": true,
+  "cer_mean": 0.024,
+  "sec_total": 34.1,
+  "chars_per_sec": 5.51,
+  "gen_sec": 21,
+  "lines": [
+   {
+    "line": 1,
+    "cer": 0.0,
+    "heard": "영상 못 보던 클로드한테 눈을 달아줬어요.",
+    "sec": 3.2
+   },
+   {
+    "line": 2,
+    "cer": 0.0,
+    "heard": "원래는 유튜브 링크를 줘도 영상은 못 본다고 해요.",
+    "sec": 3.48
+   },
+   {
+    "line": 3,
+    "cer": 0.0,
+    "heard": "그래서 매번 캡처하고 자막 복사해서 설명해줬죠.",
+    "sec": 3.41
+   },
+   {
+    "line": 4,
+    "cer": 0.1,
+    "heard": "근데 왓츠 스킬을 깔았더니 클로드가 눈을 떴어요.",
+    "sec": 3.41
+   },
+   {
+    "line": 5,
+    "cer": 0.0,
+    "heard": "이제 링크만 주면 영상을 직접 보고 답해요.",
+    "sec": 3.2
+   },
+   {
+    "line": 6,
+    "cer": 0.0,
+    "heard": "장면은 사진으로 말은 글자로 바꿔서 같이 읽거든요.",
+    "sec": 3.83
+   },
+   {
+    "line": 7,
+    "cer": 0.0,
+    "heard": "그래서 몇 분 몇 초에 뭐가 나왔는지도 짚어줘요.",
+    "sec": 3.48
+   },
+   {
+    "line": 8,
+    "cer": 0.0,
+    "heard": "클로드 코드에서 명령어 두 줄이면 설치 끝이에요.",
+    "sec": 3.48
+   },
+   {
+    "line": 9,
+    "cer": 0.118,
+    "heard": "팔로우하고 댓글에 왓츠 남기면 설치법이랑 프롬프트 전체본 DM으로 보내드려요.",
+    "sec": 5.5
+   }
+  ]
  },
  {
   "step": "tts",
   "tag": "qwen17_design_male",
   "ok": false,
-  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
-  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
+  "err": "ImportError(\"huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\")",
+  "tb": "r/local/lib/python3.13/dist-packages/transformers/__init__.py\", line 27, in <module>\n    from . import dependency_versions_check\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/dependency_versions_check.py\", line 57, in <module>\n    require_version_core(deps[pkg])\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 117, in require_version_core\n    return require_version(requirement, hint)\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 111, in require_version\n    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 44, in _compare_versions\n    raise ImportError(\n        f\"{requirement} is required for a normal functioning of this module, but found {pkg}=={got_ver}.{hint}\"\n    )\nImportError: huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\n"
  },
  {
   "step": "tts",
   "tag": "qwen17_clone_current",
   "ok": false,
-  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
-  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
- },
- {
-  "step": "tts",
-  "tag": "chatterbox_ko",
-  "ok": false,
-  "err": "OSError('Could not load this library: /usr/local/lib/python3.13/dist-packages/torchaudio/lib/libtorchaudio.so')",
-  "tb": "_net/perth_net_implicit/perth_watermarker.py\", line 5, in <module>\n    from .model.perth_net import PerthNet\n  File \"/usr/local/lib/python3.13/dist-packages/perth/perth_net/perth_net_implicit/model/perth_net.py\", line 7, in <module>\n    from ..audio_processor import AudioProcessor\n  File \"/usr/local/lib/python3.13/dist-packages/perth/perth_net/perth_net_implicit/audio_processor.py\", line 3, in <module>\n    from torchaudio.transforms import Spectrogram, InverseSpectrogram, TimeStretch\n  File \"/usr/local/lib/python3.13/dist-packages/torchaudio/__init__.py\", line 2, in <module>\n    from . import _extension  # noqa  # usort: skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/torchaudio/_extension/__init__.py\", line 38, in <module>\n    _load_lib(\"libtorchaudio\")\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/torchaudio/_extension/utils.py\", line 60, in _load_lib\n    torch.ops.load_library(path)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/torch/_ops.py\", line 1505, in load_library\nOSError: Could not load this library: /usr/local/lib/python3.13/dist-packages/torchaudio/lib/libtorchaudio.so\n"
+  "err": "ImportError(\"huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\")",
+  "tb": "r/local/lib/python3.13/dist-packages/transformers/__init__.py\", line 27, in <module>\n    from . import dependency_versions_check\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/dependency_versions_check.py\", line 57, in <module>\n    require_version_core(deps[pkg])\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 117, in require_version_core\n    return require_version(requirement, hint)\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 111, in require_version\n    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/versions.py\", line 44, in _compare_versions\n    raise ImportError(\n        f\"{requirement} is required for a normal functioning of this module, but found {pkg}=={got_ver}.{hint}\"\n    )\nImportError: huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.\nTry: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main\n"
  },
  {
   "step": "done"
