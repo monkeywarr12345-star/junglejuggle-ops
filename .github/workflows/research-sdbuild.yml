@@ -1,0 +1,63 @@
+name: research build sd.cpp cuda binary -> private kaggle dataset (experiment branch only)
+# Builds stable-diffusion.cpp with CUDA 13 for Tesla T4 (sm_75) once, on a free GitHub runner (no GPU needed to compile),
+# and uploads it as a PRIVATE Kaggle dataset so Kaggle GPU sessions skip the ~40 min build.
+on:
+  push:
+    branches: [research/ai-tools-2026-11]
+    paths: ['research/tools/sdbuild/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KSECRET: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: free disk
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true; df -h /
+      - name: build in cuda container
+        run: |
+          REF=$(cat research/tools/sdbuild/sd_ref.txt)
+          mkdir -p /tmp/out
+          docker run --rm -v /tmp/out:/out -e REF=$REF nvidia/cuda:13.0.0-devel-ubuntu24.04 bash -lc '
+            set -e
+            apt-get update -qq && apt-get install -y -qq git cmake build-essential >/dev/null
+            git clone -q --recursive https://github.com/leejet/stable-diffusion.cpp /src && cd /src
+            git checkout -q $REF && git submodule update -q --init --recursive
+            cmake -B build -DCMAKE_BUILD_TYPE=Release -DSD_CUDA=ON -DCMAKE_CUDA_ARCHITECTURES=75 \
+              -DBUILD_SHARED_LIBS=OFF -DCUDA_cuda_driver_LIBRARY=/usr/local/cuda/lib64/stubs/libcuda.so > /out/cmake.log 2>&1
+            cmake --build build -j$(nproc) --config Release > /out/build.log 2>&1 || { tail -c 4000 /out/build.log; exit 1; }
+            mkdir -p /out/bin && cp build/bin/* /out/bin/ && find build -name "*.so*" -exec cp {} /out/bin/ \;
+            git rev-parse HEAD > /out/bin/SD_COMMIT; nvcc --version | tail -2 > /out/bin/NVCC
+            ls -la /out/bin'
+          cd /tmp/out && tar czf sd_bin.tar.gz bin && ls -la
+      - name: upload private kaggle dataset
+        run: |
+          pip install -q -U kaggle six
+          mkdir -p ~/.kaggle
+          case "$KSECRET" in
+            KGAT_*) echo "KAGGLE_API_TOKEN=$KSECRET" >> $GITHUB_ENV; export KAGGLE_API_TOKEN=$KSECRET; printf '%s' "$KSECRET" > ~/.kaggle/access_token ;;
+            *) printf '{"username":"%s","key":"%s"}' "$KAGGLE_USERNAME" "$KSECRET" > ~/.kaggle/kaggle.json ;;
+          esac
+          chmod 600 ~/.kaggle/*
+          D=/tmp/ds; mkdir -p $D; cp /tmp/out/sd_bin.tar.gz $D/
+          printf '{"title":"sdcpp-cuda13-sm75","id":"%s/sdcpp-cuda13-sm75","licenses":[{"name":"MIT"}]}' "$KAGGLE_USERNAME" > $D/dataset-metadata.json
+          if kaggle datasets status $KAGGLE_USERNAME/sdcpp-cuda13-sm75 >/dev/null 2>&1; then
+            kaggle datasets version -p $D -m "rebuild $(cat research/tools/sdbuild/sd_ref.txt)"
+          else
+            kaggle datasets create -p $D
+          fi
+      - name: record
+        if: always()
+        run: |
+          mkdir -p research/results/sdbuild
+          cp /tmp/out/cmake.log research/results/sdbuild/ 2>/dev/null || true
+          tail -c 20000 /tmp/out/build.log > research/results/sdbuild/build_tail.log 2>/dev/null || true
+          ls -la /tmp/out/bin > research/results/sdbuild/bin_list.txt 2>/dev/null || true
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add research/results/sdbuild && git commit -qm "research: sd.cpp cuda build log" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -q && git push -q && break; sleep 15; done
