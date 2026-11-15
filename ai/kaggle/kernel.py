@@ -8,7 +8,7 @@ os.environ.setdefault("HF_HOME", "/tmp/hf")
 RAW = "https://raw.githubusercontent.com/monkeywarr12345-star/junglejuggle-ops/main/"
 REEL = "media/ai/2026-11-15-claude-watch/"
 LOG = []
-STEPS = [s.strip() for s in os.environ.get("JJ_STEPS", "upscale,whisper,tts").split(",")]
+STEPS = [s.strip() for s in os.environ.get("JJ_STEPS", "whisper,tts").split(",")]  # upscale done 11-15 14:39
 try:
     STEPS = [s.strip() for s in open(f"{T}/steps.txt").read().split(",")]
 except Exception:
@@ -131,7 +131,7 @@ _wm = []
 
 def whisper():
     if not _wm:
-        sh("pip install -q faster-whisper")
+        sh("pip install -q -U faster-whisper av")
         import ctypes, site
         for pat in ["nvidia/cublas/lib/libcublas*.so*", "nvidia/cudnn/lib/libcudnn*.so*"]:
             for sp in site.getsitepackages():
@@ -143,7 +143,8 @@ def whisper():
         from faster_whisper import WhisperModel
         try:
             m = WhisperModel("large-v3", device="cuda", compute_type="float16")
-            list(m.transcribe(get(REEL + "reel_ludyte_nomusic.mp4", f"{T}/reel.mp4"), language="ko", clip_timestamps=[0, 2])[0])
+            import numpy as np
+            list(m.transcribe(np.zeros(16000, np.float32), language="ko")[0])
             note(step="whisper_load", device="cuda")
         except Exception as e:
             note(step="whisper_load", device="cpu", why=repr(e)[:300])
@@ -153,7 +154,10 @@ def whisper():
 
 
 def transcribe(path, words=False):
-    segs, _ = whisper().transcribe(path, language="ko", beam_size=5, word_timestamps=words, vad_filter=False)
+    import numpy as np, soundfile as sf
+    sh(f"{FF} -v error -y -i {path} -ac 1 -ar 16000 {T}/_w16.wav")
+    audio, _ = sf.read(f"{T}/_w16.wav", dtype="float32")
+    segs, _ = whisper().transcribe(audio, language="ko", beam_size=5, word_timestamps=words, vad_filter=False)
     segs = list(segs)
     return segs, "".join(s.text for s in segs).strip()
 
@@ -229,6 +233,7 @@ def tts():
         note(step="tts", tag="supertonic_M1_x1.3", ok=False, err=repr(e)[:600])
 
     sh("pip install -q -U qwen-tts")
+    sh("pip install -q -U huggingface_hub")
     try:
         from qwen_tts import Qwen3TTSModel
         dt = torch.float32  # T4 has no bf16; fp32 avoids fp16 NaNs
@@ -258,18 +263,6 @@ def tts():
         del b; torch.cuda.empty_cache()
     except Exception as e:
         note(step="tts", tag="qwen17_clone_current", ok=False, err=repr(e)[:600], tb=traceback.format_exc()[-1200:])
-
-    try:
-        sh("pip install -q chatterbox-tts")
-        from chatterbox.mtl_tts import ChatterboxMultilingualTTS
-        cb = ChatterboxMultilingualTTS.from_pretrained(device="cuda")
-
-        def ch(t):
-            w = cb.generate(t, language_id="ko")
-            return rs(w.squeeze(0).cpu().numpy(), cb.sr)
-        score("chatterbox_ko", ch)
-    except Exception as e:
-        note(step="tts", tag="chatterbox_ko", ok=False, err=repr(e)[:600], tb=traceback.format_exc()[-1200:])
 
 
 for name, fn in [("upscale", upscale), ("whisper", check_reel), ("tts", tts)]:
