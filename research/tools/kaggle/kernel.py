@@ -1,7 +1,9 @@
-"""Kaggle GPU kernel: Wan2.2 TI2V-5B image-to-video via stable-diffusion.cpp (CUDA).
-Same inputs/prompts as research/tools/v4video/run_i2v.py (CPU test) so the two can be compared.
-Pushed and collected by .github/workflows/research-kaggle.yml. Outputs land in /kaggle/working."""  # rev3
-import os, subprocess, time, json, sys, shutil
+"""Kaggle GPU kernel (round 3): Wan2.2 TI2V-5B image-to-video via stable-diffusion.cpp (CUDA).
+Round 3 tests: (1) prebuilt binary from private dataset sdcpp-cuda13-sm75 (skip the 40 min build),
+(2) Turbo 4-step finetune (hum-ma/Wan2.2-TI2V-5B-Turbo-GGUF, Apache-2.0) vs the 30-step base,
+(3) calmer prompt for the sofa shot (receipt popped up in round 2).
+Run interactively on Kaggle (batch queue stalled) via a loader cell that exec()s this file at a pinned commit."""
+import os, subprocess, time, json, sys, shutil, glob
 W, T = "/kaggle/working", "/tmp/jj"
 os.makedirs(T, exist_ok=True)
 os.environ["HF_HOME"] = "/tmp/hf"
@@ -20,85 +22,98 @@ gpu = sh("nvidia-smi --query-gpu=name,memory.total,compute_cap --format=csv,nohe
 note(step="gpu", gpu=gpu, cpus=os.cpu_count())
 cap = (gpu[0].split(",")[-1].strip().replace(".", "") if gpu else "") or "75"
 
-def find_sd():
-    return next((p for p in (f"{T}/sd/build/bin/sd-cli", f"{T}/sd/build/bin/sd") if os.path.exists(p)), None)
+# ---- 1. binary: prebuilt dataset first, else build (and save the build so it can be uploaded later)
+def find_sd(root):
+    return next((p for p in (f"{root}/sd-cli", f"{root}/sd") if os.path.exists(p)), None)
 
-# Kaggle images ship the real driver lib under /usr/local/nvidia/lib64 and no CUDA stubs,
-# so CMake's CUDA::cuda_driver target is missing unless we point at it.
-libcuda = next((f"{d}/libcuda.so" for d in ("/usr/local/nvidia/lib64", "/usr/local/cuda/lib64/stubs",
-                "/usr/lib/x86_64-linux-gnu", "/usr/local/cuda/lib64") if os.path.exists(f"{d}/libcuda.so")), "")
-drv = f"-DCUDA_cuda_driver_LIBRARY={libcuda}" if libcuda else ""
-t = time.time()
-r = None
-if not find_sd():
-    if not os.path.exists(f"{T}/sd"):
-        sh(f"git clone -q --recursive --depth 1 https://github.com/leejet/stable-diffusion.cpp {T}/sd")
-    r = sh(f"cd {T}/sd && rm -rf build && "
-           f"cmake -B build -DCMAKE_BUILD_TYPE=Release -DSD_CUDA=ON -DCMAKE_CUDA_ARCHITECTURES={cap} {drv} > {T}/cmake.log 2>&1 && "
-           f"cmake --build build -j{os.cpu_count()} --config Release > {T}/build.log 2>&1; "
-           f"grep -iE 'error' {T}/cmake.log {T}/build.log | head -20; tail -c 800 {T}/build.log")
-sd = find_sd()
-note(step="build", sec=round(time.time() - t), ok=bool(sd), libcuda=libcuda,
-     tail=((r.stdout + r.stderr)[-1500:] if r else "reused"))
+def works(sd):
+    r = sh(f'LD_LIBRARY_PATH="{os.path.dirname(sd)}:$LD_LIBRARY_PATH" "{sd}" --help')
+    return r.returncode == 0, (r.stdout + r.stderr)[-600:]
+
+t = time.time(); sd = None; how = None; info = ""
+tars = glob.glob("/kaggle/input/**/sd_bin.tar.gz", recursive=True)
+if tars:
+    sh(f"mkdir -p {T}/pre && tar xzf {tars[0]} -C {T}/pre")
+    cand = find_sd(f"{T}/pre/bin")
+    if cand:
+        ok, info = works(cand)
+        if ok:
+            sd, how = cand, "prebuilt"
+if not sd:
+    libcuda = next((f"{d}/libcuda.so" for d in ("/usr/local/nvidia/lib64", "/usr/local/cuda/lib64/stubs",
+                    "/usr/lib/x86_64-linux-gnu") if os.path.exists(f"{d}/libcuda.so")), "")
+    drv = f"-DCUDA_cuda_driver_LIBRARY={libcuda}" if libcuda else ""
+    if not find_sd(f"{T}/sd/build/bin"):
+        if not os.path.exists(f"{T}/sd"):
+            sh(f"git clone -q --recursive https://github.com/leejet/stable-diffusion.cpp {T}/sd && cd {T}/sd && "
+               f"git checkout -q 5dcfa79 && git submodule update -q --init --recursive")
+        sh(f"cd {T}/sd && rm -rf build && cmake -B build -DCMAKE_BUILD_TYPE=Release -DSD_CUDA=ON "
+           f"-DCMAKE_CUDA_ARCHITECTURES={cap} {drv} > {T}/cmake.log 2>&1 && "
+           f"cmake --build build -j{os.cpu_count()} --config Release > {T}/build.log 2>&1")
+    sd = find_sd(f"{T}/sd/build/bin"); how = "built"
+    if sd:
+        sh(f"cd {T}/sd/build && mkdir -p /tmp/pk/bin && cp bin/* /tmp/pk/bin/ && find . -name '*.so*' -exec cp {{}} /tmp/pk/bin/ \\; "
+           f"&& tar czf {W}/sd_bin.tar.gz -C /tmp/pk bin")
+note(step="binary", how=how, sec=round(time.time() - t), ok=bool(sd), prebuilt_found=bool(tars), info=info[-300:])
 if not sd:
     sys.exit(1)
+os.environ["LD_LIBRARY_PATH"] = os.path.dirname(sd) + ":" + os.environ.get("LD_LIBRARY_PATH", "")
 
 ff = shutil.which("ffmpeg")
-if not ff:
-    sh("pip install -q imageio-ffmpeg")
-    try:
-        import imageio_ffmpeg
-        ff = imageio_ffmpeg.get_ffmpeg_exe()
-    except Exception:
-        ff = None
-
 from huggingface_hub import hf_hub_download, list_repo_files
 import urllib.request
 from PIL import Image
 
 BASE = "https://raw.githubusercontent.com/monkeywarr12345-star/junglejuggle-ops/research/ai-tools-2026-11/research/results/v3tools/imghq/"
-JOBS = {
-    0: ("img3.jpg", "a young Korean woman with a black bob haircut, round glasses and an orange cardigan smiles and points upward with her hand, gentle natural body motion, hair sways slightly, static camera, flat vector illustration style, clean lines"),
-    1: ("img0.jpg", "a young woman on a sofa looks at her phone in surprise, her eyes widen, a long paper receipt flutters, small coins float, slow camera push in, flat vector illustration style"),
+IMG = {0: "img3.jpg", 1: "img0.jpg"}
+P = {
+    "p0": "a young Korean woman with a black bob haircut, round glasses and an orange cardigan smiles and points upward with her hand, gentle natural body motion, hair sways slightly, static camera, flat vector illustration style, clean lines",
+    "p1": "a young woman on a sofa looks at her phone in surprise, her eyes widen, a long paper receipt flutters, small coins float, slow camera push in, flat vector illustration style",
+    # calmer v2: the receipt stays on her lap and only curls, coins rise slowly, one continuous motion
+    "p1v2": "a young woman sitting on a sofa looks at her phone, her eyes slowly widen in surprise and her mouth opens, the long paper receipt stays draped over her lap and its end curls gently, a few small gold coins rise slowly beside her, smooth continuous motion, static camera, flat vector illustration style, clean lines",
 }
 NEG = "blurry, distorted face, extra fingers, deformed hands, text, watermark, jitter, flicker"
-for i, (name, _) in JOBS.items():
+NEG2 = NEG + ", sudden movement, objects popping in, teleporting, morphing, flying paper, scribbles on paper"
+for i, name in IMG.items():
     urllib.request.urlretrieve(BASE + name, f"{T}/src{i}.jpg")
 
-dm_files = list_repo_files("QuantStack/Wan2.2-TI2V-5B-GGUF")
-te_files = list_repo_files("city96/umt5-xxl-encoder-gguf")
-def dm(q): return hf_hub_download("QuantStack/Wan2.2-TI2V-5B-GGUF", next(f for f in dm_files if f.endswith(q + ".gguf")))
-def te(q): return hf_hub_download("city96/umt5-xxl-encoder-gguf", next(f for f in te_files if f.endswith(q + ".gguf")))
+REPOS = {"base": "QuantStack/Wan2.2-TI2V-5B-GGUF", "turbo": "hum-ma/Wan2.2-TI2V-5B-Turbo-GGUF"}
+_files = {}
+def dm(model, q):
+    repo = REPOS[model]
+    _files.setdefault(repo, list_repo_files(repo))
+    return hf_hub_download(repo, next(f for f in _files[repo] if f.endswith(q + ".gguf")))
+te = hf_hub_download("city96/umt5-xxl-encoder-gguf", "umt5-xxl-encoder-Q8_0.gguf")
 vae = hf_hub_download("Comfy-Org/Wan_2.2_ComfyUI_Repackaged", "split_files/vae/wan2.2_vae.safetensors")
 
-# (tag, job, quant, W, H, frames, steps). First pair = exact CPU-test settings (speed comparison); second = quality try.
-RUNS = [("q4_480p", 0, "Q4_K_M", 480, 832, 33, 20), ("q4_480p", 1, "Q4_K_M", 480, 832, 33, 20),
-        ("q8_720p", 0, "Q8_0", 704, 1280, 81, 30), ("q8_720p", 1, "Q8_0", 704, 1280, 81, 30)]
-for tag, j, q, w, h, nf, steps in RUNS:
+# (tag, img, prompt, neg, model, steps, cfg, shift, seed). All 704x1280, 81 frames (5 s @16fps), Q8_0.
+RUNS = [
+    ("turbo_p0",    0, "p0",   NEG,  "turbo", 4,  1.0, 5.0, 11),
+    ("turbo_p1",    1, "p1",   NEG,  "turbo", 4,  1.0, 5.0, 11),
+    ("turbo_p1v2",  1, "p1v2", NEG2, "turbo", 4,  1.0, 5.0, 11),
+    ("turbo_p1v2s", 1, "p1v2", NEG2, "turbo", 4,  1.0, 5.0, 22),
+    ("turbo8_p1v2", 1, "p1v2", NEG2, "turbo", 8,  1.0, 5.0, 11),
+    ("base_p1v2",   1, "p1v2", NEG2, "base",  30, 5.0, 3.0, 11),   # prompt effect alone, ~40 min: last
+]
+w, h, nf = 704, 1280, 81
+for j in IMG:
+    Image.open(f"{T}/src{j}.jpg").convert("RGB").resize((w, h), Image.LANCZOS).save(f"{T}/in{j}.png")
+for tag, j, pk, neg, model, steps, cfg, shift, seed in RUNS:
     try:
-        inp = f"{T}/in{j}_{w}.png"
-        Image.open(f"{T}/src{j}.jpg").convert("RGB").resize((w, h), Image.LANCZOS).save(inp)
-        base = [sd, "-M", "vid_gen", "--diffusion-model", dm(q), "--vae", vae, "--t5xxl", te(q),
-                "-p", JOBS[j][1], "-n", NEG, "-i", inp, "-W", str(w), "-H", str(h), "--video-frames", str(nf),
-                "--steps", str(steps), "--cfg-scale", "5.0", "--sampling-method", "euler", "--flow-shift", "3.0",
-                "--seed", "11", "-o", f"{T}/{tag}_{j}.avi"]
-        extra = ["--diffusion-fa"] + (["--vae-tiling"] if w > 480 else [])
+        cmd = [sd, "-M", "vid_gen", "--diffusion-model", dm(model, "Q8_0"), "--vae", vae, "--t5xxl", te,
+               "-p", P[pk], "-n", neg, "-i", f"{T}/in{j}.png", "-W", str(w), "-H", str(h), "--video-frames", str(nf),
+               "--steps", str(steps), "--cfg-scale", str(cfg), "--sampling-method", "euler", "--flow-shift", str(shift),
+               "--seed", str(seed), "--diffusion-fa", "--vae-tiling", "-o", f"{T}/{tag}.avi"]
         t = time.time()
-        r = subprocess.run(base + extra, capture_output=True, text=True, timeout=4 * 3600)
-        out = r.stdout + r.stderr
-        if r.returncode != 0 and ("unknown" in out.lower() or "invalid" in out.lower()):
-            t = time.time()
-            r = subprocess.run(base, capture_output=True, text=True, timeout=4 * 3600)
-            out = r.stdout + r.stderr
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=3 * 3600)
         sec = round(time.time() - t)
-        made = [f for f in os.listdir(T) if f.startswith(f"{tag}_{j}")]
+        out = r.stdout + r.stderr
         mp4 = None
-        if ff and made:
-            src = f"{T}/{sorted(made)[0]}"
-            mp4 = f"{W}/{tag}_{j}.mp4"
-            sh(f'"{ff}" -nostdin -y -loglevel error -i "{src}" -c:v libx264 -crf 18 -pix_fmt yuv420p "{mp4}"')
-        note(step="gen", tag=tag, job=j, quant=q, size=f"{w}x{h}", frames=nf, steps=steps, sec=sec,
-             rc=r.returncode, files=made, mp4=bool(mp4 and os.path.exists(mp4)), tail=out[-1500:])
+        if ff and os.path.exists(f"{T}/{tag}.avi"):
+            mp4 = f"{W}/{tag}.mp4"
+            sh(f'"{ff}" -nostdin -y -loglevel error -i "{T}/{tag}.avi" -c:v libx264 -crf 18 -pix_fmt yuv420p "{mp4}"')
+        note(step="gen", tag=tag, img=j, prompt=pk, model=model, steps=steps, cfg=cfg, shift=shift, seed=seed,
+             sec=sec, rc=r.returncode, mp4=bool(mp4 and os.path.exists(mp4)), tail=out[-1200:])
     except Exception as e:
-        note(step="gen", tag=tag, job=j, error=repr(e)[:800])
+        note(step="gen", tag=tag, error=repr(e)[:800])
 note(step="done")

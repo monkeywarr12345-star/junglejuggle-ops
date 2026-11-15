@@ -61,7 +61,11 @@ jobs:
           ls -la /tmp/kout
           cp /tmp/kout/*.mp4 /tmp/kout/status.json $OUT/ 2>/dev/null || true
           for f in /tmp/kout/*.log; do [ -f "$f" ] && tail -c 20000 "$f" > $OUT/kernel_log_tail.txt; done
-          for f in $OUT/*.mp4; do [ -f "$f" ] || continue; b=${f%.mp4}
+          # 16fps model output -> 30fps motion-interpolated copy (reels play at 30fps)
+          for f in /tmp/kout/*.mp4; do [ -f "$f" ] || continue; n=$(basename "$f" .mp4)
+            ffmpeg -nostdin -y -loglevel error -i "$f" -vf "minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" \
+              -c:v libx264 -crf 18 -pix_fmt yuv420p "$OUT/${n}_30fps.mp4" || true; done
+          for f in $OUT/*.mp4; do [ -f "$f" ] || continue; case "$f" in *_30fps.mp4) continue;; esac; b=${f%.mp4}
             D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
             for k in 0 1 2 3 4 5; do ffmpeg -nostdin -y -loglevel error -ss $(python -c "print(round($D*$k/6,2))") -i "$f" -frames:v 1 -vf scale=240:-1 /tmp/c$k.png; done
             ffmpeg -nostdin -y -loglevel error -i /tmp/c%d.png -vf tile=6x1:padding=4:color=white -frames:v 1 ${b}_contact.jpg; done
