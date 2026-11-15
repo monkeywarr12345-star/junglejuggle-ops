@@ -2,9 +2,7 @@ name: Kaggle GPU tools (jungle.gcc)
 # Runs ai/kaggle/kernel.py on a free Kaggle T4: Real-ESRGAN upscale of Ludyte clips, whisper check, TTS comparison.
 # Results are committed to media/ai/kaggle/<run>/ (Actions artifacts can't be downloaded from the Claude workspace).
 on:
-  push:
-    branches: [main]
-    paths: ['ai/kaggle/**']
+  # manual only (2026-11-15 owner: no more upscale/whisper/TTS runs unless asked)
   workflow_dispatch:
     inputs:
       mode:
