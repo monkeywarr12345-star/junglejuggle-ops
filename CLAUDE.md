@@ -16,7 +16,7 @@
 - Kaggle GPU(`ai/kaggle/`, kaggle-gpu.yml)는 2026-11-15 시험만 했다. 화질 올리기는 러다이트 1080p로, 받아쓰기 검사·TTS 비교는 하지 않기로 함(사용자 결정) — 사용자가 다시 지시할 때만 돌린다.
 - 모델·노력 단계(2026-11-15 사용자 지시): 대화 자체의 모델·노력은 사용자가 고른 설정을 바꿀 수 없으므로, 따로 떼어 맡길 수 있는 일은 Agent 도구의 model·effort를 일에 맞게 골라 맡긴다(사용자가 명시적으로 허락함). 기준: 단순 조회·파일 정리·형식 변환 = haiku·low, 일반 제작·편집·대본 = sonnet·medium, 팩트체크·법무 검토·어려운 디버깅·전략 판단 = opus·high, 가장 까다로운 분석 = opus·xhigh. fable 모델은 절대 쓰지 않는다(사용자 지시). 짧은 일은 맡기지 않고 직접 한다(맡기는 비용이 더 큼).
 - 해시태그: 캡션 맨 끝에 정확히 5개(2026-11-13 사용자 결정). 도구 이름 1~2 + 활용어 1~2 + 주제어 1~2로 매번 조합을 바꾼다.
-- 벤치마크 계정(gpt_haterz, adu.aihub, lazy_owen, oaiwan.kr, sebia.ai, trenddalkak.ai, grappt_, ai_newpd, ai.trend.kr, pickit_.official, joshproductletter)이 이미 하고 있는 방식은 자체적으로 제한하지 않고 따른다(2026-11-13 사용자 지시). '디자인 복제 금지' 규칙은 폐기했다. 사칭(남의 계정인 척), 남의 캡션 원문·이미지 저장, Anthropic 픽셀 마스코트 등 남의 캐릭터 사용, 유료 결제는 계속 하지 않는다.
+- 벤치마크 계정(gpt_haterz, adu.aihub, lazy_owen, oaiwan.kr, sebia.ai, trenddalkak.ai, grappt_, ai_newpd, ai.trend.kr, pickit_.official, joshproductletter, prompt_what, roy.branding, mart_eting, theaigeekk — 뒤 4곳은 2026-11-15 추가)이 이미 하고 있는 방식은 자체적으로 제한하지 않고 따른다(2026-11-13 사용자 지시). '디자인 복제 금지' 규칙은 폐기했다. 사칭(남의 계정인 척), 남의 캡션 원문·이미지 저장, Anthropic 픽셀 마스코트 등 남의 캐릭터 사용, 유료 결제는 계속 하지 않는다.
 - 인스타 둘러보기는 개인 계정 @wig_glwiggl로 하고(필요하면 계정 전환 후 되돌림), 브라우저는 monkeywarr12345 gmail로 로그인된 집 Chrome만 쓴다(회사 노트북 브라우저 금지).
 - 말투: 화면·캡션·DM 모두 해요체(아래 '음슴체·정글러님들' 규칙은 이 계정에 적용하지 않는다).
 
