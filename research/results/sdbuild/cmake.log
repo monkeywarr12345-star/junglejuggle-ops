@@ -27,7 +27,7 @@
 -- Found OpenMP: TRUE (found version "4.5")  
 -- Including CPU backend
 -- x86 detected
--- Adding CPU backend variant ggml-cpu: -march=native 
+-- Adding CPU backend variant ggml-cpu: -msse4.2;-mf16c;-mfma;-mbmi2;-mavx;-mavx2 GGML_SSE42;GGML_F16C;GGML_FMA;GGML_BMI2;GGML_AVX;GGML_AVX2
 -- Found CUDAToolkit: /usr/local/cuda/targets/x86_64-linux/include (found version "13.0.48") 
 -- CUDA Toolkit found
 -- The CUDA compiler identification is NVIDIA 13.0.48
@@ -155,6 +155,6 @@ CMake Warning at examples/server/CMakeLists.txt:58 (message):
 
 
 -- HAVE_INDEX_HTML disabled
--- Configuring done (3.9s)
+-- Configuring done (4.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: /src/build

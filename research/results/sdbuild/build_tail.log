@@ -189,20 +189,20 @@ In file included from /usr/local/cuda/targets/x86_64-linux/include/driver_types.
       |                                                                                                        ^~~~~~~
 [ 95%] Linking CXX static library libstable-diffusion.a
 [ 95%] Built target stable-diffusion
-[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/common.cpp.o
+[ 95%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/common.cpp.o
 [ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/generation_metadata.cpp.o
-[ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/generation_metadata.cpp.o
-[ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/common.cpp.o
+[ 95%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/generation_metadata.cpp.o
+[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/common.cpp.o
 [ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/log.cpp.o
 [ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/log.cpp.o
 [ 96%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/media_io.cpp.o
+[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/media_io.cpp.o
+[ 96%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/media_metadata.cpp.o
 [ 97%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/__/common/media_metadata.cpp.o
-[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/media_io.cpp.o
-[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/__/common/media_metadata.cpp.o
-[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/main.cpp.o
 [ 97%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/image_metadata.cpp.o
+[ 97%] Building CXX object examples/server/CMakeFiles/sd-server.dir/main.cpp.o
+[ 97%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/main.cpp.o
 [ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/runtime.cpp.o
-[ 98%] Building CXX object examples/cli/CMakeFiles/sd-cli.dir/main.cpp.o
 [ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/model_catalog.cpp.o
 [ 98%] Building CXX object examples/server/CMakeFiles/sd-server.dir/routes_models.cpp.o
 [ 98%] Linking CXX executable ../../bin/sd-cli
