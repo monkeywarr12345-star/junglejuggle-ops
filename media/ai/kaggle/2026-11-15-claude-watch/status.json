@@ -1,0 +1,81 @@
+[
+ {
+  "step": "gpu",
+  "gpu": [
+   "Tesla T4, 15360 MiB, 7.5",
+   "Tesla T4, 15360 MiB, 7.5"
+  ],
+  "cpus": 4,
+  "steps": [
+   "upscale",
+   "whisper",
+   "tts"
+  ]
+ },
+ {
+  "step": "upscale",
+  "clip": "cut1",
+  "frames": 240,
+  "sec": 434,
+  "model": "RealESRGAN_x2plus",
+  "out": "cut1_up.mp4"
+ },
+ {
+  "step": "upscale",
+  "clip": "cutA",
+  "frames": 240,
+  "sec": 437,
+  "model": "RealESRGAN_x2plus",
+  "out": "cutA_up.mp4"
+ },
+ {
+  "step": "upscale",
+  "clip": "cutB",
+  "frames": 240,
+  "sec": 438,
+  "model": "RealESRGAN_x2plus",
+  "out": "cutB_up.mp4"
+ },
+ {
+  "step": "whisper_load",
+  "device": "cpu",
+  "why": "TypeError(\"open() got an unexpected keyword argument 'metadata_errors'\")"
+ },
+ {
+  "step": "whisper",
+  "ok": false,
+  "err": "TypeError(\"open() got an unexpected keyword argument 'metadata_errors'\")",
+  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 278, in <module>\n    fn()\n    ~~^^\n  File \"/kaggle/src/script.py\", line 165, in check_reel\n    segs, hyp = transcribe(f\"{T}/reel.wav\", words=True)\n                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/src/script.py\", line 156, in transcribe\n    segs, _ = whisper().transcribe(path, language=\"ko\", beam_size=5, word_timestamps=words, vad_filter=False)\n              ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/transcribe.py\", line 876, in transcribe\n    audio = decode_audio(audio, sampling_rate=sampling_rate)\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/audio.py\", line 46, in decode_audio\n    with av.open(input_file, mode=\"r\", metadata_errors=\"ignore\") as container:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"av/container/core.py\", line 479, in av.container.core.open\n    def open(\nTypeError: open() got an unexpected keyword argument 'metadata_errors'\n"
+ },
+ {
+  "step": "tts",
+  "tag": "supertonic_M1_x1.3",
+  "ok": false,
+  "err": "TypeError(\"open() got an unexpected keyword argument 'metadata_errors'\")",
+  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 193, in score\n    _, hyp = transcribe(p)\n             ~~~~~~~~~~^^^\n  File \"/kaggle/src/script.py\", line 156, in transcribe\n    segs, _ = whisper().transcribe(path, language=\"ko\", beam_size=5, word_timestamps=words, vad_filter=False)\n              ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/transcribe.py\", line 876, in transcribe\n    audio = decode_audio(audio, sampling_rate=sampling_rate)\n  File \"/usr/local/lib/python3.13/dist-packages/faster_whisper/audio.py\", line 46, in decode_audio\n    with av.open(input_file, mode=\"r\", metadata_errors=\"ignore\") as container:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"av/container/core.py\", line 479, in av.container.core.open\n    def open(\nTypeError: open() got an unexpected keyword argument 'metadata_errors'\n"
+ },
+ {
+  "step": "tts",
+  "tag": "qwen17_design_male",
+  "ok": false,
+  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
+  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
+ },
+ {
+  "step": "tts",
+  "tag": "qwen17_clone_current",
+  "ok": false,
+  "err": "ImportError(\"cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\")",
+  "tb": "ages/transformers/dependency_versions_check.py\", line 16, in <module>\n    from .utils.versions import require_version, require_version_core\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/__init__.py\", line 82, in <module>\n    from .hub import (\n    ...<28 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py\", line 32, in <module>\n    from huggingface_hub import (\n    ...<13 lines>...\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/__init__.py\", line 1224, in __getattr__\n    delete_space_storage,  # noqa: F401\n                     ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_commit_api.py\", line 19, in <module>\n    from .errors import EntryNotFoundError, HfHubHTTPError, XetAuthorizationError, XetRefreshTokenError\nImportError: cannot import name 'XetAuthorizationError' from 'huggingface_hub.errors' (/usr/local/lib/python3.13/dist-packages/huggingface_hub/errors.py)\n"
+ },
+ {
+  "step": "tts",
+  "tag": "chatterbox_ko",
+  "ok": false,
+  "err": "OSError('Could not load this library: /usr/local/lib/python3.13/dist-packages/torchaudio/lib/libtorchaudio.so')",
+  "tb": "_net/perth_net_implicit/perth_watermarker.py\", line 5, in <module>\n    from .model.perth_net import PerthNet\n  File \"/usr/local/lib/python3.13/dist-packages/perth/perth_net/perth_net_implicit/model/perth_net.py\", line 7, in <module>\n    from ..audio_processor import AudioProcessor\n  File \"/usr/local/lib/python3.13/dist-packages/perth/perth_net/perth_net_implicit/audio_processor.py\", line 3, in <module>\n    from torchaudio.transforms import Spectrogram, InverseSpectrogram, TimeStretch\n  File \"/usr/local/lib/python3.13/dist-packages/torchaudio/__init__.py\", line 2, in <module>\n    from . import _extension  # noqa  # usort: skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/torchaudio/_extension/__init__.py\", line 38, in <module>\n    _load_lib(\"libtorchaudio\")\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/torchaudio/_extension/utils.py\", line 60, in _load_lib\n    torch.ops.load_library(path)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/torch/_ops.py\", line 1505, in load_library\nOSError: Could not load this library: /usr/local/lib/python3.13/dist-packages/torchaudio/lib/libtorchaudio.so\n"
+ },
+ {
+  "step": "done"
+ }
+]
