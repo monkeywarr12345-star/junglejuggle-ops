@@ -11,7 +11,7 @@ for i,((a,e),s) in enumerate(zip(b,st)):
 fc+=f"{cat}concat=n={len(b)}:v=0:a=1,loudnorm=I=-24:TP=-2:LRA=8,aresample=48000,equalizer=f=1800:width_type=o:width=2:g=-5[lud];"
 fc+="[0:a]aresample=48000,aformat=channel_layouts=stereo,asplit[v][key];"
 fc+=f"[2:a]atrim=0:{DUR},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,loudnorm=I={ML}:TP=-2:LRA=7,aresample=48000,equalizer=f=1800:width_type=o:width=2:g=-4,equalizer=f=3000:width_type=o:width=1:g=-2,afade=t=in:d=0.3,afade=t=out:st={DUR-1.5}:d=1.5[m];"
-fc+="[lud][m]amix=inputs=2:normalize=0[bed];[bed][key]sidechaincompress=threshold=0.08:ratio=2:attack=40:release=450[duck];"
+fc+="[lud][m]amix=inputs=2:normalize=0[bed];[bed][key]sidechaincompress=threshold=0.04:ratio=5:attack=30:release=500:makeup=1[duck];"
 fc+="[v][duck]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
-subprocess.run(['ffmpeg','-y','-v','error','-i','out60c_nomusic.mp4','-i','src/p12.mp4','-i',mus,'-filter_complex',fc,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-b:a','192k','-t',str(DUR),'-movflags','+faststart',out],check=True)
+subprocess.run(['ffmpeg','-y','-v','error','-i','out60c_nomusic.mp4','-i','src/a12.wav','-i',mus,'-filter_complex',fc,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-b:a','192k','-t',str(DUR),'-movflags','+faststart',out],check=True)
 print('ok',DUR)
