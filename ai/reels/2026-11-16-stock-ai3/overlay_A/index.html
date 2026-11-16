@@ -55,14 +55,15 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
 .w{position:absolute;left:30px;right:30px;top:1420px;text-align:center;font-size:84px;letter-spacing:-3.5px;font-weight:900;white-space:nowrap;visibility:hidden;text-shadow:0 0 2px #000,0 6px 24px rgba(0,0,0,.85)}
 .w b{display:inline-block;border-radius:14px;background:var(--hl);color:#111;text-shadow:none;padding:0 18px 8px}
 :root{--ac:#ff7a1a;--ac2:#ff7a1a;--hl:#ffd43b;--pillbg:rgba(10,10,12,.88);--pillfg:#fff;--cbg:rgba(14,14,16,.92);--cfg:#fff;--cbd:1.5px solid rgba(255,122,26,.5);--chip:rgba(255,255,255,.1);--upc:#4BE37F;--kw:#ffd43b}
+#warn{position:absolute;left:0;right:0;top:330px;text-align:center;visibility:hidden}#warn .wt{display:inline-block;padding:30px 46px;border-radius:28px;background:rgba(14,14,16,.9);border:4px solid #ff4d4d;font-size:92px;line-height:1.1;font-weight:900;letter-spacing:-4px;transform:rotate(-3deg)}#warn em{font-style:normal;color:#ff4d4d}
 </style></head><body>
 <div id="root">
 <div id="top"></div><div id="bot"></div>
 <div id="prog"><s></s></div>
 <div id="brand"><i></i>jungle.gcc<span>AI 꿀팁</span></div>
-<div id="pill">주식 한다면 꼭 써야 할 AI 3</div>
-<div id="hook"><div class="t">주식 하면서<br/><em>AI 안 쓰면</em><br/>손해예요</div><div class="st">AI 스킬 3개 공개</div></div>
-<div class="card" id="c2"><div class="lock q"><i>1</i><em>데이 트레이더 스킬</em></div><div class="lock q"><i>2</i><em>트레이딩 에이전츠</em></div><div class="lock q"><i>3</i><em>트레이딩뷰 MCP</em></div><div class="note">끝까지 보면 셋 다 공개</div></div>
+<div id="pill">모르면 손해 보는 주식 AI 3</div>
+<div id="hook"><div class="t">남들은<br/><em>AI 12명</em> 데리고<br/>주식해요</div><div class="st">아직 혼자 차트 봐요?</div></div>
+<div class="card" id="c2"><div class="lock q"><i>1</i><em>데이 트레이더 스킬</em></div><div class="lock q"><i>2</i><em>트레이딩 에이전츠</em></div><div class="lock q"><i>3</i><em>트레이딩뷰 MCP</em></div><div class="note">끝까지 보면 셋 다 공개 · 설치법은 DM</div></div>
 <div class="card" id="c3"><div class="hd"><span class="num">1</span><div><b>day-trader-skill</b><small>Claude 스킬 · 무료 · 미국 주식 약 5,900개</small></div><span class="star">★ 7천</span></div>
  <div class="row q"><span class="lb">목표가 먼저</span><span class="bar" style="width:294px;background:var(--upc)"></span><span class="v">29.4%</span></div>
  <div class="row q"><span class="lb">손절가 먼저</span><span class="bar" style="width:255px;background:#ff5a5a"></span><span class="v">25.5%</span></div>
@@ -74,6 +75,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
 <div class="card" id="c5"><div class="hd"><span class="num">3</span><div><b>TradingView MCP</b><small>TradingView 데스크톱 + Claude Code</small></div><span class="star">★ 1.7천</span></div>
  <div class="bub me q">이 차트에 추세선 그려 줘</div><div class="bub ai q">추세선 2개 그렸어요. 지지선은 여기예요 📈</div>
  <div class="note">TradingView 구독 필요 · 비공식 도구</div></div>
+<div id="warn"><div class="wt">감으로만 사면<br/><em>진짜 손해</em></div></div>
 <div class="card" id="c6"><div class="prof"><div class="av">jungle<br/>.gcc</div><div class="nm"><b>jungle.gcc</b><span>클로드·챗GPT·제미나이 AI 꿀팁</span></div><div id="fb"><span class="a">팔로우</span><span class="b">팔로잉 ✓</span></div></div><div class="cm">💬 댓글: <em id="kw"></em></div><div class="dm" id="dm">🎁 3개 설치법 전체 DM으로 보냈어요</div></div>
 <div id="caps"></div>
 <div id="disc">투자 권유 아님 · 숫자는 예시 · 2026년 11월 기준</div>
@@ -93,10 +95,11 @@ cardIn("#c3",S("s3")[0],S("s4")[0]);
 document.querySelectorAll("#c3 .bar").forEach((el,j)=>tl.fromTo(el,{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:.6,ease:"power2.out"},W("s3",.45)+j*.15));
 cardIn("#c4",S("s4")[0],S("s5")[0]);
 cardIn("#c5",S("s5")[0],S("s6")[0]);
-show("#c6",S("s6")[0],T.dur);tl.fromTo("#c6",{y:60,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},S("s6")[0]);
-tl.to("#fb .a",{opacity:0,duration:.15},W("s6",.22));tl.to("#fb .b",{opacity:1,duration:.15},W("s6",.22));
-const kw=T.kw;const o2={n:0};tl.to(o2,{n:kw.length,duration:.3,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s6",.4));
-tl.fromTo("#dm",{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:"back.out(2)"},W("s6",.62));
+show("#warn",S("s6")[0],S("s7")[0]);tl.fromTo("#warn .wt",{scale:1.8,opacity:0},{scale:1,opacity:1,duration:.3,ease:"back.out(2)"},S("s6")[0]);
+show("#c6",S("s7")[0],T.dur);tl.fromTo("#c6",{y:60,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},S("s7")[0]);
+tl.to("#fb .a",{opacity:0,duration:.15},W("s7",.22));tl.to("#fb .b",{opacity:1,duration:.15},W("s7",.22));
+const kw=T.kw;const o2={n:0};tl.to(o2,{n:kw.length,duration:.3,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s7",.4));
+tl.fromTo("#dm",{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:"back.out(2)"},W("s7",.62));
 const caps=document.getElementById("caps");
 T.words.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
  const a=i===0?0:w[0],b=i+1<T.words.length?T.words[i+1][0]:T.dur;show("#w"+i,a,b);
