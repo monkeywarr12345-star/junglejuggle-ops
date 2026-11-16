@@ -21,7 +21,7 @@
 - 캡션(2026-11-16 사용자 결정): 캡션은 GitHub 링크로 보내지 않고 사용자가 바로 복사할 수 있게 대화·알림 본문에 전문을 넣는다. 캡션에는 실제 프롬프트·명령어 원문을 쓰지 않고 한국어로 간단히 무엇을 하는지만 알려 준다(원문은 DM 자료로만).
 - 해시태그: 캡션 맨 끝에 정확히 5개(2026-11-13 사용자 결정). 도구 이름 1~2 + 활용어 1~2 + 주제어 1~2로 매번 조합을 바꾼다.
 - 벤치마크 계정(gpt_haterz, adu.aihub, lazy_owen, oaiwan.kr, sebia.ai, trenddalkak.ai, grappt_, ai_newpd, ai.trend.kr, pickit_.official, joshproductletter, prompt_what, roy.branding, mart_eting, theaigeekk — 뒤 4곳은 2026-11-15 추가)이 이미 하고 있는 방식은 자체적으로 제한하지 않고 따른다(2026-11-13 사용자 지시). '디자인 복제 금지' 규칙은 폐기했다. 사칭(남의 계정인 척), 남의 캡션 원문·이미지 저장, Anthropic 픽셀 마스코트 등 남의 캐릭터 사용, 유료 결제는 계속 하지 않는다.
-- 인스타 둘러보기는 개인 계정 @wig_glwiggl로 하고(필요하면 계정 전환 후 되돌림), 브라우저는 monkeywarr12345 gmail로 로그인된 집 Chrome만 쓴다(회사 노트북 브라우저 금지).
+- 인스타 둘러보기는 개인 계정 @wig_glwiggl로 하고(필요하면 계정 전환 후 되돌림), 브라우저는 monkeywarr12345 gmail로 로그인된 집 Chrome만 쓴다(회사 노트북 브라우저 금지). Claude in Chrome에 브라우저가 여러 개 연결돼 있으면 집 Chrome은 'Browser 2'(Windows, deviceId d8d49c46-4332-4ce1-b6da-55fdead33640)다 — select_browser로 이것을 고른다('Browser 1'은 쓰지 않음, 2026-11-16 사용자 확인).
 - 말투: 화면·캡션·DM 모두 해요체(아래 '음슴체·정글러님들' 규칙은 이 계정에 적용하지 않는다).
 
 ---
