@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/>
+<script src="gsap.min.js"></script><script src="timeline.js"></script>
+<style>
+@font-face{font-family:P;font-weight:500;src:url(assets/fonts/Pretendard-Medium.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,"Noto Sans CJK KR",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+#root{position:absolute;inset:0;overflow:hidden}
+#top{position:absolute;left:0;right:0;top:0;height:780px;background:linear-gradient(180deg,rgba(0,0,0,.72),rgba(0,0,0,.3) 60%,rgba(0,0,0,0))}
+#bot{position:absolute;left:0;right:0;top:1300px;height:460px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 40%,rgba(0,0,0,.6) 80%,rgba(0,0,0,0))}
+#prog{position:absolute;left:64px;right:64px;top:62px;height:5px;border-radius:3px;background:rgba(255,255,255,.14);overflow:hidden}
+#prog s{display:block;height:100%;width:0;background:var(--ac)}
+#brand{position:absolute;left:64px;top:96px;display:flex;align-items:center;gap:14px;font-weight:800;font-size:32px;color:rgba(255,255,255,.92)}
+#brand i{width:10px;height:10px;border-radius:50%;background:var(--ac);box-shadow:0 0 14px var(--ac)}
+#brand span{font-weight:600;font-size:22px;padding:5px 13px;border-radius:20px;border:1.5px solid rgba(255,255,255,.28);color:rgba(255,255,255,.75)}
+#pill{position:absolute;left:64px;top:150px;padding:12px 26px;border-radius:14px;background:var(--pillbg);color:var(--pillfg);font-size:36px;font-weight:900;letter-spacing:-1px;visibility:hidden;border-left:8px solid var(--ac2)}
+#hook{position:absolute;left:64px;right:40px;top:230px;visibility:hidden}
+#hook .t{font-size:104px;line-height:1.07;font-weight:900;letter-spacing:-5px;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+#hook .t em{font-style:normal;color:var(--hl)}
+.st{display:inline-block;padding:10px 24px;border-radius:12px;background:#ff3b3b;color:#fff;font-weight:900;letter-spacing:-1px;transform:rotate(-3deg);font-size:38px;margin-top:26px}
+.card{position:absolute;left:72px;right:72px;top:240px;border-radius:30px;background:var(--cbg);color:var(--cfg);border:var(--cbd);box-shadow:0 30px 80px rgba(0,0,0,.55);padding:26px 30px;visibility:hidden}
+.hd{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.num{width:64px;height:64px;border-radius:18px;background:var(--ac2);color:#111;display:grid;place-items:center;font-size:40px;font-weight:900;flex:none}
+.hd b{display:block;font-size:40px;font-weight:900;letter-spacing:-1.4px}
+.hd small{display:block;font-size:24px;font-weight:700;opacity:.62;margin-top:2px}
+.star{margin-left:auto;font-size:26px;font-weight:900;padding:8px 14px;border-radius:12px;background:var(--chip);white-space:nowrap}
+.row{display:flex;align-items:center;gap:16px;font-size:32px;font-weight:800;letter-spacing:-1px;padding:10px 0}
+.bar{height:26px;border-radius:8px}
+.row .lb{width:210px;font-size:28px;font-weight:800;opacity:.85}
+.row .v{margin-left:auto;font-size:30px;font-weight:900}
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chips span{padding:12px 18px;border-radius:14px;background:var(--chip);font-size:29px;font-weight:800}
+.chips span.g{background:rgba(75,227,127,.22);color:var(--upc)}.chips span.r{background:rgba(255,77,77,.2);color:#ff6b6b}
+.lock{display:flex;align-items:center;gap:16px;font-size:36px;font-weight:900;padding:14px 0;border-top:1px solid rgba(127,127,127,.25)}
+.lock:first-of-type{border-top:0}
+.lock i{font-style:normal;flex:none;width:56px;height:56px;border-radius:16px;background:var(--ac2);color:#111;display:grid;place-items:center}
+.lock em{font-style:normal;filter:blur(9px);opacity:.8}
+.bub{max-width:90%;padding:16px 22px;border-radius:22px;font-size:31px;font-weight:800;line-height:1.3;margin-top:10px}
+.me{margin-left:auto;background:#3b82f6;color:#fff;border-bottom-right-radius:6px}
+.ai{background:var(--chip);border-bottom-left-radius:6px}
+.note{font-size:23px;font-weight:700;opacity:.6;margin-top:12px}
+.prof{display:flex;align-items:center;gap:20px}
+.av{width:84px;height:84px;border-radius:50%;background:#ffd43b;color:#111;font-weight:900;font-size:22px;display:grid;place-items:center;text-align:center;line-height:1.05}
+.nm b{display:block;font-size:36px;font-weight:900}.nm span{font-size:24px;opacity:.6;font-weight:600}
+#fb{margin-left:auto;position:relative;width:170px;height:62px}
+#fb span{position:absolute;inset:0;border-radius:16px;display:grid;place-items:center;font-size:28px;font-weight:900}
+#fb .a{background:#3b82f6;color:#fff}#fb .b{background:var(--chip);opacity:0}
+.cm{margin-top:22px;display:flex;align-items:center;gap:16px;padding:18px 22px;border-radius:18px;background:var(--chip);font-size:34px;font-weight:800}
+.cm em{font-style:normal;color:var(--kw);font-weight:900}
+.dm{margin-top:16px;display:flex;align-items:center;gap:14px;padding:16px 22px;border-radius:18px;background:#ffd43b;color:#111;font-size:30px;font-weight:900}
+#disc{position:absolute;left:0;right:0;top:1560px;text-align:center;font-size:24px;font-weight:700;color:rgba(255,255,255,.62);text-shadow:0 2px 8px rgba(0,0,0,.8)}
+.w{position:absolute;left:30px;right:30px;top:1370px;text-align:center;font-size:66px;line-height:1.24;letter-spacing:-2.5px;font-weight:900;white-space:nowrap;visibility:hidden;text-shadow:0 0 2px #000,0 6px 24px rgba(0,0,0,.85)}
+.w b{display:inline-block;border-radius:12px;background:var(--hl);color:#111;text-shadow:none;padding:0 12px 4px;margin:2px 0}
+:root{--ac:#ff7a1a;--ac2:#ff7a1a;--hl:#ffd43b;--pillbg:rgba(10,10,12,.88);--pillfg:#fff;--cbg:rgba(14,14,16,.92);--cfg:#fff;--cbd:1.5px solid rgba(255,122,26,.5);--chip:rgba(255,255,255,.1);--upc:#4BE37F;--kw:#ffd43b}
+#warn{position:absolute;left:0;right:0;top:330px;text-align:center;visibility:hidden}#warn .wt{display:inline-block;padding:30px 46px;border-radius:28px;background:rgba(14,14,16,.9);border:4px solid #ff4d4d;font-size:92px;line-height:1.1;font-weight:900;letter-spacing:-4px;transform:rotate(-3deg)}#warn em{font-style:normal;color:#ff4d4d}
+.coin{margin-top:14px;padding:14px 18px;border-radius:14px;background:rgba(255,212,59,.14);border:2px solid #ffd43b;font-size:30px;font-weight:900;color:#ffd43b}
+</style></head><body>
+<div id="root">
+<div id="top"></div><div id="bot"></div>
+<div id="prog"><s></s></div>
+<div id="brand"><i></i>jungle.gcc<span>AI 꿀팁</span></div>
+<div id="pill">주식 리딩방 끝낸 클로드 스킬</div>
+<div id="hook"><div class="t">버핏 포트폴리오<br/><em>펠로시 주식</em>까지<br/>클로드가 공짜로</div><div class="st">돈 내는 리딩방 시대 끝</div></div>
+<div class="card" id="c1"><div class="hd"><span class="num">AI</span><div><b>trader-skill</b><small>Claude 스킬 · 오픈소스(MIT)</small></div><span class="star">★ 1.5천</span></div>
+ <div class="chips"><span class="q g">무료</span><span class="q g">가입 X</span><span class="q g">API 키 X</span></div>
+ <div class="note">끝까지 보면 설치 한 줄 공개 · 설치법은 DM</div></div>
+<div class="card" id="c2"><div class="hd"><span class="num">11</span><div><b>스킬 11개 = 한 세트</b><small>/trader-*</small></div></div>
+ <div class="chips"><span class="q">카피캣</span><span class="q">뉴스</span><span class="q">예산</span><span class="q g">펠로시</span><span class="q">애널리스트</span><span class="q">스크리너</span><span class="q">리스크</span><span class="q">브로커</span><span class="q">세금</span><span class="q">알림</span><span class="q">리밸런스</span></div></div>
+<div class="card" id="c3"><div class="hd"><span class="num">1</span><div><b>카피캣</b><small>/trader-copycat</small></div></div>
+ <div class="row q">👑 대가 보유 종목(13F 공시)</div><div class="row q" style="opacity:.7">⬇</div><div class="row q" style="color:var(--hl)">💼 내 예산에 맞춘 따라 사기 비율</div>
+ <div class="note">13F는 분기 끝나고 약 45일 뒤 공개 · 수익까지 따라오진 않아요</div></div>
+<div class="card" id="c4"><div class="hd"><span class="num">2</span><div><b>뉴스</b><small>/trader-news</small></div></div>
+ <div class="chips"><span class="q r">🔴 속보 헤드라인</span><span class="q r">📄 8-K 공시</span><span class="q g">✅ 내 종목 영향만 골라 줌</span></div></div>
+<div class="card" id="c5"><div class="hd"><span class="num">3</span><div><b>펠로시</b><small>/trader-pelosi</small></div><span class="star">🏛 미국 하원</span></div>
+ <div class="row q">🔔 의원 주식 거래 신고 올라오면</div><div class="chips"><span class="q">누가</span><span class="q">어떤 종목을</span><span class="q g">샀는지</span><span class="q r">팔았는지</span></div>
+ <div class="note">공개 신고 자료 · 내부 정보 아님</div></div>
+<div class="card" id="c6"><div class="hd"><span class="num">4</span><div><b>예산 · 리스크</b><small>/trader-budget · /trader-risk</small></div></div>
+ <div class="row q"><span class="lb">예산</span>몇 주 살지 나눠 줌</div><div class="row q"><span class="lb">현금 여유</span>남겨 두기</div><div class="row q"><span class="lb">리스크</span><span style="color:var(--upc)">PASS</span>&nbsp;/&nbsp;<span style="color:#ff6b6b">BLOCK</span></div></div>
+<div class="card" id="c7"><div class="hd"><span class="num">✋</span><div><b>주문 승인 대기</b><small>/trader-broker</small></div></div>
+ <div class="chips"><span class="q">거절</span><span class="q g" id="ok">승인</span></div>
+ <div class="row q" style="color:var(--hl)">🔒 내가 '예' 하기 전엔 주문 안 나가요</div><div class="note">기본은 모의투자(paper) 설정</div></div>
+<div class="card" id="c8"><div class="hd"><span class="num">⚡</span><div><b>설치</b><small>Claude에 붙여 넣기</small></div></div>
+ <div class="bub me q">github.com/Jakeschincariol/trader-skill<br/>스킬 설치</div><div class="bub ai q">트레이더 스킬 11개 설치했어요 ✅</div></div>
+<div class="card" id="c9"><div class="prof"><div class="av">jungle<br/>.gcc</div><div class="nm"><b>jungle.gcc</b><span>클로드·챗GPT·제미나이 AI 꿀팁</span></div><div id="fb"><span class="a">팔로우</span><span class="b">팔로잉 ✓</span></div></div><div class="cm">💬 댓글: <em id="kw"></em></div><div class="dm" id="dm">🎁 설치법·주의점 전체 DM으로 보냈어요</div></div>
+<div id="caps"></div>
+<div id="disc">투자 권유 아님 · 2026년 11월 기준</div>
+</div>
+<script>
+const T=window.TL,S=k=>T.s[k],W=(k,f)=>S(k)[0]+f*(S(k)[1]-S(k)[0]);
+const tl=gsap.timeline({paused:true});window.__timelines={main:tl};
+const show=(sel,a,b)=>{tl.set(sel,{visibility:"visible"},a);tl.set(sel,{visibility:"hidden"},b)};
+tl.fromTo("#prog s",{width:"0%"},{width:"100%",duration:T.dur,ease:"none"},0);
+const cardIn=(id,a,b)=>{show(id,a,b);tl.fromTo(id,{y:60,opacity:0,rotate:0},{y:0,opacity:1,rotate:0,duration:.4,ease:"back.out(1.6)"},a);
+  document.querySelectorAll(id+" .q").forEach((el,j)=>tl.fromTo(el,{opacity:0,x:-30},{opacity:1,x:0,duration:.25,ease:"power2.out"},a+.25+j*.22));};
+show("#hook",0,S("s3")[0]);tl.fromTo("#hook .t",{scale:1.08,transformOrigin:"0% 50%"},{scale:1,duration:.6,ease:"power2.out"},0);
+tl.fromTo("#hook .st",{scale:.4,opacity:0},{scale:1,opacity:1,duration:.35,ease:"back.out(2.4)"},S("s2")[0]);
+show("#pill",S("s3")[0],S("s11")[0]);tl.fromTo("#pill",{x:-40,opacity:0},{x:0,opacity:1,duration:.3},S("s3")[0]);
+cardIn("#c1",S("s3")[0]+.1,S("s4")[0]);
+cardIn("#c2",S("s4")[0],S("s5")[0]);
+cardIn("#c3",S("s5")[0],S("s6")[0]);
+cardIn("#c4",S("s6")[0],S("s7")[0]);
+cardIn("#c5",S("s7")[0],S("s8")[0]);
+cardIn("#c6",S("s8")[0],S("s9")[0]);
+cardIn("#c7",S("s9")[0],S("s10")[0]);
+tl.fromTo("#ok",{scale:1},{scale:1.25,yoyo:true,repeat:1,duration:.18},W("s9",.55));
+cardIn("#c8",S("s10")[0],S("s11")[0]);
+show("#c9",S("s11")[0],T.dur);tl.fromTo("#c9",{y:60,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},S("s11")[0]);
+tl.to("#fb .a",{opacity:0,duration:.15},W("s11",.22));tl.to("#fb .b",{opacity:1,duration:.15},W("s11",.22));
+const kw=T.kw;const o2={n:0};tl.to(o2,{n:kw.length,duration:.3,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s11",.4));
+tl.fromTo("#dm",{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:"back.out(2)"},W("s11",.62));
+const caps=document.getElementById("caps");
+T.caps.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
+ const a=i===0?0:w[0],b=i+1<T.caps.length?T.caps[i+1][0]:T.dur;show("#w"+i,a,b);
+ tl.fromTo("#w"+i,{y:14,opacity:0},{y:0,opacity:1,duration:.16,ease:"power2.out"},a);
+ if(el.querySelector("b"))tl.fromTo("#w"+i+" b",{scale:.85,opacity:.4},{scale:1,opacity:1,duration:.22,ease:"back.out(2.5)"},a+.06)});
+tl.set({}, {}, T.dur);
+</script></body></html>
