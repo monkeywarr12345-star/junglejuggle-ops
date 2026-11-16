@@ -52,8 +52,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
 .cm em{font-style:normal;color:var(--kw);font-weight:900}
 .dm{margin-top:16px;display:flex;align-items:center;gap:14px;padding:16px 22px;border-radius:18px;background:#ffd43b;color:#111;font-size:30px;font-weight:900}
 #disc{position:absolute;left:0;right:0;top:1560px;text-align:center;font-size:24px;font-weight:700;color:rgba(255,255,255,.62);text-shadow:0 2px 8px rgba(0,0,0,.8)}
-.w{position:absolute;left:30px;right:30px;top:1420px;text-align:center;font-size:84px;letter-spacing:-3.5px;font-weight:900;white-space:nowrap;visibility:hidden;text-shadow:0 0 2px #000,0 6px 24px rgba(0,0,0,.85)}
-.w b{display:inline-block;border-radius:14px;background:var(--hl);color:#111;text-shadow:none;padding:0 18px 8px}
+.w{position:absolute;left:30px;right:30px;top:1370px;text-align:center;font-size:66px;line-height:1.24;letter-spacing:-2.5px;font-weight:900;white-space:nowrap;visibility:hidden;text-shadow:0 0 2px #000,0 6px 24px rgba(0,0,0,.85)}
+.w b{display:inline-block;border-radius:12px;background:var(--hl);color:#111;text-shadow:none;padding:0 12px 4px;margin:2px 0}
 :root{--ac:#ff7a1a;--ac2:#ff7a1a;--hl:#ffd43b;--pillbg:rgba(10,10,12,.88);--pillfg:#fff;--cbg:rgba(14,14,16,.92);--cfg:#fff;--cbd:1.5px solid rgba(255,122,26,.5);--chip:rgba(255,255,255,.1);--upc:#4BE37F;--kw:#ffd43b}
 #warn{position:absolute;left:0;right:0;top:330px;text-align:center;visibility:hidden}#warn .wt{display:inline-block;padding:30px 46px;border-radius:28px;background:rgba(14,14,16,.9);border:4px solid #ff4d4d;font-size:92px;line-height:1.1;font-weight:900;letter-spacing:-4px;transform:rotate(-3deg)}#warn em{font-style:normal;color:#ff4d4d}
 .coin{margin-top:14px;padding:14px 18px;border-radius:14px;background:rgba(255,212,59,.14);border:2px solid #ffd43b;font-size:30px;font-weight:900;color:#ffd43b}
@@ -108,8 +108,9 @@ tl.to("#fb .a",{opacity:0,duration:.15},W("s9",.22));tl.to("#fb .b",{opacity:1,d
 const kw=T.kw;const o2={n:0};tl.to(o2,{n:kw.length,duration:.3,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s9",.4));
 tl.fromTo("#dm",{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:"back.out(2)"},W("s9",.62));
 const caps=document.getElementById("caps");
-T.words.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
- const a=i===0?0:w[0],b=i+1<T.words.length?T.words[i+1][0]:T.dur;show("#w"+i,a,b);
- if(el.querySelector("b"))tl.fromTo("#w"+i+" b",{scaleX:.3,opacity:0,transformOrigin:"0% 50%"},{scaleX:1,opacity:1,duration:.22,ease:"power3.out"},a+.04)});
+T.caps.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
+ const a=i===0?0:w[0],b=i+1<T.caps.length?T.caps[i+1][0]:T.dur;show("#w"+i,a,b);
+ tl.fromTo("#w"+i,{y:14,opacity:0},{y:0,opacity:1,duration:.16,ease:"power2.out"},a);
+ if(el.querySelector("b"))tl.fromTo("#w"+i+" b",{scale:.85,opacity:.4},{scale:1,opacity:1,duration:.22,ease:"back.out(2.5)"},a+.06)});
 tl.set({}, {}, T.dur);
 </script></body></html>
