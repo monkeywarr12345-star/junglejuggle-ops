@@ -1,0 +1,26 @@
+{
+  "keyword": "주식",
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
+  "follow_gate": {
+    "text": "댓글 고마워요! 자료는 팔로워 전용이에요. @jungle.gcc를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 프로필에서 팔로우하고 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "주식 리딩방 대신 쓰는 클로드 트레이더 스킬 11개",
+    "subtitle": "설치법·스킬 정리·주의점",
+    "button": "자료 열기",
+    "url": "https://observant-kiwi-cfe.notion.site/41a9808304248101bcf0ee314c376c42"
+  },
+  "dm_text": "요청하신 자료예요 🎁 맨 위 카드가 방금 보신 릴스 자료예요!",
+  "zorcha": "live",
+  "any_keyword": true,
+  "notion": "https://app.notion.com/p/41a9808304248101bcf0ee314c376c42",
+  "notion_public": "https://observant-kiwi-cfe.notion.site/41a9808304248101bcf0ee314c376c42",
+  "zorcha_auto": "11.16 주식 AI 도구 3개 · 주식 → 노션",
+  "note": "2026-11-16 20시 사용자 지시로 stock-ai3(57초)를 대체하는 45초판. 노션 페이지는 같은 주소, 내용을 trader-skill로 교체."
+}
