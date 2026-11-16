@@ -153,6 +153,16 @@
    "keyword": "PPT",
    "evidence": "PPT 주제 평균 1.3x, grappt_ PPT 시리즈",
    "status": "todo"
+  },
+  {
+   "n": 16,
+   "status": "doing",
+   "title": "주식 한다면 꼭 써야 할 AI 도구 3개",
+   "keyword": "주식",
+   "tool": "Claude",
+   "reel": "2026-11-16-stock-ai3",
+   "publish_at": "2026-11-16T18:00:00+09:00",
+   "note": "2026-11-16 사용자 지시(참고 릴스 재구성), 러다이트 A·B 두 버전"
   }
  ]
 }
