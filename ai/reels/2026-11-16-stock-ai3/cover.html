@@ -1,0 +1,18 @@
+<!doctype html><html lang="ko"><head><meta charset="UTF-8"/><style>
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;font-family:P,sans-serif;color:#fff}
+#bg{position:absolute;inset:0;background-size:cover;background-position:center}
+#sh{position:absolute;left:0;right:0;top:880px;bottom:0;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.72) 35%,rgba(0,0,0,.9))}
+#lab{position:absolute;left:72px;top:1110px;display:flex;align-items:center;gap:14px;font-size:50px;font-weight:900}
+#lab i{width:16px;height:16px;border-radius:50%;display:inline-block}
+#title{position:absolute;left:72px;right:40px;top:1190px;font-size:126px;line-height:1.12;font-weight:900;letter-spacing:-5px;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+#title em{font-style:normal;color:#ffd43b}
+#stk{position:absolute;left:600px;top:1030px;padding:12px 26px 14px;border-radius:8px 26px 8px 26px;background:#e5484d;font-size:46px;font-weight:900;letter-spacing:-1.5px;transform:rotate(-6deg);box-shadow:0 8px 0 rgba(0,0,0,.4)}
+</style></head><body><div id="bg"></div><div id="sh"></div>
+<div id="lab">jungle.gcc <span><i style="background:#4c8df6"></i> <i style="background:#e07a52"></i> <i style="background:#19c37d"></i></span></div>
+<div id="stk"></div>
+<div id="title"></div>
+<script>document.getElementById('bg').style.backgroundImage='url('+(location.hash.slice(1)||'bgA.png')+')'</script></body></html>
+<script>const V=(location.hash.slice(1)||'A');const T={A:['주식 하면서<br/><em>AI 안 쓰면</em><br/>손해예요','AI 스킬 3개'],B:['주식 정글<br/><em>살아남는</em><br/>AI 무기 3개','설치법 공개']}[V];
+document.getElementById('title').innerHTML=T[0];document.getElementById('stk').textContent=T[1];document.getElementById('bg').style.backgroundImage='url(bg'+V+'.png?'+Date.now()+')';</script>
