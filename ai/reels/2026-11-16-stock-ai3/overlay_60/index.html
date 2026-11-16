@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/>
+<script src="gsap.min.js"></script><script src="timeline.js"></script>
+<style>
+@font-face{font-family:P;font-weight:500;src:url(assets/fonts/Pretendard-Medium.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,"Noto Sans CJK KR",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+#root{position:absolute;inset:0;overflow:hidden}
+#top{position:absolute;left:0;right:0;top:0;height:780px;background:linear-gradient(180deg,rgba(0,0,0,.72),rgba(0,0,0,.3) 60%,rgba(0,0,0,0))}
+#bot{position:absolute;left:0;right:0;top:1300px;height:460px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 40%,rgba(0,0,0,.6) 80%,rgba(0,0,0,0))}
+#prog{position:absolute;left:64px;right:64px;top:62px;height:5px;border-radius:3px;background:rgba(255,255,255,.14);overflow:hidden}
+#prog s{display:block;height:100%;width:0;background:var(--ac)}
+#brand{position:absolute;left:64px;top:96px;display:flex;align-items:center;gap:14px;font-weight:800;font-size:32px;color:rgba(255,255,255,.92)}
+#brand i{width:10px;height:10px;border-radius:50%;background:var(--ac);box-shadow:0 0 14px var(--ac)}
+#brand span{font-weight:600;font-size:22px;padding:5px 13px;border-radius:20px;border:1.5px solid rgba(255,255,255,.28);color:rgba(255,255,255,.75)}
+#pill{position:absolute;left:64px;top:150px;padding:12px 26px;border-radius:14px;background:var(--pillbg);color:var(--pillfg);font-size:36px;font-weight:900;letter-spacing:-1px;visibility:hidden;border-left:8px solid var(--ac2)}
+#hook{position:absolute;left:64px;right:40px;top:230px;visibility:hidden}
+#hook .t{font-size:112px;line-height:1.07;font-weight:900;letter-spacing:-5px;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+#hook .t em{font-style:normal;color:var(--hl)}
+.st{display:inline-block;padding:10px 24px;border-radius:12px;background:#ff3b3b;color:#fff;font-weight:900;letter-spacing:-1px;transform:rotate(-3deg);font-size:38px;margin-top:26px}
+.card{position:absolute;left:72px;right:72px;top:240px;border-radius:30px;background:var(--cbg);color:var(--cfg);border:var(--cbd);box-shadow:0 30px 80px rgba(0,0,0,.55);padding:26px 30px;visibility:hidden}
+.hd{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.num{width:64px;height:64px;border-radius:18px;background:var(--ac2);color:#111;display:grid;place-items:center;font-size:40px;font-weight:900;flex:none}
+.hd b{display:block;font-size:40px;font-weight:900;letter-spacing:-1.4px}
+.hd small{display:block;font-size:24px;font-weight:700;opacity:.62;margin-top:2px}
+.star{margin-left:auto;font-size:26px;font-weight:900;padding:8px 14px;border-radius:12px;background:var(--chip);white-space:nowrap}
+.row{display:flex;align-items:center;gap:16px;font-size:32px;font-weight:800;letter-spacing:-1px;padding:10px 0}
+.bar{height:26px;border-radius:8px}
+.row .lb{width:210px;font-size:28px;font-weight:800;opacity:.85}
+.row .v{margin-left:auto;font-size:30px;font-weight:900}
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chips span{padding:12px 18px;border-radius:14px;background:var(--chip);font-size:29px;font-weight:800}
+.chips span.g{background:rgba(75,227,127,.22);color:var(--upc)}.chips span.r{background:rgba(255,77,77,.2);color:#ff6b6b}
+.lock{display:flex;align-items:center;gap:16px;font-size:36px;font-weight:900;padding:14px 0;border-top:1px solid rgba(127,127,127,.25)}
+.lock:first-of-type{border-top:0}
+.lock i{font-style:normal;flex:none;width:56px;height:56px;border-radius:16px;background:var(--ac2);color:#111;display:grid;place-items:center}
+.lock em{font-style:normal;filter:blur(9px);opacity:.8}
+.bub{max-width:90%;padding:16px 22px;border-radius:22px;font-size:31px;font-weight:800;line-height:1.3;margin-top:10px}
+.me{margin-left:auto;background:#3b82f6;color:#fff;border-bottom-right-radius:6px}
+.ai{background:var(--chip);border-bottom-left-radius:6px}
+.note{font-size:23px;font-weight:700;opacity:.6;margin-top:12px}
+.prof{display:flex;align-items:center;gap:20px}
+.av{width:84px;height:84px;border-radius:50%;background:#ffd43b;color:#111;font-weight:900;font-size:22px;display:grid;place-items:center;text-align:center;line-height:1.05}
+.nm b{display:block;font-size:36px;font-weight:900}.nm span{font-size:24px;opacity:.6;font-weight:600}
+#fb{margin-left:auto;position:relative;width:170px;height:62px}
+#fb span{position:absolute;inset:0;border-radius:16px;display:grid;place-items:center;font-size:28px;font-weight:900}
+#fb .a{background:#3b82f6;color:#fff}#fb .b{background:var(--chip);opacity:0}
+.cm{margin-top:22px;display:flex;align-items:center;gap:16px;padding:18px 22px;border-radius:18px;background:var(--chip);font-size:34px;font-weight:800}
+.cm em{font-style:normal;color:var(--kw);font-weight:900}
+.dm{margin-top:16px;display:flex;align-items:center;gap:14px;padding:16px 22px;border-radius:18px;background:#ffd43b;color:#111;font-size:30px;font-weight:900}
+#disc{position:absolute;left:0;right:0;top:1560px;text-align:center;font-size:24px;font-weight:700;color:rgba(255,255,255,.62);text-shadow:0 2px 8px rgba(0,0,0,.8)}
+.w{position:absolute;left:30px;right:30px;top:1420px;text-align:center;font-size:84px;letter-spacing:-3.5px;font-weight:900;white-space:nowrap;visibility:hidden;text-shadow:0 0 2px #000,0 6px 24px rgba(0,0,0,.85)}
+.w b{display:inline-block;border-radius:14px;background:var(--hl);color:#111;text-shadow:none;padding:0 18px 8px}
+:root{--ac:#ff7a1a;--ac2:#ff7a1a;--hl:#ffd43b;--pillbg:rgba(10,10,12,.88);--pillfg:#fff;--cbg:rgba(14,14,16,.92);--cfg:#fff;--cbd:1.5px solid rgba(255,122,26,.5);--chip:rgba(255,255,255,.1);--upc:#4BE37F;--kw:#ffd43b}
+#warn{position:absolute;left:0;right:0;top:330px;text-align:center;visibility:hidden}#warn .wt{display:inline-block;padding:30px 46px;border-radius:28px;background:rgba(14,14,16,.9);border:4px solid #ff4d4d;font-size:92px;line-height:1.1;font-weight:900;letter-spacing:-4px;transform:rotate(-3deg)}#warn em{font-style:normal;color:#ff4d4d}
+.coin{margin-top:14px;padding:14px 18px;border-radius:14px;background:rgba(255,212,59,.14);border:2px solid #ffd43b;font-size:30px;font-weight:900;color:#ffd43b}
+</style></head><body>
+<div id="root">
+<div id="top"></div><div id="bot"></div>
+<div id="prog"><s></s></div>
+<div id="brand"><i></i>jungle.gcc<span>AI 꿀팁</span></div>
+<div id="pill">모르면 손해 보는 주식 AI 3</div>
+<div id="hook"><div class="t">지금도<br/><em>AI 12명</em>이<br/>남의 주식 분석 중</div><div class="st">아직 혼자 감으로 사요?</div></div>
+<div class="card" id="c2"><div class="lock q"><i>1</i><em>데이 트레이더 스킬</em></div><div class="lock q"><i>2</i><em>트레이딩 에이전츠</em></div><div class="lock q"><i>3</i><em>트레이딩뷰 MCP</em></div><div class="note">끝까지 보면 셋 다 공개 · 설치법은 DM</div></div>
+<div class="card" id="c3a"><div class="hd"><span class="num">1</span><div><b>day-trader-skill</b><small>Claude 스킬 · 무료 · MIT</small></div><span class="star">★ 7천</span></div>
+ <div class="row q" style="font-size:44px;font-weight:900">미국 주식 약 <span style="color:var(--ac);margin-left:10px">5,900개</span> 스캔</div>
+ <div class="chips"><span class="q g">개장 레인지 돌파</span><span class="q g">깃발형</span><span class="q g">과매도 반등</span></div>
+ <div class="note">데이터: Yahoo Finance(비공식) · 단타용 스킬 11개 묶음</div></div>
+<div class="card" id="c3"><div class="hd"><span class="num">1</span><div><b>day-trader-skill</b><small>Claude 스킬 · 무료 · 미국 주식 약 5,900개</small></div><span class="star">★ 7천</span></div>
+ <div class="row q"><span class="lb">목표가 먼저</span><span class="bar" style="width:294px;background:var(--upc)"></span><span class="v">29.4%</span></div>
+ <div class="row q"><span class="lb">손절가 먼저</span><span class="bar" style="width:255px;background:#ff5a5a"></span><span class="v">25.5%</span></div>
+ <div class="row q"><span class="lb">마감까지 미결</span><span class="bar" style="width:451px;background:rgba(160,160,160,.7)"></span><span class="v">45.1%</span></div>
+ <div class="note">테슬라 예시 · 남은 장 1만 번 시뮬레이션 · 예측 아님</div><div class="coin">🪙 결론: 생각보다 동전 던지기에 가까움</div></div>
+<div class="card" id="c4"><div class="hd"><span class="num">2</span><div><b>TradingAgents</b><small>오픈소스 · AI 에이전트 12명</small></div><span class="star">★ 12만</span></div>
+ <div class="chips"><span class="q">분석가 4</span><span class="q g">강세 리서처</span><span class="q r">약세 리서처</span><span class="q">트레이더</span><span class="q">리스크팀 3</span><span class="q">매니저</span></div>
+ <div class="note">연구용 · LLM API 키 필요</div></div>
+<div class="card" id="c5"><div class="hd"><span class="num">3</span><div><b>TradingView MCP</b><small>TradingView 데스크톱 + Claude Code</small></div><span class="star">★ 1.7천</span></div>
+ <div class="bub me q">이 차트에 추세선 그려 줘</div><div class="bub ai q">추세선 2개랑 박스 그렸어요 📈</div><div class="chips" style="margin-top:12px"><span class="q">☀️ 아침엔 모닝 브리핑</span></div>
+ <div class="note">TradingView 구독 필요 · 비공식 도구</div></div>
+<div id="warn"><div class="wt">감으로만 사면<br/><em>진짜 손해</em></div></div>
+<div class="card" id="c6"><div class="prof"><div class="av">jungle<br/>.gcc</div><div class="nm"><b>jungle.gcc</b><span>클로드·챗GPT·제미나이 AI 꿀팁</span></div><div id="fb"><span class="a">팔로우</span><span class="b">팔로잉 ✓</span></div></div><div class="cm">💬 댓글: <em id="kw"></em></div><div class="dm" id="dm">🎁 3개 설치법 전체 DM으로 보냈어요</div></div>
+<div id="caps"></div>
+<div id="disc">투자 권유 아님 · 숫자는 예시 · 2026년 11월 기준</div>
+</div>
+<script>
+const T=window.TL,S=k=>T.s[k],W=(k,f)=>S(k)[0]+f*(S(k)[1]-S(k)[0]);
+const tl=gsap.timeline({paused:true});window.__timelines={main:tl};
+const show=(sel,a,b)=>{tl.set(sel,{visibility:"visible"},a);tl.set(sel,{visibility:"hidden"},b)};
+tl.fromTo("#prog s",{width:"0%"},{width:"100%",duration:T.dur,ease:"none"},0);
+const cardIn=(id,a,b)=>{show(id,a,b);tl.fromTo(id,{y:60,opacity:0,rotate:0},{y:0,opacity:1,rotate:0,duration:.4,ease:"back.out(1.6)"},a);
+  document.querySelectorAll(id+" .q").forEach((el,j)=>tl.fromTo(el,{opacity:0,x:-30},{opacity:1,x:0,duration:.25,ease:"power2.out"},a+.25+j*.22));};
+show("#hook",0,S("s3")[0]);tl.fromTo("#hook .t",{scale:1.08,transformOrigin:"0% 50%"},{scale:1,duration:.6,ease:"power2.out"},0);
+tl.fromTo("#hook .st",{scale:.4,opacity:0},{scale:1,opacity:1,duration:.35,ease:"back.out(2.4)"},.35);
+show("#pill",S("s3")[0],S("s8")[0]);tl.fromTo("#pill",{x:-40,opacity:0},{x:0,opacity:1,duration:.3},S("s3")[0]);
+cardIn("#c2",S("s3")[0]+.1,S("s4")[0]);
+cardIn("#c3a",S("s4")[0],S("s5")[0]);
+cardIn("#c3",S("s5")[0],S("s6")[0]);
+document.querySelectorAll("#c3 .bar").forEach((el,j)=>tl.fromTo(el,{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:.7,ease:"power2.out"},W("s5b",.05)+j*.6));
+tl.fromTo("#c3 .coin",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.35,ease:"back.out(2)"},W("s5b",.62));
+cardIn("#c4",S("s6")[0],S("s7")[0]);
+cardIn("#c5",S("s7")[0],S("s8")[0]);
+show("#warn",S("s8")[0],S("s9")[0]);tl.fromTo("#warn .wt",{scale:1.8,opacity:0},{scale:1,opacity:1,duration:.3,ease:"back.out(2)"},S("s8")[0]);
+show("#c6",S("s9")[0],T.dur);tl.fromTo("#c6",{y:60,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},S("s9")[0]);
+tl.to("#fb .a",{opacity:0,duration:.15},W("s9",.22));tl.to("#fb .b",{opacity:1,duration:.15},W("s9",.22));
+const kw=T.kw;const o2={n:0};tl.to(o2,{n:kw.length,duration:.3,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s9",.4));
+tl.fromTo("#dm",{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:"back.out(2)"},W("s9",.62));
+const caps=document.getElementById("caps");
+T.words.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
+ const a=i===0?0:w[0],b=i+1<T.words.length?T.words[i+1][0]:T.dur;show("#w"+i,a,b);
+ if(el.querySelector("b"))tl.fromTo("#w"+i+" b",{scaleX:.3,opacity:0,transformOrigin:"0% 50%"},{scaleX:1,opacity:1,duration:.22,ease:"power3.out"},a+.04)});
+tl.set({}, {}, T.dur);
+</script></body></html>
