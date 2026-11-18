@@ -1,0 +1,7335 @@
+{
+ "collected_at": "2026-11-18T21:16:20+00:00",
+ "accounts": {
+  "ekke.now": {
+   "followers_count": 412104,
+   "media_count": 7073,
+   "posts": [
+    {
+     "id": "18089467721327227",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T10:30:02+0000",
+     "permalink": "https://www.instagram.com/p/Df4S8HEoBNr/",
+     "comments_count": 0,
+     "slides": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "📚 쎈수학 출판사 이름도 쎈수학~",
+      "last_question": "📋 이름 왜 바꾼거임?",
+      "structure": "이모지소제목>항목>문장>항목>문장>항목×4>문장×3>질문>항목>문장>항목>문장>항목>문장>항목>문장>항목>문장>결론>문장×3>이모지소제목×2>문장",
+      "numbers": [
+       "1995년",
+       "2008년",
+       "2026년",
+       "2005년",
+       "2010년",
+       "1,000만",
+       "2025년",
+       "5,500만",
+       "2022년",
+       "2025년",
+       "1월",
+       "2026년",
+       "4월",
+       "59명",
+       "46명"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "사명",
+       "변경",
+       "쎈수학",
+       "출판사",
+       "수학",
+       "쎈수학으로",
+       "대표",
+       "이후",
+       "단체교섭",
+       "혐의로",
+       "이름도",
+       "문제집"
+      ],
+      "series": "",
+      "chars": 628,
+      "lines": 30,
+      "emoji_per_100": 0.64,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "Yeu Yeu 00 BA 이유",
+      "cover_chars": 12,
+      "visual": "graphic",
+      "top5_share": 0.859,
+      "n_colors": 11,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "18025401869947946",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T10:00:05+0000",
+     "permalink": "https://www.instagram.com/p/Df4Pd4HHz8B/",
+     "comments_count": 3,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🔐 빅테크들이 보안 시장에 주목하는 이유",
+      "last_question": "",
+      "structure": "해시태그>이모지소제목>항목>문장×2>결론>이모지소제목>항목>문장×3>결론>문장>항목>문장×5>이모지소제목>항목>문장>항목>문장×3>항목>문장×2>이모지소제목>문장",
+      "numbers": [
+       "2030",
+       "2031년",
+       "26년",
+       "8월",
+       "1"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "상황",
+       "BTQ",
+       "보안",
+       "AI가",
+       "해킹",
+       "기업",
+       "암호를",
+       "바꿔야",
+       "빅테크들이",
+       "시장에",
+       "주목하는",
+       "이유"
+      ],
+      "series": "",
+      "chars": 662,
+      "lines": 31,
+      "emoji_per_100": 0.76,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "보안 시대 들이 중하 사이버 보안 시장",
+      "cover_chars": 15,
+      "visual": "photo",
+      "top5_share": 0.54,
+      "n_colors": 58,
+      "face": false,
+      "colors": [
+       "#10B0B0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18037623101896133",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T09:30:02+0000",
+     "permalink": "https://www.instagram.com/p/Df4L_CoIOcv/",
+     "comments_count": 3,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚨 GTA, 원래 경찰 게임이었음 ㄷㄷ",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×2>결론>문장>항목>문장>결론>문장>이모지소제목>항목>문장>결론>문장>항목>문장>결론>문장>항목>문장×2>결론>문장>이모지소제목>문장",
+      "numbers": [
+       "900만",
+       "1997년",
+       "27개",
+       "1998년",
+       "900만",
+       "2",
+       "6"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "GTA",
+       "게임이었음",
+       "DMA",
+       "달러에",
+       "게임",
+       "락스타",
+       "원래",
+       "경찰",
+       "GTA의",
+       "시작은",
+       "스코틀랜드",
+       "게임사"
+      ],
+      "series": "",
+      "chars": 623,
+      "lines": 26,
+      "emoji_per_100": 0.64,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "버그 때문에 이었다? 2026. 11. 18. 11 19 제작비 OF 3",
+      "cover_chars": 66,
+      "visual": "graphic",
+      "top5_share": 0.914,
+      "n_colors": 23,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18014358365995320",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T09:00:29+0000",
+     "permalink": "https://www.instagram.com/p/Df4ImClhGXE/",
+     "comments_count": 0,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "☃️ 나비엔: 더 추워지기 전에 갈아타셈",
+      "last_question": "- 집에서 보일러 켜도 읏추읏추 발 시린 주주님들?",
+      "structure": "해시태그>이모지소제목>항목>문장>항목>문장×2>결론>문장>항목>문장×2>이모지소제목>결론>이모지소제목>결론>이모지소제목>결론>이모지소제목>항목×3>번호>문장>번호×2>문장>번호>항목>이모지소제목×2>문장",
+      "numbers": [
+       "6년",
+       "6년",
+       "11",
+       "13",
+       "11",
+       "25",
+       "6년",
+       "10",
+       "1",
+       "2",
+       "3",
+       "4",
+       "2026",
+       "12",
+       "03"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "보일러",
+       "나비엔",
+       "구독",
+       "이벤트",
+       "무상",
+       "지원",
+       "오래된",
+       "보일러와",
+       "환승할",
+       "환승연애",
+       "구독으로",
+       "환승을"
+      ],
+      "series": "",
+      "chars": 777,
+      "lines": 32,
+      "emoji_per_100": 1.16,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "69 10 그럼 오해 보일러",
+      "cover_chars": 11,
+      "visual": "graphic",
+      "top5_share": 0.781,
+      "n_colors": 36,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#301010"
+      ]
+     }
+    },
+    {
+     "id": "18023355050732906",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T08:33:13+0000",
+     "permalink": "https://www.instagram.com/p/Df4FcNmixa4/",
+     "comments_count": 111,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚀 8년 8개월 만에 뚫린 한중 협상?",
+      "last_question": "🚀 8년 8개월 만에 뚫린 한중 협상?",
+      "structure": "질문>항목>문장×2>항목×4>문장×3>결론>항목>문장×3>항목>이모지소제목>항목>문장×3>이모지소제목×2>문장",
+      "numbers": [
+       "8년",
+       "8개",
+       "18일",
+       "4",
+       "99,900원",
+       "29.91%",
+       "53,300원",
+       "23.95%",
+       "181,600원",
+       "17.31%",
+       "50,500원",
+       "12.98%",
+       "18일",
+       "8년",
+       "8개"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "한중",
+       "한국",
+       "개월",
+       "만에",
+       "한한령",
+       "해제",
+       "중국",
+       "전면",
+       "뚫린",
+       "협상",
+       "기대감이",
+       "폭발하면서"
+      ],
+      "series": "",
+      "chars": 624,
+      "lines": 25,
+      "emoji_per_100": 0.64,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "8 8 하이브 테인먼트 먼트 THN 50,500 에스엠 JYP 99,90",
+      "cover_chars": 47,
+      "visual": "graphic",
+      "top5_share": 0.664,
+      "n_colors": 54,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "17916747267518197",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T08:25:44+0000",
+     "permalink": "https://www.instagram.com/p/Df4EngrIPfB/",
+     "comments_count": 5,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🏙️ 언제나 나를 기다리던 아파트…",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×2>항목>문장×2>이모지소제목>항목>문장>번호>항목×2>번호>항목×2>번호>항목×2>번호>항목×2>번호>항목×2>번호>항목×2>번호>항목×2>문장×2>이모지소제목×2>문장",
+      "numbers": [
+       "17년",
+       "10억",
+       "10억",
+       "2009년",
+       "2026년",
+       "10억",
+       "-10억",
+       "1",
+       "2009년",
+       "95",
+       "9억",
+       "3,500만",
+       "2",
+       "2012",
+       "2015년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "거래가격",
+       "전용면적",
+       "서울",
+       "아파트",
+       "년에는",
+       "강남구",
+       "대치동",
+       "있었던",
+       "노원구",
+       "월계동",
+       "원으로",
+       "언제나"
+      ],
+      "series": "",
+      "chars": 769,
+      "lines": 36,
+      "emoji_per_100": 0.52,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "10 으로 있는 서울 변천사",
+      "cover_chars": 11,
+      "visual": "photo",
+      "top5_share": 0.53,
+      "n_colors": 69,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17997321966104784",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T07:53:03+0000",
+     "permalink": "https://www.instagram.com/p/Df4A29oirDD/",
+     "comments_count": 28,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🧮 치밀함이 남다른 부정행위 수법",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장>항목>문장>항목>문장×4>이모지소제목>번호×4>문장>이모지소제목>항목>문장>항목>문장×4>결론>문장>이모지소제목×2>문장",
+      "numbers": [
+       "12월",
+       "1",
+       "2",
+       "3",
+       "4",
+       "3월",
+       "1",
+       "2",
+       "1",
+       "3"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "A씨는",
+       "세무사",
+       "계산기",
+       "문제",
+       "교시",
+       "부정행위",
+       "시험에서",
+       "초소형",
+       "시험",
+       "집에",
+       "시험에",
+       "치밀함이"
+      ],
+      "series": "",
+      "chars": 749,
+      "lines": 29,
+      "emoji_per_100": 0.67,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "무사 시험 계산 Bale 이의 해우",
+      "cover_chars": 14,
+      "visual": "graphic",
+      "top5_share": 0.673,
+      "n_colors": 45,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "17892735894620705",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T07:42:08+0000",
+     "permalink": "https://www.instagram.com/p/Df3_jxjiBUZ/",
+     "comments_count": 11,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚨 수능 D-1, 교사도 초비상",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×4>이모지소제목>항목>문장×3>항목>문장×2>이모지소제목>항목>문장×3>항목>문장×5>이모지소제목×2>문장",
+      "numbers": [
+       "-1,",
+       "1만",
+       "8,400",
+       "1",
+       "30",
+       "10만",
+       "2억"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "수능",
+       "감독",
+       "추가",
+       "공가",
+       "대상",
+       "당일",
+       "전날",
+       "현장",
+       "교사도",
+       "초비상",
+       "이틀",
+       "발표된"
+      ],
+      "series": "",
+      "chars": 627,
+      "lines": 28,
+      "emoji_per_100": 0.96,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "오늘 거야 6 KA 공가 교사 까지 수능 0 학교 현장 초비상",
+      "cover_chars": 23,
+      "visual": "graphic",
+      "top5_share": 0.867,
+      "n_colors": 35,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18040333913855480",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T07:05:29+0000",
+     "permalink": "https://www.instagram.com/p/Df37bu2FnE0/",
+     "comments_count": 7,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎬 시놉시스 몇 줄로 숏드 데뷔 드가자",
+      "last_question": "🎁 궁금하면?? 댓글에 [드라마] 써주세요 ><",
+      "structure": "해시태그>이모지소제목>항목>문장>항목>문장×3>항목>문장>번호×3>항목>문장>이모지소제목>항목>문장>결론>문장×3>항목>문장×3>해시태그>이모지소제목×2>문장",
+      "numbers": [
+       "1",
+       "2",
+       "3",
+       "10배",
+       "3일",
+       "65%"
+      ],
+      "hashtags": [
+       "#광고",
+       "#HiggsfieldCreator"
+      ],
+      "keywords": [
+       "프롬프트",
+       "알아서",
+       "시놉시스",
+       "줄로",
+       "힉스필드",
+       "친구",
+       "가족",
+       "직접",
+       "만들어",
+       "댓글에",
+       "드라마",
+       "체험"
+      ],
+      "series": "",
+      "chars": 738,
+      "lines": 30,
+      "emoji_per_100": 0.95,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "파워 드디어 4 왔다 내가 라마",
+      "cover_chars": 12,
+      "visual": "graphic",
+      "top5_share": 0.623,
+      "n_colors": 34,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303010"
+      ]
+     }
+    },
+    {
+     "id": "17874524718645689",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T07:00:03+0000",
+     "permalink": "https://www.instagram.com/p/Df1VyzeCUA6/",
+     "comments_count": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "📒 메가스터디는 이렇게 벌고 씁니다",
+      "last_question": "",
+      "structure": "이모지소제목>문장>항목>문장>항목×3>이모지소제목>항목>문장×5>결론>문장×2>이모지소제목×2>문장",
+      "numbers": [
+       "2025년",
+       "2025년",
+       "8,849억",
+       "6.08%",
+       "1,210억",
+       "2.11%",
+       "929억",
+       "85.30%",
+       "2016년",
+       "100%",
+       "0원",
+       "18%",
+       "1위"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "매출",
+       "인강",
+       "환급",
+       "수강료",
+       "메가스터디는",
+       "이렇게",
+       "벌고",
+       "씁니다",
+       "연결",
+       "기준",
+       "대한민국",
+       "대표"
+      ],
+      "series": "",
+      "chars": 438,
+      "lines": 20,
+      "emoji_per_100": 0.91,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "이렇게 벌고 쓴다 2025 연결 기준 교육) eKKe 비용 megastu",
+      "cover_chars": 110,
+      "visual": "graphic",
+      "top5_share": 0.852,
+      "n_colors": 41,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#509090"
+      ]
+     }
+    },
+    {
+     "id": "18353237428254168",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T06:06:15+0000",
+     "permalink": "https://www.instagram.com/p/Df30p9Rn6O0/",
+     "comments_count": 13,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚢 세계 4번째 수출 1조 달러 드가자~",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×3>항목>문장×2>이모지소제목>항목>문장×2>항목>문장×3>항목>문장>결론>문장×3>이모지소제목>항목>문장×2>항목>문장×2>항목>문장×2>결론>문장×2>이모지소제목>문장>이모지소제목>문장",
+      "numbers": [
+       "4",
+       "1조",
+       "18일",
+       "1조",
+       "4",
+       "1948년",
+       "1,900만",
+       "100위",
+       "80년",
+       "5만",
+       "1948년",
+       "1960년",
+       "1970년",
+       "1,000달러",
+       "1970년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "수출",
+       "달러",
+       "세계",
+       "년대",
+       "번째",
+       "넘는",
+       "넘게",
+       "AI",
+       "드가자",
+       "산업통상부와",
+       "관세청에",
+       "따르면"
+      ],
+      "series": "",
+      "chars": 932,
+      "lines": 39,
+      "emoji_per_100": 0.64,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "대한 OF 하니까 열심히 1 XS 수출 1 12 까지 역사",
+      "cover_chars": 22,
+      "visual": "photo",
+      "top5_share": 0.51,
+      "n_colors": 54,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#1090B0"
+      ]
+     }
+    },
+    {
+     "id": "18496372903109535",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T05:44:36+0000",
+     "permalink": "https://www.instagram.com/p/Df3yLaSnyRY/",
+     "comments_count": 1,
+     "slides": 4,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "📞 주식 사려면 일단 전화부터",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장>항목>번호×3>문장>번호>문장>항목>문장×2>이모지소제목>항목>문장>번호>항목>문장>항목>문장>항목>번호>항목>문장>항목>문장>항목>문장>이모지소제목>항목>문장>항목>문장×2>이모지소제목×2>문장",
+      "numbers": [
+       "1920년",
+       "1",
+       "2",
+       "3",
+       "4",
+       "1920년",
+       "1",
+       "1928년",
+       "2",
+       "1.9",
+       "1933년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "주식",
+       "매수",
+       "주식을",
+       "거래",
+       "사려면",
+       "미국에선",
+       "브로커에게",
+       "주문을",
+       "투자자가",
+       "거래자가",
+       "가장",
+       "가격을"
+      ],
+      "series": "",
+      "chars": 783,
+      "lines": 38,
+      "emoji_per_100": 0.64,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "100 풍경 주식 어떻게 AS 미국 기준",
+      "cover_chars": 16,
+      "visual": "graphic",
+      "top5_share": 0.687,
+      "n_colors": 27,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18120692999054016",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T05:32:29+0000",
+     "permalink": "https://www.instagram.com/reel/Df3wo6ziuB7/",
+     "comments_count": 26,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🇺🇸 미국 시스템 장애? 트럼프 : 그게 인생~",
+      "last_question": "🚨 미국 전산망 지금 어떻길래?",
+      "structure": "문장>항목>문장×4>질문>항목>문장×5>항목>문장×3>이모지소제목×3>문장",
+      "numbers": [
+       "17일",
+       "12일",
+       "2만",
+       "17일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "미국",
+       "시스템",
+       "트럼프",
+       "전산망",
+       "국가",
+       "장애",
+       "그게",
+       "인생",
+       "ASEAN",
+       "정상회의",
+       "참석차",
+       "필리핀"
+      ],
+      "series": "",
+      "chars": 428,
+      "lines": 21,
+      "emoji_per_100": 0.93,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "life 시스템 장애 속출 트럼프 그게 인생",
+      "cover_chars": 18,
+      "visual": "graphic",
+      "top5_share": 0.697,
+      "n_colors": 38,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18079618352453472",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T05:16:23+0000",
+     "permalink": "https://www.instagram.com/p/Df3u8ryn34Y/",
+     "comments_count": 15,
+     "slides": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚔 프랑스 경찰: 단체로 병원 드갈게",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×4>항목>문장>항목>문장>항목>문장>이모지소제목>항목>문장×3>항목>문장>결론>항목>문장>이모지소제목>문장",
+      "numbers": [
+       "3개",
+       "1,000명",
+       "1만",
+       "3,000명",
+       "8%",
+       "63개",
+       "30개",
+       "7",
+       "28.5%",
+       "35%",
+       "2027년",
+       "2029년",
+       "5%",
+       "2029년",
+       "33.5%"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "프랑스",
+       "경찰",
+       "병원",
+       "CRS",
+       "밝힘",
+       "노조는",
+       "단체로",
+       "드갈게",
+       "일간지",
+       "르몽드에",
+       "따르면",
+       "학교"
+      ],
+      "series": "",
+      "chars": 565,
+      "lines": 24,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "병원 4 3 시위 중인 프랑스 경찰 단체",
+      "cover_chars": 15,
+      "visual": "graphic",
+      "top5_share": 0.621,
+      "n_colors": 38,
+      "face": false,
+      "colors": [
+       "#303030",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "17934346410162270",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T02:35:58+0000",
+     "permalink": "https://www.instagram.com/p/Df3aJjAi_nW/",
+     "comments_count": 23,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "📚 2040년엔 수능이 없다고?",
+      "last_question": "📚 2040년엔 수능이 없다고?",
+      "structure": "질문>항목>문장×4>항목>문장×2>항목>번호>항목×2>문장>항목>문장>번호>항목×3>문장>항목>번호>항목×3>문장>항목>문장×2>이모지소제목>문장",
+      "numbers": [
+       "2040년",
+       "12월",
+       "10일",
+       "2040",
+       "2028",
+       "2033",
+       "2040",
+       "3",
+       "2040",
+       "2025년",
+       "3",
+       "1",
+       "2028",
+       "30",
+       "40%"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "대입",
+       "학년도",
+       "수능",
+       "선발",
+       "개편",
+       "대학의",
+       "전형",
+       "내용",
+       "전환",
+       "정시",
+       "폐지",
+       "논술형"
+      ],
+      "series": "",
+      "chars": 666,
+      "lines": 32,
+      "emoji_per_100": 0.3,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "2040 TS 제안한 대입 개편안 교육청, 대입 제도 개편 과목 전환 수",
+      "cover_chars": 134,
+      "visual": "graphic",
+      "top5_share": 0.939,
+      "n_colors": 13,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17899349712415317",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T02:11:15+0000",
+     "permalink": "https://www.instagram.com/p/Df3ZwtFFl_y/",
+     "comments_count": 60,
+     "slides": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚨 커닝 장비 팔다가 이젠 협박 mode",
+      "last_question": "🧾 세무사 수석 합격자도 고객?",
+      "structure": "이모지소제목>항목>문장×4>결론>문장×2>이모지소제목>항목>문장×4>결론>문장>질문>항목>문장×2>항목>문장>결론>문장>이모지소제목×2>문장",
+      "numbers": [
+       "1",
+       "5",
+       "1,200만",
+       "1",
+       "1",
+       "1억"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "커닝",
+       "협박",
+       "시험",
+       "텔레그램",
+       "구매자들에게",
+       "구매자",
+       "보안",
+       "장비를",
+       "정보가",
+       "세무사",
+       "수석",
+       "장비"
+      ],
+      "series": "",
+      "chars": 600,
+      "lines": 28,
+      "emoji_per_100": 0.83,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "단추? 카메라? 이제 으로 중국 업체 근황",
+      "cover_chars": 17,
+      "visual": "graphic",
+      "top5_share": 0.795,
+      "n_colors": 22,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18120994292278704",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T01:49:46+0000",
+     "permalink": "https://www.instagram.com/p/Df3XRVjCtSm/",
+     "comments_count": 54,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "✏️ 교육부: 찐으로 연필만 허용함",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장>항목>문장×2>항목>문장×2>항목>문장×2>결론>문장×2>이모지소제목×2>문장",
+      "numbers": [
+       "18일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "지우개",
+       "교육부",
+       "수능을",
+       "하루",
+       "흑색",
+       "컴퓨터용",
+       "사인펜",
+       "수정테이프",
+       "샤프심",
+       "찐으로",
+       "연필만",
+       "허용함"
+      ],
+      "series": "",
+      "chars": 444,
+      "lines": 18,
+      "emoji_per_100": 0.68,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "이러고 니다 가시 긴급 긴급 AS SAH",
+      "cover_chars": 16,
+      "visual": "graphic",
+      "top5_share": 0.859,
+      "n_colors": 10,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0D0"
+      ]
+     }
+    },
+    {
+     "id": "18360068146171985",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T01:20:08+0000",
+     "permalink": "https://www.instagram.com/p/Df3T1xMik0T/",
+     "comments_count": 17,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "💰 커닝 잡으면 1억 드림~",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×7>항목>문장×2>항목>문장>이모지소제목>항목>문장>번호>문장×2>번호>문장>결론>번호>문장>번호>문장×2>결론>항목>문장×6>이모지소제목>문장",
+      "numbers": [
+       "1억",
+       "19일",
+       "1억",
+       "1",
+       "1",
+       "8",
+       "25",
+       "30",
+       "2",
+       "3",
+       "4",
+       "1년",
+       "10년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "수능",
+       "AI",
+       "커닝",
+       "신고하면",
+       "가담한",
+       "정부가",
+       "교시",
+       "잡으면",
+       "드림",
+       "이재명",
+       "대통령이",
+       "필리핀"
+      ],
+      "series": "",
+      "chars": 730,
+      "lines": 38,
+      "emoji_per_100": 0.41,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "801 Racers 1 you 잡았다 the 14 신고 추진",
+      "cover_chars": 25,
+      "visual": "graphic",
+      "top5_share": 0.705,
+      "n_colors": 29,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#109090"
+      ]
+     }
+    },
+    {
+     "id": "18025845953715720",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T22:43:18+0000",
+     "permalink": "https://www.instagram.com/p/Df3B9oeEut-/",
+     "comments_count": 1,
+     "slides": 4,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "자는 동안 놓친 뉴스😴",
+      "last_question": "",
+      "structure": "문장>이모지소제목>문장",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "자는",
+       "동안",
+       "놓친",
+       "뉴스",
+       "벌기",
+       "모으기",
+       "쓰기와",
+       "관련된",
+       "가장",
+       "트렌디한",
+       "소식",
+       "받아보기"
+      ],
+      "series": "",
+      "chars": 57,
+      "lines": 3,
+      "emoji_per_100": 3.51,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "자는 동안 놓친 뉴스 2026.11.18. Sst 하락세 계속되는 증시 ",
+      "cover_chars": 49,
+      "visual": "graphic",
+      "top5_share": 0.976,
+      "n_colors": 16,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#70F0D0"
+      ]
+     }
+    },
+    {
+     "id": "18456880906123983",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T09:15:16+0000",
+     "permalink": "https://www.instagram.com/p/Df1ildsiwbQ/",
+     "comments_count": 15,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎮 GTA 6, 드디어 이번 주 출시",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×5>이모지소제목>항목>문장>결론>문장>항목>문장×3>항목×2>문장>항목>문장×4>이모지소제목×2>문장",
+      "numbers": [
+       "6,",
+       "6",
+       "19일",
+       "5",
+       "2013년",
+       "9월",
+       "17일",
+       "5",
+       "13년",
+       "2개",
+       "2025년",
+       "2026년",
+       "5월",
+       "11월",
+       "13년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "GTA",
+       "샀다면",
+       "삼성전자",
+       "오히려",
+       "드디어",
+       "출시",
+       "락스타게임즈의",
+       "오는",
+       "PS",
+       "엑스박스로",
+       "출시될",
+       "예정임"
+      ],
+      "series": "",
+      "chars": 603,
+      "lines": 27,
+      "emoji_per_100": 0.66,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "ind GTA 5 GTA 6 나오는 동안 주식 변화 2013.09.17 ",
+      "cover_chars": 214,
+      "visual": "graphic",
+      "top5_share": 0.932,
+      "n_colors": 23,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18117816545032076",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T08:46:41+0000",
+     "permalink": "https://www.instagram.com/p/Df1iKesiGsb/",
+     "comments_count": 15,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🖤 더블랙레이블은 이렇게 벌고 씁니다",
+      "last_question": "",
+      "structure": "이모지소제목>문장>항목>문장>항목×3>이모지소제목>항목>문장×4>항목>문장×3>결론>이모지소제목×2>문장",
+      "numbers": [
+       "2025년",
+       "2025년",
+       "738억",
+       "74.4%",
+       "215억",
+       "208억",
+       "215억",
+       "1조",
+       "3년",
+       "1,200억",
+       "1조",
+       "13일",
+       "2",
+       "1",
+       "2"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "적자",
+       "더블랙레이블은",
+       "더블랙레이블",
+       "지속",
+       "NE",
+       "씨엘은",
+       "이렇게",
+       "벌고",
+       "씁니다",
+       "기준",
+       "법인명",
+       "미야오"
+      ],
+      "series": "",
+      "chars": 462,
+      "lines": 21,
+      "emoji_per_100": 0.87,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "이렇게 벌고 쓴다 2025 기준) 비용 법인세 손실 손실 이익 1565 ",
+      "cover_chars": 83,
+      "visual": "graphic",
+      "top5_share": 0.811,
+      "n_colors": 43,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18125547221517649",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T08:30:56+0000",
+     "permalink": "https://www.instagram.com/p/Df1gScSiPDj/",
+     "comments_count": 14,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "📉 코스피 5000선 결국 붕괴 ㄷㄷ",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장>번호>문장×2>항목>번호>이모지소제목>항목>문장×3>항목×3>이모지소제목>항목>문장×2>항목×5>이모지소제목×2>문장",
+      "numbers": [
+       "5000",
+       "17일",
+       "4",
+       "2.59%",
+       "-132.02",
+       "4968.48",
+       "2월",
+       "2일",
+       "4949.67",
+       "9개",
+       "5000",
+       "2.34%",
+       "-15.59",
+       "650.06",
+       "1.4조"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "코스피",
+       "거래일",
+       "연속",
+       "전장보다",
+       "마감",
+       "외국인",
+       "순매도",
+       "현황",
+       "순매수",
+       "상위",
+       "결국",
+       "붕괴"
+      ],
+      "series": "",
+      "chars": 628,
+      "lines": 28,
+      "emoji_per_100": 0.8,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "보지 않음 모르는 코스피 4,968.48 9 코스피 5000 붕괴",
+      "cover_chars": 28,
+      "visual": "photo",
+      "top5_share": 0.413,
+      "n_colors": 46,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18083434691746066",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T08:25:53+0000",
+     "permalink": "https://www.instagram.com/p/Df1f1vFoOwy/",
+     "comments_count": 60,
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚨 꼭 살펴보고 시험 보기ㄱㄱ",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×5>결론>문장>이모지소제목>번호>항목>문장>항목>문장>번호>항목×3>번호>항목>문장>항목>번호>항목>문장>항목>문장>항목>문장>이모지소제목×2>문장",
+      "numbers": [
+       "17일",
+       "10년",
+       "5년",
+       "2027",
+       "4",
+       "2027",
+       "1",
+       "2",
+       "1",
+       "3",
+       "8,400명",
+       "4",
+       "10년",
+       "1년",
+       "10년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "부정행위",
+       "시험",
+       "적발",
+       "수능",
+       "대학",
+       "금지",
+       "입학",
+       "AI",
+       "초소형",
+       "카메라",
+       "년간",
+       "응시"
+      ],
+      "series": "",
+      "chars": 761,
+      "lines": 33,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "탐지기 도입 aaa 10 세제 AS 202 행위 규정 정리",
+      "cover_chars": 23,
+      "visual": "graphic",
+      "top5_share": 0.801,
+      "n_colors": 18,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0D0"
+      ]
+     }
+    },
+    {
+     "id": "18195258160402630",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T06:23:46+0000",
+     "permalink": "https://www.instagram.com/p/Df1R3XhIL_r/",
+     "comments_count": 3,
+     "slides": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚩 국장과 함께 하는 커닝 사태",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×2>결론>문장×3>이모지소제목>항목>번호>문장×2>번호>문장>번호>문장>결론>이모지소제목>항목>문장×2>항목>문장>결론>문장>이모지소제목×2>문장",
+      "numbers": [
+       "63",
+       "16일",
+       "17일",
+       "1",
+       "30%",
+       "16일",
+       "2",
+       "15%",
+       "3",
+       "15%",
+       "17,200원",
+       "-8.75%",
+       "10%",
+       "19일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "커닝",
+       "초소형",
+       "AI로",
+       "일엔",
+       "상한가를",
+       "탐지",
+       "같은",
+       "시험장",
+       "하루",
+       "만에",
+       "중임",
+       "국장과"
+      ],
+      "series": "",
+      "chars": 586,
+      "lines": 29,
+      "emoji_per_100": 0.85,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "ily 올려 국장 어제 20008 30%",
+      "cover_chars": 17,
+      "visual": "graphic",
+      "top5_share": 0.672,
+      "n_colors": 35,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "18457238047135731",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T06:15:01+0000",
+     "permalink": "https://www.instagram.com/p/Df1Q3O-n0AW/",
+     "comments_count": 15,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚨 교육부: 2027학년도 수능 연기ㄴㄴ",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×5>항목>문장>항목>문장>이모지소제목>번호>항목×3>번호>항목×3>번호>항목×3>번호>항목×3>번호>항목×3>이모지소제목×2>문장",
+      "numbers": [
+       "2027",
+       "2027",
+       "2천",
+       "5",
+       "1",
+       "1992년",
+       "19일",
+       "1992년",
+       "1월",
+       "22일",
+       "2월",
+       "10일",
+       "2",
+       "2005년",
+       "6일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "연기",
+       "수능",
+       "일정",
+       "변경",
+       "역대",
+       "대학입시",
+       "연기된",
+       "시험",
+       "사례",
+       "사상",
+       "전날",
+       "학년도"
+      ],
+      "series": "",
+      "chars": 972,
+      "lines": 35,
+      "emoji_per_100": 0.41,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "1992 사정 의하여 나도 같이 연기 000 2 시험 연기 사례 모음! ",
+      "cover_chars": 31,
+      "visual": "graphic",
+      "top5_share": 0.713,
+      "n_colors": 30,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18119138897107948",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T06:00:34+0000",
+     "permalink": "https://www.instagram.com/p/Df1Mol9iTYi/",
+     "comments_count": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎬 뽀너스 26억 쿨하게 쏨 ㄷㄷ",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×5>항목>문장×3>이모지소제목>항목×4>문장×2>결론>문장>이모지소제목>문장",
+      "numbers": [
+       "26억",
+       "26억",
+       "1,693만",
+       "2위",
+       "1,633억",
+       "1위",
+       "2024년",
+       "4",
+       "2년",
+       "3월",
+       "31일",
+       "2"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "영화",
+       "흥행",
+       "것으로",
+       "왕사남은",
+       "개봉",
+       "이후",
+       "역대",
+       "한국",
+       "만에",
+       "천만",
+       "올해",
+       "뽀너스"
+      ],
+      "series": "",
+      "chars": 489,
+      "lines": 22,
+      "emoji_per_100": 0.61,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "나야 PN 돼서 없던 26 보너스",
+      "cover_chars": 13,
+      "visual": "photo",
+      "top5_share": 0.554,
+      "n_colors": 54,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "17993286738070806",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T05:45:33+0000",
+     "permalink": "https://www.instagram.com/p/Df1NcZOH38c/",
+     "comments_count": 25,
+     "slides": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚖 로보택시야 이리온",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×3>항목>문장×2>항목>문장>항목×2>문장×3>이모지소제목>항목>문장×3>항목>문장×3>항목>문장×2>이모지소제목×2>문장",
+      "numbers": [
+       "13일",
+       "2",
+       "2만",
+       "9,990달러",
+       "4,000만",
+       "12월",
+       "8개",
+       "299달러",
+       "40만",
+       "299달러",
+       "5년",
+       "4만",
+       "7,600달러",
+       "6,400만",
+       "115달러"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "달러",
+       "로보택시",
+       "테슬라가",
+       "직접",
+       "주문",
+       "사이버캡은",
+       "구독",
+       "차량",
+       "구독료를",
+       "로보택시야",
+       "이리온",
+       "로보택시로"
+      ],
+      "series": "",
+      "chars": 737,
+      "lines": 30,
+      "emoji_per_100": 0.54,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "4 40 40 구독 필수 개인 판매 시작한 테슬라",
+      "cover_chars": 19,
+      "visual": "photo",
+      "top5_share": 0.456,
+      "n_colors": 50,
+      "face": false,
+      "colors": [
+       "#105030",
+       "#307030"
+      ]
+     }
+    },
+    {
+     "id": "18228517093337271",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T05:00:46+0000",
+     "permalink": "https://www.instagram.com/p/Df1IXa3h3XX/",
+     "comments_count": 89,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎥 키보드만 있으면 숏드 한 편이 뚝딱",
+      "last_question": "🎁 숏드라마 써보고 싶다? 댓글 ㄱㄱ",
+      "structure": "해시태그>이모지소제목>항목>문장>항목>번호×2>항목>문장>이모지소제목>항목>문장×2>결론>문장×5>해시태그>이모지소제목×2>문장",
+      "numbers": [
+       "1",
+       "2",
+       "3일",
+       "65%"
+      ],
+      "hashtags": [
+       "#광고",
+       "#HiggsfieldCreator"
+      ],
+      "keywords": [
+       "힉스필드",
+       "Higgsfield",
+       "필요",
+       "제작",
+       "체험",
+       "키보드만",
+       "있으면",
+       "숏드",
+       "편이",
+       "뚝딱",
+       "AI와",
+       "연동해"
+      ],
+      "series": "",
+      "chars": 541,
+      "lines": 23,
+      "emoji_per_100": 0.74,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "YU 시정 이래 편집 능력 0 들기",
+      "cover_chars": 13,
+      "visual": "photo",
+      "top5_share": 0.55,
+      "n_colors": 55,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18422385793155741",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-17T04:16:02+0000",
+     "permalink": "https://www.instagram.com/reel/Df1DI8HC0n3/",
+     "comments_count": 1,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎙️ 올트먼: 젠슨은 my hero..",
+      "last_question": "",
+      "structure": "이모지소제목>항목>문장×3>항목>문장>결론>문장>이모지소제목>항목>문장×4>항목>문장>결론>문장>이모지소제목×3>문장",
+      "numbers": [
+       "16일",
+       "3년",
+       "2016년",
+       "-1",
+       "8월",
+       "1,050억"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "젠슨",
+       "오픈AI",
+       "젠슨은",
+       "황이",
+       "AI",
+       "올트먼",
+       "my",
+       "hero",
+       "현지시간",
+       "샌프란시스코에서",
+       "기자가",
+       "올트먼에게"
+      ],
+      "series": "",
+      "chars": 455,
+      "lines": 23,
+      "emoji_per_100": 1.1,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "MM 2 아아 2 12 nAl",
+      "cover_chars": 11,
+      "visual": "graphic",
+      "top5_share": 0.667,
+      "n_colors": 45,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "17944252329390037",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T02:57:50+0000",
+     "permalink": "https://www.instagram.com/p/Df06TEWn0At/",
+     "comments_count": 28,
+     "slides": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "📝 이제 신춘문예 응모작에도 AI 사용 가능?",
+      "last_question": "📝 이제 신춘문예 응모작에도 AI 사용 가능?",
+      "structure": "질문>항목>문장×4>항목>문장×2>결론>문장>항목>번호>문장>결론>문장>번호>문장>결론>문장×2>번호>문장>결론>문장>항목>문장×2>이모지소제목×2>문장",
+      "numbers": [
+       "2027년",
+       "1",
+       "2",
+       "3",
+       "2027"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "AI",
+       "활용",
+       "신춘문예",
+       "사용을",
+       "사용",
+       "주요",
+       "일간지",
+       "조선일보",
+       "경향신문",
+       "허용한",
+       "당선",
+       "취소"
+      ],
+      "series": "",
+      "chars": 595,
+      "lines": 31,
+      "emoji_per_100": 0.67,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "하는 이젠",
+      "cover_chars": 4,
+      "visual": "photo",
+      "top5_share": 0.42,
+      "n_colors": 73,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    }
+   ]
+  },
+  "newneek.official": {
+   "followers_count": 253711,
+   "media_count": 2267,
+   "posts": [
+    {
+     "id": "17972838807188951",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T07:42:21+0000",
+     "permalink": "https://www.instagram.com/p/Df3_pzgD3VN/",
+     "like_count": 30,
+     "comments_count": 0,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "엔비디아 CEO 젠슨 황이 직원들에게 보낸 이메일에서 아내에게 불충실했다며 불륜 사실을 인정했어요. 중국 정",
+      "last_question": "",
+      "structure": "문장×3",
+      "numbers": [
+       "3"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "젠슨",
+       "엔비디아",
+       "중국",
+       "국가",
+       "이사회는",
+       "황에게",
+       "경영",
+       "CEO",
+       "황이",
+       "직원들에게",
+       "보낸",
+       "이메일에서"
+      ],
+      "series": "",
+      "chars": 420,
+      "lines": 3,
+      "emoji_per_100": 0.24,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "엔비디아 부터 까지 젠슨 없이도 훨훨 14 연속 매출 신기록 4 기도",
+      "cover_chars": 27,
+      "visual": "graphic",
+      "top5_share": 0.713,
+      "n_colors": 42,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0D0"
+      ]
+     }
+    },
+    {
+     "id": "18121690055095632",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T01:12:09+0000",
+     "permalink": "https://www.instagram.com/p/Df3S_56ik-L/",
+     "like_count": 88,
+     "comments_count": 2,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "수능 D-1! 🍀",
+      "last_question": "뉴니커, 2027학년도 대학수학능력시험(수능)이 바로 내일이에요. 오늘은 수능을 앞두고 뉴닉과 퍼블리 팀원들",
+      "structure": "문장×4",
+      "numbers": [
+       "-1",
+       "2027"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "수능",
+       "뉴니커들은",
+       "긴장하지",
+       "말고",
+       "뉴니커",
+       "학년도",
+       "대학수학능력시험",
+       "내일이에요",
+       "오늘은",
+       "수능을",
+       "앞두고",
+       "뉴닉과"
+      ],
+      "series": "",
+      "chars": 291,
+      "lines": 4,
+      "emoji_per_100": 1.03,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "어요! 에게 묻다",
+      "cover_chars": 7,
+      "visual": "graphic",
+      "top5_share": 0.61,
+      "n_colors": 38,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0B0"
+      ]
+     }
+    },
+    {
+     "id": "18121522408979670",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T00:20:06+0000",
+     "permalink": "https://www.instagram.com/reel/Df3MS4dqaGQ/",
+     "like_count": 78,
+     "comments_count": 53,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 적립식 투자, 아직도 S&P500만 사고 계신가요? 👀",
+      "last_question": "💡 나도 비트코인을 조금씩 모아보고 싶다면?",
+      "structure": "해시태그>문장>질문>결론>질문>결론>질문>결론>문장×6",
+      "numbers": [
+       "500만",
+       "3년",
+       "500",
+       "1년",
+       "500",
+       "2023",
+       "11",
+       "01",
+       "2026",
+       "10",
+       "30",
+       "122%",
+       "500",
+       "78.87%",
+       "2025"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "코인원",
+       "상승률",
+       "투자",
+       "위험자산",
+       "자동으로",
+       "반드시",
+       "확인하시기",
+       "적립식",
+       "비트코인을",
+       "최근",
+       "물론",
+       "종가"
+      ],
+      "series": "",
+      "chars": 1091,
+      "lines": 14,
+      "emoji_per_100": 0.92,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "월급 받으면 살까, 코인 살까?",
+      "cover_chars": 13,
+      "visual": "graphic",
+      "top5_share": 0.871,
+      "n_colors": 16,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18108240248200745",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-17T12:18:21+0000",
+     "permalink": "https://www.instagram.com/reel/Df16AScvqCZ/",
+     "like_count": 252,
+     "comments_count": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "수능 D-2, ‘AI 커닝’으로 비상",
+      "last_question": "💬 여러분은 이번 사태를 보며 어떤 생각이 들었나요? 댓글로 의견을 남겨주세요.",
+      "structure": "문장×2>질문>번호×3>질문>문장>질문>문장>이모지소제목>문장×2",
+      "numbers": [
+       "-2,",
+       "1,312개",
+       "8,400",
+       "3",
+       "1년",
+       "10년",
+       "10년",
+       "5"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "시험",
+       "AI",
+       "비상",
+       "올해",
+       "AI로",
+       "있다는",
+       "감독",
+       "강화",
+       "시험장에",
+       "공공",
+       "접속",
+       "않은"
+      ],
+      "series": "",
+      "chars": 1166,
+      "lines": 13,
+      "emoji_per_100": 0.43,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "에서 행위 마을",
+      "cover_chars": 6,
+      "visual": "graphic",
+      "top5_share": 0.842,
+      "n_colors": 18,
+      "face": false,
+      "colors": [
+       "#505050",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18144356617621174",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T05:00:01+0000",
+     "permalink": "https://www.instagram.com/p/Df1IWejj7ON/",
+     "like_count": 379,
+     "comments_count": 622,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 “최고의 시절이자, 최악의 시절” 📖",
+      "last_question": "",
+      "structure": "해시태그>문장>이모지소제목>번호×3>문장×3",
+      "numbers": [
+       "12년",
+       "2",
+       "2026년",
+       "11월",
+       "11일",
+       "2027년",
+       "2월",
+       "8일",
+       "8",
+       "10",
+       "5명",
+       "1",
+       "2",
+       "11월",
+       "23일"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "공연",
+       "뮤지컬",
+       "이벤트",
+       "도시",
+       "이야기",
+       "VIP석",
+       "초대권",
+       "응모",
+       "최고의",
+       "시절이자",
+       "최악의",
+       "시절"
+      ],
+      "series": "",
+      "chars": 545,
+      "lines": 9,
+      "emoji_per_100": 1.28,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "뮤지컬 완전히 도시 벤트 12 기다린 뮤지컬 11 11 부터",
+      "cover_chars": 24,
+      "visual": "photo",
+      "top5_share": 0.555,
+      "n_colors": 44,
+      "face": false,
+      "colors": [
+       "#50D0D0",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "18025498391946895",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T01:53:40+0000",
+     "permalink": "https://www.instagram.com/p/Df0y9FODwP7/",
+     "like_count": 119,
+     "comments_count": 1,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "지난 13일(현지시간), 미국 전역에서 비행기 이륙이 4시간 넘게 중단됐어요. 항공교통 관제망에 통신 오류가",
+      "last_question": "",
+      "structure": "문장×4",
+      "numbers": [
+       "13일",
+       "4",
+       "1만",
+       "8000"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "미국",
+       "비행기",
+       "이륙이",
+       "항공교통",
+       "사흘",
+       "동안",
+       "사고",
+       "지난",
+       "현지시간",
+       "전역에서",
+       "시간",
+       "넘게"
+      ],
+      "series": "",
+      "chars": 543,
+      "lines": 4,
+      "emoji_per_100": 0.18,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "공항 마비 1 8000 결항 정치권 책임 공방 아니었다 공항 마비 이유 ",
+      "cover_chars": 29,
+      "visual": "photo",
+      "top5_share": 0.479,
+      "n_colors": 51,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#707010"
+      ]
+     }
+    },
+    {
+     "id": "17964540339256205",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-16T23:00:02+0000",
+     "permalink": "https://www.instagram.com/p/Df0fFi8j6IL/",
+     "like_count": 57,
+     "comments_count": 2,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 “그 많은 재난 현장, 누가 다 감당하고 있을까?” 🚒",
+      "last_question": "‘국민 히어로즈 캠페인’이 뭐야?",
+      "structure": "해시태그>문장>질문>문장×3>결론",
+      "numbers": [],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "재난",
+       "현장으로",
+       "캠페인",
+       "이들에게",
+       "필요한",
+       "번호가",
+       "현장에",
+       "많은",
+       "현장",
+       "누가",
+       "감당하고",
+       "있을까"
+      ],
+      "series": "",
+      "chars": 571,
+      "lines": 7,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "브리지 지키는 되는 주는 히어로, 지키는 에게는 에게 긴급: 긴급 키트",
+      "cover_chars": 29,
+      "visual": "photo",
+      "top5_share": 0.363,
+      "n_colors": 68,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#707010"
+      ]
+     }
+    },
+    {
+     "id": "18220022068361382",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-16T22:00:01+0000",
+     "permalink": "https://www.instagram.com/p/Df0YURxD1oE/",
+     "like_count": 116,
+     "comments_count": 2,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "올해 세무사 시험 수석 합격자가 초소형 카메라와 생성형 AI를 이용한 부정행위를 자백했어요. 감독관 바로 앞",
+      "last_question": "",
+      "structure": "문장×4",
+      "numbers": [
+       "19일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "올해",
+       "세무사",
+       "시험",
+       "이용한",
+       "시험에서도",
+       "같은",
+       "AI",
+       "수석",
+       "합격자가",
+       "초소형",
+       "카메라와",
+       "생성형"
+      ],
+      "series": "",
+      "chars": 448,
+      "lines": 4,
+      "emoji_per_100": 0.22,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "안경 부터 수능 시험장 \"이제 모든 스러워\"",
+      "cover_chars": 18,
+      "visual": "graphic",
+      "top5_share": 0.669,
+      "n_colors": 38,
+      "face": false,
+      "colors": [
+       "#50D0D0",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17875522515649352",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-16T00:00:04+0000",
+     "permalink": "https://www.instagram.com/reel/DfyBQsWhqln/",
+     "like_count": 123,
+     "comments_count": 20,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#제작지원 지구 반대편 페루 농업인이 한국까지 온 이유는? 🌏",
+      "last_question": "💡 몇 년 전 ‘금사과’도 기후변화 때문이었다고?",
+      "structure": "해시태그>질문>문장>질문>문장>질문>문장×3>결론",
+      "numbers": [
+       "10년",
+       "10년",
+       "5명",
+       "1위",
+       "5",
+       "1",
+       "500만",
+       "2,035원",
+       "2035년",
+       "15년",
+       "2023년",
+       "5월",
+       "4월",
+       "8일",
+       "30%"
+      ],
+      "hashtags": [
+       "#제작지원"
+      ],
+      "keywords": [
+       "페루",
+       "농업인",
+       "사과",
+       "지구",
+       "반대편",
+       "동안",
+       "리우야",
+       "상대로",
+       "소송을",
+       "대규모",
+       "배출",
+       "기후피해에"
+      ],
+      "series": "",
+      "chars": 929,
+      "lines": 10,
+      "emoji_per_100": 0.86,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "상대로 싸움 중인 농업인)",
+      "cover_chars": 11,
+      "visual": "graphic",
+      "top5_share": 0.871,
+      "n_colors": 13,
+      "face": false,
+      "colors": [
+       "#503030",
+       "#301010"
+      ]
+     }
+    },
+    {
+     "id": "18099167321424062",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-15T22:00:02+0000",
+     "permalink": "https://www.instagram.com/p/DfxzgWJD2ZL/",
+     "like_count": 121,
+     "comments_count": 3,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "➊ 이재명 대통령이 지난 13일 자본시장 정책 간담회를 열었어요 💬",
+      "last_question": "",
+      "structure": "이모지소제목>문장×10>항목>문장×2",
+      "numbers": [
+       "13일",
+       "12일",
+       "1993년",
+       "12일",
+       "1",
+       "1개",
+       "12개",
+       "12",
+       "3",
+       "20일",
+       "19일",
+       "12년",
+       "11월",
+       "8일",
+       "5"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "자본시장",
+       "정식",
+       "구속",
+       "대통령이",
+       "정책",
+       "젠슨",
+       "엔비디아",
+       "결국",
+       "해외에서",
+       "국내로",
+       "들여올",
+       "있게"
+      ],
+      "series": "",
+      "chars": 1061,
+      "lines": 14,
+      "emoji_per_100": 1.13,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "11 2 이슈 모음 현생 사느라 놓친 지난주 이슈 TOPS 디아",
+      "cover_chars": 25,
+      "visual": "photo",
+      "top5_share": 0.588,
+      "n_colors": 44,
+      "face": false,
+      "colors": [
+       "#50D0D0",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18110935223610243",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-14T02:00:02+0000",
+     "permalink": "https://www.instagram.com/p/DftFaEKD7H4/",
+     "like_count": 265,
+     "comments_count": 2,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "요즘 유행, 궁금하긴 한데 𓏧",
+      "last_question": "요즘 사람들의 알고리즘이 궁금하다면? 👀",
+      "structure": "이모지소제목>문장×4>이모지소제목×6>문장×3",
+      "numbers": [
+       "11월",
+       "2",
+       "100일",
+       "2026"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "트렌드",
+       "요즘",
+       "뉴닉",
+       "신상",
+       "크리스마스",
+       "유행",
+       "궁금하긴",
+       "한데",
+       "바빠서",
+       "챙겨볼",
+       "여유도",
+       "없었나요"
+      ],
+      "series": "",
+      "chars": 309,
+      "lines": 14,
+      "emoji_per_100": 3.24,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "2 신상 나만 4 1",
+      "cover_chars": 7,
+      "visual": "photo",
+      "top5_share": 0.455,
+      "n_colors": 63,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0D0"
+      ]
+     }
+    },
+    {
+     "id": "18172751815469209",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-13T05:03:29+0000",
+     "permalink": "https://www.instagram.com/p/Dfq1f31j6DH/",
+     "like_count": 353,
+     "comments_count": 49,
+     "slides": 12,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "누구도 성별·장애·나이 등을 이유로 부당하게 차별받지 않도록 하자는 법안이 다시 국회에 제출됐어요. 박주민 ",
+      "last_question": "",
+      "structure": "문장×4",
+      "numbers": [
+       "2007년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "여러",
+       "국회",
+       "차별을",
+       "기존",
+       "법안과",
+       "누구도",
+       "성별",
+       "장애",
+       "나이",
+       "등을",
+       "이유로",
+       "부당하게"
+      ],
+      "series": "",
+      "chars": 417,
+      "lines": 4,
+      "emoji_per_100": 0.24,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "달라진 부터 남은 쟁점 총정리 7 아직도 금지법 없어?",
+      "cover_chars": 22,
+      "visual": "photo",
+      "top5_share": 0.51,
+      "n_colors": 62,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18236291536322544",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-13T02:50:28+0000",
+     "permalink": "https://www.instagram.com/reel/Dfql6n_v8IY/",
+     "like_count": 25,
+     "comments_count": 31,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 요즘 코인하는 사람이 이렇게나 많았다고? 👀",
+      "last_question": "💡 코인에 관심은 있지만 아직 시작하지 못했다면?",
+      "structure": "해시태그>문장>질문>번호×3>질문>결론>질문>결론>문장×2",
+      "numbers": [
+       "2030",
+       "5",
+       "1,115만",
+       "30",
+       "40",
+       "2026.08",
+       "02",
+       "3만",
+       "1만"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "의원실",
+       "코인에",
+       "투자",
+       "코인",
+       "시작해볼",
+       "카카오뱅크",
+       "코인원",
+       "상당",
+       "이벤트",
+       "반드시",
+       "관련",
+       "요즘"
+      ],
+      "series": "",
+      "chars": 739,
+      "lines": 12,
+      "emoji_per_100": 1.08,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "하는 이렇게나 4 상당 혜택)",
+      "cover_chars": 12,
+      "visual": "graphic",
+      "top5_share": 0.776,
+      "n_colors": 16,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "17956162749313650",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-12T22:23:28+0000",
+     "permalink": "https://www.instagram.com/p/DfqHuEej_f7/",
+     "like_count": 110,
+     "comments_count": 17,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "쓰레기봉투에 이름 붙이는 ‘쓰레기 종량제 실명제’, 어떻게 생각해? 🗑️",
+      "last_question": "다음 주에는 또 어떤 이슈와 의견을 만나게 될까요?",
+      "structure": "이모지소제목>문장×6>이모지소제목>문장>질문>문장",
+      "numbers": [
+       "2,173명",
+       "49.1%",
+       "31.8%",
+       "10.5%"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "쓰레기",
+       "종량제",
+       "의견이",
+       "실명제",
+       "어떤",
+       "의견을",
+       "어떻게",
+       "있어요",
+       "봉투에",
+       "뉴니커가",
+       "에서는",
+       "직접"
+      ],
+      "series": "",
+      "chars": 744,
+      "lines": 11,
+      "emoji_per_100": 1.21,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "쓰레기 종량제 도입 논란 쓰레기 이름 붙여서 버려야 한다고? 투표 결과",
+      "cover_chars": 29,
+      "visual": "graphic",
+      "top5_share": 0.958,
+      "n_colors": 20,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18439353490182565",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-11T23:00:03+0000",
+     "permalink": "https://www.instagram.com/p/DfnnHg9jxK0/",
+     "like_count": 376,
+     "comments_count": 8,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 ”광양 제2고로 개수 공사를 멈춰라!“",
+      "last_question": "",
+      "structure": "해시태그>문장×4>해시태그",
+      "numbers": [
+       "2",
+       "2월",
+       "10명",
+       "15년",
+       "15년",
+       "1억",
+       "3702만",
+       "15년"
+      ],
+      "hashtags": [
+       "#광고",
+       "#기후소송",
+       "#고로",
+       "#포스코",
+       "#기후솔루션"
+      ],
+      "keywords": [
+       "철을",
+       "만드는",
+       "고로",
+       "있어요",
+       "지키는",
+       "광양",
+       "개수",
+       "공사를",
+       "멈춰라",
+       "지난해",
+       "청소년",
+       "명이"
+      ],
+      "series": "",
+      "chars": 546,
+      "lines": 6,
+      "emoji_per_100": 0.18,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "소송 고로 리가 거든요 10 들이 법정 싸움 중인 이유 들이 진짜 원하는",
+      "cover_chars": 31,
+      "visual": "photo",
+      "top5_share": 0.447,
+      "n_colors": 74,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#707010"
+      ]
+     }
+    }
+   ]
+  },
+  "byte._.bites": {
+   "followers_count": 26101,
+   "media_count": 1248,
+   "posts": [
+    {
+     "id": "18210209194322775",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T10:00:04+0000",
+     "permalink": "https://www.instagram.com/p/Df4PcIVH3X-/",
+     "like_count": 15,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "삼성전자 7번째 노조 출범…이번엔 '광주노조'",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>이모지소제목>결론>문장>해시태그",
+      "numbers": [
+       "7",
+       "7",
+       "18일",
+       "6"
+      ],
+      "hashtags": [
+       "#삼성전자",
+       "#노조",
+       "#광주",
+       "#임단협"
+      ],
+      "keywords": [
+       "노조",
+       "삼성전자",
+       "출범",
+       "광주사업장",
+       "반도체",
+       "조합원",
+       "확대",
+       "번째",
+       "이번엔",
+       "광주노조",
+       "중심",
+       "공식"
+      ],
+      "series": "",
+      "chars": 363,
+      "lines": 12,
+      "emoji_per_100": 0.83,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "노조 늘었다 7 출범",
+      "cover_chars": 8,
+      "visual": "photo",
+      "top5_share": 0.44,
+      "n_colors": 42,
+      "face": false,
+      "colors": [
+       "#101050",
+       "#30B0D0"
+      ]
+     }
+    },
+    {
+     "id": "17920255842532499",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T09:20:29+0000",
+     "permalink": "https://www.instagram.com/p/Df4K4f8H_lA/",
+     "like_count": 48,
+     "comments_count": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🚢 지방세 체납 1위 '선박왕' 권혁… 433억 안 냈다",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>해시태그",
+      "numbers": [
+       "1위",
+       "433억",
+       "1만",
+       "3697명",
+       "1만",
+       "3697명",
+       "9410억",
+       "1만",
+       "621명",
+       "29%",
+       "1위",
+       "76",
+       "433억",
+       "2000만",
+       "1위"
+      ],
+      "hashtags": [
+       "#지방세",
+       "#체납",
+       "#선박왕",
+       "#권혁",
+       "#세금"
+      ],
+      "keywords": [
+       "체납",
+       "미납",
+       "지방세",
+       "권혁",
+       "위는",
+       "회장",
+       "선박왕",
+       "체납자",
+       "명단",
+       "공개",
+       "행안부",
+       "개인"
+      ],
+      "series": "",
+      "chars": 604,
+      "lines": 20,
+      "emoji_per_100": 0.83,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "Byte 국세 1 권혁, 지방세 433 체납",
+      "cover_chars": 18,
+      "visual": "photo",
+      "top5_share": 0.428,
+      "n_colors": 45,
+      "face": false,
+      "colors": [
+       "#707050",
+       "#101050"
+      ]
+     }
+    },
+    {
+     "id": "18102882053385255",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T07:25:15+0000",
+     "permalink": "https://www.instagram.com/reel/Df39i01tOqS/",
+     "like_count": 18,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "👀 ‘300만닉스’ 경우의 수 총정리",
+      "last_question": "",
+      "structure": "이모지소제목×2>결론×2>문장×2>이모지소제목>결론×2>문장>해시태그",
+      "numbers": [
+       "300만",
+       "300만",
+       "300만",
+       "300만"
+      ],
+      "hashtags": [
+       "#SK하이닉스",
+       "#빙고",
+       "#월드컵",
+       "#삼전닉스",
+       "#주식"
+      ],
+      "keywords": [
+       "아홉",
+       "만닉스",
+       "빙고판",
+       "월드컵",
+       "올빙고",
+       "전부",
+       "경우의",
+       "총정리",
+       "SNS",
+       "달군",
+       "SNS에서",
+       "경기"
+      ],
+      "series": "",
+      "chars": 302,
+      "lines": 11,
+      "emoji_per_100": 0.99,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "300 닉스 등장 그래서 맞아야",
+      "cover_chars": 13,
+      "visual": "photo",
+      "top5_share": 0.447,
+      "n_colors": 42,
+      "face": false,
+      "colors": [
+       "#50D0F0",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18194427877404735",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T07:04:52+0000",
+     "permalink": "https://www.instagram.com/p/Df37XQRHwBL/",
+     "like_count": 51,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "✏️ 수능 필기구 반입 기준 바뀌자… 모나미 주가 급등",
+      "last_question": "",
+      "structure": "이모지소제목×2>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>해시태그",
+      "numbers": [
+       "18일",
+       "25%",
+       "1,175원",
+       "3.62%",
+       "2027",
+       "13",
+       "17일",
+       "5만",
+       "4,000",
+       "4.83%",
+       "12",
+       "17일",
+       "5만",
+       "2,883",
+       "5.41%"
+      ],
+      "hashtags": [
+       "#모나미",
+       "#수능",
+       "#필기구",
+       "#주식",
+       "#입시"
+      ],
+      "keywords": [
+       "모나미",
+       "지분",
+       "수능",
+       "필기구",
+       "반입",
+       "장중",
+       "회사",
+       "흑색",
+       "연필",
+       "사인펜",
+       "지우개",
+       "샤프심"
+      ],
+      "series": "",
+      "chars": 507,
+      "lines": 16,
+      "emoji_per_100": 0.99,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "흑색 모나미 주가 3.62% 급등",
+      "cover_chars": 14,
+      "visual": "photo",
+      "top5_share": 0.576,
+      "n_colors": 42,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "17913076635580871",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T03:20:33+0000",
+     "permalink": "https://www.instagram.com/p/Df3hsRcAUUE/",
+     "like_count": 91,
+     "comments_count": 1,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "고점 대비 금 -30%, 은 -60%…1년여 만에 최저",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론>문장>결론>문장>이모지소제목>결론×3>문장>이모지소제목>결론>문장>이모지소제목>결론>문장>결론>해시태그",
+      "numbers": [
+       "-30%",
+       "-60%",
+       "1년",
+       "16일",
+       "3,832달러",
+       "2025년",
+       "10월",
+       "46.50달러",
+       "17일",
+       "9월",
+       "12월",
+       "10년",
+       "5%",
+       "4월",
+       "2015년"
+      ],
+      "hashtags": [
+       "#금값",
+       "#은값",
+       "#연준",
+       "#금리"
+      ],
+      "keywords": [
+       "온스당",
+       "이후",
+       "금값",
+       "달러까지",
+       "하락",
+       "고금리에",
+       "연준의",
+       "금리",
+       "추가",
+       "가능성",
+       "수준",
+       "고점"
+      ],
+      "series": "",
+      "chars": 472,
+      "lines": 19,
+      "emoji_per_100": 0.85,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "금리 직격탄 최저",
+      "cover_chars": 7,
+      "visual": "photo",
+      "top5_share": 0.451,
+      "n_colors": 59,
+      "face": false,
+      "colors": [
+       "#503010",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18289753234288016",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T01:03:48+0000",
+     "permalink": "https://www.instagram.com/p/Df3SCs9gVTN/",
+     "like_count": 38,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎁 1억원 경품 내건 삼성전자 노조… 노트북에 Z폴드까지",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>해시태그",
+      "numbers": [
+       "1억",
+       "1억",
+       "1",
+       "6,699만",
+       "2",
+       "4",
+       "1",
+       "6",
+       "300만",
+       "20",
+       "2",
+       "3",
+       "8",
+       "20",
+       "4"
+      ],
+      "hashtags": [
+       "#삼성전자",
+       "#노조",
+       "#삼성",
+       "#노동조합",
+       "#테슬라"
+      ],
+      "keywords": [
+       "교섭",
+       "노조",
+       "억원",
+       "경품",
+       "삼성전자",
+       "테슬라",
+       "최대",
+       "초기업노조",
+       "추첨",
+       "경품은",
+       "단일화",
+       "전삼노"
+      ],
+      "series": "",
+      "chars": 615,
+      "lines": 22,
+      "emoji_per_100": 0.81,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "1 삼성 노조 2 까지",
+      "cover_chars": 8,
+      "visual": "graphic",
+      "top5_share": 0.686,
+      "n_colors": 42,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#109090"
+      ]
+     }
+    },
+    {
+     "id": "17967661563250292",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T10:00:01+0000",
+     "permalink": "https://www.instagram.com/p/Df1qp1Nn6xR/",
+     "like_count": 37,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "워렌 버핏, 또 7조 원 기부…\"친절은 복리처럼 불어난다\"",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>해시태그",
+      "numbers": [
+       "7조",
+       "55억",
+       "6,150",
+       "4",
+       "7조",
+       "4,000억",
+       "2006년",
+       "5위",
+       "2034년",
+       "4",
+       "19%"
+      ],
+      "hashtags": [
+       "#워런버핏",
+       "#기부",
+       "#버크셔해서웨이",
+       "#투자"
+      ],
+      "keywords": [
+       "기부",
+       "버핏",
+       "불어난다",
+       "재단",
+       "워렌",
+       "친절은",
+       "복리처럼",
+       "추수감사절",
+       "맞아",
+       "달러",
+       "쾌척",
+       "버크셔"
+      ],
+      "series": "",
+      "chars": 473,
+      "lines": 17,
+      "emoji_per_100": 0.85,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "Byte 7 기부",
+      "cover_chars": 7,
+      "visual": "graphic",
+      "top5_share": 0.678,
+      "n_colors": 56,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18147310405600084",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-17T09:41:58+0000",
+     "permalink": "https://www.instagram.com/reel/Df1oZYMhhkH/",
+     "like_count": 33,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🇺🇸 트럼프, 앨리스 황 중국 스파이 의혹에 선 긋기",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론×3>이모지소제목>결론×2>문장>이모지소제목>결론×2>이모지소제목>결론×2>해시태그",
+      "numbers": [
+       "2년"
+      ],
+      "hashtags": [
+       "#트럼프",
+       "#앨리스황",
+       "#젠슨황",
+       "#엔비디아"
+      ],
+      "keywords": [
+       "복귀",
+       "트럼프",
+       "앨리스",
+       "중국",
+       "젠슨",
+       "첨단",
+       "파는",
+       "좋은",
+       "반도체",
+       "다른",
+       "생각한다",
+       "스파이"
+      ],
+      "series": "",
+      "chars": 460,
+      "lines": 16,
+      "emoji_per_100": 0.87,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "트럼프, 젠슨 불륜 상대 \"중국 스파이",
+      "cover_chars": 16,
+      "visual": "graphic",
+      "top5_share": 0.702,
+      "n_colors": 46,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18137214349742171",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T07:58:24+0000",
+     "permalink": "https://www.instagram.com/p/Df1csg2H5KK/",
+     "like_count": 11,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "케이크 하나에 55만 원…호텔 크리스마스 케이크 '역대 최고가' 등장",
+      "last_question": "",
+      "structure": "문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>이모지소제목>결론×2>해시태그",
+      "numbers": [
+       "55만",
+       "55만",
+       "0.5",
+       "50만",
+       "40만",
+       "45만",
+       "40만",
+       "35만",
+       "55만",
+       "10만"
+      ],
+      "hashtags": [
+       "#크리스마스케이크",
+       "#호텔",
+       "#케이크플레이션",
+       "#연말"
+      ],
+      "keywords": [
+       "케이크",
+       "최고가",
+       "호텔",
+       "크리스마스",
+       "역대",
+       "순금",
+       "명함",
+       "시즌",
+       "지난해",
+       "케이크도",
+       "아직",
+       "박탈감"
+      ],
+      "series": "",
+      "chars": 485,
+      "lines": 16,
+      "emoji_per_100": 0.82,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "Byte 케이크 55 아드 최고가 경신",
+      "cover_chars": 16,
+      "visual": "photo",
+      "top5_share": 0.436,
+      "n_colors": 53,
+      "face": false,
+      "colors": [
+       "#503010",
+       "#703010"
+      ]
+     }
+    },
+    {
+     "id": "18361274827169267",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T06:49:01+0000",
+     "permalink": "https://www.instagram.com/p/Df1UwQJnzBO/",
+     "like_count": 31,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🕵️ AI 부정행위 논란에 ‘탐지주’ 지슨 급등… 카메라주는 급락",
+      "last_question": "🛡️ 지슨은 어떤 회사?",
+      "structure": "문장>이모지소제목>결론>문장>결론>이모지소제목>결론×2>문장>결론>질문>결론×2>문장>이모지소제목>결론×2>문장>결론>해시태그",
+      "numbers": [
+       "17일",
+       "6,030원",
+       "29.97%",
+       "4640원",
+       "63",
+       "15일",
+       "17일",
+       "130",
+       "9.34%",
+       "10.55%"
+      ],
+      "hashtags": [
+       "#지슨",
+       "#세무사시험",
+       "#AI",
+       "#세무사",
+       "#카메라"
+      ],
+      "keywords": [
+       "AI",
+       "부정행위",
+       "지슨",
+       "세무사",
+       "논란에",
+       "급등",
+       "보안",
+       "시험",
+       "탐지",
+       "장비",
+       "초소형",
+       "탐지주"
+      ],
+      "series": "",
+      "chars": 538,
+      "lines": 20,
+      "emoji_per_100": 0.93,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "390 위에 카메라. 1 그라 30% 급등",
+      "cover_chars": 17,
+      "visual": "photo",
+      "top5_share": 0.511,
+      "n_colors": 33,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "17979446552935801",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-17T04:47:16+0000",
+     "permalink": "https://www.instagram.com/reel/Df1GrZkBj3q/",
+     "like_count": 11,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🎢 하루 10%씩 롤러코스터… SK하이닉스 7월의 악몽",
+      "last_question": "",
+      "structure": "이모지소제목×2>결론×2>문장>결론>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>해시태그",
+      "numbers": [
+       "10%",
+       "7월",
+       "7월",
+       "2일",
+       "11.81%",
+       "213만",
+       "2,000원",
+       "17년",
+       "10%",
+       "10%",
+       "10%",
+       "2배",
+       "2배",
+       "2배"
+      ],
+      "hashtags": [
+       "#SK하이닉스",
+       "#레버리지ETF",
+       "#반도체",
+       "#ETF",
+       "#빅테크"
+      ],
+      "keywords": [
+       "하루",
+       "SK하이닉스",
+       "최대",
+       "낙폭",
+       "스스로",
+       "다음",
+       "반등",
+       "유행",
+       "레버리지",
+       "롤러코스터",
+       "월의",
+       "악몽"
+      ],
+      "series": "",
+      "chars": 391,
+      "lines": 15,
+      "emoji_per_100": 1.02,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "매일 널뛰기 닉스 7",
+      "cover_chars": 8,
+      "visual": "graphic",
+      "top5_share": 0.803,
+      "n_colors": 38,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "17927736996433483",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T03:25:26+0000",
+     "permalink": "https://www.instagram.com/p/Df09dMsn1xb/",
+     "like_count": 115,
+     "comments_count": 1,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "\"구찌 가방 95만 원 내렸다\"…콧대 높던 명품업계에 무슨 일?",
+      "last_question": "\"구찌 가방 95만 원 내렸다\"…콧대 높던 명품업계에 무슨 일?",
+      "structure": "질문>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>이모지소제목>결론×2>해시태그",
+      "numbers": [
+       "95만",
+       "30%",
+       "445만",
+       "350만",
+       "-21.3%",
+       "30%",
+       "10.8%",
+       "4억",
+       "3.2%",
+       "3",
+       "12억",
+       "9,100만",
+       "-6%",
+       "13"
+      ],
+      "hashtags": [
+       "#명품",
+       "#구찌",
+       "#부쉐론",
+       "#가격인하"
+      ],
+      "keywords": [
+       "가격",
+       "인하",
+       "구찌",
+       "최대",
+       "스몰",
+       "분기",
+       "가방",
+       "내렸다",
+       "콧대",
+       "높던",
+       "명품업계에",
+       "무슨"
+      ],
+      "series": "",
+      "chars": 500,
+      "lines": 17,
+      "emoji_per_100": 0.8,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "까지 줄줄이 가격 인하",
+      "cover_chars": 9,
+      "visual": "photo",
+      "top5_share": 0.345,
+      "n_colors": 58,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18444135268194194",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-17T01:05:40+0000",
+     "permalink": "https://www.instagram.com/p/Df0tdgqH2Rz/",
+     "like_count": 50,
+     "comments_count": 0,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "👑 ‘롯데 3세’ 신유열 사장 승진, 3세 경영 본격화",
+      "last_question": "",
+      "structure": "이모지소제목×2>결론×2>문장>결론>이모지소제목>결론×2>문장>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>해시태그",
+      "numbers": [
+       "3",
+       "3",
+       "40",
+       "40",
+       "2023년",
+       "2024년",
+       "40",
+       "153명",
+       "86명",
+       "40",
+       "44%",
+       "19명",
+       "2배",
+       "1년",
+       "2년"
+      ],
+      "hashtags": [
+       "#롯데",
+       "#신유열",
+       "#신동빈",
+       "#승진",
+       "#CEO"
+      ],
+      "keywords": [
+       "사장",
+       "승진",
+       "임원",
+       "신유열",
+       "신동빈",
+       "장남",
+       "부사장",
+       "사업",
+       "신임",
+       "발탁",
+       "대표",
+       "체제로"
+      ],
+      "series": "",
+      "chars": 561,
+      "lines": 21,
+      "emoji_per_100": 1.07,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "스즈 롯데 3 3 경영 본격화",
+      "cover_chars": 11,
+      "visual": "photo",
+      "top5_share": 0.51,
+      "n_colors": 43,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18254005129310572",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-16T10:39:24+0000",
+     "permalink": "https://www.instagram.com/reel/DfzJBlqt2MX/",
+     "like_count": 40,
+     "comments_count": 1,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🇺🇸 트럼프, 엔비디아 차기 CEO는 애플의 팀 쿡",
+      "last_question": "🤔 대통령이 민간기업 CEO를 콕 집었다?",
+      "structure": "문장>이모지소제목>결론×2>이모지소제목>결론×2>문장>이모지소제목>결론×2>질문>결론×2>해시태그",
+      "numbers": [
+       "12일",
+       "9월",
+       "9월",
+       "33년"
+      ],
+      "hashtags": [
+       "#엔비디아",
+       "#팀쿡",
+       "#트럼프",
+       "#젠슨황"
+      ],
+      "keywords": [
+       "트럼프",
+       "대통령이",
+       "애플의",
+       "후임",
+       "인선",
+       "CEO를",
+       "엔비디아",
+       "차기",
+       "CEO는",
+       "전설이",
+       "다른",
+       "전설을"
+      ],
+      "series": "",
+      "chars": 460,
+      "lines": 15,
+      "emoji_per_100": 0.87,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "트럼프,",
+      "cover_chars": 4,
+      "visual": "photo",
+      "top5_share": 0.524,
+      "n_colors": 57,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#30B0D0"
+      ]
+     }
+    },
+    {
+     "id": "18111972667914043",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-16T05:03:58+0000",
+     "permalink": "https://www.instagram.com/reel/DfyjzFKhafw/",
+     "like_count": 34,
+     "comments_count": 1,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🤯 하이닉스가 300만 원 찍고 급락한 이유",
+      "last_question": "",
+      "structure": "이모지소제목×2>결론×2>문장>결론>이모지소제목>결론×2>문장>결론>이모지소제목>결론×2>문장>해시태그",
+      "numbers": [
+       "300만",
+       "1위",
+       "6월",
+       "22일",
+       "2,000조",
+       "1위",
+       "300만",
+       "12.47%",
+       "255만",
+       "5,000원",
+       "17년",
+       "1위",
+       "300만"
+      ],
+      "hashtags": [
+       "#SK하이닉스",
+       "#삼성전자",
+       "#반도체",
+       "#삼전닉스",
+       "#주식"
+      ],
+      "keywords": [
+       "시총",
+       "SK하이닉스",
+       "만에",
+       "하이닉스가",
+       "찍고",
+       "급락한",
+       "이유",
+       "올라선",
+       "돌파",
+       "삼성전자",
+       "제치고",
+       "위에"
+      ],
+      "series": "",
+      "chars": 397,
+      "lines": 16,
+      "emoji_per_100": 1.01,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "ite 하루 -11% 찍은 이유",
+      "cover_chars": 13,
+      "visual": "graphic",
+      "top5_share": 0.676,
+      "n_colors": 35,
+      "face": false,
+      "colors": [
+       "#101030",
+       "#301030"
+      ]
+     }
+    }
+   ]
+  },
+  "careet.official": {
+   "followers_count": 58006,
+   "media_count": 316,
+   "posts": [
+    {
+     "id": "18111636980191228",
+     "comments_count": 0,
+     "like_count": 225,
+     "media_product_type": "FEED",
+     "media_type": "IMAGE",
+     "permalink": "https://www.instagram.com/p/Df30bJeSsg8/",
+     "timestamp": "2026-11-18T09:00:11+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "올해 가장 일 잘한 브랜드는 어디? 🏆",
+      "last_question": "올해 가장 일 잘한 브랜드는 어디? 🏆",
+      "structure": "문장×3>이모지소제목>문장×5",
+      "numbers": [
+       "200명",
+       "2026",
+       "11",
+       "30",
+       "1",
+       "13개",
+       "5",
+       "10개",
+       "200명",
+       "1개",
+       "3"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "올해",
+       "가장",
+       "Z세대",
+       "마케팅",
+       "분야별",
+       "브랜드를",
+       "잘한",
+       "브랜드는",
+       "어디",
+       "명이",
+       "직접",
+       "뽑은"
+      ],
+      "series": "",
+      "chars": 445,
+      "lines": 9,
+      "emoji_per_100": 1.12,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "2 대가 직접 잘한 브랜드 2026 마케팅 어워즈 tvN 6525 컨디션",
+      "cover_chars": 136,
+      "visual": "graphic",
+      "top5_share": 0.893,
+      "n_colors": 24,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#70D050"
+      ]
+     }
+    },
+    {
+     "id": "17954516115297458",
+     "comments_count": 43,
+     "like_count": 991,
+     "media_product_type": "FEED",
+     "media_type": "IMAGE",
+     "permalink": "https://www.instagram.com/p/DfQ3bakkQw8/",
+     "timestamp": "2026-11-03T03:00:07+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "야르 VS 쌰갈",
+      "last_question": "올해 언급량 1위인 밈은? 🤔",
+      "structure": "문장×8",
+      "numbers": [
+       "1위",
+       "2026년",
+       "26년",
+       "1월",
+       "1일",
+       "10월",
+       "20일",
+       "5개"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "밈은",
+       "야르",
+       "VS",
+       "쌰갈",
+       "올해",
+       "언급량",
+       "위인",
+       "정답은",
+       "땡입니다",
+       "년에",
+       "가장",
+       "쓰인"
+      ],
+      "series": "",
+      "chars": 342,
+      "lines": 8,
+      "emoji_per_100": 0.29,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "2026 가장 많이 쓰인 Bag 순애 건조 ARS 자녀 청년 베스 대다 ",
+      "cover_chars": 41,
+      "visual": "graphic",
+      "top5_share": 0.864,
+      "n_colors": 30,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#7090D0"
+      ]
+     }
+    },
+    {
+     "id": "17991147444120252",
+     "comments_count": 0,
+     "like_count": 98,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfOSsOGkngl/",
+     "timestamp": "2026-11-02T03:00:02+0000",
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🤔 어떻게 소비자에게 캠페인을 신선하게 각인시킬까?",
+      "last_question": "👀 그럼 와멤데는 뭐야?",
+      "structure": "해시태그>질문>문장>질문>항목×4>해시태그",
+      "numbers": [
+       "1년",
+       "90",
+       "70%",
+       "11월",
+       "2일",
+       "11월",
+       "8일",
+       "7일"
+      ],
+      "hashtags": [
+       "#광고",
+       "#쿠팡",
+       "#와멤데",
+       "#류승룡",
+       "#이벤트"
+      ],
+      "keywords": [
+       "할인",
+       "류승룡",
+       "브랜드",
+       "쿠팡",
+       "대규모",
+       "행사",
+       "배우의",
+       "페이크",
+       "wow",
+       "어떻게",
+       "소비자에게",
+       "캠페인을"
+      ],
+      "series": "",
+      "chars": 510,
+      "lines": 9,
+      "emoji_per_100": 0.39,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "08 2 라고 마드 광고 아니야? 요즘 에선 받음",
+      "cover_chars": 19,
+      "visual": "photo",
+      "top5_share": 0.556,
+      "n_colors": 70,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#1090F0"
+      ]
+     }
+    },
+    {
+     "id": "18121521136985545",
+     "comments_count": 3,
+     "like_count": 158,
+     "media_product_type": "FEED",
+     "media_type": "IMAGE",
+     "permalink": "https://www.instagram.com/p/DfGkImfiJ4C/",
+     "timestamp": "2026-10-30T02:59:08+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "@@ 만화의 날에 만화카페 가실? 📚",
+      "last_question": "🫢 월요일을 9번만 더 보내면 2026년이 끝나다는 사실 알고 계셨나요? 올해가 두 달도 채 남지 않았는데 ",
+      "structure": "문장×3",
+      "numbers": [
+       "9",
+       "2026년",
+       "11월",
+       "2026년",
+       "11월"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "만화의",
+       "날에",
+       "만화카페",
+       "가실",
+       "월요일을",
+       "번만",
+       "보내면",
+       "년이",
+       "끝나다는",
+       "사실",
+       "알고",
+       "계셨나요"
+      ],
+      "series": "",
+      "chars": 229,
+      "lines": 3,
+      "emoji_per_100": 1.31,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "달도 에만 11 모음 1 코리아 축제 축제 8 10001 10 1 2 1",
+      "cover_chars": 94,
+      "visual": "graphic",
+      "top5_share": 0.932,
+      "n_colors": 13,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18083096312431551",
+     "comments_count": 15,
+     "like_count": 662,
+     "media_product_type": "FEED",
+     "media_type": "IMAGE",
+     "permalink": "https://www.instagram.com/p/DfBJn20Svwn/",
+     "timestamp": "2026-10-28T07:00:04+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "10월에 유행한 게 이렇게 많다고? 이미지를 보며 과연 나는 갓반인일지, SNS 중독자일지 셀프 점검해 보세",
+      "last_question": "10월에 유행한 게 이렇게 많다고? 이미지를 보며 과연 나는 갓반인일지, SNS 중독자일지 셀프 점검해 보세",
+      "structure": "문장",
+      "numbers": [
+       "10월"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "월에",
+       "유행한",
+       "이렇게",
+       "많다고",
+       "이미지를",
+       "보며",
+       "과연",
+       "나는",
+       "갓반인일지",
+       "SNS",
+       "중독자일지",
+       "셀프"
+      ],
+      "series": "",
+      "chars": 64,
+      "lines": 1,
+      "emoji_per_100": 1.56,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "이번 SNS 얼마나 10 유행 보기 고디바 초코 모찌 드라마 EO 8 쓰",
+      "cover_chars": 47,
+      "visual": "graphic",
+      "top5_share": 0.878,
+      "n_colors": 33,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18502324345102602",
+     "comments_count": 0,
+     "like_count": 31,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfBalZyk3t2/",
+     "timestamp": "2026-10-28T02:59:27+0000",
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 🤔 이런 사진들 어느 사이트에서 만들 수 있는 거야?",
+      "last_question": "🏝️ 포스터 공유하면 제주도 숙박권까지 준다고?",
+      "structure": "해시태그>문장×3>이모지소제목>항목×3>질문>문장>번호×3>문장×3",
+      "numbers": [
+       "11월",
+       "20일"
+      ],
+      "hashtags": [
+       "#광고",
+       "#디올뉴투싼"
+      ],
+      "keywords": [
+       "만들",
+       "포스터를",
+       "투싼",
+       "tucson",
+       "hyundai",
+       "com",
+       "홈페이지를",
+       "활용해",
+       "재미있는",
+       "SF",
+       "게임",
+       "주요"
+      ],
+      "series": "",
+      "chars": 757,
+      "lines": 16,
+      "emoji_per_100": 0.4,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "홈페이지 마케팅 74012 Story inspired Last the T",
+      "cover_chars": 62,
+      "visual": "graphic",
+      "top5_share": 0.822,
+      "n_colors": 44,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#30B0B0"
+      ]
+     }
+    },
+    {
+     "id": "18147456205552688",
+     "comments_count": 0,
+     "like_count": 17,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/De_fEuCkpvq/",
+     "timestamp": "2026-10-27T09:00:04+0000",
+     "slides": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 정답 맞힌 사람 있나요? 👀",
+      "last_question": "아직도 믿기 어렵다면? 유튜브와 인스타그램에서 '에이아이돌'의 영상을 직접 확인해보세요! 🎤",
+      "structure": "해시태그>문장×4",
+      "numbers": [],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "AI",
+       "에이아이돌",
+       "사람",
+       "LG전자가",
+       "기획한",
+       "정답",
+       "맞힌",
+       "있나요",
+       "신인",
+       "걸그룹",
+       "DOL",
+       "정체는"
+      ],
+      "series": "",
+      "chars": 365,
+      "lines": 5,
+      "emoji_per_100": 0.55,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "자가 아이돌 일까?",
+      "cover_chars": 8,
+      "visual": "graphic",
+      "top5_share": 0.756,
+      "n_colors": 35,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18107763395206550",
+     "comments_count": 1,
+     "like_count": 139,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/De8smSVDbPs/",
+     "timestamp": "2026-10-26T07:00:39+0000",
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "※ 다음 중 나에게 해당 사항이 있는 것은?",
+      "last_question": "만약 정말로 혼자 살게 된다면… 외롭진 않을까요? 친구는 어떻게 사귈 수 있을까요?",
+      "structure": "질문>번호×5>이모지소제목>문장×2>질문>문장×2",
+      "numbers": [
+       "1",
+       "1",
+       "1",
+       "1"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "혼자",
+       "있다",
+       "딱히",
+       "없다",
+       "점점",
+       "생활자",
+       "가구",
+       "다음",
+       "나에게",
+       "해당",
+       "사항이",
+       "것은"
+      ],
+      "series": "",
+      "chars": 427,
+      "lines": 12,
+      "emoji_per_100": 0.47,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "건데 사귀고 1 생활자 5 방법 작가 작가 커뮤니티, 모임 “은평 시스터",
+      "cover_chars": 39,
+      "visual": "graphic",
+      "top5_share": 0.825,
+      "n_colors": 41,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0D0"
+      ]
+     }
+    },
+    {
+     "id": "18015155165968140",
+     "comments_count": 0,
+     "like_count": 26,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/De8RIuZEokL/",
+     "timestamp": "2026-10-26T03:00:03+0000",
+     "slides": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 “과자 그거 대체 어떻게 끊는 건데…” 달달한 간식을 포기하기 어려운 유지어터라면 주목해 주세요!",
+      "last_question": "💬 최근 화제가 된 ‘파이버맥싱’을 보고 식이섬유 섭취에도 관심이 생기셨나요?",
+      "structure": "해시태그>질문×2>문장×4",
+      "numbers": [
+       "90%",
+       "5%",
+       "2",
+       "4.5",
+       "4",
+       "3"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "식이섬유",
+       "달달한",
+       "간식을",
+       "저당",
+       "당류",
+       "풍미",
+       "과자",
+       "그거",
+       "대체",
+       "어떻게",
+       "끊는",
+       "건데"
+      ],
+      "series": "",
+      "chars": 434,
+      "lines": 7,
+      "emoji_per_100": 0.92,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "다은 싶어 챙기고 싶고, 포기 모두 과자",
+      "cover_chars": 16,
+      "visual": "graphic",
+      "top5_share": 0.848,
+      "n_colors": 39,
+      "face": false,
+      "colors": [
+       "#70D070",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17894358726436076",
+     "comments_count": 0,
+     "like_count": 44,
+     "media_product_type": "FEED",
+     "media_type": "IMAGE",
+     "permalink": "https://www.instagram.com/p/De0-RNDj5XV/",
+     "timestamp": "2026-10-23T07:01:09+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "🥕 캐릿이랑 트렌드 공부하고 용돈 벌 사람?",
+      "last_question": "🥕 캐릿이랑 트렌드 공부하고 용돈 벌 사람?",
+      "structure": "질문>문장×2>이모지소제목>항목>번호>항목>번호>항목×4>문장×3",
+      "numbers": [
+       "2026.11",
+       "02",
+       "9",
+       "2026.11",
+       "02",
+       "2026.12",
+       "31",
+       "10",
+       "20",
+       "1998년",
+       "2011년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "트렌드",
+       "디깅",
+       "크루",
+       "모집",
+       "기간",
+       "활동",
+       "캐릿이랑",
+       "공부하고",
+       "용돈",
+       "사람",
+       "미디어",
+       "캐릿"
+      ],
+      "series": "",
+      "chars": 335,
+      "lines": 15,
+      "emoji_per_100": 1.49,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "WANTED 할라? 트렌트 하고 구함 EWE 월요일 오전 9 마감",
+      "cover_chars": 27,
+      "visual": "graphic",
+      "top5_share": 0.826,
+      "n_colors": 33,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17966579565078328",
+     "comments_count": 18,
+     "like_count": 349,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/De0it7qjAJs/",
+     "timestamp": "2026-10-23T03:00:24+0000",
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "여러분 벌써 2027년이 70일 앞으로 다가온 거 아세요?",
+      "last_question": "여러분 벌써 2027년이 70일 앞으로 다가온 거 아세요?",
+      "structure": "해시태그>질문>문장×6>항목×4",
+      "numbers": [
+       "2027년",
+       "70일",
+       "10월",
+       "31일",
+       "46%",
+       "8천",
+       "2026년",
+       "12월",
+       "4",
+       "6일",
+       "2",
+       "6",
+       "8천"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "새해",
+       "구입할",
+       "원에",
+       "네이버에서",
+       "예매",
+       "여러분",
+       "벌써",
+       "년이",
+       "앞으로",
+       "다가온",
+       "아세요",
+       "있으면"
+      ],
+      "series": "",
+      "chars": 384,
+      "lines": 12,
+      "emoji_per_100": 1.3,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "위한 준비 있다고?",
+      "cover_chars": 8,
+      "visual": "photo",
+      "top5_share": 0.397,
+      "n_colors": 81,
+      "face": false,
+      "colors": [
+       "#3050F0",
+       "#103050"
+      ]
+     }
+    },
+    {
+     "id": "18104471777242392",
+     "comments_count": 1,
+     "like_count": 209,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DeyUNTREiWw/",
+     "timestamp": "2026-10-22T06:15:07+0000",
+     "slides": 11,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "오늘 '좋아하는 사람에게 인사하는 날'이라는데...",
+      "last_question": "",
+      "structure": "문장×3",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "좋아하는",
+       "사람에게",
+       "인사하는",
+       "이라는데",
+       "기념해서",
+       "전국",
+       "순애썰",
+       "모아봄",
+       "순애친구",
+       "태그"
+      ],
+      "series": "",
+      "chars": 56,
+      "lines": 3,
+      "emoji_per_100": 0.0,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "아니면 싫다 주려고 10 왕복 10 22 에게 하는",
+      "cover_chars": 20,
+      "visual": "graphic",
+      "top5_share": 0.833,
+      "n_colors": 27,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17965572398983699",
+     "comments_count": 0,
+     "like_count": 39,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DevZInBElx4/",
+     "timestamp": "2026-10-21T03:00:01+0000",
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 ‘요즘 소비자 관심 이렇게 끄는 거였어…?’",
+      "last_question": "실제로 AI 워시콤보의 온라인 언급량은 캠페인 기간 이전 비교 기간보다 72% 증가했고, 판매량은 35% 상",
+      "structure": "해시태그>질문>문장>질문>이모지소제목>항목>문장>항목>문장×4",
+      "numbers": [
+       "9월",
+       "1위",
+       "72%",
+       "35%",
+       "1",
+       "2"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "AI",
+       "관심",
+       "WASH",
+       "에이아이돌",
+       "TROMM",
+       "잘한",
+       "포인트",
+       "가전의",
+       "아이돌",
+       "세탁기",
+       "실제",
+       "아이돌처럼"
+      ],
+      "series": "",
+      "chars": 779,
+      "lines": 12,
+      "emoji_per_100": 0.51,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "보는 잠재 고객",
+      "cover_chars": 6,
+      "visual": "graphic",
+      "top5_share": 0.727,
+      "n_colors": 26,
+      "face": false,
+      "colors": [
+       "#303030",
+       "#103030"
+      ]
+     }
+    },
+    {
+     "id": "18117722626962536",
+     "comments_count": 1,
+     "like_count": 102,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/Des0EeIEjDB/",
+     "timestamp": "2026-10-20T02:58:06+0000",
+     "slides": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 💪 건강과 재미, 두 마리의 토끼를 모두 잡고 싶은 사람?",
+      "last_question": "#광고 💪 건강과 재미, 두 마리의 토끼를 모두 잡고 싶은 사람?",
+      "structure": "해시태그>문장×3>이모지소제목>문장×2>이모지소제목>항목×5>문장>해시태그",
+      "numbers": [
+       "10월",
+       "21일",
+       "25일",
+       "30",
+       "29",
+       "5",
+       "-6",
+       "2026년",
+       "10월",
+       "21일",
+       "25일"
+      ],
+      "hashtags": [
+       "#광고",
+       "#한화손보",
+       "#웰니스크루즈한남",
+       "#한남동",
+       "#팝업스토어"
+      ],
+      "keywords": [
+       "웰니스",
+       "사전",
+       "서울",
+       "준비한",
+       "보세요",
+       "한화손보",
+       "예약을",
+       "입장할",
+       "있습니다",
+       "활용한",
+       "체험",
+       "함께하는"
+      ],
+      "series": "",
+      "chars": 656,
+      "lines": 15,
+      "emoji_per_100": 0.61,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "에서 사람? 이라면? 서울 에서 열리는 무료 페스티벌",
+      "cover_chars": 22,
+      "visual": "graphic",
+      "top5_share": 0.678,
+      "n_colors": 32,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18153268780536349",
+     "comments_count": 4,
+     "like_count": 99,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DeqvNHFEoCK/",
+     "timestamp": "2026-10-19T07:37:06+0000",
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "@치이카와 찍먹시키고 싶은 친구에게 공유",
+      "last_question": "‘치이카와랑 먼작귀는 뭐가 달라?’ 하는 질문부터 ‘이 중에 누가 치이카와인데?’, ‘이게 그렇게 무섭다는데",
+      "structure": "문장×3",
+      "numbers": [
+       "1위"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "치이카와",
+       "찍먹시키고",
+       "싶은",
+       "친구에게",
+       "공유",
+       "뭔데",
+       "이렇게",
+       "난리야",
+       "싶으신",
+       "분들",
+       "많으실",
+       "텐데요"
+      ],
+      "series": "",
+      "chars": 307,
+      "lines": 3,
+      "emoji_per_100": 0.0,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "햄스터 있어?\" 왕초보 입문 가이드",
+      "cover_chars": 15,
+      "visual": "photo",
+      "top5_share": 0.519,
+      "n_colors": 75,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0D0"
+      ]
+     }
+    }
+   ]
+  },
+  "eyesmag": {
+   "followers_count": 1428878,
+   "media_count": 71724,
+   "posts": [
+    {
+     "id": "17884254486651923",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T15:09:56+0000",
+     "permalink": "https://www.instagram.com/p/Df4y3_OHR1f/",
+     "like_count": 559,
+     "comments_count": 9,
+     "slides": 2,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "CL의 새 디지털 싱글 [ICONIC] 트랙리스트 이미지가 공개되었습니다.🍒‘SAY IT TO MY FACE",
+      "last_question": "",
+      "structure": "문장",
+      "numbers": [
+       "2",
+       "20일",
+       "18"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "ICONIC",
+       "CL의",
+       "디지털",
+       "싱글",
+       "트랙리스트",
+       "이미지가",
+       "공개되었습니다",
+       "SAY",
+       "IT",
+       "TO",
+       "MY",
+       "FACE"
+      ],
+      "series": "ICONIC",
+      "chars": 117,
+      "lines": 1,
+      "emoji_per_100": 1.71,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "",
+      "cover_chars": 0,
+      "visual": "graphic",
+      "top5_share": 0.762,
+      "n_colors": 33,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18007268774991818",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T15:00:17+0000",
+     "permalink": "https://www.instagram.com/p/Df4xxShHWLO/",
+     "like_count": 1410,
+     "comments_count": 3,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "오늘 하루를 위해 수없이 많은 날을 묵묵히 달려왔을 수험생 여러분. 그동안 얼마나 많은 고민과 걱정이 있었을",
+      "last_question": "",
+      "structure": "문장",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "많은",
+       "하루를",
+       "수없이",
+       "날을",
+       "묵묵히",
+       "달려왔을",
+       "수험생",
+       "여러분",
+       "그동안",
+       "얼마나",
+       "고민과",
+       "걱정이"
+      ],
+      "series": "",
+      "chars": 204,
+      "lines": 1,
+      "emoji_per_100": 0.98,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "Too 잘될",
+      "cover_chars": 5,
+      "visual": "graphic",
+      "top5_share": 0.753,
+      "n_colors": 20,
+      "face": false,
+      "colors": [
+       "#303030",
+       "#503030"
+      ]
+     }
+    },
+    {
+     "id": "17916762036499147",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T13:44:09+0000",
+     "permalink": "https://www.instagram.com/p/Df4pDvbDfnU/",
+     "like_count": 10852,
+     "comments_count": 56,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "게스 팝업 가면 저도 현진이 볼 수 있어요?❄️ 게스(guesskorea)가 스트레이 키즈(realstray",
+      "last_question": "게스 팝업 가면 저도 현진이 볼 수 있어요?❄️ 게스(guesskorea)가 스트레이 키즈(realstray",
+      "structure": "문장>이모지소제목×2",
+      "numbers": [
+       "11월",
+       "23일",
+       "12월",
+       "6일",
+       "1",
+       "2026",
+       "2026.11",
+       "23",
+       "2026.12",
+       "06",
+       "300",
+       "1"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "게스",
+       "팝업",
+       "겨울",
+       "롯데월드몰",
+       "지하",
+       "패딩",
+       "가면",
+       "저도",
+       "현진이",
+       "있어요",
+       "guesskorea",
+       "스트레이"
+      ],
+      "series": "",
+      "chars": 405,
+      "lines": 3,
+      "emoji_per_100": 1.23,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "",
+      "cover_chars": 0,
+      "visual": "graphic",
+      "top5_share": 0.805,
+      "n_colors": 42,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#309070"
+      ]
+     }
+    },
+    {
+     "id": "18082275908421573",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T13:40:19+0000",
+     "permalink": "https://www.instagram.com/p/Df4onpMnbdb/",
+     "like_count": 449,
+     "comments_count": 2,
+     "slides": 19,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "산타도 선물 배달하다가 꼭 들르고 싶을 크리스마스 마켓.🎅🏻 해리포터 굿즈부터 이번 크리스마스 마켓에서 처음",
+      "last_question": "",
+      "structure": "문장>이모지소제목",
+      "numbers": [
+       "300"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "크리스마스",
+       "마켓",
+       "산타도",
+       "선물",
+       "배달하다가",
+       "들르고",
+       "싶을",
+       "해리포터",
+       "굿즈부터",
+       "마켓에서",
+       "처음",
+       "선보이는"
+      ],
+      "series": "",
+      "chars": 179,
+      "lines": 2,
+      "emoji_per_100": 4.47,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "121 11 4 워서 마켓",
+      "cover_chars": 10,
+      "visual": "photo",
+      "top5_share": 0.425,
+      "n_colors": 49,
+      "face": false,
+      "colors": [
+       "#303030",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "17910343224605744",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T12:04:43+0000",
+     "permalink": "https://www.instagram.com/reel/Df4dTL9iJey/",
+     "like_count": 607,
+     "comments_count": 4,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "식당 왜 가? 크리스마스 마켓이 있는데.🎅🏻 롯데타운 크리스마스 마켓에서만 맛볼 수 있는 먹거리들이 한자리에",
+      "last_question": "식당 왜 가? 크리스마스 마켓이 있는데.🎅🏻 롯데타운 크리스마스 마켓에서만 맛볼 수 있는 먹거리들이 한자리에",
+      "structure": "문장>이모지소제목",
+      "numbers": [
+       "300"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "크리스마스",
+       "식당",
+       "마켓이",
+       "있는데",
+       "롯데타운",
+       "마켓에서만",
+       "맛볼",
+       "먹거리들이",
+       "한자리에",
+       "모였습니다",
+       "셰프님들이",
+       "직접"
+      ],
+      "series": "",
+      "chars": 200,
+      "lines": 2,
+      "emoji_per_100": 4.0,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "",
+      "cover_chars": 0,
+      "visual": "photo",
+      "top5_share": 0.407,
+      "n_colors": 52,
+      "face": false,
+      "colors": [
+       "#303030",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "18122970023082873",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T11:00:15+0000",
+     "permalink": "https://www.instagram.com/reel/Df4WYVRB2KZ/",
+     "like_count": 945,
+     "comments_count": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 잠실에 크리스마스 마을이 생겼다?🎄 마리떼 키즈(marithe_kids)가 롯데월드몰에 팝업 스토어 ",
+      "last_question": "#광고 잠실에 크리스마스 마을이 생겼다?🎄 마리떼 키즈(marithe_kids)가 롯데월드몰에 팝업 스토어 ",
+      "structure": "해시태그>이모지소제목",
+      "numbers": [
+       "15만",
+       "22일",
+       "50개",
+       "30일",
+       "300",
+       "1"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "팝업",
+       "베어",
+       "잠실에",
+       "크리스마스",
+       "마을이",
+       "생겼다",
+       "마리떼",
+       "키즈",
+       "marithe",
+       "kids",
+       "롯데월드몰에",
+       "스토어"
+      ],
+      "series": "",
+      "chars": 312,
+      "lines": 2,
+      "emoji_per_100": 1.28,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "3 김나영",
+      "cover_chars": 4,
+      "visual": "photo",
+      "top5_share": 0.417,
+      "n_colors": 51,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#30B090"
+      ]
+     }
+    },
+    {
+     "id": "18165259396540918",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T10:30:06+0000",
+     "permalink": "https://www.instagram.com/reel/Df4S7hEhL4M/",
+     "like_count": 776,
+     "comments_count": 4,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "'째브러' 민지 PD, 유정 PD의 회사 스트레스 원인은 뭘까요?😵‍💫 업무? 마감? 아니면 또 다른 무언가",
+      "last_question": "'째브러' 민지 PD, 유정 PD의 회사 스트레스 원인은 뭘까요?😵‍💫 업무? 마감? 아니면 또 다른 무언가",
+      "structure": "문장",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "째브러",
+       "민지",
+       "PD",
+       "유정",
+       "PD의",
+       "회사",
+       "스트레스",
+       "원인은",
+       "뭘까요",
+       "업무",
+       "마감",
+       "아니면"
+      ],
+      "series": "",
+      "chars": 128,
+      "lines": 1,
+      "emoji_per_100": 3.91,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "15 스트레스",
+      "cover_chars": 6,
+      "visual": "photo",
+      "top5_share": 0.583,
+      "n_colors": 53,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#50D0D0"
+      ]
+     }
+    },
+    {
+     "id": "17894750394618812",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T10:02:46+0000",
+     "permalink": "https://www.instagram.com/p/Df4PuPZIHFg/",
+     "like_count": 199,
+     "comments_count": 3,
+     "slides": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 KFC가 <어벤져스: 둠스데이>와 손잡고 건대입구역점을 ʻDOOM HQ’로 새롭게 열었습니다.🌀 UV",
+      "last_question": "",
+      "structure": "해시태그>이모지소제목",
+      "numbers": [
+       "12월",
+       "27일",
+       "11",
+       "8",
+       "237",
+       "1"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "KFC",
+       "DOOM",
+       "HQ",
+       "미션",
+       "징거",
+       "kfc",
+       "korea",
+       "KFC가",
+       "어벤져스",
+       "둠스데이",
+       "손잡고",
+       "건대입구역점을"
+      ],
+      "series": "어벤져스: 둠스데이",
+      "chars": 414,
+      "lines": 2,
+      "emoji_per_100": 1.21,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "으로 물든 DOOM",
+      "cover_chars": 8,
+      "visual": "graphic",
+      "top5_share": 0.712,
+      "n_colors": 25,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18132519418693111",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T09:54:22+0000",
+     "permalink": "https://www.instagram.com/reel/Df4OcBWCpZV/",
+     "like_count": 1897,
+     "comments_count": 15,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "퀸 is back.👑 CL의 신곡 ‘ICONIC’ 뮤직비디오 티저가 공개됐습니다. 짧은 티저에서도 느껴지는 ",
+      "last_question": "",
+      "structure": "문장",
+      "numbers": [
+       "20일",
+       "6"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "ICONIC",
+       "is",
+       "back",
+       "CL의",
+       "신곡",
+       "뮤직비디오",
+       "티저가",
+       "공개됐습니다",
+       "짧은",
+       "티저에서도",
+       "느껴지는",
+       "강렬한"
+      ],
+      "series": "",
+      "chars": 159,
+      "lines": 1,
+      "emoji_per_100": 1.89,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "음악 기강",
+      "cover_chars": 4,
+      "visual": "graphic",
+      "top5_share": 0.625,
+      "n_colors": 33,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#701010"
+      ]
+     }
+    },
+    {
+     "id": "17923128840461524",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T09:51:17+0000",
+     "permalink": "https://www.instagram.com/reel/Df4OK92iAlc/",
+     "like_count": 574,
+     "comments_count": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "영화 <완벽한 집>의 주역 장규리, 배종옥, 김민철을 만났습니다.🏡 <완벽한 집>은 기숙사 탈락으로 하루아침",
+      "last_question": "",
+      "structure": "문장",
+      "numbers": [
+       "11월",
+       "25일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "완벽한",
+       "영화",
+       "주역",
+       "장규리",
+       "배종옥",
+       "김민철을",
+       "만났습니다",
+       "기숙사",
+       "탈락으로",
+       "하루아침에",
+       "곳을",
+       "잃은"
+      ],
+      "series": "완벽한 집",
+      "chars": 205,
+      "lines": 1,
+      "emoji_per_100": 1.95,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "해야죠",
+      "cover_chars": 3,
+      "visual": "graphic",
+      "top5_share": 0.701,
+      "n_colors": 46,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#301010"
+      ]
+     }
+    },
+    {
+     "id": "18093898637235959",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T09:30:03+0000",
+     "permalink": "https://www.instagram.com/p/Df4MAzuoFMq/",
+     "like_count": 274,
+     "comments_count": 4,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "스티커즈가 서울 첫 매장을 해방촌에 오픈했습니다.🐶 촬영한 사진을 스티커로 출력해 다양한 곳에 붙일 수 있는",
+      "last_question": "",
+      "structure": "문장>이모지소제목",
+      "numbers": [
+       "20",
+       "23"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "서울",
+       "해방촌에",
+       "스티커즈가",
+       "매장을",
+       "오픈했습니다",
+       "촬영한",
+       "사진을",
+       "스티커로",
+       "출력해",
+       "다양한",
+       "곳에",
+       "붙일"
+      ],
+      "series": "",
+      "chars": 271,
+      "lines": 2,
+      "emoji_per_100": 1.85,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "커즈 니다",
+      "cover_chars": 4,
+      "visual": "photo",
+      "top5_share": 0.408,
+      "n_colors": 46,
+      "face": false,
+      "colors": [
+       "#505050",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18112787270339864",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T09:08:46+0000",
+     "permalink": "https://www.instagram.com/reel/Df4Jaj5iJsm/",
+     "like_count": 294,
+     "comments_count": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "#광고 무드인사이드(moodinside_official)의 팝업 스토어가 성수에 문을 열었습니다.🖤 오픈을 ",
+      "last_question": "",
+      "structure": "해시태그>이모지소제목",
+      "numbers": [
+       "11월",
+       "18일",
+       "12월",
+       "27일",
+       "40일",
+       "2",
+       "315",
+       "-1"
+      ],
+      "hashtags": [
+       "#광고"
+      ],
+      "keywords": [
+       "무드인사이드",
+       "moodinside",
+       "official",
+       "팝업",
+       "스토어가",
+       "성수에",
+       "문을",
+       "열었습니다",
+       "오픈을",
+       "기념해",
+       "배우",
+       "이주빈"
+      ],
+      "series": "",
+      "chars": 278,
+      "lines": 2,
+      "emoji_per_100": 1.8,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": true
+     },
+     "visual": {
+      "cover_text": "0 0",
+      "cover_chars": 2,
+      "visual": "photo",
+      "top5_share": 0.591,
+      "n_colors": 44,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18457442278193977",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-11-18T09:00:10+0000",
+     "permalink": "https://www.instagram.com/reel/Df4IdtlC5Lb/",
+     "like_count": 6176,
+     "comments_count": 108,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "나? 융프로디테!✨ 키린(qeelinjewellery) 행사장에 퀸의 등장, 감탄만 나오는 윤아(yoona_",
+      "last_question": "나? 융프로디테!✨ 키린(qeelinjewellery) 행사장에 퀸의 등장, 감탄만 나오는 윤아(yoona_",
+      "structure": "문장",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "융프로디테",
+       "키린",
+       "qeelinjewellery",
+       "행사장에",
+       "퀸의",
+       "등장",
+       "감탄만",
+       "나오는",
+       "윤아",
+       "yoona",
+       "lim",
+       "자태"
+      ],
+      "series": "",
+      "chars": 84,
+      "lines": 1,
+      "emoji_per_100": 2.38,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "",
+      "cover_chars": 0,
+      "visual": "photo",
+      "top5_share": 0.457,
+      "n_colors": 54,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#107050"
+      ]
+     }
+    },
+    {
+     "id": "18029871428919966",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T08:50:07+0000",
+     "permalink": "https://www.instagram.com/p/Df4HVEwi5dj/",
+     "like_count": 1106,
+     "comments_count": 29,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "<어벤져스: 둠스데이>가 <듄: 파트 3> 둘의 북미 예매 경쟁에서 앞서고 있다는 소식이 화제입니다.🔥 흥행",
+      "last_question": "<어벤져스: 둠스데이>가 <듄: 파트 3> 둘의 북미 예매 경쟁에서 앞서고 있다는 소식이 화제입니다.🔥 흥행",
+      "structure": "문장",
+      "numbers": [
+       "3",
+       "11월",
+       "12일",
+       "14일",
+       "3",
+       "10배",
+       "12월",
+       "18일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "북미",
+       "어벤져스",
+       "둠스데이",
+       "파트",
+       "흥행",
+       "둘의",
+       "예매",
+       "경쟁에서",
+       "앞서고",
+       "있다는",
+       "소식이",
+       "화제입니다"
+      ],
+      "series": "어벤져스: 둠스데이",
+      "chars": 333,
+      "lines": 1,
+      "emoji_per_100": 1.2,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "10 압승",
+      "cover_chars": 4,
+      "visual": "graphic",
+      "top5_share": 0.788,
+      "n_colors": 32,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18479528485138233",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-18T08:50:01+0000",
+     "permalink": "https://www.instagram.com/p/Df4HJpxiktC/",
+     "like_count": 4949,
+     "comments_count": 55,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "제우스가 T1으로 돌아올 가능성이 제기됐습니다.💭 업계 관계자에 따르면 제우스(woojechoii)는 여러 ",
+      "last_question": "",
+      "structure": "문장",
+      "numbers": [
+       "1",
+       "1",
+       "1",
+       "2023년",
+       "2024년",
+       "2",
+       "2년",
+       "1"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "lol",
+       "제우스가",
+       "으로",
+       "돌아올",
+       "가능성이",
+       "제기됐습니다",
+       "업계",
+       "관계자에",
+       "따르면",
+       "제우스",
+       "woojechoii",
+       "여러"
+      ],
+      "series": "",
+      "chars": 236,
+      "lines": 1,
+      "emoji_per_100": 1.27,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "제우스",
+      "cover_chars": 3,
+      "visual": "graphic",
+      "top5_share": 0.882,
+      "n_colors": 32,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#301010"
+      ]
+     }
+    }
+   ]
+  },
+  "longblack.co": {
+   "followers_count": 189211,
+   "media_count": 1668,
+   "posts": [
+    {
+     "id": "18121765222989239",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-16T10:27:25+0000",
+     "permalink": "https://www.instagram.com/p/DfzI897j-1B/",
+     "like_count": 204,
+     "comments_count": 1,
+     "slides": 3,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "롱블랙의 에디터를 찾습니다.",
+      "last_question": "AI 시대, 글 쓰는 일을 배우는 것이 의미가 있을까요? 롱블랙은 그렇다고 생각합니다. 글을 잘 쓴다는 것은",
+      "structure": "문장×4",
+      "numbers": [
+       "2021년",
+       "9월",
+       "1800개"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "좋은",
+       "글을",
+       "롱블랙의",
+       "에디터를",
+       "찾습니다",
+       "롱블랙은",
+       "있습니다",
+       "이를",
+       "일을",
+       "국내",
+       "최대",
+       "유료"
+      ],
+      "series": "",
+      "chars": 365,
+      "lines": 4,
+      "emoji_per_100": 0.0,
+      "ends_with_question": true,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "신입, 경력 콘텐츠 에디터 니다",
+      "cover_chars": 13,
+      "visual": "graphic",
+      "top5_share": 0.826,
+      "n_colors": 16,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#707050"
+      ]
+     }
+    },
+    {
+     "id": "17988795339106839",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-16T02:00:25+0000",
+     "permalink": "https://www.instagram.com/p/DfyO7sTACrA/",
+     "comments_count": 1,
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "다음 주, 롱블랙이 5일간 부산의 이야기를 전합니다.",
+      "last_question": "",
+      "structure": "문장>이모지소제목×3>문장×2",
+      "numbers": [
+       "5일",
+       "5"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "부산의",
+       "노트",
+       "롱블랙",
+       "다음",
+       "롱블랙이",
+       "일간",
+       "이야기를",
+       "전합니다",
+       "읽고",
+       "특집",
+       "가보고",
+       "셀렉션"
+      ],
+      "series": "",
+      "chars": 179,
+      "lines": 6,
+      "emoji_per_100": 1.68,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "우신 11. 23",
+      "cover_chars": 7,
+      "visual": "graphic",
+      "top5_share": 0.814,
+      "n_colors": 27,
+      "face": false,
+      "colors": [
+       "#50B0F0",
+       "#1030B0"
+      ]
+     }
+    },
+    {
+     "id": "18117510815519845",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-14T00:30:01+0000",
+     "permalink": "https://www.instagram.com/p/Dfs7CyumN-X/",
+     "comments_count": 10,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "성과를 내도 행복하지 않았어요. 3만 명의 창업가를 코칭한 일본의 코치 이마이 다카시는, ‘행복해 보이는 사",
+      "last_question": "",
+      "structure": "문장×3>이모지소제목",
+      "numbers": [
+       "3만",
+       "2",
+       "2"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "성과를",
+       "내도",
+       "행복하지",
+       "않았어요",
+       "명의",
+       "창업가를",
+       "코칭한",
+       "일본의",
+       "코치",
+       "이마이",
+       "다카시는",
+       "행복해"
+      ],
+      "series": "",
+      "chars": 167,
+      "lines": 4,
+      "emoji_per_100": 0.6,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "어떻게 종일 어요",
+      "cover_chars": 7,
+      "visual": "graphic",
+      "top5_share": 0.99,
+      "n_colors": 8,
+      "face": false,
+      "colors": [
+       "#70F0D0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18149185366576958",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-11T00:30:09+0000",
+     "permalink": "https://www.instagram.com/p/DflMoFADJ_P/",
+     "comments_count": 37,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "프랜차이즈 아메리카노 44잔을 블라인드로 맛보고 등급을 매기는 유튜버가 있어요. ‘안스타’ 채널의 안치훈 언",
+      "last_question": "",
+      "structure": "문장×2>이모지소제목>문장",
+      "numbers": [
+       "44",
+       "1"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "커피",
+       "프랜차이즈",
+       "아메리카노",
+       "잔을",
+       "블라인드로",
+       "맛보고",
+       "등급을",
+       "매기는",
+       "유튜버가",
+       "있어요",
+       "안스타",
+       "채널의"
+      ],
+      "series": "",
+      "chars": 229,
+      "lines": 4,
+      "emoji_per_100": 0.44,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "타는 어쩌다 까요",
+      "cover_chars": 7,
+      "visual": "graphic",
+      "top5_share": 0.667,
+      "n_colors": 52,
+      "face": false,
+      "colors": [
+       "#30B090",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18119527585998988",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-06T00:30:07+0000",
+     "permalink": "https://www.instagram.com/p/DfYUpiBj7PV/",
+     "comments_count": 17,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "한쪽은 둥글고 한쪽은 네모난 안경, 처마를 얹은 안경. 김종필 대표는 이런 안경을 30년째 만들어 온 1세대",
+      "last_question": "",
+      "structure": "문장×3",
+      "numbers": [
+       "30년",
+       "1",
+       "30년",
+       "13억",
+       "8년",
+       "900"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "안경",
+       "한쪽은",
+       "둥글고",
+       "네모난",
+       "처마를",
+       "얹은",
+       "김종필",
+       "대표는",
+       "이런",
+       "안경을",
+       "년째",
+       "만들어"
+      ],
+      "series": "",
+      "chars": 241,
+      "lines": 3,
+      "emoji_per_100": 0.41,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "나의 하는 1",
+      "cover_chars": 5,
+      "visual": "graphic",
+      "top5_share": 0.761,
+      "n_colors": 35,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50F0F0"
+      ]
+     }
+    },
+    {
+     "id": "17926104336434797",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-11-02T00:30:15+0000",
+     "permalink": "https://www.instagram.com/p/DfOBfAxgZkC/",
+     "comments_count": 3,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "부가세 영수증 분류도, 매달 급여 정산도, 매일의 매출 보고도 알아서 돌아가요. 거의 대부분의 반복 업무를 ",
+      "last_question": "",
+      "structure": "문장×2>이모지소제목",
+      "numbers": [
+       "16년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "이림",
+       "부가세",
+       "영수증",
+       "분류도",
+       "매달",
+       "급여",
+       "정산도",
+       "매일의",
+       "매출",
+       "보고도",
+       "알아서",
+       "돌아가요"
+      ],
+      "series": "",
+      "chars": 188,
+      "lines": 3,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "16 카페 사장 에게 묻다. LongBlack",
+      "cover_chars": 20,
+      "visual": "graphic",
+      "top5_share": 0.978,
+      "n_colors": 13,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#70F090"
+      ]
+     }
+    },
+    {
+     "id": "18099233684451695",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-31T00:30:10+0000",
+     "permalink": "https://www.instagram.com/p/DfI34pBjm99/",
+     "comments_count": 4,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "2000만원으로 2700억원을 번 영화, 「파라노말 액티비티」. 이처럼 유명한 공포영화 중엔 ‘초저예산’으로",
+      "last_question": "",
+      "structure": "문장×2>이모지소제목>문장",
+      "numbers": [
+       "2000만",
+       "2700억",
+       "24년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "만원으로",
+       "억원을",
+       "영화",
+       "파라노말",
+       "액티비티",
+       "이처럼",
+       "유명한",
+       "공포영화",
+       "중엔",
+       "초저예산",
+       "으로",
+       "만든"
+      ],
+      "series": "",
+      "chars": 190,
+      "lines": 4,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "마드 1.3 공포 영화 제작사 LE",
+      "cover_chars": 14,
+      "visual": "graphic",
+      "top5_share": 0.958,
+      "n_colors": 15,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18187653685409765",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-29T00:30:10+0000",
+     "permalink": "https://www.instagram.com/p/DfDuS1KjTwB/",
+     "comments_count": 88,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "작가가 아니어도 누구나 글을 쓰는 시대. 잘 쓴 글과 아닌 글은 어디서 갈릴까요? 퓰리처상을 받은 저널리스트",
+      "last_question": "작가가 아니어도 누구나 글을 쓰는 시대. 잘 쓴 글과 아닌 글은 어디서 갈릴까요? 퓰리처상을 받은 저널리스트",
+      "structure": "문장×3",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "쓰는",
+       "작가가",
+       "아니어도",
+       "누구나",
+       "글을",
+       "시대",
+       "글과",
+       "아닌",
+       "글은",
+       "어디서",
+       "갈릴까요",
+       "퓰리처상을"
+      ],
+      "series": "",
+      "chars": 147,
+      "lines": 3,
+      "emoji_per_100": 0.68,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "아닌",
+      "cover_chars": 2,
+      "visual": "graphic",
+      "top5_share": 0.94,
+      "n_colors": 19,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#70D0F0"
+      ]
+     }
+    },
+    {
+     "id": "18094639139257187",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-28T00:30:02+0000",
+     "permalink": "https://www.instagram.com/p/DfBJiZvGKFA/",
+     "comments_count": 35,
+     "slides": 10,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "AD) 대형 쇼핑몰 안내도, 카페 키오스크, 복지 서비스 신청서. 우리 일상엔 한 번에 이해하기 어려운 말이",
+      "last_question": "",
+      "structure": "문장×3",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "어려운",
+       "AD",
+       "대형",
+       "쇼핑몰",
+       "안내도",
+       "카페",
+       "키오스크",
+       "복지",
+       "서비스",
+       "신청서",
+       "일상엔",
+       "번에"
+      ],
+      "series": "",
+      "chars": 277,
+      "lines": 3,
+      "emoji_per_100": 0.0,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "보다 가장 잘할 있는 있다?",
+      "cover_chars": 11,
+      "visual": "graphic",
+      "top5_share": 0.989,
+      "n_colors": 9,
+      "face": false,
+      "colors": [
+       "#5090F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18052123358806289",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-26T00:30:08+0000",
+     "permalink": "https://www.instagram.com/p/De7_59wFMsY/",
+     "comments_count": 0,
+     "slides": 9,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "AD) 홍익대 산업디자인전공 졸업전시 ‘COEXIST’.",
+      "last_question": "",
+      "structure": "문장×3>이모지소제목>문장",
+      "numbers": [
+       "4",
+       "10.27",
+       "10.31"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "AD",
+       "홍익대",
+       "산업디자인전공",
+       "졸업전시",
+       "COEXIST",
+       "매일",
+       "쓰는",
+       "물건부터",
+       "미래의",
+       "이동수단까지",
+       "우리가",
+       "살아갈"
+      ],
+      "series": "",
+      "chars": 162,
+      "lines": 5,
+      "emoji_per_100": 0.62,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "가봐야 전시 2026 학교 전공 전시",
+      "cover_chars": 15,
+      "visual": "graphic",
+      "top5_share": 0.864,
+      "n_colors": 34,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#50D0F0"
+      ]
+     }
+    },
+    {
+     "id": "18126463171859896",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-23T00:00:09+0000",
+     "permalink": "https://www.instagram.com/p/De0OFxiFCL3/",
+     "comments_count": 84,
+     "slides": 8,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "추운 날엔 뜨끈한 탕에 몸을 담그는 상상만 해도 어깨가 풀리죠. 그런데 그거 아세요? 요즘 그 목욕탕이 전 ",
+      "last_question": "추운 날엔 뜨끈한 탕에 몸을 담그는 상상만 해도 어깨가 풀리죠. 그런데 그거 아세요? 요즘 그 목욕탕이 전 ",
+      "structure": "문장×3>이모지소제목>문장",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "추운",
+       "날엔",
+       "뜨끈한",
+       "탕에",
+       "몸을",
+       "담그는",
+       "상상만",
+       "해도",
+       "어깨가",
+       "풀리죠",
+       "그런데",
+       "그거"
+      ],
+      "series": "",
+      "chars": 235,
+      "lines": 5,
+      "emoji_per_100": 0.43,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "사우나 2 만화 공식",
+      "cover_chars": 8,
+      "visual": "graphic",
+      "top5_share": 0.819,
+      "n_colors": 38,
+      "face": false,
+      "colors": [
+       "#70F0B0",
+       "#70B070"
+      ]
+     }
+    },
+    {
+     "id": "18128961773509574",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-21T00:30:05+0000",
+     "permalink": "https://www.instagram.com/p/DetMXlCB1ad/",
+     "comments_count": 71,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "오늘 현대문학의 거장 무라카미 하루키의 새 장편소설 『가호』가 국내 출간됐습니다.",
+      "last_question": "궁금했습니다. 50년 가까이 꺼지지 않고 계속해서 타오르는 그의 창작 체력은, 어디에서 나오는 걸까요?",
+      "structure": "문장×2>질문>문장×2",
+      "numbers": [
+       "2023년",
+       "3년",
+       "50년",
+       "2015년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "무라카미",
+       "하루키의",
+       "그의",
+       "현대문학의",
+       "거장",
+       "장편소설",
+       "가호",
+       "국내",
+       "출간됐습니다",
+       "많은",
+       "이들이",
+       "놀랐습니다"
+      ],
+      "series": "",
+      "chars": 370,
+      "lines": 5,
+      "emoji_per_100": 0.27,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "무라카미 말하는 SAP 만드는",
+      "cover_chars": 13,
+      "visual": "graphic",
+      "top5_share": 0.892,
+      "n_colors": 14,
+      "face": false,
+      "colors": [
+       "#70D0D0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "17911326888555162",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-18T00:30:09+0000",
+     "permalink": "https://www.instagram.com/p/DenZjJwARgj/",
+     "comments_count": 31,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "오늘이 우리나라 '산의 날'인 거 아셨나요?",
+      "last_question": "오늘이 우리나라 '산의 날'인 거 아셨나요?",
+      "structure": "질문>문장×2>이모지소제목",
+      "numbers": [],
+      "hashtags": [],
+      "keywords": [
+       "오늘이",
+       "우리나라",
+       "산의",
+       "아셨나요",
+       "월간",
+       "윤성중",
+       "기자는",
+       "말해요",
+       "등산엔",
+       "정답이",
+       "없다고",
+       "그는"
+      ],
+      "series": "",
+      "chars": 165,
+      "lines": 4,
+      "emoji_per_100": 0.61,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "EAS 도대체 걸까",
+      "cover_chars": 8,
+      "visual": "graphic",
+      "top5_share": 0.974,
+      "n_colors": 18,
+      "face": false,
+      "colors": [
+       "#50F010",
+       "#70F0F0"
+      ]
+     }
+    },
+    {
+     "id": "18128825182695913",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-15T09:33:29+0000",
+     "permalink": "https://www.instagram.com/p/DegpV84mK9_/",
+     "like_count": 2415,
+     "comments_count": 423,
+     "slides": 6,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "음악 차트를 휩쓴 A2O LITE의 ‘NEON’. 이 뮤직비디오에 크리에이티브 디렉터로 참여한 하예진 디렉터",
+      "last_question": "",
+      "structure": "문장×3>이모지소제목",
+      "numbers": [
+       "2",
+       "2025년"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "크리에이티브",
+       "음악",
+       "차트를",
+       "휩쓴",
+       "LITE의",
+       "NEON",
+       "뮤직비디오에",
+       "디렉터로",
+       "참여한",
+       "하예진",
+       "디렉터",
+       "사실"
+      ],
+      "series": "",
+      "chars": 240,
+      "lines": 4,
+      "emoji_per_100": 0.42,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "뮤비 비주얼 디렉터, 데이크 이었다고? oBl ACK",
+      "cover_chars": 23,
+      "visual": "graphic",
+      "top5_share": 0.791,
+      "n_colors": 45,
+      "face": false,
+      "colors": [
+       "#70F0F0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "17888839197617602",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-10-14T00:00:19+0000",
+     "permalink": "https://www.instagram.com/p/DedC9GtDNmU/",
+     "comments_count": 24,
+     "slides": 7,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "혹시 10월 14일이 '와인 데이'인 거 아셨나요? 연인·친구와 와인 한잔 나누는 날이래요.",
+      "last_question": "혹시 10월 14일이 '와인 데이'인 거 아셨나요? 연인·친구와 와인 한잔 나누는 날이래요.",
+      "structure": "문장×3>이모지소제목",
+      "numbers": [
+       "10월",
+       "14일"
+      ],
+      "hashtags": [],
+      "keywords": [
+       "와인",
+       "혹시",
+       "일이",
+       "데이",
+       "아셨나요",
+       "연인",
+       "친구와",
+       "한잔",
+       "나누는",
+       "날이래요",
+       "좋은",
+       "병을"
+      ],
+      "series": "",
+      "chars": 229,
+      "lines": 4,
+      "emoji_per_100": 0.44,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "월스트리트 비슷한 와인 17 1 으로 꼽은 와인",
+      "cover_chars": 19,
+      "visual": "graphic",
+      "top5_share": 0.616,
+      "n_colors": 47,
+      "face": false,
+      "colors": [
+       "#503030",
+       "#70F0F0"
+      ]
+     }
+    }
+   ]
+  },
+  "3protv.official": {
+   "followers_count": 6593,
+   "media_count": 99,
+   "posts": [
+    {
+     "id": "18641651977052979",
+     "comments_count": 0,
+     "like_count": 7,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/Df3d1uzCDVS/",
+     "timestamp": "2026-11-18T02:46:53+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "\"선장이 자리를 비워도 엔비디아의 돈 복사기는 멈추지 않았고, 삼성전자는 콧대 높은 애플의 고개를 숙이게 만",
+      "last_question": "",
+      "structure": "문장×2>항목×2>문장>해시태그",
+      "numbers": [
+       "3",
+       "103%",
+       "3"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#뉴스3",
+       "#권순우기자",
+       "#엔비디아실적",
+       "#젠슨황",
+       "#삼성전자",
+       "#애플",
+       "#HBM",
+       "#메모리반도체",
+       "#AI관련주",
+       "#주식투자",
+       "#주식공부",
+       "#역발상투자"
+      ],
+      "keywords": [
+       "엔비디아의",
+       "삼성전자는",
+       "거대한",
+       "시장의",
+       "젠슨",
+       "황의",
+       "선장이",
+       "자리를",
+       "비워도",
+       "복사기는",
+       "멈추지",
+       "않았고"
+      ],
+      "series": "",
+      "chars": 527,
+      "lines": 6,
+      "emoji_per_100": 0.57,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "2 037 11 18 실적!",
+      "cover_chars": 11,
+      "visual": "photo",
+      "top5_share": 0.613,
+      "n_colors": 71,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18061921343798124",
+     "comments_count": 0,
+     "like_count": 12,
+     "media_product_type": "REELS",
+     "media_type": "VIDEO",
+     "permalink": "https://www.instagram.com/reel/DfyTLQTS9a-/",
+     "timestamp": "2026-11-16T02:38:37+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "반도체 전문가에게 당장 '1억'이 주어진다면 어디에 몰빵할까? 💸",
+      "last_question": "반도체 전문가에게 당장 '1억'이 주어진다면 어디에 몰빵할까? 💸",
+      "structure": "문장×3>항목>문장>항목>문장×3>해시태그",
+      "numbers": [
+       "1억",
+       "1위",
+       "1억"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#박준영대표",
+       "#반도체전망",
+       "#AI관련주",
+       "#빅테크",
+       "#미국주식",
+       "#구글주가",
+       "#마이크로소프트",
+       "#주식투자",
+       "#주식공부",
+       "#소부장",
+       "#1억투자",
+       "#역발상투자"
+      ],
+      "keywords": [
+       "반도체",
+       "빅테크",
+       "AI",
+       "현금",
+       "이익",
+       "투자",
+       "전문가에게",
+       "당장",
+       "주어진다면",
+       "어디에",
+       "몰빵할까",
+       "박준영"
+      ],
+      "series": "",
+      "chars": 638,
+      "lines": 10,
+      "emoji_per_100": 0.78,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "반도체 연구소 박준영 4 어떻게 돼요?",
+      "cover_chars": 16,
+      "visual": "graphic",
+      "top5_share": 0.716,
+      "n_colors": 35,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18132150074493221",
+     "comments_count": 0,
+     "like_count": 10,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/Dfqi8rriP7U/",
+     "timestamp": "2026-11-13T02:21:24+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "엔비디아의 상징이 불명예 퇴진한 날, 한국의 대표 기업들은 묵직한 투자를 시작했습니다.",
+      "last_question": "",
+      "structure": "문장×2>항목×3>문장>해시태그",
+      "numbers": [
+       "46조",
+       "46조",
+       "4개",
+       "1조",
+       "3"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#뉴스3",
+       "#권순우기자",
+       "#엔비디아",
+       "#젠슨황",
+       "#삼성전자",
+       "#HBM관련주",
+       "#네이버",
+       "#AI관련주",
+       "#반도체전망",
+       "#주식투자",
+       "#주식공부"
+      ],
+      "keywords": [
+       "불명예",
+       "투자를",
+       "글로벌",
+       "거대한",
+       "젠슨",
+       "규모의",
+       "AI",
+       "엔비디아의",
+       "상징이",
+       "퇴진한",
+       "한국의",
+       "대표"
+      ],
+      "series": "",
+      "chars": 584,
+      "lines": 7,
+      "emoji_per_100": 0.68,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "46 0 1 0 11 13 젠슨 삼성 46",
+      "cover_chars": 15,
+      "visual": "photo",
+      "top5_share": 0.485,
+      "n_colors": 67,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303010"
+      ]
+     }
+    },
+    {
+     "id": "18121424026965130",
+     "comments_count": 1,
+     "like_count": 11,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfoBlbHEzQd/",
+     "timestamp": "2026-11-12T02:51:23+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "\"선장은 쫓겨날 위기인데, 배에는 그물망이 찢어지도록 황금이 쏟아지고 있습니다.\"",
+      "last_question": "정치적 스캔들과 흔들림 없는 숫자의 충돌 속에서, 시장의 스마트 머니는 과연 어디로 향하고 있을까요? 위기 ",
+      "structure": "문장×2>항목×3>문장>해시태그",
+      "numbers": [
+       "298%",
+       "50%",
+       "1.6조",
+       "1.6조",
+       "3"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#뉴스3",
+       "#권순우기자",
+       "#엔비디아",
+       "#젠슨황",
+       "#코어위브실적",
+       "#AI관련주",
+       "#반도체전망",
+       "#과징금",
+       "#주식투자",
+       "#주식공부",
+       "#증권사",
+       "#국고채"
+      ],
+      "keywords": [
+       "거대한",
+       "있습니다",
+       "위기",
+       "젠슨",
+       "AI",
+       "속에서",
+       "선장은",
+       "쫓겨날",
+       "위기인데",
+       "배에는",
+       "그물망이",
+       "찢어지도록"
+      ],
+      "series": "",
+      "chars": 704,
+      "lines": 7,
+      "emoji_per_100": 0.57,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "+29 80 4 oreWea 11 젠슨 폭주!",
+      "cover_chars": 19,
+      "visual": "photo",
+      "top5_share": 0.53,
+      "n_colors": 72,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18197484898398242",
+     "comments_count": 1,
+     "like_count": 11,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DflVCixk7U4/",
+     "timestamp": "2026-11-11T01:43:40+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "역대급 폭락장 속에서 매수 사이드카가 발동하며 시장이 붉게 물들었지만, 억눌렸던 공포심에 본전만 오면 주식을",
+      "last_question": "",
+      "structure": "문장×2>항목×3>문장>해시태그",
+      "numbers": [
+       "5조",
+       "8",
+       "5조"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#아침N투자",
+       "#박지훈부장",
+       "#코스피전망",
+       "#매수사이드카",
+       "#반도체관련주",
+       "#전력설비주",
+       "#AI관련주",
+       "#외국인수급",
+       "#주식투자",
+       "#주식공부",
+       "#바닥신호"
+      ],
+      "keywords": [
+       "있습니다",
+       "시장이",
+       "역대급",
+       "폭락장",
+       "속에서",
+       "매수",
+       "사이드카가",
+       "발동하며",
+       "붉게",
+       "물들었지만",
+       "억눌렸던",
+       "공포심에"
+      ],
+      "series": "",
+      "chars": 679,
+      "lines": 7,
+      "emoji_per_100": 0.59,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "5 마수 12 11 코스피 사이드카 발동! 5",
+      "cover_chars": 18,
+      "visual": "photo",
+      "top5_share": 0.486,
+      "n_colors": 41,
+      "face": false,
+      "colors": [
+       "#50D0B0",
+       "#101010"
+      ]
+     }
+    },
+    {
+     "id": "18355731829271102",
+     "comments_count": 1,
+     "like_count": 8,
+     "media_product_type": "REELS",
+     "media_type": "VIDEO",
+     "permalink": "https://www.instagram.com/reel/DfiwSUqS3X-/",
+     "timestamp": "2026-11-10T01:44:26+0000",
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "굳건하게 버티던 비트코인 7만 6천 달러 지지선, 왜 갑자기 무너졌을까요?",
+      "last_question": "과연 비트코인은 이 황당한 '나비효과'를 딛고 다시 지지선을 회복할 수 있을까요? 크립토 PLUS 박상혁 편",
+      "structure": "질문>문장>항목×3>문장>해시태그",
+      "numbers": [
+       "7만",
+       "6천",
+       "7만",
+       "6천"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#크립토플러스",
+       "#비트코인",
+       "#비트코인전망",
+       "#가상화폐",
+       "#엔비디아",
+       "#젠슨황",
+       "#일론머스크",
+       "#코인투자",
+       "#크립토",
+       "#알트코인"
+      ],
+      "keywords": [
+       "코인",
+       "엔비디아",
+       "젠슨",
+       "사생활",
+       "이슈가",
+       "아닌",
+       "황당한",
+       "굳건하게",
+       "버티던",
+       "비트코인",
+       "달러",
+       "지지선"
+      ],
+      "series": "",
+      "chars": 587,
+      "lines": 7,
+      "emoji_per_100": 0.68,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "불륜 wee",
+      "cover_chars": 5,
+      "visual": "graphic",
+      "top5_share": 0.787,
+      "n_colors": 43,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#505050"
+      ]
+     }
+    },
+    {
+     "id": "17919216447467220",
+     "comments_count": 2,
+     "like_count": 17,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfgOlnuEwuW/",
+     "timestamp": "2026-11-09T02:11:05+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "\"엔비디아의 폭주를 막아선 건 경쟁사가 아닌 '치명적 스캔들'이었습니다.\"",
+      "last_question": "",
+      "structure": "문장×2>항목×3>문장×2>해시태그",
+      "numbers": [
+       "1",
+       "3",
+       "10월",
+       "1위",
+       "1",
+       "3"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#뉴스3",
+       "#권순우기자",
+       "#엔비디아",
+       "#젠슨황",
+       "#스파이스캔들",
+       "#TSMC",
+       "#반도체전망",
+       "#SK하이닉스",
+       "#삼성전자",
+       "#조선주",
+       "#조선업",
+       "#LNG선",
+       "#주식투자"
+      ],
+      "keywords": [
+       "글로벌",
+       "치명적",
+       "스캔들",
+       "한국의",
+       "젠슨",
+       "중국",
+       "디램",
+       "직접",
+       "없습니다",
+       "영원한",
+       "엔비디아의",
+       "폭주를"
+      ],
+      "series": "",
+      "chars": 754,
+      "lines": 8,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "9 Bro AF 대가 중국 스파이? 젠슨",
+      "cover_chars": 16,
+      "visual": "graphic",
+      "top5_share": 0.769,
+      "n_colors": 30,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#301010"
+      ]
+     }
+    },
+    {
+     "id": "17914249425558105",
+     "comments_count": 2,
+     "like_count": 12,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfYow7dEweO/",
+     "timestamp": "2026-11-06T03:25:53+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "끝없이 추락하는 파란색 계좌, 쏟아지는 투매 속에서 \"이제 AI 랠리는 완전히 끝났다\"는 극단적인 절망론이 ",
+      "last_question": "",
+      "structure": "문장×2>항목×3>문장×2>해시태그",
+      "numbers": [
+       "2년"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#더블업",
+       "#송재경대표",
+       "#대폭락장",
+       "#레버리지청산",
+       "#AI관련주",
+       "#데이터센터",
+       "#텍사스규제",
+       "#주식투자",
+       "#빅테크",
+       "#주식공부",
+       "#코스피"
+      ],
+      "keywords": [
+       "AI",
+       "있습니다",
+       "청산",
+       "아닙니다",
+       "팩트",
+       "데이터센터",
+       "끝없이",
+       "추락하는",
+       "파란색",
+       "계좌",
+       "쏟아지는",
+       "투매"
+      ],
+      "series": "",
+      "chars": 754,
+      "lines": 8,
+      "emoji_per_100": 0.53,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "지금 필요한",
+      "cover_chars": 5,
+      "visual": "graphic",
+      "top5_share": 0.638,
+      "n_colors": 47,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18145335475717530",
+     "comments_count": 1,
+     "like_count": 12,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfWJF7UE0BU/",
+     "timestamp": "2026-11-05T04:10:39+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "\"민주당이 압승하면 환경 규제 때문에 AI 관련주는 폭락할 것이다.\"",
+      "last_question": "",
+      "structure": "문장×3>항목×3>문장×2>해시태그",
+      "numbers": [
+       "3%",
+       "180",
+       "3"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#뉴스3",
+       "#권순우기자",
+       "#미국중간선거",
+       "#블루쓰나미",
+       "#AI관련주",
+       "#데이터센터",
+       "#통신주",
+       "#SKT",
+       "#LG유플러스",
+       "#수소관련주",
+       "#주식투자"
+      ],
+      "keywords": [
+       "AI",
+       "규제",
+       "속에",
+       "시장을",
+       "가짜",
+       "거대한",
+       "민주당이",
+       "압승하면",
+       "환경",
+       "때문에",
+       "관련주는",
+       "폭락할"
+      ],
+      "series": "",
+      "chars": 666,
+      "lines": 9,
+      "emoji_per_100": 0.6,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "NEWS +3% 49 민주당 압승",
+      "cover_chars": 14,
+      "visual": "photo",
+      "top5_share": 0.383,
+      "n_colors": 96,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#103030"
+      ]
+     }
+    },
+    {
+     "id": "18570790885077245",
+     "comments_count": 1,
+     "like_count": 9,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfTY55rE186/",
+     "timestamp": "2026-11-04T02:31:06+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "\"선거만 끝나면 불확실성이 걷히고 시장이 반등할 것이다.\"",
+      "last_question": "혹시 이 뻔한 증시 격언을 그대로 믿고 계십니까?",
+      "structure": "문장>질문>문장>항목×3>문장×2>해시태그",
+      "numbers": [
+       "5%"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#더블업",
+       "#미국중간선거",
+       "#미국주식",
+       "#AI관련주",
+       "#데이터센터",
+       "#주식투자",
+       "#반도체전망",
+       "#경제공부",
+       "#코스피"
+      ],
+      "keywords": [
+       "선거",
+       "끝나면",
+       "거대한",
+       "선거만",
+       "불확실성이",
+       "걷히고",
+       "시장이",
+       "반등할",
+       "것이다",
+       "혹시",
+       "뻔한",
+       "증시"
+      ],
+      "series": "",
+      "chars": 601,
+      "lines": 9,
+      "emoji_per_100": 0.67,
+      "ends_with_question": false,
+      "giveaway": true,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "4 4 선거 끝나면 오른다? 개미 가짜",
+      "cover_chars": 15,
+      "visual": "photo",
+      "top5_share": 0.565,
+      "n_colors": 74,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#101030"
+      ]
+     }
+    },
+    {
+     "id": "18097827302442543",
+     "comments_count": 1,
+     "like_count": 5,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfRiK_7E2Hf/",
+     "timestamp": "2026-11-03T09:13:36+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "매년 화면 속으로만 보던 CES, 2027년엔 눈앞에서 만나보세요 🇺🇸",
+      "last_question": "1년에 단 한 번뿐인 기회, 놓치고 싶지 않다면?",
+      "structure": "문장×3>이모지소제목×2>항목×5>문장×2>질문>문장>결론>해시태그",
+      "numbers": [
+       "2027년",
+       "60",
+       "2027년",
+       "1월",
+       "3",
+       "2027",
+       "3",
+       "2027.1",
+       "4",
+       "1.11",
+       "1년",
+       "2027",
+       "3"
+      ],
+      "hashtags": [
+       "#CES2027",
+       "#CES",
+       "#라스베이거스",
+       "#삼프로TV",
+       "#삼프로",
+       "#3PRO탐방단",
+       "#실리콘밸리",
+       "#미국",
+       "#산업트렌드",
+       "#IT트렌드",
+       "#모빌리티"
+      ],
+      "keywords": [
+       "CES",
+       "삼프로",
+       "함께",
+       "PRO",
+       "모집합니다",
+       "세미나",
+       "탐방",
+       "매년",
+       "화면",
+       "속으로만",
+       "보던",
+       "년엔"
+      ],
+      "series": "",
+      "chars": 445,
+      "lines": 16,
+      "emoji_per_100": 1.8,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "CES 2027 뿐인 기회, 놓치고 싶지 않다면? 4 좌석 선착: 하기",
+      "cover_chars": 29,
+      "visual": "photo",
+      "top5_share": 0.361,
+      "n_colors": 89,
+      "face": false,
+      "colors": [
+       "#101070",
+       "#1030B0"
+      ]
+     }
+    },
+    {
+     "id": "18171249466480122",
+     "comments_count": 1,
+     "like_count": 9,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfQw6jlk3dT/",
+     "timestamp": "2026-11-03T02:03:11+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "끝없이 추락하는 반도체 대신, 그동안 거들떠보지도 않던 조선과 방산 주식이 갑자기 하루 만에 폭등한 진짜 이",
+      "last_question": "끝없이 추락하는 반도체 대신, 그동안 거들떠보지도 않던 조선과 방산 주식이 갑자기 하루 만에 폭등한 진짜 이",
+      "structure": "질문>문장>항목×3>문장×2>해시태그",
+      "numbers": [
+       "70%",
+       "70%"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#마켓인사이드",
+       "#박병창대표",
+       "#AI관련주",
+       "#데이터센터",
+       "#반도체전망",
+       "#조선주",
+       "#방산주",
+       "#코스피",
+       "#빈집털이",
+       "#주식투자"
+      ],
+      "keywords": [
+       "아닌",
+       "단기",
+       "거대한",
+       "대세",
+       "상승이",
+       "우려가",
+       "기관의",
+       "테마주",
+       "끝없이",
+       "추락하는",
+       "반도체",
+       "대신"
+      ],
+      "series": "",
+      "chars": 601,
+      "lines": 8,
+      "emoji_per_100": 0.67,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "3 나홀로 급등?",
+      "cover_chars": 7,
+      "visual": "photo",
+      "top5_share": 0.521,
+      "n_colors": 67,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#103030"
+      ]
+     }
+    },
+    {
+     "id": "18115577960147504",
+     "comments_count": 0,
+     "like_count": 4,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfOmsk6k1Lx/",
+     "timestamp": "2026-11-02T05:55:25+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "인텔의 어닝 쇼크와 함께 AI 관련 시가총액이 순식간에 5조 달러나 증발했습니다. 이제 정말 AI 버블이 터",
+      "last_question": "인텔의 어닝 쇼크와 함께 AI 관련 시가총액이 순식간에 5조 달러나 증발했습니다. 이제 정말 AI 버블이 터",
+      "structure": "질문>문장>항목×3>문장×2>해시태그",
+      "numbers": [
+       "5조",
+       "100%",
+       "19",
+       "500",
+       "6개",
+       "100%",
+       "1조",
+       "5조"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#더블체크",
+       "#이주연대표",
+       "#AI관련주",
+       "#인텔쇼크",
+       "#중간선거",
+       "#반도체전망",
+       "#코스피",
+       "#연기금",
+       "#주식투자",
+       "#경제공부"
+      ],
+      "keywords": [
+       "AI",
+       "시장의",
+       "돈은",
+       "있습니다",
+       "번의",
+       "반등",
+       "인텔의",
+       "어닝",
+       "쇼크와",
+       "함께",
+       "관련",
+       "시가총액이"
+      ],
+      "series": "",
+      "chars": 619,
+      "lines": 8,
+      "emoji_per_100": 0.65,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "12 22 5 달러 숨겨진",
+      "cover_chars": 10,
+      "visual": "photo",
+      "top5_share": 0.478,
+      "n_colors": 65,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "18071970263785795",
+     "comments_count": 0,
+     "like_count": 14,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfGS-2ak_nH/",
+     "timestamp": "2026-10-30T00:29:13+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "AI의 시조새로 불리던 구글이 상장 이래 역대 최악의 폭락을 기록하고, 수출 대장주 현대차가 6년 만에 역성",
+      "last_question": "",
+      "structure": "문장×2>항목×3>문장×2>해시태그",
+      "numbers": [
+       "6년",
+       "13%",
+       "500조",
+       "3"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#뉴스3",
+       "#권순우기자",
+       "#알파벳",
+       "#현대차실적",
+       "#구글쇼크",
+       "#퇴직연금",
+       "#기금형퇴직연금",
+       "#체코원전",
+       "#주식투자",
+       "#경제공부"
+      ],
+      "keywords": [
+       "뼈아픈",
+       "국내",
+       "AI의",
+       "시조새로",
+       "불리던",
+       "구글이",
+       "상장",
+       "이래",
+       "역대",
+       "최악의",
+       "폭락을",
+       "기록하고"
+      ],
+      "series": "",
+      "chars": 609,
+      "lines": 8,
+      "emoji_per_100": 0.66,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "NOW 3.48% 3.12% 370 10 30 배신? 폭락 숨겨진",
+      "cover_chars": 28,
+      "visual": "photo",
+      "top5_share": 0.637,
+      "n_colors": 69,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    },
+    {
+     "id": "17870017482660668",
+     "comments_count": 0,
+     "like_count": 9,
+     "media_product_type": "FEED",
+     "media_type": "CAROUSEL_ALBUM",
+     "permalink": "https://www.instagram.com/p/DfEeT0TEyay/",
+     "timestamp": "2026-10-29T07:29:43+0000",
+     "slides": 5,
+     "collected_at": "2026-11-18T21:16:20+00:00",
+     "skeleton": {
+      "first_line": "역대급 실적을 발표한 삼성전자, 그런데 주가는 왜 곤두박질쳤을까요?",
+      "last_question": "역대급 실적을 발표한 삼성전자, 그런데 주가는 왜 곤두박질쳤을까요?",
+      "structure": "질문>문장>항목×3>문장×2>해시태그",
+      "numbers": [
+       "100조",
+       "76조",
+       "50",
+       "500"
+      ],
+      "hashtags": [
+       "#삼프로TV",
+       "#아침N투자",
+       "#삼성전자",
+       "#주주환원",
+       "#코스피",
+       "#ETF추천",
+       "#포트폴리오",
+       "#퇴직연금",
+       "#S&P500",
+       "#주식투자",
+       "#경제공부"
+      ],
+      "keywords": [
+       "실망스러운",
+       "주주환원",
+       "비중을",
+       "당장",
+       "역대급",
+       "실적을",
+       "발표한",
+       "삼성전자",
+       "그런데",
+       "주가는",
+       "곤두박질쳤을까요",
+       "시장을"
+      ],
+      "series": "",
+      "chars": 582,
+      "lines": 8,
+      "emoji_per_100": 0.69,
+      "ends_with_question": false,
+      "giveaway": false,
+      "ad": false
+     },
+     "visual": {
+      "cover_text": "102 29 2 100 실적 착각? 폭락 부른",
+      "cover_chars": 18,
+      "visual": "graphic",
+      "top5_share": 0.713,
+      "n_colors": 56,
+      "face": false,
+      "colors": [
+       "#101010",
+       "#303030"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
