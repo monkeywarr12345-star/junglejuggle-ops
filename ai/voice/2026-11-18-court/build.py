@@ -52,8 +52,8 @@ def main():
     nar = nar / (np.abs(nar).max() or 1) * 0.89
     sf.write(os.path.join(out, "narration.wav"), nar, SR)
     W = lambda k, f: round(win[k][0] + f * (win[k][1] - win[k][0]), 3)
-    sfx = {"whoosh": [win[k][0] for k in ids[1:]], "pop": [0.45, W("s4", 0.45), W("s11", 0.35), W("s11", 0.7)],
-           "tick": [], "type0": W("s10", 0.25), "type1": W("s10", 0.45), "send": W("s10", 0.6), "swish": [W("s5", 0.02), W("s7", 0.02), W("s9", 0.02)], "count0": -10}
+    sfx = {"whoosh": [win[k][0] for k in ("s2", "s4", "s7", "s8")], "pop": [0.45, W("s4", 0.15), W("s5", 0.15), W("s6", 0.15), W("s8", 0.3)],
+           "tick": [], "type0": W("s8", 0.45), "type1": W("s8", 0.6), "send": W("s8", 0.75), "swish": [W("s3", 0.02), W("s7", 0.5)], "count0": -10}
     try:
         sf.write(os.path.join(out, "sfx.wav"), v4.synth_sfx(sfx, dur), SR)
     except Exception as e:
