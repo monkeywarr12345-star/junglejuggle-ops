@@ -10,7 +10,7 @@ import json, os, re, time, urllib.parse, urllib.request, datetime as dt
 
 ACCOUNTS = ["pickit_.official", "sebia.ai", "adu.aihub", "gpt_haterz", "joshproductletter", "reborn.ax", "grappt_", "work__zero",
             "ai_dori_", "ai_newpd", "ai.trend.kr", "trenddalkak.ai", "ai.brief.kr", "mktg.with.ai", "prompt_what", "lazy_owen",
-            "roy.branding", "theaigeekk", "mart_eting", "oaiwan.kr"]
+            "roy.branding", "theaigeekk", "mart_eting"]
 PAGES = 6
 G = "https://graph.facebook.com/v23.0"
 TOK, UID = os.environ["IG_ACCESS_TOKEN"], os.environ["IG_USER_ID"]
@@ -94,9 +94,10 @@ for u in ACCOUNTS:
                          "kw": kw, "terms": terms, "cap_len": len(cap)})
             head = re.sub(r"\s+", " ", cap)[:140]
             print(f"[{u}] {sc} {t:%y-%m-%d} {str(m.get('media_product_type'))[:4]} L{m.get('like_count') or 0} C{m.get('comments_count') or 0} | {head}")
-        after = d.get("media", {}).get("paging", {}).get("cursors", {}).get("after")
-        if not after or not d.get("media", {}).get("paging", {}).get("next"):
+        nxt = d.get("media", {}).get("paging", {}).get("cursors", {}).get("after")
+        if not nxt or nxt == after or not d.get("media", {}).get("data"):
             break
+        after = nxt
         time.sleep(2)
     out["accounts"][u] = {"followers": followers, "rows": rows, **({"error": err} if err else {})}
     print(f"== {u}: {len(rows)} posts, followers {followers}, err {err}")
