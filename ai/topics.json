@@ -78,10 +78,11 @@
    "tool": "Claude",
    "keyword": "재판",
    "evidence": "pickit court-skill 14.2x(댓글 2,199), gpt_haterz 재판 스킬 11.3x(댓글 4,463), lazy_owen 클로드 법정 릴스 댓글 10,874. 같은 소재의 '한 줄 프롬프트' 포장은 평소의 0.83배",
-   "status": "doing",
+   "status": "ready",
    "reel": "2026-11-18-court",
    "publish_at": "2026-11-18",
-   "note": "2026-11-18 n=5(반대 한 줄)를 대체. 벤치마크 구조 규칙(0초 큰 제목+움직이는 정글이, ①②③ 진행, 끝 댓글→DM 화면) 첫 적용"
+   "note": "2026-11-18 n=5(반대 한 줄)를 대체. 벤치마크 구조 규칙(0초 큰 제목+움직이는 정글이, ①②③ 진행, 끝 댓글→DM 화면) 첫 적용",
+   "final": "media/ai/2026-11-18-court/reel_nomusic.mp4 (음악 없음, 30.47초), cover.jpg"
   },
   {
    "n": 17,
