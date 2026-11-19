@@ -91,7 +91,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
 .grid{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin-top:10px}.grid i{height:56px;border-radius:12px;opacity:.9}
 :root{--ct:330px}
 .card{top:var(--ct)!important}
-#c7{top:1000px!important}
+#c5{top:560px!important}#c6{top:520px!important}#c7{top:500px!important}
+.w.low{top:1610px}
 </style></head><body>
 <svg width="0" height="0" style="position:absolute"><defs><linearGradient id="gg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#4c8df6"/><stop offset=".55" stop-color="#9b72cb"/><stop offset="1" stop-color="#d96570"/></linearGradient><symbol id="spark" viewBox="0 0 100 100"><path d="M50 0 C53 28 72 47 100 50 C72 53 53 72 50 100 C47 72 28 53 0 50 C28 47 47 28 50 0Z" fill="url(#gg)"/></symbol></defs></svg>
 <div id="root">
@@ -159,15 +160,16 @@ cardIn("#c4",S("s4")[0],S("s5")[0]); stamp("#s4s",W("s4",.3));
 cardIn("#c5",S("s5")[0],S("s6")[0]);
 cardIn("#c6",S("s6")[0],S("s7")[0]); count("#n6",10000,W("s6",.15),.9);
 // CTA
+show("#disc",0,S("s7")[0]);
 show("#c7",S("s7")[0],T.dur);tl.fromTo("#c7",{y:60,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},S("s7")[0]);
 tl.to("#fb .a",{opacity:0,duration:.15},W("s7",.18));tl.to("#fb .b",{opacity:1,duration:.15},W("s7",.18));
 const kw="'"+T.kw+"'";const o2={n:0};tl.to(o2,{n:kw.length,duration:.35,ease:"none",onUpdate:()=>{document.getElementById("kw").textContent=kw.slice(0,Math.round(o2.n))}},W("s7",.38));
 tl.call(()=>{document.getElementById("kw").textContent=""},null,S("s7")[0]);
 tl.fromTo("#dm",{opacity:0,y:-30,scale:.9},{opacity:1,y:0,scale:1,duration:.35,ease:"back.out(2)"},W("s7",.62));
 const caps=document.getElementById("caps");
-T.caps.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
+T.caps.forEach((w,i)=>{const el=document.createElement("div");el.className="w"+(w[3]==="s7"?" low":"");el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
  const a=i===0?0:w[0],b=i+1<T.caps.length?T.caps[i+1][0]:T.dur;show("#w"+i,a,b);
- tl.fromTo("#w"+i,{y:14,opacity:0},{y:0,opacity:1,duration:.16,ease:"power2.out"},a);
- if(el.querySelector("b"))tl.fromTo("#w"+i+" b",{scale:.85,opacity:.4},{scale:1,opacity:1,duration:.22,ease:"back.out(2.5)"},a+.06)});
+ if(i>0) tl.fromTo("#w"+i,{y:14,opacity:0},{y:0,opacity:1,duration:.16,ease:"power2.out"},a);
+ if(i>0&&el.querySelector("b"))tl.fromTo("#w"+i+" b",{scale:.85,opacity:.4},{scale:1,opacity:1,duration:.22,ease:"back.out(2.5)"},a+.06)});
 tl.set({}, {}, T.dur);
 </script></body></html>

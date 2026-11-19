@@ -9,7 +9,7 @@ BGM = M + '/src/bgm_ludyte.wav'
 T = json.load(open('tl.json')); DUR = T['dur']
 has_a = bool(subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'a', '-show_entries', 'stream=index', '-of', 'csv=p=0', src], capture_output=True, text=True).stdout.strip())
 fc = (f"[0:v]fps=30,scale=1080:1920:flags=lanczos:force_original_aspect_ratio=increase,crop=1080:1920,tpad=stop_mode=clone:stop_duration=4,"
-      f"trim=duration={DUR},setpts=PTS-STARTPTS,eq=contrast=1.03:saturation=1.05[bg];[bg][1:v]overlay=0:0:format=auto,format=yuv420p[v];"
+      f"trim=duration={DUR},setpts=PTS-STARTPTS,eq=contrast=1.03:saturation=1.05,split=2[b0][c1];[c1]crop=640:380:250:570,boxblur=22:2[k1];[b0][k1]overlay=250:570:enable='gte(t,23.3)'[bg];[bg][1:v]overlay=0:0:format=auto,format=yuv420p[v];"
       "[2:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=80,acompressor=threshold=0.12:ratio=2.5:attack=8:release=120,volume=1.15,asplit=2[nar][key];"
       "[3:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.55[sfx];")
 mix = ['[nar]', '[sfx]']
