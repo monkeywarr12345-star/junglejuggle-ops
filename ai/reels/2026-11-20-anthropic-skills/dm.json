@@ -1,0 +1,24 @@
+{
+  "keyword": "공식",
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
+  "follow_gate": {
+    "text": "댓글 고마워요! 자료는 팔로워 전용이에요. @jungle.gcc 팔로우하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 프로필에서 팔로우하고 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "앤트로픽 공식 스킬 켜는 법 전체본",
+    "subtitle": "켜는 법 3단계 + 스킬별 바로 쓰는 프롬프트 5개",
+    "button": "자료 열기",
+    "url": "https://observant-kiwi-cfe.notion.site/41d98083042481d79ff2f8c1225961db"
+  },
+  "dm_text": "요청하신 '앤트로픽 공식 스킬' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
+  "zorcha": "pending",
+  "any_keyword": true,
+  "notion": "https://app.notion.com/p/41d98083042481d79ff2f8c1225961db",
+  "notion_public": "https://observant-kiwi-cfe.notion.site/41d98083042481d79ff2f8c1225961db"
+}

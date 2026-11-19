@@ -104,7 +104,7 @@
       .trow { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; padding: 26px 28px; border-radius: 22px; background: rgba(255, 255, 255, .05); }
       .trow b { display: block; font-size: 33px; font-weight: 800; letter-spacing: -.8px; }
       .trow small { display: block; margin-top: 6px; font-size: 24px; color: var(--sub); font-weight: 600; }
-      .tg { width: 104px; height: 58px; border-radius: 30px; background: #4a3f39; position: relative; flex: none; }
+      .tgl { width: 104px; height: 58px; border-radius: 30px; background: #4a3f39; position: relative; flex: none; }
       .tg i { position: absolute; left: 6px; top: 6px; width: 46px; height: 46px; border-radius: 50%; background: #fff; }
       #tap { width: 90px; height: 90px; border-radius: 50%; border: 6px solid rgba(255, 255, 255, .85); opacity: 0; }
 
@@ -116,7 +116,7 @@
       #pj h3 { font-size: 46px; font-weight: 900; letter-spacing: -1.5px; }
       #pj .lab { margin-top: 30px; font-size: 26px; font-weight: 800; color: var(--sub); }
       .files { display: flex; gap: 16px; margin-top: 16px; flex-wrap: wrap; }
-      .file { display: flex; align-items: center; gap: 12px; padding: 16px 22px; border-radius: 18px; background: rgba(255, 255, 255, .07); font-size: 28px; font-weight: 700; }
+      .fl { display: flex; align-items: center; gap: 12px; padding: 16px 22px; border-radius: 18px; background: rgba(255, 255, 255, .07); font-size: 28px; font-weight: 700; }
       .file i { width: 34px; height: 42px; border-radius: 6px; display: block; }
       .cl { margin-top: 14px; padding: 20px 24px; border-radius: 18px; background: rgba(255, 255, 255, .04); font-size: 28px; font-weight: 600; display: flex; justify-content: space-between; }
       .cl span { color: var(--sub); font-size: 24px; }
@@ -209,11 +209,11 @@
       #st .tabs span { background: rgba(0, 0, 0, .05); }
       #st .tabs span.on { color: #fff; background: #123a26; }
       .trow { background: rgba(0, 0, 0, .04); }
-      .tg { background: #d9d0c4; }
+      .tgl { background: #d9d0c4; }
       #tap { border-color: rgba(18, 58, 38, .8); }
       #pj .hd .fold { background: linear-gradient(180deg, #5cc777, #2c9a55); }
       #pj .hd .fold::before { background: #5cc777; }
-      .file { background: rgba(0, 0, 0, .05); }
+      .fl { background: rgba(0, 0, 0, .05); }
       .cl { background: rgba(0, 0, 0, .035); }
       .stamp { border-color: #2c9a55; color: #2c9a55; }
       #pf .ta { background: #fff; border: 2px solid #e8dfcc; }
@@ -377,7 +377,7 @@
       .sub { display: none !important; }
       /* progress (top-left, fixed) */
       #trail { left: 56px; top: 30px; transform: none; gap: 8px; visibility: hidden; }
-      #trail .nd { width: auto; min-width: 46px; height: 46px; padding: 0 12px; border-radius: 23px; font-size: 24px; background: rgba(255,255,255,.06); }
+      #trail .nd { width: auto; min-width: 56px; height: 56px; padding: 0 14px; border-radius: 28px; font-size: 30px; background: rgba(255,255,255,.06); }
       #trail .nd.on { background: #ffd43b; border-color: #ffd43b; color: #123a26; }
       #trail .ln { width: 22px; }
       #brand { top: 104px; }
@@ -405,7 +405,7 @@
       .clbig i { position: absolute; left: 50%; top: 50%; width: 18px; height: 58px; margin: -58px 0 0 -9px; border-radius: 9px; background: #d97757; transform-origin: 50% 58px; }
       /* skill chip in card header */
       .skc { margin-left: auto; padding: 8px 16px; border-radius: 12px; background: #123a26; color: #ffd43b; font-size: 26px; font-weight: 900; letter-spacing: -.3px; font-family: ui-monospace, Menlo, monospace; }
-      .sk { height: 730px; }
+      .sk { min-height: 520px; }
       /* s3 site mock */
       .site { margin-top: 26px; border-radius: 22px; overflow: hidden; background: #f2ede4; border: 2px solid #e2d8c4; }
       .site .nav { display: flex; align-items: center; gap: 22px; padding: 18px 26px; font-size: 22px; font-weight: 800; color: #3a2a20; letter-spacing: 1px; }
@@ -419,11 +419,11 @@
       .site .hero .ph { flex: 1; border-radius: 18px 90px 18px 18px; background: radial-gradient(circle at 35% 35%, #e7b07a, #c1592e 55%, #6b2e14); min-height: 230px; }
       .tag2 { position: absolute; right: 40px; top: 600px; padding: 10px 22px; border: 6px solid #2c9a55; color: #2c9a55; background: rgba(255,255,255,.75); border-radius: 18px; font-size: 40px; font-weight: 900; transform: rotate(-8deg); }
       /* s4 files */
-      .file { margin-top: 18px; display: flex; align-items: center; gap: 20px; padding: 18px 22px; border-radius: 20px; background: #fff; border: 2px solid #e2d8c4; }
-      .file .fi { width: 74px; height: 86px; border-radius: 12px; display: grid; place-items: center; color: #fff; font-size: 38px; font-weight: 900; flex: none; }
-      .file .fn { font-size: 34px; font-weight: 900; letter-spacing: -1px; }
-      .file .fs { font-size: 25px; font-weight: 700; color: #8a938c; margin-top: 4px; }
-      .file .dl { margin-left: auto; padding: 10px 18px; border-radius: 14px; background: #123a26; color: #fff; font-size: 26px; font-weight: 900; }
+      .fl { margin-top: 18px; display: flex; align-items: center; gap: 20px; padding: 18px 22px; border-radius: 20px; background: #fff; border: 2px solid #e2d8c4; }
+      .fl .fi { width: 74px; height: 86px; border-radius: 12px; display: grid; place-items: center; color: #fff; font-size: 38px; font-weight: 900; flex: none; }
+      .fl .fn { font-size: 34px; font-weight: 900; letter-spacing: -1px; }
+      .fl .fs { font-size: 25px; font-weight: 700; color: #8a938c; margin-top: 4px; }
+      .fl .dl { margin-left: auto; padding: 10px 18px; border-radius: 14px; background: #123a26; color: #fff; font-size: 26px; font-weight: 900; }
       /* s5 skill tree */
       .tree { margin-top: 18px; padding: 22px 26px; border-radius: 20px; background: #1d2a22; color: #f3efe6; font-family: ui-monospace, Menlo, monospace; font-size: 31px; font-weight: 700; line-height: 1.6; }
       .tree .ok { color: #7ee2a0; }
@@ -442,17 +442,17 @@
       /* s7 settings toggles */
       .crumb { display: flex; align-items: center; gap: 12px; font-size: 36px; font-weight: 900; letter-spacing: -.8px; padding-bottom: 18px; border-bottom: 2px solid rgba(0,0,0,.07); }
       .crumb .gr { color: #8a938c; }
-      .tg { margin-top: 18px; display: flex; align-items: center; gap: 18px; padding: 18px 24px; border-radius: 18px; background: rgba(0,0,0,.045); font-size: 34px; font-weight: 900; letter-spacing: -.5px; font-family: ui-monospace, Menlo, monospace; }
-      .tg small { font-family: "Pretendard", sans-serif; font-size: 26px; font-weight: 700; color: #8a938c; letter-spacing: -.5px; }
-      .tg .sw { margin-left: auto; width: 96px; height: 54px; border-radius: 27px; background: #cfc6b4; position: relative; flex: none; }
-      .tg .sw i { position: absolute; left: 5px; top: 5px; width: 44px; height: 44px; border-radius: 50%; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
+      .tgl { margin-top: 18px; display: flex; align-items: center; gap: 18px; padding: 18px 24px; border-radius: 18px; background: rgba(0,0,0,.045); font-size: 34px; font-weight: 900; letter-spacing: -.5px; font-family: ui-monospace, Menlo, monospace; }
+      .tgl small { font-family: "Pretendard", sans-serif; font-size: 26px; font-weight: 700; color: #8a938c; letter-spacing: -.5px; }
+      .tgl .sw { margin-left: auto; width: 96px; height: 54px; border-radius: 27px; background: #cfc6b4; position: relative; flex: none; }
+      .tgl .sw i { position: absolute; left: 5px; top: 5px; width: 44px; height: 44px; border-radius: 50%; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
       .note7 { margin-top: 22px; font-size: 28px; font-weight: 800; color: #6d7a6f; letter-spacing: -.5px; }
       /* s8 terminal */
-      .term .ln2 { font-size: 30px; }
+      .term .ln2 { font-size: 25px; letter-spacing: -.6px; }
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="28.73" data-width="1080" data-height="1920">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="26.18" data-width="1080" data-height="1920">
       <div id="bg"></div>
       <svg width="0" height="0" style="position:absolute"><defs><symbol id="leaf" viewBox="0 0 400 200" preserveAspectRatio="none"><path d="M0 100 C80 8 250 -12 400 100 C250 212 80 192 0 100Z" fill="currentColor"/><path d="M0 100 C140 96 270 98 400 100" stroke="rgba(0,0,0,.28)" stroke-width="5" fill="none"/><path d="M80 99 L140 42 M155 99 L225 30 M235 99 L300 46 M80 101 L140 158 M155 101 L225 170 M235 101 L300 154" stroke="rgba(0,0,0,.2)" stroke-width="4" fill="none"/><path d="M175 22 L205 99 M175 178 L205 101 M265 40 L290 99" stroke="rgba(6,20,13,.9)" stroke-width="9" fill="none"/></symbol></defs></svg>
       <div id="leaves"></div>
@@ -495,8 +495,8 @@
           <div class="gh"><span class="clogo"></span><b>Claude</b><span class="skc">pptx · xlsx</span></div>
           <div class="ub" id="u4">이 매출 메모로 보고서 PPT랑 엑셀 만들어 줘</div>
           <div class="ar" id="a4"><span class="mk"></span><div class="tx"><div class="hd">파일 2개 만들었어요 📎</div>
-            <div class="file q4"><span class="fi" style="background:#d24726">P</span><div><div class="fn">3분기_보고서.pptx</div><div class="fs">슬라이드 · 차트 포함</div></div><span class="dl">⬇</span></div>
-            <div class="file q4"><span class="fi" style="background:#1d7a45">X</span><div><div class="fn">매출_정리.xlsx</div><div class="fs">수식 · 표 정리</div></div><span class="dl">⬇</span></div>
+            <div class="fl q4"><span class="fi" style="background:#d24726">P</span><div><div class="fn">3분기_보고서.pptx</div><div class="fs">슬라이드 · 차트 포함</div></div><span class="dl">⬇</span></div>
+            <div class="fl q4"><span class="fi" style="background:#1d7a45">X</span><div><div class="fn">매출_정리.xlsx</div><div class="fs">수식 · 표 정리</div></div><span class="dl">⬇</span></div>
           </div></div>
         </div>
       </div>
@@ -524,10 +524,10 @@
       <div class="scene" id="x7">
         <div class="card set sk" id="g7" style="top:330px">
           <div class="crumb"><span class="clogo"></span><span class="gr">Customize</span><span class="gr">›</span><span>Skills</span></div>
-          <div class="tg q7"><span>frontend-design</span><span class="sw" id="sw1"><i></i></span></div>
-          <div class="tg q7"><span>pptx <small>파워포인트</small></span><span class="sw" id="sw2"><i></i></span></div>
-          <div class="tg q7"><span>xlsx <small>엑셀</small></span><span class="sw" id="sw3"><i></i></span></div>
-          <div class="tg q7"><span>skill-creator</span><span class="sw" id="sw4"><i></i></span></div>
+          <div class="tgl q7"><span>frontend-design</span><span class="sw" id="sw1"><i></i></span></div>
+          <div class="tgl q7"><span>pptx <small>파워포인트</small></span><span class="sw" id="sw2"><i></i></span></div>
+          <div class="tgl q7"><span>xlsx <small>엑셀</small></span><span class="sw" id="sw3"><i></i></span></div>
+          <div class="tgl q7"><span>skill-creator</span><span class="sw" id="sw4"><i></i></span></div>
           <div class="note7">※ 설정 › 기능에서 코드 실행(파일 생성)을 먼저 켜 주세요</div>
         </div>
       </div>
@@ -615,26 +615,26 @@
 
       // s3 frontend-design
       show("#x3", S("s3")[0], S("s3")[1]); inn("#g3", S("s3")[0]);
-      pop("#u3", W("s3", 0.12), { y: 40 });
-      tl.fromTo("#site3", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, W("s3", 0.42));
-      rows("#site3 .nav, #site3 h6, #site3 p, #site3 .btn", W("s3", 0.45), 0.14);
-      tl.fromTo("#site3 .ph", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.6)" }, W("s3", 0.5));
+      pop("#u3", W("s3", 0.03), { y: 40 });
+      tl.fromTo("#site3", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, W("s3", 0.22));
+      rows("#site3 .nav, #site3 h6, #site3 p, #site3 .btn", W("s3", 0.25), 0.12);
+      tl.fromTo("#site3 .ph", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.6)" }, W("s3", 0.3));
       tl.fromTo("#tg3", { opacity: 0, scale: 1.8 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)" }, W("s3", 0.72));
       tl.set("#g3", { className: "card set sk cw glow" }, W("s3", 0.72));
 
       // s4 files
       show("#x4", S("s4")[0], S("s4")[1]); inn("#g4", S("s4")[0]);
-      pop("#u4", W("s4", 0.1), { y: 40 });
-      tl.fromTo("#a4", { opacity: 0 }, { opacity: 1, duration: 0.2 }, W("s4", 0.4));
-      rows("#a4 .hd, #a4 .file", W("s4", 0.4), 0.2);
+      pop("#u4", W("s4", 0.03), { y: 40 });
+      tl.fromTo("#a4", { opacity: 0 }, { opacity: 1, duration: 0.2 }, W("s4", 0.3));
+      rows("#a4 .hd, #a4 .fl", W("s4", 0.3), 0.2);
       tl.set("#g4", { className: "card set sk cw glow" }, W("s4", 0.75));
 
       // s5 skill-creator
       show("#x5", S("s5")[0], S("s5")[1]); inn("#g5", S("s5")[0]);
-      pop("#u5", W("s5", 0.1), { y: 40 });
-      tl.fromTo("#a5", { opacity: 0 }, { opacity: 1, duration: 0.2 }, W("s5", 0.42));
-      rows("#a5 .hd, #tr5 .q5", W("s5", 0.42), 0.18);
-      pop("#nx5", W("s5", 0.72), { y: 30 });
+      pop("#u5", W("s5", 0.03), { y: 40 });
+      tl.fromTo("#a5", { opacity: 0 }, { opacity: 1, duration: 0.2 }, W("s5", 0.3));
+      rows("#a5 .hd, #tr5 .q5", W("s5", 0.3), 0.18);
+      pop("#nx5", W("s5", 0.62), { y: 30 });
       tl.set("#g5", { className: "card set sk cw glow" }, W("s5", 0.72));
 
       // s6 analogy
@@ -645,7 +645,7 @@
 
       // s7 toggles on one by one
       show("#x7", S("s7")[0], S("s7")[1]); inn("#g7", S("s7")[0]);
-      rows("#g7 .tg", W("s7", 0.08), 0.1);
+      rows("#g7 .tgl", W("s7", 0.08), 0.1);
       [1, 2, 3, 4].forEach((n, i) => { const t = W("s7", 0.3) + i * 0.22; tl.to("#sw" + n, { backgroundColor: "#2c9a55", duration: 0.15 }, t); tl.to("#sw" + n + " i", { x: 42, duration: 0.2, ease: "back.out(2)" }, t); });
       tl.fromTo("#g7 .note7", { opacity: 0 }, { opacity: 1, duration: 0.3 }, W("s7", 0.6));
       tl.set("#g7", { className: "card set sk glow" }, W("s7", 0.62));
