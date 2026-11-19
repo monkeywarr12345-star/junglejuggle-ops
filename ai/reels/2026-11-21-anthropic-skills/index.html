@@ -104,7 +104,7 @@
       .trow { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; padding: 26px 28px; border-radius: 22px; background: rgba(255, 255, 255, .05); }
       .trow b { display: block; font-size: 33px; font-weight: 800; letter-spacing: -.8px; }
       .trow small { display: block; margin-top: 6px; font-size: 24px; color: var(--sub); font-weight: 600; }
-      .tgl { width: 104px; height: 58px; border-radius: 30px; background: #4a3f39; position: relative; flex: none; }
+      .tg { width: 104px; height: 58px; border-radius: 30px; background: #4a3f39; position: relative; flex: none; }
       .tg i { position: absolute; left: 6px; top: 6px; width: 46px; height: 46px; border-radius: 50%; background: #fff; }
       #tap { width: 90px; height: 90px; border-radius: 50%; border: 6px solid rgba(255, 255, 255, .85); opacity: 0; }
 
@@ -209,7 +209,7 @@
       #st .tabs span { background: rgba(0, 0, 0, .05); }
       #st .tabs span.on { color: #fff; background: #123a26; }
       .trow { background: rgba(0, 0, 0, .04); }
-      .tgl { background: #d9d0c4; }
+      .tg { background: #d9d0c4; }
       #tap { border-color: rgba(18, 58, 38, .8); }
       #pj .hd .fold { background: linear-gradient(180deg, #5cc777, #2c9a55); }
       #pj .hd .fold::before { background: #5cc777; }
@@ -578,7 +578,7 @@
         const el = document.createElement("div"); el.className = "w"; el.id = "w" + i; el.innerHTML = `<span>${w[2]}</span>`; if (!i) el.style.visibility = "visible"; caps.appendChild(el);
         const a = i === 0 ? 0 : w[0], b = i + 1 < T.words.length ? T.words[i + 1][0] : T.dur;
         show("#w" + i, a, b);
-        if (el.querySelector("b")) tl.fromTo("#w" + i + " b", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.35, ease: "power2.out" }, a + 0.06);
+        if (el.querySelector("b")) tl.fromTo("#w" + i + " b", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.22, ease: "power2.out" }, a + 0.06);
       });
 
       // progress ①②③⚙ (top-left): only the current step is yellow
