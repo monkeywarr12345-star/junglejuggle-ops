@@ -1,0 +1,114 @@
+"""2026-11-20 reel builder (Anthropic official skills) — v7 jungle style.
+Captions = the spoken sentence itself, split at commas/periods; split times follow the pauses in the TTS audio.
+usage: python build.py <voice spec> <outdir>   (voice spec as in ai/template/build.py)
+"""
+import sys, os, json, re, html, importlib.util
+import numpy as np, soundfile as sf
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+_spec = importlib.util.spec_from_file_location("v4", os.path.join(HERE, "..", "..", "template", "build.py"))
+v4 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v4)
+SR = v4.SR
+
+KEYWORD = "공식"
+# (scene id, spoken text (TTS), on-screen text = same sentence (**x** = yellow highlight), pose/notes)
+LINES = [
+    ("s1", "클로드 만든 앤트로픽이, 직접 만든 스킬을 공짜로 풀었어요.", "클로드 만든 앤트로픽이, 직접 만든 스킬을 **공짜로** 풀었어요."),
+    ("s2", "출처 모를 스킬 찾아 헤매지 마세요, 원조가 만든 공식 스킬이 있어요.", "출처 모를 스킬 찾아 헤매지 마세요, 원조가 만든 **공식 스킬**이 있어요."),
+    ("s3", "첫 번째, 프론트엔드 디자인. 뻔한 에이아이 티 대신, 디자이너가 만든 듯한 화면을 짜 줘요.", "첫 번째, 프론트엔드 디자인. 뻔한 AI 티 대신, **디자이너**가 만든 듯한 화면을 짜 줘요."),
+    ("s4", "두 번째, 피피티랑 엑셀. 말 한마디면, 진짜 파일로 바로 뽑아 줘요.", "두 번째, PPT랑 엑셀. 말 한마디면, **진짜 파일**로 바로 뽑아 줘요."),
+    ("s5", "세 번째, 스킬 크리에이터. 내 업무를 설명하면, 나만의 스킬로 만들어 줘요.", "세 번째, 스킬 크리에이터. 내 업무를 설명하면, **나만의 스킬**로 만들어 줘요."),
+    ("s6", "쉽게 말하면, 신입 직원한테 회사 업무 매뉴얼을 통째로 쥐여 주는 거예요.", "쉽게 말하면, 신입 직원한테 **업무 매뉴얼**을 통째로 쥐여 주는 거예요."),
+    ("s7", "켜는 법도 쉬워요. 커스터마이즈, 스킬 메뉴에서, 토글만 켜면 끝이에요.", "켜는 법도 쉬워요. Customize, Skills 메뉴에서, **토글만** 켜면 끝이에요."),
+    ("s8", "무료 플랜도 되고, 클로드 코드는 명령어 세 줄이면 깔려요.", "**무료 플랜**도 되고, Claude Code는 명령어 3줄이면 깔려요."),
+    ("s9", "팔로우하고 댓글에 공식, 남기면 켜는 법이랑 프롬프트 전체본 디엠으로 보내드려요.", "팔로우하고 댓글에 **'공식'** 남기면, 켜는 법·프롬프트 전체본 DM으로 보내드려요."),
+]
+LEAD, GAP, TAIL = 0.05, 0.12, 1.4
+# progress chips (top-left): scene -> active node
+STEP = {"s3": 1, "s4": 2, "s5": 3, "s7": 4, "s8": 4}
+
+
+def segs(text):
+    """split a sentence into caption pieces at , and . (keeps punctuation); **x** -> <b>x</b>"""
+    parts = [p.strip() for p in re.split(r"(?<=[,.])\s+", text) if p.strip()]
+    out = []
+    for p in parts:
+        h = html.escape(p)
+        h = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", h)
+        out.append((h, len(re.sub(r"\*\*", "", p))))
+    return out
+
+
+def pauses(w, k):
+    """times (s, within clip) of the k longest pauses inside clip w, sorted; None if not found"""
+    if k <= 0: return []
+    hop = int(SR * 0.01); n = len(w) // hop
+    if n < 10: return None
+    e = np.array([np.sqrt(np.mean(w[i * hop:(i + 1) * hop] ** 2)) for i in range(n)])
+    thr = max(1e-4, 0.08 * np.percentile(e, 90))
+    sil = e < thr; runs = []; i = 0
+    while i < n:
+        if sil[i]:
+            j = i
+            while j < n and sil[j]: j += 1
+            if i > 5 and j < n - 5 and j - i >= 4: runs.append((j - i, (i + j) / 2 * 0.01))
+            i = j
+        else:
+            i += 1
+    if len(runs) < k: return None
+    runs.sort(reverse=True)
+    return sorted(t for _, t in runs[:k])
+
+
+def main():
+    spec, out = sys.argv[1], sys.argv[2]
+    os.makedirs(out, exist_ok=True)
+    tts = v4.make_tts(spec)
+    clips, sp, words, t = [], {}, [], LEAD
+    meta = {}
+    for sid, say, show in LINES:
+        w = v4.trim(tts(say)); d = len(w) / SR
+        clips.append((t, w)); sp[sid] = [round(t, 3), round(t + d, 3)]
+        meta[sid] = {"sub": "", "pill": "", "chip": "", "step": STEP.get(sid, 0)}
+        cs = segs(show)
+        ps = pauses(w, len(cs) - 1)
+        if ps is None:  # proportional fallback
+            tot = sum(n for _, n in cs); acc = 0; ps = []
+            for _, n in cs[:-1]:
+                acc += n; ps.append(d * acc / tot)
+        bounds = [0.0] + list(ps) + [d]
+        for i, (c, n) in enumerate(cs):
+            words.append([round(t + bounds[i], 3), round(t + bounds[i + 1], 3), c, sid])
+        t += d + GAP
+    dur = round(t - GAP + TAIL, 2)
+    ids = [l[0] for l in LINES]; win = {}
+    for i, sid in enumerate(ids):
+        a = 0.0 if i == 0 else sp[sid][0] - 0.1
+        b = (sp[ids[i + 1]][0] - 0.1) if i + 1 < len(ids) else dur
+        win[sid] = [round(a, 3), round(b, 3)]
+    tl = {"dur": dur, "s": win, "sp": sp, "words": words, "meta": meta, "kw": KEYWORD, "cover_t": 0.8}
+    open(os.path.join(HERE, "timeline.js"), "w", encoding="utf-8").write("window.TL = " + json.dumps(tl, ensure_ascii=False) + ";\n")
+    page = open(os.path.join(HERE, "index.html"), encoding="utf-8").read()
+    page = re.sub(r'data-duration="[^"]*"( data-width)', f'data-duration="{dur}"\\1', page, count=1)
+    open(os.path.join(HERE, "index.html"), "w", encoding="utf-8").write(page)
+    nar = np.zeros(int(SR * dur), np.float32)
+    for t0, w in clips:
+        i = int(t0 * SR); nar[i:i + len(w)] += w[: len(nar) - i]
+    nar = nar / (np.abs(nar).max() or 1) * 0.89
+    sf.write(os.path.join(out, "narration.wav"), nar, SR)
+    W = lambda k, f: round(win[k][0] + f * (win[k][1] - win[k][0]), 3)
+    sfx = {
+        "whoosh": [win[k][0] for k in ["s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9"]],
+        "pop": [0.45, W("s2", 0.2), W("s2", 0.4), W("s2", 0.6), W("s3", 0.2), W("s3", 0.5), W("s4", 0.45), W("s4", 0.6),
+                W("s5", 0.45), W("s5", 0.6), W("s6", 0.25), W("s6", 0.55), W("s8", 0.8), W("s9", 0.25), W("s9", 0.6)],
+        "tick": [W("s7", 0.3) + 0.22 * k for k in range(4)],
+        "type0": W("s8", 0.1), "type1": W("s8", 0.6), "send": W("s8", 0.62),
+        "swish": [W("s3", 0.12), W("s6", 0.2)], "count0": W("s9", 0.6) - 1.0,
+    }
+    sf.write(os.path.join(out, "sfx.wav"), v4.synth_sfx(sfx, dur), SR)
+    json.dump(tl, open(os.path.join(out, "timeline.json"), "w"), ensure_ascii=False, indent=1)
+    print("dur", dur)
+
+
+if __name__ == "__main__":
+    main()
