@@ -1,0 +1,17 @@
+<!doctype html><html lang="ko"><head><meta charset="UTF-8"/><style>
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;font-family:P,sans-serif;color:#fff}
+#bg{position:absolute;inset:0;background-size:cover;background-position:center}
+#sh{position:absolute;left:0;right:0;top:1000px;bottom:0;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.72) 35%,rgba(0,0,0,.9))}
+#lab{position:absolute;left:72px;top:1230px;display:flex;align-items:center;gap:14px;font-size:50px;font-weight:900}
+#lab i{width:16px;height:16px;border-radius:50%;display:inline-block}
+#title{position:absolute;left:72px;right:40px;top:1305px;font-size:108px;line-height:1.12;font-weight:900;letter-spacing:-5px;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+#title em{font-style:normal;color:#ffd43b}
+#stk{position:absolute;left:470px;top:1215px;padding:12px 26px 14px;border-radius:8px 26px 8px 26px;background:#e5484d;font-size:46px;font-weight:900;letter-spacing:-1.5px;transform:rotate(-6deg);box-shadow:0 8px 0 rgba(0,0,0,.4)}
+</style></head><body><div id="bg"></div><div id="sh"></div>
+<div id="lab">jungle.gcc <span><i style="background:#d97757"></i></span></div>
+<div id="stk"></div>
+<div id="title"></div>
+<script>document.getElementById('bg').style.backgroundImage='url('+(location.hash.slice(1)||'bgA.png')+')'</script></body></html>
+<script>document.getElementById('title').innerHTML='매달 새는 구독료<br/>무료 오픈소스로<br/><em>0원</em> 만들기';document.getElementById('stk').textContent='노션·ChatGPT·캡컷 대신';document.getElementById('bg').style.backgroundImage='url(bg.png)';</script>
