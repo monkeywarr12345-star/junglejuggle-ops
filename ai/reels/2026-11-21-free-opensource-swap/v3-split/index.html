@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/>
+<script src="gsap.min.js"></script><script src="timeline.js"></script>
+<style>
+@font-face{font-family:P;font-weight:500;src:url(assets/fonts/Pretendard-Medium.woff2)}
+@font-face{font-family:P;font-weight:600;src:url(assets/fonts/Pretendard-SemiBold.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--hl:#ffe14d;--y:#ffd43b;--g:#2fb565;--r:#ef4444;--ink:#16181d;--mut:#6b7280}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+/* top half stage */
+#top{position:absolute;left:0;top:0;width:1080px;height:960px;overflow:hidden}
+.bg{position:absolute;inset:0;opacity:0}
+#bgL{background:#ecebe6}
+#bgL:before{content:"";position:absolute;inset:-80px;background:
+ radial-gradient(ellipse 260px 90px at 15% 20%,rgba(0,0,0,.10),transparent 70%),
+ radial-gradient(ellipse 200px 70px at 85% 12%,rgba(0,0,0,.08),transparent 70%),
+ radial-gradient(ellipse 320px 110px at 80% 85%,rgba(0,0,0,.09),transparent 70%),
+ radial-gradient(ellipse 240px 80px at 10% 80%,rgba(0,0,0,.07),transparent 70%);filter:blur(18px);transform:rotate(-12deg)}
+#bgD{background:radial-gradient(ellipse at 50% 30%,#2a1f45,#120d1f 70%)}
+#bgG{background:radial-gradient(ellipse at 50% 30%,#123826,#08140e 70%)}
+.scene{position:absolute;inset:0;visibility:hidden}
+/* window chrome */
+.win{position:absolute;left:40px;right:40px;top:44px;border-radius:26px;background:#fff;box-shadow:0 30px 70px rgba(0,0,0,.22),0 0 0 1.5px rgba(0,0,0,.06);overflow:hidden}
+.win.dk{background:#17171c;box-shadow:0 30px 70px rgba(0,0,0,.5),0 0 0 1.5px rgba(255,255,255,.08);color:#e9e9ee}
+.bar{height:62px;display:flex;align-items:center;gap:12px;padding:0 22px;border-bottom:1.5px solid rgba(0,0,0,.07);background:#f6f6f4}
+.dk .bar{background:#202027;border-color:rgba(255,255,255,.07)}
+.bar i{width:15px;height:15px;border-radius:50%;display:inline-block}
+.bar i:nth-child(1){background:#ff5f57}.bar i:nth-child(2){background:#febc2e}.bar i:nth-child(3){background:#28c840}
+.url{margin-left:18px;flex:1;height:38px;border-radius:12px;background:#ebebe8;display:flex;align-items:center;padding:0 16px;font-size:21px;font-weight:600;color:#666}
+.dk .url{background:#2b2b33;color:#9a9aa5}
+.pad{padding:26px 32px}
+.h1{font-size:44px;font-weight:900;letter-spacing:-1.5px}
+.sub{font-size:24px;font-weight:600;color:var(--mut);margin-top:6px}
+.dk .sub{color:#9a9aa5}
+mark{background:linear-gradient(transparent 12%,var(--hl) 12%,var(--hl) 92%,transparent 92%);color:inherit;padding:0 6px;border-radius:4px}
+.dk mark{color:#111}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:10px;font-size:21px;font-weight:900;letter-spacing:.5px}
+.bg-g{background:#1f9d55;color:#fff}.bg-r{background:var(--r);color:#fff}.bg-y{background:var(--y);color:#111}.bg-k{background:#111;color:#fff}
+.stamp{position:absolute;padding:10px 26px;border:7px solid var(--r);color:var(--r);font-size:64px;font-weight:900;border-radius:16px;transform:rotate(-8deg);background:rgba(255,255,255,.92);letter-spacing:-2px}
+.stamp.g{border-color:var(--g);color:var(--g)}
+.win>.bar,.win>.pad,.win>.af,.win>.term,.win>.ed{zoom:1.3}
+.af,.term,.ed{height:540px!important}
+/* s1 billing */
+.bill{display:flex;align-items:center;gap:20px;padding:20px 0;border-top:1.5px solid #eee}
+.bill:first-of-type{border-top:0}
+.lg{width:72px;height:72px;border-radius:18px;display:grid;place-items:center;font-size:36px;font-weight:900;color:#fff;flex:none}
+.bill b{font-size:36px;font-weight:900;letter-spacing:-1px;display:block}
+.bill small{font-size:22px;font-weight:600;color:var(--mut)}
+.bill .badge{margin-left:auto}
+/* s2 repo cards */
+.repos{display:flex;flex-direction:column;gap:16px}
+.repo{display:flex;align-items:center;gap:18px;border:1.5px solid #e6e6e2;border-radius:18px;padding:16px 20px}
+.repo b{font-size:34px;font-weight:900}
+.repo small{display:block;font-size:21px;color:var(--mut);font-weight:600}
+.repo .st{margin-left:auto;text-align:right;font-size:26px;font-weight:900}
+/* s3 appflowy */
+.af{display:flex;height:640px}
+.side{width:230px;background:#f7f7f5;border-right:1.5px solid #eee;padding:22px 18px;font-size:24px;font-weight:700;color:#555}
+.side div{padding:10px 12px;border-radius:10px;margin-bottom:6px}
+.side .on{background:#e8f0ff;color:#2563eb}
+.main{flex:1;padding:24px 26px}
+.kan{display:flex;gap:14px;margin-top:16px}
+.col{flex:1;background:#f4f4f2;border-radius:14px;padding:12px}
+.col h4{font-size:21px;font-weight:800;color:#666;margin-bottom:10px}
+.tk{background:#fff;border-radius:10px;padding:10px 12px;font-size:21px;font-weight:700;margin-bottom:8px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.tbl{margin-top:18px;border:1.5px solid #e6e6e2;border-radius:12px;overflow:hidden;font-size:21px;font-weight:700}
+.tbl div{display:grid;grid-template-columns:1.4fr 1fr 1fr;padding:9px 14px;border-top:1px solid #eee}
+.tbl div:first-child{border-top:0;background:#fafaf8;color:#888}
+/* s4 terminal */
+.term{font-family:"DejaVu Sans Mono",monospace;font-size:27px;line-height:1.5;padding:26px 30px;height:640px}
+.term .p{color:#7ee787}.term .c{color:#e9e9ee}.term .d{color:#8b8b95}
+.term .ans{color:#f0f0f5;font-family:P,sans-serif;font-weight:700;font-size:30px;margin-top:10px;line-height:1.45}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.chips span{padding:7px 14px;border-radius:10px;background:#2b2b33;font-size:22px;font-weight:800;color:#ddd;font-family:P,sans-serif}
+/* s5 editor */
+.ed{height:640px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.pv{flex:1;border-radius:14px;background:linear-gradient(135deg,#2c3e50,#1b2631);position:relative;display:grid;place-items:center}
+.pv .sb{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.65);color:#fff;padding:8px 18px;border-radius:8px;font-size:26px;font-weight:800;white-space:nowrap}
+.tl{height:250px;border-radius:14px;background:#101015;padding:12px 14px;display:flex;flex-direction:column;gap:9px}
+.tr{display:flex;align-items:center;gap:10px;height:48px}
+.tr em{font-style:normal;width:76px;font-size:19px;font-weight:800;color:#9a9aa5}
+.tr .cl{height:100%;border-radius:8px}
+.tr .sub2{display:flex;gap:6px;height:100%;flex:1}
+.tr .sub2 span{border-radius:8px;background:var(--y);color:#111;font-size:17px;font-weight:900;display:grid;place-items:center;padding:0 10px;white-space:nowrap}
+.stt{position:absolute;right:30px;top:20px;padding:10px 18px;border-radius:12px;background:var(--y);color:#111;font-size:24px;font-weight:900}
+/* s6 big zero (fullscreen) */
+#fs{position:absolute;inset:0;visibility:hidden;background:radial-gradient(ellipse at 50% 35%,#1d4d33,#0a1a12 70%);color:#fff}
+#fs6 .eq{position:absolute;left:0;right:0;top:330px;text-align:center;font-size:58px;font-weight:900;letter-spacing:-1.5px}
+#fs6 .eq span{display:inline-block;padding:8px 20px;border-radius:14px;background:rgba(255,255,255,.1);margin:0 6px}
+#fs6 .won{position:absolute;left:0;right:0;top:470px;text-align:center;font-size:300px;font-weight:900;letter-spacing:-14px;color:var(--y);text-shadow:0 20px 60px rgba(0,0,0,.5)}
+#fs6 .won small{font-size:90px;letter-spacing:-3px;color:#fff;margin-left:10px}
+#fs6 .was{position:absolute;left:0;right:0;top:820px;text-align:center;font-size:44px;font-weight:800;color:rgba(255,255,255,.6)}
+#fs6 .was s{color:#ff8a8a}
+/* s7 claude chat */
+.cl-msg{display:flex;justify-content:flex-end}
+.cl-msg div{background:#f0eee6;border-radius:20px;padding:14px 20px;font-size:26px;font-weight:700;max-width:80%}
+.cl-ans{margin-top:18px;display:flex;gap:14px}
+.cl-ans .ic{width:46px;height:46px;border-radius:12px;background:#d97757;color:#fff;display:grid;place-items:center;font-size:26px;font-weight:900;flex:none}
+.ctbl{flex:1;border:1.5px solid #e6e3da;border-radius:14px;overflow:hidden;font-size:23px;font-weight:700}
+.ctbl div{display:grid;grid-template-columns:1fr 1.2fr .9fr;padding:11px 16px;border-top:1px solid #eee}
+.ctbl div:first-child{border-top:0;background:#faf9f5;color:#8a877c;font-size:20px}
+.ctbl b{color:#1f9d55}
+/* s8 fullscreen comments + dm */
+#fs8{position:absolute;inset:0;visibility:hidden;background:radial-gradient(ellipse at 50% 30%,#3a1530,#12080f 70%)}
+.sheet{position:absolute;left:80px;right:80px;top:300px;border-radius:30px;background:#1c1c22;color:#eee;padding:26px 30px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.sheet h3{text-align:center;font-size:28px;font-weight:800;margin-bottom:16px}
+.cm{display:flex;gap:16px;align-items:center;padding:12px 0;font-size:26px;font-weight:700;color:#ccc}
+.cm i{width:52px;height:52px;border-radius:50%;flex:none}
+.cm b{color:#fff;display:block;font-size:22px}
+.inp{margin-top:14px;display:flex;align-items:center;gap:16px;padding:16px 20px;border-radius:40px;background:#2a2a32;font-size:34px;font-weight:800;color:#fff}
+.inp em{font-style:normal;color:var(--y)}
+.inp .send{margin-left:auto;color:#4c8dff;font-size:26px;font-weight:900}
+.dm{position:absolute;left:80px;right:80px;top:760px;display:flex;align-items:center;gap:18px;padding:20px 24px;border-radius:24px;background:#fff;color:#111;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.dm .ap{width:72px;height:72px;border-radius:18px;background:linear-gradient(135deg,#feda75,#d62976 50%,#4f5bd5);display:grid;place-items:center;font-size:38px;flex:none}
+.dm b{display:block;font-size:30px;font-weight:900}.dm span{font-size:26px;font-weight:700;color:#444}
+.fol{position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;gap:20px;padding:20px 26px;border-radius:24px;background:#1c1c22;color:#fff}
+.fol .av{width:76px;height:76px;border-radius:50%;background:var(--y);color:#111;font-weight:900;font-size:20px;display:grid;place-items:center;text-align:center;line-height:1.05}
+.fol b{font-size:32px;font-weight:900}
+.fol .fb{margin-left:auto;position:relative;width:170px;height:60px}
+.fol .fb span{position:absolute;inset:0;border-radius:14px;display:grid;place-items:center;font-size:27px;font-weight:900}
+.fol .fb .a{background:#3b82f6}.fol .fb .b{background:#33333b;opacity:0}
+/* captions */
+#caps .w{position:absolute;left:20px;right:20px;top:875px;text-align:center;font-size:68px;line-height:1.2;letter-spacing:-2.5px;font-weight:900;color:#fff;visibility:hidden;white-space:nowrap;
+ -webkit-text-stroke:2px rgba(0,0,0,.55);paint-order:stroke fill;text-shadow:0 0 3px #000,0 4px 16px rgba(0,0,0,.75)}
+#caps .w b{color:var(--y);font-weight:900}
+#caps .w.fsc{top:1240px}
+#disc{position:absolute;left:0;right:0;top:1830px;text-align:center;font-size:22px;font-weight:700;color:rgba(255,255,255,.7);text-shadow:0 2px 8px rgba(0,0,0,.9)}
+</style></head><body>
+<div id="top">
+ <div class="bg" id="bgL"></div><div class="bg" id="bgD"></div><div class="bg" id="bgG"></div>
+ <!-- s1 subscriptions -->
+ <div class="scene" id="x1"><div class="win"><div class="bar"><i></i><i></i><i></i><div class="url">내 카드 · 정기결제 내역</div></div>
+  <div class="pad"><div class="h1">이번 달 <mark>자동결제</mark></div><div class="sub">매달 빠져나가는 구독</div>
+  <div style="margin-top:14px">
+   <div class="bill q"><span class="lg" style="background:#111">N</span><div><b>Notion</b><small>매달 결제</small></div><span class="badge bg-r">구독 중</span></div>
+   <div class="bill q"><span class="lg" style="background:#10a37f">G</span><div><b>ChatGPT</b><small>매달 결제</small></div><span class="badge bg-r">구독 중</span></div>
+   <div class="bill q"><span class="lg" style="background:#000;font-size:30px">✂</span><div><b>CapCut</b><small>매달 결제</small></div><span class="badge bg-r">구독 중</span></div>
+  </div></div></div>
+  <div class="stamp" id="st1" style="right:110px;top:600px">손해</div></div>
+ <!-- s2 repos -->
+ <div class="scene" id="x2"><div class="win"><div class="bar"><i></i><i></i><i></i><div class="url">github.com · 오픈소스</div></div>
+  <div class="pad"><div class="h1">똑같이 쓰는 <mark>무료 버전</mark></div><div class="sub">코드가 공개된 오픈소스 · 무료 설치</div>
+  <div class="repos" style="margin-top:20px">
+   <div class="repo q"><span class="lg" style="background:#8b5cf6">A</span><div><b>AppFlowy</b><small>노션 대신 · AGPL-3.0</small></div><div class="st">⭐ 7.9만</div></div>
+   <div class="repo q"><span class="lg" style="background:#111">🦙</span><div><b>Ollama</b><small>ChatGPT 대신 · MIT</small></div><div class="st">⭐ 18.4만</div></div>
+   <div class="repo q"><span class="lg" style="background:#1d6fd6">K</span><div><b>Kdenlive</b><small>캡컷 대신 · GPL</small></div><div class="st"><span class="badge bg-g">FREE</span></div></div>
+  </div></div></div></div>
+ <!-- s3 appflowy -->
+ <div class="scene" id="x3"><div class="win"><div class="bar"><i></i><i></i><i></i><div class="url">AppFlowy · 내 워크스페이스</div></div>
+  <div class="af"><div class="side"><div>📄 문서</div><div>✅ 할 일</div><div class="on">📊 표</div><div style="margin-top:30px;color:#999;font-size:20px">노션 대신 · 무료</div></div>
+  <div class="main"><div class="h1" style="font-size:38px">문서·할 일·<mark>표까지</mark></div>
+   <div class="kan q"><div class="col"><h4>할 일</h4><div class="tk">기획안 쓰기</div><div class="tk">자료 조사</div></div><div class="col"><h4>진행 중</h4><div class="tk">릴스 편집</div></div><div class="col"><h4>완료</h4><div class="tk">회의록</div></div></div>
+   <div class="tbl q"><div><span>이름</span><span>상태</span><span>마감</span></div><div><span>예산 정리</span><span>진행</span><span>11/24</span></div><div><span>콘텐츠 일정</span><span>완료</span><span>11/21</span></div></div>
+  </div></div></div>
+  <div class="stamp g" id="st3" style="right:90px;top:690px">₩0</div></div>
+ <!-- s4 ollama terminal -->
+ <div class="scene" id="x4"><div class="win dk"><div class="bar"><i></i><i></i><i></i><div class="url">터미널 — 내 컴퓨터</div></div>
+  <div class="term"><div><span class="p">$</span> <span class="c" id="cmd4"></span></div>
+   <div class="d q">pulling model... success</div>
+   <div class="d q" style="margin-top:6px">&gt;&gt;&gt; 이번 주 할 일 정리해 줘</div>
+   <div class="ans q">네! 월요일엔 기획안, 수요일엔 편집, 금요일엔 업로드를 하면 돼요 ✅</div>
+   <div class="chips q"><span>DeepSeek</span><span>Gemma</span><span>Qwen</span><span>gpt-oss</span></div>
+  </div></div>
+  <div class="stamp g" id="st4" style="right:100px;top:560px;background:rgba(20,20,26,.92)">내 PC · 무료</div></div>
+ <!-- s5 kdenlive -->
+ <div class="scene" id="x5"><div class="win dk"><div class="bar"><i></i><i></i><i></i><div class="url">Kdenlive — 새 프로젝트</div></div>
+  <div class="ed"><div class="pv"><div style="font-size:90px">🎬</div><div class="sb" id="sb5">자동 자막까지 다 돼요</div><div class="stt q">🎙 음성 인식 → 자막</div></div>
+   <div class="tl"><div class="tr"><em>V1</em><div class="cl" style="width:62%;background:#3b6ea5"></div><div class="cl" style="width:24%;background:#5584bb"></div></div>
+    <div class="tr"><em>A1</em><div class="cl" style="width:88%;background:#2f8f5b"></div></div>
+    <div class="tr"><em>자막</em><div class="sub2" id="subs5"><span>안녕하세요</span><span>오늘은</span><span>무료 편집기</span><span>자동 자막</span></div></div></div>
+  </div></div></div>
+ <!-- s7 claude -->
+ <div class="scene" id="x7"><div class="win" style="background:#fdfcf8"><div class="bar"><i></i><i></i><i></i><div class="url">claude.ai</div></div>
+  <div class="pad"><div class="cl-msg q"><div>내 구독: 노션, ChatGPT, 캡컷, 포토샵<br/>무료 오픈소스로 바꿔 줘</div></div>
+   <div class="cl-ans q"><span class="ic">✳</span><div class="ctbl"><div><span>지금</span><span>무료 대안</span><span>라이선스</span></div>
+    <div class="r q"><span>노션</span><b>AppFlowy</b><span>AGPL</span></div>
+    <div class="r q"><span>ChatGPT</span><b>Ollama</b><span>MIT</span></div>
+    <div class="r q"><span>캡컷</span><b>Kdenlive</b><span>GPL</span></div>
+    <div class="r q"><span>포토샵</span><b>GIMP</b><span>GPL</span></div></div></div>
+  </div></div></div>
+</div>
+<div id="fs">
+ <div id="fs6" class="scene"><div class="eq"><span>코드 공개</span> = <span>오픈소스</span></div><div class="won"><span id="n6">0</span><small>원</small></div><div class="was">구독료 <s>매달 결제</s> → 이제 0원</div></div>
+ <div id="fs8" class="scene"><div class="fol"><div class="av">jungle<br/>.gcc</div><div><b>jungle.gcc</b><div style="font-size:22px;opacity:.6;font-weight:600">AI 꿀팁</div></div><div class="fb"><span class="a">팔로우</span><span class="b">팔로잉 ✓</span></div></div>
+  <div class="sheet"><h3>댓글</h3><div class="cm"><i style="background:#f59e0b"></i><div><b>sora.makes</b>무료</div></div><div class="cm"><i style="background:#10b981"></i><div><b>mina.builds</b>무료 감사해요!</div></div>
+   <div class="inp">💬 <em id="kw"></em><span class="send">게시</span></div></div>
+  <div class="dm" id="dm8"><span class="ap">✉️</span><div><b>jungle.gcc님의 메시지</b><span>요청하신 '무료 오픈소스 갈아타기' 자료예요 🎁</span></div></div></div>
+</div>
+<div id="caps"></div>
+<div id="disc">각 공식 저장소·사이트 기준 · 2026년 11월 · 영상은 AI로 만들었어요</div>
+<script>
+const T=window.TL,S=k=>T.s[k],W=(k,f)=>S(k)[0]+f*(S(k)[1]-S(k)[0]);
+const tl=gsap.timeline({paused:true});window.__timelines={main:tl};
+const show=(sel,a,b)=>{tl.set(sel,{visibility:"visible"},a);tl.set(sel,{visibility:"hidden"},b)};
+const bg=(id,a,b)=>{tl.set(id,{opacity:1},a);tl.set(id,{opacity:0},b)};
+const scene=(id,a,b)=>{show(id,a,b);tl.fromTo(id+" .win",{y:40,scale:.96,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"back.out(1.5)"},a);
+ document.querySelectorAll(id+" .q").forEach((el,j)=>tl.fromTo(el,{opacity:0,y:16},{opacity:1,y:0,duration:.22,ease:"power2.out"},a+.25+j*.22));};
+const stamp=(sel,t)=>tl.fromTo(sel,{scale:2.2,opacity:0},{scale:1,opacity:1,duration:.28,ease:"power4.in"},t);
+const typ=(sel,txt,t,d)=>{const o={n:0};tl.call(()=>{document.querySelector(sel).textContent=""},null,Math.max(0,t-.01));tl.to(o,{n:txt.length,duration:d,ease:"none",onUpdate:()=>{document.querySelector(sel).textContent=txt.slice(0,Math.round(o.n))}},t)};
+const E=T.dur;
+// s1 (frame 0 already full)
+bg("#bgL",0,S("s4")[0]);
+show("#x1",0,S("s2")[0]); stamp("#st1",W("s1",.7));
+tl.set("#x1 .q",{opacity:1},0);
+scene("#x2",S("s2")[0],S("s3")[0]);
+scene("#x3",S("s3")[0],S("s4")[0]); stamp("#st3",W("s3",.6));
+bg("#bgD",S("s4")[0],S("s6")[0]);
+scene("#x4",S("s4")[0],S("s5")[0]); typ("#cmd4","ollama run deepseek-r1",S("s4")[0]+.2,.7); stamp("#st4",W("s4",.6));
+scene("#x5",S("s5")[0],S("s6")[0]);
+document.querySelectorAll("#subs5 span").forEach((el,j)=>tl.fromTo(el,{opacity:0,scaleX:.3},{opacity:1,scaleX:1,duration:.2,transformOrigin:"left center"},W("s5",.45)+j*.18));
+// s6 fullscreen
+show("#fs",S("s6")[0],S("s7")[0]); show("#fs6",S("s6")[0],S("s7")[0]);
+tl.fromTo("#fs6 .eq",{y:30,opacity:0},{y:0,opacity:1,duration:.3},S("s6")[0]);
+tl.fromTo("#fs6 .won",{scale:.4,opacity:0},{scale:1,opacity:1,duration:.4,ease:"back.out(2)"},W("s6",.55));
+tl.fromTo("#fs6 .was",{opacity:0},{opacity:1,duration:.3},W("s6",.7));
+bg("#bgL",S("s7")[0],S("s8")[0]);
+scene("#x7",S("s7")[0],S("s8")[0]);
+// s8 fullscreen CTA
+show("#fs",S("s8")[0],E); show("#fs8",S("s8")[0],E);
+tl.fromTo("#fs8 .fol",{y:-30,opacity:0},{y:0,opacity:1,duration:.3},S("s8")[0]);
+tl.to("#fs8 .fb .a",{opacity:0,duration:.15},W("s8",.12));tl.to("#fs8 .fb .b",{opacity:1,duration:.15},W("s8",.12));
+tl.fromTo("#fs8 .sheet",{y:60,opacity:0},{y:0,opacity:1,duration:.35,ease:"power3.out"},W("s8",.05));
+typ("#kw","'"+T.kw+"'",W("s8",.25),.35);
+tl.fromTo("#dm8",{opacity:0,y:-30,scale:.9},{opacity:1,y:0,scale:1,duration:.35,ease:"back.out(2)"},W("s8",.6));
+show("#disc",0,S("s2")[0]);
+// captions
+const caps=document.getElementById("caps");
+T.caps.forEach((w,i)=>{const el=document.createElement("div");const fsc=(w[3]==="s6"||w[3]==="s8");el.className="w"+(fsc?" fsc":"");el.id="w"+i;el.innerHTML=w[2];caps.appendChild(el);
+ const a=i===0?0:w[0],b=i+1<T.caps.length?T.caps[i+1][0]:E;show("#w"+i,a,b);
+ if(i>0) tl.fromTo("#w"+i,{scale:.92,opacity:0},{scale:1,opacity:1,duration:.14,ease:"back.out(2)"},a);});
+tl.set({}, {}, E);
+</script></body></html>
