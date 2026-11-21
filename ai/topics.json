@@ -125,10 +125,11 @@
    "tool": "Claude",
    "keyword": "공식",
    "evidence": "스킬 주제 평소의 1.35배(키워드 DM 글, 13개 계정 중 11곳 플러스)·앤트로픽/우승자 같은 내부자 앵글 1.31배·오픈소스 1.57배. 예: pickit 우승자 스킬 46.7x, find-skills 27.9x",
-   "status": "doing",
+   "status": "ready",
    "note": "공식 저장소(anthropics/skills)·무료 플랜 사용 가능 여부를 제작 때 공식 문서로 확인. 첫 3초는 숫자(스킬 개수)나 대결 구도 / 2026-11-19 사용자 지시: 11/20(금) 18:00 게시 / 2026-11-19 예약 제작(커밋 6caa83e 메시지·목록 순서대로 11/21 21:00로 확정, 영상 완성본 준비): frontend-design·pptx/xlsx·skill-creator 3개 + 켜는 법(Customize › Skills), 무료 플랜은 앱 기준(Claude Code는 유료) — 도움말 12512180·anthropics/skills README 확인 / 2026-11-19 11:15 한 턴 미룸 → 11/22(일) 18:00",
    "reel": "2026-11-22-anthropic-skills",
-   "publish_at": "2026-11-22T18:00:00+09:00"
+   "publish_at": "2026-11-22T18:00:00+09:00",
+   "final": "media/ai/2026-11-22-anthropic-skills/reel_final_music.mp4 (B형: 러다이트 정글이 연기+귀여운 목소리 15초×2, 전체화면 3D UI 삽입 3번, 음악) · cover_final.jpg"
   },
   {
    "n": 19,
