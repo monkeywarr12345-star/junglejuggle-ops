@@ -184,8 +184,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
      <div class="r3"><span>업로드 일정</span><span><i class="pill p1">완료</i></span><span>11/21</span></div></div>
    </div></div></div>
    <div class="ring" id="rg3" style="left:300px;top:590px;width:700px;height:190px"></div>
-   <div class="chip y" id="cp3a" style="left:640px;top:70px">노션 대신</div>
-   <div class="chip g" id="cp3b" style="left:700px;top:790px">💸 구독료 0원</div></div>
+   <div class="chip y" id="cp3a" style="left:640px;top:130px">노션 대신</div>
+   <div class="chip g" id="cp3b" style="left:0;top:0">💸 구독료 0원</div></div>
   <!-- S4 terminal -->
   <div class="sc" id="s4"><div class="win dk" id="w4"><div class="bar"><i></i><i></i><i></i><div class="url">터미널 — 내 컴퓨터</div></div>
    <div class="term"><div><span class="pr">➜</span> <span id="cmd4"></span><span id="crt">▍</span></div>
@@ -233,6 +233,15 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
 <div id="disc">각 공식 저장소·사이트 기준 · 2026년 11월 · 영상은 AI로 만들었어요</div>
 <svg width="0" height="0"><defs><symbol id="arrow" viewBox="0 0 24 24"><path d="M3 2l17 9-7.5 2L9 20.5z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></symbol></defs></svg>
 <script>
+
+function fitRings(){
+ const box=(el,win,pad)=>{let x=0,y=0,e=el;while(e&&e!==win){x+=e.offsetLeft;y+=e.offsetTop;e=e.offsetParent;}return [win.offsetLeft+x-pad,win.offsetTop+y-pad,el.offsetWidth+pad*2,el.offsetHeight+pad*2];};
+ const put=(id,b)=>{const r=document.getElementById(id);r.style.left=b[0]+'px';r.style.top=b[1]+'px';r.style.width=b[2]+'px';r.style.height=b[3]+'px';};
+ const w3=document.getElementById('w3'),t3=box(document.getElementById('tb3'),w3,12);put('rg3',t3);
+ const c=document.getElementById('cp3b');c.style.left=(t3[0]+t3[2]-c.offsetWidth+20)+'px';c.style.top=(t3[1]+t3[3]-14)+'px';
+ const w5=document.getElementById('w5');put('rg5',box(document.getElementById('su5').parentNode,w5,10));
+}
+fitRings();if(document.fonts)document.fonts.ready.then(fitRings);
 const T=window.TL,C=i=>[T.caps[i][0],T.caps[i][1]],E=T.dur;
 const tl=gsap.timeline({paused:true});window.__timelines={main:tl};
 const vis=(s,a,b)=>{tl.set(s,{visibility:"visible"},a);tl.set(s,{visibility:"hidden"},b)};
@@ -279,7 +288,7 @@ tl.fromTo("#f2t",{y:-80,opacity:0,scale:1.3},{y:0,opacity:1,scale:1,duration:.4,
 enter("#s3",C(3)[0],C(4)[1],{});
 pop("#cp3a",C(3)[0]+.35,160);
 cursor({dur:C(4)[1]-C(3)[0]-.3,p:[[860,700],[250,330,1],[330,420],[640,420,1],[150,330],[150,330,1]]},C(3)[0]+.6);
-tl.to("#tk1",{x:470,y:-10,rotation:4,duration:.4,ease:"power3.inOut"},C(3)[0]+1.3);
+tl.to("#tk1",{x:()=>{const a=document.getElementById("tk1"),d=document.getElementById("done3");return d.offsetLeft+12-a.offsetLeft;},y:()=>{const a=document.getElementById("tk1"),d=document.getElementById("done3");return d.offsetTop+44-a.offsetTop;},rotation:0,duration:.4,ease:"power3.inOut"},C(3)[0]+1.3);
 tl.to("#tab3",{backgroundColor:"#6d28d9",color:"#fff",duration:.2},C(4)[0]);
 document.querySelectorAll("#s3 .r3").forEach((r,j)=>tl.fromTo(r,{opacity:0,x:-40},{opacity:1,x:0,duration:.25},C(4)[0]+.1+j*.2));
 tl.fromTo("#rg3",{opacity:0,scale:1.25},{opacity:1,scale:1,duration:.3,ease:"back.out(2)"},C(4)[0]+.1);
