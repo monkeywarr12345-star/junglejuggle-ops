@@ -17,9 +17,10 @@
     "url": "https://observant-kiwi-cfe.notion.site/41d98083042481c6a239e67ac49acc98"
   },
   "dm_text": "요청하신 '유료 구독 → 무료 오픈소스' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
-  "zorcha": "pending",
+  "zorcha": "live",
   "any_keyword": true,
   "notion": "https://app.notion.com/p/41d98083042481c6a239e67ac49acc98",
   "notion_public": "https://observant-kiwi-cfe.notion.site/41d98083042481c6a239e67ac49acc98",
-  "zorcha_auto": "11.21 무료 오픈소스 · 무료 → 노션"
+  "zorcha_auto": "11.21 무료 오픈소스 · 무료 → 노션",
+  "zorcha_target": "Next Post or Reel"
 }
