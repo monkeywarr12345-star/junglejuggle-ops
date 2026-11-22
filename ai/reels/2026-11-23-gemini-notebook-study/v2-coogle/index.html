@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>Coogle · 제미나이 노트북</title>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+<style>
+@font-face{font-family:P;font-weight:500;font-display:block;src:url(assets/fonts/Pretendard-Medium.woff2)}
+@font-face{font-family:P;font-weight:600;font-display:block;src:url(assets/fonts/Pretendard-SemiBold.woff2)}
+@font-face{font-family:P;font-weight:700;font-display:block;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;font-display:block;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;font-display:block;src:url(assets/fonts/Pretendard-Black.woff2)}
+:root{--ink:#07080A;--graphite:#14161B;--paper:#F5F5F7;--mute:#9CA0AB;--iris:#8FA6FF;--iris4:#5B6CFF;--ember:#FF6A3D;--hue:#3B0A16}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,sans-serif;color:var(--paper);-webkit-font-smoothing:antialiased}
+#root{position:absolute;inset:0;overflow:hidden}
+#host{position:absolute;left:0;width:1080px;object-fit:cover;display:none}
+.stage{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#stage{z-index:2}
+#stage.split{clip-path:inset(0 0 960px 0)}
+#stage.hostonly{display:none}
+#bg{position:absolute;inset:0;background:radial-gradient(110% 60% at 50% 32%,var(--hue) 0%,color-mix(in srgb,var(--hue) 40%,transparent) 35%,var(--ink) 72%)}
+#stage.split #bg{background:radial-gradient(120% 70% at 50% 45%,var(--hue) 0%,color-mix(in srgb,var(--hue) 40%,transparent) 38%,var(--ink) 78%)}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(0,0,0,.7))}
+#gl{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#bloom{position:absolute;left:0;top:0;width:1080px;height:1920px;filter:brightness(.55) contrast(3.2) blur(24px);mix-blend-mode:screen;opacity:.45}
+#dom{position:absolute;inset:0;perspective:1400px}
+.layer{position:absolute;inset:0;visibility:hidden;transform-style:preserve-3d}
+#grain{position:absolute;inset:-50%;width:200%;height:200%;opacity:.075;mix-blend-mode:overlay;pointer-events:none;z-index:20}
+#fx{position:absolute;inset:0;z-index:30;pointer-events:none}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#leak{position:absolute;inset:0;opacity:0;background:radial-gradient(60% 45% at 85% 12%,#fff 0%,rgba(143,166,255,.85) 25%,rgba(91,108,255,.25) 55%,transparent 75%);mix-blend-mode:screen}
+#dip{position:absolute;inset:0;background:#000;opacity:0}
+/* seam feather (split only) */
+#seam{position:absolute;left:0;right:0;top:870px;height:180px;background:linear-gradient(180deg,rgba(7,8,10,0),rgba(7,8,10,.9) 50%,rgba(7,8,10,0));z-index:3;display:none}
+/* captions */
+#cap{position:absolute;left:0;right:0;z-index:40;text-align:center;pointer-events:none}
+#cap .l1{font-size:62px;font-weight:700;letter-spacing:-.025em;line-height:1.12;color:var(--paper)}
+#cap .l2{font-size:70px;font-weight:800;letter-spacing:-.03em;line-height:1.12;color:var(--iris);display:inline-block}
+#cap .l1,#cap .l2{paint-order:stroke;-webkit-text-stroke:8px rgba(7,8,10,.55);text-shadow:0 6px 28px rgba(0,0,0,.75)}
+/* brand */
+#brand{position:absolute;left:72px;top:72px;z-index:35;font-weight:800;font-size:30px;letter-spacing:-.02em;display:flex;align-items:center;gap:4px;opacity:.9}
+#brand i{display:inline-block;width:20px;height:20px;border-radius:50%;background:var(--paper);margin:0 1px}
+/* badge */
+.badge{position:absolute;display:flex;align-items:center;height:56px;border-radius:28px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(10px);font-weight:800;font-size:28px;overflow:hidden;box-shadow:0 20px 50px -10px rgba(0,0,0,.7)}
+.badge b{height:100%;display:flex;align-items:center;padding:0 18px;background:var(--iris);color:var(--ink);font-size:30px}
+.badge span{padding:0 22px 0 16px;letter-spacing:-.02em}
+.badge s{display:block;width:26px;height:2px;background:rgba(255,255,255,.4);margin-left:16px}
+/* glass card */
+.card{position:absolute;border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.14);
+ box-shadow:inset 0 2px 0 rgba(255,255,255,.07),0 40px 80px -20px rgba(0,0,0,.85),0 0 120px color-mix(in srgb,var(--hue) 60%,transparent);backdrop-filter:blur(14px);overflow:hidden}
+.card.light{background:linear-gradient(180deg,#fbfbfd,#eef0f5);color:#1c1d22;border-color:rgba(255,255,255,.6)}
+.chip{position:absolute;display:inline-flex;align-items:center;height:76px;padding:0 30px;border-radius:38px;background:var(--ember);color:var(--ink);font-weight:800;font-size:44px;letter-spacing:-.03em;box-shadow:0 20px 60px -10px rgba(255,106,61,.6),inset 0 2px 0 rgba(255,255,255,.35);white-space:nowrap}
+.chip.iris{background:var(--iris);box-shadow:0 20px 60px -10px rgba(143,166,255,.6),inset 0 2px 0 rgba(255,255,255,.35)}
+.mono{font-family:ui-monospace,monospace}
+/* hook title */
+#hookT{position:absolute;left:0;right:0;top:250px;text-shadow:0 10px 60px rgba(0,0,0,.9);text-align:center;font-weight:800;font-size:112px;letter-spacing:-.045em;line-height:1.04}
+#hookT .a{position:relative;display:inline-block}
+#hookT .strike{position:absolute;left:-10px;right:-10px;top:52%;height:12px;background:var(--ember);border-radius:6px;transform-origin:0 50%;transform:scaleX(0);box-shadow:0 0 30px rgba(255,106,61,.8)}
+#hookT .b{color:var(--iris);text-shadow:0 0 60px rgba(91,108,255,.6)}
+/* 0원 extrude */
+#zero{position:absolute;left:0;right:0;top:470px;height:420px;transform-style:preserve-3d}
+#zero .z{position:absolute;left:0;right:0;text-align:center;font-weight:900;font-size:340px;letter-spacing:-.06em;line-height:1}
+/* gemini notebook UI */
+.gn-top{height:76px;display:flex;align-items:center;gap:14px;padding:0 28px;border-bottom:1px solid rgba(0,0,0,.08);font-weight:700;font-size:26px;color:#1c1d22}
+.gn-spark{width:30px;height:30px;border-radius:50%;background:conic-gradient(from 200deg,#4c7dff,#8a6bff,#5fa8ff,#4c7dff);mask:radial-gradient(circle,transparent 30%,#000 32%)}
+.src{display:flex;align-items:center;gap:16px;height:74px;margin:10px 22px;padding:0 20px;border-radius:16px;background:#fff;border:1px solid #e3e5ec;font-weight:600;font-size:25px;color:#24262c;box-shadow:0 6px 14px -8px rgba(20,30,60,.3)}
+.src .ic{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px;color:#fff}
+.bubble{margin:18px 26px;padding:22px 26px;border-radius:22px;font-size:27px;line-height:1.45;font-weight:600}
+.cite{display:inline-flex;align-items:center;justify-content:center;width:36px;height:30px;border-radius:8px;background:#dfe5ff;color:#3346c8;font-size:19px;font-weight:800;margin:0 3px;vertical-align:2px}
+.opt{display:flex;align-items:center;gap:18px;height:72px;margin:12px 26px;padding:0 22px;border-radius:16px;border:2px solid #e3e5ec;background:#fff;font-weight:700;font-size:27px;color:#24262c}
+.opt i{width:36px;height:36px;border-radius:50%;border:2px solid #c5c9d6;font-style:normal;font-size:20px;display:flex;align-items:center;justify-content:center;color:#7b8090}
+.opt.ok{border-color:#3a9b6b;background:#ecf8f1}.opt.ok i{background:#3a9b6b;border-color:#3a9b6b;color:#fff}
+/* profile / comments / dm */
+.ig{font-size:28px}
+</style>
+</head>
+<body>
+<div id="root">
+  <img id="host" src="../host2.png">
+  <div id="stage" class="stage">
+    <div id="bg"></div>
+    <canvas id="gl" width="1080" height="1920"></canvas>
+    <canvas id="bloom" width="540" height="960"></canvas>
+    <div id="vig"></div>
+    <div id="dom">
+      <!-- L_hook -->
+      <div class="layer" id="L_hook"><div style="position:absolute;left:0;right:0;top:170px;height:420px;background:radial-gradient(60% 50% at 50% 50%,rgba(7,8,10,.75),transparent 75%)"></div>
+        <div class="chip" id="hookChip" style="left:50%;top:560px;transform:translateX(-50%);height:64px;font-size:36px;padding:0 26px">퀴즈·암기 카드 0원</div><div id="hookT"><span class="a">요약 노트<i class="strike"></i></span><br><span class="b">이제 안 만들어요</span></div>
+      </div>
+      <!-- L_rename -->
+      <div class="layer" id="L_rename">
+        <div class="card light" id="gnCard" style="left:110px;top:150px;width:860px;height:600px">
+          <div class="gn-top"><div class="gn-spark"></div>Gemini Notebook<span style="margin-left:auto;font-size:20px;color:#7b8090;font-weight:600">기말고사 · 경영학원론</span></div>
+          <div style="padding:26px 30px 0;font-size:24px;color:#7b8090;font-weight:700">소스 3</div>
+          <div class="src"><div class="ic" style="background:#e5493a">PDF</div>3주차 강의안_마케팅.pdf</div>
+          <div class="src"><div class="ic" style="background:#ff2d2d">▶</div>유튜브 · 4P 전략 핵심 정리</div>
+          <div class="src"><div class="ic" style="background:#4c7dff">Doc</div>조별과제 요약 노트</div>
+          <div style="position:absolute;left:30px;right:30px;bottom:26px;height:70px;border-radius:35px;background:#f1f3f8;border:1px solid #e1e4ec;display:flex;align-items:center;padding:0 26px;font-size:24px;color:#9aa0ae;font-weight:600">소스를 기반으로 질문하기…</div>
+        </div>
+        <div id="oldName" style="position:absolute;left:0;right:0;top:790px;text-align:center;font-weight:700;font-size:34px;color:var(--mute);letter-spacing:-.01em"><span id="scr">NotebookLM</span> <span style="opacity:.6">· 2026.07 이름 변경</span></div>
+      </div>
+      <!-- L_zero -->
+      <div class="layer" id="L_zero">
+        <div id="zero"></div>
+        <div class="chip" id="zeroChip" style="left:50%;top:960px;transform:translateX(-50%)">구글 계정만 있으면</div>
+      </div>
+      <!-- L_src -->
+      <div class="layer" id="L_src">
+        <div class="badge" id="bd1" style="left:72px;top:150px"><b>01</b><s></s><span>자료 넣기</span></div>
+        <div class="card light" id="srcCard" style="left:110px;top:240px;width:860px;height:560px">
+          <div class="gn-top"><div class="gn-spark"></div>소스 추가<span style="margin-left:auto;font-size:22px;color:#4c5bd4;font-weight:800" id="cnt">0 / 50</span></div>
+          <div id="srcList"></div>
+        </div>
+      </div>
+      <!-- L_fifty -->
+      <div class="layer" id="L_fifty">
+        <div class="chip" id="fiftyChip" style="left:50%;top:330px;transform:translateX(-50%)">한 번에 50개</div>
+      </div>
+      <!-- L_quizArch -->
+      <div class="layer" id="L_quizArch">
+        <div class="badge" id="bd2" style="left:72px;top:250px"><b>02</b><s></s><span>퀴즈 버튼</span></div>
+      </div>
+      <!-- L_quiz -->
+      <div class="layer" id="L_quiz">
+        <div class="card light" id="qCard" style="left:120px;top:130px;width:840px;height:650px">
+          <div class="gn-top"><div class="gn-spark"></div>퀴즈 · 3주차 마케팅<span style="margin-left:auto;font-size:22px;color:#7b8090">4 / 10</span></div>
+          <div style="padding:30px 30px 10px;font-size:33px;font-weight:800;line-height:1.35;color:#1c1d22">가격을 낮춰 시장 점유율을 빠르게 늘리는 전략은?</div>
+          <div class="opt"><i>A</i>스키밍 가격</div>
+          <div class="opt" id="optB"><i>B</i>침투 가격</div>
+          <div class="opt"><i>C</i>단수 가격</div>
+          <div class="opt"><i>D</i>명성 가격</div>
+        </div>
+      </div>
+      <!-- L_cite -->
+      <div class="layer" id="L_cite">
+        <div class="card light" id="chatCard" style="left:90px;top:120px;width:620px;height:690px">
+          <div class="gn-top"><div class="gn-spark"></div>채팅</div>
+          <div class="bubble" style="background:#eef1ff;color:#2a2f45;margin-left:120px;font-size:26px">스키밍이랑 침투 가격 차이가 뭐야?</div>
+          <div class="bubble" style="background:#fff;color:#24262c;border:1px solid #e6e8ef">스키밍은 처음에 <b>높은 가격</b>으로 시작해요<span class="cite" id="c1">1</span>. 침투 가격은 <b>낮은 가격</b>으로 점유율을 먼저 확보해요<span class="cite" id="c2">2</span>.</div>
+        </div>
+        <div class="card light" id="pdfCard" style="left:640px;top:330px;width:360px;height:440px;padding:26px 24px;font-size:19px;line-height:1.55;color:#555a66">
+          <div style="font-weight:800;color:#e5493a;font-size:18px;margin-bottom:10px">PDF · p.14</div>
+          <div>3.2 가격 전략</div><div style="margin-top:8px">신제품 가격 결정에는 두 가지 접근이 있다.</div>
+          <div id="hl" style="margin-top:8px;background:rgba(143,166,255,.35);border-radius:4px;padding:2px 4px;color:#25307a;font-weight:700">침투 가격: 낮은 가격으로 진입하여 빠르게 시장 점유율을 확보한다.</div>
+          <div style="margin-top:8px">스키밍 가격은 초기 수요층을 대상으로…</div>
+        </div>
+        <svg id="beam" width="1080" height="960" style="position:absolute;left:0;top:0;overflow:visible"><defs><linearGradient id="bg1" x1="0" x2="1"><stop offset="0" stop-color="#8FA6FF"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="glw"><feGaussianBlur stdDeviation="6"/></filter></defs>
+          <path id="beamP" d="M560 470 C 640 470, 640 560, 700 560" stroke="url(#bg1)" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path id="beamG" d="M560 470 C 640 470, 640 560, 700 560" stroke="#8FA6FF" stroke-width="18" fill="none" filter="url(#glw)" opacity=".8"/></svg>
+      </div>
+      <!-- L_flash -->
+      <div class="layer" id="L_flash">
+        <div class="badge" id="bd3" style="left:72px;top:250px"><b>03</b><s></s><span>플래시카드</span></div>
+      </div>
+      <!-- L_audio -->
+      <div class="layer" id="L_audio">
+        <div class="card" id="player" style="left:190px;top:650px;width:700px;height:130px;display:flex;align-items:center;gap:22px;padding:0 30px">
+          <div style="width:72px;height:72px;border-radius:50%;background:var(--paper);display:flex;align-items:center;justify-content:center"><div style="width:0;height:0;border-left:24px solid var(--ink);border-top:15px solid transparent;border-bottom:15px solid transparent;margin-left:6px"></div></div>
+          <div style="flex:1"><div style="font-weight:800;font-size:28px">오디오 개요 · 3주차 마케팅</div><div style="margin-top:12px;height:6px;border-radius:3px;background:rgba(255,255,255,.15)"><div id="prog" style="height:100%;width:30%;border-radius:3px;background:var(--iris)"></div></div></div>
+          <div class="mono" style="font-size:22px;color:var(--mute)">08:12</div>
+        </div>
+      </div>
+      <!-- L_save -->
+      <div class="layer" id="L_save">
+        <div class="chip" id="saveChip" style="left:50%;top:640px;transform:translateX(-50%)">저장</div>
+      </div>
+      <!-- L_profile -->
+      <div class="layer" id="L_profile">
+        <div class="card" id="prof" style="left:110px;top:190px;width:860px;height:560px;padding:44px 48px">
+          <div style="display:flex;align-items:center;gap:34px">
+            <div style="width:170px;height:170px;border-radius:50%;background:#000;border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:44px;letter-spacing:-.02em">C<i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;margin:0 2px"></i><i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;margin:0 2px"></i>gle</div>
+            <div><div style="font-weight:800;font-size:44px">coogle.ai</div><div style="margin-top:10px;font-size:26px;color:var(--mute);font-weight:600">Coogle | 클로드·챗GPT AI 꿀팁</div></div>
+          </div>
+          <div style="margin-top:34px;font-size:27px;line-height:1.55;font-weight:600;color:#d9dbe2">🔍 구글링 말고 쿠글링<br>클로드·챗GPT 직접 써 보고 진짜 되는 것만</div>
+          <div id="fBtn" style="margin-top:36px;height:84px;border-radius:18px;background:var(--iris4);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:32px">팔로우</div>
+        </div>
+      </div>
+      <!-- L_dm -->
+      <div class="layer" id="L_dm">
+        <div class="card" id="cmt" style="left:90px;top:300px;width:900px;height:470px;padding:30px 34px">
+          <div style="font-weight:800;font-size:30px;text-align:center;margin-bottom:26px">댓글</div>
+          <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:24px;opacity:.6"><div style="width:56px;height:56px;border-radius:50%;background:#2b2e36"></div><div style="font-size:25px;line-height:1.5"><b>study_mina</b><br>공부</div></div>
+          <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:24px;opacity:.6"><div style="width:56px;height:56px;border-radius:50%;background:#2b2e36"></div><div style="font-size:25px;line-height:1.5"><b>junho.k</b><br>공부 ✋</div></div>
+          <div style="position:absolute;left:30px;right:30px;bottom:30px;height:84px;border-radius:42px;border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;padding:0 30px;font-size:32px;font-weight:700"><span id="typed"></span><span id="caret" style="display:inline-block;width:3px;height:38px;background:var(--iris);margin-left:4px"></span><span style="margin-left:auto;color:var(--iris);font-weight:800">게시</span></div>
+        </div>
+        <div class="card" id="dm" style="left:150px;top:1010px;width:780px;height:430px;padding:30px 34px;transform-origin:100% 50%">
+          <div style="display:flex;align-items:center;gap:16px;margin-bottom:26px"><div style="width:62px;height:62px;border-radius:50%;background:#000;border:1.5px solid rgba(255,255,255,.3);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px">C●●</div><div style="font-weight:800;font-size:30px">coogle.ai</div><div style="margin-left:auto;font-size:22px;color:var(--mute)">지금</div></div>
+          <div style="padding:22px 26px;border-radius:24px;background:rgba(255,255,255,.1);font-size:28px;line-height:1.45;font-weight:600;width:88%">요청하신 시험 공부 프롬프트예요 📚</div>
+          <div style="margin-top:18px;display:flex;align-items:center;gap:18px;padding:20px 24px;border-radius:20px;background:var(--paper);color:var(--ink);width:88%"><div style="width:58px;height:58px;border-radius:12px;background:var(--ember);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#fff">PDF</div><div><div style="font-weight:800;font-size:27px">공부 프롬프트 전체본</div><div style="font-size:21px;color:#6b6f7b;margin-top:4px">퀴즈 · 플래시카드 · 오디오</div></div></div>
+        </div>
+      </div>
+    </div>
+    <svg id="grain" viewBox="0 0 400 400" preserveAspectRatio="none"><filter id="gn"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="400" height="400" filter="url(#gn)"/></svg>
+  </div>
+  <div id="seam"></div>
+  <div id="fx"><div id="flash"></div><div id="leak"></div><div id="dip"></div></div>
+  <div id="brand">C<i></i><i></i>gle</div>
+  <div id="cap"></div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
