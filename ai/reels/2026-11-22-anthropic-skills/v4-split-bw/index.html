@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/>
+<script src="gsap.min.js"></script><script src="timeline.js"></script>
+<style>
+@font-face{font-family:P;font-weight:600;src:url(assets/fonts/Pretendard-SemiBold.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--w:#fff;--g1:#9a9a9a;--g2:#2a2a2a;--bg:#0b0b0b}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+.sc{position:absolute;visibility:hidden}
+/* top stage (split) */
+#stage{position:absolute;left:0;top:0;width:1080px;height:960px;overflow:hidden;z-index:0;background:radial-gradient(120% 90% at 50% 0%,#1d1d1d 0%,#0b0b0b 60%,#050505 100%)}
+#stage:before,.full:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1.5px,transparent 1.5px),linear-gradient(90deg,rgba(255,255,255,.035) 1.5px,transparent 1.5px);background-size:72px 72px}
+#seam{position:absolute;left:0;right:0;top:952px;height:16px;background:linear-gradient(180deg,rgba(0,0,0,.0),rgba(0,0,0,.55),rgba(0,0,0,0))}
+.full{position:absolute;inset:0;visibility:hidden;overflow:hidden;background:radial-gradient(100% 70% at 50% 30%,#1c1c1c 0%,#080808 65%,#000 100%)}
+.cam{position:absolute;inset:0;perspective:1800px;perspective-origin:50% 40%}
+.rig{position:absolute;inset:0;transform-style:preserve-3d}
+/* progress */
+#prog{position:absolute;left:36px;top:30px;display:flex;gap:10px;z-index:5}
+#prog div{padding:9px 16px;border-radius:12px;font-size:23px;font-weight:800;background:rgba(255,255,255,.08);color:#8d8d8d;border:1.5px solid rgba(255,255,255,.12)}
+#prog div.on{background:#fff;color:#000;border-color:#fff}
+/* hook */
+#k1{left:0;right:0;top:46px;text-align:center}
+#k1 span{display:inline-block;font-size:34px;font-weight:800;color:#cfcfcf;padding:8px 20px;border:2px solid rgba(255,255,255,.25);border-radius:40px;letter-spacing:-.5px}
+#t1{left:0;right:0;top:110px;text-align:center;font-size:120px;font-weight:900;letter-spacing:-5px;line-height:1.02}
+#t1 .inv{display:inline-block;background:#fff;color:#000;padding:0 22px 6px;border-radius:18px;margin-left:10px}
+.win{position:absolute;border-radius:28px;overflow:hidden;background:#fbfbfa;color:#111;box-shadow:0 50px 110px rgba(0,0,0,.7),0 0 0 2px rgba(255,255,255,.14)}
+.win:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,0) 26%)}
+.bar{height:56px;display:flex;align-items:center;gap:11px;padding:0 20px;background:#efefed;border-bottom:1.5px solid rgba(0,0,0,.07)}
+.bar i{width:14px;height:14px;border-radius:50%;background:#cfcfcc}
+.url{margin-left:12px;flex:1;height:34px;border-radius:10px;background:#e2e2df;display:flex;align-items:center;padding:0 14px;font-size:20px;font-weight:700;color:#555}
+/* repo card */
+#repo{left:90px;top:372px;width:900px;height:450px}
+.rh{display:flex;align-items:center;gap:16px;padding:24px 30px 14px}
+.rh .lg{width:62px;height:62px;border-radius:14px;background:#111;color:#fff;font-weight:900;font-size:30px;display:grid;place-items:center}
+.rh b{font-size:38px;font-weight:900;letter-spacing:-1px}.rh b span{color:#777;font-weight:700}
+.rh .st{margin-left:auto;display:flex;align-items:center;gap:8px;padding:10px 16px;border:2px solid #ddd;border-radius:12px;font-size:26px;font-weight:900}
+.rtabs{display:flex;gap:26px;padding:0 30px 12px;font-size:22px;font-weight:800;color:#777;border-bottom:1.5px solid #e6e6e3}
+.rtabs .on{color:#111;border-bottom:4px solid #111;padding-bottom:8px}
+.flist{padding:10px 30px;display:grid;grid-template-columns:1fr 1fr;column-gap:30px}
+.flist div{display:flex;align-items:center;gap:12px;font-size:23px;font-weight:700;color:#333;padding:7px 0;border-bottom:1px solid #f0f0ee;opacity:0}
+.flist div:before{content:"";width:22px;height:18px;border-radius:3px;background:#8b8b8b;flex:none}
+.flist div.hi{background:#111;color:#fff;border-radius:8px;padding:7px 10px}
+#cnt{position:absolute;right:28px;bottom:26px;background:#111;color:#fff;border-radius:22px;padding:12px 26px;font-size:30px;font-weight:900;box-shadow:0 20px 40px rgba(0,0,0,.35)}
+#cnt em{font-style:normal;font-size:56px;margin-right:6px}
+/* zero full */
+#F0 .z{position:absolute;left:0;right:0;top:390px;text-align:center;font-size:330px;font-weight:900;letter-spacing:-14px;line-height:1}
+#F0 .zs{position:absolute;left:0;right:0;top:740px;text-align:center;font-size:44px;font-weight:800;color:#bbb}
+#F0 .zs b{color:#000;background:#fff;padding:2px 16px;border-radius:10px}
+.strike{position:absolute;left:0;right:0;top:250px;text-align:center;font-size:56px;font-weight:900;color:#5b5b5b;text-decoration:line-through;text-decoration-thickness:6px;text-decoration-color:#fff}
+/* chat */
+.chat{padding:26px 28px;background:#fafaf8;position:relative;height:100%}
+.um{display:flex;justify-content:flex-end}.um div{background:#ececea;border-radius:22px;padding:16px 22px;font-size:29px;font-weight:800;max-width:88%;color:#222;line-height:1.35}
+.ar{display:flex;gap:12px;margin-top:20px;align-items:center}
+.ar .ic{width:48px;height:48px;border-radius:12px;background:#111;display:grid;place-items:center;font-size:26px;font-weight:900;color:#fff;flex:none}
+.ar span{font-size:26px;font-weight:800;color:#333}
+.file{display:flex;align-items:center;gap:16px;margin-top:16px;padding:16px 20px;border-radius:18px;background:#fff;border:2px solid #e6e6e3;box-shadow:0 10px 24px rgba(0,0,0,.08)}
+.file .fi{width:68px;height:82px;border-radius:12px;display:grid;place-items:center;font-size:24px;font-weight:900;color:#fff;background:#111}
+.file b{font-size:30px;font-weight:900;color:#222;display:block}.file small{font-size:21px;color:#888;font-weight:700}
+.slide{position:absolute;width:540px;height:320px;border-radius:18px;background:#fff;box-shadow:0 40px 80px rgba(0,0,0,.6);padding:28px;color:#111}
+.slide h5{font-size:34px;font-weight:900}.slide .bars{display:flex;align-items:flex-end;gap:16px;height:160px;margin-top:20px}
+.slide .bars i{flex:1;border-radius:8px 8px 0 0;background:#111}
+.sheet{position:absolute;width:540px;border-radius:18px;background:#fff;box-shadow:0 40px 80px rgba(0,0,0,.6);overflow:hidden;color:#222;font-size:23px;font-weight:800}
+.sheet div{display:grid;grid-template-columns:1.2fr 1fr 1fr;border-top:1.5px solid #e5e5e5}
+.sheet div span{padding:12px 14px;border-left:1.5px solid #e5e5e5}
+.sheet div:first-child{background:#111;color:#fff;border-top:0}
+.lab{position:absolute;padding:12px 24px;border-radius:16px;font-weight:900;font-size:36px;letter-spacing:-1px;white-space:nowrap;background:#fff;color:#000;box-shadow:0 24px 50px rgba(0,0,0,.6)}
+.lab.d{background:#111;color:#fff;border:2px solid rgba(255,255,255,.25)}
+/* frontend */
+.site{height:100%;position:relative;overflow:hidden}
+.plain{background:#fff;padding:36px}
+.plain .h{height:40px;width:60%;background:#d6d6d6;border-radius:6px}.plain .p{height:16px;background:#e7e7e7;border-radius:4px;margin-top:14px}
+.plain .bt{margin-top:26px;width:190px;height:52px;border-radius:8px;background:#9aa4b2}
+.plain .cards{display:flex;gap:14px;margin-top:34px}.plain .cards div{flex:1;height:170px;border-radius:10px;background:#f3f3f3;border:2px solid #e5e5e5}
+.fancy{background:radial-gradient(circle at 85% 8%,#ff8a5b 0,transparent 38%),radial-gradient(circle at 8% 92%,#7c3aed 0,transparent 42%),#0d0b14;padding:46px 44px;color:#fff}
+.fancy .eb{display:inline-block;font-size:20px;font-weight:900;letter-spacing:3px;padding:6px 14px;border:2px solid rgba(255,255,255,.4);border-radius:30px}
+.fancy .h{font-size:76px;font-weight:900;line-height:1.02;letter-spacing:-3px;margin-top:22px}
+.fancy .h span{background:linear-gradient(90deg,#ffb38a,#ff5fa2,#a78bfa);-webkit-background-clip:text;color:transparent}
+.fancy .bt{margin-top:28px;display:inline-block;padding:18px 34px;border-radius:40px;background:#fff;color:#111;font-size:26px;font-weight:900}
+.fancy .cards{display:flex;gap:16px;margin-top:40px}
+.fancy .cards div{flex:1;height:200px;border-radius:24px;background:linear-gradient(160deg,rgba(255,255,255,.18),rgba(255,255,255,.04));border:1.5px solid rgba(255,255,255,.25)}
+/* skill md */
+.md{font-family:ui-monospace,monospace;font-size:22px;line-height:1.55;color:#333;padding:18px 22px;background:#f4f4f2;border-radius:14px;margin-top:14px}
+.md div{opacity:0}.md b{color:#000}
+/* settings */
+.set{height:100%;background:#fafaf8;display:flex}
+.sd{width:200px;background:#f0f0ee;padding:24px 14px;font-size:23px;font-weight:800;color:#777}
+.sd div{padding:12px 14px;border-radius:12px;margin-bottom:6px}
+.sd .on{background:#fff;color:#111;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.sm{flex:1;padding:26px 28px;color:#111}
+.sm h3{font-size:38px;font-weight:900;letter-spacing:-1.5px}
+.sm p{font-size:20px;color:#888;font-weight:700;margin-top:4px}
+.row{display:flex;align-items:center;justify-content:space-between;padding:16px 2px;border-bottom:1.5px solid #ececea}
+.row b{font-size:27px;font-weight:900;display:block}.row small{font-size:19px;color:#888;font-weight:700}
+.tg{width:84px;height:48px;border-radius:30px;background:#d2d2d0;position:relative;flex:none}
+.tg i{position:absolute;left:5px;top:5px;width:38px;height:38px;border-radius:50%;background:#fff;box-shadow:0 3px 8px rgba(0,0,0,.25)}
+.cur{position:absolute;left:0;top:0;visibility:hidden;width:54px;height:54px;z-index:50;filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
+.rip{position:absolute;left:0;top:0;width:72px;height:72px;border-radius:50%;border:5px solid #fff;opacity:0;margin:-36px 0 0 -36px}
+/* CTA */
+#cta{left:70px;right:70px;top:250px}
+.fol{display:flex;align-items:center;gap:18px;padding:22px 26px;border-radius:28px;background:#141414;border:2px solid rgba(255,255,255,.14);box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.av{width:86px;height:86px;border-radius:50%;background:#fff;padding:4px}
+.av div{width:100%;height:100%;border-radius:50%;background:#000;color:#fff;font-weight:900;font-size:19px;letter-spacing:-1px;display:grid;place-items:center}
+.fol b{font-size:34px;font-weight:900}.fol small{display:block;font-size:22px;color:#9a9a9a;font-weight:700}
+.fb{margin-left:auto;position:relative;width:180px;height:64px}
+.fb span{position:absolute;inset:0;border-radius:16px;display:grid;place-items:center;font-size:28px;font-weight:900}
+.fb .a{background:#fff;color:#000}.fb .b{background:#2a2a2a;opacity:0}
+.inp{margin-top:18px;display:flex;align-items:center;gap:16px;padding:20px 26px;border-radius:40px;background:#1c1c1c;border:2px solid rgba(255,255,255,.12);font-size:38px;font-weight:900}
+.inp .sd2{margin-left:auto;color:#fff;font-size:30px;opacity:.8}
+#dm{margin-top:18px;display:flex;align-items:center;gap:18px;padding:20px 24px;border-radius:26px;background:#fff;color:#111;box-shadow:0 30px 70px rgba(0,0,0,.55)}
+#dm .ap{width:70px;height:70px;border-radius:20px;background:#111;color:#fff;display:grid;place-items:center;font-size:34px;flex:none}
+#dm b{display:block;font-size:30px;font-weight:900}#dm span{font-size:25px;font-weight:800;color:#444}
+/* captions */
+#caps .w{position:absolute;left:10px;right:10px;top:858px;text-align:center;font-size:76px;line-height:1.16;letter-spacing:-2.5px;font-weight:900;color:#fff;visibility:hidden;white-space:nowrap;
+ -webkit-text-stroke:3px rgba(0,0,0,.75);paint-order:stroke fill;text-shadow:0 0 4px #000,0 6px 20px rgba(0,0,0,.9)}
+#caps .w b{color:#000;background:#fff;-webkit-text-stroke:0;text-shadow:none;padding:0 12px 4px;border-radius:12px;margin:0 4px}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#disc{position:absolute;left:0;right:0;top:1862px;text-align:center;font-size:20px;font-weight:700;color:rgba(255,255,255,.72);text-shadow:0 2px 8px #000}
+</style></head><body>
+<!-- split stage -->
+<div id="stage">
+ <div id="prog" class="sc"><div id="p1">1 PPT·엑셀</div><div id="p2">2 디자인</div><div id="p3">3 내 스킬</div></div>
+ <div id="k1" class="sc"><span>클로드 만든 앤트로픽이 직접</span></div>
+ <div id="t1" class="sc">공식 스킬 19개<span class="inv">0원</span></div>
+ <div class="cam"><div class="rig">
+  <div class="win sc" id="repo"><div class="bar"><i></i><i></i><i></i><div class="url">github.com/anthropics/skills</div></div>
+   <div class="rh"><div class="lg">A\</div><b><span>anthropics /</span> skills</b><div class="st">★ 19.8k</div></div>
+   <div class="rtabs"><span class="on">Code</span><span>Issues</span><span>Pull requests</span></div>
+   <div style="position:absolute;left:0;right:0;top:206px;bottom:0;overflow:hidden"><div class="flist" id="fl"></div></div>
+   <div id="cnt" class="sc"><em id="cn">0</em>개 스킬</div>
+  </div>
+  <div class="win sc" id="w4" style="left:110px;top:170px;width:860px;height:600px"><div class="bar"><i></i><i></i><i></i><div class="url">claude.ai</div></div>
+   <div class="chat"><div class="um"><div id="u4"></div></div><div class="ar" id="ar4"><div class="ic">✳</div><span>pptx · xlsx 스킬 사용 중…</span></div></div></div>
+  <div class="lab sc" id="l4" style="left:110px;top:96px">1. pptx · xlsx</div>
+  <div class="win sc" id="w6" style="left:110px;top:170px;width:860px;height:600px"><div class="bar"><i></i><i></i><i></i><div class="url">my-landing.app</div></div>
+   <div class="site plain"><div class="h"></div><div class="p"></div><div class="p" style="width:80%"></div><div class="bt"></div><div class="cards"><div></div><div></div><div></div></div></div></div>
+  <div class="lab sc" id="l6" style="left:110px;top:96px">2. frontend-design</div>
+  <div class="lab d sc" id="l6b" style="left:560px;top:690px">😐 흔한 AI 화면</div>
+  <div class="win sc" id="w8" style="left:110px;top:170px;width:860px;height:630px"><div class="bar"><i></i><i></i><i></i><div class="url">claude.ai</div></div>
+   <div class="chat"><div class="um"><div id="u8"></div></div><div class="ar" id="ar8"><div class="ic">✳</div><span>skill-creator로 만드는 중…</span></div>
+    <div class="file" id="f8"><div class="fi">MD</div><div><b>weekly-report / SKILL.md</b><small>내 업무 방식 스킬</small></div></div>
+    <div class="md" id="md8"><div><b>name:</b> weekly-report</div><div><b>when:</b> 매주 금요일 주간 보고</div><div>1. 지난주 수치 표로 정리</div><div>2. 이슈 3줄 요약 → 초안 작성</div></div></div></div>
+  <div class="lab sc" id="l8" style="left:110px;top:96px">3. skill-creator</div>
+  <div class="win sc" id="w9" style="left:110px;top:170px;width:860px;height:630px"><div class="bar"><i></i><i></i><i></i><div class="url">claude.ai · Customize</div></div>
+   <div class="set"><div class="sd"><div>설정</div><div>기능</div><div class="on">Skills</div></div><div class="sm"><h3>Skills</h3><p>앤트로픽이 만든 공식 스킬</p>
+    <div class="row"><div><b>frontend-design</b><small>디자이너급 화면</small></div><div class="tg"><i></i></div></div>
+    <div class="row"><div><b>pptx · xlsx · docx</b><small>진짜 파일 만들기</small></div><div class="tg"><i></i></div></div>
+    <div class="row"><div><b>skill-creator</b><small>나만의 스킬 만들기</small></div><div class="tg"><i></i></div></div>
+    <div class="row"><div><b>pdf</b><small>PDF 읽고 만들기</small></div><div class="tg"><i></i></div></div></div></div></div>
+  <div class="lab sc" id="l9" style="left:110px;top:96px">⏱ 켜는 데 10초</div>
+  <div id="rig9" style="position:absolute;inset:0"></div>
+  <div id="cta" class="sc"><div class="fol"><div class="av"><div>Coogle</div></div><div><b>coogle.ai</b><small>클로드·챗GPT AI 꿀팁</small></div><div class="fb"><span class="a">팔로우</span><span class="b">팔로잉 ✓</span></div></div>
+   <div class="inp">💬 <span id="kw"></span><span class="sd2">게시</span></div>
+   <div id="dm"><span class="ap">✉</span><div><b>coogle.ai님의 메시지</b><span>요청하신 '앤트로픽 공식 스킬' 자료예요</span></div></div></div>
+ </div></div>
+</div>
+<div id="seam"></div>
+<!-- full scenes -->
+<div class="full" id="F0"><div class="strike">유료 스킬 결제</div><div class="z" id="zz">0원</div><div class="zs">앤트로픽 공식 · <b>누구나 무료로 공개</b></div></div>
+<div class="full" id="F5"><div class="cam"><div class="rig">
+ <div class="win" id="w5" style="left:90px;top:200px;width:900px;height:560px"><div class="bar"><i></i><i></i><i></i><div class="url">claude.ai</div></div>
+  <div class="chat"><div class="um"><div>11월 매출로 보고서 PPT랑 엑셀 만들어 줘</div></div><div class="ar"><div class="ic">✳</div><span>파일 2개를 만들었어요</span></div>
+   <div class="file" id="fp"><div class="fi">PPT</div><div><b>11월_매출보고.pptx</b><small>슬라이드 6장</small></div></div>
+   <div class="file" id="fx"><div class="fi">XLS</div><div><b>11월_매출.xlsx</b><small>시트 2개 · 수식 포함</small></div></div></div></div>
+ <div class="slide" id="sl" style="left:60px;top:1230px"><h5>11월 매출 요약</h5><div class="bars"><i style="height:45%"></i><i style="height:70%"></i><i style="height:55%"></i><i style="height:92%"></i></div></div>
+ <div class="sheet" id="sh" style="left:480px;top:1300px"><div><span>지역</span><span>매출</span><span>합계</span></div><div><span>서울</span><span>120</span><span>=B2*C2</span></div><div><span>부산</span><span>86</span><span>=B3*C3</span></div><div><span>합계</span><span>206</span><span>=SUM()</span></div></div>
+ <div class="lab" id="l5" style="left:90px;top:120px">진짜 .pptx · .xlsx 파일</div>
+</div></div></div>
+<div class="full" id="F7"><div class="cam"><div class="rig">
+ <div class="win" id="w7" style="left:80px;top:190px;width:920px;height:630px"><div class="bar"><i></i><i></i><i></i><div class="url">my-landing.app</div></div>
+  <div class="site fancy"><div class="eb">NEW · 2026</div><div class="h">디자이너가<br/><span>만든 것처럼</span></div><div class="bt">시작하기 →</div><div class="cards"><div></div><div></div><div></div></div></div></div>
+ <div class="lab" id="l7" style="left:80px;top:120px">frontend-design 켜면</div>
+ <div class="lab d" id="l7b" style="left:600px;top:1220px">✨ AI 티 싹</div>
+</div></div></div>
+<div id="caps"></div>
+<div id="flash"></div>
+<div id="disc">앤트로픽 공식 깃허브·Claude 도움말 기준 · 2026년 11월 · 영상은 AI로 만들었어요</div>
+<svg width="0" height="0"><defs><symbol id="arrow" viewBox="0 0 24 24"><path d="M3 2l17 9-7.5 2L9 20.5z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></symbol></defs></svg>
+<script>
+const T=window.TL,E=T.dur,S=T.seg;
+const tl=gsap.timeline({paused:true});window.__timelines={main:tl};
+const vis=(s,a,b)=>{tl.set(s,{visibility:"visible"},a);tl.set(s,{visibility:"hidden"},b)};
+const pop=(s,t)=>tl.fromTo(s,{scale:.3,opacity:0},{scale:1,opacity:1,duration:.35,ease:"back.out(2.2)",immediateRender:false},t);
+const typ=(sel,txt,t,d)=>{const o={n:0};tl.call(()=>{document.querySelector(sel).textContent=""},null,Math.max(0,t-.01));tl.to(o,{n:txt.length,duration:d,ease:"none",onUpdate:()=>{document.querySelector(sel).textContent=txt.slice(0,Math.round(o.n))}},t)};
+const flash=t=>tl.fromTo("#flash",{opacity:.7},{opacity:0,duration:.2,ease:"power2.out",immediateRender:false},t);
+const enterWin=(s,t,dur,ry)=>{tl.fromTo(s,{rotationY:ry,rotationX:10,z:-420,opacity:0},{rotationY:-5,rotationX:4,z:0,opacity:1,duration:.45,ease:"back.out(1.3)",immediateRender:false},t);tl.to(s,{rotationY:4,rotationX:1,z:60,duration:Math.max(.5,dur-.45),ease:"sine.inOut"},t+.45);};
+// timing anchors
+const A0=0,A1=S[1][0],A2=S[2][0],A3=S[3][0],A4=S[4][0],A5=S[5][0],A6=S[6][0],A7=S[7][0],A8=S[8][0],A10=S[10][0];
+// ---- S1 hook 0..A2
+vis("#k1",0,A1);vis("#t1",0,A2);
+tl.fromTo("#t1",{scale:1.05},{scale:1,duration:2,ease:"sine.out"},0);
+vis("#repo",0,A2);
+tl.set("#repo",{rotationY:-6,rotationX:4},0);tl.to("#repo",{rotationY:4,rotationX:1,z:50,duration:A2,ease:"sine.inOut"},0);
+const names=["academy-guide","algorithmic-art","brand-guidelines","canvas-design","claude-api","discernment-nudge","doc-coauthoring","docx","frontend-design","internal-comms","mcp-builder","pdf","pptx","skill-creator","slack-gif-creator","theme-factory","web-artifacts-builder","webapp-testing","xlsx"];
+const fl=document.getElementById("fl");
+names.forEach((n,i)=>{const d=document.createElement("div");d.textContent=n;d.id="fn"+i;if(["frontend-design","pptx","skill-creator","xlsx"].includes(n))d.dataset.k=1;fl.appendChild(d);});
+names.forEach((n,i)=>{const t=i<6?0:A1+(i-6)*.13;tl.fromTo("#fn"+i,{opacity:0,x:-14},{opacity:1,x:0,duration:.16,immediateRender:false},t);});
+tl.set("#fl div",{opacity:1},0);names.forEach((n,i)=>{if(i>=6)tl.set("#fn"+i,{opacity:0},0)});
+// scroll list up in S2 to show all 19 rows (list is 10 rows tall): translate
+tl.to("#fl",{y:-150,duration:A2-A1-.6,ease:"sine.inOut"},A1+.3);
+vis("#cnt",A1,A2);pop("#cnt",A1+.2);
+const cn={v:0};tl.to(cn,{v:19,duration:1.6,ease:"power2.out",onUpdate:()=>{document.getElementById("cn").textContent=Math.round(cn.v)}},A1+.2);
+names.forEach((n,i)=>{if(["frontend-design","pptx","skill-creator","xlsx"].includes(n))tl.call(()=>document.getElementById("fn"+i).classList.add("hi"),null,A1+1.9);});
+tl.call(()=>document.querySelectorAll("#fl .hi").forEach(e=>e.classList.remove("hi")),null,A1+1.85);
+// ---- S3 zero full A2..A3
+flash(A2);vis("#F0",A2,A3);
+tl.fromTo("#zz",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:.28,ease:"power4.in",immediateRender:false},A2+.05);
+tl.fromTo("#F0 .strike",{opacity:0,y:20},{opacity:1,y:0,duration:.25,immediateRender:false},A2);
+tl.fromTo("#F0 .zs",{opacity:0,y:20},{opacity:1,y:0,duration:.25,immediateRender:false},A2+.35);
+// ---- progress row A3..A10
+vis("#prog",A3,A10);
+const on=(id,t)=>{tl.call(()=>{["p1","p2","p3"].forEach(p=>document.getElementById(p).classList.toggle("on",p===id))},null,t)};
+on("p1",A3);on("p2",A5);on("p3",A7);on("",0);
+// ---- S4 chat split A3..A4
+flash(A3);vis("#w4",A3,A4);vis("#l4",A3,A4);enterWin("#w4",A3,A4-A3,30);pop("#l4",A3+.2);
+typ("#u4","11월 매출로 보고서 PPT랑 엑셀 만들어 줘",A3+.25,1.2);
+tl.fromTo("#ar4",{opacity:0},{opacity:1,duration:.2,immediateRender:false},A3+1.6);tl.set("#ar4",{opacity:0},0);
+// ---- S5 files full A4..A5
+flash(A4);vis("#F5",A4,A5);
+tl.fromTo("#w5",{rotationY:-25,z:-300,opacity:0},{rotationY:-4,z:0,opacity:1,duration:.45,ease:"back.out(1.3)",immediateRender:false},A4);
+tl.fromTo("#fp",{opacity:0,x:80},{opacity:1,x:0,duration:.25,immediateRender:false},A4+.5);tl.set("#fp,#fx",{opacity:0},0);
+tl.fromTo("#fx",{opacity:0,x:80},{opacity:1,x:0,duration:.25,immediateRender:false},A4+.75);
+tl.fromTo("#sl",{y:500,rotation:-20,opacity:0},{y:0,rotation:-5,opacity:1,duration:.5,ease:"back.out(1.6)",immediateRender:false},A4+1.0);tl.set("#sl,#sh",{opacity:0},0);
+tl.fromTo("#sh",{y:500,rotation:20,opacity:0},{y:0,rotation:4,opacity:1,duration:.5,ease:"back.out(1.6)",immediateRender:false},A4+1.2);
+document.querySelectorAll("#sl .bars i").forEach((b,j)=>tl.fromTo(b,{scaleY:0,transformOrigin:"50% 100%"},{scaleY:1,duration:.3,immediateRender:false},A4+1.4+j*.08));
+pop("#l5",A4+.3);
+// ---- S6 plain split A5..A6
+flash(A5);vis("#w6",A5,A6);vis("#l6",A5,A6);vis("#l6b",A5+.9,A6);enterWin("#w6",A5,A6-A5,-30);pop("#l6",A5+.15);pop("#l6b",A5+.9);
+// ---- S7 fancy full A6..A7
+flash(A6);vis("#F7",A6,A7);
+tl.fromTo("#w7",{rotationY:90,opacity:0},{rotationY:-5,opacity:1,duration:.5,ease:"back.out(1.4)",immediateRender:false},A6);
+pop("#l7",A6+.25);pop("#l7b",A6+1.1);tl.set("#l7b",{opacity:0},0);
+// ---- S8 skill-creator split A7..A8
+flash(A7);vis("#w8",A7,A8);vis("#l8",A7,A8);enterWin("#w8",A7,A8-A7,30);pop("#l8",A7+.15);
+typ("#u8","내 주간 보고 방식을 스킬로 만들어 줘",A7+.2,1.0);
+tl.fromTo("#ar8",{opacity:0},{opacity:1,duration:.2,immediateRender:false},A7+1.3);tl.set("#ar8,#f8",{opacity:0},0);
+tl.fromTo("#f8",{opacity:0,y:30},{opacity:1,y:0,duration:.3,immediateRender:false},A7+1.8);
+document.querySelectorAll("#md8 div").forEach((d,j)=>tl.fromTo(d,{opacity:0},{opacity:1,duration:.15,immediateRender:false},A7+2.2+j*.3));
+// ---- S9 toggles split A8..A10
+flash(A8);vis("#w9",A8,A10);vis("#l9",A8,A10);enterWin("#w9",A8,A10-A8,-30);pop("#l9",A8+.15);
+const tgs=[...document.querySelectorAll("#w9 .tg")];
+tgs.forEach((g,j)=>{const t=A8+.6+j*.35;tl.to(g,{backgroundColor:"#111",duration:.12},t);tl.to(g.querySelector("i"),{x:36,duration:.12},t);});
+// ---- S10 CTA split A10..E
+flash(A10);vis("#cta",A10,E);
+tl.fromTo("#cta .fol",{y:-60,opacity:0},{y:0,opacity:1,duration:.3,ease:"power3.out",immediateRender:false},A10);
+tl.to("#cta .fb .a",{opacity:0,duration:.12},A10+.5);tl.to("#cta .fb .b",{opacity:1,duration:.12},A10+.5);
+tl.fromTo("#cta .inp",{y:40,opacity:0},{y:0,opacity:1,duration:.25,immediateRender:false},A10+.6);
+typ("#kw","'"+T.kw+"'",A10+.8,.35);
+tl.fromTo("#dm",{y:-50,opacity:0,scale:.9},{y:0,opacity:1,scale:1,duration:.4,ease:"back.out(1.8)",immediateRender:false},A10+1.6);
+tl.set("#dm,#cta .inp",{opacity:0},0);
+// captions
+const caps=document.getElementById("caps");
+T.caps.forEach((w,i)=>{const el=document.createElement("div");el.className="w";el.id="cap"+i;el.innerHTML=w[2];caps.appendChild(el);
+ const a=w[0],b=i+1<T.caps.length?T.caps[i+1][0]:E;vis("#cap"+i,a,b);
+ if(i>0) tl.fromTo("#cap"+i,{scale:.88,opacity:0,y:10},{scale:1,opacity:1,y:0,duration:.14,ease:"back.out(2.5)",immediateRender:false},a);});
+vis("#disc",0,A2);
+tl.set({}, {}, E);
+</script></body></html>
