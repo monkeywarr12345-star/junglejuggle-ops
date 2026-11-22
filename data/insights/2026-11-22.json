@@ -1,0 +1,156 @@
+{
+ "account": {
+  "id": "17841410918177759",
+  "followers_count": 47,
+  "media_count": 7
+ },
+ "media": [
+  {
+   "id": "17973509118198725",
+   "caption": "클로드 만든 앤트로픽이 직접 만든 공식 스킬 19개, 0원에 다 풀려 있어요 🎁 💬 팔로우하고 댓글에 ’공식‘ 남기면 스킬 목록·켜는 법 DM으로 보내드려요\n\n출처 모를 스킬 찾아다닐 필요 없어요.\n앤트로픽 공식 깃허브(별 19.8만)에 직접 만든 스킬이 공개돼 있고, 켜기만 하면 클로드가 그 일을 훨씬 잘해요.\n\n📌 먼저 켜 볼 공식 스킬 3개\n① frontend-design: 뻔한 AI 티 대신 디자이너가 만든 듯한 웹 화면\n② pptx·xlsx: 말 한마디로 진짜 PPT·엑셀 파일 만들기\n③ skill-creator: 내 업무 방식을 설명하면 나만의 스킬로 만들어 줘요\n\n🛠 켜는 법: 설정 › 기능에서 ’코드 실행 및 파일 생성‘을 켜고 → Customize › Skills에서 토글 ON\nClaude Code는 공식 저장소를 플러그인으로 등록하면 한 번에 깔려요\n\n💾 저장해 두고 하나씩 켜 보세요\n🎁 켜는 법 전체 + 스킬별로 바로 쓰는 프롬프트는 DM으로 → 팔로우 + 댓글 ’공식‘\n\nℹ️ 앤트로픽 공식 깃허브(anthropics/skills) 기준 스킬 19개 · Claude 도움말 기준 무료 플랜 포함 개인 요금제에서 쓸 수 있고 코드 실행 기능을 켜야 해요 · 메뉴 이름은 앱 버전에 따라 다를 수 있어요 · 영상 속 화면과 결과는 예시예요 · 영상은 AI로 만들었어요 · 2026년 11월 기준\n\n#클로드 #앤트로픽 #클로드스킬 #AI꿀팁 #업무자동화",
+   "comments_count": 4,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DgCbl8stnGC/",
+   "timestamp": "2026-11-22T08:59:28+0000",
+   "insights": {
+    "reach": 180,
+    "saved": 1,
+    "shares": 0,
+    "likes": 2,
+    "comments": 4,
+    "total_interactions": 7,
+    "views": 192,
+    "ig_reels_avg_watch_time": 4549
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "18083416412733067",
+   "caption": "클로드 코드에 이 5개만 깔면 완전히 딴 물건이 돼요 ⚡ 💬 팔로우하고 댓글에 ’장착‘ 남기면 프롬프트 전체본 보내드려요\n※ 5개 모두 무료로 설치하는 오픈소스예요(일부는 쓰는 양에 무료 한도가 있어요)\n\n① claude-mem: 지난 작업을 요약해 기억해 뒀다가 다음 대화에 알아서 넣어 줘요. 매번 프로젝트를 다시 설명할 일이 줄어요\n② FreeLLMAPI: 무료 AI 모델 연결 1,313개를 한 주소로 묶고, 한도가 차면 다음 모델로 자동으로 넘겨요(개인 실험용 · 답은 클로드가 아닌 무료 모델이 해요)\n③ Claude Code Setup: 앤트로픽 공식 플러그인. 내 코드를 훑고 맞는 MCP·스킬·훅·서브에이전트를 추천해 줘요(추천까지만, 설치는 내가 골라서)\n④ Elephant-Goldfish: 구글이 공개한 플러그인. 코끼리처럼 맥락 다 아는 채로 설계하고, 금붕어처럼 처음 보는 눈으로 검토한 뒤에야 코딩해요\n⑤ 21st MCP: UI 부품 1만 개 넘게 검색해서 가져와요(검색 무료 · 코드 가져오기 무료 하루 2회)\n\n💡 한 번에 다 깔지 말고 ③으로 내 프로젝트부터 진단한 뒤 필요한 것만 하나씩 더하는 게 좋아요\n\n💾 클로드 코드 세팅할 때 꺼내 보게 저장해 두세요\n🎁 5개 설치 명령어 + 한 번에 깔아 주는 프롬프트는 DM으로 → 팔로우 + 댓글 ’장착‘\n\nℹ️ 숫자는 각 공식 저장소·발표 기준(FreeLLMAPI 월 최대 101억 토큰은 업체별 무료 한도 합계, ’구글러 수천 명이 매일 사용‘은 구글 발표) · claude-mem 요약은 내 Anthropic 요금제 사용량을 써요 · 영상은 AI로 만들었어요 · 2026년 11월 20일 기준\n\n#클로드코드 #클로드 #ClaudeCode #AI꿀팁 #github",
+   "comments_count": 6,
+   "like_count": 6,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Df9SbmpsIZc/",
+   "timestamp": "2026-11-20T09:03:32+0000",
+   "insights": {
+    "reach": 188,
+    "saved": 7,
+    "shares": 1,
+    "likes": 6,
+    "comments": 6,
+    "total_interactions": 20,
+    "views": 215,
+    "ig_reels_avg_watch_time": 5777
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "17921040024524915",
+   "caption": "칭찬만 하던 클로드가 내 아이디어에 ‘유죄’를 때려요 ⚖️ 💬 팔로우하고 댓글에 ‘재판’ 남기면 프롬프트 전체본 보내드려요\n\nAI한테 “어때?” 물으면 대부분 “좋은 생각이에요”부터 나와요.\n그래서 아예 재판에 세우는 무료 클로드 스킬이 있어요. 이름은 court예요.\n\n① 검사 클로드: 이 아이디어가 왜 망할지 가장 세게 공격\n② 변호인 클로드: 왜 될 수 있는지 반박\n③ 배심원 12명: 회계사·경쟁자·은퇴한 판사 등 서로 다른 관점으로, 서로 표를 안 보고 따로 투표\n⚖️ 판사: 판결 + 표를 뒤집으려면 무엇을 바꿔야 하는지까지 정리\n\n💡 아이디어에 숫자(모아 둔 돈, 매출, 기간)를 같이 적을수록 판결이 날카로워져요\n\n💾 큰 결정 전에 꺼내 쓰게 저장해 두세요\n🎁 설치 3가지 방법 + 상황별 질문 예시 + 주의점은 DM으로 → 팔로우 + 댓글 ‘재판’\n\nℹ️ 깃허브 오픈소스(MIT, 무료) · Claude Code에서 쓰는 스킬이에요 · 재판 1번에 클로드를 17번 불러서 쓰는 요금제 사용량이 줄어요 · 배심원도 AI라 판결은 두 번째 의견일 뿐이에요 · 영상 속 판결과 표 숫자는 예시 · 영상은 AI로 만들었어요 · 2026년 11월 기준\n\n#클로드 #클로드코드 #AI꿀팁 #의사결정 #Claude",
+   "comments_count": 16,
+   "like_count": 13,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Df4JhamP4HX/",
+   "timestamp": "2026-11-18T09:09:37+0000",
+   "insights": {
+    "reach": 1742,
+    "saved": 29,
+    "shares": 7,
+    "likes": 13,
+    "comments": 16,
+    "total_interactions": 67,
+    "views": 1908,
+    "ig_reels_avg_watch_time": 4662
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "18136587193675173",
+   "caption": "버핏 포트폴리오, 펠로시가 산 주식까지 클로드가 공짜로 찾아 줘요 😳 💬 팔로우하고 댓글에 ’주식‘ 남기면 설치법 전체 보내드려요\n\n돈 내고 리딩방 듣던 시대, 진짜 끝났어요.\n클로드에 붙이는 ’트레이더 스킬‘은 무료에 가입도, API 키도 필요 없고, 스킬 11개가 한 세트예요.\n\n① 카피캣: 대가가 공시한 보유 종목을 내 예산에 맞는 비율로 바꿔 줘요\n② 뉴스: 내 종목 속보와 공시 중 영향 있는 것만 골라 줘요\n③ 펠로시: 미국 하원의원 주식 거래 신고가 올라오면 누가 뭘 샀는지 정리해 줘요\n④ 예산·리스크: 몇 주 살지 나눠 주고, 한도를 넘는 주문은 막아요\n\n🔒 내가 승인하지 않으면 어떤 주문도 나가지 않아요\n\n💾 저장해 두고 하나씩 써 보세요\n🎁 설치법·스킬 11개 정리·주의점은 DM으로 → 팔로우 + 댓글 ’주식‘\n\nℹ️ 투자 권유가 아니에요 · 대가 공시(13F)는 분기 끝나고 약 45일 뒤에 나오고, 의원 거래도 공개 신고 자료라 실제 거래보다 늦어요 · 미국 주식 기준 · 투자 판단과 손실 책임은 본인에게 있어요 · 영상은 AI로 만들었어요\n\n#AI꿀팁 #Claude #클로드 #주식 #ai",
+   "comments_count": 4,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Dfzc72PgGNH/",
+   "timestamp": "2026-11-16T13:23:10+0000",
+   "insights": {
+    "reach": 195,
+    "saved": 1,
+    "shares": 0,
+    "likes": 2,
+    "comments": 4,
+    "total_interactions": 8,
+    "views": 215,
+    "ig_reels_avg_watch_time": 4811
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "17875461705640320",
+   "caption": "영상 링크만 주면 클로드가 직접 보고 요약해요 👀 💬 팔로우하고 댓글에 ‘와치’ 남기면 설치법·프롬프트 전체본 보내드려요\n\n원래 클로드는 영상을 못 봐서, 캡처하고 자막 복사해서 설명해 줘야 했죠.\nWatch 스킬을 깔면 장면은 사진으로, 말은 글자로 바꿔서 같이 읽어요.\n\n📌 Watch 스킬로 되는 것\n① 유튜브 링크·내 영상 파일 요약\n② “가격 얘기 몇 분에 나와?”처럼 장면 위치 찾기\n③ 자막이 없으면 받아쓰기까지(설정 필요)\n\n💾 저장해 두고 긴 영상 볼 때 꺼내 쓰세요\n\n🎁 전체본(설치법 + 바로 쓰는 영상 프롬프트 5개)\n→ 팔로우 + 댓글 ‘와치’ 남기면 DM으로 보내드려요\n\n#클로드 #Claude #클로드코드 #AI #유튜브",
+   "comments_count": 76,
+   "like_count": 13,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DfwbAKpPTM-/",
+   "timestamp": "2026-11-15T09:08:11+0000",
+   "insights": {
+    "reach": 3050,
+    "saved": 68,
+    "shares": 12,
+    "likes": 13,
+    "comments": 76,
+    "total_interactions": 170,
+    "views": 3542,
+    "ig_reels_avg_watch_time": 5738
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "18040437002891495",
+   "caption": "질문 앞에 한 줄만 붙였더니 ChatGPT 답이 달라졌어요 ✨ 💬 팔로우하고 댓글에 ’명령어‘ 남기면 프롬프트 전체본 보내드려요\n\n어려운 건 쉽게, 긴 글은 핵심만, 계획은 단계별로 받아요.\n복붙해서 질문 앞에 붙이기만 하면 돼요.\n\n📌 오늘의 명령어 5개\n① ELI5: → 아주 쉽게 풀어 줘요\n② TL;DR → 긴 글을 핵심만 짧게 요약해요(”3줄로“를 붙이면 3줄)\n③ 너는 ○○야 → 면접관·선생님처럼 답해요\n④ 단계별로 → 복잡한 일을 순서대로 쪼개요\n⑤ 먼저 질문해 줘 → 필요한 걸 물어보고 답해요\n\n💾 저장해 두고 질문할 때 꺼내 쓰세요\n\n🎁 전체본(명령어 5개 + 바로 쓰는 예시 프롬프트 5개)\n→ 팔로우 + 댓글 ’명령어‘ 남기면 DM으로 보내드려요\n\nℹ️ 공식 기능이 아니라 질문 앞에 붙이는 부탁 표현이라 무료 플랜에서도 돼요 · 영상 속 회의록·금액은 예시예요 · 2026년 11월 기준\n\n#ChatGPT #챗GPT #프롬프트 #AI꿀팁 #업무효율",
+   "comments_count": 0,
+   "like_count": 3,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Dft1Us0BvBw/",
+   "timestamp": "2026-11-14T09:00:32+0000",
+   "insights": {
+    "reach": 149,
+    "saved": 1,
+    "shares": 0,
+    "likes": 3,
+    "comments": 0,
+    "total_interactions": 4,
+    "views": 168,
+    "ig_reels_avg_watch_time": 3237
+   },
+   "insights_via": "system"
+  },
+  {
+   "id": "18112404254191271",
+   "caption": "클로드 깔고 그대로 쓰면, 내 대화가 AI 학습에 쓰일 수도 있어요 🔒 팔로우하고 댓글에 ’세팅‘ 남기면 설정 위치 전체본 보내드려요\n\n깔자마자 바꾸면 좋은 설정 5개예요. 전부 무료 플랜에서 돼요.\n한 번만 바꿔 두면 답이 내 스타일로 바뀌어요.\n\n📌 오늘의 설정 5개\n① 개인정보 보호 › AI 모델 개선 돕기 끄기\n② 내 Claude › 지시사항에 직업·말투 적기\n③ 메모리에서 Claude가 기억하는 나 점검하기\n④ 기능 › 코드 실행 및 파일 생성 켜기\n⑤ + 버튼 › 웹 검색 켜기\n\n🎁 전체본(메뉴 위치 + 바로 쓰는 지시사항 문구 5개) → 팔로우 + 댓글 ’세팅‘ 남기면 DM으로 보내드려요\n\nℹ️ 2026년 11월 기준 · 메뉴 이름은 앱 버전마다 조금 달라요\n\n#클로드 #Claude #AI꿀팁 #AI설정 #업무자동화",
+   "comments_count": 10,
+   "like_count": 10,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Dfrwzu9Bd-_/",
+   "timestamp": "2026-11-13T13:45:15+0000",
+   "insights": {
+    "reach": 1925,
+    "saved": 33,
+    "shares": 4,
+    "likes": 10,
+    "comments": 10,
+    "total_interactions": 57,
+    "views": 2205,
+    "ig_reels_avg_watch_time": 7097
+   },
+   "insights_via": "system"
+  }
+ ]
+}
