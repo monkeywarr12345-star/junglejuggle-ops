@@ -6,9 +6,9 @@
     "보내드렸어요 🎁"
   ],
   "follow_gate": {
-    "text": "댓글 고마워요! 자료는 팔로워 전용이에요. @jungle.gcc 팔로우하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "text": "댓글 고마워요! Coogle이에요 👋 자료는 팔로워 전용이에요. @coogle.ai를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
     "button": "팔로우했어요 ✅",
-    "not_following": "아직 팔로우가 확인되지 않았어요 😢 프로필에서 팔로우하고 다시 눌러 주세요!"
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 @coogle.ai 팔로우한 뒤 아래 '팔로우했어요 ✅'를 다시 눌러 주세요!"
   },
   "card": {
     "title": "제미나이 노트북 시험 공부 전체본",
@@ -20,5 +20,6 @@
   "zorcha": "pending",
   "any_keyword": true,
   "notion": "https://app.notion.com/p/41f980830424815286a7d27cf7432116",
-  "notion_public": "https://observant-kiwi-cfe.notion.site/41f980830424815286a7d27cf7432116"
+  "notion_public": "https://observant-kiwi-cfe.notion.site/41f980830424815286a7d27cf7432116",
+  "publish_moved": "2026-11-25T18:00:00+09:00 (11/23 크레딧 부족으로 못 올려 이동)"
 }
