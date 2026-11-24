@@ -60,6 +60,7 @@ const DEF = {
   ],
 };
 const T = Object.assign({}, DEF, TL || {});
+const EV = Object.assign({ strike: 0.9, zeroSlam: 1.0, scramble: 1.2, dmArrive: 1.2, typing: 0.4 }, T.ev || {});
 const SC = T.scenes.map(([id, t0, t1, lay, hue]) => ({ id, t0, t1, lay, hue }));
 
 await document.fonts.load('800 40px P'); await document.fonts.load('700 40px P'); await document.fonts.load('600 40px P'); await document.fonts.load('900 40px P');
@@ -110,12 +111,13 @@ function pdfTex() {
 }
 function quizTex(i) {
   return ctex(600, 760, (g, w, h) => {
-    const grd = g.createLinearGradient(0, 0, 0, h); grd.addColorStop(0, '#fbfbfd'); grd.addColorStop(1, '#eceef4'); g.fillStyle = grd; g.fillRect(0, 0, w, h);
+    const grd = g.createLinearGradient(0, 0, w, h); grd.addColorStop(0, '#1d2030'); grd.addColorStop(1, '#0e0f15'); g.fillStyle = grd; g.fillRect(0, 0, w, h);
+    g.strokeStyle = 'rgba(143,166,255,.55)'; g.lineWidth = 4; rr(g, 4, 4, w - 8, h - 8, 34); g.stroke();
     g.fillStyle = '#8FA6FF'; rr(g, 40, 40, 120, 54, 27); g.fill(); g.fillStyle = '#07080A'; g.font = '800 30px P'; g.fillText('Q' + (i + 1), 70, 78);
-    g.fillStyle = '#1c1d22'; g.font = '800 38px P';
+    g.fillStyle = '#F5F5F7'; g.font = '800 38px P';
     const qs = ['침투 가격의 목적은?', '4P에 해당하지 않는 것은?', 'STP의 T는?', '스키밍 가격이란?', '브랜드 자산 구성요소는?', '포지셔닝 맵의 축은?', '시장 세분화 기준은?', '제품 수명주기 3단계는?', 'PPL의 뜻은?', 'USP란?', '가격 탄력성이 큰 상품은?', '푸시 전략이란?'];
     g.fillText(qs[i % qs.length], 40, 160);
-    ['A', 'B', 'C', 'D'].forEach((k, j) => { const y = 230 + j * 118; g.fillStyle = j === 1 && i % 3 === 0 ? '#ecf8f1' : '#ffffff'; rr(g, 40, y, w - 80, 92, 18); g.fill(); g.strokeStyle = j === 1 && i % 3 === 0 ? '#3a9b6b' : '#dde0e8'; g.lineWidth = 3; g.stroke(); g.fillStyle = '#7b8090'; g.font = '800 28px P'; g.fillText(k, 72, y + 58); g.fillStyle = '#c5c9d6'; g.fillRect(120, y + 38, 180 + ((i + j) * 53) % 200, 16); });
+    ['A', 'B', 'C', 'D'].forEach((k, j) => { const y = 230 + j * 118; const ok = j === 1 && i % 3 === 0; g.fillStyle = ok ? 'rgba(143,166,255,.22)' : 'rgba(255,255,255,.05)'; rr(g, 40, y, w - 80, 92, 18); g.fill(); g.strokeStyle = ok ? '#8FA6FF' : 'rgba(255,255,255,.16)'; g.lineWidth = 3; g.stroke(); g.fillStyle = ok ? '#8FA6FF' : '#9CA0AB'; g.font = '800 28px P'; g.fillText(k, 72, y + 58); g.fillStyle = 'rgba(255,255,255,.28)'; g.fillRect(120, y + 38, 180 + ((i + j) * 53) % 200, 16); });
   });
 }
 function slabTex() {
@@ -171,14 +173,14 @@ halo.position.z = -0.6; slabG.add(halo); slabG.add(slab);
 const pdfM = new THREE.Mesh(new THREE.PlaneGeometry(1.4, 1.9), stdPaper(pdfTex())); G('pdf').add(pdfM);
 
 // quiz cards
-const quizCards = []; { const geo = new RoundedBoxGeometry(1.55, 1.96, 0.03, 4, 0.08); const g = G('quiz3d'); for (let i = 0; i < 12; i++) { const mat = [0, 1, 2, 3].map(() => new THREE.MeshStandardMaterial({ color: 0xeceef4, roughness: 0.5 })); const front = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.9), new THREE.MeshStandardMaterial({ map: quizTex(i), roughness: 0.55, envMapIntensity: 0.35, color: 0xd8dbe4 })); const c = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color: 0xeceef4, roughness: 0.5 })); front.position.z = 0.017; c.add(front); g.add(c); quizCards.push(c); } }
+const quizCards = []; { const geo = new RoundedBoxGeometry(1.55, 1.96, 0.03, 4, 0.08); const g = G('quiz3d'); for (let i = 0; i < 12; i++) { const mat = [0, 1, 2, 3].map(() => new THREE.MeshStandardMaterial({ color: 0xeceef4, roughness: 0.5 })); const front = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.9), new THREE.MeshStandardMaterial({ map: quizTex(i), emissive: 0xffffff, emissiveMap: quizTex(i), emissiveIntensity: 0.35, roughness: 0.4, envMapIntensity: 0.5 })); const c = new THREE.Mesh(geo, new THREE.MeshPhysicalMaterial({ color: 0x151722, roughness: 0.25, metalness: 0.4, clearcoat: 1 })); front.position.z = 0.017; c.add(front); g.add(c); quizCards.push(c); } }
 
 // orbit tiles (50)
 const tiles = []; { const r = rng(23); const kinds = ['pdf', 'yt', 'doc', 'web']; const texs = kinds.map(iconTex); const geo = new THREE.PlaneGeometry(0.62, 0.78); const g = G('orbit'); for (let i = 0; i < 50; i++) { const m = new THREE.Mesh(geo, stdPaper(texs[i % 4], { roughness: 0.4 })); m.userData = { a: (i / 50) * Math.PI * 2 + r() * 0.2, rad: 2.6 + r() * 1.2, y: (r() - 0.5) * 1.6, sp: 0.6 + r() * 0.5, tilt: (r() - 0.5) * 0.6 }; g.add(m); tiles.push(m); } }
 
 // flashcard
 const flashG = G('flash3d'); const flashCard = new THREE.Group(); { const f = new THREE.Mesh(new THREE.PlaneGeometry(2.4, 3.2), new THREE.MeshStandardMaterial({ map: flashTex(true), roughness: 0.4, metalness: 0.1 })); const b = new THREE.Mesh(new THREE.PlaneGeometry(2.4, 3.2), new THREE.MeshStandardMaterial({ map: flashTex(false), roughness: 0.5 })); b.rotation.y = Math.PI; b.position.z = -0.01; flashCard.add(f, b); flashG.add(flashCard);
-  const refl = flashCard.clone(); refl.scale.y = -1; refl.position.y = -3.45; refl.traverse((o) => { if (o.material) { o.material = o.material.clone(); o.material.transparent = true; o.material.opacity = 0.16; } }); flashG.add(refl); flashCard.userData.refl = refl; }
+  const refl = flashCard.clone(); refl.scale.y = -1; refl.position.y = -3.45; refl.traverse((o) => { if (o.material) { o.material = o.material.clone(); o.material.transparent = true; o.material.opacity = 0.08; } }); flashG.add(refl); flashCard.userData.refl = refl; }
 
 // audio ring
 const ringG = G('ring'); const bars = new THREE.InstancedMesh(new THREE.BoxGeometry(0.05, 1, 0.05), new THREE.MeshStandardMaterial({ color: 0x8fa6ff, emissive: 0x5b6cff, emissiveIntensity: 1.6, roughness: 0.3 }), 96); ringG.add(bars);
@@ -210,7 +212,7 @@ function captions(t, lay) {
   capEl.style.top = lay === 'split' ? (c[2] ? '842px' : '872px') : '1400px';
   const l1 = capEl.querySelector('.l1'), l2 = capEl.querySelector('.l2');
   const a = expoOut(seg(lt, 0, 0.35)); css(l1, { opacity: a, transform: `translateY(${(1 - a) * 14}px)` });
-  if (l2) { const b = expoOut(seg(lt, 0.18, 0.55)); css(l2, { opacity: b, transform: `translateY(${(1 - b) * 14}px) scale(${lerp(0.96, 1, b)})` }); }
+  if (l2) { const l2t = c[3] != null ? c[3] - c[0] - 0.06 : 0.18; const b = expoOut(seg(lt, l2t, l2t + 0.37)); css(l2, { opacity: b, transform: `translateY(${(1 - b) * 14}px) scale(${lerp(0.96, 1, b)})` }); }
 }
 
 // ---------- per-scene updates ----------
@@ -221,10 +223,10 @@ const U = {
     cam.position.set(0, 0.2, lerp(9, 6.2, sine(seg(t, 0, d)))); cam.lookAt(0, 0.2, -3);
     const ash = seg(t, 1.9, d);
     papers.forEach((m, i) => { const u = m.userData; const f = p3in(ash); m.position.set(u.p.x + u.v.x * f, u.p.y + Math.sin(t * 0.6 + i) * 0.08 + u.v.y * f, u.p.z + u.v.z * f); m.rotation.set(u.rot.x + t * 0.05 + u.spin * f, u.rot.y + t * 0.07 + u.spin * f, u.rot.z); m.material.opacity = 1 - f; m.material.transparent = f > 0; });
-    { const hc = $('#hookChip'); const k = backOut(seg(t, 1.5, 1.85)); css(hc, { transform: `translateX(-50%) scale(${k})`, opacity: seg(t, 1.5, 1.6) * (1 - seg(t, d - 0.25, d)) }); }
-    const s = $('#hookT .strike'); s.style.transform = `scaleX(${p4io(seg(t, 0.9, 1.35))})`;
+    { const hc = $('#hookChip'); const k = backOut(seg(t, EV.strike + 0.55, EV.strike + 0.9)); css(hc, { transform: `translateX(-50%) scale(${k})`, opacity: seg(t, EV.strike + 0.55, EV.strike + 0.65) * (1 - seg(t, d - 0.25, d)) }); }
+    const s = $('#hookT .strike'); s.style.transform = `scaleX(${p4io(seg(t, EV.strike, EV.strike + 0.4))})`;
     const ht = $('#hookT'); const a = expoOut(seg(t, 0, 0.4)); css(ht, { opacity: a * (1 - seg(t, d - 0.25, d)), transform: `translateY(${(1 - a) * 30}px)` });
-    css($('#hookT .b'), { opacity: expoOut(seg(t, 1.2, 1.6)), transform: `translateY(${(1 - expoOut(seg(t, 1.2, 1.6))) * 20}px)`, display: 'inline-block' });
+    { const q = expoOut(seg(t, EV.strike + 0.25, EV.strike + 0.65)); css($('#hookT .b'), { opacity: q, transform: `translateY(${(1 - q) * 20}px)`, display: 'inline-block' }); }
     // slab rising through ash
     if (t > 2.0) { groups.slab.visible = true; const r = expoOut(seg(t, 2.0, d)); groups.slab.position.set(0, lerp(-5, 0.1, r), -1.5); groups.slab.rotation.set(-0.25, 0.35 - r * 0.25, 0); groups.slab.scale.setScalar(0.85); }
     fx({ dip: seg(t, d - 0.13, d) });
@@ -241,19 +243,19 @@ const U = {
     const push = p3in(seg(t, d - 0.45, d)); cam.position.z -= push * 6;
     fx({ flash: seg(t, d - 0.12, d) * 0.9, flashIn: 1 - seg(t, 0, 0.1) });
   },
-  rename(t, d) {
+  rename(t, d, S) { const sk = EV.scramble - S.t0;
     show('L_rename'); groups.slab.visible = false;
     const c = $('#gnCard'); const a = expoOut(seg(t, 0, 0.55)); const ex = p3in(seg(t, d - 0.3, d));
     css(c, { transform: `translateY(${(1 - a) * 80}px) rotateX(${lerp(14, 3, a)}deg) rotateY(${-4 + sine(seg(t, 0, d)) * 3 - ex * 70}deg) translateX(${-ex * 500}px)`, opacity: 1 - ex });
     // scramble NotebookLM -> Gemini Notebook
-    const s = seg(t, 1.2, 1.9); const A = 'NotebookLM', B = 'Gemini Notebook'; const n = Math.round(lerp(0, B.length, s)); const ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#$%01'; let out = B.slice(0, n); for (let i = n; i < Math.max(A.length, B.length) && s > 0 && s < 1; i++) out += ch[(i * 7 + Math.floor(t * 30)) % ch.length]; $('#scr').textContent = s <= 0 ? A : s >= 1 ? B : out;
+    const s = seg(t, sk, sk + 0.6); const A = 'NotebookLM', B = 'Gemini Notebook'; const n = Math.round(lerp(0, B.length, s)); const ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#$%01'; let out = B.slice(0, n); for (let i = n; i < Math.max(A.length, B.length) && s > 0 && s < 1; i++) out += ch[(i * 7 + Math.floor(t * 30)) % ch.length]; $('#scr').textContent = s <= 0 ? A : s >= 1 ? B : out;
     $('#scr').style.color = s >= 1 ? '#F5F5F7' : '';
-    css($('#oldName'), { opacity: expoOut(seg(t, 0.5, 0.9)) * (1 - ex) });
+    css($('#oldName'), { opacity: expoOut(seg(t, sk - 1.0, sk - 0.6)) * (1 - ex), transform: `scale(${1 + Math.sin(Math.PI * seg(t, sk, sk + 0.6)) * 0.08})` });
   },
-  zero(t, d) {
-    show('L_zero'); const z = $('#zero'); const a = backOut(seg(t, 0.12, 0.52));
-    css(z, { transform: `translateZ(${lerp(-900, 0, a)}px) rotateY(${lerp(-18, -6, sine(seg(t, 0, d)))}deg) rotateX(6deg) scale(${lerp(1.6, 1, expoOut(seg(t, 0.12, 0.5)))})`, opacity: seg(t, 0.12, 0.2) });
-    const c = $('#zeroChip'); const b = backOut(seg(t, 0.7, 1.1)); css(c, { transform: `translateX(-50%) scale(${b})`, opacity: seg(t, 0.7, 0.8) });
+  zero(t, d, S) {
+    show('L_zero'); const z = $('#zero'); const zs = EV.zeroSlam - S.t0 - 0.08; const a = backOut(seg(t, zs, zs + 0.4));
+    css(z, { transform: `translateZ(${lerp(-900, 0, a)}px) rotateY(${lerp(-18, -6, sine(seg(t, 0, d)))}deg) rotateX(6deg) scale(${lerp(1.6, 1, expoOut(seg(t, zs, zs + 0.38)))})`, opacity: seg(t, zs, zs + 0.08) });
+    const c = $('#zeroChip'); const b = backOut(seg(t, 0.1, 0.45)); css(c, { transform: `translateX(-50%) translateY(${(1 - expoOut(seg(t, zs, zs + 0.4))) * -380}px) scale(${b})`, opacity: seg(t, 0.1, 0.2) });
     fx({ leak: Math.sin(Math.PI * seg(t, d - 0.25, d)) });
   },
   src(t, d) {
@@ -272,9 +274,9 @@ const U = {
   },
   quizArch(t, d) {
     show('L_quizArch'); groups.quiz3d.visible = true; const bd = $('#bd2'); const a = expoOut(seg(t, 0, 0.45)); css(bd, { transform: `translateX(${(1 - a) * -60}px)`, opacity: a });
-    cam.position.set(0, 0.2, lerp(9.5, 8.6, sine(seg(t, 0, d)))); cam.lookAt(0, 0.1, 0);
+    cam.position.set(0, 0.9, lerp(9.0, 8.0, sine(seg(t, 0, d)))); cam.lookAt(0, 0.9, 0);
     const k = expoOut(seg(t, 0.05, 0.8)); const sel = p4io(seg(t, 0.7, 1.3));
-    quizCards.forEach((c, i) => { if (i > 6) { c.visible = false; return; } c.visible = true; const a2 = (i - 3) * 0.3 * k; const r = 4.6; c.position.set(Math.sin(a2) * r, -0.2 + (i === 3 ? sel * 0.25 : 0), lerp(-2, Math.cos(a2) * r - r, 1) + (i === 3 ? sel * 2.4 : 0)); c.rotation.set(0, -a2, 0); c.scale.setScalar(0.72); });
+    quizCards.forEach((c, i) => { if (i > 6) { c.visible = false; return; } c.visible = true; const a2 = (i - 3) * 0.3 * k; const r = 4.6; c.position.set(Math.sin(a2) * r, 0.9 + (i === 3 ? sel * 0.25 : 0), lerp(-2, Math.cos(a2) * r - r, 1) + (i === 3 ? sel * 2.4 : 0)); c.rotation.set(0, -a2, 0); c.scale.setScalar(0.95); });
     // rack focus: blur canvas except selected (approximate with CSS on canvas)
     canvas.style.filter = `blur(${sel * 0}px)`; bloomC.style.opacity = 0.42 + sel * 0.15;
     fx({ flashIn: 1 - seg(t, 0, 0.15), whipIn: 1 - seg(t, 0, 0.2) });
@@ -308,19 +310,19 @@ const U = {
   host() { show('L_none'); },
   save(t, d) {
     show('L_save'); groups.bookmark.visible = true; cam.position.set(0, 0, 7); cam.lookAt(0, 0, 0);
-    const k = seg(t, 0, 0.7); const y = lerp(5, 0.6, p3in(k)) + (k >= 1 ? 0.25 * Math.abs(Math.sin((t - 0.7) * 9)) * Math.exp(-(t - 0.7) * 4) : 0);
+    const k = seg(t, 0, 0.32); const y = lerp(2.0, -0.25, p3in(k)) + (k >= 1 ? 0.22 * Math.abs(Math.sin((t - 0.32) * 10)) * Math.exp(-(t - 0.32) * 5) : 0);
     bmG.position.set(0, y + 0.2, 0); bmG.scale.setScalar(0.6); bmG.rotation.set(0.12, Math.sin(t * 2.2) * 0.45, 0.04);
-    const c = $('#saveChip'); const b = backOut(seg(t, 0.7, 1.05)); css(c, { transform: `translateX(-50%) scale(${b})`, opacity: seg(t, 0.7, 0.8) });
+    const c = $('#saveChip'); const b = backOut(seg(t, 0.3, 0.6)); css(c, { transform: `translateX(-50%) scale(${b})`, opacity: seg(t, 0.3, 0.38) });
   },
   profile(t, d) {
     show('L_profile'); const c = $('#prof'); const a = expoOut(seg(t, 0, 0.5)); css(c, { transform: `rotateX(${lerp(12, 4, a)}deg) rotateY(${2 - sine(seg(t, 0, d)) * 4}deg) translateY(${(1 - a) * 60}px)`, opacity: a });
     const f = seg(t, 0.8, 0.95); const btn = $('#fBtn'); btn.textContent = f > 0 ? '팔로잉' : '팔로우'; css(btn, { background: f > 0 ? 'rgba(255,255,255,.12)' : 'var(--iris4)', transform: `scale(${1 - Math.sin(Math.PI * seg(t, 0.72, 0.95)) * 0.05})` });
     fx({ dip: 0, flash: seg(t, d - 0.1, d) * 0.6 });
   },
-  dm(t, d) {
+  dm(t, d, S) { const ty = EV.typing - S.t0, ar = EV.dmArrive - S.t0;
     show('L_dm'); const c = $('#cmt'); const a = expoOut(seg(t, 0, 0.5)); css(c, { transform: `rotateX(${lerp(14, 5, a)}deg) translateY(${(1 - a) * 60}px)`, opacity: a });
-    const word = '공부'; const n = Math.floor(seg(t, 0.35, 0.8) * (word.length + 0.99)); $('#typed').textContent = word.slice(0, n); $('#caret').style.opacity = Math.floor(t * 4) % 2 ? 0.2 : 1;
-    const m = $('#dm'); const b = expoOut(seg(t, 1.0, 1.55)); css(m, { transform: `perspective(1400px) rotateY(${lerp(-70, -6, b)}deg) translateX(${(1 - b) * 300}px)`, opacity: b });
+    const word = '공부'; const n = Math.floor(seg(t, ty, ty + 0.45) * (word.length + 0.99)); $('#typed').textContent = word.slice(0, n); $('#caret').style.opacity = Math.floor(t * 4) % 2 ? 0.2 : 1;
+    const m = $('#dm'); const b = expoOut(seg(t, ar, ar + 0.55)); css(m, { transform: `perspective(1400px) rotateY(${lerp(-70, -6, b)}deg) translateX(${(1 - b) * 300}px)`, opacity: b });
     fx({ flashIn: 1 - seg(t, 0, 0.12) });
   },
 };
@@ -345,7 +347,7 @@ function render(t) {
   if (s.lay === 'split') { R.setViewport(0, 960, 1080, 960); R.setScissor(0, 960, 1080, 960); R.setScissorTest(true); cam.aspect = 1080 / 960; } else { R.setViewport(0, 0, 1080, 1920); R.setScissorTest(false); cam.aspect = 1080 / 1920; }
   cam.fov = s.lay === 'split' ? 30 : 35; cam.updateProjectionMatrix();
   dust.position.y = Math.sin(t * 0.2) * 0.3; dust.rotation.y = t * 0.02;
-  U[s.id] && U[s.id](lt, d);
+  U[s.id] && U[s.id](lt, d, s);
   R.setClearColor(0x000000, 0); R.clear(); R.render(scene, cam);
   bctx.clearRect(0, 0, 540, 960); bctx.drawImage(canvas, 0, 0, 540, 960);
   turb.setAttribute('seed', String(Math.floor(t * 30) % 97));
