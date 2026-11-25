@@ -27,7 +27,7 @@ R.setPixelRatio(1); R.setSize(1080, 1920, false); R.toneMapping = THREE.ACESFilm
 const scene = new THREE.Scene(); scene.environment = new THREE.PMREMGenerator(R).fromScene(new RoomEnvironment(), 0.04).texture;
 const cam = new THREE.PerspectiveCamera(35, 1080 / 1920, 0.1, 100); cam.position.set(0, 0, 10);
 scene.add(new THREE.DirectionalLight(0xffffff, 1.6).translateX(-3).translateY(5).translateZ(5));
-const rim = new THREE.PointLight(0x8fa6ff, 50, 30, 1.6); rim.position.set(0, 1, -4); scene.add(rim);
+const rim = new THREE.PointLight(0xa99bff, 50, 30, 1.6); rim.position.set(0, 1, -4); scene.add(rim);
 function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; draw(c.getContext('2d'), w, h); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; }
 // app icon: earth app icon from footage-like look (generic globe)
 const iconTex = ctex(512, 512, (g) => { const gr = g.createRadialGradient(220, 200, 20, 256, 256, 300); gr.addColorStop(0, '#5aa0ff'); gr.addColorStop(0.5, '#1d3f9e'); gr.addColorStop(1, '#050a1c'); g.fillStyle = '#0b0e18'; g.fillRect(0, 0, 512, 512); g.fillStyle = gr; g.beginPath(); g.arc(256, 256, 170, 0, 7); g.fill(); g.fillStyle = 'rgba(120,200,140,.75)'; for (let i = 0; i < 9; i++) { g.beginPath(); g.ellipse(180 + (i * 37) % 160, 190 + (i * 53) % 150, 30 + (i % 3) * 12, 18, i, 0, 7); g.fill(); } g.strokeStyle = 'rgba(255,255,255,.5)'; g.lineWidth = 3; g.beginPath(); g.ellipse(256, 256, 230, 70, -0.4, 0, 7); g.stroke(); });
@@ -50,11 +50,11 @@ function meme(t, d, name, top) { show('L_meme'); const n = MEME[name]; const i =
 
 // ---------- scenes ----------
 const U = {
-  hook(t, d, S) { show('L_win'); footage(t, S); titles('클로드한테 말로만 했는데', '내 컴퓨터에<br><em>앱이 깔렸어요</em>', t + 1); winIn(t + 1, d + 1); zoomTo([0, 0, 1600], [0, 0, 1500], seg(t, 0, d)); ringAt(0, 0, 0); chip($('#chipA'), '코딩 0줄 · 버튼 1개', -1, t); chip($('#chipB'), '', 0, t); },
+  hook(t, d, S) { show('L_win'); footage(t, S); titles('클로드한테 말로만 했는데', '내 컴퓨터에<br><em>앱이 깔렸어요</em>', t + 1); winIn(t - 1.45, d); zoomTo([0, 0, 1600], [0, 0, 1500], seg(t, 0, d)); ringAt(0, 0, 0); chip($('#chipA'), '코딩 0줄 · 버튼 1개', 1.75, t); chip($('#chipB'), '', 0, t); },
   m_wow(t, d) { meme(t, d, 'm1b_sunglass', '진짜로요?'); },
-  prompt(t, d, S) { show('L_win'); footage(t, S); titles('이렇게 말만 하면', '"이런 앱 하나<br><em>만들어 줘"</em>', t); winIn(t, d); const c = zoomTo([0, 0, 1600], [140, 40, 700], sine(seg(t, 0.2, 1.4))); ringAt([190, 72, 500, 95], c, seg(t, 1.2, 1.5)); chip($('#chipA'), '우주 쓰레기 추적 앱 만들어 줘', 1.3, t); chip($('#chipB'), '', 0, t); },
+  prompt(t, d, S) { show('L_win'); footage(t, S); titles('이렇게 말만 하면', '"이런 앱 하나<br><em>만들어 줘"</em>', t); winIn(t, d); const c = zoomTo([0, 0, 1600], [140, 40, 700], sine(seg(t, 0.2, 1.4))); ringAt([190, 72, 500, 95], c, 0); chip($('#chipA'), '우주 쓰레기 추적 앱 만들어 줘', 1.3, t); chip($('#chipB'), '', 0, t); },
   menu(t, d, S) { show('L_win'); footage(t, S); titles('어제부터 생긴 버튼', '<em>앱으로 설치</em>', t); winIn(t, d); const c = zoomTo([200, 100, 1300], [380, 300, 700], sine(seg(t, 0.3, 1.6))); ringAt([470, 388, 330, 40], c, seg(t, 1.2, 1.4)); chip($('#chipA'), 'Install as app', 1.4, t); chip($('#chipB'), '클로드 데스크톱 앱 (맥·윈도우)', 1.9, t); },
-  install(t, d, S) { show('L_win'); footage(t, S); titles('딱 누르면', '아이콘 생기고<br><em>창이 따로 떠요</em>', t); winIn(t, d); const ft = S.fs + t * (S.r || 1); const c = ft < 6.2 ? zoomTo([400, 300, 1100], [700, 380, 800], sine(seg(t, 0, 1))) : zoomTo([0, 0, 1600], [0, 0, 1600], 1); ringAt([1090, 520, 130, 60], c, ft < 6 ? seg(t, 0.4, 0.6) : 0); chip($('#chipA'), ft > 6.4 && t < d - 1.4 ? '바탕화면에 아이콘' : '', 0, t); chip($('#chipB'), '', 0, t);
+  install(t, d, S) { show('L_win'); footage(t, S); titles('딱 누르면', '아이콘 생기고<br><em>창이 따로 떠요</em>', t); winIn(t, d); const ft = S.fs + t * (S.r || 1); const c = ft < 6.2 ? zoomTo([400, 300, 1100], [700, 380, 800], sine(seg(t, 0, 1))) : zoomTo([0, 0, 1600], [0, 0, 1600], 1); ringAt([1090, 520, 130, 60], c, 0); chip($('#chipA'), ft > 6.4 && t < d - 1.4 ? '바탕화면에 아이콘' : '', 0, t); chip($('#chipB'), '', 0, t);
     icon.visible = t > d - 1.4; const k = eo(seg(t, d - 1.4, d - 0.7)); icon.scale.setScalar(0.42); icon.position.set(lerp(2.0, 0.72, k), lerp(-1.6, -0.55, k), lerp(-2, 2.6, k)); icon.rotation.set(0.25 - k * 0.2, -0.6 + k * 0.6 + Math.sin(t * 2) * 0.08, 0); },
   m_point(t, d) { meme(t, d, 'm2_point', '그냥 진짜 프로그램'); },
   perms(t, d, S) { show('L_win'); footage(t, S); titles('허락하면', '알림 · 메뉴 막대 ·<br><em>내 파일까지</em>', t); winIn(t, d); zoomTo([0, 0, 1600], [100, 60, 1400], seg(t, 0, d)); ringAt(0, 0, 0); chip($('#chipA'), '🔔 알림 · 메뉴 막대', 0.8, t); chip($('#chipB'), '📁 내 파일 (허락할 때만)', 1.6, t); },
@@ -82,7 +82,7 @@ function render(t) {
   const S = T.scenes.find((s) => t >= s.t0 && t < s.t1) || T.scenes[T.scenes.length - 1];
   const lt = t - S.t0, d = S.t1 - S.t0;
   document.documentElement.style.setProperty('--hue', S.hue || '#1A1C22');
-  icon.visible = false; flash(0);
+  icon.visible = false; flash(0); $('#shade').style.opacity = S.shade || 0;
   U[S.id] && U[S.id](lt, d, S);
   // global transition flash on scene start
   if (t > 0.2) flash(Math.max(parseFloat($('#flash').style.opacity) || 0, (1 - seg(lt, 0, 0.08)) * (S.id.startsWith('m_') ? 0.5 : 0.25)));
