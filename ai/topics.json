@@ -136,10 +136,10 @@
       "slug": "humanizer-skill",
       "title": "AI가 쓴 티 지워 주는 클로드 스킬",
       "tool": "Claude·ChatGPT",
-      "keyword": "글티",
+      "keyword": "들킴",
       "evidence": "글쓰기·AI 티 주제 평소의 1.24배(8개 계정 중 6곳 플러스). prompt_what AI 티 지우는 스킬 16.0x(댓글 8,764), gpt_haterz AI 글 티 15.9x",
       "status": "doing",
-      "note": "humanizer 스킬(blader/humanizer 등) 라이선스·한국어 적용 여부 확인. 한국어 번역투 예시는 직접 만든 문장으로 / 2026-11-25 예약 준비: 11/25가 Gemini라 Claude 주제로 선택",
+      "note": "humanizer 스킬(blader/humanizer 등) 라이선스·한국어 적용 여부 확인. 한국어 번역투 예시는 직접 만든 문장으로 / 2026-11-25 예약 준비: 11/25가 Gemini라 Claude 주제로 선택 / 키워드 '글티'→'들킴'(그로스 검토)",
       "reel": "2026-11-26-humanizer-skill",
       "publish_at": "2026-11-26T18:00:00+09:00"
     },

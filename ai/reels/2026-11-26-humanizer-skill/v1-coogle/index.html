@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>Coogle · 휴머나이저 스킬</title>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+<style>
+/* 최종 렌더 땐 assets/fonts/Pretendard-*.woff2를 넣으면 P가 Pretendard로 바뀜. 시안은 Noto Sans CJK KR */
+@font-face{font-family:P;font-weight:500;src:url(assets/fonts/Pretendard-Medium.woff2),local('Noto Sans CJK KR Medium')}
+@font-face{font-family:P;font-weight:600 800;src:url(assets/fonts/Pretendard-Bold.woff2),local('Noto Sans CJK KR Bold')}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2),local('Noto Sans CJK KR Black')}
+:root{--ink:#07080A;--g1:#14161B;--g2:#22252C;--paper:#F5F5F7;--mute:#9CA0AB;--hue:#1A1C22}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,'Noto Sans CJK KR',sans-serif;color:var(--paper);-webkit-font-smoothing:antialiased}
+#root{position:absolute;inset:0;overflow:hidden}
+#host{position:absolute;left:0;width:1080px;display:none;background:linear-gradient(180deg,#2a2c31,#16171b)}
+#host .ph{position:absolute;left:50%;top:22%;transform:translateX(-50%);width:360px;height:440px;border-radius:180px 180px 60px 60px;background:radial-gradient(ellipse at 50% 30%,#4a4d55,#26282d 70%)}
+#host .lab{position:absolute;left:0;right:0;bottom:120px;text-align:center;font-size:30px;font-weight:700;color:#c9ccd4;line-height:1.5}
+.stage{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#stage{z-index:2}
+#stage.split{clip-path:inset(0 0 960px 0)}
+#stage.hostonly{display:none}
+#bg{position:absolute;inset:0;background:radial-gradient(110% 60% at 50% 32%,#2b2d33 0%,#14161b 40%,var(--ink) 75%)}
+#stage.split #bg{background:radial-gradient(120% 70% at 50% 45%,#2b2d33 0%,#14161b 42%,var(--ink) 80%)}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(0,0,0,.7))}
+#gl{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#bloom{position:absolute;left:0;top:0;width:1080px;height:1920px;filter:brightness(.55) contrast(3.2) blur(24px);mix-blend-mode:screen;opacity:.35}
+#dom{position:absolute;inset:0;perspective:1400px}
+.layer{position:absolute;inset:0;visibility:hidden;transform-style:preserve-3d}
+#grain{position:absolute;inset:-50%;width:200%;height:200%;opacity:.07;mix-blend-mode:overlay;pointer-events:none;z-index:20}
+#fx{position:absolute;inset:0;z-index:30;pointer-events:none}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#dip{position:absolute;inset:0;background:#000;opacity:0}
+#seam{position:absolute;left:0;right:0;top:870px;height:180px;background:linear-gradient(180deg,rgba(7,8,10,0),rgba(7,8,10,.9) 50%,rgba(7,8,10,0));z-index:3;display:none}
+/* 자막: 강조 = 흰 박스 검정 글자 */
+#cap{position:absolute;left:0;right:0;z-index:40;text-align:center;pointer-events:none}
+#cap .l1{font-size:62px;font-weight:800;letter-spacing:-.025em;line-height:1.14;color:var(--paper);paint-order:stroke;-webkit-text-stroke:8px rgba(7,8,10,.55);text-shadow:0 6px 28px rgba(0,0,0,.75)}
+#cap .l2{margin-top:10px;font-size:66px;font-weight:900;letter-spacing:-.03em;line-height:1.12;color:var(--ink);background:var(--paper);display:inline-block;padding:4px 20px 8px;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+#brand{position:absolute;left:72px;top:72px;z-index:35;font-weight:900;font-size:30px;letter-spacing:-.02em;display:flex;align-items:center;gap:4px;opacity:.9}
+#brand i{display:inline-block;width:20px;height:20px;border-radius:50%;background:var(--paper);margin:0 1px}
+/* 진행 표시 ①②③ */
+#steps{position:absolute;left:72px;top:140px;z-index:36;display:none;gap:12px}
+#steps div{width:58px;height:58px;border-radius:50%;border:2px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:28px;color:rgba(255,255,255,.5);background:rgba(7,8,10,.5)}
+#steps div.on{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.card{position:absolute;border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.14);box-shadow:inset 0 2px 0 rgba(255,255,255,.07),0 40px 80px -20px rgba(0,0,0,.85);backdrop-filter:blur(14px);overflow:hidden}
+.card.light{background:linear-gradient(180deg,#fbfbfd,#eef0f5);color:#1c1d22;border-color:rgba(255,255,255,.6)}
+.card.gh{background:#0d1117;border-color:#30363d;color:#e6edf3}
+.chip{position:absolute;display:inline-flex;align-items:center;height:76px;padding:0 30px;border-radius:38px;background:var(--paper);color:var(--ink);font-weight:900;font-size:44px;letter-spacing:-.03em;box-shadow:0 20px 60px -10px rgba(0,0,0,.8),inset 0 -3px 0 rgba(0,0,0,.12);white-space:nowrap}
+.chip.dark{background:#000;color:var(--paper);border:2px solid var(--paper)}
+.badge{position:absolute;display:flex;align-items:center;height:62px;border-radius:31px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px);font-weight:900;font-size:30px;overflow:hidden}
+.badge b{height:100%;display:flex;align-items:center;padding:0 20px;background:var(--paper);color:var(--ink)}
+.badge span{padding:0 24px 0 18px}
+.mono{font-family:ui-monospace,'DejaVu Sans Mono',monospace}
+#hookT{position:absolute;left:0;right:0;top:250px;text-align:center;font-weight:900;font-size:118px;letter-spacing:-.045em;line-height:1.06;text-shadow:0 10px 60px rgba(0,0,0,.95)}
+#hookT .b{display:inline-block;margin-top:14px;background:var(--paper);color:var(--ink);padding:0 26px 10px;border-radius:16px;text-shadow:none}
+#zero{position:absolute;left:0;right:0;top:470px;height:420px;transform-style:preserve-3d}
+#zero .z{position:absolute;left:0;right:0;text-align:center;font-weight:900;font-size:340px;letter-spacing:-.06em;line-height:1}
+.gh-top{display:flex;align-items:center;gap:14px;padding:26px 30px;border-bottom:1px solid #30363d;font-size:30px}
+.gh-pill{display:inline-flex;align-items:center;gap:8px;height:46px;padding:0 18px;border:1px solid #30363d;border-radius:10px;background:#21262d;font-size:23px;font-weight:700;color:#e6edf3}
+.row{display:flex;align-items:center;gap:16px}
+.tag{display:inline-block;padding:3px 10px;margin:0 2px;border-radius:6px;background:rgba(255,255,255,.9);color:#111;font-weight:800}
+.del{color:#8b8f99;text-decoration:line-through;text-decoration-thickness:4px;text-decoration-color:#111}
+.ai{background:#d9dbe1;border-radius:5px;padding:0 4px}
+.toggle{width:84px;height:46px;border-radius:23px;background:#c9ccd4;position:relative;flex:none}
+.toggle i{position:absolute;left:4px;top:4px;width:38px;height:38px;border-radius:50%;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.toggle.on{background:#111}.toggle.on i{left:42px}
+#cursor{position:absolute;width:44px;height:58px;z-index:5;filter:drop-shadow(0 6px 10px rgba(0,0,0,.6))}
+</style>
+</head>
+<body>
+<div id="root">
+  <div id="host"><div class="ph"></div><div class="lab">진행자 자리 (새 의상: 네이비 옥스퍼드 셔츠 · 창가 작업 공간)<br>러다이트 첫 장면 사진으로 교체</div></div>
+  <div id="stage" class="stage">
+    <div id="bg"></div>
+    <canvas id="gl" width="1080" height="1920"></canvas>
+    <canvas id="bloom" width="540" height="960"></canvas>
+    <div id="vig"></div>
+    <div id="dom">
+      <!-- hook -->
+      <div class="layer" id="L_hook">
+        <div style="position:absolute;left:0;right:0;top:200px;height:520px;background:radial-gradient(60% 50% at 50% 50%,rgba(7,8,10,.8),transparent 75%)"></div>
+        <div id="hookT"><span id="h1">AI로 쓴 글,</span><br><span class="b" id="h2">다 들켜요</span></div>
+        <div id="hookChip" style="position:absolute;left:0;right:0;top:600px;text-align:center;font-weight:900;font-size:84px;letter-spacing:-.04em;text-shadow:0 10px 50px rgba(0,0,0,.95)">AI 티 26개 · <span style="border-bottom:8px solid #fff">0원</span></div>
+      </div>
+      <!-- wiki -->
+      <div class="layer" id="L_wiki">
+        <div class="chip" id="wikiChip" style="left:50%;top:1180px;transform:translateX(-50%)">위키백과 AI 글 판별법 = 기준</div>
+      </div>
+      <!-- skill (github repo) -->
+      <div class="layer" id="L_skill">
+        <div class="card gh" id="repo" style="left:100px;top:150px;width:880px;height:640px">
+          <div class="gh-top"><svg width="40" height="40" viewBox="0 0 16 16" fill="#e6edf3"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.71 1.71.75.75 0 0 1-1.07 1.05A2.5 2.5 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.71A2.5 2.5 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.09a.25.25 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg><span style="color:#7d8590">blader /</span><b>humanizer</b><span style="margin-left:6px;font-size:20px;border:1px solid #30363d;border-radius:20px;padding:2px 12px;color:#7d8590">Public</span></div>
+          <div style="padding:28px 30px;display:flex;gap:16px">
+            <div class="gh-pill" id="starPill">☆ Star <span style="background:#30363d;border-radius:12px;padding:0 10px" id="starN">0</span></div>
+            <div class="gh-pill">⑂ Fork 5.5k</div>
+            <div class="gh-pill">⚖ MIT license</div>
+          </div>
+          <div style="margin:0 30px;padding:26px 28px;border:1px solid #30363d;border-radius:14px;font-size:27px;line-height:1.5;color:#c9d1d9">
+            <div style="font-weight:800;font-size:34px;color:#e6edf3;margin-bottom:12px">Humanizer</div>
+            Humanizer makes AI-written text sound like a person wrote it, <span id="hlRead" style="background:rgba(255,255,255,0);border-radius:4px">without changing what it says.</span>
+            <div style="margin-top:16px;color:#7d8590;font-size:23px">Based on Wikipedia: Signs of AI writing · 26 patterns</div>
+          </div>
+        </div>
+      </div>
+      <!-- zero -->
+      <div class="layer" id="L_zero">
+        <div id="zero"></div>
+        <div class="chip dark" id="zeroChip" style="left:50%;top:960px;transform:translateX(-50%)">MIT 라이선스 · 깃허브 별 6.9만</div>
+      </div>
+      <!-- s1 zip -->
+      <div class="layer" id="L_s1">
+        <div class="badge" id="bd1" style="left:72px;top:215px"><b>01</b><span>ZIP 받기</span></div>
+        <div class="card gh" id="zipCard" style="left:110px;top:305px;width:860px;height:500px">
+          <div class="gh-top" style="font-size:26px"><span style="color:#7d8590">blader /</span><b>humanizer</b>
+            <div id="codeBtn" style="margin-left:auto;height:52px;padding:0 22px;border-radius:10px;background:#238636;color:#fff;font-weight:800;font-size:24px;display:flex;align-items:center;gap:8px">&lt;&gt; Code ▾</div></div>
+          <div id="dd" style="position:absolute;right:30px;top:100px;width:470px;border:1px solid #30363d;border-radius:14px;background:#161b22;box-shadow:0 20px 50px rgba(0,0,0,.6);padding:18px 0">
+            <div style="padding:10px 24px;font-size:22px;color:#7d8590;font-weight:700">Clone</div>
+            <div class="mono" style="margin:6px 24px 14px;padding:12px 14px;border:1px solid #30363d;border-radius:8px;font-size:18px;color:#c9d1d9">https://github.com/blader/humanizer.git</div>
+            <div style="border-top:1px solid #30363d"></div>
+            <div id="dlZip" style="margin:12px 12px 0;padding:16px 16px;border-radius:10px;font-size:26px;font-weight:800;display:flex;align-items:center;gap:14px">⤓ Download ZIP</div>
+          </div>
+          <div id="dlBar" style="position:absolute;left:30px;bottom:30px;width:470px;height:96px;border-radius:16px;background:#21262d;border:1px solid #30363d;padding:18px 22px">
+            <div style="font-size:23px;font-weight:800">humanizer-main.zip</div>
+            <div style="margin-top:12px;height:8px;border-radius:4px;background:#30363d"><div id="dlP" style="height:100%;width:0;border-radius:4px;background:#e6edf3"></div></div>
+          </div>
+        </div>
+        <svg id="cursor" viewBox="0 0 22 29"><path d="M1 1 L1 23 L7 17.5 L11 27 L15 25.3 L11 16 L19 16 Z" fill="#fff" stroke="#000" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </div>
+      <!-- s2 upload -->
+      <div class="layer" id="L_s2">
+        <div class="badge" id="bd2" style="left:72px;top:215px"><b>02</b><span>스킬로 올리기</span></div>
+        <div class="card light" id="setCard" style="left:110px;top:305px;width:860px;height:500px">
+          <div style="padding:26px 34px;border-bottom:1px solid #e1e3e8;font-size:25px;font-weight:700;color:#6b6f7b">사용자 정의 <span style="margin:0 8px">›</span> <b style="color:#1c1d22">스킬</b></div>
+          <div class="row" style="padding:26px 34px 10px;justify-content:space-between"><div style="font-size:32px;font-weight:900">스킬</div><div id="upBtn" style="height:58px;padding:0 26px;border-radius:12px;background:#1c1d22;color:#fff;font-size:24px;font-weight:800;display:flex;align-items:center">＋ 스킬 업로드</div></div>
+          <div id="skRow" class="row" style="margin:16px 34px;padding:22px 24px;border-radius:16px;border:2px solid #1c1d22;background:#fff;justify-content:space-between">
+            <div><div style="font-size:30px;font-weight:900">humanizer</div><div style="font-size:21px;color:#6b6f7b;margin-top:4px">AI 글 티 26개 패턴을 찾아 고쳐요</div></div><div class="toggle" id="tg"><i></i></div></div>
+          <div class="row" style="margin:12px 34px;padding:22px 24px;border-radius:16px;border:1px solid #e1e3e8;background:#fff;justify-content:space-between;opacity:.55">
+            <div><div style="font-size:28px;font-weight:800">pptx</div><div style="font-size:21px;color:#6b6f7b;margin-top:4px">예시 스킬</div></div><div class="toggle on"><i></i></div></div>
+          <div id="zipFly" style="position:absolute;left:330px;top:-140px;width:200px;height:120px;border-radius:16px;background:#1c1d22;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:26px;box-shadow:0 20px 40px rgba(0,0,0,.4)">ZIP</div>
+        </div>
+      </div>
+      <!-- s3 -->
+      <div class="layer" id="L_s3">
+        <div class="badge" id="bd3" style="left:72px;top:215px"><b>03</b><span>붙여 넣고 한마디</span></div>
+        <div class="card" id="ask" style="left:110px;top:1180px;width:860px;height:120px;border-radius:60px;display:flex;align-items:center;padding:0 40px;font-size:36px;font-weight:800">
+          <span id="askT"></span><span id="caret2" style="display:inline-block;width:3px;height:40px;background:#fff;margin-left:4px"></span>
+          <div style="margin-left:auto;width:70px;height:70px;border-radius:50%;background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:36px;font-weight:900">↑</div></div>
+      </div>
+      <!-- diff -->
+      <div class="layer" id="L_diff">
+        <div class="card light" id="before" style="left:70px;top:150px;width:470px;height:640px;padding:30px 28px;font-size:25px;line-height:1.6">
+          <div style="font-size:22px;font-weight:900;color:#6b6f7b;margin-bottom:14px">BEFORE · AI 티</div>
+          <span class="ai">I hope this email finds you well.</span> <span class="ai">In today's fast-paced world,</span> our launch is <span class="ai">not just a plan — it's a testament to</span> our team's dedication. <span class="ai">Let that sink in.</span>
+        </div>
+        <div class="card light" id="after" style="left:560px;top:190px;width:450px;height:560px;padding:30px 28px;font-size:28px;line-height:1.6;border:3px solid #111">
+          <div style="font-size:22px;font-weight:900;color:#111;margin-bottom:14px">AFTER · 사람 말투</div>
+          Quick update: the launch is on track for Friday. The team did great work on it.
+          <div style="margin-top:26px;font-size:21px;color:#6b6f7b;font-weight:700">뜻 그대로 · 군더더기만 빠짐</div>
+        </div>
+      </div>
+      <!-- save -->
+      <div class="layer" id="L_save"><div class="chip" id="saveChip" style="left:50%;top:700px;transform:translateX(-50%)">설치 3단계 · 저장</div></div>
+      <!-- profile -->
+      <div class="layer" id="L_profile">
+        <div class="card" id="prof" style="left:110px;top:190px;width:860px;height:560px;padding:44px 48px">
+          <div style="display:flex;align-items:center;gap:34px">
+            <div style="width:170px;height:170px;border-radius:50%;background:#000;border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;letter-spacing:-.02em">C<i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;margin:0 2px"></i><i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;margin:0 2px"></i>gle</div>
+            <div><div style="font-weight:900;font-size:44px">coogle.ai</div><div style="margin-top:10px;font-size:26px;color:var(--mute);font-weight:600">Coogle | 클로드·챗GPT AI 꿀팁</div></div>
+          </div>
+          <div style="margin-top:34px;font-size:27px;line-height:1.55;font-weight:600;color:#d9dbe2">🔍 구글링 말고 쿠글링<br>클로드·챗GPT 직접 써 보고 진짜 되는 것만</div>
+          <div id="fBtn" style="margin-top:36px;height:84px;border-radius:18px;background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:32px">팔로우</div>
+        </div>
+      </div>
+      <!-- dm -->
+      <div class="layer" id="L_dm">
+        <div class="card" id="cmt" style="left:90px;top:300px;width:900px;height:470px;padding:30px 34px">
+          <div style="font-weight:900;font-size:30px;text-align:center;margin-bottom:26px">댓글</div>
+          <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:24px;opacity:.6"><div style="width:56px;height:56px;border-radius:50%;background:#2b2e36"></div><div style="font-size:25px;line-height:1.5"><b>mail_jiho</b><br>들킴</div></div>
+          <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:24px;opacity:.6"><div style="width:56px;height:56px;border-radius:50%;background:#2b2e36"></div><div style="font-size:25px;line-height:1.5"><b>seo.writes</b><br>들킴 🙏</div></div>
+          <div style="position:absolute;left:30px;right:30px;bottom:30px;height:84px;border-radius:42px;border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;padding:0 30px;font-size:32px;font-weight:800"><span id="typed"></span><span id="caret" style="display:inline-block;width:3px;height:38px;background:#fff;margin-left:4px"></span><span style="margin-left:auto;font-weight:900">게시</span></div>
+        </div>
+        <div class="card" id="dm" style="left:150px;top:1010px;width:780px;height:430px;padding:30px 34px;transform-origin:100% 50%">
+          <div style="display:flex;align-items:center;gap:16px;margin-bottom:26px"><div style="width:62px;height:62px;border-radius:50%;background:#000;border:1.5px solid rgba(255,255,255,.3);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px">C●●</div><div style="font-weight:900;font-size:30px">coogle.ai</div><div style="margin-left:auto;font-size:22px;color:var(--mute)">지금</div></div>
+          <div style="padding:22px 26px;border-radius:24px;background:rgba(255,255,255,.1);font-size:28px;line-height:1.45;font-weight:600;width:88%">요청하신 AI 글 티 지우기 자료예요 🎁</div>
+          <div style="margin-top:18px;display:flex;align-items:center;gap:18px;padding:20px 24px;border-radius:20px;background:var(--paper);color:var(--ink);width:88%"><div style="width:58px;height:58px;border-radius:12px;background:#111;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff">ZIP</div><div><div style="font-weight:900;font-size:27px">휴머나이저 설치법 전체본</div><div style="font-size:21px;color:#6b6f7b;margin-top:4px">설치 3단계 · 한국어 보정 프롬프트</div></div></div>
+        </div>
+      </div>
+    </div>
+    <svg id="grain" viewBox="0 0 400 400" preserveAspectRatio="none"><filter id="gn"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="400" height="400" filter="url(#gn)"/></svg>
+  </div>
+  <div id="seam"></div>
+  <div id="fx"><div id="flash"></div><div id="dip"></div></div>
+  <div id="brand">C<i></i><i></i>gle</div>
+  <div id="steps"><div>1</div><div>2</div><div>3</div></div>
+  <div id="cap"></div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>

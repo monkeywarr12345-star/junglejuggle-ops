@@ -1,0 +1,21 @@
+{
+  "keyword": "들킴",
+  "comment_replies": ["DM 보냈어요 📩", "확인해 보세요! 📩", "보내드렸어요 🎁"],
+  "follow_gate": {
+    "text": "댓글 고마워요! Coogle이에요 👋 자료는 팔로워 전용이에요. @coogle.ai를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 @coogle.ai 팔로우한 뒤 아래 '팔로우했어요 ✅'를 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "휴머나이저 설치법 전체본",
+    "subtitle": "설치 3단계 + 한국어 보정 프롬프트 5개",
+    "button": "자료 열기",
+    "url": "https://observant-kiwi-cfe.notion.site/42398083042481a59727ffb29a6c94f0"
+  },
+  "dm_text": "요청하신 'AI 글 티 지우는 휴머나이저' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
+  "zorcha": "pending",
+  "any_keyword": true,
+  "notion": "https://app.notion.com/p/42398083042481a59727ffb29a6c94f0",
+  "notion_public": "https://observant-kiwi-cfe.notion.site/42398083042481a59727ffb29a6c94f0",
+  "automation_name": "11.26 휴머나이저 스킬 · 들킴 → 노션"
+}
