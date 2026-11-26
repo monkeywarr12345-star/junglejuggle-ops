@@ -1,0 +1,21 @@
+{
+  "keyword": "끄기",
+  "comment_replies": ["DM 보냈어요 📩", "확인해 보세요! 📩", "보내드렸어요 🎁"],
+  "follow_gate": {
+    "text": "댓글 고마워요! Coogle이에요 👋 자료는 팔로워 전용이에요. @coogle.ai를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 @coogle.ai 팔로우한 뒤 아래 '팔로우했어요 ✅'를 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "메일·사진 광고 끄기 전체본",
+    "subtitle": "끄는 곳 3곳 + 확인법 + 연결 기록 지우기",
+    "button": "자료 열기",
+    "url": "https://observant-kiwi-cfe.notion.site/424980830424812591eff526cbfbcc70"
+  },
+  "dm_text": "요청하신 '구글 맞춤 광고 끄기' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
+  "zorcha": "pending",
+  "any_keyword": true,
+  "notion": "https://app.notion.com/p/424980830424812591eff526cbfbcc70",
+  "notion_public": "https://observant-kiwi-cfe.notion.site/424980830424812591eff526cbfbcc70",
+  "automation_name": "11.27 구글 광고 끄기 · 끄기 → 노션"
+}

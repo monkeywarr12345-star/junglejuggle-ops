@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>Coogle · 제미나이 광고 끄기</title>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+<style>
+/* 최종 렌더 땐 assets/fonts/Pretendard-*.woff2를 넣으면 P가 Pretendard로 바뀜. 시안은 Noto Sans CJK KR */
+@font-face{font-family:P;font-weight:500;src:url(assets/fonts/Pretendard-Medium.woff2),local('Noto Sans CJK KR Medium')}
+@font-face{font-family:P;font-weight:600 800;src:url(assets/fonts/Pretendard-Bold.woff2),local('Noto Sans CJK KR Bold')}
+@font-face{font-family:P;font-weight:900;src:url(assets/fonts/Pretendard-Black.woff2),local('Noto Sans CJK KR Black')}
+:root{--ink:#07080A;--g1:#14161B;--g2:#22252C;--paper:#F5F5F7;--mute:#9CA0AB;--hue:#1A1C22}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:P,'Noto Sans CJK KR',sans-serif;color:var(--paper);-webkit-font-smoothing:antialiased}
+#root{position:absolute;inset:0;overflow:hidden}
+#host{position:absolute;left:0;width:1080px;display:none;background:linear-gradient(180deg,#2a2c31,#16171b)}
+#host .ph{position:absolute;left:50%;top:22%;transform:translateX(-50%);width:360px;height:440px;border-radius:180px 180px 60px 60px;background:radial-gradient(ellipse at 50% 30%,#4a4d55,#26282d 70%)}
+#host .lab{position:absolute;left:0;right:0;bottom:120px;text-align:center;font-size:30px;font-weight:700;color:#c9ccd4;line-height:1.5}
+.stage{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#stage{z-index:2}
+#stage.split{clip-path:inset(0 0 960px 0)}
+#stage.hostonly{display:none}
+#bg{position:absolute;inset:0;background:radial-gradient(110% 60% at 50% 32%,#2b2d33 0%,#14161b 40%,var(--ink) 75%)}
+#stage.split #bg{background:radial-gradient(120% 70% at 50% 45%,#2b2d33 0%,#14161b 42%,var(--ink) 80%)}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(0,0,0,.7))}
+#gl{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#bloom{position:absolute;left:0;top:0;width:1080px;height:1920px;filter:brightness(.55) contrast(3.2) blur(24px);mix-blend-mode:screen;opacity:.35}
+#dom{position:absolute;inset:0;perspective:1400px}
+.layer{position:absolute;inset:0;visibility:hidden;transform-style:preserve-3d}
+#grain{position:absolute;inset:-50%;width:200%;height:200%;opacity:.07;mix-blend-mode:overlay;pointer-events:none;z-index:20}
+#fx{position:absolute;inset:0;z-index:30;pointer-events:none}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#dip{position:absolute;inset:0;background:#000;opacity:0}
+#seam{position:absolute;left:0;right:0;top:870px;height:180px;background:linear-gradient(180deg,rgba(7,8,10,0),rgba(7,8,10,.9) 50%,rgba(7,8,10,0));z-index:3;display:none}
+/* 자막: 강조 = 흰 박스 검정 글자 */
+#cap{position:absolute;left:0;right:0;z-index:40;text-align:center;pointer-events:none}
+#cap .l1{font-size:62px;font-weight:800;letter-spacing:-.025em;line-height:1.14;color:var(--paper);paint-order:stroke;-webkit-text-stroke:8px rgba(7,8,10,.55);text-shadow:0 6px 28px rgba(0,0,0,.75)}
+#cap .l2{margin-top:10px;font-size:66px;font-weight:900;letter-spacing:-.03em;line-height:1.12;color:var(--ink);background:var(--paper);display:inline-block;padding:4px 20px 8px;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+#brand{position:absolute;left:72px;top:72px;z-index:35;font-weight:900;font-size:30px;letter-spacing:-.02em;display:flex;align-items:center;gap:4px;opacity:.9}
+#brand i{display:inline-block;width:20px;height:20px;border-radius:50%;background:var(--paper);margin:0 1px}
+/* 진행 표시 ①②③ */
+#steps{position:absolute;left:72px;top:140px;z-index:36;display:none;gap:12px}
+#steps div{width:58px;height:58px;border-radius:50%;border:2px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:28px;color:rgba(255,255,255,.5);background:rgba(7,8,10,.5)}
+#steps div.on{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.card{position:absolute;border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.14);box-shadow:inset 0 2px 0 rgba(255,255,255,.07),0 40px 80px -20px rgba(0,0,0,.85);backdrop-filter:blur(14px);overflow:hidden}
+.card.light{background:linear-gradient(180deg,#fbfbfd,#eef0f5);color:#1c1d22;border-color:rgba(255,255,255,.6)}
+.card.gh{background:#0d1117;border-color:#30363d;color:#e6edf3}
+.chip{position:absolute;display:inline-flex;align-items:center;height:76px;padding:0 30px;border-radius:38px;background:var(--paper);color:var(--ink);font-weight:900;font-size:44px;letter-spacing:-.03em;box-shadow:0 20px 60px -10px rgba(0,0,0,.8),inset 0 -3px 0 rgba(0,0,0,.12);white-space:nowrap}
+.chip.dark{background:#000;color:var(--paper);border:2px solid var(--paper)}
+.badge{position:absolute;display:flex;align-items:center;height:62px;border-radius:31px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px);font-weight:900;font-size:30px;overflow:hidden}
+.badge b{height:100%;display:flex;align-items:center;padding:0 20px;background:var(--paper);color:var(--ink)}
+.badge span{padding:0 24px 0 18px}
+.mono{font-family:ui-monospace,'DejaVu Sans Mono',monospace}
+#hookT{position:absolute;left:0;right:0;top:250px;text-align:center;font-weight:900;font-size:118px;letter-spacing:-.045em;line-height:1.06;text-shadow:0 10px 60px rgba(0,0,0,.95)}
+#hookT .b{display:inline-block;margin-top:14px;background:var(--paper);color:var(--ink);padding:0 26px 10px;border-radius:16px;text-shadow:none}
+#zero{position:absolute;left:0;right:0;top:470px;height:420px;transform-style:preserve-3d}
+#zero .z{position:absolute;left:0;right:0;text-align:center;font-weight:900;font-size:340px;letter-spacing:-.06em;line-height:1}
+.gh-top{display:flex;align-items:center;gap:14px;padding:26px 30px;border-bottom:1px solid #30363d;font-size:30px}
+.gh-pill{display:inline-flex;align-items:center;gap:8px;height:46px;padding:0 18px;border:1px solid #30363d;border-radius:10px;background:#21262d;font-size:23px;font-weight:700;color:#e6edf3}
+.row{display:flex;align-items:center;gap:16px}
+.tag{display:inline-block;padding:3px 10px;margin:0 2px;border-radius:6px;background:rgba(255,255,255,.9);color:#111;font-weight:800}
+.del{color:#8b8f99;text-decoration:line-through;text-decoration-thickness:4px;text-decoration-color:#111}
+.ai{background:#d9dbe1;border-radius:5px;padding:0 4px}
+.toggle{width:84px;height:46px;border-radius:23px;background:#c9ccd4;position:relative;flex:none}
+.toggle i{position:absolute;left:4px;top:4px;width:38px;height:38px;border-radius:50%;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.toggle.on{background:#111}.toggle.on i{left:42px}
+#cursor{position:absolute;width:44px;height:58px;z-index:5;filter:drop-shadow(0 6px 10px rgba(0,0,0,.6))}
+</style>
+
+<style>
+.set{display:flex;align-items:center;justify-content:space-between;margin:14px 34px;padding:22px 26px;border-radius:16px;border:1px solid #e1e3e8;background:#fff}
+.set .n{font-size:30px;font-weight:900}.set .s{font-size:21px;color:#6b6f7b;margin-top:4px}
+.crumb{padding:26px 34px;border-bottom:1px solid #e1e3e8;font-size:24px;font-weight:700;color:#6b6f7b}
+.crumb b{color:#1c1d22}
+.ico{width:58px;height:58px;border-radius:14px;background:#1c1d22;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:24px;flex:none;margin-right:20px}
+.bigsw{width:200px;height:110px;border-radius:55px;background:var(--paper);position:relative;box-shadow:0 20px 60px rgba(0,0,0,.7)}
+.bigsw i{position:absolute;top:10px;left:100px;width:90px;height:90px;border-radius:50%;background:#07080A}
+.bigsw.off{background:#3a3d45}.bigsw.off i{left:10px;background:#9ca0ab}
+</style>
+</head><body>
+<div id="root">
+  <div id="host"><div class="ph"></div><div class="lab">진행자 자리 (새 의상: 버건디 하프집 스웨트셔츠 · 저녁 거실 소파 옆 작업 테이블)<br>러다이트 첫 장면 사진으로 교체</div></div>
+  <div id="stage" class="stage">
+    <div id="bg"></div>
+    <canvas id="gl" width="1080" height="1920"></canvas>
+    <canvas id="bloom" width="540" height="960"></canvas>
+    <div id="vig"></div>
+    <div id="dom">
+      <div class="layer" id="L_hook">
+        <div style="position:absolute;left:0;right:0;top:200px;height:560px;background:radial-gradient(60% 50% at 50% 50%,rgba(7,8,10,.82),transparent 75%)"></div>
+        <div id="hookT"><span id="h1" style="font-size:92px">검색에 지메일 연결했다면,</span><br><span class="b" id="h2" style="font-size:96px">광고에 쓰일 수 있어요</span></div>
+        <div id="hookChip" style="position:absolute;left:0;right:0;top:610px;text-align:center;font-weight:900;font-size:70px;letter-spacing:-.04em;text-shadow:0 10px 50px rgba(0,0,0,.95)">10.16 약관 변경 · 끄는 곳 <span style="border-bottom:8px solid #fff">3곳</span></div>
+      </div>
+      <div class="layer" id="L_policy">
+        <div class="card light" id="pol" style="left:100px;top:150px;width:880px;height:660px">
+          <div class="crumb" style="display:flex;justify-content:space-between"><span><b>Google</b> 개인정보처리방침</span><span id="effd" style="background:#1c1d22;color:#fff;border-radius:10px;padding:2px 14px">시행 2026.10.16</span></div>
+          <div style="padding:30px 38px;font-size:27px;line-height:1.62;color:#3b3e46">
+            <div style="height:16px;width:88%;background:#d6d8de;border-radius:8px;margin:6px 0 22px"></div>
+            <div style="height:16px;width:72%;background:#d6d8de;border-radius:8px;margin:0 0 30px"></div>
+            <span style="color:#6b6f7b">(드라이브·Gmail·포토 콘텐츠로는 맞춤 광고를 하지 않는다는 문장 뒤에)</span><br>… <span id="hlPol" style="border-radius:6px;padding:0 4px;font-weight:800;color:#111">unless you choose to make data from these services available to other Google services that support personalized ads.</span>
+            <div style="height:16px;width:80%;background:#d6d8de;border-radius:8px;margin:30px 0 0"></div>
+          </div>
+          <div id="newTag" style="position:absolute;right:34px;bottom:30px;height:64px;padding:0 26px;border-radius:32px;background:#111;color:#fff;font-weight:900;font-size:28px;display:flex;align-items:center">새로 붙은 예외 한 줄</div>
+        </div>
+      </div>
+      <div class="layer" id="L_flow">
+        <div class="chip" id="flowChip" style="left:50%;top:1240px;transform:translateX(-50%)">연결한 메일·사진 → 맞춤 광고</div>
+        <div class="chip dark" id="flowSub" style="left:50%;top:1350px;transform:translateX(-50%);font-size:34px;height:64px">검색 AI 모드 · 직접 연결한 경우만</div>
+      </div>
+      <div class="layer" id="L_raw">
+        <div class="card" id="rawA" style="left:80px;top:170px;width:440px;height:600px;padding:36px 34px">
+          <div style="font-size:24px;font-weight:900;color:var(--mute)">광고주에게</div>
+          <div style="margin-top:20px;font-size:56px;font-weight:900;letter-spacing:-.03em">메일 원문</div>
+          <div style="margin-top:26px;font-size:24px;line-height:1.6;color:#9ca0ab"><span class="del">받은편지함</span><br><span class="del">사진 보관함</span><br><span class="del">제미나이 대화</span></div>
+          <div id="xMark" style="position:absolute;right:30px;bottom:26px;width:110px;height:110px;border-radius:50%;border:6px solid var(--paper);display:flex;align-items:center;justify-content:center;font-size:66px;font-weight:900">✕</div>
+        </div>
+        <div class="card light" id="rawB" style="left:560px;top:210px;width:440px;height:560px;padding:36px 34px;border:3px solid #111">
+          <div style="font-size:24px;font-weight:900;color:#6b6f7b">구글 검색 광고에</div>
+          <div style="margin-top:20px;font-size:50px;font-weight:900;letter-spacing:-.03em">요약·발췌·추론</div>
+          <div style="margin-top:26px;font-size:24px;line-height:1.6;color:#3b3e46">검색에 연결한 경우<br>참고할 수 있어요</div>
+          <div id="oMark" style="position:absolute;right:30px;bottom:26px;width:110px;height:110px;border-radius:50%;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;font-size:60px;font-weight:900">✓</div>
+        </div>
+      </div>
+      <div class="layer" id="L_three">
+        <div id="zero"></div>
+        <div class="chip dark" id="zeroChip" style="left:50%;top:960px;transform:translateX(-50%)">검색 · 광고 센터 · 제미나이</div>
+      </div>
+      <div class="layer" id="L_s1">
+        <div class="badge" id="bd1" style="left:72px;top:215px"><b>01</b><span>검색 맞춤설정</span></div>
+        <div class="card light" id="c1" style="left:110px;top:305px;width:860px;height:510px">
+          <div class="crumb">google.com/<b>search-personalization</b> › <b>연결된 콘텐츠 앱</b></div>
+          <div class="set"><div style="display:flex;align-items:center"><div class="ico">M</div><div><div class="n">Gmail</div><div class="s">검색 서비스에 연결됨</div></div></div><div class="toggle on" id="t1a"><i></i></div></div>
+          <div class="set"><div style="display:flex;align-items:center"><div class="ico">▣</div><div><div class="n">Google 포토</div><div class="s">검색 서비스에 연결됨</div></div></div><div class="toggle on" id="t1b"><i></i></div></div>
+        </div>
+        <svg id="cursor" viewBox="0 0 22 29"><path d="M1 1 L1 23 L7 17.5 L11 27 L15 25.3 L11 16 L19 16 Z" fill="#fff" stroke="#000" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="layer" id="L_s2">
+        <div class="badge" id="bd2" style="left:72px;top:215px"><b>02</b><span>내 광고 센터</span></div>
+        <div class="card light" id="c2" style="left:110px;top:305px;width:860px;height:510px">
+          <div class="crumb">myadcenter.google.com › <b>광고 개인 최적화</b></div>
+          <div style="padding:40px 34px 10px;font-size:40px;font-weight:900">맞춤 광고</div>
+          <div class="set" style="border:2px solid #1c1d22"><div><div class="n" id="adState">사용 중</div><div class="s">내 활동을 바탕으로 광고를 골라요</div></div><div class="toggle on" id="t2"><i></i></div></div>
+          <div style="margin:22px 34px;font-size:22px;color:#6b6f7b;line-height:1.5">꺼도 광고는 나와요, 덜 맞춤형으로</div>
+        </div>
+      </div>
+      <div class="layer" id="L_s3">
+        <div class="badge" id="bd3" style="left:72px;top:215px"><b>03</b><span>제미나이 연결된 앱</span></div>
+        <div class="card light" id="c3" style="left:110px;top:305px;width:860px;height:510px">
+          <div class="crumb">Gemini 설정 › <b>Personal Intelligence</b> › <b>연결된 앱</b></div>
+          <div class="set"><div style="display:flex;align-items:center"><div class="ico">W</div><div><div class="n">Google Workspace</div><div class="s">Gmail · 캘린더 · 드라이브</div></div></div><div class="toggle on" id="t3a"><i></i></div></div>
+          <div class="set"><div style="display:flex;align-items:center"><div class="ico">▣</div><div><div class="n">Google 포토</div><div class="s">사진 · 장소</div></div></div><div class="toggle on" id="t3b"><i></i></div></div>
+        </div>
+        <div class="chip dark" id="sepChip" style="left:50%;top:850px;transform:translateX(-50%);font-size:34px;height:64px">설정이 따로 · 같이 정리</div>
+      </div>
+      <div class="layer" id="L_trap">
+        <div style="position:absolute;left:0;right:0;top:330px;display:flex;justify-content:center;gap:56px" id="sws">
+          <div style="text-align:center"><div class="bigsw off" id="b1"><i></i></div><div style="margin-top:26px;font-size:36px;font-weight:900">검색</div></div>
+          <div style="text-align:center"><div class="bigsw" id="b2"><i></i></div><div style="margin-top:26px;font-size:36px;font-weight:900">광고 센터</div></div>
+          <div style="text-align:center"><div class="bigsw" id="b3"><i></i></div><div style="margin-top:26px;font-size:36px;font-weight:900">제미나이</div></div>
+        </div>
+        <div class="chip" id="trapChip" style="left:50%;top:700px;transform:translateX(-50%)">3개 다 꺼야 끝</div>
+      </div>
+      <div class="layer" id="L_save"><div class="chip" id="saveChip" style="left:50%;top:700px;transform:translateX(-50%)">끄는 곳 3곳 · 저장</div></div>
+      <div class="layer" id="L_profile">
+        <div class="card" id="prof" style="left:110px;top:190px;width:860px;height:560px;padding:44px 48px">
+          <div style="display:flex;align-items:center;gap:34px">
+            <div style="width:170px;height:170px;border-radius:50%;background:#000;border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;letter-spacing:-.02em">C<i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;margin:0 2px"></i><i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;margin:0 2px"></i>gle</div>
+            <div><div style="font-weight:900;font-size:44px">coogle.ai</div><div style="margin-top:10px;font-size:26px;color:var(--mute);font-weight:600">Coogle | 클로드·챗GPT AI 꿀팁</div></div>
+          </div>
+          <div style="margin-top:34px;font-size:27px;line-height:1.55;font-weight:600;color:#d9dbe2">🔍 구글링 말고 쿠글링<br>클로드·챗GPT 직접 써 보고 진짜 되는 것만</div>
+          <div id="fBtn" style="margin-top:36px;height:84px;border-radius:18px;background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:32px">팔로우</div>
+        </div>
+      </div>
+      <div class="layer" id="L_dm">
+        <div class="card" id="cmt" style="left:90px;top:300px;width:900px;height:470px;padding:30px 34px">
+          <div style="font-weight:900;font-size:30px;text-align:center;margin-bottom:26px">댓글</div>
+          <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:24px;opacity:.6"><div style="width:56px;height:56px;border-radius:50%;background:#2b2e36"></div><div style="font-size:25px;line-height:1.5"><b>min.daily</b><br>끄기</div></div>
+          <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:24px;opacity:.6"><div style="width:56px;height:56px;border-radius:50%;background:#2b2e36"></div><div style="font-size:25px;line-height:1.5"><b>jun_office</b><br>끄기 🙏</div></div>
+          <div style="position:absolute;left:30px;right:30px;bottom:30px;height:84px;border-radius:42px;border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;padding:0 30px;font-size:32px;font-weight:800"><span id="typed"></span><span id="caret" style="display:inline-block;width:3px;height:38px;background:#fff;margin-left:4px"></span><span style="margin-left:auto;font-weight:900">게시</span></div>
+        </div>
+        <div class="card" id="dm" style="left:150px;top:1010px;width:780px;height:430px;padding:30px 34px;transform-origin:100% 50%">
+          <div style="display:flex;align-items:center;gap:16px;margin-bottom:26px"><div style="width:62px;height:62px;border-radius:50%;background:#000;border:1.5px solid rgba(255,255,255,.3);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px">C●●</div><div style="font-weight:900;font-size:30px">coogle.ai</div><div style="margin-left:auto;font-size:22px;color:var(--mute)">지금</div></div>
+          <div style="padding:22px 26px;border-radius:24px;background:rgba(255,255,255,.1);font-size:28px;line-height:1.45;font-weight:600;width:88%">요청하신 구글 맞춤 광고 끄기 자료예요 🎁</div>
+          <div style="margin-top:18px;display:flex;align-items:center;gap:18px;padding:20px 24px;border-radius:20px;background:var(--paper);color:var(--ink);width:88%"><div style="width:58px;height:58px;border-radius:12px;background:#111;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:24px;color:#fff">3</div><div><div style="font-weight:900;font-size:27px">메일·사진 광고 끄기 전체본</div><div style="font-size:21px;color:#6b6f7b;margin-top:4px">끄는 곳 3곳 · 화면 경로 · 확인법</div></div></div>
+        </div>
+      </div>
+    </div>
+    <svg id="grain" viewBox="0 0 400 400" preserveAspectRatio="none"><filter id="gn"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="400" height="400" filter="url(#gn)"/></svg>
+  </div>
+  <div id="seam"></div>
+  <div id="fx"><div id="flash"></div><div id="dip"></div></div>
+  <div id="brand">C<i></i><i></i>gle</div>
+  <div id="steps"><div>1</div><div>2</div><div>3</div></div>
+  <div id="cap"></div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
