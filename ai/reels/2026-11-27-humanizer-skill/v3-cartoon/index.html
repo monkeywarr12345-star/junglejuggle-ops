@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:P;font-weight:700;font-display:block;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P;font-weight:800;font-display:block;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P;font-weight:900;font-display:block;src:url(assets/fonts/Pretendard-Black.woff2)}
+:root{--paper:#F5F1E8;--ink:#141414;--v:#7B61FF;--vl:#E4DDFF;--c:#FF5A4E;--cl:#FFE0DC;--m:#2FCB7E;--ml:#D6F7E5;--y:#FFD84D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:P;color:var(--ink);-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;background-color:var(--paper);background-image:radial-gradient(rgba(20,20,20,.13) 2.2px,transparent 2.6px);background-size:44px 44px}
+.doo{position:absolute;width:90px;height:90px}
+#logo{position:absolute;left:0;right:0;top:120px;text-align:center;font-weight:900;font-size:44px;letter-spacing:-1.5px}
+#logo i{display:inline-block;width:30px;height:30px;border:6px solid var(--ink);border-radius:50%;margin:0 1px;vertical-align:-3px;position:relative;background:#fff}
+#logo i b{position:absolute;width:11px;height:11px;border-radius:50%;background:var(--ink);left:4px;top:5px}
+#logo i.f{background:var(--ink)}
+.S{position:absolute;inset:0;display:none}
+.kick{position:absolute;left:0;right:0;top:238px;text-align:center;font-size:46px;font-weight:800;color:#55524c;letter-spacing:-.03em}
+.title{isolation:isolate;position:absolute;left:40px;right:40px;top:300px;text-align:center;font-size:96px;font-weight:900;letter-spacing:-.055em;line-height:1.06}
+v,.v{color:var(--v);position:relative;display:inline-block}
+v::after{content:'';position:absolute;left:-6px;right:-6px;bottom:6px;height:26px;background:var(--vl);z-index:-1;border-radius:8px}
+.card{position:absolute;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:12px 12px 0 var(--ink)}
+.win{position:absolute;left:90px;top:590px;width:900px;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.win .bar{height:58px;border-bottom:6px solid var(--ink);display:flex;align-items:center;gap:12px;padding:0 20px;background:var(--vl)}
+.win .bar i{width:22px;height:22px;border-radius:50%;border:4px solid var(--ink)}
+.win .bar span{margin-left:14px;font-size:24px;font-weight:800;color:#3a3a3a}
+.win .view{position:relative;width:888px;height:520px;overflow:hidden;background:#fff}
+.win .view img{position:absolute;left:0;top:0;width:1600px;transform-origin:0 0}
+.chip{position:absolute;white-space:nowrap;font-size:40px;font-weight:900;letter-spacing:-.03em;padding:14px 30px 16px;border-radius:999px;background:#fff;border:5px solid var(--ink);box-shadow:7px 7px 0 var(--ink)}
+.chip.vi{background:var(--v);color:#fff}.chip.co{background:var(--c);color:#fff}.chip.mi{background:var(--m);color:#fff}
+.stamp{position:absolute;font-size:70px;font-weight:900;padding:6px 30px 12px;border:9px solid var(--c);color:var(--c);border-radius:18px;background:rgba(255,255,255,.92);letter-spacing:-.04em}
+#cap{position:absolute;left:0;right:0;top:1395px;display:flex;justify-content:center}
+#capIn{max-width:980px;text-align:center;font-size:58px;font-weight:900;letter-spacing:-.04em;line-height:1.2;background:#fff;border:5px solid var(--ink);border-radius:26px;box-shadow:8px 8px 0 var(--ink);padding:16px 34px 20px}
+#capIn b{color:var(--v)}
+#burst{position:absolute;left:520px;top:880px;width:40px;height:40px;border-radius:50%;border:2px solid var(--v);opacity:0}
+.line{height:20px;border-radius:10px;background:#E6E2DA;margin:14px 0}
+.en{font-size:34px;font-weight:800;line-height:1.35;letter-spacing:-.01em}
+.mk{position:absolute;border:7px solid var(--c);border-radius:50%}
+.num{position:absolute;width:190px;height:190px;border-radius:50%;border:7px solid var(--ink);box-shadow:9px 9px 0 var(--ink);display:flex;align-items:center;justify-content:center;font-size:96px;font-weight:900}
+.lab{position:absolute;width:300px;text-align:center;font-size:42px;font-weight:900;letter-spacing:-.04em}
+svg{overflow:visible}
+</style></head><body>
+<div id="bg"></div>
+<div id="doos"></div>
+<div id="burst"></div>
+
+<!-- 1 hook -->
+<div class="S" id="hook">
+ <div id="hA" class="title" style="top:250px;font-size:92px">AI로 쓴 글,</div>
+ <div id="hB" class="title" style="top:362px;font-size:118px">사람 눈엔 <v>다 티 나요</v></div>
+ <div id="hDoc" class="card" style="left:120px;top:640px;width:840px;height:600px;padding:44px 50px">
+  <div style="font-size:26px;font-weight:800;color:#888;margin-bottom:14px">✉️ Re: 다음 주 미팅</div>
+  <div class="en" id="p1">I hope this email finds you well.</div>
+  <div class="line" style="width:92%"></div><div class="line" style="width:78%"></div>
+  <div class="en" id="p2" style="margin-top:22px">It's not just a feature — it's a whole new way to work.</div>
+  <div class="line" style="width:85%"></div>
+  <div class="en" id="p3" style="margin-top:22px">Let that sink in. ✨</div>
+ </div>
+ <div class="mk" id="mk1" style="left:150px;top:722px;width:600px;height:88px"></div>
+ <div class="mk" id="mk2" style="left:150px;top:858px;width:770px;height:125px"></div>
+ <div class="mk" id="mk3" style="left:150px;top:1005px;width:340px;height:84px"></div>
+ <div class="stamp" id="hStamp" style="left:560px;top:1080px">AI가 썼네?</div>
+</div>
+
+<!-- 2 tells -->
+<div class="S" id="tells">
+ <div class="kick">근데 그 티를</div><div class="title"><v>26개</v> 찾아서 지워 줘요</div>
+ <div id="big26" style="position:absolute;left:0;right:0;top:600px;text-align:center;font-size:400px;font-weight:900;letter-spacing:-.06em;color:var(--v);-webkit-text-stroke:12px var(--ink);paint-order:stroke;text-shadow:18px 18px 0 var(--ink);line-height:1">0</div>
+ <div class="chip" id="t1" style="left:70px;top:620px">Not X but Y</div>
+ <div class="chip" id="t2" style="left:620px;top:690px">"Let that sink in."</div>
+ <div class="chip" id="t3" style="left:60px;top:1010px">"Here's the thing."</div>
+ <div class="chip" id="t4" style="left:640px;top:1060px">줄표 — 남발</div>
+ <div class="chip" id="t5" style="left:330px;top:1180px">셋씩 나열하기</div>
+ <svg id="eraser" width="230" height="140" viewBox="0 0 230 140" style="position:absolute;left:0;top:0"><g transform="rotate(-18 115 70)"><rect x="10" y="30" width="210" height="90" rx="18" fill="#FF8FB1" stroke="#141414" stroke-width="7"/><rect x="10" y="30" width="80" height="90" rx="18" fill="#fff" stroke="#141414" stroke-width="7"/></g></svg>
+</div>
+
+<!-- 3 name -->
+<div class="S" id="name">
+ <div class="kick">이름은</div><div class="title" id="nT"><v>휴머나이저</v></div>
+ <div class="win" id="nWin"><div class="bar"><i style="background:var(--c)"></i><i style="background:var(--y)"></i><i style="background:var(--m)"></i><span>github.com/blader/humanizer</span></div><div class="view"><img src="src/gh_name.jpg" id="nImg"></div></div>
+ <div class="chip vi" id="nChip" style="left:50%;top:1215px">Humanizer · 클로드 스킬</div>
+</div>
+
+<!-- 4 wiki -->
+<div class="S" id="wiki">
+ <div class="kick">기준은</div><div class="title">위키백과 <v>AI 글 판별법</v></div>
+ <div class="win" id="wWin"><div class="bar"><i style="background:var(--c)"></i><i style="background:var(--y)"></i><i style="background:var(--m)"></i><span>github.com/blader/humanizer · README</span></div><div class="view"><img src="src/gh_readme.jpg" id="wImg"></div></div>
+ <div class="chip" id="wC1" style="left:50%;top:1170px">📖 Wikipedia: Signs of AI writing</div>
+ <div class="chip vi" id="wC2" style="left:50%;top:1270px">편집자들이 AI 글 잡을 때 쓰는 가이드</div>
+</div>
+
+<!-- 5 stars -->
+<div class="S" id="stars">
+ <div class="kick">깃허브 별</div><div class="title"><v>6.9만 개</v>인데</div>
+ <svg id="star" width="520" height="500" viewBox="-130 -125 260 250" style="position:absolute;left:280px;top:600px"><path d="M0,-110 L32,-36 L112,-34 L50,16 L72,94 L0,50 L-72,94 L-50,16 L-112,-34 L-32,-36 Z" fill="#FFD84D" stroke="#141414" stroke-width="10" stroke-linejoin="round"/><circle cx="-26" cy="-4" r="9" fill="#141414"/><circle cx="26" cy="-4" r="9" fill="#141414"/><path d="M-22,24 Q0,44 22,24" fill="none" stroke="#141414" stroke-width="8" stroke-linecap="round"/></svg>
+ <div id="sNum" style="position:absolute;left:0;right:0;top:1090px;text-align:center;font-size:120px;font-weight:900;letter-spacing:-.05em">★ 0</div>
+ <div id="tag" style="position:absolute;left:700px;top:560px;width:260px;transform-origin:130px 0">
+  <svg width="260" height="300" viewBox="0 0 260 300"><line x1="130" y1="0" x2="130" y2="70" stroke="#141414" stroke-width="7"/><path d="M40,70 H220 L240,110 V280 H20 V110 Z" fill="#FF5A4E" stroke="#141414" stroke-width="8" stroke-linejoin="round"/><circle cx="130" cy="100" r="12" fill="#F5F1E8" stroke="#141414" stroke-width="6"/><text x="130" y="200" text-anchor="middle" font-family="P" font-weight="900" font-size="86" fill="#fff">0원</text><text x="130" y="255" text-anchor="middle" font-family="P" font-weight="900" font-size="38" fill="#fff">무료</text></svg>
+ </div>
+ <div class="chip mi" id="sChip" style="left:50%;top:1240px">MIT 라이선스 오픈소스</div>
+</div>
+
+<!-- 6 easy -->
+<div class="S" id="easy">
+ <div class="kick">설치는</div><div class="title"><v>진짜 간단</v>해요</div>
+ <div class="num" id="n1" style="left:95px;top:700px;background:var(--vl)">1</div>
+ <div class="num" id="n2" style="left:445px;top:700px;background:var(--y)">2</div>
+ <div class="num" id="n3" style="left:795px;top:700px;background:var(--ml)">3</div>
+ <div class="lab" id="l1" style="left:40px;top:930px">ZIP 받기</div>
+ <div class="lab" id="l2" style="left:390px;top:930px">올리기</div>
+ <div class="lab" id="l3" style="left:740px;top:930px">고쳐 줘</div>
+ <svg id="squig" width="840" height="60" viewBox="0 0 840 60" style="position:absolute;left:120px;top:1060px"><path id="sqp" d="M0,30 Q35,0 70,30 T140,30 T210,30 T280,30 T350,30 T420,30 T490,30 T560,30 T630,30 T700,30 T770,30 T840,30" fill="none" stroke="#7B61FF" stroke-width="10" stroke-linecap="round"/></svg>
+</div>
+
+<!-- 7 step1 -->
+<div class="S" id="step1">
+ <div class="kick">① 깃허브에서</div><div class="title"><v>ZIP 받기</v></div>
+ <div class="win" id="aWin"><div class="bar"><i style="background:var(--c)"></i><i style="background:var(--y)"></i><i style="background:var(--m)"></i><span>github.com/blader/humanizer</span></div><div class="view"><img src="src/gh_code.jpg" id="aImg"></div></div>
+ <svg id="cur" width="70" height="90" viewBox="0 0 70 90" style="position:absolute"><path d="M5,5 L5,72 L22,56 L34,84 L48,78 L36,51 L60,51 Z" fill="#fff" stroke="#141414" stroke-width="7" stroke-linejoin="round"/></svg>
+ <div id="ring" style="position:absolute;width:40px;height:40px;border:7px solid var(--v);border-radius:50%;opacity:0"></div>
+ <div class="chip vi" id="aChip" style="left:50%;top:1210px">Code → Download ZIP</div>
+ <div id="zip" style="position:absolute;width:150px;height:180px"><svg width="150" height="180" viewBox="0 0 150 180"><path d="M10,10 H100 L140,50 V170 H10 Z" fill="#FFD84D" stroke="#141414" stroke-width="8" stroke-linejoin="round"/><path d="M100,10 V50 H140" fill="none" stroke="#141414" stroke-width="8" stroke-linejoin="round"/><text x="75" y="125" text-anchor="middle" font-family="P" font-weight="900" font-size="44" fill="#141414">ZIP</text></svg></div>
+</div>
+
+<!-- 8 step2 -->
+<div class="S" id="step2">
+ <div class="kick">② 클로드 플러그인에</div><div class="title"><v>ZIP 올리기</v></div>
+ <div class="win" id="bWin"><div class="bar"><i style="background:var(--c)"></i><i style="background:var(--y)"></i><i style="background:var(--m)"></i><span>claude.ai · 플러그인 업로드</span></div><div class="view"><img src="src/cl_upload.jpg" id="bImg"></div></div>
+ <div id="zip2" style="position:absolute;width:130px;height:156px"><svg width="130" height="156" viewBox="0 0 150 180"><path d="M10,10 H100 L140,50 V170 H10 Z" fill="#FFD84D" stroke="#141414" stroke-width="8" stroke-linejoin="round"/><path d="M100,10 V50 H140" fill="none" stroke="#141414" stroke-width="8" stroke-linejoin="round"/><text x="75" y="125" text-anchor="middle" font-family="P" font-weight="900" font-size="44" fill="#141414">ZIP</text></svg></div>
+ <div class="chip" id="bChip" style="left:50%;top:1170px">플러그인 → 추가 → 플러그인 업로드</div>
+ <div class="chip mi" id="bOk" style="left:50%;top:1270px">업로드 완료 ✓</div>
+</div>
+
+<!-- 9 step3 -->
+<div class="S" id="step3">
+ <div class="kick">③ 글 붙여 넣고</div><div class="title" style="font-size:88px"><v>"휴머나이저로 고쳐 줘"</v></div>
+ <div class="card" id="chat" style="left:90px;top:600px;width:900px;height:620px;padding:36px 40px">
+  <div id="paste" style="background:#F1EEE6;border:4px solid var(--ink);border-radius:22px;padding:22px 26px;font-size:30px;font-weight:700;line-height:1.4;color:#4a4a4a">
+   <div style="font-size:24px;font-weight:900;color:var(--v);margin-bottom:6px">📎 붙여 넣은 글</div>I'm thrilled to announce that shared drafts are finally here! 🚀 It's not just a feature; it's a whole new way to collaborate. Let that sink in.</div>
+  <div style="position:absolute;left:40px;right:40px;bottom:36px;display:flex;align-items:center;border:5px solid var(--ink);border-radius:24px;padding:18px 22px;font-size:44px;font-weight:900;background:#fff"><span id="say"></span><span id="caret" style="display:inline-block;width:5px;height:48px;background:var(--v);margin-left:6px"></span><span id="send" style="margin-left:auto;width:74px;height:74px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:40px;background:#fff">↑</span></div>
+ </div>
+ <div class="stamp" id="done" style="left:640px;top:1150px;border-color:var(--m);color:var(--m)">끝!</div>
+</div>
+
+<!-- 10 ba -->
+<div class="S" id="ba">
+ <div class="kick">뜻은 그대로</div><div class="title"><v>말투만</v> 사람처럼</div>
+ <div class="card" id="bef" style="left:90px;top:590px;width:900px;padding:30px 36px;background:var(--cl)">
+  <div class="chip co" style="position:relative;display:inline-block;font-size:30px;padding:8px 20px 10px;box-shadow:5px 5px 0 var(--ink);margin-bottom:16px">AI 말투 🤖</div>
+  <div class="en" style="font-size:36px">It's not just a feature; it's a whole new way to collaborate. And the best part? <u style="text-decoration-color:#FF5A4E;text-decoration-thickness:6px">Let that sink in.</u></div>
+ </div>
+ <div id="arrow" style="position:absolute;left:470px;top:925px;font-size:110px;font-weight:900">⬇︎</div>
+ <div class="card" id="aft" style="left:90px;top:1060px;width:900px;padding:30px 36px;background:var(--ml)">
+  <div class="chip mi" style="position:relative;display:inline-block;font-size:30px;padding:8px 20px 10px;box-shadow:5px 5px 0 var(--ink);margin-bottom:16px">사람 말투 🙂</div>
+  <div class="en" style="font-size:36px">Now two people can edit the same doc at once. It's free on every plan.</div>
+ </div>
+ <div id="baSrc" style="position:absolute;left:0;right:0;top:1335px;text-align:center;font-size:24px;font-weight:800;color:#77736b">README 예시 · github.com/blader/humanizer</div>
+</div>
+
+<!-- 11 mail -->
+<div class="S" id="mail">
+ <div class="kick">영어 메일 보내기 전에</div><div class="title"><v>꼭 한 번</v> 돌려요</div>
+ <div id="env" style="position:absolute;left:170px;top:640px;width:740px;height:500px">
+  <svg width="740" height="500" viewBox="0 0 740 500"><rect x="8" y="8" width="724" height="484" rx="34" fill="#fff" stroke="#141414" stroke-width="9"/><path d="M14,30 L370,280 L726,30" fill="none" stroke="#141414" stroke-width="9" stroke-linejoin="round"/><rect x="560" y="330" width="120" height="120" rx="14" fill="#E4DDFF" stroke="#141414" stroke-width="7"/></svg>
+  <div style="position:absolute;left:60px;top:330px;font-size:34px;font-weight:900">To: Client</div>
+  <div style="position:absolute;left:60px;top:385px;font-size:28px;font-weight:800;color:#777">Re: Project update</div>
+ </div>
+ <div class="stamp" id="mStamp" style="left:560px;top:1050px;border-color:var(--v);color:var(--v);font-size:56px">휴머나이저 ✓</div>
+</div>
+
+<!-- 12 save -->
+<div class="S" id="save">
+ <div class="kick">나중에 쓰게</div><div class="title"><v>저장</v>해 두세요</div>
+ <svg id="bm" width="300" height="400" viewBox="0 0 300 400" style="position:absolute;left:390px;top:640px;transform-origin:150px 400px"><path d="M30,20 H270 V380 L150,290 L30,380 Z" fill="#7B61FF" stroke="#141414" stroke-width="12" stroke-linejoin="round"/><circle cx="110" cy="150" r="14" fill="#141414"/><circle cx="190" cy="150" r="14" fill="#141414"/><path d="M110,195 Q150,230 190,195" fill="none" stroke="#141414" stroke-width="10" stroke-linecap="round"/></svg>
+</div>
+
+<!-- 13 cta -->
+<div class="S" id="cta">
+ <div class="kick">설치법 + 한국어 프롬프트</div><div class="title">댓글에 <v>'휴먼'</v></div>
+ <div class="card" id="cbox" style="left:90px;top:640px;width:900px;height:150px;display:flex;align-items:center;padding:0 34px;font-size:56px;font-weight:900">
+  <span style="width:84px;height:84px;border-radius:50%;background:var(--vl);border:5px solid var(--ink);margin-right:24px;flex:none"></span><span id="typed"></span><span id="caret2" style="display:inline-block;width:5px;height:58px;background:var(--v);margin-left:6px"></span><span style="margin-left:auto;font-size:36px;color:var(--v)">게시</span></div>
+ <div class="card" id="dm" style="left:150px;top:860px;width:780px;padding:28px 32px;background:var(--vl)">
+  <div style="display:flex;align-items:center;gap:16px;font-size:32px;font-weight:900"><span style="width:62px;height:62px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px">C</span>coogle.ai <span style="margin-left:auto;font-size:26px;color:#666">방금</span></div>
+  <div style="margin-top:18px;background:#fff;border:5px solid var(--ink);border-radius:22px;padding:18px 24px;font-size:38px;font-weight:900;line-height:1.35">📦 휴머나이저 설치법 +<br>한국어 보정 프롬프트 5개</div>
+ </div>
+</div>
+
+<div id="logo">C<i><b></b></i><i class="f"></i>gle</div>
+<div id="cap"><div id="capIn"></div></div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const cl = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const seg = (t, a, b) => cl((t - a) / (b - a));
+const lerp = (a, b, k) => a + (b - a) * k;
+const eo = (k) => 1 - Math.pow(1 - k, 3);
+const bo = (k, s = 1.9) => { k = cl(k); const c3 = s + 1; return 1 + c3 * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const el = (k) => k <= 0 ? 0 : k >= 1 ? 1 : Math.pow(2, -10 * k) * Math.sin((k * 10 - 0.75) * (2 * Math.PI / 3)) + 1;
+const css = (e, o) => { for (const k in o) e.style[k] = o[k]; };
+const pop = (e, t, a, base = '', d = 0.38) => { const k = bo(seg(t, a, a + d)); css(e, { opacity: t >= a ? 1 : 0, transform: `${base} scale(${k})` }); };
+const wob = (t, f = 1.3, a = 1.5) => Math.sin(t * f * 6.283) * a;
+
+// timeline (seconds on v_fit.wav)
+const CAPS = [
+ [0.00, 'AI로 쓴 글,'], [1.34, '사람 눈엔 <b>다 티 나요</b>'], [3.37, '근데 그 티를 <b>26개</b>나 찾아서'], [5.58, '<b>지워 주는</b> 스킬이 있어요'],
+ [7.24, '이름은 <b>휴머나이저</b>'], [8.83, '위키백과 편집자들이'], [10.17, 'AI 글 잡아낼 때'], [11.40, '쓰는 <b>기준</b>으로 만든 거고요'],
+ [13.17, '깃허브 별이 <b>6만 9천 개</b>인데'], [15.33, '<b>무료</b>예요'], [16.11, '설치는 진짜 간단해요'], [17.82, '깃허브에서 <b>ZIP</b> 받고,'],
+ [19.46, '클로드 사용자 정의에서'], [21.15, '<b>스킬로 올리고,</b>'], [22.17, '글 붙여 넣고'], [23.31, '<b>"휴머나이저로 고쳐 줘"</b>'], [24.80, '하면 끝이에요'],
+ [25.85, '뜻은 그대로 두고'], [27.02, '<b>말투만 사람처럼</b> 바꿔 줘요'], [28.94, '저는 영어 메일 보내기 전에'], [30.51, '<b>꼭 한 번</b> 돌려요'],
+ [31.67, '<b>저장</b>해 두고 쓰세요'], [32.90, "댓글에 <b>'휴먼'</b> 남기면"], [34.75, '설치법이랑 <b>한국어 프롬프트</b>까지'], [36.65, '보내 드릴게요'],
+];
+const SC = [['hook', 0], ['tells', 3.37], ['name', 7.24], ['wiki', 8.83], ['stars', 13.17], ['easy', 16.11], ['step1', 17.82], ['step2', 19.46], ['step3', 22.17], ['ba', 25.85], ['mail', 28.94], ['save', 31.67], ['cta', 32.90]];
+const DUR = 37.9;
+
+// doodles
+const DOO = [['star', 70, 1590, '#7B61FF'], ['spark', 930, 1600, '#FF5A4E'], ['squig', 900, 470, '#7B61FF'], ['circ', 60, 470, '#FFD84D'], ['spark', 980, 1250, '#2FCB7E'], ['star', 40, 1300, '#FF5A4E']];
+const shp = { star: 'M45,5 L56,33 L86,34 L62,53 L71,83 L45,66 L19,83 L28,53 L4,34 L34,33 Z', spark: 'M45,5 Q50,40 85,45 Q50,50 45,85 Q40,50 5,45 Q40,40 45,5 Z', squig: 'M5,45 Q20,15 35,45 T65,45 T95,45', circ: 'M45,10 A35,35 0 1 1 44.9,10 Z' };
+$('#doos').innerHTML = DOO.map(([k, x, y, c], i) => `<svg class="doo" id="d${i}" viewBox="0 0 90 90" style="left:${x}px;top:${y}px"><path d="${shp[k]}" fill="${k === 'squig' ? 'none' : c}" stroke="${k === 'squig' ? c : '#141414'}" stroke-width="${k === 'squig' ? 9 : 5}" stroke-linejoin="round" stroke-linecap="round"/></svg>`).join('');
+
+function view(img, r, k) { // r=[x,y,w] region in 1600-px image space, fit to 888px wide view
+  const s = 888 / r[2]; img.style.transform = `translate(${-r[0] * s}px,${-r[1] * s}px) scale(${s})`; }
+const R = (a, b, k) => [lerp(a[0], b[0], k), lerp(a[1], b[1], k), lerp(a[2], b[2], k)];
+function winIn(e, t, a = 0) { const k = bo(seg(t, a, a + 0.45), 1.5); css(e, { opacity: t >= a ? 1 : 0, transform: `translateY(${(1 - eo(seg(t, a, a + 0.35))) * 140}px) rotate(${lerp(-4, -1, k) + wob(t, 0.25, 0.4)}deg) scale(${lerp(0.7, 1, k)})` }); }
+function head(S, t) { const k = $(`#${S} .kick`), ti = $(`#${S} .title`); if (k) pop(k, t, 0.0, '', 0.3); if (ti) pop(ti, t, 0.05, '', 0.42); }
+function chipC(e, t, a) { pop(e, t, a, 'translateX(-50%)'); }
+
+const U = {
+ hook(t) {
+  pop($('#hA'), t, 0, '', 0.35); pop($('#hB'), t, 1.34, `rotate(${-2 + wob(t, 0.5, 0.6)}deg)`, 0.45);
+  winIn($('#hDoc'), t, 0.12);
+  [['#mk1', 1.55], ['#mk2', 1.85], ['#mk3', 2.15]].forEach(([s, a]) => { const k = bo(seg(t, a, a + 0.3)); css($(s), { opacity: t >= a ? 1 : 0, transform: `rotate(-3deg) scale(${k})` }); });
+  const k = seg(t, 2.32, 2.5); css($('#hStamp'), { opacity: t >= 2.32 ? 1 : 0, transform: `rotate(-12deg) scale(${lerp(2.4, 1, eo(k))})` });
+ },
+ tells(t, L) {
+  head('tells', t); const n = Math.round(26 * eo(seg(L, 3.93, 5.0))); $('#big26').textContent = n;
+  pop($('#big26'), t, 0.2, `rotate(${wob(t, 0.4, 1.5)}deg)`, 0.4);
+  const er0 = 5.62, er1 = 6.55;
+  ['#t1', '#t2', '#t3', '#t4', '#t5'].forEach((s, i) => { const a = 4.05 + i * 0.27; const gone = seg(L, er0 + i * 0.16, er0 + i * 0.16 + 0.18); const k = bo(seg(L, a, a + 0.35)) * (1 - gone); css($(s), { opacity: L >= a && gone < 1 ? 1 : 0, transform: `rotate(${[-8, 6, 5, -6, 3][i] + wob(t + i, 0.4, 2)}deg) scale(${k})` }); });
+  const e = seg(L, er0 - 0.15, er1); const ex = lerp(-260, 1100, e), ey = 700 + Math.sin(e * 9) * 180 + e * 380; css($('#eraser'), { opacity: e > 0 && e < 1 ? 1 : 0, transform: `translate(${ex}px,${ey}px) rotate(${Math.sin(e * 18) * 12}deg)` });
+ },
+ name(t, L) { head('name', t); winIn($('#nWin'), t, 0); view($('#nImg'), R([0, 0, 1000], [20, 20, 640], eo(seg(t, 0, 1.4))), 0); const k = bo(seg(L, 7.84, 8.2), 2.2); css($('#nT'), { transform: `scale(${t < 0.55 ? 0.001 : k})`, opacity: L >= 7.84 ? 1 : 0 }); chipC($('#nChip'), L, 8.1); },
+ wiki(t, L) { head('wiki', t); winIn($('#wWin'), t, 0); view($('#wImg'), R([40, 120, 1300], [100, 170, 820], eo(seg(t, 0.2, 2.6))), 0); chipC($('#wC1'), L, 10.17); chipC($('#wC2'), L, 11.4); },
+ stars(t, L) { head('stars', t); pop($('#star'), t, 0.1, `rotate(${wob(t, 0.35, 6)}deg)`, 0.5); const v = 6.9 * eo(seg(L, 13.35, 14.6)); $('#sNum').textContent = '★ ' + (v >= 6.9 ? '6.9만' : v.toFixed(1) + '만'); pop($('#sNum'), t, 0.2, '', 0.35);
+  const a = 15.33; const sw = L >= a ? Math.sin((L - a) * 9) * 28 * Math.exp(-(L - a) * 3) : 0; css($('#tag'), { opacity: L >= a ? 1 : 0, transform: `translateY(${(1 - eo(seg(L, a, a + 0.3))) * -300}px) rotate(${sw}deg)` }); chipC($('#sChip'), L, 15.55); },
+ easy(t, L) { head('easy', t); [['#n1', '#l1', 16.3], ['#n2', '#l2', 16.6], ['#n3', '#l3', 16.9]].forEach(([n, l, a]) => { pop($(n), L, a, `rotate(${wob(t + a, 0.5, 4)}deg)`, 0.4); pop($(l), L, a + 0.08); }); const p = $('#sqp'); const len = 1000; p.style.strokeDasharray = len; p.style.strokeDashoffset = len * (1 - eo(seg(L, 16.4, 17.3))); },
+ step1(t, L) { head('step1', t); winIn($('#aWin'), t, 0); view($('#aImg'), R([300, 120, 1300], [600, 240, 760], eo(seg(t, 0.15, 0.9))), 0);
+  // target: Download ZIP at img (775,631); window view origin (96,654) on page
+  const s = 888 / 760, tx = 96 + (775 - 600) * s, ty = 654 + (631 - 240) * s; const m = eo(seg(L, 18.2, 18.9)); const cx = lerp(900, tx, m), cy = lerp(1280, ty, m) - (L > 18.95 && L < 19.05 ? -6 : 0);
+  css($('#cur'), { left: cx + 'px', top: cy + 'px', opacity: L >= 18.1 ? 1 : 0 });
+  const r = seg(L, 18.95, 19.35); css($('#ring'), { left: tx - 20 + 'px', top: ty - 20 + 'px', opacity: r > 0 && r < 1 ? 1 - r : 0, transform: `scale(${1 + r * 3})` });
+  const z = seg(L, 19.0, 19.45); css($('#zip'), { left: lerp(tx - 60, 830, eo(z)) + 'px', top: lerp(ty - 60, 470, eo(z)) - Math.sin(z * Math.PI) * 120 + 'px', opacity: z > 0 ? 1 : 0, transform: `rotate(${z * 20}deg) scale(${bo(seg(L, 19.0, 19.25))})` });
+  chipC($('#aChip'), L, 18.05); },
+ step2(t, L) { head('step2', t); winIn($('#bWin'), t, 0); view($('#bImg'), R([0, 0, 1600], [100, 130, 1300], eo(seg(t, 0.2, 1.5))), 0);
+  const z = seg(L, 20.6, 21.15); const k = eo(seg(t, 0.2, 1.5)); const s = 888 / lerp(1600, 1300, k); const dx = 96 + (800 - lerp(0, 100, k)) * s, dy = 654 + (484 - lerp(0, 130, k)) * s;
+  css($('#zip2'), { left: lerp(860, dx - 65, eo(z)) + 'px', top: lerp(440, dy - 78, eo(z)) - Math.sin(z * Math.PI) * 160 + 'px', opacity: z > 0 && L < 21.35 ? 1 : 0, transform: `rotate(${(1 - z) * -25}deg) scale(${lerp(1.1, 0.7, z)})` });
+  chipC($('#bChip'), L, 19.75); chipC($('#bOk'), L, 21.2); },
+ step3(t, L) { head('step3', t); winIn($('#chat'), t, 0.05); pop($('#paste'), t, 0.25, '', 0.4); const w = '휴머나이저로 고쳐 줘'; $('#say').textContent = w.slice(0, Math.floor(cl((L - 23.33) / 1.0) * w.length)); $('#caret').style.opacity = Math.floor(t * 4) % 2 ? 0.2 : 1; const sent = L > 24.45; css($('#send'), { background: sent ? 'var(--v)' : '#fff', color: sent ? '#fff' : 'var(--ink)', transform: `scale(${sent ? bo(seg(L, 24.45, 24.7)) : 1})` });
+  const k = seg(L, 24.8, 24.98); css($('#done'), { opacity: L >= 24.8 ? 1 : 0, transform: `rotate(-10deg) scale(${lerp(2.4, 1, eo(k))})` }); },
+ ba(t, L) { head('ba', t); winIn($('#bef'), t, 0.05); const a = 27.02; winIn($('#aft'), L, a); pop($('#arrow'), L, a - 0.1, `translateY(${Math.sin(t * 6) * 8}px)`); css($('#bef'), { filter: L > a + 0.3 ? 'saturate(.5) opacity(.75)' : 'none' }); css($('#baSrc'), { opacity: eo(seg(t, 0.4, 0.8)) }); },
+ mail(t, L) { head('mail', t); const fly = seg(L, 31.05, 31.6); css($('#env'), { opacity: t > 0 ? 1 : 0, transform: `translate(${eo(fly) * 900}px,${-eo(fly) * 500}px) rotate(${lerp(-3, -3 + 25 * fly, 1) + wob(t, 0.4, 1.2)}deg) scale(${bo(seg(t, 0.05, 0.5))})` });
+  const k = seg(L, 30.5, 30.68); css($('#mStamp'), { opacity: L >= 30.5 && fly < 0.4 ? 1 : 0, transform: `rotate(-10deg) scale(${lerp(2.3, 1, eo(k))})` }); },
+ save(t) { head('save', t); const k = bo(seg(t, 0.1, 0.5), 2.2); css($('#bm'), { opacity: t >= 0.1 ? 1 : 0, transform: `scale(${k}, ${lerp(0.6, 1, k)}) rotate(${wob(t, 1.2, 4)}deg)` }); },
+ cta(t, L) { head('cta', t); winIn($('#cbox'), t, 0.05); $('#typed').textContent = L > 33.4 ? '휴먼' : (L > 33.15 ? '휴' : ''); $('#caret2').style.opacity = Math.floor(t * 4) % 2 ? 0.2 : 1; const b = eo(seg(L, 34.75, 35.2)); css($('#dm'), { opacity: b > 0 ? 1 : 0, transform: `translateX(${(1 - b) * 900}px) rotate(${lerp(8, 1.5, b)}deg)` }); },
+};
+
+function render(t) {
+ let i = 0; for (let k = 0; k < SC.length; k++) if (t >= SC[k][1]) i = k;
+ const [id, t0] = SC[i];
+ document.querySelectorAll('.S').forEach((e) => (e.style.display = e.id === id ? 'block' : 'none'));
+ U[id](t - t0, t);
+ // burst on scene start
+ const lb = t - t0; const bk = seg(lb, 0, 0.35); css($('#burst'), { opacity: i > 0 && bk < 1 ? (1 - bk) * 0.28 : 0, transform: `scale(${1 + eo(bk) * 34})` });
+ // caption
+ let c = 0; for (let k = 0; k < CAPS.length; k++) if (t >= CAPS[k][0]) c = k;
+ const ce = $('#capIn'); if (ce.dataset.k != c) { ce.innerHTML = CAPS[c][1]; ce.dataset.k = c; }
+ const ck = bo(seg(t, CAPS[c][0], CAPS[c][0] + 0.22), 1.6); ce.style.transform = `scale(${lerp(0.85, 1, ck)}) rotate(${c % 2 ? 0.8 : -0.8}deg)`;
+ // doodles
+ DOO.forEach((d, k) => css($('#d' + k), { transform: `translateY(${Math.sin(t * 1.3 + k) * 12}px) rotate(${Math.sin(t * 0.9 + k * 2) * 14}deg)` }));
+ // logo eyes look around
+ document.querySelector('#logo i b').style.transform = `translate(${Math.sin(t * 1.7) * 3}px,${Math.cos(t * 1.3) * 2}px)`;
+}
+const imgs = [...document.querySelectorAll('img')];
+window.__timelines = { main: { seek: async (t) => { render(t); await Promise.all(imgs.map((i) => i.decode().catch(() => {}))); }, duration: () => DUR } };
+if (location.hash === '#cover') { $('#cap').style.display = 'none'; $('#hA').innerHTML = 'AI로 쓴 글, 사람 눈엔 다 티 나요'; $('#hA').style.fontSize = '54px'; $('#hA').style.color = '#55524c'; $('#hB').innerHTML = 'AI 티 26개<br><v>지워 주는 스킬</v>'; $('#hB').style.lineHeight = '1.1'; $('#hB').style.top = '330px'; $('#hDoc').style.top = '700px'; ['#mk1','#mk2','#mk3','#hStamp'].forEach(s => $(s).style.marginTop = '60px'); $('#hStamp').textContent = '휴머나이저'; $('#hStamp').style.borderColor = 'var(--v)'; $('#hStamp').style.color = 'var(--v)'; }
+Promise.all([document.fonts.ready, ...imgs.map((i) => i.decode().catch(() => {}))]).then(() => { render(0); window.__ready = true; });
+</script>
+</body></html>
