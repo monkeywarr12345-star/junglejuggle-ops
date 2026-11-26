@@ -27,8 +27,8 @@ for k, sg in enumerate(SEG):
     cy = min(max((H - 1920) // 2 - dy, 0), H - 1920)
     vf = (f'setpts=PTS/{sp},fps=30,scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},'
           f'crop=1080:1920:{(W-1080)//2}:{cy},'
-          f'tpad=stop_mode=clone:stop_duration=10,trim=0:{dur:.4f},setpts=PTS-STARTPTS,setsar=1')
-    key=json.dumps(sg)
+          f'tpad=stop_mode=clone:stop_duration=10,trim=end_frame={round(b*30)-round(a*30)},setpts=PTS-STARTPTS,setsar=1')
+    key=json.dumps(sg)+'f'
     if os.path.exists(out) and os.path.exists(out+'.key') and open(out+'.key').read()==key:
         lst.append(f"file '{os.path.abspath(out)}'"); continue
     run(['ffmpeg','-nostdin','-v','error','-y','-ss',f'{off:.3f}','-i',f'hv/{src}.mp4','-vf',vf,'-an',

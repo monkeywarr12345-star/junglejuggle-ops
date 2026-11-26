@@ -19,6 +19,6 @@ add(EV['free'],ding(1760,.5),.6)
 for k in ['w0','w1']: add(EV[k]-0.1,pop(),.6)
 add(EV['vsB']+0.1,thud(),.7)
 add(EV['type'],key(),.9);add(EV['type']+.15,key(),.7);add(EV['dm'],ding(),.8)
-for t in [0.5,6.0,10.2,10.7]: add(t,pop(),.5)
+for t in T.get('pops',[0.5,6.0,10.2,10.7]): add(t,pop(),.5)
 y=y/np.max(np.abs(y))*.85
 w=wave.open('sfx.wav','wb');w.setnchannels(1);w.setsampwidth(2);w.setframerate(SR);w.writeframes((y*32767).astype(np.int16).tobytes());w.close();print('ok')
