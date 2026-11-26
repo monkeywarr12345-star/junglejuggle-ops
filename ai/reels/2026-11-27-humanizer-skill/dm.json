@@ -1,6 +1,10 @@
 {
-  "keyword": "들킴",
-  "comment_replies": ["DM 보냈어요 📩", "확인해 보세요! 📩", "보내드렸어요 🎁"],
+  "keyword": "휴먼",
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
   "follow_gate": {
     "text": "댓글 고마워요! Coogle이에요 👋 자료는 팔로워 전용이에요. @coogle.ai를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
     "button": "팔로우했어요 ✅",
@@ -17,5 +21,6 @@
   "any_keyword": true,
   "notion": "https://app.notion.com/p/42398083042481a59727ffb29a6c94f0",
   "notion_public": "https://observant-kiwi-cfe.notion.site/42398083042481a59727ffb29a6c94f0",
-  "automation_name": "11.26 휴머나이저 스킬 · 들킴 → 노션"
+  "automation_name": "11.27 휴머나이저 스킬 · 휴먼 → 노션",
+  "publish_at": "2026-11-27T18:00:00+09:00"
 }
