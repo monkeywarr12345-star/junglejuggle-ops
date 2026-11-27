@@ -23,10 +23,10 @@ const CAPS = [
 const SC = [['hook', 0], ['proj', 3.7], ['panel', 6.7], ['score', 9.2], ['steps', 12.2], ['s1', 14.6], ['s2', 15.8], ['s3', 17.9], ['ask', 19.9], ['priv', 22.0], ['save', 24.0], ['cta', 26.4]];
 const DUR = 30.6;
 
-const DOO = [['star', 70, 1590, '#7B61FF'], ['spark', 930, 1600, '#FF5A4E'], ['squig', 900, 470, '#7B61FF'], ['circ', 60, 470, '#FFD84D'], ['spark', 980, 1250, '#2FCB7E'], ['star', 40, 1300, '#FF5A4E']];
+const DOO = [['star', 70, 1590, '#111111'], ['spark', 930, 1600, '#FFFFFF'], ['squig', 900, 470, '#111111'], ['circ', 60, 540, '#FFFFFF'], ['spark', 980, 1250, '#111111'], ['star', 40, 1300, '#FFFFFF']];
 const shp = { star: 'M45,5 L56,33 L86,34 L62,53 L71,83 L45,66 L19,83 L28,53 L4,34 L34,33 Z', spark: 'M45,5 Q50,40 85,45 Q50,50 45,85 Q40,50 5,45 Q40,40 45,5 Z', squig: 'M5,45 Q20,15 35,45 T65,45 T95,45', circ: 'M45,10 A35,35 0 1 1 44.9,10 Z' };
 $('#doos').innerHTML = DOO.map(([k, x, y, c], i) => `<svg class="doo" id="d${i}" viewBox="0 0 90 90" style="left:${x}px;top:${y}px"><path d="${shp[k]}" fill="${k === 'squig' ? 'none' : c}" stroke="${k === 'squig' ? c : '#141414'}" stroke-width="${k === 'squig' ? 9 : 5}" stroke-linejoin="round" stroke-linecap="round"/></svg>`).join('');
-$('#hRow').innerHTML = ['🧑‍💼', '👩‍💻', '👔', '🤖', '✏️'].map((e, i) => `<span id="hj${i}" style="width:120px;height:120px;border-radius:50%;border:6px solid #141414;box-shadow:6px 6px 0 #141414;background:${['#E4DDFF', '#FFD84D', '#FFE0DC', '#D6F7E5', '#fff'][i]};display:flex;align-items:center;justify-content:center">${e}</span>`).join('');
+$('#hRow').innerHTML = ['🧑‍💼', '👩‍💻', '👔', '🤖', '✏️'].map((e, i) => `<span id="hj${i}" style="width:120px;height:120px;border-radius:50%;border:6px solid #141414;box-shadow:6px 6px 0 #141414;background:${['#E6E6E3', '#fff', '#E6E6E3', '#fff', '#E6E6E3'][i]};display:flex;align-items:center;justify-content:center">${e}</span>`).join('');
 
 function winIn(e, t, a = 0) { const k = bo(seg(t, a, a + 0.45), 1.5); css(e, { opacity: t >= a ? 1 : 0, transform: `translateY(${(1 - eo(seg(t, a, a + 0.35))) * 140}px) rotate(${lerp(-4, -1, k) + wob(t, 0.25, 0.4)}deg) scale(${lerp(0.7, 1, k)})` }); }
 function head(S, t) { const k = $(`#${S} .kick`), ti = $(`#${S} .title`); if (k) pop(k, t, 0.0, '', 0.3); if (ti) pop(ti, t, 0.05, '', 0.42); }
@@ -70,7 +70,7 @@ function render(t) {
  const ce = $('#capIn'); if (ce.dataset.k != c) { ce.innerHTML = CAPS[c][1]; ce.dataset.k = c; }
  const ck = bo(seg(t, CAPS[c][0], CAPS[c][0] + 0.22), 1.6); ce.style.transform = `scale(${lerp(0.85, 1, ck)}) rotate(${c % 2 ? 0.8 : -0.8}deg)`;
  DOO.forEach((d, k) => css($('#d' + k), { transform: `translateY(${Math.sin(t * 1.3 + k) * 12}px) rotate(${Math.sin(t * 0.9 + k * 2) * 14}deg)` }));
- document.querySelector('#logo i b').style.transform = `translate(${Math.sin(t * 1.7) * 3}px,${Math.cos(t * 1.3) * 2}px)`;
+ 
 }
 window.__timelines = { main: { seek: async (t) => { render(t); }, duration: () => DUR } };
 if (location.href.includes('cover')) { $('#cap').style.display = 'none'; $('#hA').textContent = '서류 내기 전에 먼저 떨어져 보기'; css($('#hA'), { fontSize: '50px', color: '#55524c', top: '250px' }); $('#hB').innerHTML = '클로드에<br><v>이력서 심사위원 5명</v>'; css($('#hB'), { fontSize: '96px', top: '330px' }); $('#hRes').style.top = '700px'; $('#hStamp').style.top = '1100px'; $('#hRow').style.top = '1290px'; }
