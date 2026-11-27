@@ -174,8 +174,10 @@
    "tool": "Claude",
    "keyword": "비서",
    "evidence": "에이전트·AI 직원·비서 주제 평소의 1.12~1.28배(최근 60일 1.23배). reborn.ax 24시간 자비스 25.6x, AI 직원 68명 27.9x",
-   "status": "todo",
-   "note": "Claude 예약 작업(Cowork·Claude Code) 제공 요금제·컴퓨터 켜 둬야 하는 조건을 공식 문서로 확인"
+   "status": "doing",
+   "note": "Claude 예약 작업(Cowork·Claude Code) 제공 요금제·컴퓨터 켜 둬야 하는 조건을 공식 문서로 확인",
+   "reel": "2026-11-29-claude-morning-brief",
+   "publish_at": "2026-11-29T18:00:00+09:00"
   },
   {
    "n": 23,
