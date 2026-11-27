@@ -17,10 +17,12 @@
     "url": "https://observant-kiwi-cfe.notion.site/42398083042481a59727ffb29a6c94f0"
   },
   "dm_text": "요청하신 'AI 글 티 지우는 휴머나이저' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
-  "zorcha": "pending",
+  "zorcha": "live",
   "any_keyword": true,
   "notion": "https://app.notion.com/p/42398083042481a59727ffb29a6c94f0",
   "notion_public": "https://observant-kiwi-cfe.notion.site/42398083042481a59727ffb29a6c94f0",
   "automation_name": "11.27 휴머나이저 스킬 · 휴먼 → 노션",
-  "publish_at": "2026-11-27T18:00:00+09:00"
+  "publish_at": "2026-11-27T18:00:00+09:00",
+  "zorcha_auto": "11.27 휴머나이저 스킬 · 휴먼 → 노션",
+  "zorcha_id": "6b08fc184599a616b36195ff"
 }
