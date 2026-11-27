@@ -53,6 +53,7 @@
 - 벤치마크 계정(gpt_haterz, adu.aihub, lazy_owen, oaiwan.kr, sebia.ai, trenddalkak.ai, grappt_, ai_newpd, ai.trend.kr, pickit_.official, joshproductletter, prompt_what, roy.branding, mart_eting, theaigeekk — 뒤 4곳은 2026-11-15 추가)이 이미 하고 있는 방식은 자체적으로 제한하지 않고 따른다(2026-11-13 사용자 지시). '디자인 복제 금지' 규칙은 폐기했다. 사칭(남의 계정인 척), 남의 캡션 원문·이미지 저장, Anthropic 픽셀 마스코트 등 남의 캐릭터 사용, 유료 결제는 계속 하지 않는다.
 - 인스타 둘러보기는 개인 계정 @wig_glwiggl로 하고(필요하면 계정 전환 후 되돌림), 브라우저는 monkeywarr12345 gmail로 로그인된 집 Chrome만 쓴다(회사 노트북 브라우저 금지). Claude in Chrome에 브라우저가 여러 개 연결돼 있으면 집 Chrome은 'Browser 2'(Windows, deviceId d8d49c46-4332-4ce1-b6da-55fdead33640)다 — select_browser로 이것을 고른다('Browser 1'은 쓰지 않음, 2026-11-16 사용자 확인).
 - 말투: 화면·캡션·DM 모두 해요체(아래 '음슴체·정글러님들' 규칙은 이 계정에 적용하지 않는다).
+- 대사 어투(2026-11-28 사용자 지시 '대사를 항상 사람 어투와 어법으로'): 녹음용 대사는 친구한테 말하듯 실제 사람이 입으로 하는 말로 쓴다. 가운뎃점(·) 나열, 명사로 끊는 문장('~하면 끝.', '~한마디.'), 보고서 말투 금지. 조사·어미를 살리고('~거든요', '~는데요', '~고요', '아, ~'), 한 줄 = 한 호흡으로 소리 내 읽어 걸리면 고친다. 화면 자막은 대사를 그대로 따른다.
 
 ---
 (이하는 경제 매거진 시절 규칙 — 위 'AI 실사용 릴스' 모드와 충돌하면 위가 이긴다)
