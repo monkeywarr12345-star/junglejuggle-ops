@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:700;font-display:block;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:800;font-display:block;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:900;font-display:block;src:url(assets/fonts/Pretendard-Black.woff2)}
+:root{--paper:#F3F3F1;--ink:#111111;--v:#111111;--vl:#E6E6E3;--c:#FF4B3E;--cl:#F1F1EE;--m:#111111;--ml:#FFFFFF;--y:#FFFFFF}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:P,'Noto Sans CJK KR',sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;background-color:var(--paper);background-image:radial-gradient(rgba(17,17,17,.16) 2.2px,transparent 2.6px);background-size:44px 44px}
+.doo{position:absolute;width:90px;height:90px}
+#logo{position:absolute;left:0;right:0;top:112px;display:flex;justify-content:center;align-items:center;font:800 50px 'Inter Display','Noto Sans CJK KR',sans-serif;letter-spacing:-2.2px;color:var(--ink)}
+#logo .ring{display:inline-block;width:32.6px;height:32.6px;border:6.5px solid var(--ink);border-radius:50%;box-sizing:border-box;margin:0 .9px;position:relative;top:4.8px}
+#logo .ring.f{background:var(--ink)}
+.S{position:absolute;inset:0;display:none}
+.kick{position:absolute;left:0;right:0;top:238px;text-align:center;font-size:46px;font-weight:800;color:#555555;letter-spacing:-.03em}
+.title{isolation:isolate;position:absolute;left:40px;right:40px;top:300px;text-align:center;font-size:96px;font-weight:900;letter-spacing:-.055em;line-height:1.06}
+v,.v{color:#fff;position:relative;display:inline-block;padding:0 .14em .04em}
+v::after{content:'';position:absolute;left:0;right:0;top:.02em;bottom:-.08em;background:var(--ink);z-index:-1;border-radius:.16em;transform:rotate(-1.2deg)}
+.card{position:absolute;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:12px 12px 0 var(--ink)}
+.win{position:absolute;left:90px;top:590px;width:900px;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.win .bar{height:58px;border-bottom:6px solid var(--ink);display:flex;align-items:center;gap:12px;padding:0 20px;background:var(--vl)}
+.win .bar i{width:22px;height:22px;border-radius:50%;border:4px solid var(--ink)}
+.win .bar span{margin-left:14px;font-size:24px;font-weight:800;color:#3a3a3a}
+.win .view{position:relative;width:888px;height:520px;overflow:hidden;background:#fff}
+.win .view img{position:absolute;left:0;top:0;width:1600px;transform-origin:0 0}
+.chip{position:absolute;white-space:nowrap;font-size:40px;font-weight:900;letter-spacing:-.03em;padding:14px 30px 16px;border-radius:999px;background:#fff;border:5px solid var(--ink);box-shadow:7px 7px 0 var(--ink)}
+.chip.vi{background:var(--ink);color:#fff}.chip.co{background:var(--c);color:#fff}.chip.mi{background:var(--m);color:#fff}
+.stamp{position:absolute;font-size:70px;font-weight:900;padding:6px 30px 12px;border:9px solid var(--c);color:var(--c);border-radius:18px;background:rgba(255,255,255,.92);letter-spacing:-.04em}
+#cap{position:absolute;left:0;right:0;top:1395px;display:flex;justify-content:center}
+#capIn{max-width:980px;text-align:center;font-size:58px;font-weight:900;letter-spacing:-.04em;line-height:1.2;background:#fff;border:5px solid var(--ink);border-radius:26px;box-shadow:8px 8px 0 var(--ink);padding:16px 34px 20px}
+#capIn b{color:#fff;background:var(--ink);border-radius:10px;padding:0 10px 2px;margin:0 2px}
+#burst{position:absolute;left:520px;top:880px;width:40px;height:40px;border-radius:50%;border:2px solid #111;opacity:0}
+.line{height:20px;border-radius:10px;background:#E4E4E1;margin:14px 0}
+.en{font-size:34px;font-weight:800;line-height:1.35;letter-spacing:-.01em}
+.mk{position:absolute;border:7px solid var(--c);border-radius:50%}
+.num{position:absolute;width:190px;height:190px;border-radius:50%;border:7px solid var(--ink);box-shadow:9px 9px 0 var(--ink);display:flex;align-items:center;justify-content:center;font-size:96px;font-weight:900}
+.lab{position:absolute;width:300px;text-align:center;font-size:42px;font-weight:900;letter-spacing:-.04em}
+svg{overflow:visible}
+</style></head><body>
+<style>
+.row2{display:flex;align-items:center;gap:16px;font-size:32px;font-weight:900;letter-spacing:-.04em;padding:10px 0;border-bottom:4px solid #E4E4E1}
+.row2 .dot{width:22px;height:22px;border-radius:50%;background:var(--ink);flex:none}
+.sec{font-size:36px;font-weight:900;margin-top:14px;display:flex;align-items:center;gap:10px}
+.it{font-size:33px;font-weight:800;color:#333;line-height:1.45;padding-left:46px}
+.ui{padding:26px 30px;font-size:30px;font-weight:800}
+.btn{display:inline-block;padding:12px 24px;border:5px solid var(--ink);border-radius:16px;background:var(--ink);color:#fff;font-weight:900;font-size:30px}
+.fld{border:5px solid var(--ink);border-radius:16px;padding:12px 20px;background:#fff;font-size:30px;font-weight:900;margin-top:8px;min-height:64px}
+.tile{position:absolute;width:390px;height:300px;border:6px solid var(--ink);border-radius:26px;background:#fff;box-shadow:8px 8px 0 var(--ink);text-align:center;padding-top:30px}
+.tile .ico{font-size:96px;line-height:1}
+.tile .nm{font-size:36px;font-weight:900;margin-top:10px}
+.tile .st{display:inline-block;margin-top:16px;padding:8px 22px;border:5px solid var(--ink);border-radius:999px;font-size:28px;font-weight:900}
+.pd{width:56px;height:56px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:900;background:#fff}
+.pd.on{background:var(--ink);color:#fff}
+.ex{position:absolute;font-size:28px;font-weight:800;color:#77736b}
+.pl{display:flex;align-items:center;gap:22px;font-size:46px;font-weight:900;padding:16px 10px;border-bottom:5px solid #E4E4E1;letter-spacing:-.03em}
+.pl .ck{margin-left:auto;width:70px;height:70px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:40px}
+</style>
+<div id="bg"></div>
+<div id="doos"></div>
+<div id="burst"></div>
+
+<!-- hook -->
+<div class="S" id="hook">
+ <div id="hA" class="title" style="top:240px;font-size:84px">아침마다 메일함 여는 거,</div>
+ <div id="hB" class="title" style="top:345px;font-size:108px;line-height:1.08"><v>오늘로</v> 끝내세요</div>
+ <div class="win" id="hWin" style="top:600px"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>받은편지함</span><span style="margin-left:auto;background:var(--ink);color:#fff;border-radius:999px;padding:0 22px;font-size:40px;font-weight:900">99+</span></div>
+  <div class="view ui" style="height:500px">
+   <div class="row2"><span class="dot"></span>[회의] 오전 10시 주간 회의 자료<span style="margin-left:auto;color:#888;font-size:24px">07:02</span></div>
+   <div class="row2"><span class="dot"></span>Re: 견적서 확인 부탁드려요<span style="margin-left:auto;color:#888;font-size:24px">06:48</span></div>
+   <div class="row2"><span class="dot"></span>[공지] 이번 주 일정 변경<span style="margin-left:auto;color:#888;font-size:24px">06:31</span></div>
+   <div class="row2"><span class="dot" style="background:#bbb"></span>뉴스레터 · 광고 · 알림 …<span style="margin-left:auto;color:#888;font-size:24px">어제</span></div>
+   <div class="row2" style="border:0"><span class="dot" style="background:#bbb"></span>뉴스레터 · 광고 · 알림 …</div>
+  </div></div>
+ <div class="stamp" id="hStamp" style="left:610px;top:1040px">끝!</div>
+ <div class="chip vi" id="hChip" style="left:60px;top:1150px;font-size:44px">메일 99+ → 브리핑 1장</div>
+</div>
+
+<!-- clock -->
+<div class="S" id="clock">
+ <div class="kick">클로드가 평일</div><div class="title">아침 <v>7시</v>에 먼저</div>
+ <svg id="clk" width="560" height="560" viewBox="0 0 560 560" style="position:absolute;left:260px;top:590px">
+  <circle cx="280" cy="290" r="240" fill="#fff" stroke="#111" stroke-width="14"/>
+  <g id="ticks"></g>
+  <line id="hh" x1="280" y1="290" x2="280" y2="170" stroke="#111" stroke-width="22" stroke-linecap="round"/>
+  <line id="mh" x1="280" y1="290" x2="280" y2="100" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="280" cy="290" r="20" fill="#111"/>
+  <rect x="120" y="0" width="70" height="56" rx="18" fill="#111"/><rect x="370" y="0" width="70" height="56" rx="18" fill="#111"/>
+ </svg>
+ <div class="chip" id="cChip" style="left:50%;top:1215px">내가 자는 동안 정리 끝</div>
+</div>
+
+<!-- brief -->
+<div class="S" id="brief">
+ <div class="kick">오늘 일정 · 답장할 메일 · 할 일</div><div class="title"><v>한 장</v>으로 정리</div>
+ <div class="card" id="bCard" style="left:110px;top:570px;width:860px;padding:28px 36px 22px">
+  <div style="font-size:40px;font-weight:900;border-bottom:5px solid var(--ink);padding-bottom:12px">11월 30일(월) 아침 브리핑</div>
+  <div id="g0"><div class="sec">① 오늘 일정 3개</div><div class="it">10:00 주간 회의 · 14:00 거래처 통화</div></div>
+  <div id="g1"><div class="sec">② 답장할 메일 2개</div><div class="it">견적서 확인 요청 <b style="color:var(--c)">(오늘까지)</b></div></div>
+  <div id="g2"><div class="sec">③ 할 일 4개</div><div class="it">회의 자료 마무리 · 출장 신청</div></div>
+ </div>
+ <div class="ex" style="left:0;right:0;top:1290px;text-align:center">화면은 예시예요</div>
+</div>
+
+<!-- laptop -->
+<div class="S" id="laptop">
+ <div class="kick">노트북 덮어 놔도</div><div class="title"><v>알아서</v> 돌아가요</div>
+ <svg width="700" height="520" viewBox="0 0 700 520" style="position:absolute;left:190px;top:640px">
+  <g id="lid" style="transform-origin:350px 400px"><rect x="110" y="60" width="480" height="340" rx="24" fill="#fff" stroke="#111" stroke-width="14"/><rect x="150" y="100" width="400" height="260" rx="10" fill="#E6E6E3"/></g>
+  <path d="M40,400 H660 L620,460 H80 Z" fill="#111" stroke="#111" stroke-width="12" stroke-linejoin="round"/>
+ </svg>
+ <div id="zz" style="position:absolute;left:760px;top:600px;font-size:80px;font-weight:900">z<span style="font-size:60px">z</span><span style="font-size:44px">z</span></div>
+ <div class="chip vi" id="lChip" style="left:50%;top:1180px">폴더 지정 없이 만들면 클라우드에서 실행</div>
+</div>
+
+<!-- steps -->
+<div class="S" id="steps">
+ <div class="kick">세팅은</div><div class="title"><v>3단계</v>예요</div>
+ <div class="num" id="n1" style="left:95px;top:680px;background:var(--vl)">1</div>
+ <div class="num" id="n2" style="left:445px;top:680px;background:#fff">2</div>
+ <div class="num" id="n3" style="left:795px;top:680px;background:#fff">3</div>
+ <div class="lab" id="l1" style="left:40px;top:910px">메일·캘린더<br>연결</div>
+ <div class="lab" id="l2" style="left:390px;top:910px">브리핑<br>프롬프트</div>
+ <div class="lab" id="l3" style="left:740px;top:910px">평일<br>아침 7시</div>
+</div>
+
+<!-- s1 -->
+<div class="S" id="s1">
+ <div class="kick">①</div><div class="title"><v>메일·캘린더</v> 연결</div>
+ <div class="tile" id="t1" style="left:100px;top:620px"><div class="ico"><svg width="96" height="96" viewBox="0 0 96 96"><rect x="6" y="18" width="84" height="62" rx="10" fill="#fff" stroke="#111" stroke-width="8"/><path d="M10,24 L48,54 L86,24" fill="none" stroke="#111" stroke-width="8" stroke-linejoin="round"/></svg></div><div class="nm">메일</div><div class="st" id="st1">연결</div></div>
+ <div class="tile" id="t2" style="left:590px;top:620px"><div class="ico"><svg width="96" height="96" viewBox="0 0 96 96"><rect x="8" y="16" width="80" height="72" rx="12" fill="#fff" stroke="#111" stroke-width="8"/><rect x="8" y="16" width="80" height="22" rx="10" fill="#111"/><rect x="24" y="4" width="10" height="22" rx="5" fill="#111"/><rect x="62" y="4" width="10" height="22" rx="5" fill="#111"/><text x="48" y="78" text-anchor="middle" font-family="P,Noto Sans CJK KR" font-weight="900" font-size="38" fill="#111">7</text></svg></div><div class="nm">캘린더</div><div class="st" id="st2">연결</div></div>
+ <div class="ex" style="left:0;right:0;top:980px;text-align:center">클로드 커넥터에서 쓰는 메일·캘린더를 연결해요</div>
+ <svg id="cur" width="70" height="90" viewBox="0 0 70 90" style="position:absolute"><path d="M5,5 L5,72 L22,56 L34,84 L48,78 L36,51 L60,51 Z" fill="#fff" stroke="#141414" stroke-width="7" stroke-linejoin="round"/></svg>
+ <div id="ring" style="position:absolute;width:40px;height:40px;border:7px solid var(--v);border-radius:50%;opacity:0"></div>
+</div>
+
+<!-- s2 -->
+<div class="S" id="s2">
+ <div class="kick">② 예약 작업에</div><div class="title" style="font-size:88px"><v>브리핑 프롬프트</v></div>
+ <div class="win" id="bWin"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>Scheduled  →  New task</span></div>
+  <div class="view ui" style="height:500px">
+   <div style="font-size:26px;color:#666">이름</div><div class="fld">아침 브리핑</div>
+   <div style="font-size:26px;color:#666;margin-top:16px">프롬프트</div><div class="fld" id="inst" style="height:250px;font-size:28px;line-height:1.45;font-weight:800;color:#333"></div>
+  </div></div>
+ <div class="chip vi" id="bChip" style="left:50%;top:1200px">전체 프롬프트는 DM으로</div>
+</div>
+
+<!-- s3 -->
+<div class="S" id="s3">
+ <div class="kick">③ 반복은</div><div class="title"><v>평일 아침 7시</v></div>
+ <div class="win" id="cWin"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>Frequency</span></div>
+  <div class="view ui" style="height:500px">
+   <div id="opts" style="font-size:36px;font-weight:900">
+    <div class="pl" style="font-size:36px">Hourly</div><div class="pl" style="font-size:36px">Daily</div>
+    <div class="pl" id="wk" style="font-size:36px">Weekdays<span class="ck" id="wkc"></span></div><div class="pl" style="font-size:36px;border:0">Weekly</div>
+   </div>
+   <div style="position:absolute;left:30px;bottom:26px;font-size:36px;font-weight:900">시간 <span id="tm">--:--</span></div>
+   <span class="btn" id="saveBtn" style="position:absolute;right:30px;bottom:26px">Save</span>
+  </div></div>
+ <div class="stamp" id="done" style="left:650px;top:1160px;border-color:var(--ink);color:var(--ink)">끝!</div>
+</div>
+
+<!-- morning -->
+<div class="S" id="morning">
+ <div class="kick">내일 아침이면</div><div class="title">브리핑 <v>정리 끝</v></div>
+ <svg id="sun" width="300" height="300" viewBox="0 0 300 300" style="position:absolute;left:390px;top:560px"><g id="rays"></g><circle cx="150" cy="150" r="70" fill="#fff" stroke="#111" stroke-width="12"/></svg>
+ <div class="card" id="noti" style="left:110px;top:880px;width:860px;padding:26px 32px">
+  <div style="display:flex;align-items:center;gap:16px;font-size:30px;font-weight:900"><span style="width:60px;height:60px;border-radius:16px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center">✳︎</span>Scheduled<span style="margin-left:auto;color:#666;font-size:26px">오늘 07:00</span></div>
+  <div style="margin-top:14px;font-size:40px;font-weight:900">아침 브리핑 · 실행 완료 ✓</div>
+  <div style="font-size:30px;font-weight:800;color:#444">일정 3 · 답장할 메일 2 · 할 일 4</div>
+ </div>
+</div>
+
+<!-- plan -->
+<div class="S" id="plan">
+ <div class="kick">예약 작업은</div><div class="title"><v>Pro 요금제</v>부터</div>
+ <div class="card" id="pCard" style="left:190px;top:590px;width:700px;padding:16px 36px">
+  <div class="pl" id="p0" style="color:#999">Free<span class="ck" style="color:#999;border-color:#bbb">✕</span></div>
+  <div class="pl" id="p1">Pro<span class="ck" style="background:var(--ink);color:#fff">✓</span></div>
+  <div class="pl" id="p2">Max<span class="ck" style="background:var(--ink);color:#fff">✓</span></div>
+  <div class="pl" id="p4">Ultra<span class="ck" style="background:var(--ink);color:#fff">✓</span></div>
+  <div class="pl" id="p3" style="border:0">Team · Enterprise<span class="ck" style="background:var(--ink);color:#fff">✓</span></div>
+ </div>
+ <div class="ex" style="left:0;right:0;top:1290px;text-align:center;font-size:32px">유료 요금제 전부 · 2026년 11월 기준</div>
+</div>
+
+<!-- save -->
+<div class="S" id="save">
+ <div class="kick">세팅할 때 다시 보게</div><div class="title"><v>저장</v>해 두세요</div>
+ <svg id="bm" width="300" height="400" viewBox="0 0 300 400" style="position:absolute;left:390px;top:640px;transform-origin:150px 400px"><path d="M30,20 H270 V380 L150,290 L30,380 Z" fill="#111111" stroke="#141414" stroke-width="12" stroke-linejoin="round"/><circle cx="110" cy="150" r="14" fill="#fff"/><circle cx="190" cy="150" r="14" fill="#fff"/><path d="M110,195 Q150,230 190,195" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/></svg>
+</div>
+
+<!-- cta -->
+<div class="S" id="cta">
+ <div class="kick">팔로우하고 댓글에</div><div class="title"><v>'비서'</v> 남기면 DM</div>
+ <div class="chip" id="fol" style="left:50%;top:600px;font-size:48px;padding:16px 60px">팔로우</div>
+ <div class="card" id="cbox" style="left:90px;top:760px;width:900px;height:150px;display:flex;align-items:center;padding:0 34px;font-size:56px;font-weight:900">
+  <span style="width:84px;height:84px;border-radius:50%;background:var(--vl);border:5px solid var(--ink);margin-right:24px;flex:none"></span><span id="typed"></span><span id="caret2" style="display:inline-block;width:5px;height:58px;background:var(--v);margin-left:6px"></span><span style="margin-left:auto;font-size:36px;color:var(--v)">게시</span></div>
+ <div class="card" id="dm" style="left:150px;top:960px;width:780px;padding:28px 32px;background:var(--vl)">
+  <div style="display:flex;align-items:center;gap:16px;font-size:32px;font-weight:900"><span style="width:62px;height:62px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px">C</span>coogle.ai <span style="margin-left:auto;font-size:26px;color:#666">방금</span></div>
+  <div style="margin-top:18px;background:#fff;border:5px solid var(--ink);border-radius:22px;padding:18px 24px;font-size:38px;font-weight:900;line-height:1.35">아침 브리핑 비서<br>프롬프트 전체본 + 세팅법</div>
+ </div>
+</div>
+
+<div id="prog" style="position:absolute;left:60px;top:250px;display:none;gap:12px"><span class="pd">1</span><span class="pd">2</span><span class="pd">3</span></div>
+<div id="logo">C<span class="ring"></span><span class="ring f"></span>gle</div>
+<div id="cap"><div id="capIn"></div></div>
+<script src="main.js"></script>
+</body></html>

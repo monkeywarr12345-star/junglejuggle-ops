@@ -1,0 +1,26 @@
+{
+  "keyword": "비서",
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
+  "follow_gate": {
+    "text": "댓글 고마워요! Coogle이에요 👋 자료는 팔로워 전용이에요. @coogle.ai를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
+    "button": "팔로우했어요 ✅",
+    "not_following": "아직 팔로우가 확인되지 않았어요 😢 @coogle.ai 팔로우한 뒤 아래 '팔로우했어요 ✅'를 다시 눌러 주세요!"
+  },
+  "card": {
+    "title": "클로드 아침 브리핑 비서 프롬프트 전체본",
+    "subtitle": "세팅 3단계 + 브리핑 프롬프트 + 요일별 응용",
+    "button": "자료 열기",
+    "url": "https://observant-kiwi-cfe.notion.site/42598083042481698f36dbdaf44262e5"
+  },
+  "dm_text": "요청하신 '클로드 아침 브리핑 비서' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
+  "zorcha": "pending",
+  "any_keyword": true,
+  "notion": "https://app.notion.com/p/42598083042481698f36dbdaf44262e5",
+  "notion_public": "https://observant-kiwi-cfe.notion.site/42598083042481698f36dbdaf44262e5",
+  "automation_name": "11.29 아침 브리핑 비서 · 비서 → 노션",
+  "publish_at": "2026-11-29T18:00:00+09:00"
+}
