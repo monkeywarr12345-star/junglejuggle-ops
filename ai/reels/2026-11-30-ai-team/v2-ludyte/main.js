@@ -67,7 +67,7 @@ function render(t) {
  U[id](t - t0, t);
  const IN = id === 'intro'; ['#logo', '#cap', '#doos', '#bg'].forEach((q) => ($(q).style.visibility = IN ? 'hidden' : 'visible'));
  $('#bg').style.clipPath = (TR && CLIPSC[id]) ? HOLE : 'none';
- const fl = t < SW ? eo(seg(t, SW - 0.16, SW)) : 1 - eo(seg(t, SW, SW + 0.3)); $('#flash').style.opacity = fl;
+ const fl = t < SW ? 0 : 1 - eo(seg(t, SW + 0.03, SW + 0.33)); $('#flash').style.opacity = fl;
  const lb = t - t0; const bk = seg(lb, 0, 0.35); css($('#burst'), { opacity: i > 1 && bk < 1 ? (1 - bk) * 0.28 : 0, transform: `scale(${1 + eo(bk) * 34})` });
  let c = 0; for (let k = 0; k < CAPS.length; k++) if (t >= CAPS[k][0]) c = k;
  const ce = $('#capIn'); if (ce.dataset.k != c) { ce.innerHTML = CAPS[c][1]; ce.dataset.k = c; }

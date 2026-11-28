@@ -5,7 +5,9 @@ ins=['-f','lavfi','-i',f'color=c=white:s=1080x1920:r=30:d={D},format=rgb24']
 fc=[];last='[0:v]'
 for k,c in enumerate(CL):
     ins+=['-i',c['f']]; i=k+1; sp=c.get('sp',1)
-    if c.get('full'):
+    if c.get('full') and c.get('raw'):
+        chain=f"[{i}:v]fps=30,trim=0:{c['dur']},setpts=PTS-STARTPTS,scale=1080:1920,format=rgb24[c{k}]"; pos='0:0'
+    elif c.get('full'):
         Z=f"(1+0.35*pow(max(0,(t-{c['t0']+c['dur']-0.3})/0.3),2))"
         chain=(f"[{i}:v]fps=30,trim=start={c['ss']}:duration={c['dur']*sp},setpts=(PTS-STARTPTS)/{sp},scale=1080:1920,"
                f"scale=w='trunc(1080*{Z}/2)*2':h='trunc(1920*{Z}/2)*2':eval=frame,crop=1080:1920:(iw-1080)/2:(ih-1920)/2,format=rgb24[c{k}]")

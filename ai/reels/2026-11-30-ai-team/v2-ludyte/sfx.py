@@ -31,7 +31,15 @@ def tick():
 def boom():
     n = int(SR * .9); t = np.arange(n) / SR
     return np.sin(2 * np.pi * np.cumsum(70 * np.exp(-t * 3) + 38) / SR) * np.exp(-t * 4.5) * 1.4 + rng.standard_normal(n) * np.exp(-t * 30) * .5
-add(4.8, swish(), .8); add(5.0, boom(), 1.0)
+def riser(d=0.75):
+    n = int(SR * d); t = np.arange(n) / SR; w = rng.standard_normal(n)
+    from numpy.fft import rfft, irfft
+    out = np.zeros(n); seg_ = 2048
+    for j in range(0, n, seg_):
+        f = rfft(w[j:j+seg_]); fr = np.fft.rfftfreq(len(w[j:j+seg_]), 1 / SR); c = 600 + 7000 * (j / n) ** 2
+        f[(fr < c * 0.5) | (fr > c * 1.8)] = 0; out[j:j+seg_] = irfft(f, len(w[j:j+seg_]))
+    return out * (t / d) ** 2 * 2.2
+add(4.25, riser(0.75), .7); add(5.0, boom(), 1.0)
 for s in [12.8, 18.68, 23.02, 28.49, 33.41, 36.75, 38.47]: add(s - 0.12, swish(), .42)
 for a in (9.14, 9.75, 10.67): add(a, pop(), .45)
 for k in range(14): add(13.15 + k * 0.07, key(), .5)
