@@ -79,5 +79,10 @@ const TR = location.href.includes('tr');
 if (TR) document.documentElement.classList.add('tr');
 if (location.href.includes('still') || location.href.includes('cover')) document.documentElement.classList.add('still');
 window.__timelines = { main: { seek: async (t) => { render(t); }, duration: () => DUR } };
-if (location.href.includes('cover')) { $('#cap').style.display = 'none'; $('#hA').textContent = '서류 내기 전에 먼저 떨어져 보기'; css($('#hA'), { fontSize: '50px', color: '#555555', top: '250px' }); $('#hB').innerHTML = '클로드에<br><v>이력서 심사위원 5명</v>'; css($('#hB'), { fontSize: '96px', top: '330px' }); css($('#ccH'), { top: '660px' }); $('#hStamp').style.top = '1040px'; $('#hFree').style.top = '1215px'; }
+if (location.href.includes('cover')) { $('#cap').style.display = 'none'; $('#hA').textContent = '서류 내기 전에 먼저 떨어져 보기'; css($('#hA'), { fontSize: '50px', color: '#555555', top: '250px' }); $('#hB').innerHTML = '클로드에<br><v>이력서 심사위원 5명</v>'; css($('#hB'), { fontSize: '96px', top: '330px' }); css($('#ccH'), { top: '600px' }); css($('#hStamp'), { left: '640px', top: '585px' }); css($('#hFree'), { left: '150px', top: '1478px', fontSize: '38px' });
+ const H = $('#hook'); const P = [[204, 1012, '인사 담당자'], [365, 1062, '현업 팀장'], [529, 1012, '임원'], [708, 1062, '채용 시스템'], [871, 1012, '맞춤법 검사관']];
+ H.insertAdjacentHTML('beforeend', P.map(([x, y, n]) => `<div class="plate" style="left:${x}px;top:${y}px;transform:translateX(-50%)">${n}</div>`).join('')
+  + '<div class="card" style="left:110px;top:1205px;width:860px;padding:22px 36px 24px;background:#fff;transform:rotate(-1deg)"><div style="font-size:40px;font-weight:900;color:var(--c);margin-bottom:10px">❌ 떨어뜨릴 이유</div><div class="en" style="font-size:38px;margin-bottom:4px">1. 성과에 숫자가 없어요</div><div class="en" style="font-size:38px">2. 공고 키워드가 빠졌어요</div></div>'
+  + '<div class="chip" style="left:560px;top:1478px;font-size:38px;background:var(--ink);color:#fff;transform:rotate(3deg)">세팅 3단계 끝</div>'
+  + '<div class="ex" style="left:0;right:0;top:1612px;text-align:center;font-size:30px">클로드가 역할극으로 하는 모의 심사예요</div>'); }
 document.fonts.ready.then(() => { render(0); window.__ready = true; });
