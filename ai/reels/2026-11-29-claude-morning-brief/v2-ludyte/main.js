@@ -20,7 +20,7 @@ const CAPS = [
  [24.36, '그럼 내일 아침엔 <b>브리핑</b>이 정리돼 있을 거예요'], [27.05, '<b>Pro 요금제</b>부터 쓸 수 있어요'],
  [28.94, '세팅할 때 다시 보게 <b>저장</b>해 두시고요,'], [31.34, '팔로우하고 댓글에'], [32.81, "<b>'비서'</b>라고 남겨 주시면"], [34.46, '<b>프롬프트</b> 보내 드릴게요'],
 ];
-const SC = [['intro', 0], ['hook', 4.97], ['clock', 7.43], ['brief', 8.94], ['laptop', 13.65], ['steps', 16.02], ['s1', 17.66], ['s2', 19.62], ['s3', 21.99], ['morning', 24.36], ['plan', 27.05], ['save', 28.94], ['cta', 31.34]];
+const SC = [['intro', 0], ['hook', 4.6], ['clock', 7.43], ['brief', 8.94], ['laptop', 13.65], ['steps', 16.02], ['s1', 17.66], ['s2', 19.62], ['s3', 21.99], ['morning', 24.36], ['plan', 27.05], ['save', 28.94], ['cta', 31.34]];
 const DUR = 37.0;
 const TR = location.href.includes('tr');
 if (TR) document.documentElement.classList.add('tr');
@@ -73,7 +73,7 @@ function render(t) {
  U[id](t - t0, t);
  const IN = id === 'intro'; ['#logo', '#cap', '#doos', '#bg'].forEach((q) => ($(q).style.visibility = IN ? 'hidden' : 'visible'));
  $('#bg').style.clipPath = (TR && CLIPSC[id]) ? HOLE : 'none';
- css($('#flash'), { opacity: t >= 4.97 ? Math.max(0, 1 - (t - 4.97) / 0.18) * 0.9 : 0 });
+
  const lb = t - t0; const bk = seg(lb, 0, 0.35); css($('#burst'), { opacity: i > 1 && bk < 1 ? (1 - bk) * 0.28 : 0, transform: `scale(${1 + eo(bk) * 34})` });
  let c = 0; for (let k = 0; k < CAPS.length; k++) if (t >= CAPS[k][0]) c = k;
  const ce = $('#capIn'); if (ce.dataset.k != c) { ce.innerHTML = CAPS[c][1]; ce.dataset.k = c; }

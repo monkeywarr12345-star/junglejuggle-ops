@@ -30,7 +30,7 @@ def tick():
     return np.sin(2 * np.pi * 2400 * t) * np.exp(-t * 200) * .5
 for a in (0.5, 1.15, 1.8, 2.45): add(a, thump(), .22)
 add(3.35, swish(), .35); add(4.25, ding(2637, .7), .45)
-add(4.97, thump(), 1.0); add(4.95, swish(), .6)
+add(4.62, swish(), .7); add(5.15, thump(), 1.0)
 SC = [7.43, 8.94, 13.65, 16.02, 17.66, 19.62, 21.99, 24.36, 27.05, 28.94, 31.34]
 for s in SC: add(s - 0.12, swish(), .42)
 add(5.87, pop(), .45)

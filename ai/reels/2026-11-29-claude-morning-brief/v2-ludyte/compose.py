@@ -1,5 +1,5 @@
 import subprocess,json,sys
-D=37.0; SW=4.97
+D=37.0; SW=5.15
 CL=json.load(open('clips.json'))
 ins=['-f','lavfi','-i',f'color=c=white:s=1080x1920:r=30:d={D},format=rgb24']
 fc=[];last='[0:v]'
@@ -18,12 +18,13 @@ for k,c in enumerate(CL):
 n=len(CL)+1
 ins+=['-framerate','30','-i','fr/f%05d.png']
 fc.append(f"[{n}:v]format=rgba[ov];{last}[ov]overlay=0:0:shortest=1:format=rgb,format=gbrp,scale=out_color_matrix=bt709:out_range=tv,format=yuv420p[v]")
-subprocess.run(['ffmpeg','-nostdin','-y','-loglevel','error']+ins+['-filter_complex',';'.join(fc),'-map','[v]','-c:v','libx264','-preset','slow','-crf','16','-pix_fmt','yuv420p','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709','-color_range','tv','-t',str(D),'vtmp.mp4'],check=True)
-A=("[1:a]aresample=48000,aformat=channel_layouts=mono,highpass=f=80,acompressor=threshold=0.2:ratio=2.2:attack=8:release=160,aformat=channel_layouts=stereo,adelay=5000|5000,asplit=2[nar][key];"
+subprocess.run(['ffmpeg','-nostdin','-y','-loglevel','error']+ins+['-filter_complex',';'.join(fc),'-map','[v]','-c:v','libx264','-preset','slow','-crf','16','-pix_fmt','yuv420p','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709','-color_range','tv','-t',str(D),'vtmp0.mp4'],check=True)
+A=("[1:a]aresample=48000,aformat=channel_layouts=mono,highpass=f=80,acompressor=threshold=0.2:ratio=2.2:attack=8:release=160,aformat=channel_layouts=stereo,adelay=5000|5000,apad=whole_dur=37,asplit=2[nar][key];"
 f"[2:a]atrim=start=20,asetpts=PTS-STARTPTS,atrim=0:{D-SW},aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-26:TP=-2:LRA=7,aresample=48000,afade=t=in:d=0.15,afade=t=out:st={D-SW-1.5}:d=1.5,adelay={int(SW*1000)}|{int(SW*1000)}[b0a];"
 "[b0a][key]sidechaincompress=threshold=0.05:ratio=2:attack=20:release=300[bgm];"
-f"[4:a]atrim=start=0.4,asetpts=PTS-STARTPTS,atrim=0:{SW},aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-19:TP=-2:LRA=7,aresample=48000,afade=t=in:d=0.08,afade=t=out:st={SW-0.05}:d=0.05[hk];"
+f"[4:a]atrim=start=0.4,asetpts=PTS-STARTPTS,atrim=0:{SW},aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-19:TP=-2:LRA=7,aresample=48000,afade=t=in:d=0.08,afade=t=out:st={SW-0.3}:d=0.35[hk];"
 "[3:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.3[sfx];"
 f"[nar][bgm][sfx][hk]amix=inputs=4:normalize=0:duration=longest,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,apad,atrim=0:{D}[a]")
+subprocess.run(['python3','intro.py'],check=True)
 subprocess.run(['ffmpeg','-nostdin','-y','-loglevel','error','-i','vtmp.mp4','-i','v_fit.wav','-i','/home/claude/work/g23/bgmPop.wav','-i','sfx.wav','-i','lud/strings.m4a','-filter_complex',A,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-b:a','192k','-t',str(D),'-movflags','+faststart',sys.argv[1] if len(sys.argv)>1 else 'mb_final.mp4'],check=True)
 print('ok')

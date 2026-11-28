@@ -14,7 +14,7 @@ ins+=['-framerate','30','-i','fr/f%05d.png']
 fc.append(f"[{n}:v]format=rgba[ov];{last}[ov]overlay=0:0:shortest=1:format=rgb,format=gbrp,scale=out_color_matrix=bt709:out_range=tv,format=yuv420p[v]")
 cmd=['ffmpeg','-nostdin','-y','-loglevel','error']+ins+['-filter_complex',';'.join(fc),'-map','[v]','-c:v','libx264','-preset','slow','-crf','16','-pix_fmt','yuv420p','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709','-color_range','tv','-t',str(D),'-movflags','+faststart','vtmp.mp4']
 subprocess.run(cmd,check=True)
-A=("[1:a]aresample=48000,aformat=channel_layouts=mono,highpass=f=80,acompressor=threshold=0.2:ratio=2.2:attack=8:release=160,aformat=channel_layouts=stereo,asplit=2[nar][key];"
+A=("[1:a]aresample=48000,aformat=channel_layouts=mono,highpass=f=80,acompressor=threshold=0.2:ratio=2.2:attack=8:release=160,aformat=channel_layouts=stereo,apad=whole_dur=38,asplit=2[nar][key];"
 f"[2:a]atrim=start=20,asetpts=PTS-STARTPTS,atrim=0:{D},aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-26:TP=-2:LRA=7,aresample=48000,afade=t=in:d=0.3,afade=t=out:st=36.5:d=1.5[b0a];"
 "[b0a][key]sidechaincompress=threshold=0.05:ratio=2:attack=20:release=300[bgm];[3:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.3[sfx];"
 f"[nar][bgm][sfx]amix=inputs=3:normalize=0:duration=longest,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,apad,atrim=0:{D}[a]")
