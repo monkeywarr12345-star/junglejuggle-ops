@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:700;font-display:block;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:800;font-display:block;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:900;font-display:block;src:url(assets/fonts/Pretendard-Black.woff2)}
+:root{--paper:#FFFFFF;--ink:#111111;--v:#111111;--vl:#EBEBEB;--c:#FF4B3E;--cl:#F5F5F5;--m:#111111;--ml:#FFFFFF;--y:#FFFFFF}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:P,'Noto Sans CJK KR',sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;background-color:var(--paper);background-image:radial-gradient(rgba(17,17,17,.13) 2.2px,transparent 2.6px);background-size:44px 44px}
+.doo{position:absolute;width:90px;height:90px}
+#logo{position:absolute;left:0;right:0;top:112px;display:flex;justify-content:center;align-items:center;font:800 50px 'Inter Display','Noto Sans CJK KR',sans-serif;letter-spacing:-2.2px;color:var(--ink)}
+#logo .ring{display:inline-block;width:32.6px;height:32.6px;border:6.5px solid var(--ink);border-radius:50%;box-sizing:border-box;margin:0 .9px;position:relative;top:4.8px}
+#logo .ring.f{background:var(--ink)}
+.S{position:absolute;inset:0;display:none}
+.kick{position:absolute;left:0;right:0;top:238px;text-align:center;font-size:46px;font-weight:800;color:#555555;letter-spacing:-.03em}
+.title{isolation:isolate;position:absolute;left:40px;right:40px;top:300px;text-align:center;font-size:96px;font-weight:900;letter-spacing:-.055em;line-height:1.06}
+v,.v{color:#fff;position:relative;display:inline-block;padding:0 .14em .04em}
+v::after{content:'';position:absolute;left:0;right:0;top:.02em;bottom:-.08em;background:var(--ink);z-index:-1;border-radius:.16em;transform:rotate(-1.2deg)}
+.card{position:absolute;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:12px 12px 0 var(--ink)}
+.win{position:absolute;left:90px;top:590px;width:900px;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.win .bar{height:58px;border-bottom:6px solid var(--ink);display:flex;align-items:center;gap:12px;padding:0 20px;background:var(--vl)}
+.win .bar i{width:22px;height:22px;border-radius:50%;border:4px solid var(--ink)}
+.win .bar span{margin-left:14px;font-size:24px;font-weight:800;color:#3a3a3a}
+.win .view{position:relative;width:888px;height:520px;overflow:hidden;background:#fff}
+.win .view img{position:absolute;left:0;top:0;width:1600px;transform-origin:0 0}
+.chip{position:absolute;white-space:nowrap;font-size:40px;font-weight:900;letter-spacing:-.03em;padding:14px 30px 16px;border-radius:999px;background:#fff;border:5px solid var(--ink);box-shadow:7px 7px 0 var(--ink)}
+.chip.vi{background:var(--ink);color:#fff}.chip.co{background:var(--c);color:#fff}.chip.mi{background:var(--m);color:#fff}
+.stamp{position:absolute;font-size:70px;font-weight:900;padding:6px 30px 12px;border:9px solid var(--c);color:var(--c);border-radius:18px;background:rgba(255,255,255,.92);letter-spacing:-.04em}
+#cap{position:absolute;left:0;right:0;top:1395px;display:flex;justify-content:center}
+#capIn{max-width:980px;text-align:center;word-break:keep-all;text-wrap:balance;font-size:58px;font-weight:900;letter-spacing:-.04em;line-height:1.2;background:#fff;border:5px solid var(--ink);border-radius:26px;box-shadow:8px 8px 0 var(--ink);padding:16px 34px 20px}
+#capIn b{white-space:nowrap;color:#fff;background:var(--ink);border-radius:10px;padding:0 10px 2px;margin:0 2px}
+#burst{position:absolute;left:520px;top:880px;width:40px;height:40px;border-radius:50%;border:2px solid #111;opacity:0}
+.line{height:20px;border-radius:10px;background:#E6E6E6;margin:14px 0}
+.en{font-size:34px;font-weight:800;line-height:1.35;letter-spacing:-.01em}
+.mk{position:absolute;border:7px solid var(--c);border-radius:50%}
+.num{position:absolute;width:190px;height:190px;border-radius:50%;border:7px solid var(--ink);box-shadow:9px 9px 0 var(--ink);display:flex;align-items:center;justify-content:center;font-size:96px;font-weight:900}
+.lab{position:absolute;width:300px;text-align:center;font-size:42px;font-weight:900;letter-spacing:-.04em}
+svg{overflow:visible}
+.title{top:310px}
+html.tr,html.tr body{background:transparent}
+.cc{position:absolute;left:224px;top:624px;width:632px;height:632px;border:6px solid var(--ink);border-radius:30px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.cc .still{position:absolute;left:-39px;top:-39px;width:697px;height:697px;display:none}
+html.still .cc .still{display:block}
+.cc .wipe{position:absolute;inset:0;background:#fff}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+</style></head><body>
+<style>
+.row2{display:flex;align-items:center;gap:16px;font-size:32px;font-weight:900;letter-spacing:-.04em;padding:10px 0;border-bottom:4px solid #E6E6E6}
+.row2 .dot{width:22px;height:22px;border-radius:50%;background:var(--ink);flex:none}
+.sec{font-size:36px;font-weight:900;margin-top:14px;display:flex;align-items:center;gap:10px}
+.it{font-size:33px;font-weight:800;color:#333;line-height:1.45;padding-left:46px}
+.ui{padding:26px 30px;font-size:30px;font-weight:800}
+.btn{display:inline-block;padding:12px 24px;border:5px solid var(--ink);border-radius:16px;background:var(--ink);color:#fff;font-weight:900;font-size:30px}
+.fld{border:5px solid var(--ink);border-radius:16px;padding:12px 20px;background:#fff;font-size:30px;font-weight:900;margin-top:8px;min-height:64px}
+.tile{position:absolute;width:390px;height:300px;border:6px solid var(--ink);border-radius:26px;background:#fff;box-shadow:8px 8px 0 var(--ink);text-align:center;padding-top:30px}
+.tile .ico{font-size:96px;line-height:1}
+.tile .nm{font-size:36px;font-weight:900;margin-top:10px}
+.tile .st{display:inline-block;margin-top:16px;padding:8px 22px;border:5px solid var(--ink);border-radius:999px;font-size:28px;font-weight:900}
+.pd{width:56px;height:56px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:900;background:#fff}
+.pd.on{background:var(--ink);color:#fff}
+.ex{position:absolute;font-size:28px;font-weight:800;color:#777777}
+.pl{display:flex;align-items:center;gap:22px;font-size:46px;font-weight:900;padding:16px 10px;border-bottom:5px solid #E6E6E6;letter-spacing:-.03em}
+.pl .ck{margin-left:auto;width:70px;height:70px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:40px}
+</style>
+<style>
+.gm{display:flex;align-items:center;gap:14px;font-size:42px;font-weight:900}
+.src{display:inline-block;min-width:56px;height:52px;line-height:44px;text-align:center;border:4px solid var(--ink);border-radius:12px;font-size:32px;font-weight:900;margin-left:12px;background:#fff}
+.nm2{position:absolute;transform:translateX(-50%);white-space:nowrap;font-size:36px;font-weight:900;padding:8px 22px 10px;border-radius:999px;background:var(--ink);color:#fff;border:4px solid var(--ink);box-shadow:6px 6px 0 #fff, 6px 6px 0 2px var(--ink)}
+.ck3{display:flex;align-items:center;gap:18px;font-size:46px;font-weight:900;padding:26px 4px;border-bottom:4px solid #E6E6E6}
+.ck3 .b{width:56px;height:56px;border:5px solid var(--ink);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:36px;flex:none}
+.kc{display:inline-block;min-width:110px;padding:12px 20px 16px;border:6px solid var(--ink);border-radius:20px;background:#fff;box-shadow:0 10px 0 var(--ink);font-size:44px;font-weight:900;text-align:center}
+.ft{position:absolute;width:290px;height:250px;border:6px solid var(--ink);border-radius:26px;background:#fff;box-shadow:8px 8px 0 var(--ink);text-align:center;padding-top:34px}
+.ft .nm{font-size:44px;font-weight:900;letter-spacing:-.04em}
+.ft .st{display:inline-block;margin-top:26px;padding:8px 22px;border-radius:999px;background:var(--ink);color:#fff;font-size:32px;font-weight:900}
+</style><div id="bg"></div>
+<div id="doos"></div>
+<div id="burst"></div>
+<div class="S" id="intro"></div>
+
+<div class="S" id="hook">
+ <div id="hA" class="kick" style="top:250px">AI 하나한테 다 맡기지 말고</div>
+ <div id="hB" class="title" style="top:318px;font-size:108px;line-height:1.08"><v>한 팀</v>으로 쓰세요</div>
+ <div class="cc" id="ccA"><img class="still" src="assets/team.png"><div class="wipe"></div></div>
+ <div class="nm2" id="nC" style="left:540px;top:1150px">클로드</div>
+ <div class="nm2" id="nG" style="left:745px;top:1150px">챗GPT</div>
+ <div class="nm2" id="nM" style="left:325px;top:1150px">제미나이</div>
+</div>
+
+<div class="S" id="r1">
+ <div class="kick">1번 주자는</div><div class="title" style="font-size:92px"><v>제미나이</v> 자료 조사</div>
+ <div class="win" id="w1"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>Gemini · Deep Research</span></div>
+  <div class="view ui" style="height:520px">
+   <div class="fld" id="q1" style="font-size:36px"></div>
+   <div id="rep" style="margin-top:22px">
+    <div class="gm" id="rh" style="font-size:48px">📄 조사 보고서</div>
+    <div class="gm" id="ra" style="margin-top:22px">· 핵심 사실 ①<span class="src" id="s1">1</span></div>
+    <div class="gm" id="rb" style="margin-top:18px">· 핵심 사실 ②<span class="src" id="s2">2</span></div>
+    <div class="gm" id="rc" style="margin-top:18px">· 핵심 사실 ③<span class="src" id="s3">3</span></div>
+   </div>
+  </div></div>
+ <div class="chip vi" id="c1" style="left:50%;top:1250px;transform:translateX(-50%)">출처 링크까지 ✓</div>
+</div>
+
+<div class="S" id="r2">
+ <div class="kick">2번 주자는</div><div class="title" style="font-size:92px"><v>클로드</v> 초안 쓰기</div>
+ <div class="win" id="w2"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>Claude</span></div>
+  <div class="view ui" style="height:520px">
+   <div class="fld" id="paste" style="font-size:36px;color:#555">📋 제미나이 조사 결과 (붙여 넣음)</div>
+   <div id="doc" style="margin-top:22px">
+    <div style="font-size:46px;font-weight:900">✍️ 초안</div>
+    <div class="line" id="L0" style="height:26px;margin:22px 0;width:96%"></div><div class="line" id="L1" style="height:26px;margin:22px 0;width:88%"></div><div class="line" id="L2" style="height:26px;margin:22px 0;width:92%"></div><div class="line" id="L3" style="height:26px;margin:22px 0;width:70%"></div><div class="line" id="L4" style="height:26px;margin:22px 0;width:84%"></div>
+   </div>
+  </div></div>
+ <div class="chip vi" id="c2" style="left:50%;top:1250px;transform:translateX(-50%)">흐름 잡힌 깔끔한 글</div>
+</div>
+
+<div class="S" id="r3">
+ <div class="kick">3번 주자는</div><div class="title" style="font-size:92px"><v>챗GPT</v> 검토+이미지</div>
+ <div class="win" id="w3"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>ChatGPT</span></div>
+  <div class="view ui" style="height:520px;display:flex;gap:26px">
+   <div style="flex:1">
+    <div class="ck3" id="k0"><span class="b" id="kb0"></span>앞뒤 흐름</div>
+    <div class="ck3" id="k1"><span class="b" id="kb1"></span>빠진 근거</div>
+    <div class="ck3" id="k2" style="border:0"><span class="b" id="kb2"></span>독자 질문</div>
+   </div>
+   <svg id="pic" width="300" height="300" viewBox="0 0 300 300" style="flex:none;margin-top:40px"><rect x="8" y="8" width="284" height="284" rx="24" fill="#fff" stroke="#111" stroke-width="10"/><circle cx="210" cy="90" r="34" fill="#111"/><path d="M20,260 L110,140 L170,215 L210,170 L282,260 Z" fill="#111"/></svg>
+  </div></div>
+ <div class="chip vi" id="c3" style="left:50%;top:1250px;transform:translateX(-50%)">이미지까지 한 번에</div>
+</div>
+
+<div class="S" id="key">
+ <div class="kick">여기서 중요한 건 하나</div><div class="title"><v>통째로</v> 복사해서 넘기기</div>
+ <div class="cc" id="ccB"><img class="still" src="assets/team.png"><div class="wipe"></div></div>
+ <div id="kcs" style="position:absolute;left:0;right:0;top:1190px;display:flex;justify-content:center;align-items:center;gap:18px">
+  <span class="kc" id="kc1">Ctrl C</span><span id="arr" style="font-size:60px;font-weight:900">→</span><span class="kc" id="kc2">Ctrl V</span>
+ </div>
+</div>
+
+<div class="S" id="free">
+ <div class="kick">셋 다</div><div class="title"><v>무료</v>로 시작</div>
+ <div class="cc" id="ccC"><img class="still" src="assets/team.png"><div class="wipe"></div></div>
+ <div class="nm2" id="f0" style="left:325px;top:1150px">무료 ✓</div><div class="nm2" id="f1" style="left:540px;top:1150px">무료 ✓</div><div class="nm2" id="f2" style="left:745px;top:1150px">무료 ✓</div>
+ <div class="stamp" id="lim" style="left:690px;top:520px;font-size:52px;transform:rotate(8deg)">한도 있음</div>
+</div>
+
+<div class="S" id="save">
+ <div class="kick">따라 해 보게</div><div class="title"><v>저장</v>해 두세요</div>
+ <div class="cc" id="ccD"><img class="still" src="assets/team.png"></div>
+ <svg id="bm" width="150" height="200" viewBox="0 0 300 400" style="position:absolute;left:800px;top:540px;transform-origin:75px 200px"><path d="M30,20 H270 V380 L150,290 L30,380 Z" fill="#111111" stroke="#141414" stroke-width="12" stroke-linejoin="round"/><circle cx="110" cy="150" r="14" fill="#fff"/><circle cx="190" cy="150" r="14" fill="#fff"/><path d="M110,195 Q150,230 190,195" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/></svg>
+</div>
+
+<div class="S" id="cta">
+ <div class="kick">팔로우하고 댓글에</div><div class="title"><v>'한팀'</v> 남기면 DM</div>
+ <div class="chip" id="fol" style="left:50%;top:600px;font-size:48px;padding:16px 60px">팔로우</div>
+ <div class="card" id="cbox" style="left:90px;top:760px;width:900px;height:150px;display:flex;align-items:center;padding:0 34px;font-size:56px;font-weight:900">
+  <span style="width:84px;height:84px;border-radius:50%;background:var(--vl);border:5px solid var(--ink);margin-right:24px;flex:none"></span><span id="typed"></span><span id="caret2" style="display:inline-block;width:5px;height:58px;background:var(--v);margin-left:6px"></span><span style="margin-left:auto;font-size:36px;color:var(--v)">게시</span></div>
+ <div class="card" id="dm" style="left:150px;top:960px;width:780px;padding:28px 32px;background:var(--vl)">
+  <div style="display:flex;align-items:center;gap:16px;font-size:32px;font-weight:900"><span style="width:62px;height:62px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px">C</span>coogle.ai <span style="margin-left:auto;font-size:26px;color:#666">방금</span></div>
+  <div style="margin-top:18px;background:#fff;border:5px solid var(--ink);border-radius:22px;padding:18px 24px;font-size:38px;font-weight:900;line-height:1.35">AI 한 팀 단계별 프롬프트<br>주자별 3개 + 보너스</div>
+ </div>
+</div>
+
+<div id="prog" style="position:absolute;left:60px;top:250px;display:none;gap:12px"><span class="pd">1</span><span class="pd">2</span><span class="pd">3</span></div>
+<div id="logo">C<span class="ring"></span><span class="ring f"></span>gle</div>
+<div id="cap"><div id="capIn"></div></div>
+<div id="flash"></div>
+<script src="main.js"></script>
+</body></html>
