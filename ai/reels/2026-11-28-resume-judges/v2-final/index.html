@@ -4,10 +4,10 @@
 @font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:700;font-display:block;src:url(assets/fonts/Pretendard-Bold.woff2)}
 @font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:800;font-display:block;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
 @font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:900;font-display:block;src:url(assets/fonts/Pretendard-Black.woff2)}
-:root{--paper:#F3F3F1;--ink:#111111;--v:#111111;--vl:#E6E6E3;--c:#FF4B3E;--cl:#F1F1EE;--m:#111111;--ml:#FFFFFF;--y:#FFFFFF}
+:root{--paper:#FFFFFF;--ink:#111111;--v:#111111;--vl:#EBEBEB;--c:#FF4B3E;--cl:#F5F5F5;--m:#111111;--ml:#FFFFFF;--y:#FFFFFF}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:P,'Noto Sans CJK KR',sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
-#bg{position:absolute;inset:0;background-color:var(--paper);background-image:radial-gradient(rgba(17,17,17,.16) 2.2px,transparent 2.6px);background-size:44px 44px}
+#bg{position:absolute;inset:0;background-color:var(--paper);background-image:radial-gradient(rgba(17,17,17,.13) 2.2px,transparent 2.6px);background-size:44px 44px}
 .doo{position:absolute;width:90px;height:90px}
 #logo{position:absolute;left:0;right:0;top:112px;display:flex;justify-content:center;align-items:center;font:800 50px 'Inter Display','Noto Sans CJK KR',sans-serif;letter-spacing:-2.2px;color:var(--ink)}
 #logo .ring{display:inline-block;width:32.6px;height:32.6px;border:6.5px solid var(--ink);border-radius:50%;box-sizing:border-box;margin:0 .9px;position:relative;top:4.8px}
@@ -31,7 +31,7 @@ v::after{content:'';position:absolute;left:0;right:0;top:.02em;bottom:-.08em;bac
 #capIn{max-width:980px;text-align:center;word-break:keep-all;text-wrap:balance;font-size:58px;font-weight:900;letter-spacing:-.04em;line-height:1.2;background:#fff;border:5px solid var(--ink);border-radius:26px;box-shadow:8px 8px 0 var(--ink);padding:16px 34px 20px}
 #capIn b{white-space:nowrap;color:#fff;background:var(--ink);border-radius:10px;padding:0 10px 2px;margin:0 2px}
 #burst{position:absolute;left:520px;top:880px;width:40px;height:40px;border-radius:50%;border:2px solid #111;opacity:0}
-.line{height:20px;border-radius:10px;background:#E4E4E1;margin:14px 0}
+.line{height:20px;border-radius:10px;background:#E6E6E6;margin:14px 0}
 .en{font-size:34px;font-weight:800;line-height:1.35;letter-spacing:-.01em}
 .mk{position:absolute;border:7px solid var(--c);border-radius:50%}
 .num{position:absolute;width:190px;height:190px;border-radius:50%;border:7px solid var(--ink);box-shadow:9px 9px 0 var(--ink);display:flex;align-items:center;justify-content:center;font-size:96px;font-weight:900}
@@ -46,7 +46,7 @@ svg{overflow:visible}
 .judge .pad{position:absolute;left:100px;top:-40px;width:96px;height:78px;border:5px solid var(--ink);border-radius:14px;background:#fff;font-size:44px;font-weight:900;display:flex;align-items:center;justify-content:center;box-shadow:5px 5px 0 var(--ink)}
 .row{display:flex;align-items:center;gap:18px;font-size:34px;font-weight:900;margin:14px 0;letter-spacing:-.04em}
 .row .ic{width:64px;height:64px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:34px;flex:none}
-.row .bar{flex:1;height:30px;border:5px solid var(--ink);border-radius:16px;background:#F1EEE6;overflow:hidden}
+.row .bar{flex:1;height:30px;border:5px solid var(--ink);border-radius:16px;background:#F0F0F0;overflow:hidden}
 .row .bar i{display:block;height:100%;background:var(--ink)}
 .row .sc{width:110px;text-align:right}
 .ui{padding:26px 30px;font-size:30px;font-weight:800}
@@ -55,7 +55,7 @@ svg{overflow:visible}
 .file{position:absolute;width:300px;white-space:nowrap;height:110px;border:6px solid var(--ink);border-radius:20px;background:#fff;box-shadow:8px 8px 0 var(--ink);display:flex;align-items:center;gap:12px;padding:0 18px;font-size:30px;font-weight:900}
 .file b{width:52px;height:64px;border:5px solid var(--ink);border-radius:8px;background:var(--cl);flex:none}
 .redact{display:block;height:46px;background:var(--ink);border-radius:6px}
-.ex{position:absolute;font-size:22px;font-weight:800;color:#77736b}
+.ex{position:absolute;font-size:22px;font-weight:800;color:#777777}
 </style>
 <div id="bg"></div>
 <div id="doos"></div>
@@ -92,7 +92,7 @@ svg{overflow:visible}
  <div class="kick">심사위원 5명</div><div class="title">각자 <v>다른 눈</v>으로 봐요</div>
  <div class="judge" id="j0" style="left:110px;top:640px"><div class="face" style="background:var(--vl)">🧑‍💼</div><div class="nm">인사 담당자</div></div>
  <div class="judge" id="j1" style="left:452px;top:640px"><div class="face" style="background:#fff">👩‍💻</div><div class="nm">현업 팀장</div></div>
- <div class="judge" id="j2" style="left:794px;top:640px"><div class="face" style="background:#E6E6E3">👔</div><div class="nm">임원</div></div>
+ <div class="judge" id="j2" style="left:794px;top:640px"><div class="face" style="background:#EBEBEB">👔</div><div class="nm">임원</div></div>
  <div class="judge" id="j3" style="left:280px;top:960px"><div class="face" style="background:#fff">🤖</div><div class="nm">채용 시스템</div></div>
  <div class="ex" style="left:0;right:0;top:1290px;text-align:center">클로드가 역할극으로 하는 모의 심사예요</div>
  <div class="judge" id="j4" style="left:624px;top:960px"><div class="face" style="background:#fff">✏️</div><div class="nm">맞춤법 검사관</div></div>
@@ -104,7 +104,7 @@ svg{overflow:visible}
  <div class="card" id="sCard" style="left:90px;top:590px;width:900px;padding:22px 34px">
   <div class="row"><span class="ic" style="background:var(--vl)">🧑‍💼</span><span style="width:200px">인사</span><span class="bar"><i id="b0"></i></span><span class="sc" id="v0">0</span></div>
   <div class="row"><span class="ic" style="background:#fff">👩‍💻</span><span style="width:200px">팀장</span><span class="bar"><i id="b1"></i></span><span class="sc" id="v1">0</span></div>
-  <div class="row"><span class="ic" style="background:#E6E6E3">👔</span><span style="width:200px">임원</span><span class="bar"><i id="b2"></i></span><span class="sc" id="v2">0</span></div>
+  <div class="row"><span class="ic" style="background:#EBEBEB">👔</span><span style="width:200px">임원</span><span class="bar"><i id="b2"></i></span><span class="sc" id="v2">0</span></div>
  </div>
  <div class="card" id="rCard" style="left:130px;top:930px;width:820px;padding:24px 34px;background:var(--cl)">
   <div style="font-size:34px;font-weight:900;color:var(--c);margin-bottom:8px">❌ 떨어뜨릴 이유</div>
@@ -125,7 +125,7 @@ svg{overflow:visible}
  <div class="lab" id="l2" style="left:390px;top:910px">지침 붙여 넣기</div>
  <div class="lab" id="l3" style="left:740px;top:910px">이력서 올리기</div>
  <div id="tag" style="position:absolute;left:390px;top:1010px;width:300px;transform-origin:150px 0">
-  <svg width="300" height="230" viewBox="0 0 300 230"><line x1="150" y1="0" x2="150" y2="50" stroke="#141414" stroke-width="7"/><path d="M40,50 H260 L280,85 V215 H20 V85 Z" fill="#111111" stroke="#111111" stroke-width="8" stroke-linejoin="round"/><circle cx="150" cy="78" r="11" fill="#F5F1E8" stroke="#141414" stroke-width="6"/><text x="150" y="180" text-anchor="middle" font-family="P,Noto Sans CJK KR" font-weight="900" font-size="72" fill="#fff">0원</text></svg>
+  <svg width="300" height="230" viewBox="0 0 300 230"><line x1="150" y1="0" x2="150" y2="50" stroke="#141414" stroke-width="7"/><path d="M40,50 H260 L280,85 V215 H20 V85 Z" fill="#111111" stroke="#111111" stroke-width="8" stroke-linejoin="round"/><circle cx="150" cy="78" r="11" fill="#FFFFFF" stroke="#141414" stroke-width="6"/><text x="150" y="180" text-anchor="middle" font-family="P,Noto Sans CJK KR" font-weight="900" font-size="72" fill="#fff">0원</text></svg>
  </div>
 </div>
 

@@ -27,7 +27,7 @@ const DUR = 38.0;
 const DOO = [['star', 70, 1590, '#111111'], ['spark', 930, 1600, '#FFFFFF'], ['squig', 900, 470, '#111111'], ['circ', 60, 540, '#FFFFFF'], ['spark', 980, 1250, '#111111'], ['star', 40, 1300, '#FFFFFF']];
 const shp = { star: 'M45,5 L56,33 L86,34 L62,53 L71,83 L45,66 L19,83 L28,53 L4,34 L34,33 Z', spark: 'M45,5 Q50,40 85,45 Q50,50 45,85 Q40,50 5,45 Q40,40 45,5 Z', squig: 'M5,45 Q20,15 35,45 T65,45 T95,45', circ: 'M45,10 A35,35 0 1 1 44.9,10 Z' };
 $('#doos').innerHTML = DOO.map(([k, x, y, c], i) => `<svg class="doo" id="d${i}" viewBox="0 0 90 90" style="left:${x}px;top:${y}px"><path d="${shp[k]}" fill="${k === 'squig' ? 'none' : c}" stroke="${k === 'squig' ? c : '#141414'}" stroke-width="${k === 'squig' ? 9 : 5}" stroke-linejoin="round" stroke-linecap="round"/></svg>`).join('');
-$('#hRow').innerHTML = ['🧑‍💼', '👩‍💻', '👔', '🤖', '✏️'].map((e, i) => `<span id="hj${i}" style="width:120px;height:120px;border-radius:50%;border:6px solid #141414;box-shadow:6px 6px 0 #141414;background:${['#E6E6E3', '#fff', '#E6E6E3', '#fff', '#E6E6E3'][i]};display:flex;align-items:center;justify-content:center">${e}</span>`).join('');
+$('#hRow').innerHTML = ['🧑‍💼', '👩‍💻', '👔', '🤖', '✏️'].map((e, i) => `<span id="hj${i}" style="width:120px;height:120px;border-radius:50%;border:6px solid #141414;box-shadow:6px 6px 0 #141414;background:${['#EBEBEB', '#fff', '#EBEBEB', '#fff', '#EBEBEB'][i]};display:flex;align-items:center;justify-content:center">${e}</span>`).join('');
 
 function winIn(e, t, a = 0) { const k = bo(seg(t, a, a + 0.45), 1.5); css(e, { opacity: t >= a ? 1 : 0, transform: `translateY(${(1 - eo(seg(t, a, a + 0.35))) * 140}px) rotate(${lerp(-4, -1, k) + wob(t, 0.25, 0.4)}deg) scale(${lerp(0.7, 1, k)})` }); }
 function head(S, t) { const k = $(`#${S} .kick`), ti = $(`#${S} .title`); if (k) pop(k, t, 0.0, '', 0.3); if (ti) pop(ti, t, 0.05, '', 0.42); }
@@ -74,5 +74,5 @@ function render(t) {
  
 }
 window.__timelines = { main: { seek: async (t) => { render(t); }, duration: () => DUR } };
-if (location.href.includes('cover')) { $('#cap').style.display = 'none'; $('#hA').textContent = '서류 내기 전에 먼저 떨어져 보기'; css($('#hA'), { fontSize: '50px', color: '#55524c', top: '250px' }); $('#hB').innerHTML = '클로드에<br><v>이력서 심사위원 5명</v>'; css($('#hB'), { fontSize: '96px', top: '330px' }); $('#hRes').style.top = '700px'; $('#hStamp').style.top = '1100px'; $('#hRow').style.top = '1290px'; }
+if (location.href.includes('cover')) { $('#cap').style.display = 'none'; $('#hA').textContent = '서류 내기 전에 먼저 떨어져 보기'; css($('#hA'), { fontSize: '50px', color: '#555555', top: '250px' }); $('#hB').innerHTML = '클로드에<br><v>이력서 심사위원 5명</v>'; css($('#hB'), { fontSize: '96px', top: '330px' }); $('#hRes').style.top = '700px'; $('#hStamp').style.top = '1100px'; $('#hRow').style.top = '1290px'; }
 document.fonts.ready.then(() => { render(0); window.__ready = true; });
