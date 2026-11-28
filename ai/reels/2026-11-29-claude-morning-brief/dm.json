@@ -22,5 +22,6 @@
   "notion": "https://app.notion.com/p/42598083042481698f36dbdaf44262e5",
   "notion_public": "https://observant-kiwi-cfe.notion.site/42598083042481698f36dbdaf44262e5",
   "automation_name": "11.29 아침 브리핑 비서 · 비서 → 노션",
-  "publish_at": "2026-11-29T18:00:00+09:00"
+  "publish_at": "2026-11-29T18:00:00+09:00",
+  "hook_test": "5s-switch"
 }
