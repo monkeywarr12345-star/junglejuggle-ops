@@ -1036,21 +1036,6 @@
  },
  {
   "source": "jamendo",
-  "src_id": "jamendo-1163315",
-  "title": "Gipsy",
-  "artist": "Carl-Friedrich von Steegen",
-  "license": "CC BY-SA 2.0",
-  "license_url": "http://creativecommons.org/licenses/by-sa/2.0/de/",
-  "page": "https://www.jamendo.com/track/1163315",
-  "released": "2014-10-30",
-  "vocal": false,
-  "score": 302.2,
-  "mood": "chill",
-  "file": "music/library/chill/carl-friedrich-von-steegen-gipsy-df3dcb.mp3",
-  "added": "2026-11-14T19:18:26+00:00"
- },
- {
-  "source": "jamendo",
   "src_id": "jamendo-1533251",
   "title": "So High",
   "artist": "Caroline",
@@ -1153,5 +1138,20 @@
   "mood": "chill",
   "file": "music/library/chill/the-dishwater-the-first-one-acoustic-song-4-e04481.mp3",
   "added": "2026-11-21T19:24:58+00:00"
+ },
+ {
+  "source": "jamendo",
+  "src_id": "jamendo-1033372",
+  "title": "Finding Our Way in the Dark",
+  "artist": "Quietly Concerned",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "page": "https://www.jamendo.com/track/1033372",
+  "released": "2013-05-13",
+  "vocal": true,
+  "score": 1219.7,
+  "mood": "chill",
+  "file": "music/library/chill/quietly-concerned-finding-our-way-in-the-dark-075dc6.mp3",
+  "added": "2026-11-28T19:30:27+00:00"
  }
 ]

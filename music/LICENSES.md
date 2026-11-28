@@ -58,6 +58,7 @@ CC BY/BY-SA 곡은 캡션에 크레딧(곡명 - 아티스트, 라이선스)을 �
 | music/library/tense/lollita-lollita-on-flawless-de559e.mp3 | Lollita On Flawless | Lollita | CC BY-SA 3.0 | https://www.jamendo.com/track/1255497 | 2026-11-09 |
 | music/library/tense/pal-zoltan-illes-a-drama-of-hope-romantic-dramatic-d1fd34.mp3 | A Drama Of Hope (Romantic, Dramatic) | Pal Zoltan Illes | CC BY-SA 3.0 | https://www.jamendo.com/track/875313 | 2026-11-08 |
 | music/library/tense/pal-zoltan-illes-tainted-vision-dramatic-1f1120.mp3 | Tainted Vision (Dramatic) | Pal Zoltan Illes | CC BY-SA 3.0 | https://www.jamendo.com/track/875314 | 2026-11-08 |
+| music/library/chill/quietly-concerned-finding-our-way-in-the-dark-075dc6.mp3 | Finding Our Way in the Dark | Quietly Concerned | CC BY-SA 3.0 | https://www.jamendo.com/track/1033372 | 2026-11-28 |
 | music/library/chill/the-dishwater-the-first-one-acoustic-song-4-e04481.mp3 | The First One Acoustic (Song 4) | The Dishwater | CC BY-SA 3.0 | https://www.jamendo.com/track/1493177 | 2026-11-21 |
 | music/library/chill/madelyn-munsell-street-signs-and-white-lies-1d0033.mp3 | Street Signs and White Lies | madelyn munsell | CC BY 3.0 | https://www.jamendo.com/track/1174820 | 2026-11-14 |
 | music/library/chill/law-les-files-d-attente-cd889d.mp3 | Les files d'attente | Law' | CC BY-SA 3.0 | https://www.jamendo.com/track/964535 | 2026-11-14 |
@@ -68,7 +69,6 @@ CC BY/BY-SA 곡은 캡션에 크레딧(곡명 - 아티스트, 라이선스)을 �
 | music/library/chill/sevennotes-lights-lounge-piano-ab3c2c.mp3 | Lights Lounge Piano | Sevennotes | CC BY 3.0 | https://www.jamendo.com/track/2011896 | 2026-11-14 |
 | music/library/chill/lenny-wiles-lionstar-galaxy-bandstand-secret-of-th-646109.mp3 | Secret Of The Stars - Quasar Light - Experience This - 80s Vinyl LP | Lenny Wiles Lionstar GALAXY BANDSTAND | CC BY 3.0 | https://www.jamendo.com/track/1497980 | 2026-11-14 |
 | music/library/chill/pokki-dj-energy-d3f628.mp3 | Energy | Pokki DJ | CC BY 3.0 | https://www.jamendo.com/track/1129271 | 2026-11-14 |
-| music/library/chill/carl-friedrich-von-steegen-gipsy-df3dcb.mp3 | Gipsy | Carl-Friedrich von Steegen | CC BY-SA 2.0 | https://www.jamendo.com/track/1163315 | 2026-11-14 |
 | music/library/chill/tryad-struttin-196415.mp3 | Struttin' | Tryad | CC BY-SA 2.5 | https://www.jamendo.com/track/26736 | 2026-11-09 |
 | music/library/chill/lollita-lollita-don-t-let-me-go-feat-youngbirdy-eb8415.mp3 | Lollita Don't Let Me Go feat. Youngbirdy | Lollita | CC BY-SA 2.0 | https://www.jamendo.com/track/1103000 | 2026-11-09 |
 | music/library/chill/madelyn-munsell-leave-and-never-look-back-d33b10.mp3 | Leave and Never Look Back | madelyn munsell | CC BY 3.0 | https://www.jamendo.com/track/1174817 | 2026-11-09 |
