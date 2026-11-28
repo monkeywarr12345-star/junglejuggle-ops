@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:700;font-display:block;src:url(assets/fonts/Pretendard-Bold.woff2)}
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:800;font-display:block;src:url(assets/fonts/Pretendard-ExtraBold.woff2)}
+@font-face{font-family:P,'Noto Sans CJK KR',sans-serif;font-weight:900;font-display:block;src:url(assets/fonts/Pretendard-Black.woff2)}
+:root{--paper:#FFFFFF;--ink:#111111;--v:#111111;--vl:#EBEBEB;--c:#FF4B3E;--cl:#F5F5F5;--m:#111111;--ml:#FFFFFF;--y:#FFFFFF}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:P,'Noto Sans CJK KR',sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;background-color:var(--paper);background-image:radial-gradient(rgba(17,17,17,.13) 2.2px,transparent 2.6px);background-size:44px 44px}
+.doo{position:absolute;width:90px;height:90px}
+#logo{position:absolute;left:0;right:0;top:112px;display:flex;justify-content:center;align-items:center;font:800 50px 'Inter Display','Noto Sans CJK KR',sans-serif;letter-spacing:-2.2px;color:var(--ink)}
+#logo .ring{display:inline-block;width:32.6px;height:32.6px;border:6.5px solid var(--ink);border-radius:50%;box-sizing:border-box;margin:0 .9px;position:relative;top:4.8px}
+#logo .ring.f{background:var(--ink)}
+.S{position:absolute;inset:0;display:none}
+.kick{position:absolute;left:0;right:0;top:238px;text-align:center;font-size:46px;font-weight:800;color:#555555;letter-spacing:-.03em}
+.title{isolation:isolate;position:absolute;left:40px;right:40px;top:310px;text-align:center;font-size:96px;font-weight:900;letter-spacing:-.055em;line-height:1.06}
+v,.v{color:#fff;position:relative;display:inline-block;padding:0 .14em .04em}
+v::after{content:'';position:absolute;left:0;right:0;top:.02em;bottom:-.08em;background:var(--ink);z-index:-1;border-radius:.16em;transform:rotate(-1.2deg)}
+.card{position:absolute;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:12px 12px 0 var(--ink)}
+.win{position:absolute;left:90px;top:590px;width:900px;background:#fff;border:6px solid var(--ink);border-radius:30px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.win .bar{height:58px;border-bottom:6px solid var(--ink);display:flex;align-items:center;gap:12px;padding:0 20px;background:var(--vl)}
+.win .bar i{width:22px;height:22px;border-radius:50%;border:4px solid var(--ink)}
+.win .bar span{margin-left:14px;font-size:24px;font-weight:800;color:#3a3a3a}
+.win .view{position:relative;width:888px;height:520px;overflow:hidden;background:#fff}
+.win .view img{position:absolute;left:0;top:0;width:1600px;transform-origin:0 0}
+.chip{position:absolute;white-space:nowrap;font-size:40px;font-weight:900;letter-spacing:-.03em;padding:14px 30px 16px;border-radius:999px;background:#fff;border:5px solid var(--ink);box-shadow:7px 7px 0 var(--ink)}
+.chip.vi{background:var(--ink);color:#fff}.chip.co{background:var(--c);color:#fff}.chip.mi{background:var(--m);color:#fff}
+.stamp{position:absolute;font-size:70px;font-weight:900;padding:6px 30px 12px;border:9px solid var(--c);color:var(--c);border-radius:18px;background:rgba(255,255,255,.92);letter-spacing:-.04em}
+#cap{position:absolute;left:0;right:0;top:1395px;display:flex;justify-content:center}
+#capIn{max-width:980px;text-align:center;word-break:keep-all;text-wrap:balance;font-size:58px;font-weight:900;letter-spacing:-.04em;line-height:1.2;background:#fff;border:5px solid var(--ink);border-radius:26px;box-shadow:8px 8px 0 var(--ink);padding:16px 34px 20px}
+#capIn b{white-space:nowrap;color:#fff;background:var(--ink);border-radius:10px;padding:0 10px 2px;margin:0 2px}
+#burst{position:absolute;left:520px;top:880px;width:40px;height:40px;border-radius:50%;border:2px solid #111;opacity:0}
+.line{height:20px;border-radius:10px;background:#E6E6E6;margin:14px 0}
+.en{font-size:34px;font-weight:800;line-height:1.35;letter-spacing:-.01em}
+.mk{position:absolute;border:7px solid var(--c);border-radius:50%}
+.num{position:absolute;width:190px;height:190px;border-radius:50%;border:7px solid var(--ink);box-shadow:9px 9px 0 var(--ink);display:flex;align-items:center;justify-content:center;font-size:96px;font-weight:900}
+.lab{position:absolute;width:300px;text-align:center;font-size:42px;font-weight:900;letter-spacing:-.04em}
+svg{overflow:visible}
+html.tr,html.tr body{background:transparent}
+.cc{position:absolute;left:90px;top:630px;width:900px;height:532px;border:6px solid var(--ink);border-radius:30px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.cc .still{position:absolute;left:0;top:-115px;width:888px;height:888px;display:none}
+html.still .cc .still{display:block}
+.cc .wipe{position:absolute;inset:0;background:#fff}
+.pnum{position:absolute;width:90px;height:90px;margin:-45px 0 0 -45px;display:flex;align-items:center;justify-content:center;font-size:66px;font-weight:900;color:var(--ink);letter-spacing:-.04em}
+.plate{position:absolute;white-space:nowrap;transform:translateX(-50%);font-size:28px;font-weight:900;letter-spacing:-.04em;padding:6px 16px 8px;border-radius:12px;background:var(--ink);color:#fff;border:4px solid #fff;box-shadow:0 0 0 4px var(--ink)}
+.face,.ic,#hRow>span,.em{filter:grayscale(1) contrast(1.15)}
+</style></head><body>
+<style>
+.judge{position:absolute;width:176px;text-align:center}
+.judge .face{width:150px;height:150px;margin:0 auto;border-radius:50%;border:6px solid var(--ink);box-shadow:7px 7px 0 var(--ink);display:flex;align-items:center;justify-content:center;font-size:78px;background:#fff}
+.judge .nm{margin-top:16px;font-size:32px;font-weight:900;letter-spacing:-.05em;line-height:1.1}
+.judge .pad{position:absolute;left:100px;top:-40px;width:96px;height:78px;border:5px solid var(--ink);border-radius:14px;background:#fff;font-size:44px;font-weight:900;display:flex;align-items:center;justify-content:center;box-shadow:5px 5px 0 var(--ink)}
+.row{display:flex;align-items:center;gap:18px;font-size:34px;font-weight:900;margin:14px 0;letter-spacing:-.04em}
+.row .ic{width:64px;height:64px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:34px;flex:none}
+.row .bar{flex:1;height:30px;border:5px solid var(--ink);border-radius:16px;background:#F0F0F0;overflow:hidden}
+.row .bar i{display:block;height:100%;background:var(--ink)}
+.row .sc{width:110px;text-align:right}
+.ui{padding:26px 30px;font-size:30px;font-weight:800}
+.btn{display:inline-block;padding:12px 24px;border:5px solid var(--ink);border-radius:16px;background:var(--ink);color:#fff;font-weight:900;font-size:30px}
+.fld{border:5px solid var(--ink);border-radius:16px;padding:14px 20px;background:#fff;font-size:32px;font-weight:900;margin-top:12px;min-height:72px}
+.file{position:absolute;width:300px;white-space:nowrap;height:110px;border:6px solid var(--ink);border-radius:20px;background:#fff;box-shadow:8px 8px 0 var(--ink);display:flex;align-items:center;gap:12px;padding:0 18px;font-size:30px;font-weight:900}
+.file b{width:52px;height:64px;border:5px solid var(--ink);border-radius:8px;background:var(--cl);flex:none}
+.redact{display:block;height:46px;background:var(--ink);border-radius:6px}
+.ex{position:absolute;font-size:22px;font-weight:800;color:#777777}
+</style>
+<div id="bg"></div>
+<div id="doos"></div>
+<div id="burst"></div>
+
+<!-- 1 hook 0.00 -->
+<div class="S" id="hook">
+ <div id="hA" class="title" style="top:240px;font-size:84px">이력서 내기 전에,</div>
+ <div id="hB" class="title" style="top:345px;font-size:104px;line-height:1.08">심사위원 <v>5명</v>한테<br>먼저 떨어져 보세요</div>
+ <div class="cc" id="ccH"><img class="still" src="assets/judges.png"><div class="wipe"></div></div>
+ <div class="stamp" id="hStamp" style="left:560px;top:1010px">불합격?</div>
+ <div class="chip vi" id="hFree" style="left:44px;top:1190px;font-size:34px">무료 플랜 OK</div>
+ </div>
+
+<!-- 2 project 3.90 -->
+<div class="S" id="proj">
+ <div class="kick">클로드 프로젝트에</div><div class="title"><v>심사위원단</v> 앉혀 두기</div>
+ <div class="win" id="pWin"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>claude.ai/projects</span></div>
+  <div class="view ui" style="height:470px">
+   <div style="display:flex;align-items:center"><span style="font-size:44px;font-weight:900">Projects</span><span class="btn" style="margin-left:auto">+ New Project</span></div>
+   <div id="pCard" class="card" style="position:relative;margin-top:36px;padding:30px;box-shadow:8px 8px 0 var(--ink);background:var(--vl)">
+    <div style="font-size:42px;font-weight:900"><span class="em">⚖️</span> 이력서 심사위원단</div>
+    <div style="font-size:28px;color:#555;margin-top:10px">심사위원 5명 · 이력서 · 채용 공고</div></div>
+  </div></div>
+ <div class="chip" id="pChip" style="left:50%;top:1200px">무료 플랜도 프로젝트 5개까지 ✓</div>
+</div>
+
+<!-- 3 panel 7.20 -->
+<div class="S" id="panel">
+ <div class="kick">심사위원 5명</div><div class="title">각자 <v>다른 눈</v>으로 봐요</div>
+ <div class="cc" id="ccP"><img class="still" src="assets/judges.png"><div class="wipe"></div></div><div class="plate" id="j0" style="left:204px;top:1040px">인사 담당자</div><div class="plate" id="j1" style="left:365px;top:1092px">현업 팀장</div><div class="plate" id="j2" style="left:529px;top:1040px">임원</div><div class="plate" id="j3" style="left:708px;top:1092px">채용 시스템</div><div class="plate" id="j4" style="left:871px;top:1040px">맞춤법 검사관</div>
+ <div class="ex" style="left:0;right:0;top:1196px;text-align:center">클로드가 역할극으로 하는 모의 심사예요</div>
+</div>
+
+<!-- 4 score 11.80 -->
+<div class="S" id="score">
+ <div class="kick">각자 점수 매기고</div><div class="title"><v>떨어뜨릴 이유</v>부터</div>
+ <div class="cc" id="ccS"><img class="still" src="assets/judges.png"><div class="wipe"></div></div><div class="pnum" id="pn0" style="left:152px;top:732px">7</div><div class="pnum" id="pn1" style="left:304px;top:732px">6</div><div class="pnum" id="pn2" style="left:466px;top:732px">5</div><div class="pnum" id="pn3" style="left:645px;top:732px">4</div>
+ <div class="card" id="rCard" style="left:130px;top:1186px;width:820px;padding:16px 34px 18px;background:#fff">
+  <div style="font-size:34px;font-weight:900;color:var(--c);margin-bottom:8px">❌ 떨어뜨릴 이유</div>
+  <div class="en" id="r0" style="font-size:34px">1. 성과에 숫자가 없어요</div>
+  <div class="en" id="r1" style="font-size:34px">2. 공고 키워드 '데이터 분석'이 빠졌어요</div>
+   </div>
+ </div>
+
+<!-- 5 steps 15.60 -->
+<div class="S" id="steps">
+ <div class="kick">무료 플랜도 되고</div><div class="title">세팅은 <v>3단계</v></div>
+ <div class="num" id="n1" style="left:95px;top:680px;background:var(--vl)">1</div>
+ <div class="num" id="n2" style="left:445px;top:680px;background:#fff">2</div>
+ <div class="num" id="n3" style="left:795px;top:680px;background:#fff">3</div>
+ <div class="lab" id="l1" style="left:40px;top:910px">프로젝트</div>
+ <div class="lab" id="l2" style="left:390px;top:910px">지침 붙여 넣기</div>
+ <div class="lab" id="l3" style="left:740px;top:910px">이력서 올리기</div>
+ <div id="tag" style="position:absolute;left:390px;top:1010px;width:300px;transform-origin:150px 0">
+  <svg width="300" height="230" viewBox="0 0 300 230"><line x1="150" y1="0" x2="150" y2="50" stroke="#141414" stroke-width="7"/><path d="M40,50 H260 L280,85 V215 H20 V85 Z" fill="#111111" stroke="#111111" stroke-width="8" stroke-linejoin="round"/><circle cx="150" cy="78" r="11" fill="#FFFFFF" stroke="#141414" stroke-width="6"/><text x="150" y="180" text-anchor="middle" font-family="P,Noto Sans CJK KR" font-weight="900" font-size="72" fill="#fff">0원</text></svg>
+ </div>
+</div>
+
+<!-- 6 s1 18.50 -->
+<div class="S" id="s1">
+ <div class="kick">①</div><div class="title"><v>프로젝트</v> 만들기</div>
+ <div class="win" id="aWin"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>claude.ai/projects</span></div>
+  <div class="view ui" style="height:470px">
+   <div style="display:flex;align-items:center"><span style="font-size:44px;font-weight:900">Projects</span><span class="btn" id="newBtn" style="margin-left:auto">+ New Project</span></div>
+   <div style="margin-top:40px;font-size:28px;color:#666">이름</div><div class="fld" id="pName"></div>
+  </div></div>
+ <svg id="cur" width="70" height="90" viewBox="0 0 70 90" style="position:absolute"><path d="M5,5 L5,72 L22,56 L34,84 L48,78 L36,51 L60,51 Z" fill="#fff" stroke="#141414" stroke-width="7" stroke-linejoin="round"/></svg>
+ <div id="ring" style="position:absolute;width:40px;height:40px;border:7px solid var(--v);border-radius:50%;opacity:0"></div>
+</div>
+
+<!-- 7 s2 19.90 -->
+<div class="S" id="s2">
+ <div class="kick">② 지침에</div><div class="title" style="font-size:88px"><v>심사위원 프롬프트</v></div>
+ <div class="win" id="bWin"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>Set project instructions</span></div>
+  <div class="view ui" style="height:470px">
+   <div id="inst" style="font-size:30px;line-height:1.5;font-weight:800;color:#333"></div>
+   <div style="position:absolute;left:30px;right:30px;top:250px;bottom:110px;background:linear-gradient(rgba(255,255,255,0),#fff 70%)"></div>
+   <span class="btn" id="saveBtn" style="position:absolute;right:30px;bottom:26px">Save instructions</span>
+  </div></div>
+ <div class="chip vi" id="bChip" style="left:50%;top:1200px">전체 프롬프트는 DM으로 <span class="em">🎁</span></div>
+</div>
+
+<!-- 8 s3 22.20 -->
+<div class="S" id="s3">
+ <div class="kick">③ 이력서랑</div><div class="title"><v>채용 공고</v> 올리기</div>
+ <div class="win" id="cWin"><div class="bar"><i style="background:#fff"></i><i style="background:#fff"></i><i style="background:var(--ink)"></i><span>Project knowledge</span></div>
+  <div class="view ui" style="height:470px"><div style="display:flex;align-items:center"><span style="font-size:40px;font-weight:900">Files</span><span class="btn" style="margin-left:auto;background:#fff;color:var(--ink)">+</span></div>
+   <div style="margin-top:30px;border:5px dashed #aaa;border-radius:24px;height:300px"></div></div></div>
+ <div class="file" id="f1"><b></b>이력서.pdf</div>
+ <div class="file" id="f2"><b style="background:#fff"></b>채용공고.pdf</div>
+ <div class="stamp" id="done" style="left:650px;top:1160px;border-color:var(--ink);color:var(--ink)">끝!</div>
+</div>
+
+<!-- 9 ask 24.30 -->
+<div class="S" id="ask">
+ <div class="kick">그다음부턴</div><div class="title"><v>"심사해 줘"</v>만 치면 돼요</div>
+ <div class="card" id="chat" style="left:90px;top:590px;width:900px;height:640px;padding:30px 36px">
+  <div id="res" style="font-size:30px;font-weight:800;line-height:1.5">
+   <div style="font-size:34px;font-weight:900;margin-bottom:6px"><span class="em">⚖️</span> 심사 결과</div>
+   <div>인사 7점 · 팀장 6점 · 임원 5점</div><div>공고 키워드 일치 62% · 맞춤법 3곳</div>
+   <div style="margin-top:8px;color:var(--c);font-weight:900">→ 이대로면 서류 탈락 가능성 높음</div>
+   <div style="color:#111;font-weight:900">→ 고친 문장 3개 제안</div>
+  </div>
+  <div style="position:absolute;left:36px;right:36px;bottom:30px;display:flex;align-items:center;border:5px solid var(--ink);border-radius:24px;padding:16px 22px;font-size:44px;font-weight:900;background:#fff"><span id="say"></span><span id="caret" style="display:inline-block;width:5px;height:48px;background:var(--v);margin-left:6px"></span><span id="send" style="margin-left:auto;width:74px;height:74px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:40px;background:#fff">↑</span></div>
+ </div>
+ <div class="ex" style="left:0;right:0;top:1262px;text-align:center">화면은 예시예요</div>
+</div>
+
+<!-- 10 privacy 26.60 -->
+<div class="S" id="priv">
+ <div class="kick">올리기 전에</div><div class="title" style="font-size:88px"><v>전화번호랑 주소</v>는 지우기</div>
+ <div class="card" id="pRes" style="left:130px;top:600px;width:820px;padding:36px 40px;font-size:36px;font-weight:900;line-height:1.9">
+  <div>이름 김코글</div>
+  <div><span class="em">📞</span> <span style="position:relative">010-1234-5678<span class="redact" id="rd0" style="position:absolute;left:-6px;top:12px;width:0"></span></span></div>
+  <div><span class="em">🏠</span> <span style="position:relative">서울시 ○○구 ○○로 12<span class="redact" id="rd1" style="position:absolute;left:-6px;top:12px;width:0"></span></span></div>
+  <div class="line" style="width:90%"></div><div class="line" style="width:70%"></div>
+ </div>
+ <svg id="marker" width="200" height="80" viewBox="0 0 200 80" style="position:absolute;left:0;top:0"><rect x="40" y="18" width="150" height="44" rx="12" fill="#141414"/><path d="M40,25 L8,40 L40,55 Z" fill="#141414"/></svg>
+ <div class="chip" id="pv" style="left:50%;top:1130px;font-size:30px">설정 → 개인정보 보호 → 'AI 모델 개선 지원' 끄기</div>
+</div>
+
+<!-- 11 save 28.70 -->
+<div class="S" id="save">
+ <div class="cc" id="ccV"><img class="still" src="assets/judges.png"><div class="wipe"></div></div>
+ <div class="kick">지원할 때마다 꺼내 쓰게</div><div class="title"><v>저장</v>해 두세요</div>
+ <svg id="bm" width="150" height="200" viewBox="0 0 300 400" style="position:absolute;left:868px;top:520px;transform-origin:75px 200px"><path d="M30,20 H270 V380 L150,290 L30,380 Z" fill="#111111" stroke="#141414" stroke-width="12" stroke-linejoin="round"/><circle cx="110" cy="150" r="14" fill="#fff"/><circle cx="190" cy="150" r="14" fill="#fff"/><path d="M110,195 Q150,230 190,195" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/></svg>
+</div>
+
+<!-- 12 cta 31.00 -->
+<div class="S" id="cta">
+ <div class="kick">팔로우하고 댓글에</div><div class="title"><v>'심사'</v> 남기면 DM</div>
+ <div class="card" id="cbox" style="left:90px;top:640px;width:900px;height:150px;display:flex;align-items:center;padding:0 34px;font-size:56px;font-weight:900">
+  <span style="width:84px;height:84px;border-radius:50%;background:var(--vl);border:5px solid var(--ink);margin-right:24px;flex:none"></span><span id="typed"></span><span id="caret2" style="display:inline-block;width:5px;height:58px;background:var(--v);margin-left:6px"></span><span style="margin-left:auto;font-size:36px;color:var(--v)">게시</span></div>
+ <div class="card" id="dm" style="left:150px;top:860px;width:780px;padding:28px 32px;background:var(--vl)">
+  <div style="display:flex;align-items:center;gap:16px;font-size:32px;font-weight:900"><span style="width:62px;height:62px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px">C</span>coogle.ai <span style="margin-left:auto;font-size:26px;color:#666">방금</span></div>
+  <div style="margin-top:18px;background:#fff;border:5px solid var(--ink);border-radius:22px;padding:18px 24px;font-size:38px;font-weight:900;line-height:1.35"><span class="em">⚖️</span> 이력서 심사위원단<br>프롬프트 전체본 + 세팅법</div>
+ </div>
+</div>
+
+<div id="logo">C<span class="ring"></span><span class="ring f"></span>gle</div>
+<div id="cap"><div id="capIn"></div></div>
+
+<script src="main.js"></script>
+</body></html>
