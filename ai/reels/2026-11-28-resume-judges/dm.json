@@ -1,6 +1,10 @@
 {
   "keyword": "심사",
-  "comment_replies": ["DM 보냈어요 📩", "확인해 보세요! 📩", "보내드렸어요 🎁"],
+  "comment_replies": [
+    "DM 보냈어요 📩",
+    "확인해 보세요! 📩",
+    "보내드렸어요 🎁"
+  ],
   "follow_gate": {
     "text": "댓글 고마워요! Coogle이에요 👋 자료는 팔로워 전용이에요. @coogle.ai를 팔로우 하셨다면 아래 버튼을 눌러 주세요! 🙏",
     "button": "팔로우했어요 ✅",
@@ -13,10 +17,12 @@
     "url": "https://observant-kiwi-cfe.notion.site/42498083042481faa014f46ee237e96f"
   },
   "dm_text": "요청하신 '클로드 이력서 심사위원단' 자료예요 🎁 아래 버튼을 누르면 바로 열려요!",
-  "zorcha": "pending",
+  "zorcha": "live",
   "any_keyword": true,
   "notion": "https://app.notion.com/p/42498083042481faa014f46ee237e96f",
   "notion_public": "https://observant-kiwi-cfe.notion.site/42498083042481faa014f46ee237e96f",
   "automation_name": "11.28 이력서 심사위원단 · 심사 → 노션",
-  "publish_at": "2026-11-28T18:00:00+09:00"
+  "publish_at": "2026-11-28T18:00:00+09:00",
+  "zorcha_auto": "11.28 이력서 심사위원단 · 심사 → 노션",
+  "zorcha_id": "6b0a96d7d60038cecb1c8b52"
 }
